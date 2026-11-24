@@ -311,11 +311,11 @@ K7-A-02 | Price and Weight
 K7-A-03 | Temperature
 K7-A-04 | Good and Bad
 K7-A-05 | Conditions
-K7-A-06 | Conditions at Work
+K7-A-06 | States at School and in the Dorm
 K7-B-01 | Come and Go
 K7-B-02 | Give and Receive
 K7-B-03 | Open and Close
-K7-B-04 | Actions at Work
+K7-B-04 | Handling Things
 K7-B-05 | Everyday Actions
 K7-C-01 | Location
 K7-C-02 | Time
@@ -341,7 +341,7 @@ K7-G-03 | Requests in Three Levels
 K7-G-04 | Answers in Three Levels
 K7-G-05 | Which Form with Whom
 K7-H-01 | Addressing Family Members
-K7-H-02 | Addressing People at Work
+K7-H-02 | Titles at School
 K7-H-03 | Addressing People in Shops and on the Street
 K7-I-01 | Opening and Closing
 K7-I-02 | Breaking and Changing
@@ -371,7 +371,7 @@ K8-C-09 | Many Meanings of 쓰다
 K8-D-01 | Wear Clothes · Shoes · Hats
 K8-D-02 | Put On · Wear · Tie
 K8-D-03 | Take Off · Untie · Remove
-K8-D-04 | Putting On Safety Gear
+K8-D-04 | Wearing Practice Uniforms and Gear
 K8-E-01 | 좋다 vs 좋아하다
 K8-E-02 | Glad · Fun · Excited · Happy
 K8-E-03 | Tired · Hard · Exhausted
@@ -394,11 +394,11 @@ K8-H-01 | What · Which · What Kind
 K8-H-02 | How Many · How Much · How Long
 K8-H-03 | When · Where · Who
 K8-H-04 | Why · How · How Is It
-K8-I-01 | Work · Job · Duty · Shift
-K8-I-02 | Salary · Wages · Extra Pay
+K8-I-01 | Work, Assignments, Part-time Jobs, Shifts
+K8-I-02 | Pocket Money, Scholarships, Part-time Pay, Hourly Wage
 K8-I-03 | Day Off · Holiday · Leave · Rest
-K8-I-04 | Guest · Customer · Client
-K8-I-05 | Company · Factory · Workplace · Business
+K8-I-04 | Guest, Customer, Regular
+K8-I-05 | School, University, Campus, Department
 K8-I-06 | Fix · Repair · Change · Replace
 K8-I-07 | Finish · Complete · Done
 K8-Z-01 | Similar Words Review
@@ -416,7 +416,7 @@ K9-C-01 | -비 (cost of...)
 K9-C-02 | -료 vs -금 (fee, money)
 K9-C-03 | -증 (card, certificate)
 K9-C-04 | -서 vs -표 (form, table)
-K9-D-01 | 작업- (work)
+K9-D-01 | 학- (learning)
 K9-D-02 | 안전- (safety)
 K9-D-03 | -근 (working)
 K9-D-04 | 출-·입-·퇴- (out, in, leave)
@@ -429,14 +429,14 @@ K9-E-04 | 시- (time)
 K9-E-05 | 한- (Korea)
 K9-E-06 | 전- (electricity)
 K9-F-01 | Noun + 하다 in Daily Life
-K9-F-02 | Noun + 하다 at Work
+K9-F-02 | School-life nouns + 하다
 K9-F-03 | -하다 vs -되다
 K9-F-04 | -하다 Words for States
 K9-G-01 | Compound Words: The Body
 K9-G-02 | Compound Words: Food
 K9-G-03 | Compound Words: Movement
 K9-H-01 | Loanwords in Daily Life
-K9-H-02 | Loanwords at Work
+K9-H-02 | Borrowed Words at School and Part-time Jobs
 K9-H-03 | Words with a Different Meaning in Korean
 K9-Z-01 | Word Family Review
 KR-A-01 | Country Name and Flag
@@ -469,7 +469,7 @@ KR-I-03 | Gyeongju
 KR-I-04 | Jeonju
 KR-I-05 | Jeju Island
 LS-A-01 | Number Song
-LS-A-02 | Tongue Twister: The Soy Sauce Factory
+LS-A-02 | The Giraffe Drawing
 LS-A-03 | The Bear Family Song
 LS-A-04 | Word Chain Game
 LS-A-05 | Animal Sounds
@@ -539,7 +539,7 @@ LS-G-07 | Automated Phone Message
 LS-G-08 | An Advertisement
 LS-G-09 | A Voice Message
 LS-G-10 | Holiday Traffic Information
-LS-H-01 | Foreign Workers' Festival
+LS-H-01 | International Student Festival
 LS-H-02 | Heavy Snow News
 LS-H-03 | New Subway Line Opens
 LS-H-04 | Korean Speech Contest
