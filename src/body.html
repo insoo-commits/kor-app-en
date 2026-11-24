@@ -1,0 +1,65 @@
+<div class="wrap" id="app" data-g="K1">
+  <header class="top"><svg class="hart" viewBox="0 0 340 124" preserveAspectRatio="xMaxYMax meet" fill="none" stroke="#fff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M0 122h340"/><path d="M0 92l28-22 22 12 30-26 26 18 24-14 30 22" stroke-width="1"/><path d="M118 122V30M112 36h12l-2 6h-8zM114 46h8M118 30V14"/><path d="M98 122c6-14 14-22 20-24 6 2 14 10 20 24" stroke-width="1"/><path d="M150 122v-6h150v6M162 116V92h126v24"/><path d="M162 92v24M187 92v24M212 92v24M238 92v24M263 92v24M288 92v24" stroke-width="1.1"/><path d="M174 104h26M225 104h26" stroke-width=".9"/><path d="M140 82q12 6 30 4 12-12 18-20 37-6 74 0 6 8 18 20 18 2 30-4-6 12-28 12H170q-24 0-30-12z"/><path d="M190 66q35-12 70 0" stroke-width="1"/><path d="M318 122q3-22-4-36-3-10 4-20"/><path d="M296 86q14-4 30 0M302 74q12-4 24 0M308 64q8-3 16 0" stroke-width="1.1"/></svg>
+    <svg class="scene" viewBox="0 0 800 200" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <!-- Korean scene drawn for the app: Bukhansan-like ridges, Namsan hill with the tower, a hanok roof and a pine -->
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--sky1)"/><stop offset="1" stop-color="var(--sky2)"/></linearGradient>
+      </defs>
+      <rect width="800" height="200" fill="url(#sky)"/>
+      <circle cx="560" cy="100" r="18" fill="var(--sun)"/>
+      <path d="M0 150 L70 112 L120 128 L190 90 L240 108 L300 84 L350 104 L420 80 L470 100 L540 86 L600 108 L660 92 L730 112 L800 98 V200 H0Z" fill="var(--m1)"/>
+      <path d="M0 168 L90 140 L170 152 L260 126 L340 148 L430 130 L500 146 L560 124 L640 142 L720 132 L800 148 V200 H0Z" fill="var(--m2)"/>
+      <!-- Namsan hill and tower -->
+      <path d="M250 180 Q330 132 410 180Z" fill="var(--m3)"/>
+      <g fill="var(--ink2)"><rect x="328" y="118" width="4" height="40"/><path d="M322 124 h16 l-2 6 h-12z"/><rect x="326" y="130" width="8" height="4" rx="1"/><rect x="329.4" y="104" width="1.2" height="15"/></g>
+      <!-- hanok: stone base, wooden posts, white walls, curved tiled roof with lifted eaves -->
+      <g transform="translate(-130 0)">
+        <path d="M570 190 H770 V200 H570Z" fill="var(--m3)"/>
+        <path d="M584 166 H756 V190 H584Z" fill="var(--wall)"/>
+        <path d="M590 166 V190 M630 166 V190 M670 166 V190 M710 166 V190 M750 166 V190" stroke="var(--wood)" stroke-width="4"/>
+        <path d="M542 150 Q560 158 588 154 Q610 140 616 132 Q670 124 724 132 Q730 140 752 154 Q780 158 798 150 Q790 166 756 168 H584 Q550 166 542 150Z" fill="var(--roof)"/>
+        <path d="M612 133 Q670 118 728 133" stroke="var(--roof)" stroke-width="6" fill="none" stroke-linecap="round"/>
+      </g>
+      <!-- pine -->
+      <path d="M95 200 Q100 168 92 146 Q88 132 98 120" stroke="var(--wood)" stroke-width="5" fill="none"/>
+      <ellipse cx="78" cy="146" rx="30" ry="9" fill="var(--pine)"/><ellipse cx="114" cy="132" rx="26" ry="8" fill="var(--pine)"/><ellipse cx="94" cy="118" rx="20" ry="7" fill="var(--pine)"/>
+    </svg>
+    <div class="brand">
+      <span class="eyebrow">Learn Korean by topic</span>
+      <h1 class="ko">한국어 배우기</h1>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+  <label class="search" for="q">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="q" type="search" placeholder="Search in Korean or English (e.g. 밥, rice)" autocomplete="off">
+  </label>
+  <div class="menubox">
+    <nav class="groups" id="groups" aria-label="Main menu"></nav>
+    <nav class="subs" id="subs" role="tablist" aria-label="Sub menu"></nav>
+    <div class="sinfo" id="sinfo"></div>
+  </div>
+  <div class="stick" id="stick" hidden><div class="stin"><div class="strow"><b>한국어 배우기</b><span id="stickT" class="ko"></span><button type="button" id="stickQ" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button></div><nav class="groups" id="stickG" aria-label="Main menu"></nav></div></div>
+  <section class="sheet" id="sheet">
+    <div class="band" id="band"></div>
+    <div class="controls" id="controls">
+      <div class="seg" role="group" aria-label="Study mode">
+        <button id="m-learn" data-mode="learn" type="button"><span class="ll">Sentences</span><span class="sl ko">문장</span><kbd class="kc">Q</kbd></button>
+        <button id="m-cards" data-mode="cards" type="button"><span class="ll">Words</span><span class="sl ko">단어</span><kbd class="kc">W</kbd></button>
+        <button id="m-quiz" data-mode="quiz" type="button"><span class="ll">Quiz</span><span class="sl ko">퀴즈</span><kbd class="kc">E</kbd></button>
+      </div>
+      <div id="bsel" class="dd"><button id="bselBtn" class="bsel ddb" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Choose a lesson"></button><div id="bselList" class="ddl" role="listbox" hidden></div></div>
+      <div class="opts"><label class="ctl crep"><span>Times <span class="ko">횟수</span><kbd class="kc">1~5</kbd></span><svg class="rpi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg><select id="repSel" class="bsel"><option value="1">1×</option><option value="2">2×</option><option value="3">3×</option><option value="4">4×</option><option value="5">5×</option></select></label>
+      <label class="ctl"><span>Speed <span class="ko">속도</span><kbd class="kc">±</kbd></span><select id="rateSel" class="bsel"><option value="0.7">×0.7</option><option value="0.8">×0.8</option><option value="0.9">×0.9</option><option value="1">×1.0</option><option value="1.1">×1.1</option><option value="1.2">×1.2</option><option value="1.3">×1.3</option><option value="1.4">×1.4</option><option value="1.5">×1.5</option><option value="1.6">×1.6</option><option value="1.7">×1.7</option><option value="1.8">×1.8</option><option value="1.9">×1.9</option><option value="2">×2.0</option></select></label></div>
+      <div class="rowbtns ctlrep" id="ctlrep"></div>
+      <div class="kbinfo" id="kbinfo"><span><kbd class="kc">Space</kbd>Pause · Resume <span class="ko">일시정지/재개</span></span><span><kbd class="kc">Esc</kbd>Stop <span class="ko">정지</span></span><span><kbd class="kc">Enter</kbd>Loop <span class="ko">무한 반복</span></span><span><kbd class="kc">←</kbd>Previous line</span><span><kbd class="kc">→</kbd>Next line</span><label id="loLbl"><input type="checkbox" id="loChk" checked><kbd class="kc">K</kbd><span class="lfull">English <span class="ko">영어 음성</span></span><span class="lshort">EN</span></label></div>
+    </div>
+    <div class="body" id="view"><p class="empty">Loading…</p></div>
+  </section>
+  <div class="player" id="player" hidden><span class="t ko" id="pt"></span><button id="ppause" type="button"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="5.5" y="4.5" width="4.5" height="15" rx="1"/><rect x="14" y="4.5" width="4.5" height="15" rx="1"/></svg></span><span class="bt">Pause</span></button><button id="pstop" type="button"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="5.5" y="5.5" width="13" height="13" rx="1.5"/></svg></span><span class="bt">Stop</span></button></div>
+  <p class="foot" id="voiceNote"></p>
+  <p class="foot"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></span>Listen · <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg></span>Repeat (1–5 times) until you press it again. Your progress is saved on this device only.</p>
+  <p class="dlline" id="dlbox"><a href="#" id="dlAll">⤓ Save audio in the app · <span class="ko">음성 앱에 저장</span></a> <span class="count" id="dlMsg"></span></p>
+  <p class="dlnote" id="dlNote" hidden>All audio is saved in this app. You can listen without internet.<br><span class="ko">모든 음성을 이 앱 안에 저장했습니다. 인터넷 없이 들을 수 있습니다.</span></p>
+  <p class="ver" id="ver"></p>
+</div>
