@@ -3,7 +3,7 @@ module.exports = {
  "areas": [["K2", "기초회화", "Basic Conversation"], ["K1", "한글", "Hangeul"], ["K6", "문법", "Grammar"], ["K7", "어휘", "Vocabulary"], ["LS", "듣기연습", "Listening Practice"], ["K4", "대학 생활", "University Life"], ["K5", "아르바이트", "Part-time Jobs"], ["TP", "TOPIK", "TOPIK"], ["KR", "대한민국", "About Korea"], ["HP", "도움말", "Help"]],
  "alias": {"K8": "K7", "K9": "K7"},   // 짝말비교 K7 · 비슷한말 K8 · 단어가족 K9 are one menu 어휘 (RYU 2026-11-25, v1.8); codes kept
  "seps": ["K4", "TP", "HP"],   // a | before these menus (RYU 2026-11-25)
- "hidden": ["HP"],   // help opens from the ? button at the end of the menu
+ "hidden": [],
  "parts": {"K7": "짝말", "K8": "비슷한 말", "K9": "단어 뿌리"},
  "subs": {
   "K1-A": [
