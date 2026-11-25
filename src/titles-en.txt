@@ -648,6 +648,7 @@ JB-B-01 | The Star Center
 JB-B-02 | Star Garden and the Azaleas
 JB-B-03 | The Campus in Dramas
 JB-B-04 | Three Huts in the Forest
+JB-B-05 | Places to Study and Rest
 JB-C-01 | Jeonju Hanok Village
 JB-C-02 | Gyeonggijeon, Jeondong Cathedral, Pungnammun
 JB-C-03 | Omokdae, Mural Village, Nambu Market

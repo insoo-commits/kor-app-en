@@ -174,6 +174,22 @@ page({code: "JB-B-04", t: "숲속 초막 셋", en: "Three Huts in the Forest", p
   when: [["Asking the way", "초막교회가 어디에 있어요?", "Where is the hut chapel?"]],
   terms: [["교회", "gyohoe", "church"], ["예배당", "yebaedang", "chapel"], ["초막", "chomak", "hut, shelter"], ["건축", "geonchuk", "architecture"], ["숲", "sup", "forest"], ["조용하다", "joyonghada", "quiet"]]});
 
+page({code: "JB-B-05", t: "공부하고 쉬는 곳", en: "Places to Study and Rest", pic: ["jju_hatch.jpg", `${K("해치라운지", "haechi raunji")} in ${K("진리관", "jinrigwan")}`],
+  lead: `Between classes, where do you go? JJ University has comfortable corners all over campus.`,
+  facts: [[K("해치라운지", "haechi raunji"), `a student lounge in ${K("진리관", "jinrigwan")} with sofas, round tables and bookshelves`],
+    [K("도서관", "doseogwan"), `the library in the ${K("스타센터", "seuta senteo")}: reading rooms and quiet seats`],
+    [K("루디아선교센터", "rudia seongyosenteo"), "a bright lounge with books, inside the library"],
+    [K("스타정원", "seuta jeongwon"), "benches and tables outdoors, in the garden"]],
+  secs: [["Hatch Lounge 해치라운지", "Soft armchairs, round tables, long desks and a wall of books. Students come here to do homework on a tablet, read, or wait for the next class with friends."],
+    ["Free period 공강", `A gap between two classes is called ${K("공강", "gonggang")}. Use it to review your Korean, eat a snack or take a short rest in a lounge.`],
+    ["Group work 조별 과제", `For team projects ${K("조별 과제", "jobyeol gwaje")}, the big tables in lounges and in the library are perfect for meeting your group.`]],
+  jj: `Find your favorite spot in your first week: one quiet place to study and one place to relax with friends.`,
+  say: [["공강 시간에 라운지에서 쉬어요.", "I rest in the lounge during my free period."], ["여기 자리 있어요?", "Is this seat taken?"]],
+  know: [["Lounge manners", "라운지 예절", "Talk quietly, take your trash with you, and don't keep seats with your bag for a long time."],
+    ["Charging", "충전", `Look for power outlets ${K("콘센트", "konsenteu")} near the tables to charge your laptop or phone.`]],
+  when: [["Meeting your group", "해치라운지에서 만나요.", "Let's meet at the Hatch Lounge."], ["Asking for a seat", "여기 앉아도 돼요?", "May I sit here?"]],
+  terms: [["라운지", "raunji", "lounge"], ["공강", "gonggang", "free period between classes"], ["쉬다", "swida", "to rest"], ["자리", "jari", "seat"], ["조별 과제", "jobyeol gwaje", "group project"], ["콘센트", "konsenteu", "power outlet"]]});
+
 /* ================= C 전주 둘러보기 ================= */
 page({code: "JB-C-01", t: "전주 한옥마을", en: "Jeonju Hanok Village", pic: ["jeonju.jpg", `${K("전주 한옥마을", "jeonju hanongmaeul")}`],
   facts: [["What is it?", "a village of more than 700 traditional Korean houses, right in the city center"],
