@@ -131,7 +131,7 @@ page({code: "JB-B-02", t: "스타정원과 철쭉꽃밭", en: "Star Garden and t
     ["Open to", "students and local people: walking paths, benches and tables"]],
   secs: [["A garden for everyone", "Star Garden turned empty land into a garden full of flowers and walking paths. On spring weekends, hundreds of local families and students come to walk and take photos."],
     ["Azaleas 철쭉꽃밭", photo("jju_azalea.jpg", `The azalea field below ${K("대학본관", "daehak bongwan")}`), `In late April, the whole slope below the main building ${K("대학본관", "daehak bongwan")} turns bright red with ${K("철쭉", "cheoljjuk")}, right next to the sports field. It is the most famous photo spot at JJ University.`],
-    ["Cherry blossom roads 벚꽃길", `Before the azaleas, cherry blossoms ${K("벚꽃", "beotkkot")} line the roads around ${K("진리관", "jinrigwan")}, ${K("자유관", "jayugwan")} and ${K("평화관", "pyeonghwagwan")}.`]],
+    ["Cherry blossom roads 벚꽃길", photo("jju_blossom_jey.jpg", `${K("제이트", "jeiteu")}, ${K("제이제이", "jeijei")} and ${K("별이", "byeori")} under the cherry blossoms, for JJ University's 60th anniversary`), `Before the azaleas, cherry blossoms ${K("벚꽃", "beotkkot")} line the roads around ${K("진리관", "jinrigwan")}, ${K("자유관", "jayugwan")} and ${K("평화관", "pyeonghwagwan")}.`]],
   jj: `Between classes, take your lunch or coffee to Star Garden. Many international students say this is when they first fell in love with Korean spring.`,
   tip: "Flowers come and go fast: cherry blossoms last about a week, so don't wait for the weekend!",
   say: [["철쭉이 활짝 피었어요.", "The azaleas are in full bloom."], ["스타정원에서 사진 찍자!", "Let's take pictures at Star Garden!"]],
