@@ -135,7 +135,7 @@ h1{font-family:var(--display);font-size:clamp(30px,7vw,48px);line-height:1.1;mar
 .line.now,.letter.now{background:var(--accent-soft)}
 .rowbtns.now .spk,.now>.spk{border-color:var(--accent);background:var(--accent-soft)}
 .rows{border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.letters{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.letters{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
 .letter{border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:start;text-align:left;background:var(--sheet);color:var(--ink);font:inherit;cursor:pointer}
 .letter .lt{display:grid;gap:2px}
 .letter b{font-size:34px;line-height:1.1;font-weight:600;color:var(--accent)}
@@ -785,6 +785,11 @@ html{overflow-y:scroll}   /* PC: scrollbar always shown so the page does not jum
 .info .sub2{color:var(--muted);font-size:14.5px;margin-bottom:14px}
 .info figure{margin:0 0 14px;text-align:center}
 .info figure img{display:block;width:100%;max-width:420px;height:auto;margin:0 auto;border-radius:8px;box-shadow:0 1px 6px rgba(0,0,0,.18);background:var(--line)}
+/* app screenshots in 도움말 (RYU 2026-11-25, v1.2): phone shots at phone size, a thin frame; three in a row when there is room */
+.info figure.shot img{max-width:340px;border:1px solid var(--line);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.info figure.shot figcaption{font-size:13px;color:var(--muted,#667);margin-top:4px}
+.info .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;align-items:start;margin-bottom:14px}
+.info .shots figure{margin:0}
 .info figcaption{font-size:13px;color:var(--muted);margin-top:6px;line-height:1.5}
 .info figcaption small{display:block;font-size:11px;opacity:.85}
 .info .facts{width:100%;border-collapse:collapse;margin:2px 0 14px;font-size:14.5px}
