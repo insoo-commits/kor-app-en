@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>KOR4ET</title>
+<title>KoJay 코제이 · 전주대 캠퍼스 한국어</title>
 <meta name="description" content="Learn Korean: an app for English-track students at Jeonju University">
 <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0D514B">
 <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="icon-180.png">
@@ -1092,6 +1092,9 @@ html.tab .kbinfo>span{display:inline-flex}
 .pb{border:0;background:none;padding:5px 11px;font:inherit;font-size:12px;color:var(--ink);cursor:pointer}
 .pb+.pb{border-left:1px solid var(--line)}
 .pb.on{background:var(--accent);color:#fff;font-weight:600}
+/* KoJay tagline under the title (RYU 2026-11-25, v1.6) */
+#app .top .tagline{margin:2px 0 0;color:#fff;opacity:.85;font-size:14px;font-weight:500}
+@media (max-width:600px){#app .top .tagline{font-size:12px}}
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1288,6 +1291,8 @@ html.tab .qwrong h3{font-size:16.8px}
 html.tab .qw{font-size:16.8px}
 html.tab .prefs{font-size:14.4px}
 html.tab .pb{font-size:14.4px}
+html.tab #app .top .tagline{font-size:16.8px}
+@media (max-width:600px){html.tab #app .top .tagline{font-size:14.4px}}
 /* iPad control row: kept on one line, boxes a bit taller (RYU 2026-11-14, v0.96; text 1.2x from v0.97) */
 html.tab .controls .seg button{font-size:18px;height:36px}
 html.tab .controls .bsel{font-size:18px;height:38px}
@@ -1562,8 +1567,8 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
       <ellipse cx="78" cy="146" rx="30" ry="9" fill="var(--pine)"/><ellipse cx="114" cy="132" rx="26" ry="8" fill="var(--pine)"/><ellipse cx="94" cy="118" rx="20" ry="7" fill="var(--pine)"/>
     </svg>
     <div class="brand">
-      <span class="eyebrow"><span class="logo">KOR4ET</span> Jeonju Univ. English Track</span>
-      <h1 class="ko">한국어 배우기</h1>
+      <span class="eyebrow"><span class="logo">KoJay</span> Korean for JJ Campus Life</span>
+      <h1 class="ko">전주대 캠퍼스 한국어</h1><p class="tagline ko">제이와 함께하는 한국어와 대학생활</p>
     </div>
     <div class="stats" id="stats"></div>
   </header>
@@ -1577,7 +1582,7 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
     <nav class="subs" id="subs" role="tablist" aria-label="Sub menu"></nav>
     <div class="sinfo" id="sinfo"></div>
   </div>
-  <div class="stick" id="stick" hidden><div class="stin"><div class="strow"><b>한국어 배우기</b><span id="stickT" class="ko"></span><button type="button" id="stickQ" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button></div><nav class="groups" id="stickG" aria-label="Main menu"></nav></div></div>
+  <div class="stick" id="stick" hidden><div class="stin"><div class="strow"><b>KoJay</b><span id="stickT" class="ko"></span><button type="button" id="stickQ" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button></div><nav class="groups" id="stickG" aria-label="Main menu"></nav></div></div>
   <section class="sheet" id="sheet">
     <div class="band" id="band"></div>
     <div class="controls" id="controls">
@@ -1603,6 +1608,6 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-25%20v1.5"></script>
-<script src="app.js?v=2026-11-25%20v1.5"></script>
+<script src="audio/index.js?v=2026-11-25%20v1.6"></script>
+<script src="app.js?v=2026-11-25%20v1.6"></script>
 </body></html>
