@@ -12,7 +12,7 @@ const PH = {};
 try { Object.assign(PH, JSON.parse(fs.readFileSync(path.join(root, "img/jb/credits.json"), "utf8"))); } catch (e) {}
 const KRPH = {}; try { Object.assign(KRPH, JSON.parse(fs.readFileSync(path.join(root, "img/kr/credits.json"), "utf8"))); } catch (e) {}
 const photo = (file, cap) => { const dir = PH[file] ? "jb" : KRPH[file] ? "kr" : "", p = PH[file] || KRPH[file]; if (!p) return "";   // a photo of the 대한민국 pages can be reused
-  return `<figure class="ph"><img src="img/${dir}/${file}" width="${p[0]}" height="${p[1]}" loading="lazy" alt=""><figcaption>${cap}<small>Photo: ${p[2]} · ${p[3]} · Wikimedia Commons</small></figcaption></figure>`; };
+  return `<figure class="ph"><img src="img/${dir}/${file}" width="${p[0]}" height="${p[1]}" loading="lazy" alt=""><figcaption>${cap}<small>Photo: ${p[2]}${p[3] ? ` · ${p[3]} · Wikimedia Commons` : ""}</small></figcaption></figure>`; };
 const facts = rows => `<table class="facts">${rows.map(([th, td]) => `<tr><th>${th}</th><td>${td}</td></tr>`).join("")}</table>`;
 
 const P = [], TITLES = [];
@@ -35,7 +35,7 @@ function page(x){
 }
 
 /* ================= A 전주·전북 알아보기 ================= */
-page({code: "JB-A-01", t: "전주에서 공부하면 좋은 점", en: "Why Study in Jeonju?", pic: ["jeonju.jpg", `${K("전주 한옥마을", "jeonju hanongmaeul")}: Jeonju's traditional village`],
+page({code: "JB-A-01", t: "전주에서 공부하면 좋은 점", en: "Why Study in Jeonju?", pic: ["jju_aerial.jpg", `${K("전주대학교", "jeonjudaehakgyo")}: the JJ University campus`],
   lead: `Seoul is exciting, but many students say the best years of their life were in Jeonju. ${K("전주에서 공부해요!")} Here is why.`,
   facts: [["Where", `the center of ${K("전북특별자치도", "jeonbuk teukbyeoljachido")}, in the southwest of Korea`],
     ["Your school", `${K("전주대학교", "jeonjudaehakgyo")}, JJ University, “the place for superstars”`],
@@ -104,10 +104,10 @@ page({code: "JB-A-04", t: "전북의 자연과 사계절", en: "Nature and Seaso
   terms: [["자연", "jayeon", "nature"], ["산", "san", "mountain"], ["바다", "bada", "sea"], ["평야", "pyeongya", "plain"], ["단풍", "danpung", "autumn leaves"], ["갯벌", "gaetbeol", "tidal mud flat"]]});
 
 /* ================= B 전주대 캠퍼스 (RYU 2026-11-25) ================= */
-page({code: "JB-B-01", t: "스타센터", en: "The Star Center", pic: ["starcenter.jpg", `${K("스타센터", "seuta senteo")}, JJ University`],
+page({code: "JB-B-01", t: "스타센터", en: "The Star Center", pic: ["jju_starcenter.jpg", `${K("스타센터", "seuta senteo")} at night`],
   lead: `The heart of JJ University's campus, and the place where many English-track classes meet.`,
   facts: [["Opened", "2011"],
-    ["Size", "4 floors above ground and 2 below: one of the biggest buildings in Jeonbuk"],
+    ["Size", "4 floors above ground and 2 below, about 34,600 m² inside"],
     ["Designed by", "Hong Kong architect Aaron Tan, with a Korean design team"],
     ["Inside", "library, lecture rooms, student service center, career center, food court, sports facilities"],
     [K("온누리홀", "onnuri hol"), "a big hall for ceremonies, concerts and events"]],
@@ -121,7 +121,7 @@ page({code: "JB-B-01", t: "스타센터", en: "The Star Center", pic: ["starcent
   when: [["Asking the way", "스타센터가 어디예요?", "Where is the Star Center?"], ["Meeting a friend", "스타센터 앞에서 만나요.", "Let's meet in front of the Star Center."]],
   terms: [["건물", "geonmul", "building"], ["강의실", "gangeuisil", "lecture room"], ["도서관", "doseogwan", "library"], ["푸드코트", "pudeukoteu", "food court"], ["층", "cheung", "floor"], ["행사", "haengsa", "event"]]});
 
-page({code: "JB-B-02", t: "스타정원과 철쭉꽃밭", en: "Star Garden and the Azaleas", pic: ["azalea.jpg", "Azaleas in spring"],
+page({code: "JB-B-02", t: "스타정원과 철쭉꽃밭", en: "Star Garden and the Azaleas", pic: ["jju_main.jpg", `Azaleas in front of ${K("대학본관", "daehak bongwan")}`],
   lead: `Jeonju people come to JJ University just to see the flowers. You can see them every day.`,
   facts: [[K("스타정원", "seuta jeongwon"), "an eco-friendly garden on campus, made for the university's 55th anniversary"],
     ["Flowers", `moss phlox ${K("꽃잔디", "kkotjandi")}, azaleas ${K("진달래", "jindallae")} and ${K("철쭉", "cheoljjuk")}, daisies, rapeseed flowers`],
@@ -139,14 +139,14 @@ page({code: "JB-B-02", t: "스타정원과 철쭉꽃밭", en: "Star Garden and t
   when: [["Inviting a friend", "수업 끝나고 꽃 보러 갈래요?", "Want to go see the flowers after class?"]],
   terms: [["정원", "jeongwon", "garden"], ["꽃", "kkot", "flower"], ["철쭉", "cheoljjuk", "royal azalea"], ["벚꽃", "beotkkot", "cherry blossom"], ["피다", "pida", "to bloom"], ["산책로", "sanchaengno", "walking path"]]});
 
-page({code: "JB-B-03", t: "드라마 속 캠퍼스", en: "The Campus in Dramas", pic: ["mainbuilding.jpg", `${K("대학본관", "daehak bongwan")}, JJ University`],
+page({code: "JB-B-03", t: "드라마 속 캠퍼스", en: "The Campus in Dramas", pic: ["jju_spring.jpg", "Spring on campus: cherry blossoms by the Star Center"],
   lead: `Have you seen JJ University on Netflix without knowing it? Korean dramas love this campus.`,
   facts: [["그해 우리는 (Our Beloved Summer)", "campus scenes and the tree-lined road from the back gate"],
     ["소년심판 (Juvenile Justice)", "the university's main office building was used as the court"],
     ["우리 사랑했을까 (Was It Love?)", "cherry blossom roads by 진리관, 자유관 and 평화관"],
     ["선산 (The Bequeathed)", "scenes at the art building and student union building"]],
   secs: [["Why film here?", "The campus has everything: modern buildings like the Star Center, classic buildings on a hill, long tree-lined roads and seasons full of flowers."],
-    ["The main building 대학본관", "It stands on the highest point of campus, so the view is great and it looks grand in photos. Many students take graduation and snap photos here."],
+    ["The main building 대학본관", "It stands on the highest point of campus, with white columns that look grand in photos. It was the old central library; today the president's office and the main university offices are here.", "In spring it is surrounded by azaleas, and many students take graduation photos in front of it."],
     ["Back-gate road 후문 가로수길", "The road of tall trees near the back gate became famous from a romantic drama. It is beautiful in every season, especially in autumn."]],
   jj: `Watch one of these dramas with your Korean friends, then find the same spots on campus. It is great listening practice, and a fun walk!`,
   say: [["이 드라마를 우리 학교에서 찍었대요.", "They say this drama was filmed at our school."], ["여기가 드라마에 나온 곳이에요.", "This is the place from the drama."]],
