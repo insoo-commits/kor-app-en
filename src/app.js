@@ -384,7 +384,7 @@ function drawBand(b){
       /* tips under the intro, Lao text with Korean words mixed in, one bullet each, like lao-app (RYU 2026-11-16) */
       /* v1.19.19 (RYU): on phones the tips fold behind a button so the first sentence shows sooner */
       b && b.tp && b.tp.length ? h("button", {class: "tiptog", type: "button", "aria-expanded": String(TIPOPEN), onclick: ev => { TIPOPEN = !TIPOPEN; $("band").classList.toggle("tipopen", TIPOPEN); ev.currentTarget.setAttribute("aria-expanded", String(TIPOPEN)); }},
-        "Tips ", h("span", {class: "ko"}, "도움말 " + b.tp.length + "개"), h("i", {"aria-hidden": "true"}, "▾")) : null,
+        "Tips ", h("span", {class: "ko"}, "팁 " + b.tp.length), h("i", {"aria-hidden": "true"}, "▾")) : null,
       b && b.tp && b.tp.length ? h("div", {class: "tipbox"}, b.tp.map(t => h("p", {class: "bl"}, koMix(t[1] || t[0])))) : null].filter(Boolean);
   $("band").classList.toggle("tipopen", TIPOPEN);
   /* one picture per sub-group left of the intro (RYU 2026-11-24, v2.55) */
