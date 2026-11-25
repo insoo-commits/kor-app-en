@@ -654,7 +654,7 @@ function render(){
     const art = h("article", {class: "info"}); art.innerHTML = b.info;
     { const sp = art.querySelector("#statsPage"); if (sp) STP.page(sp); const sv = art.querySelector("#surveyPage"); if (sv) SV.form(sv, true); }   // 사용 통계 page (src/stats.js)
     { const tr = art.querySelector("#tpRandom"); if (tr) tprMount(tr); }   // TOPIK random practice (v1.17)
-    const bq = MOCK[b.code] && b.tq ? mockBundle(b) : b;   // mock tests: a new random sheet (v1.17)
+    const bq = !b.tq ? b : MOCK[b.code] ? mockBundle(b) : isPage(b.code) ? pageBundle(b) : b;   // mock tests: a new random sheet (v1.17)
     view.replaceChildren(art, bq.tq ? tqView(bq) : "", pnRow(b.code)); return; }
   /* the two repeat buttons sit in the control bar above its bottom line, learn tab only (RYU 2026-11-16, v1.67) */
   $("ctlrep").replaceChildren(...(S.mode !== "quiz" ? [
@@ -681,7 +681,8 @@ function tqDone(k){ const code = k.split("#")[0], b = TQB[code]; if (!b) return;
 function tqView(b, bare){ TQB[b.code] = b;
   const sc = h("div", {class: "tqsc"}, tqScore(b));
   return h("section", {class: "tq"}, bare ? null : h("h3", null, MOCK[b.code] ? "Test sheet " : "Practice questions ", h("span", {class: "ko"}, MOCK[b.code] ? "시험지" : "연습 문제"),
-      MOCK[b.code] ? h("button", {class: "btn tqnew", type: "button", onclick: () => newMock(b.code)}, "New test ", h("span", {class: "ko"}, "새 시험지")) : null), b.tq.map((q, i) => tqItem(b, q, i, () => sc.textContent = tqScore(b))), sc,
+      MOCK[b.code] ? h("button", {class: "btn tqnew", type: "button", onclick: () => newMock(b.code)}, "New test ", h("span", {class: "ko"}, "새 시험지"))
+        : isPage(b.code) ? h("button", {class: "btn tqnew", type: "button", onclick: () => newPage(b.code)}, "New questions ", h("span", {class: "ko"}, "새 문제")) : null), b.tq.map((q, i) => tqItem(b, q, i, () => sc.textContent = tqScore(b))), sc,
     h("div", {class: "rowbtns", style: "justify-content:center"}, h("button", {class: "btn", type: "button", onclick: () => { tqList(b).forEach(([k]) => delete TQ[k]); render(); }}, "Start over ", h("span", {class: "ko"}, "처음부터"))));
 }
 const tqScript = au => h("div", {class: "tqs ko"}, au.map(l => h("div", null, WHO[l[0]] ? h("b", null, WHO[l[0]]) : null, l[1])));
@@ -728,10 +729,11 @@ const MOCK = {
 const tpTitle = code => { const b = bundle(code), m = b && /<h2>(.*?)<\/h2>/.exec(b.info || ""); return m ? m[1] : code; };
 const tpBundles = subs => (cache.get("TP") || []).filter(b => subs.includes(b.code.slice(0, 4)) && b.tq);
 /* one question from a page: [code, i] = the whole unit, [code, i, j] = only question j of a set (as a single question) */
-function tpQ(ref){ const [code, i, j] = ref, b = bundle(code), q = b && b.tq[i]; if (!q) return null;
+function tpQ(ref, here){ const [code, i, j] = ref, b = bundle(code), q = b && b.tq[i]; if (!q) return null;
   const c = JSON.parse(JSON.stringify(j == null ? q : {...q.qs[j], d: q.d + " " + q.qs[j].q, dl: q.dl, au: q.au, p: q.p}));
   if (ref[3] && !c.qs){ const o = c.o; c.o = ref[3].map(x => o[x]); c.a = ref[3].indexOf(c.a); }   // choices in a new order (kept with the sheet)
   const back = " → Review: " + tpTitle(code);
+  if (here) return c;
   if (c.qs) c.qs.forEach(s => s.x += back); else c.x += back;
   return c; }
 /* the page key a question of a random sheet stands for, so that a wrong answer is remembered under the page's own key */
@@ -754,6 +756,21 @@ function mockRefs(code){ S.mock = S.mock || {};
   return S.mock[code]; }
 function mockBundle(b){ const refs = mockRefs(b.code); TPREF[b.code] = refs; return {...b, tq: refs.map(tpQ).filter(Boolean)}; }
 function newMock(code){ delete S.mock[code]; tpClear(code); save(); render(); }
+/* lesson pages (RYU 2026-11-25, v1.18): 5 questions at a time from the page's own bank, no repeats until all were shown */
+const PAGE_N = 5, isPage = code => /^TP-[BCDFG]-/.test(code);
+function pageRefs(code){ S.tpPage = S.tpPage || {}; S.tpSeen = S.tpSeen || {};
+  if (!S.tpPage[code]){ const b = bundle(code), units = b.tq.map((q, i) => [code, i]), size = r => b.tq[r[1]].qs ? b.tq[r[1]].qs.length : 1;
+    let seen = new Set(S.tpSeen[code] || []), fresh = units.filter(r => !seen.has(r[1]));
+    if (!fresh.length){ seen = new Set(); fresh = units; }
+    const picked = []; let n = 0;
+    for (const r of shuffle(fresh)){ if (n >= PAGE_N) break; picked.push(r); n += size(r); }
+    if (n < PAGE_N) for (const r of shuffle(units.filter(x => !picked.includes(x)))){ if (n >= PAGE_N) break; picked.push(r); n += size(r); }
+    picked.forEach(r => seen.add(r[1])); S.tpSeen[code] = [...seen];
+    S.tpPage[code] = picked.map(tpPerm); save(); }
+  return S.tpPage[code]; }
+function pageBundle(b){ const refs = pageRefs(b.code); TPREF[b.code] = refs;
+  return {...b, tq: refs.map(r => tpQ(r, true))}; }
+function newPage(code){ delete S.tpPage[code]; tpClear(code); save(); render(); }
 /* random practice page */
 function tprMount(box){
   const st = S.tpr = S.tpr || {area: "all", n: 10};
