@@ -689,7 +689,11 @@ const tqScript = au => h("div", {class: "tqs ko"}, au.map(l => h("div", null, WH
 /* picture questions (v1.18.11, RYU): the four pictures themselves are the answer buttons */
 function tqPics(q){ if (!q.p || !q.o || q.o.join("") !== "①②③④" || !q.p.includes('class="pics"')) return null;
   const t = document.createElement("template"); t.innerHTML = q.p; const ds = [...t.content.querySelectorAll(".pics > div")];
-  return ds.length === 4 ? ds.map(d => { d.querySelector("b")?.remove(); return d.innerHTML; }) : null; }
+  return ds.length === 4 ? ds.map(d => { d.querySelector("b")?.remove();
+    const sp = d.querySelector("span:not(.tx)");   /* v1.18.13: Korean words in a picture (graph labels) at text size, the icon stays big */
+    if (sp && /[가-힣]/.test(sp.textContent)) { const m = sp.textContent.match(/^([^가-힣A-Za-z0-9]*)(.*)$/s);
+      sp.className = "tx kt"; sp.textContent = m[2].trim(); if (m[1].trim()) { const em = document.createElement("i"); em.className = "em"; em.textContent = m[1].trim(); d.insertBefore(em, sp); } }
+    return d.innerHTML; }) : null; }
 function tqChoices(q, k, redo, pics){ const st = TQ[k];
   return [h("div", {class: "choices tqo" + (pics ? " picgrid" : q.o.length < 3 ? " two" : "")}, q.o.map((o, j) => h("button", {class: "choice" + (pics ? " picch" : "") + (q.lo ? "" : " ko") + (st != null ? (j === q.a ? " right" : j === st ? " wrong" : "") : ""), type: "button", disabled: st != null,
       onclick: () => { TQ[k] = j; tpMark(k, j === q.a); redo(); tqDone(k); }}, h("span", {class: "n"}, NUM[j]), ...(pics ? [(() => { const d = h("div", {class: "pic"}); d.innerHTML = pics[j]; return d; })()] : [" " + o])))),
