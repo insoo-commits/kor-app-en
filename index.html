@@ -1244,6 +1244,10 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 .info .two{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 14px}.info .two>div>.ib{margin:0;height:100%}
 @media (max-width:600px){.info .two{grid-template-columns:1fr}}
 .info .ib .terms{margin:4px 0 10px}
+/* v1.19.26 (RYU): help screenshots follow the theme (light and dark copies) */
+.info figure img.hl-d{display:none}
+:root[data-theme="dark"] .info figure img.hl-l{display:none}:root[data-theme="dark"] .info figure img.hl-d{display:block}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .info figure img.hl-l{display:none}:root:not([data-theme="light"]) .info figure img.hl-d{display:block}}
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1835,6 +1839,6 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-25%20v1.19.25"></script>
-<script src="app.js?v=2026-11-25%20v1.19.25"></script>
+<script src="audio/index.js?v=2026-11-25%20v1.19.26"></script>
+<script src="app.js?v=2026-11-25%20v1.19.26"></script>
 </body></html>
