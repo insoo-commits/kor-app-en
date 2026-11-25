@@ -113,6 +113,7 @@ page({code: "JB-B-01", t: "스타센터", en: "The Star Center", pic: ["jju_star
     [K("온누리홀", "onnuri hol"), "a big hall for ceremonies, concerts and events"]],
   secs: [["A building for everything", photo("jju_spring.jpg", "Cherry blossoms by the Star Center"), "You can take a class, study in the library, get help with student papers, eat lunch in the food court and work out, all without leaving the Star Center."],
     ["Library 도서관", "The library sits in the middle of campus, so it is easy to come between classes. Find a quiet seat, borrow books or meet your study group."],
+    ["Lydia Center 루디아선교센터", photo("jju_lydia.jpg", `${K("루디아선교센터", "rudia seongyosenteo")} in the Star Center library`), `Inside the library is the ${K("루디아선교센터", "rudia seongyosenteo")}, a bright room with big windows, sofas, long tables and walls of books. It is a place for sharing, fellowship and faith activities, and also a lounge where library users can rest.`, "Many students come here to read, meet friends or take a break between study sessions."],
     ["Events 행사", `Ceremonies, special lectures and concerts happen in ${K("온누리홀", "onnuri hol")}. Watch for posters: international student events are held here too.`]],
   jj: `On your first day, find your classroom in the Star Center and walk around once. It will be your second home on campus.`,
   say: [["스타센터에서 수업이 있어요.", "I have a class in the Star Center."], ["푸드코트에서 점심 먹을까요?", "Shall we have lunch at the food court?"]],
