@@ -1097,3 +1097,7 @@ html.tab .kbinfo>span{display:inline-flex}
 @media (prefers-reduced-motion:reduce){.qend .qjey{animation:none}}
 figure.jeyfig{max-width:520px;margin:10px auto}
 figure.jeyfig img{background:#fff}
+/* menu 9 (v1.8): help as a round ? at the end, labels inside 어휘 */
+#app #groups .group.ghelp{padding:0!important;width:34px;height:34px;border:1.5px solid currentColor!important;border-radius:50%!important;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;font-weight:800}
+.subs .subpart{flex:0 0 auto;align-self:center;font-size:12px;font-weight:700;color:var(--accent);padding:0 2px 0 8px;white-space:nowrap}
+.subs .subpart:first-child{padding-left:2px}

@@ -4,7 +4,7 @@
 const META = window.KO_META, AREAS = META.areas, SUBS = META.subs, IDX = META.idx;
 const byCode = new Map(IDX.map((r, i) => [r[0], i]));
 const $ = id => document.getElementById(id);
-const areaOf = c => c.slice(0, 2), subOf = c => c.slice(0, 4);
+const AL = META.alias || {}, areaOf = c => AL[c.slice(0, 2)] || c.slice(0, 2), subOf = c => c.slice(0, 4);   // K8 · K9 live in menu K7 어휘 (v1.8)
 const T = {
   sec: {m: "How to form it", l: "Letters", x: "Table", w: "Words", f: "Useful expressions", c: "Word forms", e: "Example sentences", tp: "Tips", pr: "Pairs", dl: "Dialogue", sm: "Summary", rel: "Related lessons", qz: "Review questions"},
   level: "Level", repBundle: "Play lesson", repDlg: "Repeat dialogue", repWord: "Repeat", repGroup: "Repeat group", example: "Example", repLetters: "Play all", repAll: "Play all", pause: "Pause", resume: "Resume", stop: "Stop", hideLo: "Hide English", done: "Done", markDone: "Mark as done", next: "Next lesson →", prev: "← Previous", nextCard: "Next →",
@@ -325,11 +325,13 @@ const cnt = rows => { const w = rows.reduce((t, r) => t + (r[5] || 0), 0); retur
 function drawGroups(){
   const cur = areaOf(S.code);
   $("app").setAttribute("data-g", cur);
-  $("groups").replaceChildren(...AREAS.map(a => {
-    const rows = IDX.filter(r => r[0].startsWith(a[0] + "-"));
+  const HID = META.hidden || [];
+  $("groups").replaceChildren(...AREAS.filter(a => !HID.includes(a[0])).map(a => {
+    const rows = IDX.filter(r => areaOf(r[0]) === a[0]);
     return h("button", {class: "group", type: "button", "data-g": a[0], "aria-pressed": a[0] === cur ? "true" : "false", onclick: () => go(lastIn(S.lastA, a[0], rows))},
       h("span", {class: "gn ko"}, a[1].replace(/\s+/g, "")));   // menus in Korean, no spaces, like lao-app (RYU 2026-11-19, v2.13)
-  }));
+  }), ...HID.map(c => { const rows = IDX.filter(r => areaOf(r[0]) === c), a = AREAS.find(x => x[0] === c);
+    return h("button", {class: "group ghelp", type: "button", "data-g": c, "aria-pressed": c === cur ? "true" : "false", "aria-label": a[2], title: a[2] + " " + a[1], onclick: () => go(lastIn(S.lastA, c, rows))}, h("span", {class: "gn"}, "?")); }));
   const on = $("groups").querySelector('[aria-pressed="true"]'); if (on && on.scrollIntoView) on.scrollIntoView({block: "nearest", inline: "nearest"});
 }
 /* progress marks (v1.4): a thin line under each sub-group button (lessons opened / lessons), a check in the lesson list */
@@ -337,11 +339,12 @@ function subProg(rows){ const L = rows.filter(r => r[3] !== "info"); if (!L.leng
   return h("i", {class: "sprog" + (n === L.length ? " full" : ""), style: "--p:" + (100 * n / L.length).toFixed(0) + "%", title: n + " / " + L.length}); }
 function drawSubs(){
   const a = areaOf(S.code), cur = subOf(S.code);
-  const ids = [...new Set(IDX.filter(r => r[0].startsWith(a + "-")).map(r => subOf(r[0])))];
-  $("subs").replaceChildren(...ids.map(s => {
+  const ids = [...new Set(IDX.filter(r => areaOf(r[0]) === a).map(r => subOf(r[0])))], PT = META.parts || {};
+  $("subs").replaceChildren(...ids.flatMap((s, k) => {
+    const pt = PT[s.slice(0, 2)] && (k === 0 || ids[k - 1].slice(0, 2) !== s.slice(0, 2)) ? h("span", {class: "subpart ko"}, PT[s.slice(0, 2)]) : null;   // 어휘: 짝말 · 비슷한 말 · 단어 뿌리 labels
     const rows = IDX.filter(r => r[0].startsWith(s + "-")), n = SUBS[s] || [s, s];
-    return h("button", {class: "sub", type: "button", role: "tab", "aria-selected": s === cur ? "true" : "false", onclick: () => go(lastIn(S.lastS, s, rows))},
-      h("span", {class: "code"}, String(ids.indexOf(s) + 1).padStart(2, "0")), h("span", {class: "name ko"}, n[0].replace(/\s+/g, "")), subProg(rows));
+    return [pt, h("button", {class: "sub", type: "button", role: "tab", "aria-selected": s === cur ? "true" : "false", onclick: () => go(lastIn(S.lastS, s, rows))},
+      h("span", {class: "code"}, String(ids.indexOf(s) + 1).padStart(2, "0")), h("span", {class: "name ko"}, n[0].replace(/\s+/g, "")), subProg(rows))].filter(Boolean);
   }));
   /* line under the sub tabs, like lao-app: [1-01] name · N묶음 N단어 N문장 */
   const sr = IDX.filter(r => r[0].startsWith(cur + "-")), ai = AREAS.findIndex(x => x[0] === a) + 1, sn = SUBS[cur] || [cur];
@@ -351,7 +354,7 @@ function drawSubs(){
 /* lesson order number in app order: ["7-01-", "02"] for [7-01-02] */
 const ordTag = code => { const [o, l] = ordParts(code); return ["[", h("span", {class: "ord-ab"}, o), l + "]"]; };   // phones show only [01] (RYU 2026-11-19, v2.04)
 function ordParts(code){
-  const a = areaOf(code), sb = subOf(code), subsA = [...new Set(IDX.filter(r => r[0].startsWith(a + "-")).map(r => subOf(r[0])))];
+  const a = areaOf(code), sb = subOf(code), subsA = [...new Set(IDX.filter(r => areaOf(r[0]) === a).map(r => subOf(r[0])))];
   const rows = IDX.filter(r => r[0].startsWith(sb + "-")), pad = n => String(n).padStart(2, "0");
   return [(AREAS.findIndex(x => x[0] === a) + 1) + "-" + pad(subsA.indexOf(sb) + 1) + "-", pad(rows.findIndex(r => r[0] === code) + 1)];
 }
