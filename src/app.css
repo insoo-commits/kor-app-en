@@ -1159,3 +1159,19 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 .tprinfo{font-size:13px;color:var(--muted);margin:4px 0 10px}
 .tq h3 .tqnew{float:right;font-size:13px;padding:4px 12px}
 .tprrow .seg .ko{margin-left:4px}
+.tqd{display:flex;align-items:flex-start;gap:6px;margin-bottom:10px;width:100%;align-self:stretch;box-sizing:border-box}
+.tqd .tqn{flex:none}
+.tqd .tqdt{flex:1;min-width:0}
+.tqd .tqdl{font-weight:400;margin:2px 0 0}
+.tqd .tqplay{flex:none;min-width:7.7em;justify-content:center;margin-left:6px}
+/* v1.18.2 (RYU): number hangs on the left; everything under a question starts where its text starts; lower choice boxes */
+.tqi{--ind:1.55em}
+.tqd .tqn{width:var(--ind);flex:none}
+.tqd{gap:0}
+.tqi > :not(.tqd){margin-left:var(--ind)}
+.tqq{display:flex;align-items:flex-start}
+.tqq .tqn{width:2.1em;flex:none}
+.tqsub > :not(.tqq){margin-left:2.1em}
+.tqo .choice{padding:7px 12px}
+@media (max-width:600px){.tqi{--ind:1.4em}.tqq .tqn{width:1.9em}.tqsub > :not(.tqq){margin-left:1.9em}}
+.tq h3{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.tq h3 .tqnew{float:none;margin-left:auto}

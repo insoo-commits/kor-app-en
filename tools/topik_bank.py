@@ -12,7 +12,7 @@ import importlib
 MORE = [importlib.import_module(m) for m in ("b2", "c2", "d2", "f2", "g2") if os.path.exists(os.path.join(ROOT, "tools", "topik_bank", m + ".py"))]
 
 def shuffle(q):
-    if q["o"] == ["①", "②", "③", "④"]: return
+    if q["o"] in (["①", "②", "③", "④"], ["㉠", "㉡", "㉢", "㉣"]): return   # picture choices and places in a text keep their order
     r = random.Random(hashlib.md5(json.dumps(q, ensure_ascii=False).encode()).hexdigest())
     idx = list(range(len(q["o"]))); r.shuffle(idx)
     q["a"] = idx.index(q["a"]); q["o"] = [q["o"][i] for i in idx]
