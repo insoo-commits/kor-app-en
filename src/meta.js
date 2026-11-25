@@ -1,8 +1,8 @@
 // Areas and sub-groups: [code, Korean name, English name]. KOR4ET (English-track version, 2026-11-24).
 module.exports = {
- "areas": [["K2", "기초회화", "Basic Conversation"], ["K1", "한글", "Hangeul"], ["K6", "문법", "Grammar"], ["K7", "어휘", "Vocabulary"], ["LS", "듣기연습", "Listening Practice"], ["K4", "대학 생활", "University Life"], ["K5", "아르바이트", "Part-time Jobs"], ["TP", "TOPIK", "TOPIK"], ["KR", "대한민국", "About Korea"], ["JB", "전주", "Jeonju"], ["HP", "도움말", "Help"]],
+ "areas": [["K2", "기초회화", "Basic Conversation"], ["K1", "한글", "Hangeul"], ["K6", "문법", "Grammar"], ["K7", "어휘", "Vocabulary"], ["LS", "듣기연습", "Listening Practice"], ["TP", "TOPIK", "TOPIK"], ["K4", "대학 생활", "University Life"], ["K5", "아르바이트", "Part-time Jobs"], ["KR", "대한민국", "About Korea"], ["JB", "전주", "Jeonju"], ["HP", "도움말", "Help"]],
  "alias": {"K8": "K7", "K9": "K7"},   // 짝말비교 K7 · 비슷한말 K8 · 단어가족 K9 are one menu 어휘 (RYU 2026-11-25, v1.8); codes kept
- "seps": ["K4", "TP", "HP"],   // a | before these menus (RYU 2026-11-25)
+ "seps": ["K4", "KR", "HP"],   // a | before these menus (RYU 2026-11-25; v1.19.25 TOPIK moved after 듣기연습)
  "hidden": [],
  "subAlias": {"K7-B": "K7-A", "K7-C": "K7-A", "K7-E": "K7-D", "K7-I": "K7-H", "K8-D": "K8-C", "K8-G": "K8-F", "K8-H": "K8-F", "K9-B": "K9-A", "K9-D": "K9-C", "K9-E": "K9-C", "K9-G": "K9-F", "K9-H": "K9-F", "K8-Z": "K9-F", "K9-Z": "K9-F", "K8-B": "K8-A", "K7-G": "K7-F"},   // lessons of these subs show under the first sub of their group (v1.10)
  "subArea": {"K8-A": "K6", "K7-F": "K6"},   // vocabulary subs that are really grammar
