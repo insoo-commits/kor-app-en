@@ -8,6 +8,8 @@ import json, os, random, sys, hashlib
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools", "topik_bank"))
 import b, c, d, f, g
+import importlib
+MORE = [importlib.import_module(m) for m in ("b2", "c2", "d2", "f2", "g2") if os.path.exists(os.path.join(ROOT, "tools", "topik_bank", m + ".py"))]
 
 def shuffle(q):
     if q["o"] == ["①", "②", "③", "④"]: return
@@ -19,10 +21,11 @@ path = os.path.join(ROOT, "data", "TP.json")
 tp = json.load(open(path, encoding="utf-8"))
 by = {x["code"]: x for x in tp}
 n = 0
-for part in (b, c, d, f, g):
+for x in tp:
+    if x.get("tq"): x["tq"] = [q for q in x["tq"] if not q.get("bk")]
+for part in (b, c, d, f, g, *MORE):
     for code, qs in part.ADD.items():
         bd = by[code]
-        bd["tq"] = [q for q in bd["tq"] if not q.get("bk")]
         first = bd["tq"][0]
         for q in qs:
             q = json.loads(json.dumps(q))
@@ -37,7 +40,7 @@ for part in (b, c, d, f, g):
             q = {"d": q.pop("d"), "dl": q.pop("dl"), **q, "bk": 1}
             bd["tq"].append(q); n += 1
 json.dump(tp, open(path, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
-flat = lambda x: sum(len(q["qs"]) if "qs" in q else 1 for q in x["tq"])
+flat = lambda x: sum(len(q["qs"]) if "qs" in q else 1 for q in x.get("tq", []))
 tot = {}
 for x in tp: tot[x["code"][:4]] = tot.get(x["code"][:4], 0) + flat(x)
 print(n, "items added;", tot)
