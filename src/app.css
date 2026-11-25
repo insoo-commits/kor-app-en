@@ -1129,3 +1129,14 @@ figure.jeyfig img{background:#fff}
 .wcards > .wcard{flex:0 0 calc((100% - 30px) / 4);min-width:0;box-sizing:border-box}
 @media (max-width:900px){.wcards > .wcard{flex-basis:calc((100% - 20px) / 3)}}
 @media (max-width:560px){.wcards > .wcard{flex-basis:calc((100% - 8px) / 2)}}
+/* speaking practice (v1.13) */
+.sayrow{margin-top:6px}
+.saybtn{border:1px solid var(--line);background:var(--sheet);color:var(--accent);border-radius:999px;padding:3px 11px;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.saybtn.on{background:#C2410C;border-color:#C2410C;color:#fff;animation:saypulse 1s ease-in-out infinite}
+@keyframes saypulse{50%{box-shadow:0 0 0 6px rgba(194,65,12,.18)}}
+@media (prefers-reduced-motion:reduce){.saybtn.on{animation:none}}
+.sayres{margin-top:6px;font-size:14px;padding:6px 10px;border-radius:10px;background:var(--accent-soft)}
+.sayres.good{background:#E3F4E8}.sayres.good b{color:#15803D}.sayres.mid b{color:#B45309}.sayres.low{background:#FDECEC}.sayres.low b{color:#B91C1C}
+.sayres small{display:block;color:var(--muted);margin-top:2px}
+:root[data-theme="dark"] .sayres.good{background:#12301C}:root[data-theme="dark"] .sayres.low{background:#3A1717}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sayres.good{background:#12301C}:root:not([data-theme="light"]) .sayres.low{background:#3A1717}}

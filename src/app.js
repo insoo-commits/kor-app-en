@@ -403,8 +403,39 @@ const gloss = g => g && g.length ? h("div", {class: "gl"}, "※ ", g.flatMap((x,
 /* base form of a conjugation row ("저 ຂ້ອຍ"), shown at the bottom like the ※ notes */
 const fromNote = f => { if (!f) return null; const m = f.match(/^([가-힣\s?!.~\-\/]*[가-힣?!.~])\s*(.*)$/);
   return h("div", {class: "gl"}, "※ ", h("span", {class: "ko"}, m ? m[1] : f), m && m[2] ? [" (", h("span", {class: "gm"}, m[2]), ")"] : null); };
+/* speaking practice (v1.13, idea 3): 🎤 under each sentence on the Sentences tab. The browser's own speech recognition
+   (Chrome, Edge, Safari; not Firefox) listens in Korean; the app shows what it heard and how close it is (letters compared,
+   spaces and marks left out). Nothing is recorded or kept: only "speak, score" goes to the usage statistics. */
+const SRC = window.SpeechRecognition || window.webkitSpeechRecognition;
+let recNow = null;
+const normKo = s => String(s || "").replace(/\(.*?\)/g, "").replace(/[^0-9A-Za-zㄱ-ㆎ가-힣]/g, "").toLowerCase();
+function simKo(a, b){
+  a = normKo(a); b = normKo(b); if (!a || !b) return 0;
+  let prev = Array.from({length: b.length + 1}, (_, j) => j);
+  for (let i = 1; i <= a.length; i++){ const cur = [i]; for (let j = 1; j <= b.length; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); prev = cur; }
+  return Math.max(0, Math.round(100 * (1 - prev[b.length] / Math.max(a.length, b.length))));
+}
+function sayIt(btn){
+  const ln = btn.closest("[data-say]"), target = ln && ln.dataset.say, box = btn.parentNode.querySelector(".sayres") || btn.parentNode.appendChild(h("div", {class: "sayres"}));
+  if (recNow){ try { recNow.abort(); } catch (e) {} recNow = null; document.querySelectorAll(".saybtn.on").forEach(b => b.classList.remove("on")); if (btn.dataset.on){ delete btn.dataset.on; return; } }
+  stopPlay();
+  const r = new SRC(); r.lang = "ko-KR"; r.interimResults = false; r.maxAlternatives = 3; recNow = r; btn.dataset.on = "1"; btn.classList.add("on");
+  box.className = "sayres wait"; box.replaceChildren("Listening… say the sentence ", h("span", {class: "ko"}, "듣고 있어요. 말해 보세요"));
+  let got = false;
+  r.onresult = ev => { got = true; const alts = Array.from(ev.results[0] || []).map(x => x.transcript);
+    const best = alts.map(t => [t, simKo(t, target)]).sort((x, y) => y[1] - x[1])[0] || ["", 0], p = best[1];
+    box.className = "sayres " + (p >= 85 ? "good" : p >= 60 ? "mid" : "low");
+    box.replaceChildren(h("b", null, (p >= 85 ? "✓ " : "") + p + "%"), " ", h("span", {class: "ko"}, best[0] || "—"), " ",
+      h("small", null, p >= 85 ? "Great! 잘했어요!" : p >= 60 ? "Close. Try again. 조금 더!" : "Listen with 🔊 and try again. 다시 들어 보세요."));
+    ST.log("speak", S.code, p); };
+  r.onerror = ev => { got = true; box.className = "sayres low";
+    box.replaceChildren(ev.error === "not-allowed" || ev.error === "service-not-allowed" ? "Please allow the microphone for this site. 마이크를 허용해 주세요." : ev.error === "no-speech" ? "I didn't hear anything. Try again. 소리가 들리지 않았어요." : "Speech recognition is not available now. 지금은 음성 인식을 쓸 수 없어요."); };
+  r.onend = () => { btn.classList.remove("on"); delete btn.dataset.on; if (recNow === r) recNow = null; if (!got){ box.className = "sayres low"; box.replaceChildren("I didn't hear anything. Try again. 소리가 들리지 않았어요."); } };
+  try { r.start(); } catch (e) { btn.classList.remove("on"); delete btn.dataset.on; recNow = null; }
+}
+const sayBtn = () => SRC ? h("div", {class: "sayrow"}, h("button", {class: "saybtn", type: "button", onclick: ev => { ev.stopPropagation(); sayIt(ev.currentTarget); }}, "🎤 Say it ", h("span", {class: "ko"}, "말해 보기"))) : null;
 const line = (ko, pr, lo, cls, from, g) => h("div", {class: "line " + (cls || ""), "data-say": ko, "data-lo": lo, "data-head": cls === "head" ? "1" : null}, spk(),
-  h("div", null, h("div", {class: "k ko"}, ko), pr ? h("div", {class: "p"}, pr) : null, h("div", {class: "m"}, lo), gloss(g), fromNote(from)));
+  h("div", null, h("div", {class: "k ko"}, ko), pr ? h("div", {class: "p"}, pr) : null, h("div", {class: "m"}, lo), gloss(g), fromNote(from), cls === "head" ? null : sayBtn()));
 /* previous / next lesson buttons at the bottom (RYU 2026-11-19, v2.02) */
 function pnRow(code){
   const i = byCode.get(code), next = IDX[i + 1], prev = i > 0 ? IDX[i - 1] : null;
@@ -420,7 +451,7 @@ function renderLearn(b){
   const dl = b.dl || [], lis = b.type === "듣기";
   const dlSec = sec("dl", dl.length ? [
       lis ? veilBar() : null,
-      h("div", {class: "rows dlg" + (lis ? " lis veil" : "")}, dl.map((d, n) => h("div", {class: "line", "data-say": d[1], "data-lo": d[2], "data-m": (b.mv || []).includes(d[0]) ? "1" : null}, h("div", {class: "exn", "aria-label": String(n + 1)}, String(n + 1)), spk(), h("div", null, h("div", {class: "k ko"}, lis && d[0] ? h("span", {class: "who"}, d[0] + ": ") : null, d[1]), d[4] ? h("div", {class: "p"}, d[4]) : null, h("div", {class: "m"}, d[2]), gloss(d[3])))))] : null);   // d[4]: Lao-script reading, as in the example sentences (RYU 2026-11-14)
+      h("div", {class: "rows dlg" + (lis ? " lis veil" : "")}, dl.map((d, n) => h("div", {class: "line", "data-say": d[1], "data-lo": d[2], "data-m": (b.mv || []).includes(d[0]) ? "1" : null}, h("div", {class: "exn", "aria-label": String(n + 1)}, String(n + 1)), spk(), h("div", null, h("div", {class: "k ko"}, lis && d[0] ? h("span", {class: "who"}, d[0] + ": ") : null, d[1]), d[4] ? h("div", {class: "p"}, d[4]) : null, h("div", {class: "m"}, d[2]), gloss(d[3]), lis ? null : sayBtn()))))] : null);   // d[4]: Lao-script reading, as in the example sentences (RYU 2026-11-14)
   return [
     lis ? dlSec : null,   // 듣기연습: the text comes first (v2.45)
     b.yt ? h("p", {class: "ytrow"}, h("a", {class: "btn ytbtn", href: b.yt, target: "_blank", rel: "noopener"}, "▶ Watch the MV on YouTube ", h("span", {class: "ko"}, "뮤직비디오 보기"))) : null,   // K-POP: find the official MV (no lyrics in the app) (v2.46)

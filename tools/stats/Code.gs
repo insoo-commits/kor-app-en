@@ -6,6 +6,7 @@
  * Sheet "events": one row per event.
  *   received (server time) | device time | device id | event | lesson | value 1 | value 2 | device | OS | app version | language | installed
  *   events: open (value 1 = phone/tablet/computer, value 2 = installed/browser) · lesson (lesson opened)
+ *           speak (value 1 = % match of a spoken sentence, v1.13)
  *           quiz (value 1 = right, value 2 = questions) · topik (same, TOPIK practice set) · play (value 1 = lesson/all)
  * Sheet "summary": totals and tables made with formulas from "events".
  * Sheet "survey" (v1.11): one row per answer of the in-app satisfaction survey.
@@ -14,7 +15,7 @@
  */
 var EVENTS = 'events', SUMMARY = 'summary';
 var HEAD = ['received', 'device time', 'device id', 'event', 'lesson', 'value 1', 'value 2', 'device', 'OS', 'app version', 'language', 'installed'];
-var OK_EVENTS = {open: 1, lesson: 1, quiz: 1, topik: 1, play: 1};
+var OK_EVENTS = {open: 1, lesson: 1, quiz: 1, topik: 1, play: 1, speak: 1};
 var SURVEY = 'survey', SHEAD = ['received', 'device id', 'stars', 'most helpful menu', 'recommend', 'comment', 'app version', 'device', 'OS', 'language'];
 
 function doPost(e) {
@@ -62,7 +63,7 @@ function stats_() {
   var dev = {}, days = {}, months = {}, lessons = {}, areas = {}, hours = [], hist = [0, 0, 0, 0, 0];
   for (var i = 0; i < 24; i++) hours.push(0);
   var t = {devices: 0, returning: 0, lessons: 0, quizzes: 0, quizAvg: null, topik: 0, topikAvg: null, plays: 0, opens: 0, installed: 0, perLearner: null};
-  var qR = 0, qN = 0, tR = 0, tN = 0, first = null;
+  var qR = 0, qN = 0, tR = 0, tN = 0, spS = 0, first = null;
   rows.forEach(function (r) {
     var when = r[0] instanceof Date ? r[0] : new Date(r[0]); if (isNaN(when)) return;
     var id = String(r[2]), ev = r[3], code = String(r[4] || ''), day = Utilities.formatDate(when, TZ, 'yyyy-MM-dd'), mon = day.slice(0, 7);
@@ -77,6 +78,7 @@ function stats_() {
     else if (ev === 'quiz') { var R = +r[5], N = +r[6]; if (N > 0) { t.quizzes++; qR += R; qN += N; hist[Math.min(4, Math.floor(5 * R / N))]++; } }
     else if (ev === 'topik') { var R2 = +r[5], N2 = +r[6]; if (N2 > 0) { t.topik++; tR += R2; tN += N2; } }
     else if (ev === 'play') t.plays++;
+    else if (ev === 'speak') { var sp = +r[5]; if (sp >= 0) { t.speaks = (t.speaks || 0) + 1; spS += sp; } }
   });
   var devs = {}, oss = {};
   Object.keys(dev).forEach(function (id) {
@@ -85,6 +87,7 @@ function stats_() {
   });
   if (qN) t.quizAvg = Math.round(1000 * qR / qN) / 10;
   if (tN) t.topikAvg = Math.round(1000 * tR / tN) / 10;
+  if (t.speaks) t.speakAvg = Math.round(spS / t.speaks);
   if (t.devices) t.perLearner = Math.round(10 * t.lessons / t.devices) / 10;
   var pairs = function (o) { return Object.keys(o).map(function (k) { return [k, o[k]]; }).sort(function (a, b) { return b[1] - a[1]; }); };
   var dayList = Object.keys(days).sort().slice(-60).map(function (k) { return [k, Object.keys(days[k].ids).length, days[k].lessons]; });
