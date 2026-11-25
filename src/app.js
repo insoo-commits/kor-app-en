@@ -675,15 +675,15 @@ const TQ = {}, NUM = "①②③④", WHO = {m: "남자: ", f: "여자: ", n: ""}
 /* v2.34: a set (one script or text, two or more questions) shows the script or text once; a score line counts the answers on this page */
 const tqList = b => b.tq.flatMap((q, i) => q.qs ? q.qs.map((s, j) => [b.code + "#" + i + "." + j, s]) : [[b.code + "#" + i, q]]);
 function tqScore(b){ const L = tqList(b), done = L.filter(([k]) => TQ[k] != null), ok = done.filter(([k, q]) => TQ[k] === q.a).length;
-  return done.length ? ok + " / " + done.length + " correct (" + L.length + " questions)" : L.length + " questions"; }
+  return done.length ? ok + " / " + done.length + " correct (" + L.length + " questions)" : ""; }   // v1.18.2: nothing until the first answer (RYU)
 const TQB = {};
 function tqDone(k){ const code = k.split("#")[0], b = TQB[code]; if (!b) return; const L = tqList(b); if (L.every(([x]) => TQ[x] != null)) ST.log("topik", code, L.filter(([x, q]) => TQ[x] === q.a).length, L.length); }   // usage statistics: TOPIK set finished
 function tqView(b, bare){ TQB[b.code] = b;
-  const sc = h("div", {class: "tqsc"}, tqScore(b));
+  const sc = h("div", {class: "tqsc"}, tqScore(b)), again = h("div", {class: "rowbtns", style: "justify-content:center"}, h("button", {class: "btn", type: "button", onclick: () => { tqList(b).forEach(([k]) => delete TQ[k]); render(); }}, "Try these again ", h("span", {class: "ko"}, "다시 풀기")));
+  const upd = () => { sc.textContent = tqScore(b); again.hidden = !sc.textContent; }; upd();
   return h("section", {class: "tq"}, bare ? null : h("h3", null, MOCK[b.code] ? "Test sheet " : "Practice questions ", h("span", {class: "ko"}, MOCK[b.code] ? "시험지" : "연습 문제"),
       MOCK[b.code] ? h("button", {class: "btn tqnew", type: "button", onclick: () => newMock(b.code)}, "New test ", h("span", {class: "ko"}, "새 시험지"))
-        : isPage(b.code) ? h("button", {class: "btn tqnew", type: "button", onclick: () => newPage(b.code)}, "New questions ", h("span", {class: "ko"}, "새 문제")) : null), b.tq.map((q, i) => tqItem(b, q, i, () => sc.textContent = tqScore(b))), sc,
-    h("div", {class: "rowbtns", style: "justify-content:center"}, h("button", {class: "btn", type: "button", onclick: () => { tqList(b).forEach(([k]) => delete TQ[k]); render(); }}, "Start over ", h("span", {class: "ko"}, "처음부터"))));
+        : isPage(b.code) ? h("button", {class: "btn tqnew", type: "button", onclick: () => newPage(b.code)}, "New questions ", h("span", {class: "ko"}, "새 문제")) : null), b.tq.map((q, i) => tqItem(b, q, i, upd)), sc, again);
 }
 const tqScript = au => h("div", {class: "tqs ko"}, au.map(l => h("div", null, WHO[l[0]] ? h("b", null, WHO[l[0]]) : null, l[1])));
 function tqChoices(q, k, redo){ const st = TQ[k];
@@ -695,12 +695,12 @@ function tqItem(b, q, i, upd){
   const k = b.code + "#" + i, redo = () => { el.replaceWith(tqItem(b, q, i, upd)); upd(); };
   const answered = q.qs ? q.qs.some((s, j) => TQ[k + "." + j] != null) : TQ[k] != null;
   const el = h("div", {class: "tqi" + (q.qs ? " set" : "")},
-    h("div", {class: "tqd"}, h("b", null, (i + 1) + ". "), h("span", {class: "ko"}, q.d)),
-    q.dl ? h("div", {class: "tqdl"}, q.dl) : null,
-    q.au ? h("div", {class: "tqa"}, h("button", {class: "wrep tbtn tqplay", type: "button", onclick: ev => tqPlay(q, ev.currentTarget)}, ico("spk"), "Listen ", h("span", {class: "ko"}, "듣기"))) : null,
+    h("div", {class: "tqd"}, h("b", {class: "tqn"}, (i + 1) + "."),   // RYU v1.18.2: listen button on the right; the English line starts under the Korean
+      h("div", {class: "tqdt"}, h("span", {class: "ko"}, q.d), q.dl ? h("div", {class: "tqdl"}, q.dl) : null),
+      q.au ? h("button", {class: "wrep tbtn tqplay", type: "button", onclick: ev => tqPlay(q, ev.currentTarget)}, ico("spk"), "Listen ", h("span", {class: "ko"}, "듣기")) : null),
     q.p ? (() => { const d = h("div", {class: "tqp ko"}); d.innerHTML = q.p; return d; })() : null,
     q.au && answered ? h("details", {class: "tqsd"}, h("summary", null, "Script ", h("span", {class: "ko"}, "대본")), tqScript(q.au)) : null,
-    q.qs ? q.qs.map((s, j) => h("div", {class: "tqsub"}, h("div", {class: "tqq ko"}, h("b", null, "(" + (j + 1) + ") "), s.q), ...tqChoices(s, k + "." + j, redo))) : tqChoices(q, k, redo));
+    q.qs ? q.qs.map((s, j) => h("div", {class: "tqsub"}, h("div", {class: "tqq ko"}, h("b", {class: "tqn"}, "(" + (j + 1) + ")"), h("span", null, s.q)), ...tqChoices(s, k + "." + j, redo))) : tqChoices(q, k, redo));
   return el;
 }
 /* the script once, line by line (남자 in a man's voice); the same button stops it */
@@ -744,9 +744,9 @@ function tpSrc(k){ const [code, rest] = k.split("#"), refs = TPREF[code]; if (!r
 function tpMark(k, ok){ if (!k.startsWith("TP-")) return; const src = tpSrc(k); S.tpWrong = S.tpWrong || {};
   if (ok) delete S.tpWrong[src]; else S.tpWrong[src] = 1; save(); }
 const tpClear = code => Object.keys(TQ).forEach(k => { if (k.startsWith(code + "#")) delete TQ[k]; });
-/* a new order of the choices for a single question (not for picture choices ①②③④) */
+/* a new order of the choices for a single question (not for picture choices ①②③④ or places in a text ㉠㉡㉢㉣) */
 function tpPerm(ref){ const b = bundle(ref[0]), q = b.tq[ref[1]], s = ref[2] != null ? q.qs[ref[2]] : q;
-  return s.qs || s.o.join("") === "①②③④" ? ref : [ref[0], ref[1], ref[2] ?? null, shuffle(s.o.map((_, i) => i))]; }
+  return s.qs || /^(①②③④|㉠㉡㉢㉣)$/.test(s.o.join("")) ? ref : [ref[0], ref[1], ref[2] ?? null, shuffle(s.o.map((_, i) => i))]; }
 function tpSheet(code, refs){ TPREF[code] = refs;
   return {code, t: "", info: "", tq: refs.map(tpQ).filter(Boolean)}; }
 /* mock test: the same sheet until "New test" (S.mock), so a reload does not change it */
