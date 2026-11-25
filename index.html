@@ -1151,9 +1151,12 @@ figure.jeyfig img{background:#fff}
 :root[data-theme="dark"] .sayres.good{background:#12301C}:root[data-theme="dark"] .sayres.low{background:#3A1717}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sayres.good{background:#12301C}:root:not([data-theme="light"]) .sayres.low{background:#3A1717}}
 .sayhelp{margin:6px 0 2px;padding-left:20px;font-size:13.5px}.sayhelp li{margin:3px 0;word-break:break-word}
-/* Jeonju University logo (v1.16, official files from RYU; white background, so it sits on a white chip in dark mode) */
-figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo img{background:#fff;border-radius:10px;padding:6px 8px;box-sizing:content-box}
-.jjufoot{text-align:center;margin:14px 0 2px}.jjufoot img{background:#fff;border-radius:10px;padding:5px 8px;vertical-align:middle;opacity:.95}
+/* Jeonju University logo (v1.16; v1.16.1 RYU: no white box, the logo sits on the page colour: white made transparent, and in dark mode a copy with light letters) */
+figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img{background:none!important;border:0!important;box-shadow:none!important}
+.jjufoot{text-align:center;margin:14px 0 2px}.jjufoot img{vertical-align:middle}
+.lg-d{display:none}
+:root[data-theme="dark"] .lg-l{display:none}:root[data-theme="dark"] .lg-d{display:inline}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .lg-l{display:none}:root:not([data-theme="light"]) .lg-d{display:inline}}
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1676,10 +1679,10 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="dlline" id="dlbox"><a href="#" id="dlAll">⤓ Save audio in the app · <span class="ko">음성 앱에 저장</span></a> <span class="count" id="dlMsg"></span></p>
   <p class="dlnote" id="dlNote" hidden>All audio is saved in this app. You can listen without internet.<br><span class="ko">모든 음성을 이 앱 안에 저장했습니다. 인터넷 없이 들을 수 있습니다.</span></p>
   <div class="prefs" id="prefs"></div>
-  <p class="jjufoot"><a href="https://www.jj.ac.kr/" target="_blank" rel="noopener"><img src="img/jju/logo_ko.png" width="100" height="49" alt="전주대학교 Jeonju University"></a></p>
+  <p class="jjufoot"><a href="https://www.jj.ac.kr/" target="_blank" rel="noopener"><img class="lg-l" src="img/jju/logo_ko_t.png" width="100" height="49" alt="전주대학교 Jeonju University"><img class="lg-d" src="img/jju/logo_ko_d.png" width="100" height="49" alt="전주대학교 Jeonju University"></a></p>
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-25%20v1.16"></script>
-<script src="app.js?v=2026-11-25%20v1.16"></script>
+<script src="audio/index.js?v=2026-11-25%20v1.16.1"></script>
+<script src="app.js?v=2026-11-25%20v1.16.1"></script>
 </body></html>
