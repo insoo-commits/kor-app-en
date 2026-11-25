@@ -10,6 +10,7 @@ HP-B-04 | Keyboard Shortcuts
 HP-B-05 | How to Use Listening Practice
 HP-B-06 | Saving Audio and Using Offline
 HP-C-01 | Learning Statistics
+HP-C-02 | Send Feedback
 K1-A-01 | Basic Vowels ㅏ·ㅓ·ㅗ·ㅜ·ㅡ·ㅣ
 K1-A-02 | Basic Vowels ㅐ·ㅔ
 K1-A-03 | Combined Vowels ㅑ·ㅕ·ㅛ·ㅠ·ㅒ·ㅖ

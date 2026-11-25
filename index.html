@@ -1114,6 +1114,20 @@ figure.jeyfig img{background:#fff}
 /* · between menus inside one section, | between sections (RYU 2026-11-25, v1.9) */
 #app #groups .group+.group:not(.msep)::before{content:"·"!important;display:block!important;position:absolute;left:-3px;top:50%;transform:translate(-50%,-52%);color:var(--muted);opacity:.6;font-weight:700;background:none;width:auto;height:auto}
 #app #groups .group[aria-pressed="true"]+.group::before,#app #groups .group+.group[aria-pressed="true"]:not(.msep)::before{opacity:0!important}
+/* satisfaction survey (v1.11) */
+.svbox:empty{display:none}
+.svcard{position:relative;margin:10px 0 4px;padding:14px 16px;border-radius:16px;background:var(--card,#fff);border:1px solid var(--line);box-shadow:0 1px 2px rgba(10,60,55,.06)}
+.svhead{display:flex;align-items:center;gap:10px}.svhead .svjey{height:54px;width:auto}
+.svq{margin:10px 0 6px;font-size:15px}.svhead .svq{margin:0}
+.svstars{display:flex;gap:4px;margin:6px 0 2px}
+.svstar{font-size:30px;line-height:1;background:none;border:0;color:var(--line2,#ccd);cursor:pointer;padding:2px 3px}.svstar.on{color:#F2B705}
+.svchips{display:flex;flex-wrap:wrap;gap:6px}
+.svchip{border:1px solid var(--line);background:var(--sheet,#fff);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:14px;cursor:pointer}
+.svchip.on{background:var(--a1,#0D514B);border-color:transparent;color:#fff}
+.svtext{width:100%;box-sizing:border-box;margin-top:10px;border:1px solid var(--line);border-radius:12px;padding:8px 10px;font:inherit;font-size:14px;background:var(--sheet,#fff);color:var(--ink)}
+.svbtns{display:flex;justify-content:flex-end;margin-top:8px}
+.svx{position:absolute;right:8px;top:6px;border:0;background:none;font-size:22px;color:var(--muted);cursor:pointer}
+.svdone{display:flex;align-items:center;gap:12px}.svdone .svjey{height:70px;width:auto}.svdone p{margin:0}
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1313,6 +1327,11 @@ html.tab .pb{font-size:14.4px}
 html.tab #app .top .tagline{font-size:16.8px}
 @media (max-width:600px){html.tab #app .top .tagline{font-size:14.4px}}
 html.tab .subs .subpart{font-size:14.4px}
+html.tab .svq{font-size:18px}
+html.tab .svstar{font-size:36px}
+html.tab .svchip{font-size:16.8px}
+html.tab .svtext{font-size:16.8px}
+html.tab .svx{font-size:26.4px}
 /* iPad control row: kept on one line, boxes a bit taller (RYU 2026-11-14, v0.96; text 1.2x from v0.97) */
 html.tab .controls .seg button{font-size:18px;height:36px}
 html.tab .controls .bsel{font-size:18px;height:38px}
@@ -1598,6 +1617,7 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
     <input id="q" type="search" placeholder="Search in Korean or English (e.g. 밥, rice)" autocomplete="off">
   </label>
   <div class="mine" id="mine"></div>
+  <div class="svbox" id="svbox"></div>
   <div class="menubox">
     <nav class="groups" id="groups" aria-label="Main menu"></nav>
     <nav class="subs" id="subs" role="tablist" aria-label="Sub menu"></nav>
@@ -1629,6 +1649,6 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-25%20v1.10"></script>
-<script src="app.js?v=2026-11-25%20v1.10"></script>
+<script src="audio/index.js?v=2026-11-25%20v1.11"></script>
+<script src="app.js?v=2026-11-25%20v1.11"></script>
 </body></html>

@@ -308,6 +308,7 @@ function streak(){
 }
 function drawMine(){
   const box = $("mine"); if (!box) return;
+  SV.offer($("svbox"), Object.keys(S.seen || {}).length, (S.days || []).length);   // satisfaction survey card (v1.11)
   const L = IDX.filter(r => r[3] !== "info"), seen = S.seen || {}, n = L.filter(r => seen[r[0]]).length, pct = L.length ? Math.round(1000 * n / L.length) / 10 : 0;
   const at = L.findIndex(r => r[0] === S.code), nx = L.slice(at + 1).concat(L.slice(0, at + 1)).find(r => !seen[r[0]]) || L[(at + 1) % L.length];
   const td = S.td && S.td.d === dayStr(new Date()) ? S.td : {l: 0, q: 0}, st = streak();
@@ -593,7 +594,7 @@ function render(){
   /* 대한민국 pages: the page itself and the prev / next buttons; no play controls (RYU 2026-11-20, v2.19) */
   if (b.info){ $("controls").hidden = true; $("ctlrep").hidden = true;
     const art = h("article", {class: "info"}); art.innerHTML = b.info;
-    { const sp = art.querySelector("#statsPage"); if (sp) STP.page(sp); }   // 사용 통계 page (src/stats.js)
+    { const sp = art.querySelector("#statsPage"); if (sp) STP.page(sp); const sv = art.querySelector("#surveyPage"); if (sv) SV.form(sv, true); }   // 사용 통계 page (src/stats.js)
     view.replaceChildren(art, b.tq ? tqView(b) : "", pnRow(b.code)); return; }
   /* the two repeat buttons sit in the control bar above its bottom line, learn tab only (RYU 2026-11-16, v1.67) */
   $("ctlrep").replaceChildren(...(S.mode !== "quiz" ? [

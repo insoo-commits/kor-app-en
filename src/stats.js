@@ -39,7 +39,7 @@ const ST = (() => {
     document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") send(true); });
   }
   let last = "";
-  return {log, send, lesson(code){ if (code && code !== last){ last = code; log("lesson", code); } }};
+  return {log, send, meta: () => ({id, v: (window.KO_META || {}).ver || "", dev, os, pwa, lang: navigator.language || ""}), lesson(code){ if (code && code !== last){ last = code; log("lesson", code); } }};
 })();
 
 /* ---------- public statistics page (도움말 > 사용 통계, RYU 2026-11-25, v1.3) ----------
@@ -115,6 +115,7 @@ const STP = (() => {
       d.areas && d.areas.length ? card("By area", "영역별 열람", hbars(d.areas.map(r => [areaName.get(r[0]) || r[0], r[1], AC[r[0]]]))) : null,
       d.devices && d.devices.length ? card("Devices", "기기", donut(d.devices)) : null,
       d.os && d.os.length ? card("Systems", "운영체제", hbars(d.os)) : null,
+      d.survey && d.survey.n ? card("Satisfaction", "만족도 설문", el("div", null, el("div", {class: "sttiles"}, tile(fmt(d.survey.n), "Answers", "응답"), tile(d.survey.avg == null ? "–" : d.survey.avg + " ★", "Average", "평균 별점"), tile(d.survey.recPct == null ? "–" : d.survey.recPct + "%", "Would recommend", "추천 의향")), vbars(["★1", "★2", "★3", "★4", "★5"].map((l, i) => [l, d.survey.dist[i] || 0]), "var(--k5)"))) : null,
       d.quizHist && d.quizHist.some(Boolean) ? card("Quiz scores", "퀴즈 점수 분포", vbars(["0–19%", "20–39%", "40–59%", "60–79%", "80–100%"].map((l, i) => [l, d.quizHist[i] || 0]), "var(--good)")) : null,
       d.hours && d.hours.some(Boolean) ? card("Time of day (Korea)", "공부하는 시간", vbars(d.hours.map((v, i) => [String(i), v]), "var(--k6)"), true) : null,
       el("p", {class: "stnote"}, "Updated " + (d.updated || "–") + (d.first ? " · counting since " + d.first : "") + ". Totals only: no names and no single person's results. ", el("span", {class: "ko"}, "이름 없이 모은 전체 합계입니다."))];
@@ -130,4 +131,62 @@ const STP = (() => {
       .catch(() => { if (!old && box.isConnected) box.replaceChildren(el("p", {class: "empty"}, "The statistics could not be loaded. Please try again with the internet on.")); });
   }
   return {page};
+})();
+
+/* ---------- short satisfaction survey (RYU 2026-11-25, v1.11) ----------
+   Four questions: stars, most helpful menu, recommend to a friend, a free comment. Sent once per device to the same
+   Apps Script (sheet "survey"); the public stats page shows only the totals (number of answers, average stars).
+   Offered under the 내 학습 card after 5 lessons on 2 different days; "Later" asks again in 3 days; always open in 도움말. */
+const SV = (() => {
+  const DK = "kolearn-en-survey", PK = "kolearn-en-svq";
+  const get = k => { try { return localStorage.getItem(k); } catch (e) { return null; } };
+  const put = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
+  function el(tag, at, ...k){ const e = document.createElement(tag);
+    for (const a in at || {}) if (at[a] != null){ if (a.startsWith("on")) e.addEventListener(a.slice(2), at[a]); else e.setAttribute(a, at[a]); }
+    for (const x of k.flat(9)) if (x != null && x !== false) e.append(x.nodeType ? x : String(x)); return e; }
+  const state = () => { try { return JSON.parse(get(DK) || "{}"); } catch (e) { return {}; } };
+  const today = () => new Date().toISOString().slice(0, 10);
+  function flush(){
+    const p = get(PK); if (!p || !STATS_URL || !navigator.onLine) return;
+    fetch(STATS_URL, {method: "POST", mode: "no-cors", body: p, keepalive: true}).then(() => put(PK, ""), () => {});
+  }
+  function form(box, inPage){
+    const st = state();
+    if (st.done){ box.replaceChildren(el("div", {class: "svcard svdone"}, el("img", {src: "img/jey/jey.webp", alt: "", class: "svjey"}),
+      el("p", null, el("b", null, "Thank you for your answer! "), el("span", {class: "ko"}, "의견 고마워요!")))); return; }
+    const a = {stars: 0, menu: "", rec: "", text: ""};
+    const menus = ((window.KO_META || {}).areas || []).filter(x => x[0] !== "HP");
+    const stars = el("div", {class: "svstars", role: "radiogroup", "aria-label": "Stars"});
+    const more = el("div", {class: "svmore", hidden: ""});
+    const chip = (grp, key, val, label) => el("button", {type: "button", class: "svchip", "data-v": val, onclick: ev => { a[key] = val;
+      for (const b of grp.querySelectorAll(".svchip")) b.classList.toggle("on", b.dataset.v === val); }}, label);
+    for (let i = 1; i <= 5; i++) stars.append(el("button", {type: "button", class: "svstar", "aria-label": i + " stars", onclick: () => { a.stars = i;
+      stars.querySelectorAll(".svstar").forEach((b, k) => b.classList.toggle("on", k < i)); more.hidden = false; }}, "★"));
+    const mg = el("div", {class: "svchips"}); menus.forEach(m => mg.append(chip(mg, "menu", m[0], m[1])));
+    const rg = el("div", {class: "svchips"}); [["yes", "Yes 네"], ["maybe", "Maybe 글쎄요"], ["no", "No 아니요"]].forEach(r => rg.append(chip(rg, "rec", r[0], r[1])));
+    const ta = el("textarea", {class: "svtext", maxlength: "300", rows: "3", placeholder: "Anything to make the app better? (optional) 바라는 점 (선택)"});
+    const send = () => {
+      if (!a.stars) return;
+      a.text = ta.value.trim().slice(0, 300);
+      const m = ST.meta(); put(PK, JSON.stringify(Object.assign(m, {survey: a})));
+      put(DK, JSON.stringify({done: today()})); flush(); form(box, inPage); if (!inPage) setTimeout(() => box.replaceChildren(), 4000);
+    };
+    more.append(
+      el("p", {class: "svq"}, "Which menu helped you most? ", el("span", {class: "ko"}, "가장 도움이 된 메뉴")), mg,
+      el("p", {class: "svq"}, "Would you recommend KoJey to a friend? ", el("span", {class: "ko"}, "친구에게 추천할래요?")), rg,
+      ta, el("div", {class: "svbtns"}, el("button", {type: "button", class: "btn primary", onclick: send}, "Send ", el("span", {class: "ko"}, "보내기"))));
+    box.replaceChildren(el("div", {class: "svcard"},
+      inPage ? null : el("button", {type: "button", class: "svx", "aria-label": "Later", title: "Later 나중에", onclick: () => {
+        const d = new Date(); d.setDate(d.getDate() + 3); put(DK, JSON.stringify({later: d.toISOString().slice(0, 10)})); box.replaceChildren(); }}, "×"),
+      el("div", {class: "svhead"}, el("img", {src: "img/jey/jey_side.webp", alt: "", class: "svjey"}),
+        el("p", {class: "svq"}, el("b", null, "How do you like KoJey? "), el("span", {class: "ko"}, "코제이 어때요?"))), stars, more));
+  }
+  /* offer it under the 내 학습 card: seen = lessons opened, days = study days */
+  function offer(box, seen, days){
+    if (!box || !STATS_URL) return; const st = state();
+    if (st.done || (st.later && st.later > today()) || seen < 5 || days < 2){ if (!box.querySelector(".svmore:not([hidden])")) box.replaceChildren(); return; }
+    if (!box.firstChild) form(box, false);
+  }
+  if (STATS_URL){ setTimeout(flush, 5000); addEventListener("online", flush); }
+  return {form, offer};
 })();

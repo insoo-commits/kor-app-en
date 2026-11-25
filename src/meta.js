@@ -393,8 +393,8 @@ module.exports = {
    "How to Use"
   ],
   "HP-C": [
-   "사용 통계",
-   "Usage Stats"
+   "통계·의견",
+   "Stats & Feedback"
   ],
   "K4-A": [
    "한국어 수업",
