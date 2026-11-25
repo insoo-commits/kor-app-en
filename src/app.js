@@ -4,7 +4,8 @@
 const META = window.KO_META, AREAS = META.areas, SUBS = META.subs, IDX = META.idx;
 const byCode = new Map(IDX.map((r, i) => [r[0], i]));
 const $ = id => document.getElementById(id);
-const AL = META.alias || {}, areaOf = c => AL[c.slice(0, 2)] || c.slice(0, 2), subOf = c => c.slice(0, 4);   // K8 · K9 live in menu K7 어휘 (v1.8)
+const AL = META.alias || {}, SAL = META.subAlias || {}, SAR = META.subArea || {}, subOf = c => SAL[c.slice(0, 4)] || c.slice(0, 4),
+  areaOf = c => SAR[subOf(c)] || AL[c.slice(0, 2)] || c.slice(0, 2);   // K8 · K9 live in menu K7 어휘 (v1.8); merged subs and 조사·말끝·높임말 in 문법 (v1.10)   // K8 · K9 live in menu K7 어휘 (v1.8)
 const T = {
   sec: {m: "How to form it", l: "Letters", x: "Table", w: "Words", f: "Useful expressions", c: "Word forms", e: "Example sentences", tp: "Tips", pr: "Pairs", dl: "Dialogue", sm: "Summary", rel: "Related lessons", qz: "Review questions"},
   level: "Level", repBundle: "Play lesson", repDlg: "Repeat dialogue", repWord: "Repeat", repGroup: "Repeat group", example: "Example", repLetters: "Play all", repAll: "Play all", pause: "Pause", resume: "Resume", stop: "Stop", hideLo: "Hide English", done: "Done", markDone: "Mark as done", next: "Next lesson →", prev: "← Previous", nextCard: "Next →",
@@ -341,13 +342,13 @@ function drawSubs(){
   const a = areaOf(S.code), cur = subOf(S.code);
   const ids = [...new Set(IDX.filter(r => areaOf(r[0]) === a).map(r => subOf(r[0])))], PT = META.parts || {};
   $("subs").replaceChildren(...ids.flatMap((s, k) => {
-    const pt = PT[s.slice(0, 2)] && (k === 0 || ids[k - 1].slice(0, 2) !== s.slice(0, 2)) ? h("span", {class: "subpart ko"}, PT[s.slice(0, 2)]) : null;   // 어휘: 짝말 · 비슷한 말 · 단어 뿌리 labels
-    const rows = IDX.filter(r => r[0].startsWith(s + "-")), n = SUBS[s] || [s, s];
+    const pt = a === "K7" && PT[s.slice(0, 2)] && (k === 0 || ids[k - 1].slice(0, 2) !== s.slice(0, 2)) ? h("span", {class: "subpart ko"}, PT[s.slice(0, 2)]) : null;   // 어휘: 짝말 · 비슷한 말 · 단어 뿌리 labels
+    const rows = IDX.filter(r => subOf(r[0]) === s), n = SUBS[s] || [s, s];
     return [pt, h("button", {class: "sub", type: "button", role: "tab", "aria-selected": s === cur ? "true" : "false", onclick: () => go(lastIn(S.lastS, s, rows))},
       h("span", {class: "code"}, String(ids.indexOf(s) + 1).padStart(2, "0")), h("span", {class: "name ko"}, n[0].replace(/\s+/g, "")), subProg(rows))].filter(Boolean);
   }));
   /* line under the sub tabs, like lao-app: [1-01] name · N묶음 N단어 N문장 */
-  const sr = IDX.filter(r => r[0].startsWith(cur + "-")), ai = AREAS.findIndex(x => x[0] === a) + 1, sn = SUBS[cur] || [cur];
+  const sr = IDX.filter(r => subOf(r[0]) === cur), ai = AREAS.findIndex(x => x[0] === a) + 1, sn = SUBS[cur] || [cur];
   $("sinfo").replaceChildren(h("b", {class: "ko"}, "[" + ai + "-" + String(ids.indexOf(cur) + 1).padStart(2, "0") + "]"), h("span", {class: "ko"}, " " + sn[0] + " · " + sr.length + "묶음" + (sr[0] && sr[0][3] === "info" ? "" : " " + sr.reduce((t, r) => t + (r[5] || 0), 0) + "단어 " + sr.reduce((t, r) => t + (r[6] || 0), 0) + "문장")));
   const on = $("subs").querySelector('[aria-selected="true"]'); if (on && on.scrollIntoView) on.scrollIntoView({block: "nearest", inline: "nearest"});
 }
@@ -355,11 +356,11 @@ function drawSubs(){
 const ordTag = code => { const [o, l] = ordParts(code); return ["[", h("span", {class: "ord-ab"}, o), l + "]"]; };   // phones show only [01] (RYU 2026-11-19, v2.04)
 function ordParts(code){
   const a = areaOf(code), sb = subOf(code), subsA = [...new Set(IDX.filter(r => areaOf(r[0]) === a).map(r => subOf(r[0])))];
-  const rows = IDX.filter(r => r[0].startsWith(sb + "-")), pad = n => String(n).padStart(2, "0");
+  const rows = IDX.filter(r => subOf(r[0]) === sb), pad = n => String(n).padStart(2, "0");
   return [(AREAS.findIndex(x => x[0] === a) + 1) + "-" + pad(subsA.indexOf(sb) + 1) + "-", pad(rows.findIndex(r => r[0] === code) + 1)];
 }
 function drawControls(){
-  const s = subOf(S.code), rows = IDX.filter(r => r[0].startsWith(s + "-"));
+  const s = subOf(S.code), rows = IDX.filter(r => subOf(r[0]) === s);
   /* lesson picker: own list instead of the phone's native one, so each lesson stays on one line inside the box (RYU 2026-11-14) */
   const lab = (r, btn) => [h("span", {class: "ddk"}, r[1])   /* no check mark in the list either (RYU 2026-11-19, v2.06) */, r[4] ? h("span", {class: "ddo"}, r[4]) : ""];
   const curRow = rows.find(r => r[0] === S.code) || rows[0];
@@ -380,7 +381,7 @@ function drawBand(b){
       /* tips under the intro, Lao text with Korean words mixed in, one bullet each, like lao-app (RYU 2026-11-16) */
       b && b.tp && b.tp.length ? h("div", {class: "tipbox"}, b.tp.map(t => h("p", {class: "bl"}, koMix(t[1] || t[0])))) : null].filter(Boolean);
   /* one picture per sub-group left of the intro (RYU 2026-11-24, v2.55) */
-  const sp = (window.KO_SUBPIC || {})[S.code.split("-").slice(0, 2).join("-")];
+  const sp = (window.KO_SUBPIC || {})[subOf(S.code)];
   let pic = null; if (sp && txt.length){ pic = h("div", {class: "bandpic", "aria-hidden": "true"}); pic.innerHTML = sp; }
   $("band").replaceChildren(
     /* lesson title removed; the lesson picker sits in its place (RYU 2026-11-15, v1.19) */
