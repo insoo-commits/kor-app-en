@@ -23,7 +23,7 @@ function page(x){
   let s = `<h2>${x.en}</h2><div class="sub2 ko">${x.t}</div>`;
   if (x.lead) s += `<p class="jblead">${x.lead}</p>`;
   s += box("ib-f", hd("Quick facts", "기본 정보"), fig ? `<div class="top2"><div>${fig}</div><div>${facts(x.facts)}</div></div>` : facts(x.facts));
-  s += `<div class="ibs">` + x.secs.map(([h, ...ps]) => box("", hd(...[].concat(h)), ps.map(p => `<p>${p}</p>`).join(""))).join("")
+  s += `<div class="ibs">` + x.secs.map(([h, ...ps]) => box("", hd(...[].concat(h)), ps.map(p => p.startsWith("<figure") ? p : `<p>${p}</p>`).join(""))).join("")
      + (x.jj ? box("ib-j", hd("★ For JJ University students", "전주대 유학생에게"), `<p>${x.jj}</p>`) : "")
      + (x.tip ? box("ib-k", hd("Good to know", "알아 두면 좋아요"), `<p>${x.tip}</p>`) : "") + `</div>`;
   if (x.say) s += box("ib-s", hd("Useful sentences", "이렇게 말해요"), `<div class="says">${x.say.map(([ko, en]) => `<div><div class="ko">${ko}</div><div class="m">${en}</div></div>`).join("")}</div>`);
@@ -111,7 +111,7 @@ page({code: "JB-B-01", t: "스타센터", en: "The Star Center", pic: ["jju_star
     ["Designed by", "Hong Kong architect Aaron Tan, with a Korean design team"],
     ["Inside", "library, lecture rooms, student service center, career center, food court, sports facilities"],
     [K("온누리홀", "onnuri hol"), "a big hall for ceremonies, concerts and events"]],
-  secs: [["A building for everything", "You can take a class, study in the library, get help with student papers, eat lunch in the food court and work out, all without leaving the Star Center."],
+  secs: [["A building for everything", photo("jju_spring.jpg", "Cherry blossoms by the Star Center"), "You can take a class, study in the library, get help with student papers, eat lunch in the food court and work out, all without leaving the Star Center."],
     ["Library 도서관", "The library sits in the middle of campus, so it is easy to come between classes. Find a quiet seat, borrow books or meet your study group."],
     ["Events 행사", `Ceremonies, special lectures and concerts happen in ${K("온누리홀", "onnuri hol")}. Watch for posters: international student events are held here too.`]],
   jj: `On your first day, find your classroom in the Star Center and walk around once. It will be your second home on campus.`,
@@ -121,7 +121,7 @@ page({code: "JB-B-01", t: "스타센터", en: "The Star Center", pic: ["jju_star
   when: [["Asking the way", "스타센터가 어디예요?", "Where is the Star Center?"], ["Meeting a friend", "스타센터 앞에서 만나요.", "Let's meet in front of the Star Center."]],
   terms: [["건물", "geonmul", "building"], ["강의실", "gangeuisil", "lecture room"], ["도서관", "doseogwan", "library"], ["푸드코트", "pudeukoteu", "food court"], ["층", "cheung", "floor"], ["행사", "haengsa", "event"]]});
 
-page({code: "JB-B-02", t: "스타정원과 철쭉꽃밭", en: "Star Garden and the Azaleas", pic: ["jju_main.jpg", `Azaleas in front of ${K("대학본관", "daehak bongwan")}`],
+page({code: "JB-B-02", t: "스타정원과 철쭉꽃밭", en: "Star Garden and the Azaleas", pic: ["jju_stargarden.jpg", `${K("스타정원", "seuta jeongwon")} from the sky`],
   lead: `Jeonju people come to JJ University just to see the flowers. You can see them every day.`,
   facts: [[K("스타정원", "seuta jeongwon"), "an eco-friendly garden on campus, made for the university's 55th anniversary"],
     ["Flowers", `moss phlox ${K("꽃잔디", "kkotjandi")}, azaleas ${K("진달래", "jindallae")} and ${K("철쭉", "cheoljjuk")}, daisies, rapeseed flowers`],
@@ -129,7 +129,7 @@ page({code: "JB-B-02", t: "스타정원과 철쭉꽃밭", en: "Star Garden and t
     ["Night", "lights at night, so you can walk there after class"],
     ["Open to", "students and local people: walking paths, benches and tables"]],
   secs: [["A garden for everyone", "Star Garden turned empty land into a garden full of flowers and walking paths. On spring weekends, hundreds of local families and students come to walk and take photos."],
-    ["Azaleas 철쭉", `In spring, red and pink ${K("철쭉", "cheoljjuk")} cover the campus. The area in front of the main building ${K("대학본관", "daehak bongwan")} turns bright red and pink: a favorite photo spot at JJ University.`],
+    ["Azaleas 철쭉꽃밭", photo("jju_azalea.jpg", `The azalea field below ${K("대학본관", "daehak bongwan")}`), `In late April, the whole slope below the main building ${K("대학본관", "daehak bongwan")} turns bright red with ${K("철쭉", "cheoljjuk")}, right next to the sports field. It is the most famous photo spot at JJ University.`],
     ["Cherry blossom roads 벚꽃길", `Before the azaleas, cherry blossoms ${K("벚꽃", "beotkkot")} line the roads around ${K("진리관", "jinrigwan")}, ${K("자유관", "jayugwan")} and ${K("평화관", "pyeonghwagwan")}.`]],
   jj: `Between classes, take your lunch or coffee to Star Garden. Many international students say this is when they first fell in love with Korean spring.`,
   tip: "Flowers come and go fast: cherry blossoms last about a week, so don't wait for the weekend!",
@@ -139,7 +139,7 @@ page({code: "JB-B-02", t: "스타정원과 철쭉꽃밭", en: "Star Garden and t
   when: [["Inviting a friend", "수업 끝나고 꽃 보러 갈래요?", "Want to go see the flowers after class?"]],
   terms: [["정원", "jeongwon", "garden"], ["꽃", "kkot", "flower"], ["철쭉", "cheoljjuk", "royal azalea"], ["벚꽃", "beotkkot", "cherry blossom"], ["피다", "pida", "to bloom"], ["산책로", "sanchaengno", "walking path"]]});
 
-page({code: "JB-B-03", t: "드라마 속 캠퍼스", en: "The Campus in Dramas", pic: ["jju_spring.jpg", "Spring on campus: cherry blossoms by the Star Center"],
+page({code: "JB-B-03", t: "드라마 속 캠퍼스", en: "The Campus in Dramas", pic: ["jju_main.jpg", `${K("대학본관", "daehak bongwan")} in spring`],
   lead: `Have you seen JJ University on Netflix without knowing it? Korean dramas love this campus.`,
   facts: [["그해 우리는 (Our Beloved Summer)", "campus scenes and the tree-lined road from the back gate"],
     ["소년심판 (Juvenile Justice)", "the university's main office building was used as the court"],
