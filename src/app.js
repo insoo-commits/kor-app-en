@@ -848,7 +848,7 @@ function dlState(){
 }
 dlState();
 window.addEventListener("hashchange", route);
-$("ver").textContent = META.ver + " · Made with Claude AI · Claude AI로 제작";
+$("ver").replaceChildren(META.ver + " · ", h("span", {class: "cl", "aria-hidden": "true"}, "©"), " Copyleft · Free to share and adapt · ", h("span", {class: "ko"}, "자유롭게 나누고 고쳐 쓸 수 있어요"));   // RYU v1.16.3: copyleft line (a mirrored ©, since the 🄯 character is missing on older phones)
 /* theme and text size (v1.4): kept on this device; "Auto" follows the phone's setting */
 function applyPrefs(){
   const r = document.documentElement;
