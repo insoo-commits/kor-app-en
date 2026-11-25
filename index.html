@@ -1186,6 +1186,13 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 @media (max-width:600px){.tqi{--ind:23px}.tqq .tqn{width:1.9em}.tqsub > :not(.tqq){margin-left:1.9em}}
 .tq h3{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.tq h3 .tqnew{float:none;margin-left:auto}
 @media (max-width:600px){.tqd{flex-wrap:wrap}.tqd .tqdt{flex:1 1 calc(100% - var(--ind))}.tqd .tqplay{margin:8px 0 0 var(--ind)}}   /* phone: listen button under the direction, at the text start (RYU v1.18.3) */
+/* v1.18.4 (RYU): the circled numbers ①②③④ of the choices stand on the text line; the box reaches out to the left */
+.tqi{--ind2:34px}
+.tqq .tqn{width:var(--ind2)}
+.tqsub > :not(.tqq){margin-left:var(--ind2)}
+.tqi > .tqo{margin-left:calc(var(--ind) - 13px)}
+.tqsub > .tqo{margin-left:calc(var(--ind2) - 13px)}
+@media (max-width:600px){.tqi{--ind2:30px}.tqq .tqn{width:var(--ind2)}.tqsub > :not(.tqq){margin-left:var(--ind2)}.tqi > .tqo{margin-left:calc(var(--ind) - 13px)}.tqsub > .tqo{margin-left:calc(var(--ind2) - 13px)}}
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1716,6 +1723,6 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-25%20v1.18.3"></script>
-<script src="app.js?v=2026-11-25%20v1.18.3"></script>
+<script src="audio/index.js?v=2026-11-25%20v1.18.4"></script>
+<script src="app.js?v=2026-11-25%20v1.18.4"></script>
 </body></html>
