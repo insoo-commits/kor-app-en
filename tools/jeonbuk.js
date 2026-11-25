@@ -163,7 +163,7 @@ page({code: "JB-B-04", t: "숲속 초막 셋", en: "Three Huts in the Forest", p
     ["Built", "2020, designed by Professor Kim Jun-young of JJ University's architecture department"],
     ["Prize", "Gold Prize, Jeonbuk Architecture Culture Awards"],
     ["Open to", "students and local people, at any time"]],
-  secs: [["Three huts, three doors", `The idea comes from a Bible story (Matthew 17:4) about three shelters. The three pointed roofs stand for Jesus, Moses and Elijah.`, "Each of the three doors is both an entrance and a path: you can walk right through the chapel on your way across campus."],
+  secs: [["Three huts, three doors", photo("jju_chomak2.jpg", "The huts in spring, among rapeseed flowers in Star Garden"), `The idea comes from a Bible story (Matthew 17:4) about three shelters. The three pointed roofs stand for Jesus, Moses and Elijah.`, "Each of the three doors is both an entrance and a path: you can walk right through the chapel on your way across campus."],
     ["Materials 재료", `Outside, the walls are rust-colored steel ${K("코르텐 강판", "koreuten gangpan")}, which grows darker and richer with time. Inside, the concrete walls show the pattern of wood grain.`],
     ["A quiet place", "JJ University is a Christian university, but the chapel is open to everyone. Sit for a few minutes, rest from busy classes and listen to the forest."]],
   jj: `On a spring walk through Star Garden, follow the path up to the three huts. It is one of the calmest places on campus, and a favorite photo spot for architecture lovers.`,
