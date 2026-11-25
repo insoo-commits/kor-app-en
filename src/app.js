@@ -967,7 +967,7 @@ function applyPrefs(){
   if (S.theme === "light" || S.theme === "dark") r.setAttribute("data-theme", S.theme); else r.removeAttribute("data-theme");
   r.style.setProperty("--fz", String(S.fz || 1));
   const box = $("prefs"); if (!box) return;
-  const seg = (label, ko, opts, cur, set) => h("div", {class: "pseg"}, h("span", null, label, " ", h("span", {class: "ko"}, ko)),
+  const seg = (label, ko, opts, cur, set) => h("div", {class: "pseg", role: "group", "aria-label": label + " " + ko, title: label + " " + ko},   // v1.19.20 (RYU): no label text, both on one line
     h("div", {class: "pbtns"}, opts.map(([v, t]) => h("button", {type: "button", class: "pb" + (String(cur) === String(v) ? " on" : ""), "aria-pressed": String(cur) === String(v) ? "true" : "false", onclick: () => { set(v); save(); applyPrefs(); }}, t))));
   box.replaceChildren(
     seg("Theme", "화면", [["auto", "Auto"], ["light", "☀ Light"], ["dark", "☾ Dark"]], S.theme || "auto", v => S.theme = v),
