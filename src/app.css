@@ -1238,3 +1238,10 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 .info figure img.hl-d{display:none}
 :root[data-theme="dark"] .info figure img.hl-l{display:none}:root[data-theme="dark"] .info figure img.hl-d{display:block}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .info figure img.hl-l{display:none}:root:not([data-theme="light"]) .info figure img.hl-d{display:block}}
+/* v1.19.27 (RYU): install steps in 이 앱은 */
+.info .inst{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:4px 0 12px}
+.info .inst>div{background:var(--sheet);border:1px solid var(--line);border-radius:12px;padding:10px 14px}
+.info .inst>div>b:first-child{color:var(--accent)}
+.info .inst ol{margin:6px 0 0;padding-left:1.3em}
+.info .inst li{margin:3px 0;line-height:1.5}
+.info .addr{background:var(--accent-soft);border-radius:10px;padding:8px 12px;font-weight:600;color:var(--accent)}.info .addr a{color:var(--ink);font-weight:600;white-space:nowrap;margin-left:6px}
