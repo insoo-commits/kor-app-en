@@ -1175,7 +1175,7 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 .tqd .tqdl{font-weight:400;margin:2px 0 0}
 .tqd .tqplay{flex:none;min-width:7.7em;justify-content:center;margin-left:6px}
 /* v1.18.2 (RYU): number hangs on the left; everything under a question starts where its text starts; lower choice boxes */
-.tqi{--ind:1.55em}
+.tqi{--ind:26px}
 .tqd .tqn{width:var(--ind);flex:none}
 .tqd{gap:0}
 .tqi > :not(.tqd){margin-left:var(--ind)}
@@ -1183,8 +1183,9 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 .tqq .tqn{width:2.1em;flex:none}
 .tqsub > :not(.tqq){margin-left:2.1em}
 .tqo .choice{padding:7px 12px}
-@media (max-width:600px){.tqi{--ind:1.4em}.tqq .tqn{width:1.9em}.tqsub > :not(.tqq){margin-left:1.9em}}
+@media (max-width:600px){.tqi{--ind:23px}.tqq .tqn{width:1.9em}.tqsub > :not(.tqq){margin-left:1.9em}}
 .tq h3{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.tq h3 .tqnew{float:none;margin-left:auto}
+@media (max-width:600px){.tqd{flex-wrap:wrap}.tqd .tqdt{flex:1 1 calc(100% - var(--ind))}.tqd .tqplay{margin:8px 0 0 var(--ind)}}   /* phone: listen button under the direction, at the text start (RYU v1.18.3) */
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1715,6 +1716,6 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-25%20v1.18.2"></script>
-<script src="app.js?v=2026-11-25%20v1.18.2"></script>
+<script src="audio/index.js?v=2026-11-25%20v1.18.3"></script>
+<script src="app.js?v=2026-11-25%20v1.18.3"></script>
 </body></html>
