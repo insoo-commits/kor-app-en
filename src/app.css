@@ -1124,3 +1124,8 @@ figure.jeyfig img{background:#fff}
 :root[data-theme="dark"] .mn-wb{background:#3A2A14}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mn-wb{background:#3A2A14}}
 .qrev{text-align:center;font-weight:700;color:#B45309;margin:0 0 6px}
+/* word cards: the last row is centred (RYU 2026-11-25, v1.12) */
+.wcards{display:flex!important;flex-wrap:wrap;justify-content:center}
+.wcards > .wcard{flex:0 0 calc((100% - 30px) / 4);min-width:0;box-sizing:border-box}
+@media (max-width:900px){.wcards > .wcard{flex-basis:calc((100% - 20px) / 3)}}
+@media (max-width:560px){.wcards > .wcard{flex-basis:calc((100% - 8px) / 2)}}
