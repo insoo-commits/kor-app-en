@@ -591,8 +591,8 @@ function render(){
     view.replaceChildren(art, b.tq ? tqView(b) : "", pnRow(b.code)); return; }
   /* the two repeat buttons sit in the control bar above its bottom line, learn tab only (RYU 2026-11-16, v1.67) */
   $("ctlrep").replaceChildren(...(S.mode !== "quiz" ? [
-    h("button", {class: "wrep tbtn", type: "button", onclick: () => playBundle(true)}, ico("rep"), T.repAll, h("kbd", {class: "kc"}, "C")),
-    h("button", {class: "wrep tbtn", type: "button", onclick: () => playBundle(false)}, ico("rep"), T.repBundle, h("kbd", {class: "kc"}, "G"))] : []));   // key badges, PC and pad only (v2.25)
+    h("button", {class: "wrep tbtn", type: "button", onclick: () => playBundle(true)}, ico("rep"), T.repAll, h("kbd", {class: "kc"}, "A")),
+    h("button", {class: "wrep tbtn", type: "button", onclick: () => playBundle(false)}, ico("rep"), T.repBundle, h("kbd", {class: "kc"}, "L"))] : []));   // key badges, PC and pad only (v2.25)
   { const ph = matchMedia("(max-width:560px)").matches;   // phone: Lao-voice checkbox on the left of the two play buttons, one line (RYU 2026-11-22, v2.40)
     const lbl = loLbl || (loLbl = $("loLbl"));   // keep a reference: replaceChildren above detaches it, then $() finds nothing (v2.44 "null" fix)
     if (ph && S.mode !== "quiz") $("ctlrep").prepend(lbl); else $("kbinfo").append(lbl); }
@@ -679,13 +679,14 @@ $("bselBtn").addEventListener("click", e => {
 document.addEventListener("click", ev => { if (!ev.target.closest("#bsel")) ddClose(); });
 document.addEventListener("keydown", ev => { if (ev.key === "Escape") ddClose(); });
 /* ---------- keyboard (same keys as lao-app v2.74, RYU 2026-11-20, v2.23) ----------
-   Space pause / resume (idle: 묶음 재생) · C 연속 재생 · G 묶음 재생 (again = stop) · Esc stop · ← → previous / next line
-   , . previous / next lesson · Enter this line without end (∞) · 1-5 횟수 · - = 속도 · Q W E tabs · ? list of keys.
+   Space pause / resume (idle: 묶음 재생) · A 연속 재생 (Play All) · L 묶음 재생 (Play Lesson, again = stop) · Esc stop · ← → previous / next line
+   , . previous / next lesson · Enter this line without end (∞) · 1-5 횟수 · - = 속도 · S W Q tabs (Sentences Words Quiz) · E English voice · ? list of keys.
+   Letters by meaning, RYU 2026-11-25 v1.5 (were Q W E tabs, C G play, K English).
    Keys go by e.code too, so they work with the Korean or Lao keyboard on; ↑ ↓ still scroll. */
-const KEYS = [["Space", "Pause · Resume (idle: play lesson)", "일시정지 · 재개"], ["C", "Play all lessons", "연속 재생"], ["G", "Play lesson", "묶음 재생"],
+const KEYS = [["Space", "Pause · Resume (idle: play lesson)", "일시정지 · 재개"], ["A", "Play all lessons", "연속 재생"], ["L", "Play lesson", "묶음 재생"],
   ["Esc", "Stop", "정지"], ["← →", "Previous · next line", "이전 · 다음 문장"], ["< >  (, .)", "Previous · next lesson", "이전 · 다음 묶음"],
-  ["Enter", "Loop this line · off", "지금 문장 무한 반복"], ["K", "English voice on · off", "영어 음성 켜기 · 끄기"], ["1 ~ 5", "Times", "반복 횟수"], ["-  =", "Slower · faster", "배속"],
-  ["Q W E", "Sentences · Words · Quiz", "예문 · 단어 · 퀴즈"], ["?", "Show · hide this list", "단축키 목록"]];
+  ["Enter", "Loop this line · off", "지금 문장 무한 반복"], ["E", "English voice on · off", "영어 음성 켜기 · 끄기"], ["1 ~ 5", "Times", "반복 횟수"], ["-  =", "Slower · faster", "배속"],
+  ["S W Q", "Sentences · Words · Quiz", "예문 · 단어 · 퀴즈"], ["?", "Show · hide this list", "단축키 목록"]];
 function keyHelp(){
   const box = h("div", {id: "kbhelp", onclick: () => box.remove()},
     h("div", {class: "kbcard"}, h("b", null, "Keyboard shortcuts ", h("span", {class: "ko"}, "키보드 단축키")),
@@ -705,15 +706,15 @@ document.addEventListener("keydown", e => {
   if (e.key === "?" || (c === "Slash" && e.shiftKey)){ e.preventDefault(); keyHelp(); return; }
   if (query) return;
   if (e.key === "Escape"){ if (P.mode){ e.preventDefault(); stopPlay(); } return; }
-  if (is("KeyK", "k", "ㅏ")){ e.preventDefault(); setSayLo(S.sayLo === false); return; }
+  if (is("KeyE", "e", "ㄷ")){ e.preventDefault(); setSayLo(S.sayLo === false); return; }
   if (is("Comma", ",", "<") || is("Period", ".", ">")){
     e.preventDefault(); const i = byCode.get(S.code), d = is("Period", ".", ">") ? 1 : -1;
     go(IDX[(i + d + IDX.length) % IDX.length][0]); window.scrollTo(0, 0); return; }
   const ctl = !$("controls").hidden, rep = ctl && !$("ctlrep").hidden;
-  if (is("KeyQ", "q", "ㅂ") || is("KeyW", "w", "ㅈ") || is("KeyE", "e", "ㄷ")){
-    if (!ctl) return; e.preventDefault(); const b = $(is("KeyQ", "q", "ㅂ") ? "m-learn" : is("KeyW", "w", "ㅈ") ? "m-cards" : "m-quiz"); if (b) b.click(); return; }
-  if (is("KeyC", "c", "ㅊ")){ if (rep){ e.preventDefault(); playBundle(true); } return; }
-  if (is("KeyG", "g", "ㅎ")){ if (rep){ e.preventDefault(); playBundle(false); } return; }
+  if (is("KeyS", "s", "ㄴ") || is("KeyW", "w", "ㅈ") || is("KeyQ", "q", "ㅂ")){
+    if (!ctl) return; e.preventDefault(); const b = $(is("KeyS", "s", "ㄴ") ? "m-learn" : is("KeyW", "w", "ㅈ") ? "m-cards" : "m-quiz"); if (b) b.click(); return; }
+  if (is("KeyA", "a", "ㅁ")){ if (rep){ e.preventDefault(); playBundle(true); } return; }
+  if (is("KeyL", "l", "ㅣ")){ if (rep){ e.preventDefault(); playBundle(false); } return; }
   if (/^Digit[1-5]$/.test(c) || /^[1-5]$/.test(e.key)){ if (ctl){ e.preventDefault(); setSel("repSel", +(e.key.match(/[1-5]/) || c.slice(-1))[0] - 1); } return; }
   if (is("Minus", "-", "_") || is("Equal", "=", "+")){ if (ctl){ e.preventDefault(); const r = $("rateSel"); setSel("rateSel", r.selectedIndex + (is("Equal", "=", "+") ? 1 : -1)); } return; }
   if (c === "Space" || e.key === " "){
