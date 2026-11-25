@@ -638,3 +638,5 @@ TP-I-02 | Answering Questions · Describing Pictures
 K4-D-05 | Add/Drop and Dropping Courses
 K4-E-05 | English-Track Requirements
 K4-G-03 | Academic Warning and Make-up Exams
+K4-I-04 | Dormitory Guide
+K4-J-04 | On-campus Scholarships
