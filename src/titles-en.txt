@@ -640,10 +640,10 @@ K4-E-05 | English-Track Requirements
 K4-G-03 | Academic Warning and Make-up Exams
 K4-I-04 | Dormitory Guide
 K4-J-04 | On-campus Scholarships
-JB-A-01 | Why Study in Jeonju?
-JB-A-02 | Jeonbuk State
-JB-A-03 | The City of Jeonju
-JB-A-04 | Nature and Seasons of Jeonbuk
+JB-A-01 | Jeonbuk State
+JB-A-02 | The City of Jeonju
+JB-A-03 | Nature and Seasons of Jeonbuk
+JB-A-04 | Why Study in Jeonju?
 JB-B-01 | The Star Center
 JB-B-02 | Star Garden and the Azaleas
 JB-B-03 | The Campus in Dramas
