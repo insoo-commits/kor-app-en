@@ -181,7 +181,7 @@ page({code: "JB-B-05", t: "공부하고 쉬는 곳", en: "Places to Study and Re
     [K("해동학술정보실", "haedong haksul jeongbosil"), `a study room in the engineering building ${K("공학관", "gonghakgwan")}`],
     [K("루디아선교센터", "rudia seongyosenteo"), "a bright lounge with books, inside the library"],
     [K("스타정원", "seuta jeongwon"), "benches and tables outdoors, in the garden"]],
-  secs: [["Hatch Lounge 해치라운지", "Soft armchairs, round tables, long desks and a wall of books. Students come here to do homework on a tablet, read, or wait for the next class with friends."],
+  secs: [["Hatch Lounge 해치라운지", photo("jju_hatch2.jpg", "Friends together in the Hatch Lounge"), "Soft armchairs, round tables, long desks and a wall of books. Students come here to do homework on a tablet, read, or wait for the next class with friends."],
     ["Haedong study room 해동학술정보실", photo("jju_haedong.jpg", `${K("해동학술정보실", "haedong haksul jeongbosil")} in ${K("공학관", "gonghakgwan")}`), `In the engineering building ${K("공학관", "gonghakgwan")}, this study room has long wooden tables, glass-walled rooms for groups and a warm wooden ceiling. A calm place to focus before exams.`],
     ["Free period 공강", `A gap between two classes is called ${K("공강", "gonggang")}. Use it to review your Korean, eat a snack or take a short rest in a lounge.`],
     ["Group work 조별 과제", `For team projects ${K("조별 과제", "jobyeol gwaje")}, the big tables in lounges and in the library are perfect for meeting your group.`]],
