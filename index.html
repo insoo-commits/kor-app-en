@@ -1159,6 +1159,7 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .lg-l{display:none}:root:not([data-theme="light"]) .lg-d{display:inline}}
 .mn-wb,.mn-nx{justify-content:center}   /* v1.16.2: number cards top-aligned (RYU), the two button rows stay centred */
 .ver .cl{display:inline-block;transform:scaleX(-1)}
+@media (max-width:600px){#ver{font-size:11.5px;white-space:nowrap;letter-spacing:-.1px}}   /* v1.16.4: one line on phones */
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1367,6 +1368,7 @@ html.tab .mn-wb > span{font-size:16.8px}
 html.tab .saybtn{font-size:15.6px}
 html.tab .sayres{font-size:16.8px}
 html.tab .sayhelp{font-size:16.2px}
+@media (max-width:600px){html.tab #ver{font-size:13.8px}}
 /* iPad control row: kept on one line, boxes a bit taller (RYU 2026-11-14, v0.96; text 1.2x from v0.97) */
 html.tab .controls .seg button{font-size:18px;height:36px}
 html.tab .controls .bsel{font-size:18px;height:38px}
@@ -1677,7 +1679,7 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   </section>
   <div class="player" id="player" hidden><span class="t ko" id="pt"></span><button id="ppause" type="button"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="5.5" y="4.5" width="4.5" height="15" rx="1"/><rect x="14" y="4.5" width="4.5" height="15" rx="1"/></svg></span><span class="bt">Pause</span></button><button id="pstop" type="button"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="5.5" y="5.5" width="13" height="13" rx="1.5"/></svg></span><span class="bt">Stop</span></button></div>
   <p class="foot" id="voiceNote"></p>
-  <p class="foot"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></span>Listen · <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg></span>Repeat (1–5 times) until you press it again. Your progress is saved on this device only.</p>
+  <p class="foot"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></span>Listen · <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg></span>Repeat (1–5 times) until you press it again. Your progress is saved on this device. To improve the app, only anonymous usage counts are sent (no name or e-mail).</p>
   <p class="dlline" id="dlbox"><a href="#" id="dlAll">⤓ Save audio in the app · <span class="ko">음성 앱에 저장</span></a> <span class="count" id="dlMsg"></span></p>
   <p class="dlnote" id="dlNote" hidden>All audio is saved in this app. You can listen without internet.<br><span class="ko">모든 음성을 이 앱 안에 저장했습니다. 인터넷 없이 들을 수 있습니다.</span></p>
   <div class="prefs" id="prefs"></div>
@@ -1685,6 +1687,6 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-25%20v1.16.3"></script>
-<script src="app.js?v=2026-11-25%20v1.16.3"></script>
+<script src="audio/index.js?v=2026-11-25%20v1.16.4"></script>
+<script src="app.js?v=2026-11-25%20v1.16.4"></script>
 </body></html>
