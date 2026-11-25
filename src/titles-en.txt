@@ -635,3 +635,6 @@ TP-H-03 | Writing Practice Q53·54 + Model Answers
 TP-H-04 | Analyzing Trap Answers
 TP-I-01 | Introduction to the TOPIK Speaking Test
 TP-I-02 | Answering Questions · Describing Pictures
+K4-D-05 | Add/Drop and Dropping Courses
+K4-E-05 | English-Track Requirements
+K4-G-03 | Academic Warning and Make-up Exams
