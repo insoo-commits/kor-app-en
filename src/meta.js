@@ -408,8 +408,8 @@ module.exports = {
    "Songs & Word Games"
   ],
   "LS-B": [
-   "그림 동화",
-   "Picture Stories"
+   "짧은 이야기",
+   "Short Stories"
   ],
   "LS-C": [
    "한국 옛이야기",
