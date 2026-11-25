@@ -447,6 +447,10 @@ module.exports = {
    "앱 사용법",
    "How to Use"
   ],
+  "HP-C": [
+   "사용 통계",
+   "Usage Stats"
+  ],
   "K4-A": [
    "한국어 수업",
    "Korean Class"
