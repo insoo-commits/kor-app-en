@@ -4,7 +4,9 @@ module.exports = {
  "alias": {"K8": "K7", "K9": "K7"},   // 짝말비교 K7 · 비슷한말 K8 · 단어가족 K9 are one menu 어휘 (RYU 2026-11-25, v1.8); codes kept
  "seps": ["K4", "TP", "HP"],   // a | before these menus (RYU 2026-11-25)
  "hidden": [],
- "parts": {"K7": "짝말", "K8": "비슷한 말", "K9": "단어 뿌리"},
+ "subAlias": {"K7-B": "K7-A", "K7-C": "K7-A", "K7-E": "K7-D", "K7-I": "K7-H", "K8-D": "K8-C", "K8-G": "K8-F", "K8-H": "K8-F", "K9-B": "K9-A", "K9-D": "K9-C", "K9-E": "K9-C", "K9-G": "K9-F", "K9-H": "K9-F", "K8-Z": "K9-F", "K9-Z": "K9-F", "K8-B": "K8-A", "K7-G": "K7-F"},   // lessons of these subs show under the first sub of their group (v1.10)
+ "subArea": {"K8-A": "K6", "K7-F": "K6"},   // vocabulary subs that are really grammar
+ "parts": {"K7": "짝말", "K8": "비슷한 말", "K9": "단어 가족"},
  "subs": {
   "K1-A": [
    "모음",
@@ -163,8 +165,8 @@ module.exports = {
    "Grammar Review"
   ],
   "K7-A": [
-   "성질 반대말",
-   "Opposite Qualities"
+   "반대말",
+   "Opposites"
   ],
   "K7-B": [
    "동작 반대말",
@@ -175,40 +177,40 @@ module.exports = {
    "Time & Space"
   ],
   "K7-D": [
-   "세는 말·단위",
-   "Counters & Units"
+   "세는 말·숫자",
+   "Counters and Numbers"
   ],
   "K7-E": [
    "두 가지 숫자",
    "Two Number Systems"
   ],
   "K7-F": [
-   "높임말 짝",
-   "Honorific Pairs"
+   "높임말·말씨",
+   "Honorifics and Speech Levels"
   ],
   "K7-G": [
    "말씨 세 단계",
    "Speech Levels"
   ],
   "K7-H": [
-   "부르는 말",
-   "Addressing People"
+   "부르는 말·되는 말",
+   "Calling and Passive Words"
   ],
   "K7-I": [
    "되는 말·하는 말",
    "Happening vs Doing"
   ],
   "K8-A": [
-   "비슷한 조사",
-   "Similar Particles"
+   "헷갈리는 조사·말끝",
+   "Confusing Particles and Endings"
   ],
   "K8-B": [
    "비슷한 말끝",
    "Similar Endings"
   ],
   "K8-C": [
-   "기본 동사",
-   "Basic Verbs"
+   "헷갈리는 동사",
+   "Confusing Verbs"
   ],
   "K8-D": [
    "입고 벗는 말",
@@ -219,8 +221,8 @@ module.exports = {
    "Feelings"
   ],
   "K8-F": [
-   "정도·빈도·때",
-   "Degree & Frequency"
+   "정도·때·이음말·묻는 말",
+   "Degree, Time, Linkers, Questions"
   ],
   "K8-G": [
    "이음말",
@@ -239,16 +241,16 @@ module.exports = {
    "Similar Words Review"
   ],
   "K9-A": [
-   "사람 단어",
-   "People Words"
+   "사람·장소 단어",
+   "People and Place Words"
   ],
   "K9-B": [
    "장소 단어",
    "Place Words"
   ],
   "K9-C": [
-   "돈·서류",
-   "Money & Documents"
+   "단어 뿌리",
+   "Word Roots"
   ],
   "K9-D": [
    "학교·안전 뿌리",
@@ -259,8 +261,8 @@ module.exports = {
    "Everyday Roots"
   ],
   "K9-F": [
-   "-하다·-되다 가족",
-   "-하다·-되다 Family"
+   "단어 만들기",
+   "Making Words"
   ],
   "K9-G": [
    "합쳐 만든 말",
