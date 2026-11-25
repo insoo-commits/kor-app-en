@@ -328,10 +328,10 @@ function drawGroups(){
   const HID = META.hidden || [];
   $("groups").replaceChildren(...AREAS.filter(a => !HID.includes(a[0])).map(a => {
     const rows = IDX.filter(r => areaOf(r[0]) === a[0]);
-    return h("button", {class: "group", type: "button", "data-g": a[0], "aria-pressed": a[0] === cur ? "true" : "false", onclick: () => go(lastIn(S.lastA, a[0], rows))},
+    return h("button", {class: "group" + ((META.seps || []).includes(a[0]) ? " msep" : ""), type: "button", "data-g": a[0], "aria-pressed": a[0] === cur ? "true" : "false", onclick: () => go(lastIn(S.lastA, a[0], rows))},
       h("span", {class: "gn ko"}, a[1].replace(/\s+/g, "")));   // menus in Korean, no spaces, like lao-app (RYU 2026-11-19, v2.13)
   }), ...HID.map(c => { const rows = IDX.filter(r => areaOf(r[0]) === c), a = AREAS.find(x => x[0] === c);
-    return h("button", {class: "group ghelp", type: "button", "data-g": c, "aria-pressed": c === cur ? "true" : "false", "aria-label": a[2], title: a[2] + " " + a[1], onclick: () => go(lastIn(S.lastA, c, rows))}, h("span", {class: "gn"}, "?")); }));
+    return h("button", {class: "group ghelp" + ((META.seps || []).includes(c) ? " msep" : ""), type: "button", "data-g": c, "aria-pressed": c === cur ? "true" : "false", "aria-label": a[2], title: a[2] + " " + a[1], onclick: () => go(lastIn(S.lastA, c, rows))}, h("span", {class: "gn"}, "?")); }));
   const on = $("groups").querySelector('[aria-pressed="true"]'); if (on && on.scrollIntoView) on.scrollIntoView({block: "nearest", inline: "nearest"});
 }
 /* progress marks (v1.4): a thin line under each sub-group button (lessons opened / lessons), a check in the lesson list */
