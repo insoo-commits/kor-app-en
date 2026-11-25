@@ -8,7 +8,7 @@ const root = __dirname, src = path.join(root, "src");
 const bundles = process.argv[2] || path.join(root, "data");
 const M = require(path.join(src, "meta.js"));
 const STATS_PUBLIC = /const STATS_PUBLIC = true;/.test(fs.readFileSync(path.join(src, "stats.js"), "utf8"));
-const VER = "2026-11-25 v1.13";
+const VER = "2026-11-25 v1.14";
 const read = f => fs.readFileSync(path.join(src, f), "utf8");
 fs.mkdirSync(path.join(root, "data"), {recursive: true});
 fs.mkdirSync(path.join(root, "preview"), {recursive: true});
@@ -109,7 +109,7 @@ fs.writeFileSync(path.join(root, "index.html"), `<!doctype html>
 <title>KoJey 코제이 · 전주대 캠퍼스 한국어</title>
 <meta name="description" content="Learn Korean: an app for English-track students at Jeonju University">
 <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0D514B">
-<link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png" type="image/png"><link rel="apple-touch-icon" href="icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">${fonts}
 <script>(function(){var n=navigator,t=n.maxTouchPoints>0||"ontouchstart" in window;if((/iPad/.test(n.userAgent)||(/Macintosh/.test(n.userAgent)&&t))||(t&&Math.min(screen.width,screen.height)>=700))document.documentElement.classList.add("tab")})()</script>
 <style>body{margin:0}
@@ -122,7 +122,7 @@ ${body}
 `);
 fs.writeFileSync(path.join(root, "manifest.webmanifest"), JSON.stringify({
   name: "KoJey 코제이 · 전주대 캠퍼스 한국어", short_name: "KoJey", start_url: "./", display: "standalone", background_color: "#F3F4F2", theme_color: "#0D514B",
-  icons: [{src: "icon-192.png", sizes: "192x192", type: "image/png"}, {src: "icon-512.png", sizes: "512x512", type: "image/png"}, {src: "icon.svg", sizes: "any", type: "image/svg+xml"}]
+  icons: [{src: "icon-192.png", sizes: "192x192", type: "image/png"}, {src: "icon-512.png", sizes: "512x512", type: "image/png"}]   // JeyJey icon (v1.14, PNG from the official character file)
 }, null, 1));
 fs.writeFileSync(path.join(root, "icon.svg"), `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#0D514B"/><text x="256" y="340" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif" font-weight="700" font-size="280" fill="#fff">한</text></svg>`);
 fs.writeFileSync(path.join(root, ".nojekyll"), "");

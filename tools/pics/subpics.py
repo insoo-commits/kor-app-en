@@ -196,6 +196,13 @@ SP["LS-G"] = svg(room("#f3e8d6", "#c9ab84", 200) + r(110, 90, 180, 100, "#a5825c
 SP["LS-H"] = svg(room("#e9eef2", "#c3ccd3", 200) + r(40, 30, 320, 150, "#24323f", 8) + r(52, 42, 296, 126, "#3b5a8a", 4) + P(5, True, 140, 168, scale=.8) + r(200, 70, 130, 70, "#eef3f6", 3) + tower(265, 136, .45) + r(52, 140, 296, 28, "#c25e4f") + kt(200, 160, "뉴스", 16, "#ffffff"))
 SP["LS-I"] = svg(sky("#2a2550", "#5a3a7a", 210, "#2a2a3a") + "".join(ln([(60 + i * 70, 0), (100 + i * 50, 210)], ["#f4a6c0", "#9fd0e6", "#f6e04b", "#a5d07a", "#f4a6c0"][i] + "66", 10) for i in range(5)) + P(0, True, 130, 246, arms=[[(0, 0), (14, -24), (20, -50)]], scale=.9) + P(2, False, 200, 246, arms=[[(0, 0), (-14, -24), (-20, -50)]], scale=.9) + P(4, True, 270, 246, arms=[[(0, 0), (14, -24), (20, -50)]], scale=.9) + kt(200, 40, "K-POP", 26, "#ffffff"))
 
+# JeyJey (Jeonju Univ. character, files from RYU 2026-11-25, v1.14) peeks in at the top right of every 대학 생활 picture
+JEYAT = {"K4-D": (340, 166), "K4-N": (340, 166), "K4-L": (8, 166), "K4-C": (8, 166)}   # where the top right is taken
+for k in list(SP):
+    if k.startswith("K4-"):
+        x, y = JEYAT.get(k, (338, 6))
+        SP[k] = SP[k].replace("</svg>", f'<image href="img/jey/jey_side.webp" x="{x}" y="{y}" width="56" height="87"/></svg>', 1)
+
 if __name__ == "__main__":
     here = os.path.dirname(os.path.abspath(__file__))
     out = os.path.join(here, "..", "..", "data", "subpics.json")
