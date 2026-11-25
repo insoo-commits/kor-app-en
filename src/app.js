@@ -653,7 +653,9 @@ function render(){
   if (b.info){ $("controls").hidden = true; $("ctlrep").hidden = true;
     const art = h("article", {class: "info"}); art.innerHTML = b.info;
     { const sp = art.querySelector("#statsPage"); if (sp) STP.page(sp); const sv = art.querySelector("#surveyPage"); if (sv) SV.form(sv, true); }   // 사용 통계 page (src/stats.js)
-    view.replaceChildren(art, b.tq ? tqView(b) : "", pnRow(b.code)); return; }
+    { const tr = art.querySelector("#tpRandom"); if (tr) tprMount(tr); }   // TOPIK random practice (v1.17)
+    const bq = MOCK[b.code] && b.tq ? mockBundle(b) : b;   // mock tests: a new random sheet (v1.17)
+    view.replaceChildren(art, bq.tq ? tqView(bq) : "", pnRow(b.code)); return; }
   /* the two repeat buttons sit in the control bar above its bottom line, learn tab only (RYU 2026-11-16, v1.67) */
   $("ctlrep").replaceChildren(...(S.mode !== "quiz" ? [
     h("button", {class: "wrep tbtn", type: "button", onclick: () => playBundle(true)}, ico("rep"), T.repAll, h("kbd", {class: "kc"}, "A")),
@@ -676,15 +678,16 @@ function tqScore(b){ const L = tqList(b), done = L.filter(([k]) => TQ[k] != null
   return done.length ? ok + " / " + done.length + " correct (" + L.length + " questions)" : L.length + " questions"; }
 const TQB = {};
 function tqDone(k){ const code = k.split("#")[0], b = TQB[code]; if (!b) return; const L = tqList(b); if (L.every(([x]) => TQ[x] != null)) ST.log("topik", code, L.filter(([x, q]) => TQ[x] === q.a).length, L.length); }   // usage statistics: TOPIK set finished
-function tqView(b){ TQB[b.code] = b;
+function tqView(b, bare){ TQB[b.code] = b;
   const sc = h("div", {class: "tqsc"}, tqScore(b));
-  return h("section", {class: "tq"}, h("h3", null, "Practice questions ", h("span", {class: "ko"}, "연습 문제")), b.tq.map((q, i) => tqItem(b, q, i, () => sc.textContent = tqScore(b))), sc,
+  return h("section", {class: "tq"}, bare ? null : h("h3", null, MOCK[b.code] ? "Test sheet " : "Practice questions ", h("span", {class: "ko"}, MOCK[b.code] ? "시험지" : "연습 문제"),
+      MOCK[b.code] ? h("button", {class: "btn tqnew", type: "button", onclick: () => newMock(b.code)}, "New test ", h("span", {class: "ko"}, "새 시험지")) : null), b.tq.map((q, i) => tqItem(b, q, i, () => sc.textContent = tqScore(b))), sc,
     h("div", {class: "rowbtns", style: "justify-content:center"}, h("button", {class: "btn", type: "button", onclick: () => { tqList(b).forEach(([k]) => delete TQ[k]); render(); }}, "Start over ", h("span", {class: "ko"}, "처음부터"))));
 }
 const tqScript = au => h("div", {class: "tqs ko"}, au.map(l => h("div", null, WHO[l[0]] ? h("b", null, WHO[l[0]]) : null, l[1])));
 function tqChoices(q, k, redo){ const st = TQ[k];
   return [h("div", {class: "choices tqo" + (q.o.length < 3 ? " two" : "")}, q.o.map((o, j) => h("button", {class: "choice" + (q.lo ? "" : " ko") + (st != null ? (j === q.a ? " right" : j === st ? " wrong" : "") : ""), type: "button", disabled: st != null,
-      onclick: () => { TQ[k] = j; redo(); tqDone(k); }}, h("span", {class: "n"}, NUM[j]), " " + o))),
+      onclick: () => { TQ[k] = j; tpMark(k, j === q.a); redo(); tqDone(k); }}, h("span", {class: "n"}, NUM[j]), " " + o))),
     st != null ? h("div", {class: "tqx"}, h("div", {class: "res " + (st === q.a ? "ok" : "no")}, st === q.a ? "✓ Correct" : "✗ Not quite · Answer " + NUM[q.a]), h("p", null, koMix(q.x)),
       h("button", {class: "btn", type: "button", onclick: () => { delete TQ[k]; redo(); }}, "Try again ", h("span", {class: "ko"}, "다시"))) : null]; }
 function tqItem(b, q, i, upd){
@@ -710,6 +713,75 @@ async function tqPlay(q, btn){
     await gap(500);
   }
   if (tok === P.tok) stopPlay();
+}
+/* TOPIK question bank (v1.17, RYU 2026-11-25): random practice (TP-H-00) and random mock tests (TP-H-01, TP-H-02).
+   A "unit" is one question of a page, or a whole set (one script, two questions). Random practice draws units of one area
+   without repeats until the area is used up; the mock tests take one question of each type in the order of the real test.
+   Wrong answers anywhere in TOPIK are kept in S.tpWrong (by their page key), and "My wrong ones" asks them again. */
+const TPA = {all: ["TP-B", "TP-C", "TP-D", "TP-F", "TP-G"], "TP-B": ["TP-B"], "TP-C": ["TP-C"], "TP-D": ["TP-D"], "TP-F": ["TP-F"], "TP-G": ["TP-G"]};
+const TPN = [["all", "All areas", "전체"], ["TP-B", "TOPIK I Listening", "Ⅰ 듣기"], ["TP-C", "TOPIK I Reading", "Ⅰ 읽기"], ["TP-D", "TOPIK II Listening", "Ⅱ 듣기"], ["TP-F", "TOPIK II Reading", "Ⅱ 읽기"], ["TP-G", "Vocabulary & Grammar", "어휘·문법"], ["wrong", "My wrong ones", "틀린 문제"]];
+const MOCK = {
+  "TP-H-01": ["TP-B-01", "TP-B-02", "TP-B-03", "TP-B-04", "TP-B-05", "TP-B-06", "TP-B-07", "TP-B-08", "TP-B-09", ["TP-B-10", "TP-B-11"],
+              "TP-C-01", "TP-C-02", "TP-C-02", "TP-C-03", "TP-C-04", "TP-C-05", "TP-C-06", "TP-C-07", ["TP-C-08", "TP-C-09"], "TP-C-10"],
+  "TP-H-02": ["TP-D-01", "TP-D-02", "TP-D-03", "TP-D-04", "TP-D-05", "TP-D-06", "TP-D-07", "TP-D-08", "TP-D-09", "TP-D-10",
+              "TP-F-01", "TP-F-02", "TP-F-03", "TP-F-04", "TP-F-05", "TP-F-06", "TP-F-07", "TP-F-08", "TP-F-09", ["TP-F-10", "TP-F-11"]]};
+const tpTitle = code => { const b = bundle(code), m = b && /<h2>(.*?)<\/h2>/.exec(b.info || ""); return m ? m[1] : code; };
+const tpBundles = subs => (cache.get("TP") || []).filter(b => subs.includes(b.code.slice(0, 4)) && b.tq);
+/* one question from a page: [code, i] = the whole unit, [code, i, j] = only question j of a set (as a single question) */
+function tpQ(ref){ const [code, i, j] = ref, b = bundle(code), q = b && b.tq[i]; if (!q) return null;
+  const c = JSON.parse(JSON.stringify(j == null ? q : {...q.qs[j], d: q.d + " " + q.qs[j].q, dl: q.dl, au: q.au, p: q.p}));
+  if (ref[3] && !c.qs){ const o = c.o; c.o = ref[3].map(x => o[x]); c.a = ref[3].indexOf(c.a); }   // choices in a new order (kept with the sheet)
+  const back = " → Review: " + tpTitle(code);
+  if (c.qs) c.qs.forEach(s => s.x += back); else c.x += back;
+  return c; }
+/* the page key a question of a random sheet stands for, so that a wrong answer is remembered under the page's own key */
+const TPREF = {};
+function tpSrc(k){ const [code, rest] = k.split("#"), refs = TPREF[code]; if (!refs) return k;
+  const [i, j] = rest.split(".").map(Number), r = refs[i]; if (!r) return k;
+  return r[0] + "#" + r[1] + (r[2] != null ? "." + r[2] : j != null && !isNaN(j) ? "." + j : ""); }
+function tpMark(k, ok){ if (!k.startsWith("TP-")) return; const src = tpSrc(k); S.tpWrong = S.tpWrong || {};
+  if (ok) delete S.tpWrong[src]; else S.tpWrong[src] = 1; save(); }
+const tpClear = code => Object.keys(TQ).forEach(k => { if (k.startsWith(code + "#")) delete TQ[k]; });
+/* a new order of the choices for a single question (not for picture choices ①②③④) */
+function tpPerm(ref){ const b = bundle(ref[0]), q = b.tq[ref[1]], s = ref[2] != null ? q.qs[ref[2]] : q;
+  return s.qs || s.o.join("") === "①②③④" ? ref : [ref[0], ref[1], ref[2] ?? null, shuffle(s.o.map((_, i) => i))]; }
+function tpSheet(code, refs){ TPREF[code] = refs;
+  return {code, t: "", info: "", tq: refs.map(tpQ).filter(Boolean)}; }
+/* mock test: the same sheet until "New test" (S.mock), so a reload does not change it */
+function mockRefs(code){ S.mock = S.mock || {};
+  if (!S.mock[code]){ S.mock[code] = MOCK[code].map(slot => { const c = Array.isArray(slot) ? slot[Math.floor(Math.random() * slot.length)] : slot, b = bundle(c);
+    const all = b.tq.flatMap((q, i) => q.qs ? q.qs.map((s, j) => [c, i, j]) : [[c, i]]); return tpPerm(all[Math.floor(Math.random() * all.length)]); }); save(); }
+  return S.mock[code]; }
+function mockBundle(b){ const refs = mockRefs(b.code); TPREF[b.code] = refs; return {...b, tq: refs.map(tpQ).filter(Boolean)}; }
+function newMock(code){ delete S.mock[code]; tpClear(code); save(); render(); }
+/* random practice page */
+function tprMount(box){
+  const st = S.tpr = S.tpr || {area: "all", n: 10};
+  const units = a => a === "wrong" ? Object.keys(S.tpWrong || {}).map(k => { const [c, r] = k.split("#"), [i, j] = r.split(".").map(Number); return [c, i, isNaN(j) ? undefined : j]; }).filter(r => bundle(r[0]))
+    : tpBundles(TPA[a]).flatMap(b => b.tq.map((q, i) => [b.code, i]));
+  const size = r => { const q = bundle(r[0]).tq[r[1]]; return r[2] == null && q.qs ? q.qs.length : 1; };
+  const draw = () => { const pool = units(st.area); if (!pool.length) return;
+    S.tpSeen = S.tpSeen || {}; let seen = new Set(S.tpSeen[st.area] || []);
+    let fresh = pool.filter(r => !seen.has(r.join(":")));
+    if (fresh.length < 1){ seen = new Set(); fresh = pool; }
+    const picked = []; let n = 0;
+    for (const r of shuffle(fresh)){ if (n >= st.n) break; picked.push(r); n += size(r); }
+    if (n < st.n) for (const r of shuffle(pool.filter(x => !picked.includes(x)))){ if (n >= st.n) break; picked.push(r); n += size(r); }
+    picked.forEach(r => seen.add(r.join(":"))); S.tpSeen[st.area] = [...seen];
+    st.refs = shuffle(picked).map(tpPerm); tpClear("TP-R"); save(); paint(); };
+  const sheet = h("div", {class: "tprsheet"});
+  const paint = () => {
+    const pool = units(st.area), left = st.area === "wrong" ? pool.length : pool.filter(r => !new Set((S.tpSeen || {})[st.area] || []).has(r.join(":"))).reduce((t, r) => t + size(r), 0);
+    box.replaceChildren(
+      h("div", {class: "tprrow"}, ...TPN.map(([k, en, ko]) => { const c = k === "wrong" ? Object.keys(S.tpWrong || {}).length : null;
+        return h("button", {class: "seg" + (st.area === k ? " on" : ""), type: "button", disabled: k === "wrong" && !c, onclick: () => { st.area = k; st.refs = null; tpClear("TP-R"); save(); paint(); }}, en + " ", h("span", {class: "ko"}, ko), c != null ? " · " + c : ""); })),
+      h("div", {class: "tprrow"}, ...[10, 20].map(n => h("button", {class: "seg" + (st.n === n ? " on" : ""), type: "button", onclick: () => { st.n = n; save(); paint(); }}, n + " questions")),
+        h("button", {class: "btn primary", type: "button", onclick: draw}, st.refs ? "New set " : "Start ", h("span", {class: "ko"}, st.refs ? "새 문제" : "시작"))),
+      h("p", {class: "tprinfo"}, st.area === "wrong" ? pool.length + " questions you got wrong. A right answer takes a question off the list." :
+        pool.reduce((s, r) => s + size(r), 0) + " questions in this area · " + left + " not seen yet in this round"),
+      sheet);
+    sheet.replaceChildren(st.refs && st.refs.length ? tqView(tpSheet("TP-R", st.refs), true) : ""); };
+  paint();
 }
 /* word cards: a word that does not fit its line is shrunk until it does, so every word stays on one line at the same height */
 function fitWords(){ document.querySelectorAll(".wcard .k").forEach(k => { let fs = parseFloat(getComputedStyle(k).fontSize);

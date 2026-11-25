@@ -629,6 +629,7 @@ TP-G-04 | TOPIK II Level 4 Grammar
 TP-G-05 | Sino-Korean Words in the News
 TP-G-06 | Confusing Particles and Endings
 TP-G-07 | Proverbs and Idioms
+TP-H-00 | Random Practice Questions
 TP-H-01 | TOPIK I Practice Test
 TP-H-02 | TOPIK II Practice Test
 TP-H-03 | Writing Practice Q53·54 + Model Answers
