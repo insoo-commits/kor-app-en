@@ -155,6 +155,24 @@ page({code: "JB-B-03", t: "드라마 속 캠퍼스", en: "The Campus in Dramas",
   when: [["Recommending a drama", "이 드라마 꼭 보세요!", "You have to watch this drama!"]],
   terms: [["드라마", "deurama", "TV drama"], ["촬영", "chwaryeong", "filming"], ["장면", "jangmyeon", "scene"], ["배우", "baeu", "actor"], ["가로수길", "garosugil", "tree-lined road"], ["본관", "bongwan", "main building"]]});
 
+page({code: "JB-B-04", t: "숲속 초막 셋", en: "Three Huts in the Forest", pic: ["jju_chomak.jpg", `${K("숲속 초막 셋", "supsok chomak set")}`],
+  lead: `A tiny chapel that won an architecture prize, hidden on the forest path between Star Garden and the main building.`,
+  facts: [["Name", `${K("숲속 초막 셋", "supsok chomak set")} “three huts in the forest”, also called ${K("초막교회", "chomakgyohoe")}`],
+    ["What is it?", "a very small chapel (about 20 m²) made of three joined huts"],
+    ["Where", `on the path from ${K("스타정원", "seuta jeongwon")} up to ${K("대학본관", "daehak bongwan")}`],
+    ["Built", "2020, designed by Professor Kim Jun-young of JJ University's architecture department"],
+    ["Prize", "Gold Prize, Jeonbuk Architecture Culture Awards"],
+    ["Open to", "students and local people, at any time"]],
+  secs: [["Three huts, three doors", `The idea comes from a Bible story (Matthew 17:4) about three shelters. The three pointed roofs stand for Jesus, Moses and Elijah.`, "Each of the three doors is both an entrance and a path: you can walk right through the chapel on your way across campus."],
+    ["Materials 재료", `Outside, the walls are rust-colored steel ${K("코르텐 강판", "koreuten gangpan")}, which grows darker and richer with time. Inside, the concrete walls show the pattern of wood grain.`],
+    ["A quiet place", "JJ University is a Christian university, but the chapel is open to everyone. Sit for a few minutes, rest from busy classes and listen to the forest."]],
+  jj: `On a spring walk through Star Garden, follow the path up to the three huts. It is one of the calmest places on campus, and a favorite photo spot for architecture lovers.`,
+  say: [["작은 교회가 정말 예뻐요.", "The little church is really pretty."], ["여기서 잠깐 쉬어 가요.", "Let's rest here for a moment."]],
+  know: [["Architecture tour", "건축 산책", `Star Center (2011) and the three huts (2020) are two very different landmarks on one campus. Compare the big modern building and the tiny chapel!`],
+    ["Manners", "예절", "People may be praying inside. Speak quietly and don't block the doors with photos."]],
+  when: [["Asking the way", "초막교회가 어디에 있어요?", "Where is the hut chapel?"]],
+  terms: [["교회", "gyohoe", "church"], ["예배당", "yebaedang", "chapel"], ["초막", "chomak", "hut, shelter"], ["건축", "geonchuk", "architecture"], ["숲", "sup", "forest"], ["조용하다", "joyonghada", "quiet"]]});
+
 /* ================= C 전주 둘러보기 ================= */
 page({code: "JB-C-01", t: "전주 한옥마을", en: "Jeonju Hanok Village", pic: ["jeonju.jpg", `${K("전주 한옥마을", "jeonju hanongmaeul")}`],
   facts: [["What is it?", "a village of more than 700 traditional Korean houses, right in the city center"],
