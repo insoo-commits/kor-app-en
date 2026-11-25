@@ -1,67 +1,9 @@
 // Areas and sub-groups: [code, Korean name, English name]. KOR4ET (English-track version, 2026-11-24).
 module.exports = {
- "areas": [
-  [
-   "K2",
-   "기초회화",
-   "Basic Conversation"
-  ],
-  [
-   "K1",
-   "문자학습",
-   "Hangeul"
-  ],
-  [
-   "K6",
-   "문장규칙",
-   "Grammar"
-  ],
-  [
-   "K7",
-   "짝말비교",
-   "Word Pairs"
-  ],
-  [
-   "K8",
-   "비슷한말",
-   "Similar Words"
-  ],
-  [
-   "K9",
-   "단어가족",
-   "Word Families"
-  ],
-  [
-   "K4",
-   "대학 생활",
-   "University Life"
-  ],
-  [
-   "K5",
-   "아르바이트",
-   "Part-time Jobs"
-  ],
-  [
-   "LS",
-   "듣기연습",
-   "Listening Practice"
-  ],
-  [
-   "TP",
-   "TOPIK",
-   "TOPIK"
-  ],
-  [
-   "KR",
-   "대한민국",
-   "About Korea"
-  ],
-  [
-   "HP",
-   "도움말",
-   "Help"
-  ]
- ],
+ "areas": [["K1", "한글", "Hangeul"], ["K2", "기초회화", "Basic Conversation"], ["K4", "대학 생활", "University Life"], ["K5", "아르바이트", "Part-time Jobs"], ["K6", "문법", "Grammar"], ["K7", "어휘", "Vocabulary"], ["LS", "듣기연습", "Listening Practice"], ["TP", "TOPIK", "TOPIK"], ["KR", "대한민국", "About Korea"], ["HP", "도움말", "Help"]],
+ "alias": {"K8": "K7", "K9": "K7"},   // 짝말비교 K7 · 비슷한말 K8 · 단어가족 K9 are one menu 어휘 (RYU 2026-11-25, v1.8); codes kept
+ "hidden": ["HP"],   // help opens from the ? button at the end of the menu
+ "parts": {"K7": "짝말", "K8": "비슷한 말", "K9": "단어 뿌리"},
  "subs": {
   "K1-A": [
    "모음",
@@ -288,8 +230,8 @@ module.exports = {
    "Question Words"
   ],
   "K8-I": [
-   "일터 헷갈리는 말",
-   "Work Words"
+   "학교·알바 헷갈리는 말",
+   "Campus & Job Words"
   ],
   "K8-Z": [
    "비슷한말 총정리",
@@ -308,8 +250,8 @@ module.exports = {
    "Money & Documents"
   ],
   "K9-D": [
-   "일·안전 뿌리",
-   "Work & Safety Roots"
+   "학교·안전 뿌리",
+   "School & Safety Roots"
   ],
   "K9-E": [
    "생활의 뿌리",
