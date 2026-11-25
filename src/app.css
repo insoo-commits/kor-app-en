@@ -1085,3 +1085,15 @@ html.tab .kbinfo>span{display:inline-flex}
 /* KoJey tagline under the title (RYU 2026-11-25, v1.6) */
 #app .top .tagline{margin:2px 0 0;color:#fff;opacity:.85;font-size:14px;font-weight:500}
 @media (max-width:600px){#app .top .tagline{font-size:12px}}
+/* JeyJey and friends (v1.7) */
+#app .top .jeyhd{position:absolute;right:150px;bottom:-6px;height:96%;max-height:170px;width:auto;z-index:1;filter:drop-shadow(0 4px 10px rgba(0,0,0,.25));pointer-events:none}
+@media (max-width:900px){#app .top .jeyhd{right:16px}}
+@media (max-width:600px){#app .top .jeyhd{right:6px;height:94%;max-height:112px;bottom:-4px}#app .top .brand{position:relative;z-index:2;max-width:calc(100% - 70px)}}
+.mn-nx{position:relative;overflow:hidden}
+.mn-nx .nxjey{position:absolute;right:34px;bottom:-14px;height:84px;width:auto;opacity:.95;pointer-events:none}
+@media (max-width:600px){.mn-nx .nxjey{height:58px;right:30px;bottom:-10px}.mn-nx{padding-right:84px}}
+.qend .qjey{display:block;height:120px;width:auto;margin:6px auto 0;animation:jeyhop .6s ease-out 1}
+@keyframes jeyhop{0%{transform:translateY(14px);opacity:0}60%{transform:translateY(-6px);opacity:1}100%{transform:none}}
+@media (prefers-reduced-motion:reduce){.qend .qjey{animation:none}}
+figure.jeyfig{max-width:520px;margin:10px auto}
+figure.jeyfig img{background:#fff}

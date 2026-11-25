@@ -1095,6 +1095,18 @@ html.tab .kbinfo>span{display:inline-flex}
 /* KoJey tagline under the title (RYU 2026-11-25, v1.6) */
 #app .top .tagline{margin:2px 0 0;color:#fff;opacity:.85;font-size:14px;font-weight:500}
 @media (max-width:600px){#app .top .tagline{font-size:12px}}
+/* JeyJey and friends (v1.7) */
+#app .top .jeyhd{position:absolute;right:150px;bottom:-6px;height:96%;max-height:170px;width:auto;z-index:1;filter:drop-shadow(0 4px 10px rgba(0,0,0,.25));pointer-events:none}
+@media (max-width:900px){#app .top .jeyhd{right:16px}}
+@media (max-width:600px){#app .top .jeyhd{right:6px;height:94%;max-height:112px;bottom:-4px}#app .top .brand{position:relative;z-index:2;max-width:calc(100% - 70px)}}
+.mn-nx{position:relative;overflow:hidden}
+.mn-nx .nxjey{position:absolute;right:34px;bottom:-14px;height:84px;width:auto;opacity:.95;pointer-events:none}
+@media (max-width:600px){.mn-nx .nxjey{height:58px;right:30px;bottom:-10px}.mn-nx{padding-right:84px}}
+.qend .qjey{display:block;height:120px;width:auto;margin:6px auto 0;animation:jeyhop .6s ease-out 1}
+@keyframes jeyhop{0%{transform:translateY(14px);opacity:0}60%{transform:translateY(-6px);opacity:1}100%{transform:none}}
+@media (prefers-reduced-motion:reduce){.qend .qjey{animation:none}}
+figure.jeyfig{max-width:520px;margin:10px auto}
+figure.jeyfig img{background:#fff}
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1566,6 +1578,7 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
       <path d="M95 200 Q100 168 92 146 Q88 132 98 120" stroke="var(--wood)" stroke-width="5" fill="none"/>
       <ellipse cx="78" cy="146" rx="30" ry="9" fill="var(--pine)"/><ellipse cx="114" cy="132" rx="26" ry="8" fill="var(--pine)"/><ellipse cx="94" cy="118" rx="20" ry="7" fill="var(--pine)"/>
     </svg>
+    <img class="jeyhd" src="img/jey/jey.webp" width="228" height="320" alt="JeyJey" title="JeyJey 제이제이">
     <div class="brand">
       <span class="eyebrow"><span class="logo">KoJey</span> Korean for JJ Campus Life</span>
       <h1 class="ko">전주대 캠퍼스 한국어</h1><p class="tagline ko">제이와 함께하는 한국어와 대학생활</p>
@@ -1608,6 +1621,6 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-25%20v1.6.1"></script>
-<script src="app.js?v=2026-11-25%20v1.6.1"></script>
+<script src="audio/index.js?v=2026-11-25%20v1.7"></script>
+<script src="app.js?v=2026-11-25%20v1.7"></script>
 </body></html>
