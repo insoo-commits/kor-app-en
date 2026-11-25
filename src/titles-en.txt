@@ -92,7 +92,7 @@ K2-F-06 | Distance and Travel Time
 K2-G-01 | Parts of a House
 K2-G-02 | Furniture and Appliances
 K2-G-03 | Housework
-K2-G-04 | Dormitory Life
+K2-G-04 | Living Together
 K2-G-05 | Finding a Place and Moving
 K2-G-06 | Everyday Items
 K2-H-01 | The Body
@@ -138,6 +138,7 @@ K4-C-06 | Health Room and Hospital
 K4-D-01 | Course Registration
 K4-D-02 | Semesters and Years
 K4-D-03 | Attendance and Absence
+K4-D-04 | Leave of Absence and Returning
 K4-E-01 | Lecture Expressions
 K4-E-02 | Lecture Materials
 K4-E-03 | Asking Questions and Giving Opinions
@@ -166,6 +167,11 @@ K4-L-02 | Future Plans and Job Hunting
 K4-L-03 | Thanks and Goodbyes
 K4-M-01 | Taking the Bus to School
 K4-M-02 | Going Out in Jeonju
+K4-N-01 | Opening a Phone Line
+K4-N-02 | Health Insurance
+K4-N-03 | Reporting a New Address
+K4-N-04 | Lost Items and Emergencies
+K4-N-05 | Apps for Daily Life
 K5-A-01 | Part-time work permission
 K5-A-02 | Allowed working hours
 K5-A-03 | Applying for permission
@@ -469,16 +475,16 @@ KR-I-02 | Busan
 KR-I-03 | Gyeongju
 KR-I-04 | Jeonju
 KR-I-05 | Jeju Island
-LS-A-01 | Number Song
-LS-A-02 | The Giraffe Drawing
-LS-A-03 | The Bear Family Song
-LS-A-04 | Word Chain Game
-LS-A-05 | Animal Sounds
-LS-A-06 | Days of the Week Song
-LS-A-07 | The Finger Family
-LS-A-08 | It's Raining
-LS-A-09 | Rock, Paper, Scissors
-LS-A-10 | Good Night Song
+LS-A-01 | Course Registration Notice
+LS-A-02 | Dormitory Announcement
+LS-A-03 | Festival Announcement
+LS-A-04 | Cafeteria Menu
+LS-A-05 | Shuttle Bus Information
+LS-A-06 | Scholarship Notice
+LS-A-07 | Health Check-up Notice
+LS-A-08 | Group Alien Registration
+LS-A-09 | Language Exchange Recruiting
+LS-A-10 | Graduation Ceremony Notice
 LS-B-01 | The Hungry Caterpillar
 LS-B-02 | Sharing an Umbrella
 LS-B-03 | The Lost Baby Duck

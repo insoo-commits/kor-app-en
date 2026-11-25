@@ -404,8 +404,8 @@ module.exports = {
    "Places to Visit"
   ],
   "LS-A": [
-   "노래·말놀이",
-   "Songs & Word Games"
+   "캠퍼스 방송",
+   "Campus Announcements"
   ],
   "LS-B": [
    "짧은 이야기",
@@ -502,6 +502,10 @@ module.exports = {
   "K4-M": [
    "교통",
    "Getting Around"
+  ],
+  "K4-N": [
+   "생활 정착",
+   "Settling In"
   ],
   "K5-A": [
    "아르바이트 규칙",

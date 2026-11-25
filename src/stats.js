@@ -3,7 +3,7 @@
    No names, no e-mail: each device gets a random id. Events wait in this device's storage and are sent in small
    batches to a Google Sheet (tools/stats/Code.gs, an Apps Script web app); offline they are sent later.
    STATS_URL empty = nothing is recorded. */
-const STATS_URL = "";
+const STATS_URL = "https://script.google.com/macros/s/AKfycbzvzWxwoiKKui7T0CPud3mNIoTLaBNLEmjZTJlgqQTCtfrT4SHWZOhJOW0H3c8B_skQeQ/exec";   // RYU 2026-11-25
 const ST = (() => {
   const QK = "kolearn-en-stats", IK = "kolearn-en-id", MAX = 400;
   const get = k => { try { return localStorage.getItem(k); } catch (e) { return null; } };
@@ -46,7 +46,7 @@ const ST = (() => {
    Only totals that the sheet's Apps Script adds up (doGet ?stats=1): no device ids, no single person's scores.
    STATS_PUBLIC false = build.js leaves the page out of the menu. Charts are drawn here as SVG (works offline,
    follows the light / dark colors). The last numbers are kept on the device so the page also opens offline. */
-const STATS_PUBLIC = false;
+const STATS_PUBLIC = true;   // RYU 2026-11-25: show the stats page (도움말 > 사용 통계)
 const STP = (() => {
   const CK = "kolearn-en-statspage", NS = "http://www.w3.org/2000/svg";
   const AC = {K1: "var(--k1)", K2: "var(--k2)", K4: "var(--k4)", K5: "var(--k5)", K6: "var(--k6)", K7: "var(--k7)", K8: "var(--k8)", K9: "var(--k9)", LS: "var(--k7)", TP: "var(--k3)", KR: "var(--k5)", HP: "var(--muted)"};
