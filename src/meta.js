@@ -1,6 +1,6 @@
 // Areas and sub-groups: [code, Korean name, English name]. KOR4ET (English-track version, 2026-11-24).
 module.exports = {
- "areas": [["K2", "기초회화", "Basic Conversation"], ["K1", "한글", "Hangeul"], ["K6", "문법", "Grammar"], ["K7", "어휘", "Vocabulary"], ["LS", "듣기연습", "Listening Practice"], ["K4", "대학 생활", "University Life"], ["K5", "아르바이트", "Part-time Jobs"], ["TP", "TOPIK", "TOPIK"], ["KR", "대한민국", "About Korea"], ["HP", "도움말", "Help"]],
+ "areas": [["K2", "기초회화", "Basic Conversation"], ["K1", "한글", "Hangeul"], ["K6", "문법", "Grammar"], ["K7", "어휘", "Vocabulary"], ["LS", "듣기연습", "Listening Practice"], ["K4", "대학 생활", "University Life"], ["K5", "아르바이트", "Part-time Jobs"], ["TP", "TOPIK", "TOPIK"], ["KR", "대한민국", "About Korea"], ["JB", "전주(전북)", "Jeonju & Jeonbuk"], ["HP", "도움말", "Help"]],
  "alias": {"K8": "K7", "K9": "K7"},   // 짝말비교 K7 · 비슷한말 K8 · 단어가족 K9 are one menu 어휘 (RYU 2026-11-25, v1.8); codes kept
  "seps": ["K4", "TP", "HP"],   // a | before these menus (RYU 2026-11-25)
  "hidden": [],
@@ -347,6 +347,38 @@ module.exports = {
   "KR-I": [
    "가 볼 곳",
    "Places to Visit"
+  ],
+  "JB-A": [
+   "전주·전북 알아보기",
+   "Discover Jeonbuk"
+  ],
+  "JB-B": [
+   "전주대 캠퍼스",
+   "JJ University Campus"
+  ],
+  "JB-C": [
+   "전주 둘러보기",
+   "Around Jeonju"
+  ],
+  "JB-D": [
+   "맛의 도시 전주",
+   "City of Taste"
+  ],
+  "JB-E": [
+   "전통과 문화",
+   "Tradition & Culture"
+  ],
+  "JB-F": [
+   "축제와 행사",
+   "Festivals"
+  ],
+  "JB-G": [
+   "전북 여행지",
+   "Trips in Jeonbuk"
+  ],
+  "JB-H": [
+   "전주에서 살기",
+   "Living in Jeonju"
   ],
   "LS-A": [
    "캠퍼스 방송",

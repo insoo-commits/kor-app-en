@@ -49,7 +49,7 @@ const ST = (() => {
 const STATS_PUBLIC = true;   // RYU 2026-11-25: show the stats page (도움말 > 사용 통계)
 const STP = (() => {
   const CK = "kolearn-en-statspage", NS = "http://www.w3.org/2000/svg";
-  const AC = {K1: "var(--k1)", K2: "var(--k2)", K4: "var(--k4)", K5: "var(--k5)", K6: "var(--k6)", K7: "var(--k7)", K8: "var(--k8)", K9: "var(--k9)", LS: "var(--k7)", TP: "var(--k3)", KR: "var(--k5)", HP: "var(--muted)"};
+  const AC = {K1: "var(--k1)", K2: "var(--k2)", K4: "var(--k4)", K5: "var(--k5)", K6: "var(--k6)", K7: "var(--k7)", K8: "var(--k8)", K9: "var(--k9)", LS: "var(--k7)", TP: "var(--k3)", KR: "var(--k5)", JB: "var(--k4)", HP: "var(--muted)"};
   const PAL = ["var(--k1)", "var(--k2)", "var(--k3)", "var(--k4)", "var(--k6)", "var(--k7)", "var(--k5)", "var(--k8)"];
   const fmt = n => n == null || n === "" ? "–" : Number(n).toLocaleString("en-US");
   function el(tag, at, ...k){ const e = document.createElement(tag);   // own small builder: app.js keeps its h() inside its own scope
