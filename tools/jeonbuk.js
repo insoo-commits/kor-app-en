@@ -35,7 +35,7 @@ function page(x){
 }
 
 /* ================= A 전주·전북 알아보기 ================= */
-page({code: "JB-A-01", t: "전주에서 공부하면 좋은 점", en: "Why Study in Jeonju?", pic: ["jju_aerial.jpg", `${K("전주대학교", "jeonjudaehakgyo")}: the JJ University campus`],
+page({code: "JB-A-04", t: "전주에서 공부하면 좋은 점", en: "Why Study in Jeonju?", pic: ["jju_aerial.jpg", `${K("전주대학교", "jeonjudaehakgyo")}: the JJ University campus`],
   lead: `Seoul is exciting, but many students say the best years of their life were in Jeonju. ${K("전주에서 공부해요!")} Here is why.`,
   facts: [["Where", `the center of ${K("전북특별자치도", "jeonbuk teukbyeoljachido")}, in the southwest of Korea`],
     ["Your school", `${K("전주대학교", "jeonjudaehakgyo")}, JJ University, “the place for superstars”`],
@@ -53,7 +53,7 @@ page({code: "JB-A-01", t: "전주에서 공부하면 좋은 점", en: "Why Study
   when: [["Telling someone where you study", "전주에서 공부하고 있어요.", "I'm studying in Jeonju."], ["When someone asks if you like it", "네, 음식도 맛있고 사람들도 친절해요.", "Yes, the food is good and the people are kind."]],
   terms: [["유학생", "yuhaksaeng", "international student"], ["유학", "yuhak", "studying abroad"], ["생활", "saenghwal", "life, daily living"], ["친절하다", "chinjeolhada", "kind"], ["안전하다", "anjeonhada", "safe"], ["물가", "mulga", "prices, cost of living"]]});
 
-page({code: "JB-A-02", t: "전북특별자치도", en: "Jeonbuk State", pic: ["plain.jpg", `${K("호남평야", "honampyeongya")}: the wide rice fields of Jeonbuk`],
+page({code: "JB-A-01", t: "전북특별자치도", en: "Jeonbuk State", pic: ["plain.jpg", `${K("호남평야", "honampyeongya")}: the wide rice fields of Jeonbuk`],
   facts: [["Full name", `${K("전북특별자치도", "jeonbuk teukbyeoljachido")}<br>Jeonbuk State (since January 2024)`],
     ["Short name", `${K("전북", "jeonbuk")}: “north ${K("전라도", "jeollado")}”`],
     ["Main city", `${K("전주", "jeonju")}: the province office is here`],
@@ -70,7 +70,7 @@ page({code: "JB-A-02", t: "전북특별자치도", en: "Jeonbuk State", pic: ["p
   when: [["Saying where you live", "저는 전북 전주에 살아요.", "I live in Jeonju, Jeonbuk."]],
   terms: [["도", "do", "province"], ["시", "si", "city"], ["군", "gun", "county"], ["지역", "jiyeok", "region, area"], ["특산물", "teuksanmul", "local specialty"], ["농업", "nongeop", "farming"]]});
 
-page({code: "JB-A-03", t: "전주라는 도시", en: "The City of Jeonju", pic: ["pungnammun.jpg", `${K("풍남문", "pungnammun")}: the old south gate`],
+page({code: "JB-A-02", t: "전주라는 도시", en: "The City of Jeonju", pic: ["pungnammun.jpg", `${K("풍남문", "pungnammun")}: the old south gate`],
   facts: [["Name", `${K("全州", "")} “the complete, whole town”: ${K("온전한 고을", "onjeonhan goeul")}`],
     ["People", "about 640,000"],
     ["Districts", `${K("완산구", "wansangu")} and ${K("덕진구", "deokjingu")}`],
@@ -86,7 +86,7 @@ page({code: "JB-A-03", t: "전주라는 도시", en: "The City of Jeonju", pic: 
   when: [["Recommending Jeonju", "전주에 꼭 한번 와 보세요.", "You should come to Jeonju once."]],
   terms: [["도시", "dosi", "city"], ["시내", "sinae", "downtown"], ["역사", "yeoksa", "history"], ["수도", "sudo", "capital city"], ["오래되다", "oraedoeda", "old (long time)"], ["고향", "gohyang", "hometown"]]});
 
-page({code: "JB-A-04", t: "전북의 자연과 사계절", en: "Nature and Seasons of Jeonbuk", pic: ["maisan.jpg", `${K("마이산", "maisan")}: “horse-ear mountain” in Jinan`],
+page({code: "JB-A-03", t: "전북의 자연과 사계절", en: "Nature and Seasons of Jeonbuk", pic: ["maisan.jpg", `${K("마이산", "maisan")}: “horse-ear mountain” in Jinan`],
   facts: [["Plains", `${K("호남평야", "honampyeongya")}: the biggest plain in Korea, full of rice fields`],
     ["Mountains", `${K("덕유산", "deogyusan")}, ${K("내장산", "naejangsan")}, ${K("마이산", "maisan")}, part of ${K("지리산", "jirisan")}`],
     ["Sea", `the West Sea ${K("서해", "seohae")}: islands, sunsets and wide mud flats`],
@@ -532,6 +532,7 @@ page({code: "JB-H-03", t: "전주 사투리", en: "Jeonju Dialect",
   when: [["When you don't understand", "그게 무슨 뜻이에요?", "What does that mean?"], ["Asking about dialect", "이거 사투리예요?", "Is this dialect?"]],
   terms: [["사투리", "saturi", "dialect"], ["표준어", "pyojuneo", "standard language"], ["겁나", "geomna", "very (Jeolla dialect)"], ["거시기", "geosigi", "that thing (Jeolla)"], ["뜻", "tteut", "meaning"], ["말투", "maltu", "way of speaking"]]});
 
+P.sort((a, b) => a.code < b.code ? -1 : 1); TITLES.sort();
 fs.writeFileSync(path.join(root, "data/JB.json"), JSON.stringify(P));
 const tf = path.join(root, "src/titles-en.txt"), old = fs.readFileSync(tf, "utf8").split("\n").filter(l => !l.startsWith("JB-"));
 while (old.length && !old[old.length - 1].trim()) old.pop();
