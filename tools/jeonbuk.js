@@ -227,7 +227,7 @@ page({code: "JB-C-02", t: "경기전·전동성당·풍남문", en: "Gyeonggijeo
   when: [["Asking the way", "전동성당이 어디예요?", "Where is Jeondong Cathedral?"], ["Inside a sacred place", "여기서 사진 찍어도 돼요?", "Can I take pictures here?"]],
   terms: [["성당", "seongdang", "Catholic church"], ["문", "mun", "gate, door"], ["왕", "wang", "king"], ["초상화", "chosanghwa", "portrait"], ["입장료", "ipjangnyo", "entrance fee"], ["보물", "bomul", "treasure"]]});
 
-page({code: "JB-C-03", t: "오목대·벽화마을·남부시장", en: "Omokdae, Mural Village, Nambu Market", pic: ["nambu.jpg", `${K("남부시장", "nambusijang")}`],
+page({code: "JB-C-03", t: "오목대·벽화마을·남부시장", en: "Omokdae, Mural Village, Nambu Market", pic: ["nambu.jpg", `The Jeonju River across from ${K("남부시장", "nambusijang")}`],
   facts: [[K("오목대", "omokdae"), "a small hill pavilion with the best view of the Hanok Village"],
     [K("자만벽화마을", "jaman byeokhwamaeul"), "a hillside village with colorful wall paintings"],
     [K("남부시장", "nambusijang"), "Jeonju's biggest traditional market"],
@@ -243,7 +243,7 @@ page({code: "JB-C-03", t: "오목대·벽화마을·남부시장", en: "Omokdae,
   when: [["Asking for a discount", "조금만 깎아 주세요.", "Please give me a little discount."], ["Ordering at a stall", "떡볶이 일 인분 주세요.", "One serving of tteokbokki, please."]],
   terms: [["시장", "sijang", "market"], ["벽화", "byeokhwa", "wall painting, mural"], ["언덕", "eondeok", "hill"], ["전망", "jeonmang", "view"], ["상인", "sangin", "seller, merchant"], ["깎다", "kkakda", "to cut (the price)"]]});
 
-page({code: "JB-C-04", t: "덕진공원과 수목원", en: "Deokjin Park and the Arboretum", pic: ["deokjin.jpg", `Lotus flowers at ${K("덕진공원", "deokjingongwon")}`],
+page({code: "JB-C-04", t: "덕진공원과 수목원", en: "Deokjin Park and the Arboretum", pic: ["deokjin.jpg", `Yeonhwajeong pavilion in ${K("덕진공원", "deokjingongwon")}`],
   facts: [[K("덕진공원", "deokjingongwon"), "a big city park with a lotus pond and a long bridge"],
     ["Best time", "July and August, when the lotus flowers bloom"],
     [K("전주수목원", "jeonju sumogwon"), "a large garden of trees and flowers"],
@@ -340,7 +340,7 @@ page({code: "JB-E-01", t: "한지", en: "Hanji: Korean Paper", pic: ["hanji.jpg"
   when: [["Booking a class", "한지 체험 예약할 수 있어요?", "Can I book a hanji class?"]],
   terms: [["종이", "jongi", "paper"], ["전통", "jeontong", "tradition"], ["만들다", "mandeulda", "to make"], ["부채", "buchae", "hand fan"], ["등", "deung", "lamp"], ["체험", "cheheom", "hands-on experience"]]});
 
-page({code: "JB-E-02", t: "판소리와 전주대사습놀이", en: "Pansori and the Daesaseup Contest", pic: ["pansori.jpg", `${K("판소리", "pansori")} performance`],
+page({code: "JB-E-02", t: "판소리와 전주대사습놀이", en: "Pansori and the Daesaseup Contest", pic: ["pansori.jpg", `A ${K("판소리", "pansori")} performance`],
   facts: [[K("판소리", "pansori"), "one singer and one drummer tell a long story in song"],
     ["UNESCO", "Intangible Cultural Heritage of Humanity (2003)"],
     [K("전주대사습놀이", "jeonju daesaseupnori"), "a famous contest for traditional music, from the Joseon Dynasty"],
@@ -389,7 +389,7 @@ page({code: "JB-F-01", t: "전주국제영화제", en: "Jeonju International Fil
   when: [["Buying a ticket", "이 영화 아직 자리 있어요?", "Are there still seats for this movie?"]],
   terms: [["영화", "yeonghwa", "movie, film"], ["영화제", "yeonghwaje", "film festival"], ["감독", "gamdok", "director"], ["자막", "jamak", "subtitles"], ["표", "pyo", "ticket"], ["예매", "yemae", "advance booking"]]});
 
-page({code: "JB-F-02", t: "전주의 축제들", en: "Jeonju Festivals Through the Year", pic: ["festival.jpg", "A festival in Jeonju"],
+page({code: "JB-F-02", t: "전주의 축제들", en: "Jeonju Festivals Through the Year", pic: ["festival.jpg", "Festival of Korean Intangible Cultural Heritage in Jeonju"],
   facts: [["Spring", "Jeonju International Film Festival, Hanji Culture Festival"],
     ["Autumn", `Jeonju International Sori Festival, Bibimbap Festival`],
     ["Year round", "street performances and events in the Hanok Village"],
@@ -405,7 +405,7 @@ page({code: "JB-F-02", t: "전주의 축제들", en: "Jeonju Festivals Through t
   when: [["Asking about a festival", "축제는 언제까지 해요?", "Until when is the festival?"]],
   terms: [["축제", "chukje", "festival"], ["행사", "haengsa", "event"], ["무료", "muryo", "free (of charge)"], ["공연", "gongyeon", "show, performance"], ["포스터", "poseuteo", "poster"], ["참가하다", "chamgahada", "to take part"]]});
 
-page({code: "JB-F-03", t: "전북의 축제", en: "Festivals Around Jeonbuk", pic: ["gimje.jpg", `Golden rice fields in ${K("김제", "gimje")}`],
+page({code: "JB-F-03", t: "전북의 축제", en: "Festivals Around Jeonbuk", pic: ["gimje.jpg", `The dragon at ${K("벽골제", "byeokgolje")}, ${K("김제", "gimje")}`],
   facts: [[K("김제지평선축제", "gimje jipyeongseon chukje"), "Gimje Horizon Festival: rice farming culture, in autumn"],
     [K("남원 춘향제", "namwon chunhyangje"), "a spring festival for Korea's most famous love story"],
     [K("무주 반딧불축제", "muju bandeutbul chukje"), "Muju Firefly Festival, in late summer"],
@@ -421,7 +421,7 @@ page({code: "JB-F-03", t: "전북의 축제", en: "Festivals Around Jeonbuk", pi
   terms: [["지평선", "jipyeongseon", "horizon"], ["농사", "nongsa", "farming"], ["반딧불이", "bandeutburi", "firefly"], ["시골", "sigol", "countryside"], ["사랑", "sarang", "love"], ["전통 놀이", "jeontong nori", "traditional games"]]});
 
 /* ================= G 전북 여행지 ================= */
-page({code: "JB-G-01", t: "군산", en: "Gunsan", pic: ["gunsan.jpg", `Old buildings in ${K("군산", "gunsan")}`],
+page({code: "JB-G-01", t: "군산", en: "Gunsan", pic: ["gunsan.jpg", `${K("군산", "gunsan")} Modern History Museum`],
   facts: [["Where", "a port city on the West Sea, about 1 hour from Jeonju"],
     ["Known for", "modern history streets, old bakeries, islands"],
     [K("근대문화유산 거리", "geundae munhwa yusan geori"), "streets with buildings from about 100 years ago"],
@@ -436,7 +436,7 @@ page({code: "JB-G-01", t: "군산", en: "Gunsan", pic: ["gunsan.jpg", `Old build
   when: [["At the bus terminal", "군산 가는 표 한 장 주세요.", "One ticket to Gunsan, please."]],
   terms: [["항구", "hanggu", "port"], ["섬", "seom", "island"], ["다리", "dari", "bridge"], ["당일치기", "dangilchigi", "day trip"], ["근대", "geundae", "modern (era)"], ["빵", "ppang", "bread"]]});
 
-page({code: "JB-G-02", t: "남원", en: "Namwon", pic: ["gwanghallu.jpg", `${K("광한루원", "gwanghallu-won")} garden`],
+page({code: "JB-G-02", t: "남원", en: "Namwon", pic: ["gwanghallu.jpg", `${K("광한루", "gwanghallu")} at night`],
   facts: [["Where", "southeast of Jeonju, about 1 hour by bus"],
     ["Known for", `the love story ${K("춘향전", "chunhyangjeon")}`],
     [K("광한루원", "gwanghallu-won"), "a beautiful garden with a pavilion, ponds and a stone bridge"],
