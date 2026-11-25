@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>KoJey 코제이 · 캠퍼스라이프 한국어</title>
 <meta name="description" content="Learn Korean: an app for English-track students at Jeonju University">
-<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0D514B">
+<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#005595">
 <link rel="icon" href="icon-192.png" type="image/png"><link rel="apple-touch-icon" href="icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Noto+Sans:wght@400;600&display=swap">
 <script>(function(){var n=navigator,t=n.maxTouchPoints>0||"ontouchstart" in window;if((/iPad/.test(n.userAgent)||(/Macintosh/.test(n.userAgent)&&t))||(t&&Math.min(screen.width,screen.height)>=700))document.documentElement.classList.add("tab")})()</script>
@@ -1116,14 +1116,14 @@ figure.jeyfig img{background:#fff}
 #app #groups .group[aria-pressed="true"]+.group::before,#app #groups .group+.group[aria-pressed="true"]:not(.msep)::before{opacity:0!important}
 /* satisfaction survey (v1.11) */
 .svbox:empty{display:none}
-.svcard{position:relative;margin:10px 0 4px;padding:14px 16px;border-radius:16px;background:var(--card,#fff);border:1px solid var(--line);box-shadow:0 1px 2px rgba(10,60,55,.06)}
+.svcard{position:relative;margin:10px 0 4px;padding:14px 16px;border-radius:16px;background:var(--card,#fff);border:1px solid var(--line);box-shadow:0 1px 2px rgba(0,40,90,.06)}
 .svhead{display:flex;align-items:center;gap:10px}.svhead .svjey{height:54px;width:auto}
 .svq{margin:10px 0 6px;font-size:15px}.svhead .svq{margin:0}
 .svstars{display:flex;gap:4px;margin:6px 0 2px}
 .svstar{font-size:30px;line-height:1;background:none;border:0;color:var(--line2,#ccd);cursor:pointer;padding:2px 3px}.svstar.on{color:#F2B705}
 .svchips{display:flex;flex-wrap:wrap;gap:6px}
 .svchip{border:1px solid var(--line);background:var(--sheet,#fff);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:14px;cursor:pointer}
-.svchip.on{background:var(--a1,#0D514B);border-color:transparent;color:#fff}
+.svchip.on{background:var(--a1,#005595);border-color:transparent;color:#fff}
 .svtext{width:100%;box-sizing:border-box;margin-top:10px;border:1px solid var(--line);border-radius:12px;padding:8px 10px;font:inherit;font-size:14px;background:var(--sheet,#fff);color:var(--ink)}
 .svbtns{display:flex;justify-content:flex-end;margin-top:8px}
 .svx{position:absolute;right:8px;top:6px;border:0;background:none;font-size:22px;color:var(--muted);cursor:pointer}
@@ -1485,30 +1485,31 @@ html.tab .controls .bsel{font-size:18px;height:38px}
 html.tab .controls .ctl{font-size:15px}
 html.tab .ddi{font-size:17px}
 
-/* KOR4ET palette (2026-11-24): the Lao app's navy / white moon / red glow swapped for Jeonju teal, white moon, gold glow. Lao app colours: /home/user/work/skin.lao.css */
+/* v1.19.31 (RYU 2026-11-26): Jeonju University blue #005595 (from the JJU logo) with JJU yellow #FFC20E as the highlight; was Jeonju teal #0D514B.
+   KOR4ET palette (2026-11-24): the Lao app's navy / white moon / red glow swapped for Jeonju teal, white moon, gold glow. Lao app colours: /home/user/work/skin.lao.css */
 /* ===== v2.54 RYU: design A (라오 블루) from the hotel English app skin; palette swapped to navy, white moon, red glow ===== */
 
 /* ===== Skin A (RYU 2026-11-24): gradient title, underline search, pill menu, round cards, one blue for every area ===== */
-:root{--bg:#EEF3F1;--sheet:#FFFFFF;--ink:#13221F;--muted:#566C68;--line:#DEE9E6;--raise:#F6FAF9;
-  --a1:#0D514B;--a2:#15897C;--line2:#C9DED9;--tint:#EAF6F3;--segbg:#E3EFEC;--segon:#FFFFFF;--segink:#0D514B;
-  --now:#D8EFE9;--now-bar:#15897C;--shadow:0 1px 2px rgba(10,60,55,.06),0 10px 30px rgba(10,60,55,.08)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E1817;--sheet:#162220;--ink:#E3EFEC;--muted:#98ADA9;--line:#24403C;--raise:#121C1B;
-  --a1:#15897C;--a2:#3DB3A2;--line2:#2F4A46;--tint:#1A302D;--segbg:#0E1817;--segon:#15897C;--segink:#FFFFFF;
-  --now:#173D39;--now-bar:#3DB3A2;--shadow:0 0 0 1px #24403C;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0E1817;--sheet:#162220;--ink:#E3EFEC;--muted:#98ADA9;--line:#24403C;--raise:#121C1B;
-  --a1:#15897C;--a2:#3DB3A2;--line2:#2F4A46;--tint:#1A302D;--segbg:#0E1817;--segon:#15897C;--segink:#FFFFFF;
-  --now:#173D39;--now-bar:#3DB3A2;--shadow:0 0 0 1px #24403C;color-scheme:dark}
+:root{--bg:#EEF3F8;--sheet:#FFFFFF;--ink:#121E2C;--muted:#55657A;--line:#DCE5EE;--raise:#F6F9FC;
+  --a1:#005595;--a2:#0072B1;--line2:#C8D9EA;--tint:#E8F1FA;--segbg:#E3ECF5;--segon:#FFFFFF;--segink:#005595;
+  --now:#DCEBF7;--now-bar:#0072B1;--shadow:0 1px 2px rgba(0,40,90,.06),0 10px 30px rgba(0,40,90,.08)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0C141F;--sheet:#141F2C;--ink:#E3ECF5;--muted:#98A8BC;--line:#22364D;--raise:#101924;
+  --a1:#0072B1;--a2:#4EA3E0;--line2:#2C425C;--tint:#18293D;--segbg:#0C141F;--segon:#0072B1;--segink:#FFFFFF;
+  --now:#15314F;--now-bar:#4EA3E0;--shadow:0 0 0 1px #22364D;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0C141F;--sheet:#141F2C;--ink:#E3ECF5;--muted:#98A8BC;--line:#22364D;--raise:#101924;
+  --a1:#0072B1;--a2:#4EA3E0;--line2:#2C425C;--tint:#18293D;--segbg:#0C141F;--segon:#0072B1;--segink:#FFFFFF;
+  --now:#15314F;--now-bar:#4EA3E0;--shadow:0 0 0 1px #22364D;color-scheme:dark}
 /* one blue accent for every area */
-:root,html:root:root [data-g]{--accent:#0D514B;--accent-soft:#D8EFE9;--rev:#D8EFE9}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]),html:root:root:not([data-theme="light"]) [data-g]{--accent:#7FD5C6;--accent-soft:#173D39;--rev:#173D39}}
-:root[data-theme="dark"],html:root:root[data-theme="dark"] [data-g]{--accent:#7FD5C6;--accent-soft:#173D39;--rev:#173D39}
+:root,html:root:root [data-g]{--accent:#005595;--accent-soft:#DCEBF7;--rev:#DCEBF7}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]),html:root:root:not([data-theme="light"]) [data-g]{--accent:#8CC4F0;--accent-soft:#15314F;--rev:#15314F}}
+:root[data-theme="dark"],html:root:root[data-theme="dark"] [data-g]{--accent:#8CC4F0;--accent-soft:#15314F;--rev:#15314F}
 
 /* title */
 #app .top{min-height:0;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:9px;padding:16px 22px 14px;border:0;border-radius:22px;color:#fff;
-  background:radial-gradient(120% 140% at 0% 0%,#15897C 0%,#0D514B 45%,#052A27 100%)}
+  background:radial-gradient(120% 140% at 0% 0%,#0072B1 0%,#005595 45%,#00284F 100%)}
 #app .top::before,#app .top::after{content:"";position:absolute;border-radius:50%;filter:blur(2px);z-index:-1}
 #app .top::before{width:220px;height:220px;right:-50px;top:-90px;background:radial-gradient(circle,#FFFFFF 0%,rgba(235,242,255,.75) 55%,transparent 70%);opacity:.9}
-#app .top::after{width:260px;height:260px;right:70px;bottom:-190px;background:radial-gradient(circle,#F4B23E 0%,transparent 68%);opacity:.7}
+#app .top::after{width:260px;height:260px;right:70px;bottom:-190px;background:radial-gradient(circle,#FFC20E 0%,transparent 68%);opacity:.7}
 #app .top .brand,#app .top .stats{background:none;padding:0;border-radius:0;-webkit-backdrop-filter:none;backdrop-filter:none}
 #app .top .eyebrow{color:#fff;opacity:.85;font-size:12.5px;font-weight:400;letter-spacing:.04em}
 #app .top h1{color:#fff;font-family:var(--ko);font-size:clamp(26px,5.4vw,40px);letter-spacing:-.02em;line-height:1.1}
@@ -1524,7 +1525,7 @@ html.tab .ddi{font-size:17px}
 
 /* menu */
 #app .menubox{background:none;border:0;border-radius:0;padding:0;gap:8px}
-#app .groups{background:var(--sheet);border-radius:999px;padding:4px!important;gap:0!important;border-bottom:0;margin-bottom:0;box-shadow:0 1px 2px rgba(10,60,55,.08),0 8px 24px rgba(10,60,55,.08)}
+#app .groups{background:var(--sheet);border-radius:999px;padding:4px!important;gap:0!important;border-bottom:0;margin-bottom:0;box-shadow:0 1px 2px rgba(0,40,90,.08),0 8px 24px rgba(0,40,90,.08)}
 #app .group{padding:7px 14px!important;border-radius:999px!important;color:var(--muted)!important;font-size:15px!important}
 #app .group[aria-pressed="true"]{background:var(--a1)!important;color:#fff!important}
 #app .group[aria-pressed="true"]::after,#app .groups .group+.group::before,#app .groups .gsep,#app .groups .group:last-child::after{display:none!important;content:none!important}
@@ -1542,18 +1543,18 @@ html.tab .ddi{font-size:17px}
 /* sheet and band */
 #app .sheet{border:0;border-radius:20px;box-shadow:var(--shadow)}
 #app .band{background:linear-gradient(180deg,color-mix(in srgb,var(--tint) 70%,var(--sheet)),var(--sheet))}
-#app .band #bsel .bsel{border:0;border-radius:999px;background:linear-gradient(90deg,#0D514B,#15897C);color:#fff;height:38px}
+#app .band #bsel .bsel{border:0;border-radius:999px;background:linear-gradient(90deg,#005595,#0072B1);color:#fff;height:38px}
 #app .band #bsel .bsel .ddn,#app .band #bsel .bsel .ddo{color:#fff}
 #app .band #bsel .bsel .ddn{font-family:var(--display);font-weight:500;opacity:.85}
 #app .band #bsel .bsel::after{border-top-color:#fff}
-#app .bandpic{border:0;border-radius:16px;box-shadow:0 6px 18px rgba(10,60,55,.12)}
+#app .bandpic{border:0;border-radius:16px;box-shadow:0 6px 18px rgba(0,40,90,.12)}
 #app .band .tipbox{border:0;border-radius:14px;background:var(--tint)}
 #app .band .tipbox .tb{color:var(--a2)}
 
 /* controls */
 #app .controls .seg{border:0;background:var(--segbg);border-radius:999px;padding:3px;gap:0}
 #app .controls .seg button{border:0;border-radius:999px;color:var(--muted)}
-#app .controls .seg button[aria-pressed="true"]{background:var(--segon);color:var(--segink);box-shadow:0 1px 3px rgba(10,60,55,.18)}
+#app .controls .seg button[aria-pressed="true"]{background:var(--segon);color:var(--segink);box-shadow:0 1px 3px rgba(0,40,90,.18)}
 #app .controls .bsel,#app .ctl select,#app .mkrate select{background-color:var(--sheet);border:1px solid var(--line2);border-radius:999px;color:var(--accent)}
 #app .repw svg{color:var(--accent)}
 #app .controls #ctlrep .wrep.tbtn{border:1px solid var(--line2);border-radius:999px}
@@ -1602,7 +1603,7 @@ html.tab .ddi{font-size:17px}
 /* menu bar that stays at the top while reading down */
 .stick[hidden]{display:none!important}
 .stick{position:fixed;top:0;left:0;right:0;z-index:25;background:color-mix(in srgb,var(--sheet) 92%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
-  box-shadow:0 1px 0 var(--line),0 8px 20px rgba(10,60,55,.10);padding-top:env(safe-area-inset-top,0px)}
+  box-shadow:0 1px 0 var(--line),0 8px 20px rgba(0,40,90,.10);padding-top:env(safe-area-inset-top,0px)}
 .stick .stin{max-width:1000px;margin:0 auto;padding:6px max(12px,env(safe-area-inset-right,0px)) 7px max(12px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:5px}
 .stick .strow{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);padding:0 4px;line-height:1.3}
 .stick .strow b{color:var(--accent);font-size:13.5px;white-space:nowrap}
@@ -1676,7 +1677,7 @@ html.tab .ddi{font-size:17px}
 .hs{position:relative;min-width:0;max-width:100%}
 .stick .hs{align-self:flex-start}
 .hsb{position:absolute;top:50%;z-index:3;width:28px;height:28px;margin-top:-14px;border-radius:50%;border:1px solid var(--line2);background:var(--sheet);color:var(--accent);display:grid;place-items:center;padding:0;cursor:pointer;
-  box-shadow:0 2px 8px rgba(10,60,55,.22)}
+  box-shadow:0 2px 8px rgba(0,40,90,.22)}
 .hsb[hidden]{display:none}
 .hsb svg{width:15px;height:15px}
 .hsb.l{left:-6px}.hsb.r{right:-6px}
@@ -1701,7 +1702,7 @@ html.tab .ddi{font-size:17px}
 
 /* v2.55: one picture per sub-group, left of the intro (RYU 2026-11-24) */
 #app .bandrow{display:flex;gap:16px;align-items:flex-start;margin-top:8px}
-#app .bandpic{flex:0 0 270px;border-radius:16px;overflow:hidden;line-height:0;background:var(--sheet);box-shadow:0 6px 18px rgba(10,60,55,.12)}
+#app .bandpic{flex:0 0 270px;border-radius:16px;overflow:hidden;line-height:0;background:var(--sheet);box-shadow:0 6px 18px rgba(0,40,90,.12)}
 #app .bandpic svg{display:block;width:100%;height:auto}
 #app .bandtxt{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:8px}
 #app .bandtxt>*{margin:0!important}
@@ -1752,11 +1753,11 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
 }
 /* sentence cards: tinted heading band and soft cards, like the TOPIK questions */
 #app .sec .word>.line.head{background:color-mix(in srgb,var(--accent-soft) 70%,var(--sheet));border-radius:14px;padding:10px 12px 10px 16px}
-#app .sec .word .exs .line.ex{background:var(--sheet);box-shadow:0 0 0 1px var(--line),0 2px 8px rgba(10,60,55,.06)}
+#app .sec .word .exs .line.ex{background:var(--sheet);box-shadow:0 0 0 1px var(--line),0 2px 8px rgba(0,40,90,.06)}
 #app .sec .word .exs .line.ex.now{background:var(--now);box-shadow:inset 0 0 0 2px var(--a2)}
 #app .sec .word>.line.head.now{background:var(--now)}
 /* tables: coloured header, light stripes */
-#app .tablewrap{border-color:var(--line2);box-shadow:0 2px 8px rgba(10,60,55,.05)}
+#app .tablewrap{border-color:var(--line2);box-shadow:0 2px 8px rgba(0,40,90,.05)}
 #app .tablewrap th{background:var(--a1);color:#fff;border-color:var(--a1)}
 #app .tablewrap tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--tint) 60%,var(--sheet))}
 /* v1.19.20 (RYU): theme and text size side by side on one line, no labels */
@@ -1773,6 +1774,17 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   #app .bandtxt .tipbox{grid-row:3}
   #app .bandrow:not(:has(.bandpic)) .tiptog{grid-column:1 / -1}
 }
+
+/* v1.19.31 JJU yellow highlights (RYU 2026-11-26) */
+:root{--now-bar:#F2B200}
+#app .top .eyebrow .logo{background:#FFC20E;color:#00284F;border-color:#FFC20E}
+#app .top .tagline{color:#FFD95A;opacity:1}
+#app .group[aria-pressed="true"]{box-shadow:inset 0 -3px 0 #FFC20E}
+#app .tiptog{background:#FFF3C4;border-color:#F2B200;color:#5A4500}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .tiptog{background:#3A3112;color:#FFD95A}}
+:root[data-theme="dark"] #app .tiptog{background:#3A3112;color:#FFD95A}
+#app .band{border-top:4px solid #FFC20E}
+#app .sub[aria-selected="true"],#app .sub[aria-pressed="true"]{border-color:#F2B200}
 </style></head>
 <body>
 <div class="wrap" id="app" data-g="K1">
@@ -1846,6 +1858,6 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-25%20v1.19.30"></script>
-<script src="app.js?v=2026-11-25%20v1.19.30"></script>
+<script src="audio/index.js?v=2026-11-26%20v1.19.31"></script>
+<script src="app.js?v=2026-11-26%20v1.19.31"></script>
 </body></html>
