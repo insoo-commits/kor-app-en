@@ -62,6 +62,7 @@ const bundle = code => (cache.get(areaOf(code)) || []).find(b => b.code === code
    sentence: exactly N times · bundle repeat: this bundle round and round · all repeat: every bundle in app order, then back to the first */
 const synth = window.speechSynthesis || null;
 let koVoice = null, loVoice = null;
+let TIPOPEN = false;   // v1.19.19: phone tips folded until opened
 const P = {tok: 0, mode: "", paused: false, round: 1, nav: false};
 let loLbl = null;
 function markMode(){ const c = document.getElementById("ctlrep"); if (c) c.dataset.on = P.mode; }   // bar repeat button shown in reverse while it plays (v1.94)
@@ -381,7 +382,11 @@ function drawBand(b){
   const txt = [
       b && b.i ? h("p", {class: "intro"}, b.i[1] || "", b.i[1] ? " " : "", h("span", {class: "sub-ko ko"}, b.i[0])) : null,   // Lao then Korean in one run, always shown; level/type tags not shown (RYU 2026-11-14)
       /* tips under the intro, Lao text with Korean words mixed in, one bullet each, like lao-app (RYU 2026-11-16) */
+      /* v1.19.19 (RYU): on phones the tips fold behind a button so the first sentence shows sooner */
+      b && b.tp && b.tp.length ? h("button", {class: "tiptog", type: "button", "aria-expanded": String(TIPOPEN), onclick: ev => { TIPOPEN = !TIPOPEN; $("band").classList.toggle("tipopen", TIPOPEN); ev.currentTarget.setAttribute("aria-expanded", String(TIPOPEN)); }},
+        "Tips ", h("span", {class: "ko"}, "도움말 " + b.tp.length + "개"), h("i", {"aria-hidden": "true"}, "▾")) : null,
       b && b.tp && b.tp.length ? h("div", {class: "tipbox"}, b.tp.map(t => h("p", {class: "bl"}, koMix(t[1] || t[0])))) : null].filter(Boolean);
+  $("band").classList.toggle("tipopen", TIPOPEN);
   /* one picture per sub-group left of the intro (RYU 2026-11-24, v2.55) */
   const sp = (window.KO_SUBPIC || {})[subOf(S.code)];
   let pic = null; if (sp && txt.length){ pic = h("div", {class: "bandpic", "aria-hidden": "true"}); pic.innerHTML = sp; }
