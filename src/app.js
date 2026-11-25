@@ -653,7 +653,8 @@ function render(){
   if (b.info){ $("controls").hidden = true; $("ctlrep").hidden = true;
     const art = h("article", {class: "info"}); art.innerHTML = b.info;
     { const sp = art.querySelector("#statsPage"); if (sp) STP.page(sp); const sv = art.querySelector("#surveyPage"); if (sv) SV.form(sv, true); }   // 사용 통계 page (src/stats.js)
-    { const tr = art.querySelector("#tpRandom"); if (tr) tprMount(tr); }   // TOPIK random practice (v1.17)
+    { const tr = art.querySelector("#tpRandom"); if (tr) tprMount(tr); }
+    if (b.code.startsWith("TP-") && !art.querySelector(".ib")) ibGroup(art);   // v1.19.18 (RYU): TOPIK guide pages, each group in a box   // TOPIK random practice (v1.17)
     const bq = !b.tq ? b : MOCK[b.code] ? mockBundle(b) : isPage(b.code) ? pageBundle(b) : b;   // mock tests: a new random sheet (v1.17)
     view.replaceChildren(art, bq.tq ? tqView(bq) : "", pnRow(b.code)); return; }
   /* the two repeat buttons sit in the control bar above its bottom line, learn tab only (RYU 2026-11-16, v1.67) */
@@ -687,11 +688,19 @@ function tqView(b, bare){ TQB[b.code] = b;
 }
 const tqScript = au => h("div", {class: "tqs ko"}, au.map(l => h("div", null, WHO[l[0]] ? h("b", null, WHO[l[0]]) : null, l[1])));
 /* picture questions (v1.18.11, RYU): the four pictures themselves are the answer buttons */
+/* v1.19.18: wrap each h3 and what follows it (up to the next h3 or h2) in the .ib box used on the 대한민국 pages */
+function ibGroup(art){
+  const box = (h3, items) => { const ib = h("div", {class: "ib"}), bb = h("div", {class: "ibb"}); h3.replaceWith(ib); ib.append(h3, bb); bb.append(...items); return ib; };
+  art.querySelectorAll(".two > div").forEach(d => { const f = d.firstElementChild; if (f && f.tagName === "H3") { const rest = [...d.childNodes].filter(n => n !== f); box(f, rest); } });
+  [...art.children].filter(e => e.tagName === "H3").forEach(h3 => { const items = []; let n = h3.nextSibling;
+    while (n && !(n.nodeType === 1 && /^H[23]$/.test(n.tagName)) && !(n.id === "tpRandom")) { items.push(n); n = n.nextSibling; }
+    box(h3, items); });
+}
 function tqPics(q){ if (!q.p || !q.o || q.o.join("") !== "①②③④" || !q.p.includes('class="pics"')) return null;
   const t = document.createElement("template"); t.innerHTML = q.p; const ds = [...t.content.querySelectorAll(".pics > div")];
   return ds.length === 4 ? ds.map(d => { d.querySelector("b")?.remove();
     const sp = d.querySelector("span:not(.tx)");   /* v1.18.13: Korean words in a picture (graph labels) at text size, the icon stays big */
-    if (sp && /[가-힣]/.test(sp.textContent)) { const m = sp.textContent.match(/^([^가-힣A-Za-z0-9]*)(.*)$/s);
+    if (sp && /[가-힣0-9]/.test(sp.textContent)) { const m = sp.textContent.match(/^([^가-힣A-Za-z0-9]*)(.*)$/s);   /* v1.19.18: numbers too (300 → 600) */
       sp.className = "tx kt"; sp.textContent = m[2].trim(); if (m[1].trim()) { const em = document.createElement("i"); em.className = "em"; em.textContent = m[1].trim(); d.insertBefore(em, sp); } }
     return d.innerHTML; }) : null; }
 function tqChoices(q, k, redo, pics){ const st = TQ[k];
@@ -704,7 +713,7 @@ function tqItem(b, q, i, upd){
   const pics = tqPics(q);
   const answered = q.qs ? q.qs.some((s, j) => TQ[k + "." + j] != null) : TQ[k] != null;
   const el = h("div", {class: "tqi" + (q.qs ? " set" : "")},
-    h("div", {class: "tqd"}, h("b", {class: "tqn"}, (i + 1) + "."),   // RYU v1.18.2: listen button on the right; the English line starts under the Korean
+    h("div", {class: "tqd"}, h("b", {class: "tqn"}, String(i + 1)),   // RYU v1.18.2: listen button on the right; the English line starts under the Korean
       h("div", {class: "tqdt"}, h("span", {class: "ko"}, q.d), q.dl ? h("div", {class: "tqdl"}, q.dl) : null),
       q.au ? h("button", {class: "wrep tbtn tqplay", type: "button", onclick: ev => tqPlay(q, ev.currentTarget)}, ico("spk"), "Listen ", h("span", {class: "ko"}, "듣기")) : null),
     q.p && !pics ? (() => { const d = h("div", {class: "tqp ko"}); d.innerHTML = q.p; return d; })() : null,
