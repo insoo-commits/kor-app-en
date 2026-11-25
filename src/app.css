@@ -1183,3 +1183,4 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 .tqi > .tqo{margin-left:calc(var(--ind) - 13px)}
 .tqsub > .tqo{margin-left:calc(var(--ind2) - 13px)}
 @media (max-width:600px){.tqi{--ind2:30px}.tqq .tqn{width:var(--ind2)}.tqsub > :not(.tqq){margin-left:var(--ind2)}.tqi > .tqo{margin-left:calc(var(--ind) - 13px)}.tqsub > .tqo{margin-left:calc(var(--ind2) - 13px)}}
+@media (max-width:600px){.tqd .tqplay{margin:6px 0 0 auto}}   /* phone: own row, right side for the right thumb (RYU v1.18.5) */
