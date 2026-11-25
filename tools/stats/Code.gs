@@ -6,12 +6,17 @@
  * Sheet "events": one row per event.
  *   received (server time) | device time | device id | event | lesson | value 1 | value 2 | device | OS | app version | language | installed
  *   events: open (value 1 = phone/tablet/computer, value 2 = installed/browser) · lesson (lesson opened)
+ *           speak (value 1 = % match of a spoken sentence, v1.13)
  *           quiz (value 1 = right, value 2 = questions) · topik (same, TOPIK practice set) · play (value 1 = lesson/all)
  * Sheet "summary": totals and tables made with formulas from "events".
+ * Sheet "survey" (v1.11): one row per answer of the in-app satisfaction survey.
+ *   received | device id | stars (1-5) | most helpful menu | recommend (yes/maybe/no) | comment | app version | device | OS | language
+ * After changing this file: Deploy > Manage deployments > edit (pencil) > Version: New version > Deploy (the URL stays the same).
  */
 var EVENTS = 'events', SUMMARY = 'summary';
 var HEAD = ['received', 'device time', 'device id', 'event', 'lesson', 'value 1', 'value 2', 'device', 'OS', 'app version', 'language', 'installed'];
-var OK_EVENTS = {open: 1, lesson: 1, quiz: 1, topik: 1, play: 1};
+var OK_EVENTS = {open: 1, lesson: 1, quiz: 1, topik: 1, play: 1, speak: 1};
+var SURVEY = 'survey', SHEAD = ['received', 'device id', 'stars', 'most helpful menu', 'recommend', 'comment', 'app version', 'device', 'OS', 'language'];
 
 function doPost(e) {
   var lock = LockService.getScriptLock();
@@ -27,6 +32,13 @@ function doPost(e) {
     if (rows.length) {
       var sh = sheet_(EVENTS);
       sh.getRange(sh.getLastRow() + 1, 1, rows.length, HEAD.length).setValues(rows);
+    }
+    var sv = d.survey;
+    if (sv && sv.stars >= 1 && sv.stars <= 5) {
+      var ss = sheet_(SURVEY);
+      if (ss.getLastRow() === 0) ss.getRange(1, 1, 1, SHEAD.length).setValues([SHEAD]).setFontWeight('bold');
+      ss.appendRow([now, id, Math.round(sv.stars), clean_(sv.menu, 10), clean_(sv.rec, 10), clean_(sv.text, 300), clean_(d.v, 30), clean_(d.dev, 12), clean_(d.os, 12), clean_(d.lang, 12)]);
+      CacheService.getScriptCache().remove('stats');
     }
     return ContentService.createTextOutput('ok ' + rows.length);
   } catch (err) {
@@ -51,7 +63,7 @@ function stats_() {
   var dev = {}, days = {}, months = {}, lessons = {}, areas = {}, hours = [], hist = [0, 0, 0, 0, 0];
   for (var i = 0; i < 24; i++) hours.push(0);
   var t = {devices: 0, returning: 0, lessons: 0, quizzes: 0, quizAvg: null, topik: 0, topikAvg: null, plays: 0, opens: 0, installed: 0, perLearner: null};
-  var qR = 0, qN = 0, tR = 0, tN = 0, first = null;
+  var qR = 0, qN = 0, tR = 0, tN = 0, spS = 0, first = null;
   rows.forEach(function (r) {
     var when = r[0] instanceof Date ? r[0] : new Date(r[0]); if (isNaN(when)) return;
     var id = String(r[2]), ev = r[3], code = String(r[4] || ''), day = Utilities.formatDate(when, TZ, 'yyyy-MM-dd'), mon = day.slice(0, 7);
@@ -66,6 +78,7 @@ function stats_() {
     else if (ev === 'quiz') { var R = +r[5], N = +r[6]; if (N > 0) { t.quizzes++; qR += R; qN += N; hist[Math.min(4, Math.floor(5 * R / N))]++; } }
     else if (ev === 'topik') { var R2 = +r[5], N2 = +r[6]; if (N2 > 0) { t.topik++; tR += R2; tN += N2; } }
     else if (ev === 'play') t.plays++;
+    else if (ev === 'speak') { var sp = +r[5]; if (sp >= 0) { t.speaks = (t.speaks || 0) + 1; spS += sp; } }
   });
   var devs = {}, oss = {};
   Object.keys(dev).forEach(function (id) {
@@ -74,12 +87,25 @@ function stats_() {
   });
   if (qN) t.quizAvg = Math.round(1000 * qR / qN) / 10;
   if (tN) t.topikAvg = Math.round(1000 * tR / tN) / 10;
+  if (t.speaks) t.speakAvg = Math.round(spS / t.speaks);
   if (t.devices) t.perLearner = Math.round(10 * t.lessons / t.devices) / 10;
   var pairs = function (o) { return Object.keys(o).map(function (k) { return [k, o[k]]; }).sort(function (a, b) { return b[1] - a[1]; }); };
   var dayList = Object.keys(days).sort().slice(-60).map(function (k) { return [k, Object.keys(days[k].ids).length, days[k].lessons]; });
   var monList = Object.keys(months).sort().map(function (k) { return [k, Object.keys(months[k].ids).length, months[k].lessons]; });
   return {updated: Utilities.formatDate(new Date(), TZ, 'yyyy-MM-dd HH:mm') + ' KST', first: first ? Utilities.formatDate(first, TZ, 'yyyy-MM-dd') : '',
-    totals: t, daily: dayList, monthly: monList, top: pairs(lessons).slice(0, 15), areas: pairs(areas), devices: pairs(devs), os: pairs(oss), quizHist: hist, hours: hours};
+    survey: survey_(), totals: t, daily: dayList, monthly: monList, top: pairs(lessons).slice(0, 15), areas: pairs(areas), devices: pairs(devs), os: pairs(oss), quizHist: hist, hours: hours};
+}
+
+/** survey totals for the public page: no comments, no device ids */
+function survey_() {
+  var sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SURVEY), out = {n: 0, avg: null, dist: [0, 0, 0, 0, 0], recPct: null};
+  if (!sh || sh.getLastRow() < 2) return out;
+  var rows = sh.getRange(2, 1, sh.getLastRow() - 1, 5).getValues(), sum = 0, rec = 0, recN = 0;
+  rows.forEach(function (r) { var st = Number(r[2]); if (!(st >= 1 && st <= 5)) return; out.n++; sum += st; out.dist[st - 1]++;
+    if (r[4]) { recN++; if (r[4] === 'yes') rec++; } });
+  if (out.n) out.avg = Math.round(10 * sum / out.n) / 10;
+  if (recN) out.recPct = Math.round(100 * rec / recN);
+  return out;
 }
 
 /** Run once from the editor: makes the two sheets with headers and summary formulas. */

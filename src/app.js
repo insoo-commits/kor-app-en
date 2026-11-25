@@ -308,6 +308,7 @@ function streak(){
 }
 function drawMine(){
   const box = $("mine"); if (!box) return;
+  SV.offer($("svbox"), Object.keys(S.seen || {}).length, (S.days || []).length);   // satisfaction survey card (v1.11)
   const L = IDX.filter(r => r[3] !== "info"), seen = S.seen || {}, n = L.filter(r => seen[r[0]]).length, pct = L.length ? Math.round(1000 * n / L.length) / 10 : 0;
   const at = L.findIndex(r => r[0] === S.code), nx = L.slice(at + 1).concat(L.slice(0, at + 1)).find(r => !seen[r[0]]) || L[(at + 1) % L.length];
   const td = S.td && S.td.d === dayStr(new Date()) ? S.td : {l: 0, q: 0}, st = streak();
@@ -315,6 +316,7 @@ function drawMine(){
     h("div", {class: "mn mn-st" + (st ? " on" : "")}, h("b", null, h("span", {class: "fire", "aria-hidden": "true"}, "🔥"), String(st)), h("span", null, st === 1 ? "day in a row" : "days in a row"), h("small", {class: "ko"}, "연속 학습")),
     h("div", {class: "mn mn-pr"}, h("b", null, pct + "%"), h("span", null, n + " / " + L.length + " lessons"), h("small", {class: "ko"}, "내 진도"), h("div", {class: "mbar"}, h("i", {style: "width:" + Math.max(pct, n ? 1.5 : 0) + "%"}))),
     h("div", {class: "mn mn-td"}, h("b", null, String(td.l)), h("span", null, "lessons today" + (td.q ? " · " + td.q + " quiz" + (td.q > 1 ? "zes" : "") : "")), h("small", {class: "ko"}, "오늘 공부")),
+    (S.wb || []).length ? h("button", {class: "mn mn-wb", type: "button", onclick: wbReview}, h("small", null, "Review my mistakes ", h("span", {class: "ko"}, "오답 복습")), h("span", null, S.wb.length + (S.wb.length > 1 ? " questions" : " question")), h("i", {"aria-hidden": "true"}, "→")) : null,
     nx ? h("button", {class: "mn mn-nx", type: "button", onclick: () => { go(nx[0]); scrollTo({top: 0, behavior: "smooth"}); }}, h("small", null, "Next new lesson ", h("span", {class: "ko"}, "다음 새 묶음")), h("span", {class: "ko"}, nx[1]), h("i", {"aria-hidden": "true"}, "→"), jeyPic("jey_side", "nxjey")) : null);
 }
 function drawStats(){
@@ -401,8 +403,39 @@ const gloss = g => g && g.length ? h("div", {class: "gl"}, "※ ", g.flatMap((x,
 /* base form of a conjugation row ("저 ຂ້ອຍ"), shown at the bottom like the ※ notes */
 const fromNote = f => { if (!f) return null; const m = f.match(/^([가-힣\s?!.~\-\/]*[가-힣?!.~])\s*(.*)$/);
   return h("div", {class: "gl"}, "※ ", h("span", {class: "ko"}, m ? m[1] : f), m && m[2] ? [" (", h("span", {class: "gm"}, m[2]), ")"] : null); };
+/* speaking practice (v1.13, idea 3): 🎤 under each sentence on the Sentences tab. The browser's own speech recognition
+   (Chrome, Edge, Safari; not Firefox) listens in Korean; the app shows what it heard and how close it is (letters compared,
+   spaces and marks left out). Nothing is recorded or kept: only "speak, score" goes to the usage statistics. */
+const SRC = window.SpeechRecognition || window.webkitSpeechRecognition;
+let recNow = null;
+const normKo = s => String(s || "").replace(/\(.*?\)/g, "").replace(/[^0-9A-Za-zㄱ-ㆎ가-힣]/g, "").toLowerCase();
+function simKo(a, b){
+  a = normKo(a); b = normKo(b); if (!a || !b) return 0;
+  let prev = Array.from({length: b.length + 1}, (_, j) => j);
+  for (let i = 1; i <= a.length; i++){ const cur = [i]; for (let j = 1; j <= b.length; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); prev = cur; }
+  return Math.max(0, Math.round(100 * (1 - prev[b.length] / Math.max(a.length, b.length))));
+}
+function sayIt(btn){
+  const ln = btn.closest("[data-say]"), target = ln && ln.dataset.say, box = btn.parentNode.querySelector(".sayres") || btn.parentNode.appendChild(h("div", {class: "sayres"}));
+  if (recNow){ try { recNow.abort(); } catch (e) {} recNow = null; document.querySelectorAll(".saybtn.on").forEach(b => b.classList.remove("on")); if (btn.dataset.on){ delete btn.dataset.on; return; } }
+  stopPlay();
+  const r = new SRC(); r.lang = "ko-KR"; r.interimResults = false; r.maxAlternatives = 3; recNow = r; btn.dataset.on = "1"; btn.classList.add("on");
+  box.className = "sayres wait"; box.replaceChildren("Listening… say the sentence ", h("span", {class: "ko"}, "듣고 있어요. 말해 보세요"));
+  let got = false;
+  r.onresult = ev => { got = true; const alts = Array.from(ev.results[0] || []).map(x => x.transcript);
+    const best = alts.map(t => [t, simKo(t, target)]).sort((x, y) => y[1] - x[1])[0] || ["", 0], p = best[1];
+    box.className = "sayres " + (p >= 85 ? "good" : p >= 60 ? "mid" : "low");
+    box.replaceChildren(h("b", null, (p >= 85 ? "✓ " : "") + p + "%"), " ", h("span", {class: "ko"}, best[0] || "—"), " ",
+      h("small", null, p >= 85 ? "Great! 잘했어요!" : p >= 60 ? "Close. Try again. 조금 더!" : "Listen with 🔊 and try again. 다시 들어 보세요."));
+    ST.log("speak", S.code, p); };
+  r.onerror = ev => { got = true; box.className = "sayres low";
+    box.replaceChildren(ev.error === "not-allowed" || ev.error === "service-not-allowed" ? "Please allow the microphone for this site. 마이크를 허용해 주세요." : ev.error === "no-speech" ? "I didn't hear anything. Try again. 소리가 들리지 않았어요." : "Speech recognition is not available now. 지금은 음성 인식을 쓸 수 없어요."); };
+  r.onend = () => { btn.classList.remove("on"); delete btn.dataset.on; if (recNow === r) recNow = null; if (!got){ box.className = "sayres low"; box.replaceChildren("I didn't hear anything. Try again. 소리가 들리지 않았어요."); } };
+  try { r.start(); } catch (e) { btn.classList.remove("on"); delete btn.dataset.on; recNow = null; }
+}
+const sayBtn = () => SRC ? h("div", {class: "sayrow"}, h("button", {class: "saybtn", type: "button", onclick: ev => { ev.stopPropagation(); sayIt(ev.currentTarget); }}, "🎤 Say it ", h("span", {class: "ko"}, "말해 보기"))) : null;
 const line = (ko, pr, lo, cls, from, g) => h("div", {class: "line " + (cls || ""), "data-say": ko, "data-lo": lo, "data-head": cls === "head" ? "1" : null}, spk(),
-  h("div", null, h("div", {class: "k ko"}, ko), pr ? h("div", {class: "p"}, pr) : null, h("div", {class: "m"}, lo), gloss(g), fromNote(from)));
+  h("div", null, h("div", {class: "k ko"}, ko), pr ? h("div", {class: "p"}, pr) : null, h("div", {class: "m"}, lo), gloss(g), fromNote(from), cls === "head" ? null : sayBtn()));
 /* previous / next lesson buttons at the bottom (RYU 2026-11-19, v2.02) */
 function pnRow(code){
   const i = byCode.get(code), next = IDX[i + 1], prev = i > 0 ? IDX[i - 1] : null;
@@ -418,7 +451,7 @@ function renderLearn(b){
   const dl = b.dl || [], lis = b.type === "듣기";
   const dlSec = sec("dl", dl.length ? [
       lis ? veilBar() : null,
-      h("div", {class: "rows dlg" + (lis ? " lis veil" : "")}, dl.map((d, n) => h("div", {class: "line", "data-say": d[1], "data-lo": d[2], "data-m": (b.mv || []).includes(d[0]) ? "1" : null}, h("div", {class: "exn", "aria-label": String(n + 1)}, String(n + 1)), spk(), h("div", null, h("div", {class: "k ko"}, lis && d[0] ? h("span", {class: "who"}, d[0] + ": ") : null, d[1]), d[4] ? h("div", {class: "p"}, d[4]) : null, h("div", {class: "m"}, d[2]), gloss(d[3])))))] : null);   // d[4]: Lao-script reading, as in the example sentences (RYU 2026-11-14)
+      h("div", {class: "rows dlg" + (lis ? " lis veil" : "")}, dl.map((d, n) => h("div", {class: "line", "data-say": d[1], "data-lo": d[2], "data-m": (b.mv || []).includes(d[0]) ? "1" : null}, h("div", {class: "exn", "aria-label": String(n + 1)}, String(n + 1)), spk(), h("div", null, h("div", {class: "k ko"}, lis && d[0] ? h("span", {class: "who"}, d[0] + ": ") : null, d[1]), d[4] ? h("div", {class: "p"}, d[4]) : null, h("div", {class: "m"}, d[2]), gloss(d[3]), lis ? null : sayBtn()))))] : null);   // d[4]: Lao-script reading, as in the example sentences (RYU 2026-11-14)
   return [
     lis ? dlSec : null,   // 듣기연습: the text comes first (v2.45)
     b.yt ? h("p", {class: "ytrow"}, h("a", {class: "btn ytbtn", href: b.yt, target: "_blank", rel: "noopener"}, "▶ Watch the MV on YouTube ", h("span", {class: "ko"}, "뮤직비디오 보기"))) : null,   // K-POP: find the official MV (no lyrics in the app) (v2.46)
@@ -532,6 +565,21 @@ function makeQuiz(b){
   });
   return {code: b.code, qs, at: 0, right: 0};
 }
+/* mistake notebook (v1.12, idea 4): wrong quiz questions from every lesson are kept on this device (S.wb, newest first, up to 80).
+   "Review my mistakes" asks them again in one quiz; a right answer there takes the question out of the list. */
+const wbKey = q => q.kind + "|" + q.a + "|" + (q.q || q.say || "");
+function wbAdd(qz){
+  const bank = S.wb = (S.wb || []).filter(x => x && x.q), have = new Set(bank.map(x => wbKey(x.q)));
+  qz.qs.filter(q => q.picked !== q.a).forEach(q => { const c = Object.assign({}, q, {picked: null}); if (!have.has(wbKey(c))){ have.add(wbKey(c)); bank.unshift({q: c, code: qz.code}); } });
+  S.wb = bank.slice(0, 80);
+}
+function wbDrop(q){ S.wb = (S.wb || []).filter(x => wbKey(x.q) !== wbKey(q)); }
+function wbReview(){
+  const bank = (S.wb || []).filter(x => x && x.q); if (!bank.length) return;
+  stopPlay(); S.mode = "quiz";
+  quiz = {code: S.code, review: true, qs: shuffle(bank.slice(0, 20)).map(x => Object.assign({}, x.q, {picked: null, opts: shuffle(x.q.opts.slice())})), at: 0, right: 0};
+  save(); drawControls(); render(); const v = $("view"); if (v) v.scrollIntoView({behavior: "smooth", block: "start"});
+}
 /* quiz result (v1.4): a score ring, a word for the result, the questions that were wrong, and "only the wrong ones" */
 /* Jeonju Univ. characters JeyJey · Byeori · Jate (files from RYU 2026-11-25, v1.7): JeyJey cheers a high score, Byeori a middle one, Jate says try again */
 const jeyPic = (n, cls) => h("img", {class: cls, src: "img/jey/" + n + ".webp", alt: "", loading: "lazy"});
@@ -542,12 +590,13 @@ function quizEnd(){
   ring.append(mk("circle", {cx: 60, cy: 60, r: 52, class: "qr0"}), mk("circle", {cx: 60, cy: 60, r: 52, class: "qr1" + (pct >= 80 ? " hi" : pct < 50 ? " lo" : ""), "stroke-dasharray": (C * pct / 100) + " " + C, transform: "rotate(-90 60 60)"}));
   const msg = pct === 100 ? ["Perfect!", "완벽해요!"] : pct >= 80 ? ["Great job!", "잘했어요!"] : pct >= 50 ? ["Good, keep going!", "좋아요, 조금 더!"] : ["Let's try again.", "다시 해 봐요."];
   const qText = q => q.kind === "blank" ? q.blank.full : q.kind === "listen" ? q.say : q.q;
-  return [h("div", {class: "qend"}, h("div", {class: "qringw"}, ring, h("div", {class: "qrt"}, h("b", null, pct + "%"), h("span", null, R + " / " + N))),
+  return [quiz.review ? h("p", {class: "qrev"}, "Mistake review ", h("span", {class: "ko"}, "오답 복습"), " · " + (S.wb || []).length + " left") : null, h("div", {class: "qend"}, h("div", {class: "qringw"}, ring, h("div", {class: "qrt"}, h("b", null, pct + "%"), h("span", null, R + " / " + N))),
       h("p", {class: "qmsg"}, msg[0], " ", h("span", {class: "ko"}, msg[1])), jeyPic(pct >= 80 ? "jey" : pct >= 50 ? "byeori" : "jate", "qjey")),
     wrong.length ? h("div", {class: "qwrong"}, h("h3", null, "Check these again ", h("span", {class: "ko"}, "다시 볼 문제")),
       wrong.map(q => h("div", {class: "qw"}, h("span", {class: q.toLo ? "ko" : ""}, qText(q)), h("b", {class: q.toLo ? "" : "ko"}, q.a)))) : null,
     h("div", {class: "rowbtns", style: "justify-content:center"},
-      wrong.length && wrong.length < N ? h("button", {class: "btn primary", type: "button", onclick: () => { stopPlay(); quiz = {code: quiz.code, qs: wrong.map(q => Object.assign({}, q, {picked: null})), at: 0, right: 0}; render(); }}, "Only the wrong ones ", h("span", {class: "ko"}, "틀린 것만")) : null,
+      (S.wb || []).length && !quiz.review ? h("button", {class: "btn", type: "button", onclick: wbReview}, "My mistakes ", h("span", {class: "ko"}, "오답 복습"), " · " + S.wb.length) : null,
+      wrong.length && wrong.length < N ? h("button", {class: "btn primary", type: "button", onclick: () => { stopPlay(); quiz = {code: quiz.code, review: quiz.review, qs: wrong.map(q => Object.assign({}, q, {picked: null})), at: 0, right: 0}; render(); }}, "Only the wrong ones ", h("span", {class: "ko"}, "틀린 것만")) : null,
       h("button", {class: "btn" + (wrong.length && wrong.length < N ? "" : " primary"), type: "button", onclick: () => { stopPlay(); quiz = null; render(); }}, T.again))];
 }
 function renderQuiz(b){
@@ -562,8 +611,8 @@ function renderQuiz(b){
   return [h("div", null, head, h("p", {class: "quizp"}, lab + " · " + (quiz.at + 1) + " / " + quiz.qs.length)),
     q.say && q.kind === "mean" || q.picked != null && q.say ? h("div", {class: "rowbtns", style: "justify-content:center", "data-say": q.say}, spk()) : null,
     h("div", {class: "choices"}, q.opts.map(o => h("button", {class: "choice" + (q.toLo ? "" : " ko") + (q.picked != null ? (o === q.a ? " right" : o === q.picked ? " wrong" : "") : ""), type: "button", disabled: q.picked != null,
-      onclick: () => { q.picked = o; if (o === q.a) quiz.right++; render(); if (!q.toLo){ stopPlay(); const tok = ++P.tok; say(tok, q.kind === "blank" ? q.blank.full : q.a); } }}, o))),
-    q.picked != null ? h("div", {class: "rowbtns", style: "justify-content:flex-end"}, h("button", {class: "btn primary", type: "button", onclick: () => { stopPlay(); quiz.at++; if (quiz.at === quiz.qs.length){ ST.log("quiz", quiz.code, quiz.right, quiz.qs.length); if (S.td) S.td.q++; save(); drawMine(); } render(); const nq = quiz.qs[quiz.at], el = document.querySelector(".quizq.listen"); if (nq && nq.kind === "listen" && el) playSingle(el); }}, T.nextCard)) : null];
+      onclick: () => { q.picked = o; if (o === q.a){ quiz.right++; if (quiz.review) wbDrop(q); } render(); if (!q.toLo){ stopPlay(); const tok = ++P.tok; say(tok, q.kind === "blank" ? q.blank.full : q.a); } }}, o))),
+    q.picked != null ? h("div", {class: "rowbtns", style: "justify-content:flex-end"}, h("button", {class: "btn primary", type: "button", onclick: () => { stopPlay(); quiz.at++; if (quiz.at === quiz.qs.length){ if (!quiz.review){ ST.log("quiz", quiz.code, quiz.right, quiz.qs.length); wbAdd(quiz); } else save(); if (S.td) S.td.q++; save(); drawMine(); } render(); const nq = quiz.qs[quiz.at], el = document.querySelector(".quizq.listen"); if (nq && nq.kind === "listen" && el) playSingle(el); }}, T.nextCard)) : null];
 }
 
 /* ---------- search ---------- */
@@ -593,7 +642,7 @@ function render(){
   /* 대한민국 pages: the page itself and the prev / next buttons; no play controls (RYU 2026-11-20, v2.19) */
   if (b.info){ $("controls").hidden = true; $("ctlrep").hidden = true;
     const art = h("article", {class: "info"}); art.innerHTML = b.info;
-    { const sp = art.querySelector("#statsPage"); if (sp) STP.page(sp); }   // 사용 통계 page (src/stats.js)
+    { const sp = art.querySelector("#statsPage"); if (sp) STP.page(sp); const sv = art.querySelector("#surveyPage"); if (sv) SV.form(sv, true); }   // 사용 통계 page (src/stats.js)
     view.replaceChildren(art, b.tq ? tqView(b) : "", pnRow(b.code)); return; }
   /* the two repeat buttons sit in the control bar above its bottom line, learn tab only (RYU 2026-11-16, v1.67) */
   $("ctlrep").replaceChildren(...(S.mode !== "quiz" ? [

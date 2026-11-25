@@ -1114,6 +1114,42 @@ figure.jeyfig img{background:#fff}
 /* · between menus inside one section, | between sections (RYU 2026-11-25, v1.9) */
 #app #groups .group+.group:not(.msep)::before{content:"·"!important;display:block!important;position:absolute;left:-3px;top:50%;transform:translate(-50%,-52%);color:var(--muted);opacity:.6;font-weight:700;background:none;width:auto;height:auto}
 #app #groups .group[aria-pressed="true"]+.group::before,#app #groups .group+.group[aria-pressed="true"]:not(.msep)::before{opacity:0!important}
+/* satisfaction survey (v1.11) */
+.svbox:empty{display:none}
+.svcard{position:relative;margin:10px 0 4px;padding:14px 16px;border-radius:16px;background:var(--card,#fff);border:1px solid var(--line);box-shadow:0 1px 2px rgba(10,60,55,.06)}
+.svhead{display:flex;align-items:center;gap:10px}.svhead .svjey{height:54px;width:auto}
+.svq{margin:10px 0 6px;font-size:15px}.svhead .svq{margin:0}
+.svstars{display:flex;gap:4px;margin:6px 0 2px}
+.svstar{font-size:30px;line-height:1;background:none;border:0;color:var(--line2,#ccd);cursor:pointer;padding:2px 3px}.svstar.on{color:#F2B705}
+.svchips{display:flex;flex-wrap:wrap;gap:6px}
+.svchip{border:1px solid var(--line);background:var(--sheet,#fff);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:14px;cursor:pointer}
+.svchip.on{background:var(--a1,#0D514B);border-color:transparent;color:#fff}
+.svtext{width:100%;box-sizing:border-box;margin-top:10px;border:1px solid var(--line);border-radius:12px;padding:8px 10px;font:inherit;font-size:14px;background:var(--sheet,#fff);color:var(--ink)}
+.svbtns{display:flex;justify-content:flex-end;margin-top:8px}
+.svx{position:absolute;right:8px;top:6px;border:0;background:none;font-size:22px;color:var(--muted);cursor:pointer}
+.svdone{display:flex;align-items:center;gap:12px}.svdone .svjey{height:70px;width:auto}.svdone p{margin:0}
+/* mistake notebook (v1.12) */
+.mn-wb{grid-column:1/-1;display:flex;flex-direction:row;align-items:center;gap:8px;text-align:left;cursor:pointer;font:inherit;color:var(--ink);background:#FFF4E5;border-color:transparent}
+.mn-wb small{display:inline;flex:none;color:#B45309;font-weight:600}.mn-wb > span{flex:1;font-size:14px;font-weight:600}.mn-wb i{font-style:normal;font-weight:700;color:#B45309}
+:root[data-theme="dark"] .mn-wb{background:#3A2A14}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mn-wb{background:#3A2A14}}
+.qrev{text-align:center;font-weight:700;color:#B45309;margin:0 0 6px}
+/* word cards: the last row is centred (RYU 2026-11-25, v1.12) */
+.wcards{display:flex!important;flex-wrap:wrap;justify-content:center}
+.wcards > .wcard{flex:0 0 calc((100% - 30px) / 4);min-width:0;box-sizing:border-box}
+@media (max-width:900px){.wcards > .wcard{flex-basis:calc((100% - 20px) / 3)}}
+@media (max-width:560px){.wcards > .wcard{flex-basis:calc((100% - 8px) / 2)}}
+/* speaking practice (v1.13) */
+.sayrow{margin-top:6px}
+.saybtn{border:1px solid var(--line);background:var(--sheet);color:var(--accent);border-radius:999px;padding:3px 11px;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.saybtn.on{background:#C2410C;border-color:#C2410C;color:#fff;animation:saypulse 1s ease-in-out infinite}
+@keyframes saypulse{50%{box-shadow:0 0 0 6px rgba(194,65,12,.18)}}
+@media (prefers-reduced-motion:reduce){.saybtn.on{animation:none}}
+.sayres{margin-top:6px;font-size:14px;padding:6px 10px;border-radius:10px;background:var(--accent-soft)}
+.sayres.good{background:#E3F4E8}.sayres.good b{color:#15803D}.sayres.mid b{color:#B45309}.sayres.low{background:#FDECEC}.sayres.low b{color:#B91C1C}
+.sayres small{display:block;color:var(--muted);margin-top:2px}
+:root[data-theme="dark"] .sayres.good{background:#12301C}:root[data-theme="dark"] .sayres.low{background:#3A1717}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sayres.good{background:#12301C}:root:not([data-theme="light"]) .sayres.low{background:#3A1717}}
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1313,6 +1349,14 @@ html.tab .pb{font-size:14.4px}
 html.tab #app .top .tagline{font-size:16.8px}
 @media (max-width:600px){html.tab #app .top .tagline{font-size:14.4px}}
 html.tab .subs .subpart{font-size:14.4px}
+html.tab .svq{font-size:18px}
+html.tab .svstar{font-size:36px}
+html.tab .svchip{font-size:16.8px}
+html.tab .svtext{font-size:16.8px}
+html.tab .svx{font-size:26.4px}
+html.tab .mn-wb > span{font-size:16.8px}
+html.tab .saybtn{font-size:15.6px}
+html.tab .sayres{font-size:16.8px}
 /* iPad control row: kept on one line, boxes a bit taller (RYU 2026-11-14, v0.96; text 1.2x from v0.97) */
 html.tab .controls .seg button{font-size:18px;height:36px}
 html.tab .controls .bsel{font-size:18px;height:38px}
@@ -1598,6 +1642,7 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
     <input id="q" type="search" placeholder="Search in Korean or English (e.g. 밥, rice)" autocomplete="off">
   </label>
   <div class="mine" id="mine"></div>
+  <div class="svbox" id="svbox"></div>
   <div class="menubox">
     <nav class="groups" id="groups" aria-label="Main menu"></nav>
     <nav class="subs" id="subs" role="tablist" aria-label="Sub menu"></nav>
@@ -1629,6 +1674,6 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-25%20v1.10"></script>
-<script src="app.js?v=2026-11-25%20v1.10"></script>
+<script src="audio/index.js?v=2026-11-25%20v1.13"></script>
+<script src="app.js?v=2026-11-25%20v1.13"></script>
 </body></html>
