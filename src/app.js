@@ -442,7 +442,8 @@ function sayIt(btn){
   r.onend = () => { btn.classList.remove("on"); delete btn.dataset.on; if (recNow === r) recNow = null; if (!got){ box.className = "sayres low"; box.replaceChildren("I didn't hear anything. Try again. 소리가 들리지 않았어요."); } };
   try { r.start(); } catch (e) { btn.classList.remove("on"); delete btn.dataset.on; recNow = null; }
 }
-const sayBtn = () => SRC ? h("div", {class: "sayrow"}, h("button", {class: "saybtn", type: "button", onclick: ev => { ev.stopPropagation(); sayIt(ev.currentTarget); }}, "🎤 Say it ", h("span", {class: "ko"}, "말해 보기"))) : null;
+const SAY_ON = false;   // speaking practice paused (RYU 2026-11-25: iPhone home-screen app failed); set true to bring 🎤 back
+const sayBtn = () => SAY_ON && SRC ? h("div", {class: "sayrow"}, h("button", {class: "saybtn", type: "button", onclick: ev => { ev.stopPropagation(); sayIt(ev.currentTarget); }}, "🎤 Say it ", h("span", {class: "ko"}, "말해 보기"))) : null;
 const line = (ko, pr, lo, cls, from, g) => h("div", {class: "line " + (cls || ""), "data-say": ko, "data-lo": lo, "data-head": cls === "head" ? "1" : null}, spk(),
   h("div", null, h("div", {class: "k ko"}, ko), pr ? h("div", {class: "p"}, pr) : null, h("div", {class: "m"}, lo), gloss(g), fromNote(from), cls === "head" ? null : sayBtn()));
 /* previous / next lesson buttons at the bottom (RYU 2026-11-19, v2.02) */
