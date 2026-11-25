@@ -1140,3 +1140,4 @@ figure.jeyfig img{background:#fff}
 .sayres small{display:block;color:var(--muted);margin-top:2px}
 :root[data-theme="dark"] .sayres.good{background:#12301C}:root[data-theme="dark"] .sayres.low{background:#3A1717}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sayres.good{background:#12301C}:root:not([data-theme="light"]) .sayres.low{background:#3A1717}}
+.sayhelp{margin:6px 0 2px;padding-left:20px;font-size:13.5px}.sayhelp li{margin:3px 0;word-break:break-word}

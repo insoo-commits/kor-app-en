@@ -429,7 +429,16 @@ function sayIt(btn){
       h("small", null, p >= 85 ? "Great! 잘했어요!" : p >= 60 ? "Close. Try again. 조금 더!" : "Listen with 🔊 and try again. 다시 들어 보세요."));
     ST.log("speak", S.code, p); };
   r.onerror = ev => { got = true; box.className = "sayres low";
-    box.replaceChildren(ev.error === "not-allowed" || ev.error === "service-not-allowed" ? "Please allow the microphone for this site. 마이크를 허용해 주세요." : ev.error === "no-speech" ? "I didn't hear anything. Try again. 소리가 들리지 않았어요." : "Speech recognition is not available now. 지금은 음성 인식을 쓸 수 없어요."); };
+    const e = ev.error || "", ios = /iPhone|iPad|iPod/.test(navigator.userAgent) || (/Macintosh/.test(navigator.userAgent) && navigator.maxTouchPoints > 1),
+      app = matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+    if (e === "no-speech") box.replaceChildren("I didn't hear anything. Try again. 소리가 들리지 않았어요.");
+    else if (e === "not-allowed" && !ios) box.replaceChildren("Please allow the microphone for this site. 마이크를 허용해 주세요.");
+    else if (ios) box.replaceChildren(h("b", null, "iPhone: "), "speech recognition uses Apple Dictation. ", h("span", {class: "ko"}, "아이폰은 받아쓰기를 써요."),
+      h("ol", {class: "sayhelp"}, h("li", null, "Settings › General › Keyboard › turn on ", h("b", null, "Enable Dictation"), ". ", h("span", {class: "ko"}, "설정 › 일반 › 키보드 › 받아쓰기 활성화")),
+        h("li", null, "Settings › Safari › Microphone › ", h("b", null, "Allow"), ". ", h("span", {class: "ko"}, "설정 › Safari › 마이크 › 허용")),
+        app ? h("li", null, "If it still does not work in the home-screen app, open the app in ", h("b", null, "Safari"), ": ", location.origin + location.pathname, " ", h("span", {class: "ko"}, "홈 화면 앱에서 안 되면 Safari에서 열어 주세요.")) : null),
+      h("small", null, "(" + e + ")"));
+    else box.replaceChildren("Speech recognition is not available now. 지금은 음성 인식을 쓸 수 없어요. ", h("small", null, "(" + e + ")")); };
   r.onend = () => { btn.classList.remove("on"); delete btn.dataset.on; if (recNow === r) recNow = null; if (!got){ box.className = "sayres low"; box.replaceChildren("I didn't hear anything. Try again. 소리가 들리지 않았어요."); } };
   try { r.start(); } catch (e) { btn.classList.remove("on"); delete btn.dataset.on; recNow = null; }
 }
