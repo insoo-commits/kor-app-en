@@ -314,7 +314,7 @@ function drawMine(){
     h("div", {class: "mn mn-st" + (st ? " on" : "")}, h("b", null, h("span", {class: "fire", "aria-hidden": "true"}, "🔥"), String(st)), h("span", null, st === 1 ? "day in a row" : "days in a row"), h("small", {class: "ko"}, "연속 학습")),
     h("div", {class: "mn mn-pr"}, h("b", null, pct + "%"), h("span", null, n + " / " + L.length + " lessons"), h("small", {class: "ko"}, "내 진도"), h("div", {class: "mbar"}, h("i", {style: "width:" + Math.max(pct, n ? 1.5 : 0) + "%"}))),
     h("div", {class: "mn mn-td"}, h("b", null, String(td.l)), h("span", null, "lessons today" + (td.q ? " · " + td.q + " quiz" + (td.q > 1 ? "zes" : "") : "")), h("small", {class: "ko"}, "오늘 공부")),
-    nx ? h("button", {class: "mn mn-nx", type: "button", onclick: () => { go(nx[0]); scrollTo({top: 0, behavior: "smooth"}); }}, h("small", null, "Next new lesson ", h("span", {class: "ko"}, "다음 새 묶음")), h("span", {class: "ko"}, nx[1]), h("i", {"aria-hidden": "true"}, "→")) : null);
+    nx ? h("button", {class: "mn mn-nx", type: "button", onclick: () => { go(nx[0]); scrollTo({top: 0, behavior: "smooth"}); }}, h("small", null, "Next new lesson ", h("span", {class: "ko"}, "다음 새 묶음")), h("span", {class: "ko"}, nx[1]), h("i", {"aria-hidden": "true"}, "→"), jeyPic("jey_side", "nxjey")) : null);
 }
 function drawStats(){
   const n = x => Number(x).toLocaleString("en-US");
@@ -529,6 +529,8 @@ function makeQuiz(b){
   return {code: b.code, qs, at: 0, right: 0};
 }
 /* quiz result (v1.4): a score ring, a word for the result, the questions that were wrong, and "only the wrong ones" */
+/* Jeonju Univ. characters JeyJey · Byeori · Jate (files from RYU 2026-11-25, v1.7): JeyJey cheers a high score, Byeori a middle one, Jate says try again */
+const jeyPic = (n, cls) => h("img", {class: cls, src: "img/jey/" + n + ".webp", alt: "", loading: "lazy"});
 function quizEnd(){
   const N = quiz.qs.length, R = quiz.right, pct = N ? Math.round(100 * R / N) : 0, wrong = quiz.qs.filter(q => q.picked !== q.a);
   const C = 2 * Math.PI * 52, NS = "http://www.w3.org/2000/svg", mk = (t, at) => { const e = document.createElementNS(NS, t); for (const k in at) e.setAttribute(k, at[k]); return e; };
@@ -537,7 +539,7 @@ function quizEnd(){
   const msg = pct === 100 ? ["Perfect!", "완벽해요!"] : pct >= 80 ? ["Great job!", "잘했어요!"] : pct >= 50 ? ["Good, keep going!", "좋아요, 조금 더!"] : ["Let's try again.", "다시 해 봐요."];
   const qText = q => q.kind === "blank" ? q.blank.full : q.kind === "listen" ? q.say : q.q;
   return [h("div", {class: "qend"}, h("div", {class: "qringw"}, ring, h("div", {class: "qrt"}, h("b", null, pct + "%"), h("span", null, R + " / " + N))),
-      h("p", {class: "qmsg"}, msg[0], " ", h("span", {class: "ko"}, msg[1]))),
+      h("p", {class: "qmsg"}, msg[0], " ", h("span", {class: "ko"}, msg[1])), jeyPic(pct >= 80 ? "jey" : pct >= 50 ? "byeori" : "jate", "qjey")),
     wrong.length ? h("div", {class: "qwrong"}, h("h3", null, "Check these again ", h("span", {class: "ko"}, "다시 볼 문제")),
       wrong.map(q => h("div", {class: "qw"}, h("span", {class: q.toLo ? "ko" : ""}, qText(q)), h("b", {class: q.toLo ? "" : "ko"}, q.a)))) : null,
     h("div", {class: "rowbtns", style: "justify-content:center"},
