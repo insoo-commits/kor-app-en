@@ -1,135 +1,254 @@
 {
- "jju_aerial.jpg": [
-  640,
-  359,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_starcenter_wide.jpg": [
-  640,
-  427,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_main.jpg": [
-  640,
-  426,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_starcenter.jpg": [
-  640,
-  426,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_spring.jpg": [
-  640,
-  426,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_azalea.jpg": [
-  640,
-  479,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_stargarden.jpg": [
-  640,
-  410,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_chomak.jpg": [
-  640,
-  480,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_chomak2.jpg": [
-  640,
-  368,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_lydia.jpg": [
-  640,
-  427,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_library.jpg": [
-  640,
-  480,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_hatch.jpg": [
-  640,
-  480,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_haedong.jpg": [
-  640,
-  480,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_hatch2.jpg": [
-  640,
-  480,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_blossom_jey.jpg": [
-  640,
-  427,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_jey_rapeseed.jpg": [
-  640,
-  427,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_studenthall.jpg": [
-  640,
-  512,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_christmas.jpg": [
-  640,
-  512,
-  "Jeonju University",
-  "",
-  ""
- ],
- "jju_stargarden_night.jpg": [
-  640,
-  427,
-  "Jeonju University",
-  "",
-  ""
- ]
+"jju_aerial.jpg": [
+640,
+359,
+"Jeonju University",
+"",
+""
+],
+"jju_starcenter_wide.jpg": [
+640,
+427,
+"Jeonju University",
+"",
+""
+],
+"jju_main.jpg": [
+640,
+426,
+"Jeonju University",
+"",
+""
+],
+"jju_starcenter.jpg": [
+640,
+426,
+"Jeonju University",
+"",
+""
+],
+"jju_spring.jpg": [
+640,
+426,
+"Jeonju University",
+"",
+""
+],
+"jju_azalea.jpg": [
+640,
+479,
+"Jeonju University",
+"",
+""
+],
+"jju_stargarden.jpg": [
+640,
+410,
+"Jeonju University",
+"",
+""
+],
+"jju_chomak.jpg": [
+640,
+480,
+"Jeonju University",
+"",
+""
+],
+"jju_chomak2.jpg": [
+640,
+368,
+"Jeonju University",
+"",
+""
+],
+"jju_lydia.jpg": [
+640,
+427,
+"Jeonju University",
+"",
+""
+],
+"jju_library.jpg": [
+640,
+480,
+"Jeonju University",
+"",
+""
+],
+"jju_hatch.jpg": [
+640,
+480,
+"Jeonju University",
+"",
+""
+],
+"jju_haedong.jpg": [
+640,
+480,
+"Jeonju University",
+"",
+""
+],
+"jju_hatch2.jpg": [
+640,
+480,
+"Jeonju University",
+"",
+""
+],
+"jju_blossom_jey.jpg": [
+640,
+427,
+"Jeonju University",
+"",
+""
+],
+"jju_jey_rapeseed.jpg": [
+640,
+427,
+"Jeonju University",
+"",
+""
+],
+"jju_studenthall.jpg": [
+640,
+512,
+"Jeonju University",
+"",
+""
+],
+"jju_christmas.jpg": [
+640,
+512,
+"Jeonju University",
+"",
+""
+],
+"jju_stargarden_night.jpg": [
+640,
+427,
+"Jeonju University",
+"",
+""
+],
+"chaeseokgang.jpg": [
+640,
+426,
+"Jjw",
+"CC BY-SA 4.0",
+"File:Chaeseokgang and Gyeokpo beach.jpg"
+],
+"deogyusan.jpg": [
+640,
+427,
+"Byungjoon Kim",
+"CC BY 2.0",
+"File:Korea-Snow in Mt. Deogyu-Stairway-01.jpg"
+],
+"deokjin.jpg": [
+640,
+427,
+"LandAndTree",
+"CC BY-SA 4.0",
+"File:Deokjin Park Yeonhwajeong Library 20250224 (04).jpg"
+],
+"festival.jpg": [
+640,
+427,
+"Bernard Gagnon",
+"CC0",
+"File:Festival of Korean Intangible Cultural Heritage in Jeonju 02.jpg"
+],
+"gimje.jpg": [
+640,
+427,
+"Kyklyj",
+"CC BY-SA 4.0",
+"File:벽골제.jpg"
+],
+"gunsan.jpg": [
+640,
+480,
+"Kimhs5400",
+"CC BY-SA 4.0",
+"File:Gunsanhistorym.jpg"
+],
+"gwanghallu.jpg": [
+640,
+427,
+"Macbest1982",
+"CC BY-SA 4.0",
+"File:Gwanghallu Pavilion at Night- Namwon.jpg"
+],
+"gyeonggijeon.jpg": [
+640,
+480,
+"Sadopaul",
+"CC BY-SA 4.0",
+"File:경기전 정전 (2021).jpg"
+],
+"hanjeongsik.jpg": [
+640,
+480,
+"Richy! (Flickr)",
+"CC BY-SA 2.0",
+"File:Korean cuisine-Hanjeongsik-05.jpg"
+],
+"hanji.jpg": [
+640,
+480,
+"Isaac Crumm",
+"Public domain",
+"File:Korean paper-Hanji-02.jpg"
+],
+"jeondong.jpg": [
+640,
+441,
+"Mobius6",
+"CC BY-SA 4.0",
+"File:Jeondong Catholic Cathedral 20230408 005.jpg"
+],
+"kongnamul.jpg": [
+640,
+427,
+"Mobius6",
+"CC BY-SA 4.0",
+"File:Kongnamul gukbap 20230408 001.jpg"
+],
+"maisan.jpg": [
+640,
+385,
+"Ji Yeon Song",
+"CC BY-SA 3.0",
+"File:마이산.jpg"
+],
+"nambu.jpg": [
+640,
+480,
+"Shamus7792003",
+"CC BY-SA 4.0",
+"File:Along Jeonju River and across from Nambu Market..JPG"
+],
+"pansori.jpg": [
+640,
+385,
+"Steve46814",
+"CC BY-SA 3.0",
+"File:Korea-Busan 3404-06 Pansori.JPG"
+],
+"pungnammun.jpg": [
+640,
+360,
+"Altostratus",
+"CC BY-SA 4.0",
+"File:Jeonju Pungnammun panorama.jpg"
+],
+"station.jpg": [
+640,
+288,
+"Christian Bolz",
+"CC BY-SA 4.0",
+"File:Jeonju Station in July 2022.jpg"
+]
 }
