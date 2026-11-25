@@ -686,21 +686,26 @@ function tqView(b, bare){ TQB[b.code] = b;
         : isPage(b.code) ? h("button", {class: "btn tqnew", type: "button", onclick: () => newPage(b.code)}, "New questions ", h("span", {class: "ko"}, "새 문제")) : null), b.tq.map((q, i) => tqItem(b, q, i, upd)), sc, again);
 }
 const tqScript = au => h("div", {class: "tqs ko"}, au.map(l => h("div", null, WHO[l[0]] ? h("b", null, WHO[l[0]]) : null, l[1])));
-function tqChoices(q, k, redo){ const st = TQ[k];
-  return [h("div", {class: "choices tqo" + (q.o.length < 3 ? " two" : "")}, q.o.map((o, j) => h("button", {class: "choice" + (q.lo ? "" : " ko") + (st != null ? (j === q.a ? " right" : j === st ? " wrong" : "") : ""), type: "button", disabled: st != null,
-      onclick: () => { TQ[k] = j; tpMark(k, j === q.a); redo(); tqDone(k); }}, h("span", {class: "n"}, NUM[j]), " " + o))),
+/* picture questions (v1.18.11, RYU): the four pictures themselves are the answer buttons */
+function tqPics(q){ if (!q.p || !q.o || q.o.join("") !== "①②③④" || !q.p.includes('class="pics"')) return null;
+  const t = document.createElement("template"); t.innerHTML = q.p; const ds = [...t.content.querySelectorAll(".pics > div")];
+  return ds.length === 4 ? ds.map(d => { d.querySelector("b")?.remove(); return d.innerHTML; }) : null; }
+function tqChoices(q, k, redo, pics){ const st = TQ[k];
+  return [h("div", {class: "choices tqo" + (pics ? " picgrid" : q.o.length < 3 ? " two" : "")}, q.o.map((o, j) => h("button", {class: "choice" + (pics ? " picch" : "") + (q.lo ? "" : " ko") + (st != null ? (j === q.a ? " right" : j === st ? " wrong" : "") : ""), type: "button", disabled: st != null,
+      onclick: () => { TQ[k] = j; tpMark(k, j === q.a); redo(); tqDone(k); }}, h("span", {class: "n"}, NUM[j]), ...(pics ? [(() => { const d = h("div", {class: "pic"}); d.innerHTML = pics[j]; return d; })()] : [" " + o])))),
     st != null ? h("div", {class: "tqx"}, h("div", {class: "res " + (st === q.a ? "ok" : "no")}, st === q.a ? "✓ Correct" : "✗ Not quite · Answer " + NUM[q.a]), h("p", null, koMix(q.x)),
       h("button", {class: "btn", type: "button", onclick: () => { delete TQ[k]; redo(); }}, "Try again ", h("span", {class: "ko"}, "다시"))) : null]; }
 function tqItem(b, q, i, upd){
   const k = b.code + "#" + i, redo = () => { el.replaceWith(tqItem(b, q, i, upd)); upd(); };
+  const pics = tqPics(q);
   const answered = q.qs ? q.qs.some((s, j) => TQ[k + "." + j] != null) : TQ[k] != null;
   const el = h("div", {class: "tqi" + (q.qs ? " set" : "")},
     h("div", {class: "tqd"}, h("b", {class: "tqn"}, (i + 1) + "."),   // RYU v1.18.2: listen button on the right; the English line starts under the Korean
       h("div", {class: "tqdt"}, h("span", {class: "ko"}, q.d), q.dl ? h("div", {class: "tqdl"}, q.dl) : null),
       q.au ? h("button", {class: "wrep tbtn tqplay", type: "button", onclick: ev => tqPlay(q, ev.currentTarget)}, ico("spk"), "Listen ", h("span", {class: "ko"}, "듣기")) : null),
-    q.p ? (() => { const d = h("div", {class: "tqp ko"}); d.innerHTML = q.p; return d; })() : null,
+    q.p && !pics ? (() => { const d = h("div", {class: "tqp ko"}); d.innerHTML = q.p; return d; })() : null,
     q.au && answered ? h("details", {class: "tqsd"}, h("summary", null, "Script ", h("span", {class: "ko"}, "대본")), tqScript(q.au)) : null,
-    q.qs ? q.qs.map((s, j) => h("div", {class: "tqsub"}, h("div", {class: "tqq ko"}, h("b", {class: "tqn"}, "(" + (j + 1) + ")"), h("span", null, s.q)), ...tqChoices(s, k + "." + j, redo))) : tqChoices(q, k, redo));
+    q.qs ? q.qs.map((s, j) => h("div", {class: "tqsub"}, h("div", {class: "tqq ko"}, h("b", {class: "tqn"}, "(" + (j + 1) + ")"), h("span", null, s.q)), ...tqChoices(s, k + "." + j, redo))) : tqChoices(q, k, redo, pics));
   return el;
 }
 /* the script once, line by line (남자 in a man's voice); the same button stops it */

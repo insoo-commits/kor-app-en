@@ -1190,3 +1190,15 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 .info .ib-t .terms div{padding:3px 0 3px 16px}
 .info .terms .ko{font-size:1em;font-weight:700}   /* v1.18.8 (RYU): Korean word the same size as the English, bold */
 .tqi:has(> .tqp .notice) > .tqo,.tqi:has(> .tqp .pics) > .tqo{margin-left:var(--ind)}   /* v1.18.9 (RYU): with a boxed text or pictures, the choice boxes line up with that box */
+/* v1.18.11: picture choices are the buttons; never wider than the card */
+.tqo.picgrid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.tqo .choice.picch{text-align:center;padding:8px 6px;display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0}
+.picch .pic span{display:block;font-size:30px;line-height:1.25;letter-spacing:1px;overflow-wrap:anywhere;word-break:break-all}
+.picch .pic span.tx{font-size:15px;letter-spacing:0;word-break:keep-all}
+.picch .pic small{display:block;font-size:12.5px;color:var(--muted);line-height:1.35;margin-top:2px}
+.pics>div{min-width:0}.pics span{overflow-wrap:anywhere;word-break:break-all}
+@media (max-width:600px){.tqo.picgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.picch .pic span{font-size:26px}.pics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.tqi > .tqo.picgrid{margin-left:var(--ind)}
+/* v1.18.12: JeyJey on the Next new lesson card fits inside the card (RYU: it was cut off) */
+.mn-nx .nxjey{top:auto;bottom:4px;right:26px;height:calc(100% - 8px);max-height:64px}
+@media (max-width:600px){.mn-nx .nxjey{right:22px;bottom:3px;height:calc(100% - 6px);max-height:46px}.mn-nx{padding-right:74px}}

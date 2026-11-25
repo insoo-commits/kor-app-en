@@ -10,7 +10,7 @@ def B(p, o, x):      # grammar or word in the blank
 ADD = {
 "TP-G-01": [
  W("가볍다", ["Light (not heavy)", "Heavy", "Cheap", "Bright"], "가볍다 = light. 무겁다 = heavy."),
- W("갈아타다", ["To transfer (bus, subway)", "To get off", "To wait", "To walk"], "갈아타다 = to change to another bus or train."),
+ W("내리다", ["To get off", "To get on", "To wait", "To walk"], "내리다 = to get off (a bus); 타다 = to get on."),
  W("빌리다", ["To borrow", "To lend", "To buy", "To return"], "빌리다 = to borrow; 빌려주다 = to lend."),
  W("시끄럽다", ["Noisy", "Quiet", "Dirty", "Busy"], "시끄럽다 = noisy. 조용하다 = quiet."),
  W("늦잠", ["Oversleeping", "A nap", "Staying up late", "Getting up early"], "늦잠을 자다 = to oversleep."),
@@ -39,7 +39,7 @@ ADD = {
 "TP-G-05": [
  W("증가", ["Increase", "Decrease", "Stop", "Result"], "증 (add) → 증가 = increase. 감소 = decrease."),
  W("실시하다", ["To carry out", "To cancel", "To delay", "To report"], "실시하다 = to put into action (a survey, a test)."),
- W("대책", ["A countermeasure", "A cause", "A complaint", "A rumour"], "대책 = a plan to deal with a problem."),
+ W("원인", ["A cause", "A result", "A complaint", "A rumour"], "원인 = cause; 결과 = result."),
  W("급증", ["A sharp rise", "A slow fall", "No change", "A small rise"], "급 (sudden) + 증 (increase) → 급증."),
  W("발표하다", ["To announce", "To hide", "To ask", "To forget"], "발표하다 = to announce (news), to present (class)."),
 ],
@@ -54,7 +54,7 @@ ADD = {
  W("손이 크다", ["Generous (gives or cooks a lot)", "Has big hands", "Strong", "Rich"], "손이 크다 = to be generous, to make or give a lot."),
  W("눈코 뜰 새 없다", ["Extremely busy", "Very sleepy", "Very angry", "Very bored"], "No time to open your eyes and nose → extremely busy."),
  W("하늘의 별 따기", ["Very hard to get", "Very easy", "A dream come true", "Very expensive"], "Picking a star from the sky → nearly impossible."),
- W("작심삼일", ["A resolution that lasts only three days", "Working three days a week", "Thinking carefully", "A three-day holiday"], "작심 (decision) + 삼일 (three days) → it doesn't last."),
+ W("일석이조", ["Killing two birds with one stone", "One step at a time", "Two heads are better than one", "Once in a lifetime"], "일 (one) 석 (stone) 이 (two) 조 (birds)."),
  W("귀가 얇다", ["Easily persuaded", "Hears well", "Doesn't listen", "Shy"], "귀가 얇다 = easily believes what others say."),
 ],
 }
