@@ -338,3 +338,132 @@ TP-H-03 | Luyện viết câu 53·54 + bài mẫu
 TP-H-04 | Phương án bẫy
 TP-I-01 | Giới thiệu kỳ thi nói TOPIK
 TP-I-02 | Trả lời câu hỏi·nói theo tranh
+K6-A-01 | Là... (đuôi lịch sự)
+K6-A-02 | Là... (trang trọng)
+K6-A-03 | Không phải là...
+K6-A-04 | Có / Không có
+K6-A-05 | Trật tự từ trong câu
+K6-A-06 | Câu hỏi
+K6-B-01 | Trợ từ chủ đề
+K6-B-02 | Trợ từ chủ ngữ
+K6-B-03 | Trợ từ tân ngữ
+K6-B-04 | cũng
+K6-B-05 | chỉ
+K6-B-06 | của (sở hữu)
+K6-C-01 | vào, lúc (thời gian)
+K6-C-02 | ở, đến (nơi ở, nơi đến)
+K6-C-03 | ở, tại (nơi hành động)
+K6-C-04 | bằng, về phía
+K6-C-05 | cho (một người)
+K6-C-06 | từ... đến...
+K6-C-07 | và, với
+K6-C-08 | hơn (so sánh)
+K6-C-09 | mỗi...
+K6-C-10 | hoặc...
+K6-C-11 | như...
+K8-A-01 | 은/는 và 이/가
+K8-A-02 | 에 và 에서
+K8-A-03 | 에게·한테·께
+K8-A-04 | 에 và (으)로
+K8-A-05 | 하고·와/과·(이)랑
+K8-B-01 | -아서 và -(으)니까
+K8-B-02 | -고 và -아서
+K8-B-03 | -지만 và -는데
+K8-B-04 | -(으)ㄹ게요 và -(으)ㄹ 거예요
+K8-B-05 | 안 và 못
+K8-B-06 | -(으)세요 và -아/어 주세요
+K8-B-07 | -고 싶다 và -(으)ㄹ래요
+K8-B-08 | -(으)면 và -(으)ㄹ 때
+K6-D-01 | Đuôi câu lịch sự
+K6-D-02 | Đuôi câu trang trọng
+K6-D-03 | Hỏi lịch sự
+K6-D-04 | Tôn trọng chủ ngữ
+K6-D-05 | Trợ từ chủ ngữ kính trọng
+K6-D-06 | Lối nói thân mật
+K7-F-01 | Động từ kính trọng
+K7-F-02 | Từ "biếu" (khiêm nhường)
+K7-F-03 | Danh từ kính trọng
+K7-F-04 | Cách nói khiêm nhường
+K7-G-01 | Ba mức chào hỏi
+K7-G-02 | Ba mức câu hỏi
+K7-G-03 | Ba mức lời nhờ
+K7-G-04 | Ba mức câu trả lời
+K7-G-05 | Nói kiểu nào với ai
+K6-E-01 | Quá khứ (đã)
+K6-E-02 | Tương lai (sẽ)
+K6-E-03 | đang ...
+K6-E-04 | sẽ... (ý định, phỏng đoán)
+K6-E-05 | thử ...
+K6-E-06 | đã từng ... (kinh nghiệm)
+K6-F-01 | không (trước động từ)
+K6-F-02 | không... (ở cuối)
+K6-F-03 | không... được (trước động từ)
+K6-F-04 | không thể... (ở cuối)
+K6-F-05 | có thể... / không thể...
+K6-G-01 | muốn...
+K6-G-02 | Bạn có muốn...? (mong muốn)
+K6-G-03 | Tôi sẽ... (lời hứa)
+K6-G-04 | Mình... nhé? (rủ, hỏi ý kiến)
+K6-G-05 | Mình... đi
+K6-G-06 | định...
+K6-G-07 | quyết định...
+K6-G-08 | ... thì sao?
+K6-H-01 | Xin hãy... (nhờ lịch sự)
+K6-H-02 | ... giúp tôi
+K6-H-03 | Xin hãy... (trang trọng)
+K6-H-04 | Đừng...
+K6-H-05 | không được... (cấm)
+K6-H-06 | được... (cho phép)
+K6-H-07 | phải...
+K6-H-08 | chỉ cần...
+K6-H-09 | Hãy... (yêu cầu)
+K6-I-01 | ...và... (liệt kê)
+K6-I-02 | ...rồi... (thứ tự)
+K6-I-03 | ...rồi... (thứ tự, liên kết)
+K6-I-04 | trước khi...
+K6-I-05 | sau khi...
+K6-I-06 | vừa... vừa...
+K6-I-07 | trong khi...
+K6-I-08 | ...nhưng...
+K6-I-09 | ...nhưng/mà... (bối cảnh)
+K6-I-10 | ...hoặc...
+K6-J-01 | vì... (lý do)
+K6-J-02 | vì... (lý do, với mệnh lệnh)
+K6-J-03 | vì, do...
+K6-J-04 | nếu...
+K6-J-05 | nếu muốn...
+K6-J-06 | đi/đến để... (mục đích)
+K6-J-07 | để...
+K6-J-08 | ... mà (giải thích)
+K6-J-09 | nhờ...
+K6-K-01 | đang... + danh từ (hiện tại)
+K6-K-02 | đã... + danh từ (quá khứ)
+K6-K-03 | sẽ... + danh từ (tương lai)
+K6-K-04 | việc... (danh từ hóa)
+K6-K-05 | dễ... / khó...
+K6-K-06 | một cách... (trạng từ)
+K6-K-07 | khi...
+K6-L-01 | ...quá! (ngạc nhiên)
+K6-L-02 | ..., nhỉ?
+K6-L-03 | Tôi nghĩ... (phỏng đoán)
+K6-L-04 | Chắc là... (phỏng đoán)
+K6-L-05 | Trông có vẻ...
+K6-L-06 | ... mà (điều đã biết)
+K6-L-07 | À, ...! (vừa biết)
+K6-M-01 | nói là... (chuyển lời)
+K6-M-02 | bảo... (chuyển yêu cầu)
+K6-M-03 | rủ...
+K6-M-04 | hỏi...
+K6-M-05 | Nghe nói... (dạng rút gọn)
+K6-N-01 | trở nên... (thay đổi)
+K6-N-02 | thành ra... (tình huống thay đổi)
+K6-N-03 | ...sẵn
+K6-N-04 | đang... (trạng thái)
+K6-O-01 | Rơi ㅡ
+K6-O-02 | Rơi ㄹ
+K6-O-03 | Bất quy tắc ㅂ
+K6-O-04 | Bất quy tắc ㄷ
+K6-O-05 | Bất quy tắc 르
+K6-O-06 | Bất quy tắc ㅅ
+K6-O-07 | Bất quy tắc ㅎ
+K6-Z-01 | Tổng ôn ngữ pháp
