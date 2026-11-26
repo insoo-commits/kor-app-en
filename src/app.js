@@ -46,12 +46,18 @@ if (!S.playDef){ S.rate = "1"; S.rep = "2"; S.playDef = 1; }   // RYU 2026-11-14
 if (!byCode.has(S.code)) S.code = IDX[0][0];
 S.hidePr = false; S.hideLo = false; S.onlyNew = false;   // both boxes removed (v1.64, v1.66); the hide-reading box was removed (v1.64), so a saved "hide" must not stick
 function save(){ try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) {} }
+/* explanation language (v1.20, RYU 2026-11-25): Korean stays Korean; meanings, tips, help and buttons in English or Tiếng Việt.
+   Translations: src/i18n/<lang>/ (tools/i18n.js); the data of a language is data/<lang>/<area>.json; its audio packs audio/p/<lang>/ */
+const LANGS = META.langs || {}, LG = LANGS[S.lang] ? S.lang : "en", LX = LANGS[LG] || null;
+const LANG_LIST = [["en", "English", "영어"], ["vi", "Tiếng Việt", "베트남어"], ["my", "Myanmar", "미얀마어"], ["ne", "नेपाली", "네팔어"], ["ur", "اردو", "우르두어 (파키스탄)"]];
+document.documentElement.lang = LG;
+if (LX) IDX.forEach(r => { const t = LX.t[r[0]]; if (t) r[4] = t; });
 
 /* ---------- data ---------- */
 const cache = new Map(), loading = new Map();
 function loadArea(a){
   if (cache.has(a)) return Promise.resolve(cache.get(a));
-  if (!loading.has(a)) loading.set(a, fetch("data/" + a + ".json").then(r => { if (!r.ok) throw new Error(a); return r.json(); })
+  if (!loading.has(a)) loading.set(a, fetch("data/" + (LX ? LG + "/" : "") + a + ".json").then(r => { if (!r.ok) throw new Error(a); return r.json(); })
     .then(d => { cache.set(a, d); return d; }).catch(e => { loading.delete(a); throw e; }));
   return loading.get(a);
 }
@@ -70,13 +76,13 @@ function pickVoice(){
   if (!synth) return;
   const all = synth.getVoices(), vs = all.filter(v => /^ko/i.test(v.lang));
   koVoice = vs.find(v => /Google|Yuna|SunHi|InJoon|Natural/i.test(v.name)) || vs[0] || null;
-  loVoice = all.find(v => /^en/i.test(v.lang)) || null;
+  loVoice = all.find(v => new RegExp("^" + LG, "i").test(v.lang)) || null;
   $("voiceNote").textContent = all.length && !koVoice && !window.AUDIO_INDEX ? T.noVoice : "";
 }
 if (synth){ pickVoice(); try { synth.addEventListener("voiceschanged", pickVoice); } catch (e) {} } else if (!window.AUDIO_INDEX) $("voiceNote").textContent = T.noVoice;
 const CLIPS = window.AUDIO_INDEX || {}, AP = makeAudioPack({db: "koen-audio"});   // clips come in one pack per lesson (v0.5)
 let AEL = null;
-const hasClip = (lang, text) => AP.has(clipKey(lang === "lo" ? "en" : lang, lang === "lo" ? cleanLo(text) : cleanKo(text)));
+const hasClip = (lang, text) => AP.has(clipKey(lang === "lo" ? LG : lang, lang === "lo" ? cleanLo(text) : cleanKo(text)));
 /* a ready-made clip when there is one, the device's voice otherwise */
 function speakOne(text, lao, male){   // male: TOPIK listening lines of 남자 (own clips "km", RYU 2026-11-21)
   return new Promise(res => {
@@ -91,7 +97,7 @@ function speakOne(text, lao, male){   // male: TOPIK listening lines of 남자 (
       u.rate = +S.rate || 1; u.onend = end; u.onerror = end; setTimeout(end, 4000 + t.length * 450);
       try { synth.speak(u); } catch (e) { end(); }
     };
-    const key = clipKey(lao ? "en" : male ? "km" : "ko", t);
+    const key = clipKey(lao ? LG : male ? "km" : "ko", t);
     if (!AP.has(key)) return tts();
     const go = url => {
       if (fin) return; if (!url) return tts();
@@ -976,6 +982,52 @@ function applyPrefs(){
     seg("Text size", "글자 크기", [[0.9, "A−"], [1, "A"], [1.15, "A+"], [1.3, "A++"]], S.fz || 1, v => S.fz = v));
 }
 applyPrefs();
+/* language: 🌐 button at the right of the search box, a picker on first launch, and a button under the theme row (v1.20) */
+function langSheet(first){
+  const old = $("langsheet"); if (old) old.remove();
+  const close = () => { if (!S.lang){ S.lang = LG; save(); } box.remove(); document.removeEventListener("keydown", esc); };
+  const esc = e => { if (e.key === "Escape") close(); };
+  const pick = c => { const was = LG; S.lang = c; save(); if (c !== was) location.reload(); else close(); };
+  const box = h("div", {id: "langsheet", class: "langsheet"},
+    h("div", {class: "lsbg", onclick: close}),
+    h("div", {class: "lscard", role: "dialog", "aria-modal": "true", "aria-label": "Choose your language"},
+      h("div", {class: "lshead"}, h("img", {src: "img/jey/jey.webp", alt: "", width: 33, height: 46}),
+        h("div", null, h("div", {class: "lst"}, "Choose your language"), h("div", {class: "lss"}, "Chọn ngôn ngữ · ", h("span", {class: "ko"}, "설명 언어 선택")))),
+      h("p", {class: "lsnote"}, "Korean stays Korean. Meanings, tips and help are shown in your language."),
+      LANG_LIST.map(([c, name, ko]) => { const ok = c === "en" || LANGS[c], on = c === LG;
+        return h("button", {type: "button", class: "lsopt" + (on ? " on" : ""), disabled: !ok, "aria-pressed": on ? "true" : "false", onclick: ok ? () => pick(c) : null},
+          h("b", null, c.toUpperCase()), h("span", {class: "lsn"}, name, " ", h("span", {class: "ko"}, ko)),
+          on ? h("span", {class: "lsok", "aria-hidden": "true"}, "✓") : null, ok ? null : h("span", {class: "lssoon ko"}, "준비 중")); }),
+      LX && LX.note ? h("p", {class: "lsfoot"}, LX.note) : null,
+      h("p", {class: "lsfoot"}, "You can change it any time with 🌐 at the top. ", h("span", {class: "ko"}, "언제든 위의 🌐 로 바꿀 수 있어요."))));
+  document.body.appendChild(box); document.addEventListener("keydown", esc);
+  const b = box.querySelector(".lsopt.on") || box.querySelector(".lsopt"); if (b && !first) b.focus();
+}
+if (Object.keys(LANGS).length){
+  const sb = document.querySelector("label.search");
+  if (sb) sb.appendChild(h("button", {type: "button", class: "langbtn", "aria-label": "Language", title: "Language 언어", onclick: ev => { ev.preventDefault(); langSheet(); }}, h("span", {"aria-hidden": "true"}, "🌐"), " " + LG.toUpperCase()));
+  const pf = $("prefs"); if (pf) pf.after(h("p", {class: "langline"}, h("button", {type: "button", class: "pb", onclick: () => langSheet()}, "🌐 ", (LANG_LIST.find(x => x[0] === LG) || LANG_LIST[0])[1], " ", h("span", {class: "ko"}, "설명 언어"))));
+  if (!S.lang) setTimeout(() => langSheet(true), 400);
+}
+/* buttons and labels in the chosen language: each known English label is swapped as soon as it appears in the page (ui.tsv; "{n}" = a number) */
+if (LX){
+  const U = LX.u || {}, RX = [], KONAME = (LANG_LIST.find(x => x[0] === LG) || [])[2] || "";
+  for (const k in U) if (k.includes("{n}")) RX.push([new RegExp("^" + k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\\\{n\\\}/g, "([\\d,.%]+)") + "$"), U[k]]);
+  const one = s => { const t = s.trim(); if (!t || !/[A-Za-z]/.test(t)) return null;
+    let v = U[t]; if (v == null) for (const [r, w] of RX){ const m = r.exec(t); if (m){ let j = 1; v = w.replace(/\{n\}/g, () => m[j++]); break; } }
+    return v == null ? null : s.replace(t, v); };
+  const ATT = ["placeholder", "title", "aria-label"];
+  const attrs = el => { for (const a of ATT){ const x = el.getAttribute(a); if (x){ const v = one(x); if (v != null && v !== x) el.setAttribute(a, v); } } };
+  const tr = n => {
+    if (n.nodeType === 3){ if (n.parentElement && n.parentElement.closest(".ko,script,style")){ if (n.nodeValue.includes("영어 음성")) n.nodeValue = n.nodeValue.replace("영어 음성", KONAME + " 음성"); return; } const v = one(n.nodeValue); if (v != null && v !== n.nodeValue) n.nodeValue = v; return; }   // same text: no write (a write is a new mutation, which would loop)
+    if (n.nodeType !== 1 || /^(SCRIPT|STYLE)$/.test(n.tagName)) return;
+    attrs(n); n.querySelectorAll("[placeholder],[title],[aria-label]").forEach(attrs);
+    const w = document.createTreeWalker(n, NodeFilter.SHOW_TEXT); const list = []; let x; while ((x = w.nextNode())) list.push(x); list.forEach(tr);
+  };
+  tr(document.body);
+  new MutationObserver(ms => { for (const m of ms){ if (m.type === "characterData") tr(m.target); else m.addedNodes.forEach(tr); } })
+    .observe(document.body, {childList: true, subtree: true, characterData: true});
+}
 route();
 if ("serviceWorker" in navigator && window.KO_SW) navigator.serviceWorker.register("sw.js").catch(() => {});
 })();

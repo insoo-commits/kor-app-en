@@ -8,14 +8,14 @@ const root = __dirname, src = path.join(root, "src");
 const bundles = process.argv[2] || path.join(root, "data");
 const M = require(path.join(src, "meta.js"));
 const STATS_PUBLIC = /const STATS_PUBLIC = true;/.test(fs.readFileSync(path.join(src, "stats.js"), "utf8"));
-const VER = "2026-11-26 v1.19.31";
+const VER = "2026-11-26 v1.20.0";
 const read = f => fs.readFileSync(path.join(src, f), "utf8");
 fs.mkdirSync(path.join(root, "data"), {recursive: true});
 fs.mkdirSync(path.join(root, "preview"), {recursive: true});
 
 // English names of the bundle titles (src/titles-en.txt: "code | English"), shown in brackets in the lesson list
 const tlo = new Map(fs.readFileSync(path.join(root, "src/titles-en.txt"), "utf8").split("\n").filter(l => l.trim() && !l.startsWith("#")).map(l => l.split(" | ").map(x => x.trim())));
-const idx = [], ALL = [];
+const idx = [], ALL = [], BY = {};
 // totals shown at the top (RYU 2026-11-15): lessons, distinct words (w+f headwords), distinct Korean sentences
 const wordSet = new Set(), sentSet = new Set();
 for (const [a] of M.areas){
@@ -31,7 +31,7 @@ for (const [a] of M.areas){
     if (!M.subs[b.code.slice(0, 4)]) throw new Error("no sub-group name for " + b.code);
   }
   fs.writeFileSync(path.join(root, "data", a + ".json"), JSON.stringify(list));
-  ALL.push(...list);
+  ALL.push(...list); BY[a] = list;
 }
 /* related lessons (like lao-app's 관련 묶음, RYU 2026-11-18): lessons that share this lesson's words, rarer words count more;
    a word that is a headword there counts double. Up to 5, best first. */
@@ -52,8 +52,18 @@ const REL = {};
     if (top.length) REL[b.code] = top;
   }
 }
+/* other explanation languages (src/i18n/<lang>/, tools/i18n.js, v1.20): data/<lang>/<area>.json, lesson titles and button labels in KO_META.langs */
+const I18N = require(path.join(root, "tools/i18n.js")), LANGS = {}, LDATA = {};
+const idir = path.join(src, "i18n");
+for (const lg of fs.existsSync(idir) ? fs.readdirSync(idir).filter(d => fs.statSync(path.join(idir, d)).isDirectory()).sort() : []){
+  const L = I18N.load(lg); fs.mkdirSync(path.join(root, "data", lg), {recursive: true}); LDATA[lg] = {};
+  for (const [a] of M.areas){ const list = BY[a].map(b => I18N.apply(b, L)); LDATA[lg][a] = list; fs.writeFileSync(path.join(root, "data", lg, a + ".json"), JSON.stringify(list)); }
+  const note = fs.existsSync(path.join(L.dir, "note.txt")) ? fs.readFileSync(path.join(L.dir, "note.txt"), "utf8").trim() : "";
+  LANGS[lg] = {t: Object.fromEntries(L.T), u: Object.fromEntries(L.U), note};
+  console.log("language " + lg + ": " + L.S.size + " texts, " + L.T.size + " titles, " + L.U.size + " labels");
+}
 const SUBPIC = fs.existsSync(path.join(__dirname, "data", "subpics.json")) ? fs.readFileSync(path.join(__dirname, "data", "subpics.json"), "utf8") : "{}";   // one picture per sub-group (tools/pics/subpics.py, RYU 2026-11-24)
-const meta = "window.KO_SUBPIC=" + SUBPIC + ";\n" + "window.KO_META=" + JSON.stringify({areas: M.areas, alias: M.alias || {}, hidden: M.hidden || [], seps: M.seps || [], subAlias: M.subAlias || {}, subArea: M.subArea || {}, parts: M.parts || {}, subs: M.subs, idx, rel: REL, ver: VER, nWords: wordSet.size, nSents: sentSet.size}) + ";";
+const meta = "window.KO_SUBPIC=" + SUBPIC + ";\n" + "window.KO_META=" + JSON.stringify({areas: M.areas, alias: M.alias || {}, hidden: M.hidden || [], seps: M.seps || [], subAlias: M.subAlias || {}, subArea: M.subArea || {}, parts: M.parts || {}, subs: M.subs, idx, rel: REL, langs: LANGS, ver: VER, nWords: wordSet.size, nSents: sentSet.size}) + ";";
 // iPad / large touch screens (html.tab, set by the same check as the Lao app): text bigger, layout width unchanged.
 // Every px font-size in app.css gets an html.tab copy scaled by TAB_K, inside the same @media block (RYU 2026-11-14, v0.96).
 const TAB_K = 1.2;
@@ -75,16 +85,19 @@ const css = read("app.css") + tabCss(read("app.css")) + "\n" + read("tab.css") +
 
 // audio: audio/list.json = every clip the app can use; audio/index.js = the clips that exist as mp3 in audio/
 const {cleanKo, cleanLo, clipKey} = new Function(clip + "; return {cleanKo, cleanLo, clipKey};")();
-const clips = new Map(), lessons = []; let cur = null;   // lessons: the clips of each lesson, for the audio packs
+/* packs (v1.20): audio/p/<code>.bin = the Korean of a lesson; audio/p/<lang>/<code>.bin = its meanings in one language,
+   so a student downloads Korean plus only the language they chose */
+const clips = new Map(), lessons = [], mlessons = {}; let cur = null, curM = null, ML = "en", KO = true;   // lessons: the clips of each lesson, for the audio packs
 function want(lang, raw){
-  const text = lang === "lo" ? cleanLo(raw) : cleanKo(raw); lang = lang === "lo" ? "en" : lang;   // English meanings: clips "en…"
-  if (!text) return;
+  const lo = lang === "lo", text = lo ? cleanLo(raw) : cleanKo(raw); lang = lo ? ML : lang;   // meanings: clips "en…" / "vi…"
+  if (!text || (!lo && !KO)) return;
   const key = clipKey(lang, text), had = clips.get(key);
   if (had && had.text !== text) throw new Error("clip name clash: " + had.text + " / " + text);
-  clips.set(key, {key, lang, text}); cur.push(key);
+  clips.set(key, {key, lang, text}); (lo ? curM : cur).push(key);
 }
-for (const [a] of M.areas) for (const b of JSON.parse(fs.readFileSync(path.join(root, "data", a + ".json"), "utf8"))){
-  lessons.push([b.code, cur = []]);
+for (const lg of ["en", ...Object.keys(LANGS)]) for (const [a] of M.areas) for (const b of lg === "en" ? BY[a] : LDATA[lg][a]){
+  ML = lg; KO = lg === "en"; (mlessons[lg] = mlessons[lg] || []).push([lg + "/" + b.code, curM = []]);
+  if (KO) lessons.push([b.code, cur = []]); else cur = [];
   (b.l || []).forEach(l => want("ko", l[2] || l[0]));
   [].concat(b.w || [], b.f || []).forEach(w => { want("ko", w[0]); want("lo", w[2]); (w[3] || []).forEach(e => { want("ko", e[0]); want("lo", e[2]); }); });   // example Lao too: played once after the Korean (RYU 2026-11-16)
   (b.c || []).forEach(c => { want("ko", c[1]); want("lo", c[3]); });
@@ -96,9 +109,14 @@ fs.mkdirSync(path.join(root, "audio"), {recursive: true});
 fs.writeFileSync(path.join(root, "audio/list.json"), JSON.stringify([...clips.values()], null, 0).replace(/\},\{/g, "},\n{"));
 const have = fs.readdirSync(path.join(root, "audio")).filter(f => f.endsWith(".mp3")).map(f => f.slice(0, -4)).filter(k => clips.has(k)).sort();
 /* audio/p/<code>.bin: one pack per lesson (tools/audiopack.js, v0.5). AUDIO_INDEX = clip -> its home pack, AUDIO_PACKS = [code, hash] */
-const AP = require(path.join(root, "tools/audiopack.js")).writePacks(path.join(root, "audio"), lessons);
+const {writePacks} = require(path.join(root, "tools/audiopack.js"));
+const AP = writePacks(path.join(root, "audio"), lessons, "");
 fs.writeFileSync(path.join(root, "audio/index.js"), "window.AUDIO_INDEX=" + (have.length ? JSON.stringify(AP.index) : "null") + ";\nwindow.AUDIO_PACKS=" + JSON.stringify(AP.packs) + ";\n");
-console.log("audio packs", AP.packs.length, "clips", Object.keys(AP.index).length, "of", have.length);
+console.log("audio packs ko", AP.packs.length, "clips", Object.keys(AP.index).length, "of", have.length);
+for (const lg in mlessons){ const L = writePacks(path.join(root, "audio"), mlessons[lg], lg);
+  fs.writeFileSync(path.join(root, "audio/index-" + lg + ".js"), "window.AUDIO_LANG=" + JSON.stringify({index: L.index, packs: L.packs}) + ";\n");
+  console.log("audio packs " + lg, L.packs.length, "clips", Object.keys(L.index).length); }
+const LANG_JS = `<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(${["en", ...Object.keys(LANGS)].join("|")})$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=${encodeURIComponent(VER)}"><\\/script>')})()</script>`;
 const fonts = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Noto+Sans:wght@400;600&display=swap">';
 
 // standalone site
@@ -117,6 +135,7 @@ ${css}</style></head>
 <body>
 ${body}
 <script src="audio/index.js?v=${encodeURIComponent(VER)}"></script>
+${LANG_JS}
 <script src="app.js?v=${encodeURIComponent(VER)}"></script>
 </body></html>
 `);
@@ -127,7 +146,7 @@ fs.writeFileSync(path.join(root, "manifest.webmanifest"), JSON.stringify({
 fs.writeFileSync(path.join(root, "icon.svg"), `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#005595"/><text x="256" y="340" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif" font-weight="700" font-size="280" fill="#fff">한</text></svg>`);
 fs.writeFileSync(path.join(root, ".nojekyll"), "");
 fs.writeFileSync(path.join(root, "sw.js"), `const SHELL="koen-shell-${VER.replace(/\s+/g, "-")}";
-const FILES=["./","index.html","app.js","audio/index.js","manifest.webmanifest","icon.svg",${M.areas.map(a => '"data/' + a[0] + '.json"').join(",")}];
+const FILES=["./","index.html","app.js","audio/index.js",${["en", ...Object.keys(LANGS)].map(l => '"audio/index-' + l + '.js"').join(",")},"manifest.webmanifest","icon.svg",${M.areas.map(a => '"data/' + a[0] + '.json"').join(",")}];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(SHELL).then(c=>Promise.all(FILES.map(f=>fetch(new Request(f,{cache:"reload"})).then(r=>{if(r.ok)return c.put(f,r)}).catch(()=>{})))).then(()=>self.skipWaiting()))});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith("koen-shell-")&&k!==SHELL).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 /* Audio clips are kept in IndexedDB ("ko-audio" / store "c", key = clip name), not CacheStorage: with thousands of entries iPhone is slow to open CacheStorage (lesson from the Lao app). */

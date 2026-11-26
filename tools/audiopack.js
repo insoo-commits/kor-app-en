@@ -6,8 +6,10 @@
    writePacks(audioDir, lessons) with lessons = [[code, [clip keys in order]], ...] writes changed packs, removes stale ones and returns
    {index: {key: home pack number}, packs: [[code, hash], ...]}; the home pack of a clip is the first lesson that uses it. */
 const fs = require("fs"), path = require("path"), crypto = require("crypto");
-function writePacks(audioDir, lessons){
-  const dir = path.join(audioDir, "p"); fs.mkdirSync(dir, {recursive: true});
+/* sub (v1.20): "" for the Korean packs in audio/p/, or a language ("en", "vi") for its meaning packs in audio/p/<lang>/;
+   lesson names are then "<lang>/<code>", which is also the pack's name in the index */
+function writePacks(audioDir, lessons, sub){
+  const dir = path.join(audioDir, "p", sub || ""); fs.mkdirSync(dir, {recursive: true});
   const packs = [], index = {}, keep = new Set();
   for (const [code, keys] of lessons){
     const parts = [], table = []; let off = 0;
@@ -17,7 +19,7 @@ function writePacks(audioDir, lessons){
     }
     if (!table.length) continue;
     const head = Buffer.from(JSON.stringify(table)), n = Buffer.alloc(4); n.writeUInt32LE(head.length);
-    const buf = Buffer.concat([n, head, ...parts]), name = code + ".bin", file = path.join(dir, name);
+    const buf = Buffer.concat([n, head, ...parts]), name = code.split("/").pop() + ".bin", file = path.join(dir, name);
     if (!fs.existsSync(file) || !fs.readFileSync(file).equals(buf)) fs.writeFileSync(file, buf);
     keep.add(name);
     const i = packs.length; packs.push([code, crypto.createHash("sha1").update(buf).digest("hex").slice(0, 8)]);
