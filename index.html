@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>kojey · 캠퍼스라이프 한국어</title>
+<title>jeyCampus · 캠퍼스라이프 한국어</title>
 <meta name="description" content="Learn Korean: an app for English-track students at Jeonju University">
 <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#005595">
 <link rel="icon" href="icon-192.png" type="image/png"><link rel="apple-touch-icon" href="icon-180.png">
@@ -1092,7 +1092,7 @@ html.tab .kbinfo>span{display:inline-flex}
 .pb{border:0;background:none;padding:5px 11px;font:inherit;font-size:12px;color:var(--ink);cursor:pointer}
 .pb+.pb{border-left:1px solid var(--line)}
 .pb.on{background:var(--accent);color:#fff;font-weight:600}
-/* KoJey tagline under the title (RYU 2026-11-25, v1.6) */
+/* jeyCampus tagline under the title (RYU 2026-11-25, v1.6) */
 #app .top .tagline{margin:2px 0 0;color:#fff;opacity:.85;font-size:14px;font-weight:500}
 @media (max-width:600px){#app .top .tagline{font-size:12px}}
 /* JeyJey and friends (v1.7) */
@@ -1861,6 +1861,14 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
 .vinote{background:#FFF3C4;border-left:4px solid #FFC20E;padding:.6em .8em;border-radius:6px;font-size:.92em}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .vinote{background:#3A3112}}
 :root[data-theme="dark"] .vinote{background:#3A3112}
+
+/* v1.23.0 jeyCampus (RYU 2026-11-26): app-name pill like phasaKAO/phasaLAO: white pill, navy name, a little bigger than the line beside it */
+#app .top .eyebrow{font-size:14px;letter-spacing:.02em}
+#app .top .eyebrow .logo{background:rgba(255,255,255,.93);color:#00305F;border:0;font:700 15px/1 var(--display);letter-spacing:.3px;padding:5px 11px 4px;border-radius:10px;margin-right:9px;vertical-align:1px}
+@media (max-width:600px){
+  #app .top .eyebrow{font-size:min(12.5px,3.2vw)}
+  #app .top .eyebrow .logo{font-size:min(13px,3.4vw);padding:4px 9px 3px;border-radius:8px;margin-right:7px}
+}
 </style></head>
 <body>
 <div class="wrap" id="app" data-g="K1">
@@ -1891,7 +1899,7 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
     </svg>
     <img class="jeyhd" src="img/jey/jey.webp" width="228" height="320" alt="JeyJey" title="JeyJey 제이제이">
     <div class="brand">
-      <span class="eyebrow"><span class="logo">kojey</span> Korean for JJ Campus Life</span>
+      <span class="eyebrow"><span class="logo">jeyCampus</span> Korean for JJ Campus Life</span>
       <h1 class="ko">캠퍼스라이프 한국어</h1><p class="tagline ko">제이와 함께하는 한국어와 대학생활</p>
     </div>
     <div class="stats" id="stats"></div>
@@ -1907,7 +1915,7 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
     <nav class="subs" id="subs" role="tablist" aria-label="Sub menu"></nav>
     <div class="sinfo" id="sinfo"></div>
   </div>
-  <div class="stick" id="stick" hidden><div class="stin"><div class="strow"><b>kojey</b><span id="stickT" class="ko"></span><button type="button" id="stickQ" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button></div><nav class="groups" id="stickG" aria-label="Main menu"></nav></div></div>
+  <div class="stick" id="stick" hidden><div class="stin"><div class="strow"><b>jeyCampus</b><span id="stickT" class="ko"></span><button type="button" id="stickQ" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button></div><nav class="groups" id="stickG" aria-label="Main menu"></nav></div></div>
   <section class="sheet" id="sheet">
     <div class="band" id="band"></div>
     <div class="controls" id="controls">
@@ -1934,7 +1942,7 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-26%20v1.22.1"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|my|ne|vi)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-26%20v1.22.1"><\/script>')})()</script>
-<script src="app.js?v=2026-11-26%20v1.22.1"></script>
+<script src="audio/index.js?v=2026-11-26%20v1.23.0"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|my|ne|vi)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-26%20v1.23.0"><\/script>')})()</script>
+<script src="app.js?v=2026-11-26%20v1.23.0"></script>
 </body></html>

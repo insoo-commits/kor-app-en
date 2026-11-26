@@ -378,7 +378,7 @@ Pakistan	ပါကစ္စတန်
 I send living money to my parents every month.	မိဘဆီ လတိုင်း စားဝတ်နေရေးစရိတ် ပို့တယ်။
 every month	လတိုင်း
 living costs	နေထိုင်စားသောက်စရိတ်
-older brother (said by a man)	အစ်ကို (ယောက်ျားက ပြောသည်)
+older brother (said by a man)	အစ်ကို (ယောက်ျားလေး ပြောသည်)
 I have one older brother.	အစ်ကို တစ်ယောက် ရှိတယ်။
 (counter for people)	(လူ ရေတွက်ပုဒ်) ယောက်
 My older brother is taller than me.	အစ်ကိုက ကျွန်ုပ်ထက် အရပ်ရှည်တယ်။
@@ -388,7 +388,7 @@ tall, big	အရပ်ရှည်သည်၊ ကြီးသည်
 My older brother wants to study in Korea too.	အစ်ကိုလည်း ကိုရီးယားမှာ ပညာသင်ချင်တယ်။
 at, in (place)	မှာ၊ တွင် (နေရာ)
 to study	စာသင်သည်၊ လေ့လာသည်
-older brother (said by a woman)	အစ်ကို (မိန်းမက ပြောသည်)
+older brother (said by a woman)	အစ်ကို (မိန်းကလေး ပြောသည်)
 My older brother is a university student.	အစ်ကိုက တက္ကသိုလ်ကျောင်းသား ပါ။
 university student	တက္ကသိုလ်ကျောင်းသား
 My older brother helps me.	အစ်ကိုက ကျွန်မကို ကူညီပေးတယ်။
@@ -3560,7 +3560,7 @@ Are you married?	အိမ်ထောင် ရှိပြီလား။
 tall	အရပ်ရှည်သည်
 I look like my father	အဖေနဲ့ တူတယ်
 outgoing	ပွင့်လင်းဖော်ရွေသည်
-weekday	ကြားရက် (တနင်္လာ–သောကြာ)
+weekday	ကြားရက်
 what day	ဘာနေ့
 a.m. (before noon)	မနက်ပိုင်း (နေ့လယ် မတိုင်မီ)
 p.m. (after noon)	နေ့လယ်ပိုင်း (နေ့လယ် နောက်)
@@ -3569,7 +3569,7 @@ won	ဝမ်
 rice	ထမင်း
 side dishes	ဟင်းလျာ
 spoon	ဇွန်း
-chopsticks	တူ
+chopsticks	တူ (စားသောက်ရန်)
 hot coffee	ကော်ဖီ အပူ
 iced coffee	ကော်ဖီ အေး
 to eat here	ဒီမှာ စားသည်
@@ -3618,7 +3618,7 @@ to take medicine	ဆေး သောက်သည်
 to put on ointment	လိမ်းဆေး လိမ်းသည်
 bankbook	ဘဏ်စာအုပ်
 account number	ငွေစာရင်း နံပါတ်
-to receive	လက်ခံရရှိသည်
+to receive	လက်ခံသည်
 sender	ပို့သူ
 receiver	လက်ခံသူ
 to send a text	စာတို ပို့သည်
@@ -4925,7 +4925,7 @@ pa	pa
 ja	ja
 X	X
 let's go	သွားကြရအောင်
-snack	မုန့်
+snack	မုန့်၊ သရေစာ
 moving house	အိမ်ပြောင်းခြင်း
 interest (money)	အတိုး (ငွေ)
 you	မင်း၊ ခင်ဗျား
@@ -4955,8 +4955,6 @@ my bag	ကျွန်ုပ့် အိတ်
 prize	ဆု
 liver	အသည်း
 sickle	တံစဉ်
-older brother (said by a man)	အစ်ကို (ယောက်ျားလေး ပြောသည်)
-older brother (said by a woman)	အစ်ကို (မိန်းကလေး ပြောသည်)
 older brother	အစ်ကို (မိန်းကလေး ပြောသည်)
 older brother (said by a male)	အစ်ကို (ယောက်ျားလေး ပြောသည်)
 older brother (from a woman)	အစ်ကို (မိန်းကလေး ပြောသည်)
@@ -4965,3 +4963,1437 @@ Which letter is closest to the "t" in English "stop"? ㄷ / ㅌ / ㄸ	မြန�
 Which letter sounds like the "k" in English "kit"? ㄱ / ㅋ / ㄲ	မြန်မာ "ခ" (ခွေး) ကဲ့သို့ အသံထွက်သော စာလုံးက ဘာလဲ? ㄱ / ㅋ / ㄲ
 The first sound of "떡" is closest to the "t" in which word? dog / stop / top	"떡" ၏ ပထမ အသံသည် မည်သည့် စကားလုံး၏ ပထမ အသံနှင့် အနီးစပ်ဆုံးလဲ? ဒါး / တံခါး / ထမင်း
 "older brother" (said by a woman)을 한국어로?	"အစ်ကို" (မိန်းကလေး ပြောသည်)을 한국어로?
+Add "에" after a time word. It is like "at, on, in" in English.	အချိန်ပြ စကားလုံး၏ နောက်တွင် "에" ကို ထည့်ပါ။ မြန်မာ "မှာ၊ တွင်" (၇ နာရီမှာ) နှင့် ဆင်တူပါသည်။
+Add "에" after time words. Don't add it to 오늘, 내일, 어제.	အချိန်ပြ စကားလုံးများ၏ နောက်တွင် "에" ကို ထည့်ပါ။ 오늘, 내일, 어제 တွင် မထည့်ပါနှင့်။
+Add it after times, days of the week, dates, months and years. The final consonant does not matter.	နာရီ၊ နေ့ (ရက်သတ္တပတ်)၊ ရက်စွဲ၊ လ နှင့် နှစ် တို့၏ နောက်တွင် ထည့်ပါ။ 받침 ရှိမရှိ အရေးမပါပါ။
+Don't add "에" after "오늘, 내일, 어제, 지금, 언제, 매일": "내일 만나요." (like English "See you tomorrow", not "on tomorrow").	"오늘, 내일, 어제, 지금, 언제, 매일" ၏ နောက်တွင် "에" မထည့်ပါနှင့်: "내일 만나요." (မြန်မာ "မနက်ဖြန် တွေ့မယ်" တွင် "မှာ" မထည့်သကဲ့သို့)။
+If there are several time words, add it only to the last one: "토요일 오후 세 시에".	အချိန်ပြ စကားလုံး အများအပြား ပါလျှင် နောက်ဆုံး တစ်ခုတွင်သာ ထည့်ပါ: "토요일 오후 세 시에"။
+English often puts the time at the end of the sentence, but Korean puts it near the front.	မြန်မာစကားကဲ့သို့ပင် ကိုရီးယားတွင် အချိန်ကို ဝါကျ၏ ရှေ့ပိုင်းတွင် ထားပါသည်။
+I get up at 7 o'clock.	၇ နာရီမှာ အိပ်ရာထတယ်။
+I meet a friend on Saturday.	စနေနေ့မှာ သူငယ်ချင်းနဲ့ တွေ့တယ်။
+What are you doing in the evening?	ညနေ ဘာ လုပ်မလဲ။
+evening	ညနေ
+I'm going to Korea next year.	နောက်နှစ် ကိုရီးယား သွားမယ်။
+at 7 o'clock	၇ နာရီမှာ
+7 o'clock	၇ နာရီ
+on Monday	တနင်္လာနေ့မှာ
+in the morning	မနက်မှာ
+on the weekend	စနေ တနင်္ဂနွေမှာ
+next year (time)	နောက်နှစ်မှာ
+What time does your class start?	ဘယ်နှနာရီမှာ အတန်း စလဲ။
+I start at 9.	၉ နာရီမှာ စတယ်။
+Then do you have time on the weekend?	ဒါဆို စနေ တနင်္ဂနွေမှာ အချိန် ရှိလား။
+I'm free on Sunday afternoon.	တနင်္ဂနွေ နေ့လယ်ပိုင်း အားတယ်။
+Add "에" after the place where a person or thing is, and after the place you go to or come to.	လူ သို့မဟုတ် ပစ္စည်း ရှိရာ နေရာ၏ နောက်တွင်လည်းကောင်း၊ သွားရာ သို့မဟုတ် လာရာ နေရာ၏ နောက်တွင်လည်းကောင်း "에" ကို ထည့်ပါ။
+Add "에" after the place where something is and the place you go to.	တစ်ခုခု ရှိရာ နေရာနှင့် သွားရာ နေရာ၏ နောက်တွင် "에" ကို ထည့်ပါ။
+Use "place + 에 + 있다/없다" and "place + 에 + 가다/오다/다니다".	"နေရာ + 에 + 있다/없다" နှင့် "နေရာ + 에 + 가다/오다/다니다" ကို သုံးပါ။
+In English, "to" comes before the place (go to the market), but in Korean "에" comes after it: "시장에 가요".	မြန်မာ "ဈေးကို သွားတယ်" ကဲ့သို့ပင် "에" သည် နေရာ၏ နောက်တွင် လာပါသည်: "시장에 가요"။
+Position words (위 on/above, 아래 under, 앞 in front of, 뒤 behind, 옆 next to, 안 in, 밖 outside) come after the noun: "on the desk" = "책상 위".	တည်နေရာပြ စကားလုံးများ (위 အပေါ်၊ 아래 အောက်၊ 앞 ရှေ့၊ 뒤 နောက်၊ 옆 ဘေး၊ 안 အထဲ၊ 밖 အပြင်) သည် မြန်မာကဲ့သို့ပင် နာမ်၏ နောက်တွင် လာပါသည်: "စားပွဲပေါ်" = "책상 위"။
+"여기에, 거기에, 저기에, 어디에" can also be said without "에": "여기, 거기, 저기, 어디".	"여기에, 거기에, 저기에, 어디에" ကို "에" မပါဘဲလည်း ပြောနိုင်ပါသည်: "여기, 거기, 저기, 어디"။
+I'm at home now.	အခု အိမ်မှာ ရှိတယ်။
+My passport is in the bag.	အိတ်ထဲမှာ နိုင်ငံကူးလက်မှတ် ရှိတယ်။
+(I) go to school	ကျောင်း သွားတယ်
+(I) came to Korea	ကိုရီးယားကို ရောက်ခဲ့တယ်
+It's on the desk	စာရေးခုံပေါ်မှာ ရှိတယ်
+on the desk, top of the desk	စာရေးခုံပေါ်
+Please put it here	ဒီမှာ ထားပါ
+Sam, where are you now?	ဆမ်၊ အခု ဘယ်မှာလဲ။
+I'm in the library.	စာကြည့်တိုက်မှာ ရှိတယ်။
+Please come to the department office.	ဌာန ရုံးကို ခဏ လာခဲ့ပါ။
+Add "에서" after the place where you do something. It also shows the place you come from (from).	တစ်ခုခု လုပ်ရာ နေရာ၏ နောက်တွင် "에서" ကို ထည့်ပါ။ လာရာ နေရာ (မှ၊ ကနေ) ကိုလည်း ပြပါသည်။
+For where something is, use "에"; for where you do something, use "에서".	တစ်ခုခု ရှိရာ နေရာအတွက် "에"၊ တစ်ခုခု လုပ်ရာ နေရာအတွက် "에서" ကို သုံးပါ။
+Use "place + 에서 + action (먹다, 공부하다, 일하다, 사다, 만나다)".	"နေရာ + 에서 + လုပ်ဆောင်ချက် (먹다, 공부하다, 일하다, 사다, 만나다)" ကို သုံးပါ။
+English "at/in" becomes two forms in Korean. For where you are, use "에" (집에 있어요); for where you do something, use "에서" (집에서 쉬어요).	မြန်မာ "မှာ" သည် ကိုရီးယားတွင် ပုံစံ နှစ်မျိုး ဖြစ်ပါသည်။ ရှိရာ နေရာအတွက် "에" (집에 있어요 အိမ်မှာ ရှိတယ်)၊ လုပ်ရာ နေရာအတွက် "에서" (집에서 쉬어요 အိမ်မှာ အနားယူတယ်) ကို သုံးပါ။
+"살다" (to live) can take both "에" and "에서": "전주에 살아요", "전주에서 살아요".	"살다" (နေထိုင်သည်) သည် "에" နှင့် "에서" နှစ်ခုစလုံးကို ယူနိုင်ပါသည်: "전주에 살아요"၊ "전주에서 살아요"။
+In speaking, they are shortened to "여기서, 거기서, 어디서".	စကားပြောရာတွင် "여기서, 거기서, 어디서" ဟု အတိုချုံ့ပါသည်။
+I work part-time at a cafe.	ကျွန်ုပ် ကဖေးမှာ အချိန်ပိုင်း အလုပ် လုပ်တယ်။
+I came from Uzbekistan.	ကျွန်ုပ် ဥဇဘက်ကစ္စတန်က လာခဲ့တယ်။
+You must not smoke here.	ဒီမှာ ဆေးလိပ် မသောက်ရပါ။
+(I) eat at a restaurant	စားသောက်ဆိုင်မှာ စားတယ်
+(I) study at the library	စာကြည့်တိုက်မှာ စာကျက်တယ်
+(I) buy it at the market	ဈေးမှာ ဝယ်တယ်
+(I) came from Uzbekistan	ဥဇဘက်ကစ္စတန်ကနေ
+Sam, where are you from?	ဆမ်၊ ဘယ်နိုင်ငံက လာတာလဲ။
+Where do you usually study?	ပုံမှန် ဘယ်မှာ စာကျက်လဲ။
+I study at the library in the Star Center.	စတား စင်တာထဲက စာကြည့်တိုက်မှာ စာကျက်တယ်။
+Star Center	စတား စင်တာ
+"(으)로" shows direction (toward), and way or tool (by, with).	"(으)로" သည် ဦးတည်ရာ (ဘက်သို့) နှင့် နည်းလမ်း သို့မဟုတ် ကိရိယာ (ဖြင့်၊ နဲ့) ကို ပြပါသည်။
+"(으)로" shows direction, way and tool.	"(으)로" သည် ဦးတည်ရာ၊ နည်းလမ်းနှင့် ကိရိယာကို ပြပါသည်။
+After a noun with a final consonant, add "으로". After a noun with no final consonant or with a ㄹ final consonant, add "로".	받침 ရှိသော နာမ်နောက်တွင် "으로" ကို၊ 받침 မရှိသော သို့မဟုတ် ㄹ 받침 ရှိသော နာမ်နောက်တွင် "로" ကို ထည့်ပါ။
+"에 가요" is the place you arrive at; "(으)로 가요" is the direction you go in: "2층으로 올라가세요." (Go up to the 2nd floor.)	"에 가요" သည် ရောက်ရာ နေရာ ဖြစ်ပြီး "(으)로 가요" သည် သွားရာ ဦးတည်ရာ ဖြစ်ပါသည်: "2층으로 올라가세요." (၂ ထပ်ကို တက်သွားပါ။)
+Changing to something also uses "(으)로": "큰 걸로 바꿔 주세요." (Please change it to a bigger one.)	တစ်ခုခုသို့ ပြောင်းရာတွင်လည်း "(으)로" ကို သုံးပါသည်: "큰 걸로 바꿔 주세요." (ပိုကြီးတာနဲ့ လဲပေးပါ။)
+When you choose something, you say "이걸로 주세요" (I'll take this one).	တစ်ခုခု ရွေးချယ်သောအခါ "이걸로 주세요" (ဒါ ယူမယ်) ဟု ပြောပါသည်။
+the right side	ညာဘက်
+I go to school by bus.	ကျောင်းကို ဘတ်စ်ကားနဲ့ သွားတယ်။
+I eat with chopsticks.	တူနဲ့ စားတယ်။
+to the right	ညာဘက်သို့
+by bus	ဘတ်စ်ကားနဲ့
+by subway	မြေအောက်ရထားနဲ့
+with your hand, by hand	လက်နဲ့
+Excuse me. Where is the bank?	တစ်ဆိတ်လောက်။ ဘဏ် ဘယ်မှာလဲ။
+to excuse oneself (excuse me)	တစ်ဆိတ် ခွင့်ပြုပါ ဟု ပြောသည်
+Turn left at that intersection.	ဟိုလမ်းဆုံမှာ ဘယ်ဘက် ကွေ့ပါ။
+intersection, crossroads	လမ်းဆုံ
+the left side	ဘယ်ဘက်
+Can I walk there?	လမ်းလျှောက်ပြီး သွားလို့ ရလား။
+It's a bit far. Take the bus.	နည်းနည်း ဝေးတယ်။ ဘတ်စ်ကား စီးပါ။
+It shows the receiver. It is like "to" in English.	လက်ခံသူကို ပြပါသည်။ မြန်မာ "ကို၊ ဆီ" နှင့် ဆင်တူပါသည်။
+Add "한테/에게" after the receiver, and "께" after a respected person.	လက်ခံသူ၏ နောက်တွင် "한테/에게" ကို၊ လေးစားရသူ၏ နောက်တွင် "께" ကို ထည့်ပါ။
+Add it after a person or an animal. In speaking use "한테", in writing use "에게", and for a respected person use "께".	လူ သို့မဟုတ် တိရစ္ဆာန်၏ နောက်တွင် ထည့်ပါ။ စကားပြောတွင် "한테"၊ စာရေးရာတွင် "에게"၊ လေးစားရသူအတွက် "께" ကို သုံးပါ။
+If the receiver is a place, school or organization, use "에": "학과 사무실에 전화했어요." (I called the department office.)	လက်ခံသူသည် နေရာ၊ ကျောင်း သို့မဟုတ် အဖွဲ့အစည်း ဖြစ်လျှင် "에" ကို သုံးပါ: "학과 사무실에 전화했어요." (ဌာန ရုံးကို ဖုန်းဆက်ခဲ့တယ်။)
+The giver (from) is "한테서, 에게서": "친구한테서 들었어요." In speaking, just "한테" is also fine.	ပေးသူ (ထံမှ) သည် "한테서, 에게서" ဖြစ်ပါသည်: "친구한테서 들었어요." (သူငယ်ချင်းဆီက ကြားခဲ့တယ်။) စကားပြောတွင် "한테" ဟုသာ ပြောလည်း ရပါသည်။
+If you use "께", the verb must also be polite. Not "주다" but "드리다": "교수님께 드렸어요."	"께" ကို သုံးလျှင် ကြိယာကိုလည်း ယဉ်ကျေးစွာ သုံးရပါမည်။ "주다" မဟုတ်ဘဲ "드리다": "교수님께 드렸어요."
+I call my friend.	သူငယ်ချင်းဆီ ဖုန်းဆက်တယ်။
+I sent money to my mother.	အမေ့ဆီ ပိုက်ဆံ ပို့ခဲ့တယ်။
+Please give it to me.	ကျွန်ုပ့်ကို ပေးပါ။
+Ask the professor.	ပါမောက္ခကို မေးကြည့်ပါ။
+to a friend	သူငယ်ချင်းဆီ
+to my younger brother/sister	ညီ/ညီမဆီ
+to the professor	ပါမောက္ခဆီ
+to me	ကျွန်ုပ့်ဆီ
+to whom	ဘယ်သူ့ဆီ
+Please give these documents to the department head.	ဒီစာရွက်စာတမ်းတွေကို ဌာနမှူးဆီ ပေးပါ။
+document, papers	စာရွက်စာတမ်း
+OK. Shall I give some to Aisha too?	ဟုတ်ကဲ့။ အိုင်ရှာ့ကိုလည်း ပေးရမလား။
+No, I'll give them to Aisha myself.	မဟုတ်ပါဘူး၊ အိုင်ရှာ့ကို ကျွန်ုပ် ကိုယ်တိုင် ပေးပါမယ်။
+It shows the start point and the end point. It is like "from … to/until" in English.	စမှတ်နှင့် ဆုံးမှတ်ကို ပြပါသည်။ မြန်မာ "... ကနေ ... အထိ" နှင့် ဆင်တူပါသည်။
+For time use "부터 ~ 까지"; for places use "에서 ~ 까지".	အချိန်အတွက် "부터 ~ 까지"၊ နေရာအတွက် "에서 ~ 까지" ကို သုံးပါ။
+In English, "from, until" come before the noun, but in Korean they come after it: "from 9 o'clock" = "아홉 시부터".	မြန်မာစကားကဲ့သို့ပင် "ကနေ၊ အထိ" သည် နာမ်၏ နောက်တွင် လာပါသည်: "၉ နာရီကနေ" = "아홉 시부터"။
+"까지" is often used for deadlines: "금요일까지 내세요." (Hand it in by Friday.)	"까지" ကို နောက်ဆုံးရက်အတွက် မကြာခဏ သုံးပါသည်: "금요일까지 내세요." (သောကြာနေ့အထိ တင်ပါ။)
+For turns, you say "저부터 할게요" (I'll go first).	အလှည့်အတွက် "저부터 할게요" (ကျွန်ုပ် အရင် လုပ်ပါမယ်) ဟု ပြောပါသည်။
+I have classes from 9 to 6.	၉ နာရီကနေ ၆ နာရီအထိ အတန်း ရှိတယ်။
+It takes 10 minutes from the dorm to school.	အဆောင်ကနေ ကျောင်းအထိ ၁၀ မိနစ် ကြာတယ်။
+Please do it by tomorrow.	မနက်ဖြန်အထိ လုပ်ပေးပါ။
+Since when have you learned Korean?	ဘယ်တုန်းကစပြီး ကိုရီးယားစာ သင်ခဲ့တာလဲ။
+from 9 o'clock	၉ နာရီကနေ
+9 o'clock	၉ နာရီ
+until 6 o'clock	၆ နာရီအထိ
+6 o'clock	၆ နာရီ
+from Monday to Friday	တနင်္လာနေ့ကနေ သောကြာနေ့အထိ
+from home to school	အိမ်ကနေ ကျောင်းအထိ
+from here to there	ဒီကနေ ဟိုအထိ
+there (over there)	ဟိုမှာ
+What time does lunch break start?	နေ့လယ်စာ နားချိန်က ဘယ်နှနာရီကနေ စလဲ။
+lunch break	နေ့လယ်စာ နားချိန်
+From 12 to 1.	၁၂ နာရီကနေ ၁ နာရီအထိ ပါ။
+Is the student cafeteria far from here?	ကျောင်းသား စားသောက်ဆောင်က ဒီကနေ ဝေးလား။
+student cafeteria	ကျောင်းသား စားသောက်ဆောင်
+No, it takes 2 minutes from here to the student cafeteria.	မဝေးပါဘူး၊ ဒီကနေ ကျောင်းသား စားသောက်ဆောင်အထိ ၂ မိနစ် ကြာတယ်။
+All three mean "and, with".	သုံးခုစလုံးသည် "နှင့်၊ နဲ့" ဟု အဓိပ္ပာယ်ရပါသည်။
+"하고, 와/과, (이)랑" all mean "and, with".	"하고, 와/과, (이)랑" အားလုံးသည် "နှင့်၊ နဲ့" ဟု အဓိပ္ပာယ်ရပါသည်။
+"하고" is added with or without a final consonant. "와/과": "와" without a final consonant, "과" with one. "(이)랑": "이랑" with a final consonant, "랑" without one.	"하고" ကို 받침 ရှိမရှိ မရွေး ထည့်ပါသည်။ "와/과": 받침 မရှိလျှင် "와"၊ ရှိလျှင် "과"။ "(이)랑": 받침 ရှိလျှင် "이랑"၊ မရှိလျှင် "랑"။
+In speaking use "하고, (이)랑"; in writing and presentations use "와/과".	စကားပြောတွင် "하고, (이)랑"၊ စာရေးခြင်းနှင့် တင်ပြချက်တွင် "와/과" ကို သုံးပါ။
+These words connect a noun with a noun. To connect sentences, use "-고" or "그리고".	ဤစကားလုံးများသည် နာမ်နှင့် နာမ်ကို ဆက်ပါသည်။ ဝါကျများကို ဆက်ရန် "-고" သို့မဟုတ် "그리고" ကို သုံးပါ။
+When it means "with (together)", people often add "같이" or "함께": "친구하고 같이".	"(အတူ) နဲ့" ဟု အဓိပ္ပာယ်ရလျှင် "같이" သို့မဟုတ် "함께" ကို မကြာခဏ ထည့်ကြပါသည်: "친구하고 같이" (သူငယ်ချင်းနဲ့ အတူ)။
+I eat rice and kimchi.	ထမင်းနဲ့ ကင်မ်ချီ စားတယ်။
+I go with my friend.	သူငယ်ချင်းနဲ့ အတူ သွားတယ်။
+Get your notebook and pen ready.	မှတ်စုစာအုပ်နဲ့ ဘောပင် အသင့်ပြင်ထားပါ။
+notebook	မှတ်စုစာအုပ်
+to prepare, to get ready	ပြင်ဆင်သည်၊ အသင့်ပြင်သည်
+Who do you live with?	ဘယ်သူနဲ့ နေလဲ။
+rice and kimchi	ထမင်းနဲ့ ကင်မ်ချီ
+kimchi and rice	ကင်မ်ချီနှင့် ထမင်း
+with a friend	သူငယ်ချင်းနဲ့
+with my younger brother/sister	ညီ/ညီမနဲ့
+What did you do on the weekend?	စနေ တနင်္ဂနွေမှာ ဘာ လုပ်ခဲ့လဲ။
+I went to the market with Aisha.	အိုင်ရှာနဲ့ ဈေး သွားခဲ့တယ်။
+What did you buy?	ဘာ ဝယ်ခဲ့လဲ။
+I bought fruit and meat.	သစ်သီးနဲ့ အသား ဝယ်ခဲ့တယ်။
+Used to compare two things. It is like "than" in English.	အရာ နှစ်ခုကို နှိုင်းယှဉ်ရာတွင် သုံးပါသည်။ မြန်မာ "ထက်" နှင့် ဆင်တူပါသည်။
+"A가 B보다 ~" means "A is more … than B".	"A가 B보다 ~" သည် "A က B ထက် ပို ~" ဟု အဓိပ္ပာယ်ရပါသည်။
+"A가 B보다 (더) ~" means "A is more … than B". Add "보다" after the thing you compare with.	"A가 B보다 (더) ~" သည် "A က B ထက် ပို ~" ဟု အဓိပ္ပာယ်ရပါသည်။ နှိုင်းယှဉ်သော အရာ၏ နောက်တွင် "보다" ကို ထည့်ပါ။
+In English, "than" comes before the thing you compare with (colder than Bangladesh), but in Korean "보다" comes after it (방글라데시보다 추워요).	မြန်မာ "ထက်" ကဲ့သို့ပင် "보다" သည် နှိုင်းယှဉ်သော အရာ၏ နောက်တွင် လာပါသည်: "ဘင်္ဂလားဒေ့ရှ်ထက် အေးတယ်" = 방글라데시보다 추워요။
+You can use it with "더" (more) and "덜" (less): "이게 덜 매워요." (This one is less spicy.)	"더" (ပို) နှင့် "덜" (လျော့) နှင့် တွဲသုံးနိုင်ပါသည်: "이게 덜 매워요." (ဒါက စပ်တာ လျော့တယ်။)
+For "the most ~", use "제일" or "가장": "제일 싸요." (It's the cheapest.)	"အ~ဆုံး" အတွက် "제일" သို့မဟုတ် "가장" ကို သုံးပါ: "제일 싸요." (အပေါဆုံး ပါ။)
+Korea is colder than Bangladesh.	ကိုရီးယားက ဘင်္ဂလားဒေ့ရှ်ထက် အေးတယ်။
+Today is hotter than yesterday.	ဒီနေ့က မနေ့ကထက် ပူတယ်။
+The subway is faster than the bus.	မြေအောက်ရထားက ဘတ်စ်ကားထက် မြန်တယ်။
+Do you have a bigger one than this?	ဒါထက် ကြီးတာ ရှိလား။
+than Bangladesh	ဘင်္ဂလားဒေ့ရှ်ထက်
+than yesterday	မနေ့ကထက်
+than me	ကျွန်ုပ်ထက်
+than this	ဒါထက်
+How is life in Korea?	ကိုရီးယား ဘဝက ဘယ်လိုလဲ။
+to be how (how is it)	ဘယ်လို ရှိသည်
+It's much colder than Bangladesh.	ဘင်္ဂလားဒေ့ရှ်ထက် အများကြီး ပိုအေးတယ်။
+a lot, much	အများကြီး
+What about the food?	အစားအစာကော။
+It's less spicy than Bangladeshi food.	ဘင်္ဂလားဒေ့ရှ် အစားအစာထက် စပ်တာ လျော့တယ်။
+"마다" means "every, each". It means all of them, with none left out.	"마다" သည် "တိုင်း" ဟု အဓိပ္ပာယ်ရပါသည်။ တစ်ခုမှ မကျန် အားလုံးကို ဆိုလိုပါသည်။
+"Noun + 마다" means "every + noun".	"နာမ် + 마다" သည် "နာမ် + တိုင်း" ဟု အဓိပ္ပာယ်ရပါသည်။
+In English, "every" comes before the noun, but "마다" comes after it: "every morning" = "아침마다".	မြန်မာ "တိုင်း" ကဲ့သို့ပင် "마다" သည် နာမ်၏ နောက်တွင် လာပါသည်: "မနက်တိုင်း" = "아침마다"။
+"매일, 매주, 매달, 매년" mean the same as "날마다, 주마다, 달마다, 해마다".	"매일, 매주, 매달, 매년" သည် "날마다, 주마다, 달마다, 해마다" (နေ့တိုင်း၊ အပတ်တိုင်း၊ လတိုင်း၊ နှစ်တိုင်း) နှင့် အဓိပ္ပာယ် တူပါသည်။
+I exercise every weekend.	စနေ တနင်္ဂနွေတိုင်း လေ့ကျင့်ခန်း လုပ်တယ်။
+I drink coffee every morning.	မနက်တိုင်း ကော်ဖီ သောက်တယ်။
+Everyone thinks differently.	လူတိုင်း စဉ်းစားပုံ မတူကြဘူး။
+thought, idea	အတွေး၊ အကြံ
+different	မတူသည်၊ ကွဲပြားသည်
+The bus comes every 10 minutes.	ဘတ်စ်ကားက ၁၀ မိနစ်တိုင်း လာတယ်။
+every weekend	စနေ တနင်္ဂနွေတိုင်း
+every morning	မနက်တိုင်း
+each person	လူတိုင်း
+each country	နိုင်ငံတိုင်း
+Do you often call home?	ဇာတိကို မကြာခဏ ဖုန်းဆက်လား။
+Yes, I call my mother every Sunday.	ဟုတ်ကဲ့၊ တနင်္ဂနွေနေ့တိုင်း အမေ့ဆီ ဖုန်းဆက်တယ်။
+Do you send money too?	ပိုက်ဆံလည်း ပို့လား။
+Yes, I send it every month.	ဟုတ်ကဲ့၊ လတိုင်း ပို့တယ်။
+Used when choosing one of two things. It is like "or" in English.	နှစ်ခုထဲက တစ်ခု ရွေးရာတွင် သုံးပါသည်။ မြန်မာ "ဒါမှမဟုတ်၊ သို့မဟုတ်" နှင့် ဆင်တူပါသည်။
+"A(이)나 B" means "A or B".	"A(이)나 B" သည် "A ဒါမှမဟုတ် B" ဟု အဓိပ္ပာယ်ရပါသည်။
+After a noun with a final consonant, add "이나". After a noun without one, add "나".	받침 ရှိသော နာမ်နောက်တွင် "이나" ကို၊ မရှိသော နာမ်နောက်တွင် "나" ကို ထည့်ပါ။
+Connect nouns with "(이)나" and verbs with "-거나": "쉬거나 운동해요."	နာမ်များကို "(이)나" ဖြင့်၊ ကြိယာများကို "-거나" ဖြင့် ဆက်ပါ: "쉬거나 운동해요." (အနားယူတာ ဒါမှမဟုတ် လေ့ကျင့်ခန်း လုပ်တာ)။
+After a number, it means "more than expected": "열 명이나 왔어요" = As many as 10 people came.	နံပါတ်၏ နောက်တွင် "မျှော်လင့်ထားသည်ထက် များသည်" ဟု အဓိပ္ပာယ်ရပါသည်: "열 명이나 왔어요" = လူ ၁၀ ယောက်တောင် လာခဲ့တယ်။
+In a question asking someone to choose one of two, use "아니면": "커피 마실래요, 아니면 차 마실래요?"	နှစ်ခုထဲက တစ်ခု ရွေးခိုင်းသော မေးခွန်းတွင် "아니면" ကို သုံးပါ: "커피 마실래요, 아니면 차 마실래요?" (ကော်ဖီ သောက်မလား၊ ဒါမှမဟုတ် လက်ဖက်ရည် သောက်မလား။)
+I take the bus or the subway.	ဘတ်စ်ကား ဒါမှမဟုတ် မြေအောက်ရထား စီးတယ်။
+to ride, to take (a bus, boat)	စီးသည် (ဘတ်စ်ကား၊ လှေ)
+Let's meet on Saturday or Sunday.	စနေနေ့ ဒါမှမဟုတ် တနင်္ဂနွေနေ့ တွေ့ကြရအောင်။
+Let's have a cup of coffee or something.	ကော်ဖီလေး ဘာလေး သောက်ကြရအောင်။
+to have a drink together	အတူ တစ်ခွက် သောက်သည်
+I waited for three hours!	၃ နာရီတောင် စောင့်ခဲ့ရတယ်!
+the bus or the subway	ဘတ်စ်ကား ဒါမှမဟုတ် မြေအောက်ရထား
+coffee or tea	ကော်ဖီ ဒါမှမဟုတ် လက်ဖက်ရည်
+car, tea	ကား၊ လက်ဖက်ရည်
+rice or bread	ထမင်း ဒါမှမဟုတ် ပေါင်မုန့်
+Saturday or Sunday	စနေနေ့ ဒါမှမဟုတ် တနင်္ဂနွေနေ့
+What shall we eat this evening?	ညနေ ဘာ စားကြမလဲ။
+How about samgyeopsal or bulgogi?	ဆမ်ဂျော့ဆယ် ဒါမှမဟုတ် ဘူဂိုဂီ ဘယ်လိုလဲ။
+Sounds good. Let's eat samgyeopsal.	ကောင်းတယ်။ ဆမ်ဂျော့ဆယ် စားကြရအောင်။
+"처럼" means "like, as". Use it to say that something is similar to something else.	"처럼" သည် "လို၊ ကဲ့သို့" ဟု အဓိပ္ပာယ်ရပါသည်။ တစ်ခုခုသည် အခြား တစ်ခုနှင့် ဆင်တူကြောင်း ပြောရာတွင် သုံးပါ။
+"Noun + 처럼" means "like + noun".	"နာမ် + 처럼" သည် "နာမ် + လို" ဟု အဓိပ္ပာယ်ရပါသည်။
+Add it after a noun. The final consonant does not matter. "같이" is also used with the same meaning.	နာမ်၏ နောက်တွင် ထည့်ပါ။ 받침 ရှိမရှိ အရေးမပါပါ။ "같이" ကိုလည်း အဓိပ္ပာယ် တူစွာ သုံးပါသည်။
+In English, "like" comes before the noun, but "처럼" comes after it.	မြန်မာ "လို" ကဲ့သို့ပင် "처럼" သည် နာမ်၏ နောက်တွင် လာပါသည်: "ကိုရီးယားလူမျိုးလို" = 한국 사람처럼။
+"처럼" describes verbs and adjectives. To describe a noun, use "같은": "가족 같은 사람". "~ 같아요" means "It's like…".	"처럼" သည် ကြိယာနှင့် နာမဝိသေသနကို ဖော်ပြပါသည်။ နာမ်ကို ဖော်ပြရန် "같은" ကို သုံးပါ: "가족 같은 사람" (မိသားစုလို လူ)။ "~ 같아요" သည် "...လိုပဲ" ဟု အဓိပ္ပာယ်ရပါသည်။
+When teaching cooking or sports, people often say "이렇게, 저처럼 하세요" (Do it like this, like me).	ချက်ပြုတ်နည်း သို့မဟုတ် အားကစား သင်ပေးရာတွင် "이렇게, 저처럼 하세요" (ဒီလို၊ ကျွန်ုပ့်လို လုပ်ပါ) ဟု မကြာခဏ ပြောကြပါသည်။
+(He/She) speaks like a Korean.	ကိုရီးယားလူမျိုးလို ပြောတယ်။
+like	-လို၊ -ကဲ့သို့
+We get along like family.	ကျွန်ုပ်တို့က မိသားစုလို နေကြတယ်။
+to live, to get along	နေထိုင်သည်၊ ပေါင်းသင်းသည်
+Please make it like this one.	ဒါလို လုပ်ပေးပါ။
+Today is as hot as summer.	ဒီနေ့က နွေရာသီလို ပူတယ်။
+like a Korean	ကိုရီးယားလူမျိုးလို
+like family	မိသားစုလို
+like this (one)	ဒါလို
+like me	ကျွန်ုပ့်လို
+Sam, try making coffee like me.	ဆမ်၊ ကျွန်ုပ့်လို ကော်ဖီ ဖျော်ကြည့်ပါ။
+to try (-아/어 보다)	(-아/어 보다) ကြည့်သည်၊ စမ်းလုပ်သည်
+Like this?	ဒီလိုလား။
+to be like this	ဒီလို ဖြစ်သည်
+Yes, you're good at it. You do it like someone who has worked here a long time.	ဟုတ်ကဲ့၊ တော်တယ်။ ဒီမှာ ကြာကြာ အလုပ်လုပ်ဖူးတဲ့ လူလိုပဲ။
+English does not have this difference. Use "은/는" when you talk about something already known, and "이/가" when you give new information or answer "who? what?".	မြန်မာစကားတွင် "က" နှင့် "ကတော့" ရှိသော်လည်း ကိုရီးယား ခွဲခြားပုံနှင့် အတိအကျ မတူပါ။ သိပြီးသား အရာအကြောင်း ပြောလျှင် "은/는" ကို၊ သတင်းအသစ် ပေးလျှင် သို့မဟုတ် "ဘယ်သူ၊ ဘာ" ကို ဖြေလျှင် "이/가" ကို သုံးပါ။
+"은/는" is for the topic and for comparing. "이/가" is for new information and the answer to "who?".	"은/는" သည် အကြောင်းအရာနှင့် နှိုင်းယှဉ်ခြင်းအတွက် ဖြစ်ပါသည်။ "이/가" သည် သတင်းအသစ်နှင့် "ဘယ်သူ" ၏ အဖြေအတွက် ဖြစ်ပါသည်။
+Question words "누가, 무엇이, 어디가" and their answers use "이/가": "누가 했어요?" "제가 했어요."	မေးခွန်းစကားလုံး "누가, 무엇이, 어디가" နှင့် ၎င်းတို့၏ အဖြေများတွင် "이/가" ကို သုံးပါ: "누가 했어요?" "제가 했어요."
+The first time you mention something, use "이/가". After that, use "은/는": "저기 사람이 있어요. 그 사람은 제 룸메이트예요."	ပထမဆုံး အကြိမ် ပြောသောအခါ "이/가" ကို သုံးပါ။ ထို့နောက် "은/는" ကို သုံးပါ: "저기 사람이 있어요. 그 사람은 제 룸메이트예요." (ဟိုမှာ လူတစ်ယောက် ရှိတယ်။ အဲဒီလူကတော့ ကျွန်ုပ့် အခန်းဖော် ပါ။)
+topic marker	အကြောင်းအရာပြ ပစ္စည်း
+Today, I'm busy.	ဒီနေ့ကတော့ အလုပ်များတယ်။
+Class starts at nine.	အတန်းကတော့ ၉ နာရီမှာ စတယ်။
+subject marker	ကတ္တားပြ ပစ္စည်း
+to come, to fall (rain)	လာသည်၊ (မိုး) ရွာသည်
+The dormitory boiler is broken.	အဆောင်ရဲ့ ဘွိုင်လာ ပျက်နေတယ်။
+boiler (heater)	ဘွိုင်လာ (အပူပေးစက်)
+breakdown	ပျက်စီးခြင်း
+to happen (고장 나다 = to break down)	ဖြစ်ပေါ်သည် (고장 나다 = ပျက်သည်)
+I (it's me who…)	ကျွန်ုပ် (က)
+I will do it.	ကျွန်ုပ် လုပ်ပါမယ်။
+I'm Sam. (It's me who is Sam.)	ကျွန်ုပ်က ဆမ် ပါ။
+I'll clean the dormitory today.	ဒီနေ့ ကျွန်ုပ် အဆောင် သန့်ရှင်းရေး လုပ်မယ်။
+as for me	ကျွန်ုပ် (ကတော့)
+As for me, I'll have coffee.	ကျွန်ုပ်ကတော့ ကော်ဖီ သောက်မယ်။
+I'm not really sure.	ကျွန်ုပ် သိပ် မသိဘူး။
+I can't eat pork.	ကျွန်ုပ် ဝက်သား မစားနိုင်ဘူး။
+who (is the one who…)	ဘယ်သူ (က)
+Who came?	ဘယ်သူ လာခဲ့တာလဲ။
+Who is the teaching assistant?	ဘယ်သူက TA လဲ။
+Who took my umbrella?	ဘယ်သူ ကျွန်ုပ့် ထီး ယူသွားတာလဲ။
+Who is Sam?	ဘယ်သူက ဆမ် လဲ။
+Which country are you from, Sam?	ဆမ်၊ ဘယ်နိုင်ငံက လာတာလဲ။
+at, from	-မှာ၊ -ကနေ
+I'm from the US.	ကျွန်ုပ် အမေရိကန်က လာတာ ပါ။
+the US	အမေရိကန်
+from	-ကနေ၊ -မှ
+I'm Sam (as for me)	ကျွန်ုပ်ကတော့ ဆမ် ပါ
+My brother is tall. As for me, I'm short	အစ်ကိုက အရပ်ရှည်တယ်။ ကျွန်ုပ်ကတော့ အရပ်ပုတယ်
+It's raining	မိုး ရွာနေတယ်
+I did it (it was me)	ကျွန်ုပ် လုပ်ခဲ့တာ ပါ
+English "at / in" splits into "에" and "에서" in Korean. Use "에" for where something is, and "에서" for where you do something.	မြန်မာ "မှာ" သည် ကိုရီးယားတွင် "에" နှင့် "에서" ဟု ခွဲသွားပါသည်။ တစ်ခုခု ရှိရာ နေရာအတွက် "에"၊ တစ်ခုခု လုပ်ရာ နေရာအတွက် "에서" ကို သုံးပါ။
+Where you are and where you go use "에". Where you do something and where you leave from use "에서".	ရှိရာ နေရာနှင့် သွားရာ နေရာတွင် "에" ကို သုံးပါ။ လုပ်ရာ နေရာနှင့် ထွက်ခွာရာ နေရာတွင် "에서" ကို သုံးပါ။
+Look at the verb that comes after. "있다, 없다, 살다, 가다, 오다, 앉다, 놓다" use "에". Other actions use "에서".	နောက်တွင် လာသော ကြိယာကို ကြည့်ပါ။ "있다, 없다, 살다, 가다, 오다, 앉다, 놓다" သည် "에" ကို သုံးပါသည်။ အခြား လုပ်ဆောင်ချက်များသည် "에서" ကို သုံးပါသည်။
+"살다" works with both: "전주에 살아요", "전주에서 살아요".	"살다" သည် နှစ်ခုစလုံးနှင့် ရပါသည်: "전주에 살아요"၊ "전주에서 살아요"။
+at, in (where something is)	에 ① (ရှိရာ နေရာ) မှာ
+I live in Jeonju.	ကျွန်ုပ် ဂျွန်ဂျူမှာ နေတယ်။
+The professor is in his office.	ပါမောက္ခက ရုံးခန်းမှာ ရှိပါတယ်။
+professor's office	ပါမောက္ခ ရုံးခန်း
+to be (honorific)	ရှိသည် (ရိုသေစကား)
+My residence card is in my wallet.	နိုင်ငံခြားသား မှတ်ပုံတင်ကတ်က ပိုက်ဆံအိတ်ထဲမှာ ရှိတယ်။
+residence card (for foreigners)	နိုင်ငံခြားသား မှတ်ပုံတင်ကတ်
+to (where you go or come)	에 ② (သွားရာ၊ လာရာ) ကို
+I'm going to the hospital tomorrow.	မနက်ဖြန် ဆေးရုံ သွားမယ်။
+When did you come to Korea?	ကိုရီးယားကို ဘယ်တုန်းက ရောက်လာတာလဲ။
+After class, I'm going to the supermarket.	အတန်းပြီးရင် စူပါမားကတ် သွားမယ်။
+to end	ပြီးဆုံးသည်
+at, in (where you do something)	에서 ① (လုပ်ရာ နေရာ) မှာ
+at	-မှာ
+On weekends, I learn Korean at the foreigner support center.	စနေ တနင်္ဂနွေမှာ နိုင်ငံခြားသား အထောက်အပံ့ စင်တာမှာ ကိုရီးယားစာ သင်တယ်။
+I'm from Pakistan.	ပါကစ္စတန်က လာတာ ပါ။
+It's far from my house to school.	အိမ်ကနေ ကျောင်းအထိ ဝေးတယ်။
+house	အိမ်
+to be far	ဝေးသည်
+From the dormitory to Star Center is a ten-minute walk.	အဆောင်ကနေ စတား စင်တာအထိ လမ်းလျှောက် ၁၀ မိနစ် ပါ။
+at, on (time)	에 ③ (အချိန်) မှာ
+I rest on weekends.	စနေ တနင်္ဂနွေမှာ အနားယူတယ်။
+It ends at six o'clock.	၆ နာရီမှာ ပြီးတယ်။
+There's a health checkup on Monday.	တနင်္လာနေ့မှာ ကျန်းမာရေး စစ်ဆေးမှု ရှိတယ်။
+Where do you live, Sam?	ဆမ်၊ ဘယ်မှာ နေလဲ။
+I live in Jeonju. I'm in the school dormitory.	ဂျွန်ဂျူမှာ နေတယ်။ ကျောင်း အဆောင်မှာ ပါ။
+Jeonju	ဂျွန်ဂျူ
+to be (somewhere)	ရှိသည် (တစ်နေရာရာတွင်)
+Where do you eat dinner?	ညစာ ဘယ်မှာ စားလဲ။
+dinner, evening	ညစာ၊ ညနေ
+where (do something)	ဘယ်မှာ (လုပ်ရာ နေရာ)
+I usually eat at the dormitory cafeteria.	ပုံမှန် အဆောင် စားသောက်ဆောင်မှာ စားတယ်။
+I'm at school	ကျောင်းမှာ ရှိတယ်
+I go to school	ကျောင်း သွားတယ်
+I study at school	ကျောင်းမှာ စာကျက်တယ်
+eseo + oda, chulbalhada	eseo + oda, chulbalhada (ကနေ + လာသည်၊ ထွက်ခွာသည်)
+I came from Pakistan	ပါကစ္စတန်ကနေ လာခဲ့တယ်
+It starts at nine	၉ နာရီမှာ စတယ်
+Like English "to", it shows the person who receives. The meaning is the same, but the level of speech is different.	မြန်မာ "ကို၊ ဆီ" ကဲ့သို့ လက်ခံသူကို ပြပါသည်။ အဓိပ္ပာယ် တူသော်လည်း ယဉ်ကျေးမှု အဆင့် ကွာပါသည်။
+Use "한테" in speaking, "에게" in writing, and "께" for people above you.	စကားပြောတွင် "한테"၊ စာရေးရာတွင် "에게"၊ အထက်လူကြီးများအတွက် "께" ကို သုံးပါ။
+The word order is the same as English "send money to my brother", but in Korean the receiver comes first: "동생한테 돈을 보내요".	မြန်မာ "ညီကို ပိုက်ဆံ ပို့တယ်" ကဲ့သို့ပင် ကိုရီးယားတွင် လက်ခံသူ ရှေ့တွင် လာပါသည်: "동생한테 돈을 보내요"။
+When you use "께", the verb is also honorific. Not "교수님께 줬어요" but "교수님께 드렸어요".	"께" ကို သုံးလျှင် ကြိယာလည်း ရိုသေစကား ဖြစ်ရပါမည်။ "교수님께 줬어요" မဟုတ်ဘဲ "교수님께 드렸어요" ဖြစ်ပါသည်။
+If it's not a person, use "에". "학교한테 전화했어요" is wrong.	လူ မဟုတ်လျှင် "에" ကို သုံးပါ။ "학교한테 전화했어요" သည် မှားပါသည်။
+to (spoken)	ကို၊ ဆီ (စကားပြော)
+I sent money to my younger brother.	ညီ/ညီမဆီ ပိုက်ဆံ ပို့ခဲ့တယ်။
+to give (주세요 = please give)	ပေးသည် (주세요 = ပေးပါ)
+I told the TA that I can't go to class tomorrow.	မနက်ဖြန် အတန်း မတက်နိုင်ကြောင်း TA ကို ပြောခဲ့တယ်။
+to	-ကို၊ -ဆီ
+to say	ပြောသည်
+to (formal)	ကို၊ ဆီ (တရားဝင်)
+Please ask a staff member.	ဝန်ထမ်းကို မေးကြည့်ပါ။
+staff member, employee	ဝန်ထမ်း
+I informed everyone.	အားလုံးကို အသိပေးခဲ့ပါတယ်။
+everyone, all	အားလုံး
+to let know, to inform	အသိပေးသည်
+We give new students an orientation to the school.	ကျောင်းသားသစ်တွေကို ကျောင်း မိတ်ဆက် လမ်းညွှန်မှု ပေးတယ်။
+new student, freshman	ကျောင်းသားသစ်
+guidance, orientation	လမ်းညွှန်မှု
+to (honorific)	ကို၊ ဆီ (ရိုသေစကား)
+I told the professor.	ပါမောက္ခကို ပြောပြခဲ့ပါတယ်။
+to tell (humble)	ပြောပြသည် (နှိမ့်ချ)
+I called my parents.	မိဘတွေဆီ ဖုန်းဆက်ခဲ့တယ်။
+I thanked the cafe owner.	ကဖေး ပိုင်ရှင်ကို ကျေးဇူးတင်ကြောင်း ပြောခဲ့တယ်။
+owner, boss	ပိုင်ရှင်၊ သူဌေး
+greeting, thanks	နှုတ်ဆက်ခြင်း၊ ကျေးဇူးတင်စကား
+to give (humble)	ပေးသည် (နှိမ့်ချ)
+from (a person)	ဆီက (လူထံမှ)
+I got a call from my mother.	အမေ့ဆီက ဖုန်း လာခဲ့တယ်။
+I learned it from a senior student.	စီနီယာဆီက သင်ခဲ့တယ်။
+senior student	စီနီယာ ကျောင်းသား
+A friend introduced me to a good part-time job.	သူငယ်ချင်းဆီက အချိန်ပိုင်းအလုပ် ကောင်းကောင်း မိတ်ဆက်ပေးခံရတယ်။
+to be good	ကောင်းသည်
+to be introduced to	မိတ်ဆက်ပေးခံရသည်
+to (a place, an organization)	ကို (နေရာ၊ အဖွဲ့အစည်း)
+I called the hospital.	ဆေးရုံကို ဖုန်းဆက်ခဲ့တယ်။
+Please ask the department office.	ဌာန ရုံးကို မေးကြည့်ပါ။
+department	ဌာန
+I submitted a scholarship application to the school.	ကျောင်းကို ပညာသင်ဆု လျှောက်လွှာ တင်ခဲ့တယ်။
+application form	လျှောက်လွှာ
+to submit	တင်သည်
+Who do I give this assignment to?	ဒီအိမ်စာကို ဘယ်သူ့ဆီ ပေးရမလဲ။
+Please give it to Professor Lim Hyeonjeong.	ပါမောက္ခ လင်မ် ဟျွန်ဂျောင်ဆီ ပေးပါ။
+The professor isn't here right now.	ပါမောက္ခ အခု မရှိဘူး။
+Then please leave it with the TA.	ဒါဆို TA ဆီ အပ်ထားခဲ့ပါ။
+to leave with	အပ်ထားသည်
+I called a friend	သူငယ်ချင်းဆီ ဖုန်းဆက်ခဲ့တယ်
+I sent an email to the TA	TA ဆီ အီးမေးလ် ပို့ခဲ့တယ်
+I gave it to the professor	ပါမောက္ခကို ပေးခဲ့ပါတယ်
+I called the school	ကျောင်းကို ဖုန်းဆက်ခဲ့တယ်
+hanteseo, egeseo	hanteseo, egeseo (ဆီက)
+I heard it from a friend	သူငယ်ချင်းဆီက ကြားခဲ့တယ်
+Both are used for where you go, but "에" is the place you arrive at, and "(으)로" is the direction. "(으)로" is also used for routes, tools, and materials.	နှစ်ခုစလုံးကို သွားရာ နေရာအတွက် သုံးသော်လည်း "에" သည် ရောက်ရာ နေရာ ဖြစ်ပြီး "(으)로" သည် ဦးတည်ရာ ဖြစ်ပါသည်။ "(으)로" ကို လမ်းကြောင်း၊ ကိရိယာနှင့် ပစ္စည်းအတွက်လည်း သုံးပါသည်။
+The place you arrive at uses "에". Direction, tools, and what something changes into use "(으)로".	ရောက်ရာ နေရာတွင် "에" ကို သုံးပါ။ ဦးတည်ရာ၊ ကိရိယာနှင့် ပြောင်းလဲသွားသော အရာတွင် "(으)로" ကို သုံးပါ။
+With no final consonant or a final ㄹ, use "로". With other final consonants, use "으로": 버스로, 지하철로, 오른쪽으로.	받침 မရှိလျှင် သို့မဟုတ် ㄹ 받침 ဖြစ်လျှင် "로" ကို၊ အခြား 받침 ရှိလျှင် "으로" ကို သုံးပါ: 버스로, 지하철로, 오른쪽으로။
+"도착하다" only takes "에". With "쪽" and directions (위, 아래, 왼쪽, 오른쪽), "(으)로" sounds natural.	"도착하다" (ရောက်သည်) သည် "에" ကိုသာ ယူပါသည်။ "쪽" နှင့် ဦးတည်ချက်များ (위, 아래, 왼쪽, 오른쪽) တွင် "(으)로" က သဘာဝကျပါသည်။
+toward	로 ① ဘက်သို့
+Please go to the right.	ညာဘက်ကို သွားပါ။
+right side	ညာဘက်
+Please come this way.	ဒီဘက်ကို လာပါ။
+In an emergency, please go out through this door.	အရေးပေါ်အခါ ဒီတံခါးကနေ ထွက်ပါ။
+by, with (a tool)	로 ② ဖြင့်၊ နဲ့ (ကိရိယာ)
+I came by subway.	မြေအောက်ရထားနဲ့ လာခဲ့တယ်။
+Please speak in Korean.	ကိုရီးယားလို ပြောပေးပါ။
+to say, to tell	ပြောသည်
+Please send your assignment by email.	အိမ်စာကို အီးမေးလ်နဲ့ ပို့ပေးပါ။
+email	အီးမေးလ်
+to give (do for me)	ပေးသည် (ကျွန်ုပ့်အတွက် လုပ်ပေးသည်)
+into (a change)	로 ③ အဖြစ်သို့ (ပြောင်းလဲခြင်း)
+Please change it to a bigger one.	ပိုကြီးတာနဲ့ လဲပေးပါ။
+The class time changed to the afternoon.	အတန်းချိန်က နေ့လယ်ပိုင်းကို ပြောင်းသွားတယ်။
+to be changed	ပြောင်းလဲခံရသည်
+I changed dollars into won.	ဒေါ်လာကို ဝမ်အဖြစ် လဲခဲ့တယ်။
+at, to	မှာ၊ ကို
+I arrived at the lecture room at three.	၃ နာရီမှာ စာသင်ခန်းကို ရောက်ခဲ့တယ်။
+lecture room	စာသင်ခန်း
+Please put it in the locker.	ပစ္စည်းထားသေတ္တာထဲ ထည့်ပါ။
+The package arrived at the security office.	ပါဆယ်ထုပ်က လုံခြုံရေး ရုံးခန်းကို ရောက်ပြီ။
+with this one	ဒါနဲ့
+I'll take this one.	ဒါ ယူပါမယ်။
+For my phone plan, I'll take this one.	ဖုန်း ပက်ကေ့ချ်က ဒါ ယူပါမယ်။
+mobile phone	မိုဘိုင်းဖုန်း
+Excuse me. How do I get to City Hall?	တစ်ဆိတ်လောက်။ မြို့တော်ခန်းမကို ဘယ်လို သွားရလဲ။
+Take the subway. Go out through Exit 2 and go left.	မြေအောက်ရထားနဲ့ သွားပါ။ ထွက်ပေါက် ၂ က ထွက်ပြီး ဘယ်ဘက်ကို သွားပါ။
+left side	ဘယ်ဘက်
+how much, how long	ဘယ်လောက်
+You'll get to City Hall in twenty minutes.	မိနစ် ၂၀ ဆိုရင် မြို့တော်ခန်းမ ရောက်ပါပြီ။
+I go to the library	စာကြည့်တိုက် သွားတယ်
+I go toward the library	စာကြည့်တိုက်ဘက်ကို သွားတယ်
+I go by bus	ဘတ်စ်ကားနဲ့ သွားတယ်
+I change won into dollars	ဝမ်ကို ဒေါ်လာအဖြစ် လဲတယ်
+I'll take this one	ဒါ ယူပါမယ်
+They all mean English "and, with". The meaning is the same, but where you use them is different.	အားလုံးသည် မြန်မာ "နှင့်၊ နဲ့" ဟု အဓိပ္ပာယ်ရပါသည်။ အဓိပ္ပာယ် တူသော်လည်း သုံးသည့် နေရာ ကွာပါသည်။
+Use "하고" in speaking, "와/과" in writing, and "(이)랑" with close friends.	စကားပြောတွင် "하고"၊ စာရေးရာတွင် "와/과"၊ ရင်းနှီးသော သူငယ်ချင်းများနှင့် "(이)랑" ကို သုံးပါ။
+With no final consonant, use "와, 랑". With a final consonant, use "과, 이랑": 친구와, 동생과, 친구랑, 동생이랑. "하고" does not change.	받침 မရှိလျှင် "와, 랑"၊ ရှိလျှင် "과, 이랑" ကို သုံးပါ: 친구와, 동생과, 친구랑, 동생이랑။ "하고" သည် မပြောင်းပါ။
+Don't use them to join two sentences. "밥을 먹어요 하고 커피를 마셔요" is wrong. Use "먹고" or "그리고".	ဝါကျ နှစ်ခုကို ဆက်ရန် မသုံးပါနှင့်။ "밥을 먹어요 하고 커피를 마셔요" သည် မှားပါသည်။ "먹고" သို့မဟုတ် "그리고" ကို သုံးပါ။
+I bought coffee and bread.	ကော်ဖီနဲ့ ပေါင်မုန့် ဝယ်ခဲ့တယ်။
+I had lunch with a classmate.	အတန်းဖော်နဲ့ နေ့လယ်စာ စားခဲ့တယ်။
+classmate	အတန်းဖော်
+with	-နဲ့
+After class, I had dinner with a friend.	အတန်းပြီးတော့ သူငယ်ချင်းနဲ့ ညစာ စားခဲ့တယ်။
+dinner	ညစာ
+and, with (formal)	နှင့် (တရားဝင်)
+Please prepare your student ID and something to write with.	ကျောင်းသားကတ်နဲ့ စာရေးကိရိယာ အသင့်ပြင်ထားပါ။
+student ID card	ကျောင်းသားကတ်
+writing tools	စာရေးကိရိယာ
+I had a consultation with the professor.	ပါမောက္ခနဲ့ တိုင်ပင်ဆွေးနွေးခဲ့တယ်။
+consultation, counseling	တိုင်ပင်ဆွေးနွေးခြင်း
+Please bring your passport and residence card.	နိုင်ငံကူးလက်မှတ်နဲ့ နိုင်ငံခြားသား မှတ်ပုံတင်ကတ် ယူလာပါ။
+and, with (casual)	နဲ့ (ရင်းနှီး)
+I watched a movie with a friend.	သူငယ်ချင်းနဲ့ ရုပ်ရှင် ကြည့်ခဲ့တယ်။
+to watch, to see	ကြည့်သည်
+I live with my older brother.	အစ်ကိုနဲ့ အတူ နေတယ်။
+I go grocery shopping with my roommate.	အခန်းဖော်နဲ့ အတူ ဈေး သွားဝယ်တယ်။
+market (장 보다 = to shop for groceries)	ဈေး (장 보다 = စားစရာ ဈေးဝယ်သည်)
+Do it with me.	ကျွန်ုပ်နဲ့ အတူ လုပ်ပါ။
+Let's play soccer together this weekend.	ဒီစနေ တနင်္ဂနွေ အတူ ဘောလုံး ကန်ကြရအောင်။
+to play soccer	ဘောလုံး ကန်သည်
+to fight with	နဲ့ ရန်ဖြစ်သည်
+I had a fight with a friend.	သူငယ်ချင်းနဲ့ ရန်ဖြစ်ခဲ့တယ်။
+Who did you talk with?	ဘယ်သူနဲ့ စကားပြောခဲ့တာလဲ။
+to talk	စကားပြောသည်
+I had a fight with my roommate, so I feel bad.	အခန်းဖော်နဲ့ ရန်ဖြစ်လို့ စိတ်မကောင်းဘူး။
+to fight	ရန်ဖြစ်သည်
+rice and soup	ထမင်းနဲ့ ဟင်းချို
+hago gachi	hago gachi (နဲ့ အတူ)
+I go with a friend	သူငယ်ချင်းနဲ့ အတူ သွားတယ်
+Both mean English "because, so". But if an order or a suggestion comes after, you can only use "-(으)니까".	နှစ်ခုစလုံးသည် "ကြောင့်၊ လို့" ဟု အဓိပ္ပာယ်ရပါသည်။ သို့သော် နောက်တွင် အမိန့် သို့မဟုတ် အကြံပြုချက် လာလျှင် "-(으)니까" ကိုသာ သုံးနိုင်ပါသည်။
+Facts, thanks, and apologies use "-아서". Reasons for an order or a suggestion use "-(으)니까".	အချက်အလက်၊ ကျေးဇူးတင်ခြင်းနှင့် တောင်းပန်ခြင်းတွင် "-아서" ကို သုံးပါ။ အမိန့် သို့မဟုတ် အကြံပြုချက်၏ အကြောင်းရင်းတွင် "-(으)니까" ကို သုံးပါ။
+After "-아서", you can't use "-세요, -ㅂ시다, -ㄹ까요". "바빠서 나중에 오세요" is wrong.	"-아서" ၏ နောက်တွင် "-세요, -ㅂ시다, -ㄹ까요" ကို မသုံးနိုင်ပါ။ "바빠서 나중에 오세요" သည် မှားပါသည်။
+Don't put "-았/었-" before "-아서". Not "아팠어서" but "아파서 못 갔어요". With "-(으)니까" it's OK: "먹었으니까".	"-아서" ၏ ရှေ့တွင် "-았/었-" မထည့်ပါနှင့်။ "아팠어서" မဟုတ်ဘဲ "아파서 못 갔어요" ဖြစ်ပါသည်။ "-(으)니까" နှင့်မူ ရပါသည်: "먹었으니까"။
+because, so	ကြောင့်၊ လို့
+I was sick, so I went to the hospital.	နေမကောင်းလို့ ဆေးရုံ သွားခဲ့တယ်။
+road	လမ်း
+to be blocked (traffic)	(ကားလမ်း) ကြပ်သည်
+It snowed a lot, so the school bus was late.	နှင်း အများကြီး ကျလို့ ကျောင်းကား နောက်ကျခဲ့တယ်။
+to come, to fall (snow)	လာသည်၊ (နှင်း) ကျသည်
+school bus	ကျောင်းကား
+because (so please…, so let's…)	ကြောင့် (ဒါကြောင့် ...ပါ၊ ...ကြရအောင်)
+It's dangerous, so don't touch it.	အန္တရာယ် ရှိလို့ မကိုင်ပါနဲ့။
+don't (-지 마세요)	မလုပ်ပါနှင့် (-지 마세요)
+We don't have time, so let's go quickly.	အချိန် မရှိလို့ မြန်မြန် သွားကြရအောင်။
+to not have, there isn't	မရှိ
+It's cold today, so dress warmly.	ဒီနေ့ အေးလို့ နွေးနွေး ဝတ်ပါ။
+to be cold	အေးသည်
+to be warm	နွေးသည်
+to wear	ဝတ်သည်
+Sorry I'm late	နောက်ကျလို့ တောင်းပန်ပါတယ်
+Sorry I'm late. I missed the bus.	နောက်ကျလို့ တောင်းပန်ပါတယ်။ ဘတ်စ်ကား လွတ်သွားလို့ ပါ။
+to miss	လွတ်သွားသည်၊ မမီလိုက်
+Sorry for the late reply.	စာပြန် နောက်ကျလို့ တောင်းပန်ပါတယ်။
+reply	စာပြန်ခြင်း
+Sorry I'm late. I didn't hear my alarm.	နောက်ကျလို့ တောင်းပန်ပါတယ်။ နှိုးစက်သံ မကြားလိုက်လို့ ပါ။
+Thank you for helping me	ကူညီပေးလို့ ကျေးဇူးတင်ပါတယ်
+Thank you for your help.	ကူညီပေးလို့ ကျေးဇူးတင်ပါတယ်။
+Thank you for helping me when I moved.	အိမ်ပြောင်းတုန်းက ကူညီပေးလို့ ကျေးဇူးတင်ပါတယ်။
+Thank you for helping me write the scholarship application.	ပညာသင်ဆု လျှောက်လွှာ ရေးတာ ကူညီပေးလို့ ကျေးဇူးတင်ပါတယ်။
+It's slippery, so be careful	ချော်လို့ သတိထားပါ
+The floor is slippery, so be careful.	ကြမ်းပြင် ချော်လို့ သတိထားပါ။
+It snowed and the road is slippery, so be careful.	နှင်း ကျလို့ လမ်း ချော်နေတယ်၊ သတိထားပါ။
+to fall (snow) (오다 → 와서)	(နှင်း) ကျ၍ (오다 → 와서)
+I just mopped, so it's slippery. Be careful.	ခုနက ကြမ်းတိုက်ထားလို့ ချော်တယ်။ သတိထားပါ။
+just now	ခုနက
+Professor, sorry I'm late. The bus didn't come, so I was late.	ပါမောက္ခ၊ နောက်ကျလို့ တောင်းပန်ပါတယ်။ ဘတ်စ်ကား မလာလို့ နောက်ကျသွားတာ ပါ။
+All right. From next time, please come early.	ရပါတယ်။ နောက်တစ်ခါကစပြီး စောစော လာခဲ့ပါ။
+to know (알겠습니다 = I understand)	သိသည် (알겠습니다 = နားလည်ပါပြီ)
+It's raining and the floor is slippery, so be careful.	မိုး ရွာလို့ ကြမ်းပြင် ချော်နေတယ်၊ သတိထားပါ။
+to be slippery	ချော်သည်
+I'm busy, so I can't go	အလုပ်များလို့ မသွားနိုင်ဘူး
+I'm busy, so please come later	အလုပ်များလို့ နောက်မှ လာခဲ့ပါ
+It's raining, so let's take a taxi	မိုး ရွာလို့ တက္ကစီ စီးကြရအောင်
+Both can mean English "and then". If the two actions are separate, use "-고". If the first action leads into the second, use "-아서".	နှစ်ခုစလုံးသည် "ပြီးတော့" ဟု အဓိပ္ပာယ်ရနိုင်ပါသည်။ လုပ်ဆောင်ချက် နှစ်ခု သီးခြားဖြစ်လျှင် "-고" ကို သုံးပါ။ ပထမ လုပ်ဆောင်ချက်က ဒုတိယသို့ ဆက်သွားလျှင် "-아서" ကို သုံးပါ။
+Separate actions use "-고". If the first action leads into the second, use "-아서".	သီးခြား လုပ်ဆောင်ချက်များတွင် "-고" ကို သုံးပါ။ ပထမ လုပ်ဆောင်ချက်က ဒုတိယသို့ ဆက်သွားလျှင် "-아서" ကို သုံးပါ။
+"가다, 오다, 만나다, 사다, 만들다, 앉다, 서다, 일어나다" usually use "-아서" to show order.	"가다, 오다, 만나다, 사다, 만들다, 앉다, 서다, 일어나다" တို့သည် အစီအစဉ်ကို ပြရန် များသောအားဖြင့် "-아서" ကို သုံးပါသည်။
+"친구를 만나고 영화를 봤어요" means you met a friend, then left and watched a movie alone. "만나서" means you watched it together.	"친구를 만나고 영화를 봤어요" သည် သူငယ်ချင်းနဲ့ တွေ့ပြီးနောက် ခွဲသွားပြီး တစ်ယောက်တည်း ရုပ်ရှင် ကြည့်ခဲ့သည်ဟု အဓိပ္ပာယ်ရပါသည်။ "만나서" ဆိုလျှင် အတူ ကြည့်ခဲ့သည်ဟု ဖြစ်ပါသည်။
+and, and then	ပြီးတော့၊ ပြီးနောက်
+I wash my hands and then eat.	လက်ဆေးပြီး ထမင်း စားတယ်။
+I finished my assignment and went home.	အိမ်စာ ပြီးအောင် လုပ်ပြီး အိမ် ပြန်ခဲ့တယ်။
+to finish	ပြီးအောင် လုပ်သည်
+Change into your gym clothes and then go into the gym.	အားကစား ဝတ်စုံ လဲဝတ်ပြီး အားကစားရုံထဲ ဝင်ပါ။
+to change clothes	(အဝတ်) လဲဝတ်သည်
+to go in	ဝင်သွားသည်
+went (and there…)	သွားပြီး (အဲဒီမှာ...)
+I went to the hospital and got medicine.	ဆေးရုံ သွားပြီး ဆေး ယူခဲ့တယ်။
+Go to the department office and ask there.	ဌာန ရုံး သွားပြီး အဲဒီမှာ မေးပါ။
+I went to the immigration office and applied for a visa extension.	လူဝင်မှုကြီးကြပ်ရေး ရုံး သွားပြီး ဗီဇာ သက်တမ်းတိုး လျှောက်ခဲ့တယ်။
+to apply	လျှောက်ထားသည်
+came (오다 → 와서)	လာပြီး (오다 → 와서)
+Come here and sit down.	ဒီကို လာပြီး ထိုင်ပါ။
+here, this way	ဒီဘက်၊ ဒီကို
+I came to Korea and learned Korean.	ကိုရီးယား ရောက်ပြီး ကိုရီးယားစာ သင်ခဲ့တယ်။
+After I came to Korea, I saw snow for the first time.	ကိုရီးယား ရောက်ပြီး နှင်းကို ပထမဆုံး မြင်ခဲ့ရတယ်။
+first, the first time	ပထမ၊ ပထမဆုံး အကြိမ်
+met (and then…)	တွေ့ပြီး (ပြီးတော့...)
+I met a friend and we watched a movie.	သူငယ်ချင်းနဲ့ တွေ့ပြီး ရုပ်ရှင် အတူ ကြည့်ခဲ့တယ်။
+glad, nice (to meet)	(တွေ့ရလို့) ဝမ်းသာသည်
+I met a friend from my hometown and we ate Greek food.	ဇာတိ သူငယ်ချင်းနဲ့ တွေ့ပြီး ဂရိ အစားအစာ စားခဲ့ကြတယ်။
+bought (and then…)	ဝယ်ပြီး (ပြီးတော့...)
+I bought bread and ate it.	ပေါင်မုန့် ဝယ်ပြီး စားခဲ့တယ်။
+Buy a ticket and go in.	လက်မှတ် ဝယ်ပြီး ဝင်ပါ။
+I bought a lunch box at the convenience store and ate it.	စတိုးဆိုင်မှာ ထမင်းဘူး ဝယ်ပြီး စားခဲ့တယ်။
+lunch box (dosirak)	ထမင်းဘူး (도시락)
+sitting	ထိုင်ပြီး
+At my part-time cafe job, I work standing up.	ကဖေး အချိန်ပိုင်းအလုပ်မှာ မတ်တပ်ရပ်ပြီး အလုပ်လုပ်တယ်။
+Please sit and wait until it's your turn.	ကိုယ့်အလှည့် ရောက်တဲ့အထိ ထိုင်ပြီး စောင့်ပါ။
+What are you doing after class?	အတန်းပြီးရင် ဘာ လုပ်မလဲ။
+I'm going to the supermarket to buy some meat.	စူပါမားကတ် သွားပြီး အသား ဝယ်မယ်။
+supermarket (mart)	စူပါမားကတ် (마트)
+Then shall we buy meat and grill it together at the dormitory?	ဒါဆို အသား ဝယ်ပြီး အဆောင်မှာ အတူ ကင်စားကြမလား။
+Sounds good. Let's wash up and meet at seven.	ကောင်းတယ်။ ရေချိုးပြီး ၇ နာရီမှာ တွေ့ကြရအောင်။
+I eat and then go	စားပြီး သွားတယ်
+It's cheap and tasty	ဈေးပေါပြီး အရသာ ရှိတယ်
+I go to the market and buy it (there)	ဈေး သွားပြီး (အဲဒီမှာ) ဝယ်တယ်
+I make gimbap and eat it (the gimbap I made)	ကင်မ်ဘပ် လုပ်ပြီး (လုပ်ထားတဲ့ ကင်မ်ဘပ်ကို) စားတယ်
+Both mean English "but". "-지만" shows a clear contrast. "-는데" connects softly and gives background for what you say next.	နှစ်ခုစလုံးသည် "ဒါပေမဲ့" ဟု အဓိပ္ပာယ်ရပါသည်။ "-지만" သည် ဆန့်ကျင်ဘက်ကို ရှင်းရှင်း ပြပါသည်။ "-는데" သည် ပျော့ပျော့ ဆက်ပြီး နောက်ပြောမည့် အကြောင်းအတွက် နောက်ခံကို ပေးပါသည်။
+A clear contrast uses "-지만". Soft linking or giving background uses "-는데".	ရှင်းလင်းသော ဆန့်ကျင်ဘက်တွင် "-지만" ကို သုံးပါ။ ပျော့ပျော့ ဆက်ခြင်း သို့မဟုတ် နောက်ခံ ပေးခြင်းတွင် "-는데" ကို သုံးပါ။
+Before you ask or request something, first explain the situation with "-는데". It sounds polite: "길을 잘 모르는데 좀 가르쳐 주세요."	တစ်ခုခု မေးခြင်း သို့မဟုတ် တောင်းဆိုခြင်း မပြုမီ "-는데" ဖြင့် အခြေအနေကို အရင် ရှင်းပြပါ။ ယဉ်ကျေးစွာ ကြားရပါသည်: "길을 잘 모르는데 좀 가르쳐 주세요." (လမ်း သိပ်မသိလို့ ပြောပြပေးပါ။)
+Verbs and "있다, 없다" use "-는데", adjectives use "-(으)ㄴ데", and nouns use "인데": 가는데, 없는데, 좋은데, 학생인데.	ကြိယာနှင့် "있다, 없다" တွင် "-는데"၊ နာမဝိသေသနတွင် "-(으)ㄴ데"၊ နာမ်တွင် "인데" ကို သုံးပါ: 가는데, 없는데, 좋은데, 학생인데။
+It's hard, but it's fun.	ပင်ပန်းပေမဲ့ ပျော်စရာ ကောင်းတယ်။
+hard, tiring	ပင်ပန်းသည်၊ ခက်ခဲသည်
+Korean is difficult, but I study hard.	ကိုရီးယားစာက ခက်ပေမဲ့ ကြိုးစားပြီး သင်တယ်။
+hard, with effort	ကြိုးကြိုးစားစား
+Studying is hard, but my friends are kind.	စာသင်ရတာ ပင်ပန်းပေမဲ့ သူငယ်ချင်းတွေက သဘောကောင်းတယ်။
+to be hard	ခက်ခဲသည်
+to be kind	သဘောကောင်းသည်
+but, and (with verbs)	ဒါပေမဲ့၊ ...နေတုန်း (ကြိယာနှင့်)
+I was eating when I got a phone call.	ထမင်း စားနေတုန်း ဖုန်း လာတယ်။
+I'm going now. Do you want to come with me?	အခု သွားမလို့၊ အတူ လိုက်မလား။
+I'm going to the supermarket now. Do you need anything?	အခု စူပါမားကတ် သွားမလို့။ ဘာ လိုချင်လဲ။
+to need, necessary	လိုအပ်သည်
+but, and (with adjectives)	ဒါပေမဲ့ (နာမဝိသေသနနှင့်)
+It's nice, but a bit expensive.	ကောင်းပေမဲ့ နည်းနည်း ဈေးကြီးတယ်။
+It's cold, so could you close the window?	ရာသီဥတု အေးလို့ ပြတင်းပေါက် ပိတ်ပေးနိုင်မလား။
+The room is small, but clean.	အခန်းက ကျဉ်းပေမဲ့ သန့်ရှင်းတယ်။
+narrow, small (space)	ကျဉ်းသည်
+I'm sorry, but could you say that again?	စိတ်မရှိပါနဲ့၊ ထပ် ပြောပေးနိုင်မလား။
+to speak (polite)	ပြောသည် (ယဉ်ကျေး)
+Excuse me, may I ask for directions?	တစ်ဆိတ်လောက်၊ လမ်း မေးလို့ ရမလား။
+way, directions	လမ်း
+Excuse me, is there an English interpreter?	တစ်ဆိတ်လောက်၊ အင်္ဂလိပ် စကားပြန် ရှိလား။
+interpreting	စကားပြန်ခြင်း
+Yes? What is it?	ဟုတ်ကဲ့။ ဘာကိစ္စလဲ။
+I'm Sam. (What is it?)	ကျွန်ုပ် ဆမ် ပါ။ (ဘာကိစ္စလဲ။)
+The professor isn't here right now…	ပါမောက္ခ အခု မရှိဘူး...
+Yes, I'm Aisha. What is it?	ဟုတ်ကဲ့၊ ကျွန်ုပ် အိုင်ရှာ ပါ။ ဘာကိစ္စလဲ။
+Um, professor. There's something I'd like to tell you.	ဟို ပါမောက္ခ။ ပြောစရာ တစ်ခု ရှိလို့ ပါ။
+words (honorific)	စကား (ရိုသေ)
+to have	ရှိသည်
+Yes, what is it?	ဟုတ်ကဲ့၊ ဘာလဲ။
+I have to go to the hospital tomorrow. Could I come to class late?	မနက်ဖြန် ဆေးရုံ သွားရမှာမို့ အတန်းကို နောက်ကျမှ လာလို့ ရမလား။
+There's a quiz tomorrow, but it's the hospital, so go.	မနက်ဖြန် စာမေးပွဲတို ရှိပေမဲ့ ဆေးရုံ ဆိုတော့ သွားပါ။
+exam, quiz	စာမေးပွဲ
+It's expensive, but good	ဈေးကြီးပေမဲ့ ကောင်းတယ်
+It's expensive, but it's good	ဈေးကြီးပေမဲ့ ကောင်းတယ်
+I'm going to the market. Do you need anything?	ဈေး သွားမလို့၊ ဘာ လိုချင်လဲ
+They're not here now…	အခု မရှိဘူး...
+Both mean English "will". "-(으)ㄹ게요" is a promise to the listener, and "-(으)ㄹ 거예요" is a plan or a guess.	နှစ်ခုစလုံးသည် "...မယ်" ဟု အဓိပ္ပာယ်ရပါသည်။ "-(으)ㄹ게요" သည် နားထောင်သူကို ပေးသော ကတိ ဖြစ်ပြီး "-(으)ㄹ 거예요" သည် အစီအစဉ် သို့မဟုတ် ခန့်မှန်းချက် ဖြစ်ပါသည်။
+A promise uses "-(으)ㄹ게요". Plans and guesses use "-(으)ㄹ 거예요".	ကတိတွင် "-(으)ㄹ게요" ကို သုံးပါ။ အစီအစဉ်နှင့် ခန့်မှန်းချက်တွင် "-(으)ㄹ 거예요" ကို သုံးပါ။
+"-(으)ㄹ게요" is only used for "I, we", and you can't ask questions with it. "민하 씨가 할게요" and "할게요?" are wrong.	"-(으)ㄹ게요" ကို "ကျွန်ုပ်၊ ကျွန်ုပ်တို့" အတွက်သာ သုံးပြီး မေးခွန်း မမေးနိုင်ပါ။ "민하 씨가 할게요" နှင့် "할게요?" သည် မှားပါသည်။
+When you answer an order, use "-(으)ㄹ게요" or "-겠습니다": "이거 좀 해 줘요." "네, 할게요." Here "할 거예요" sounds unnatural.	ခိုင်းစေချက်ကို ဖြေသောအခါ "-(으)ㄹ게요" သို့မဟုတ် "-겠습니다" ကို သုံးပါ: "이거 좀 해 줘요." "네, 할게요." ဤနေရာတွင် "할 거예요" သည် သဘာဝ မကျပါ။
+I'll do it (promise)	လုပ်ပါမယ် (ကတိ)
+I'll do it.	ကျွန်ုပ် လုပ်ပါမယ်။
+I'll do it by tomorrow.	မနက်ဖြန်အထိ လုပ်ပါမယ်။
+I'll do today's presentation.	ဒီနေ့ တင်ပြချက်ကို ကျွန်ုပ် လုပ်ပါမယ်။
+presentation	တင်ပြချက်
+I'm going to do it (plan)	လုပ်မယ် (အစီအစဉ်)
+I'm going to do laundry on the weekend.	စနေ တနင်္ဂနွေမှာ အဝတ်လျှော်မယ်။
+I'm going to go to Singapore next year.	နောက်နှစ် စင်္ကာပူ သွားမယ်။
+This vacation, I'm going to travel with my family in my home country.	ဒီကျောင်းပိတ်ရက်မှာ ဇာတိမှာ မိသားစုနဲ့ ခရီးထွက်မယ်။
+this time	ဒီတစ်ခါ
+trip	ခရီး
+will probably come	လာလိမ့်မယ်
+Minha will be here soon.	မင်ဟာ မကြာခင် ရောက်လာလိမ့်မယ်။
+soon	မကြာခင်
+It will probably be cold tomorrow.	မနက်ဖြန် အေးလိမ့်မယ်။
+The package will probably come tomorrow afternoon.	ပါဆယ်ထုပ်က မနက်ဖြန် နေ့လယ်ပိုင်း ရောက်လိမ့်မယ်။
+afternoon (p.m.)	နေ့လယ်ပိုင်း (p.m.)
+I'll go	သွားပါမယ်
+I'll go first. (I'm leaving now.)	အရင် ပြန်ပါမယ်။
+I'll be back.	သွားပြီး ပြန်လာခဲ့မယ်။
+I'll stop by the bank and then go.	ဘဏ် ဝင်ပြီးမှ သွားပါမယ်။
+I will do (formal)	လုပ်ပါမည် (တရားဝင်)
+I will do my best.	အစွမ်းကုန် ကြိုးစားပါမယ်။
+I will check again.	ထပ်ပြီး စစ်ဆေးပါမယ်။
+Next time, I will contact you in advance.	နောက်တစ်ခါကစပြီး ကြိုတင် ဆက်သွယ်ပါမယ်။
+from, starting	-ကစပြီး၊ -ကနေ
+Who will take these books to the department office?	ဒီစာအုပ်တွေကို ဌာန ရုံးဆီ ဘယ်သူ ယူသွားမလဲ။
+I'll move it.	ကျွန်ုပ် ရွှေ့ပေးပါမယ်။
+Thanks. What are you going to do this afternoon?	ကျေးဇူးပဲ။ နေ့လယ်ပိုင်း ဘာ လုပ်မလဲ။
+thankful	ကျေးဇူးတင်သည်
+I'm going to do my assignment at the library.	စာကြည့်တိုက်မှာ အိမ်စာ လုပ်မယ်။
+I'll do it	ကျွန်ုပ် လုပ်ပါမယ်
+I'm going to do it tomorrow	မနက်ဖြန် လုပ်မယ်
+It will probably rain	မိုး ရွာလိမ့်မယ်
+I will do it (formal)	ကျွန်ုပ် လုပ်ပါမည်
+This is the difference between English "don't" and "can't". "안" means you don't do it, and "못" means you want to but can't.	ဤသည်မှာ "မလုပ်" နှင့် "မလုပ်နိုင်" ၏ ကွာခြားချက် ဖြစ်ပါသည်။ "안" သည် မလုပ်ခြင်း ဖြစ်ပြီး "못" သည် လုပ်ချင်သော်လည်း မလုပ်နိုင်ခြင်း ဖြစ်ပါသည်။
+If you don't do it, use "안". If you can't do it, use "못".	မလုပ်လျှင် "안"၊ မလုပ်နိုင်လျှင် "못" ကို သုံးပါ။
+Like English "can't go", Korean "못" comes before the verb: "못 가요".	မြန်မာ "မ" ကဲ့သို့ပင် ကိုရီးယား "못" သည် ကြိယာ၏ ရှေ့တွင် လာပါသည်: "못 가요" (မသွားနိုင်ဘူး)။
+With "noun + 하다" verbs, put it in the middle: "일 안 해요", "전화 못 해요". "안 일해요" is wrong.	"နာမ် + 하다" ကြိယာများတွင် အလယ်၌ ထားပါ: "일 안 해요"၊ "전화 못 해요"။ "안 일해요" သည် မှားပါသည်။
+I don't drink alcohol.	ကျွန်ုပ် အရက် မသောက်ဘူး။
+I'm not busy today.	ဒီနေ့ အလုပ် မများဘူး။
+can't	မ...နိုင်
+I can't eat spicy food.	စပ်တဲ့ အစားအစာ မစားနိုင်ဘူး။
+I couldn't sleep last night.	မနေ့ညက အိပ်မပျော်ခဲ့ဘူး။
+I can't read Korean, so I couldn't write the documents.	ကိုရီးယားစာ မဖတ်တတ်လို့ စာရွက်စာတမ်း မရေးနိုင်ခဲ့ဘူး။
+document	စာရွက်စာတမ်း
+can't do, not good at	မလုပ်နိုင်၊ မတော်
+I don't speak Korean well.	ကိုရီးယားစကား သိပ် မပြောတတ်ဘူး။
+not work	အလုပ် မလုပ်
+I don't work on Sundays.	တနင်္ဂနွေနေ့တွေမှာ အလုပ် မလုပ်ဘူး။
+Today is my day off, so I don't work.	ဒီနေ့ ပိတ်ရက်မို့ အလုပ် မလုပ်ဘူး။
+During exam period, I don't work (at my part-time job).	စာမေးပွဲကာလမှာ (အချိန်ပိုင်း) အလုပ် မလုပ်ဘူး။
+exam	စာမေးပွဲ
+can't work	အလုပ် မလုပ်နိုင်
+I'm sick, so I can't work.	နေမကောင်းလို့ အလုပ် မလုပ်နိုင်ဘူး။
+I hurt my hand, so I can't work.	လက် ဒဏ်ရာ ရလို့ အလုပ် မလုပ်နိုင်ဘူး။
+I have a high fever, so I can't work today.	အဖျား အရမ်း တက်လို့ ဒီနေ့ အလုပ် မလုပ်နိုင်ဘူး။
+Sam, are you coming to the club meeting today?	ဆမ်၊ ဒီနေ့ ကလပ် တွေ့ဆုံပွဲ လာမလား။
+meeting, gathering	တွေ့ဆုံပွဲ၊ စုဝေးပွဲ
+Sorry. I can't go today. I have my part-time job.	တောင်းပန်ပါတယ်။ ဒီနေ့ မလာနိုင်ဘူး။ အချိန်ပိုင်းအလုပ် ရှိလို့ ပါ။
+That's too bad. By the way, do you drink, Sam?	နှမြောစရာပဲ။ စကားမစပ်၊ ဆမ် အရက် သောက်လား။
+too bad, a pity	နှမြောစရာ ဖြစ်သည်
+by the way, but	စကားမစပ်၊ ဒါပေမဲ့
+No, I don't drink.	မသောက်ပါဘူး၊ ကျွန်ုပ် အရက် မသောက်ဘူး။
+an + dongsa	an + dongsa (안 + ကြိယာ)
+I don't go	မသွားဘူး
+mot + dongsa	mot + dongsa (못 + ကြိယာ)
+I can't go	မသွားနိုင်ဘူး
+-ji anta	-ji anta (မ...ဘူး)
+-ji motada	-ji motada (မ...နိုင်ဘူး)
+an + hyeongyongsa	an + hyeongyongsa (안 + နာမဝိသေသန)
+It's not expensive	ဈေး မကြီးဘူး
+Both are polite requests. "-(으)세요" suggests something for the listener, and "-아/어 주세요" asks someone to do something for me.	နှစ်ခုစလုံးသည် ယဉ်ကျေးသော တောင်းဆိုချက် ဖြစ်ပါသည်။ "-(으)세요" သည် နားထောင်သူအတွက် အကြံပြုခြင်း ဖြစ်ပြီး "-아/어 주세요" သည် ကျွန်ုပ့်အတွက် တစ်ခုခု လုပ်ပေးရန် တောင်းဆိုခြင်း ဖြစ်ပါသည်။
+Words for the listener's good use "-(으)세요". Requests for me use "-아/어 주세요".	နားထောင်သူ၏ အကျိုးအတွက် စကားများတွင် "-(으)세요" ကို သုံးပါ။ ကျွန်ုပ့်အတွက် တောင်းဆိုချက်များတွင် "-아/어 주세요" ကို သုံးပါ။
+When it helps you, say "-아/어 주세요". "문을 여세요" sounds like an order, and "문 좀 열어 주세요" is a request.	သင့်ကို အကျိုးရှိလျှင် "-아/어 주세요" ဟု ပြောပါ။ "문을 여세요" သည် အမိန့်ကဲ့သို့ ကြားရပြီး "문 좀 열어 주세요" သည် တောင်းဆိုချက် ဖြစ်ပါသည်။
+When it's good for the listener, use "-(으)세요": "많이 드세요", "쉬세요", "조심하세요". Using "주세요" here sounds unnatural.	နားထောင်သူအတွက် ကောင်းလျှင် "-(으)세요" ကို သုံးပါ: "많이 드세요"၊ "쉬세요"၊ "조심하세요"။ ဤနေရာတွင် "주세요" ကို သုံးလျှင် သဘာဝ မကျပါ။
+please come	လာပါ
+Welcome.	ကြိုဆိုပါတယ်။
+please (어서 오세요 = welcome)	မြန်မြန် (어서 오세요 = ကြိုဆိုပါတယ်)
+Tomorrow, please come wearing gym clothes.	မနက်ဖြန် အားကစား ဝတ်စုံ ဝတ်ပြီး လာခဲ့ပါ။
+please come (for me)	လာပေးပါ (ကျွန်ုပ့်အတွက်)
+Please come early tomorrow.	မနက်ဖြန် စောစော လာပေးပါ။
+Please come here.	ဒီကို လာပေးပါ။
+Water is leaking in my room. Please come quickly.	အခန်းထဲ ရေ ယိုနေတယ်။ မြန်မြန် လာပေးပါ။
+to leak	ယိုသည်
+please eat	သုံးဆောင်ပါ
+Enjoy your meal.	များများ သုံးဆောင်ပါ။
+Please take this medicine.	ဒီဆေး သောက်ပါ။
+Please eat it before it gets cold.	မအေးခင် သုံးဆောင်ပါ။
+please help me	ကူညီပေးပါ
+Please help me.	ကူညီပေးပါ။
+Please hold this for me.	ဒါ ကိုင်ထားပေးပါ။
+to hold, to lift	ကိုင်သည်၊ မသည်
+Please help me fill out this document.	ဒီစာရွက်စာတမ်း ဖြည့်တာ ကူညီပေးပါ။
+please teach me, please tell me	သင်ပေးပါ၊ ပြောပြပေးပါ
+Please tell me the way.	လမ်း ပြောပြပေးပါ။
+Please teach me Korean.	ကိုရီးယားစာ သင်ပေးပါ။
+Please tell me how to transfer on the subway.	မြေအောက်ရထား ပြောင်းစီးနည်း ပြောပြပေးပါ။
+to transfer	ပြောင်းစီးသည်
+please don't	မလုပ်ပါနဲ့
+Please don't smoke here.	ဒီမှာ ဆေးလိပ် မသောက်ပါနဲ့။
+Don't worry.	စိတ်မပူပါနဲ့။
+Please don't cook in the dormitory.	အဆောင်မှာ ဟင်း မချက်ပါနဲ့။
+Welcome. Please sit over here.	ကြိုဆိုပါတယ်။ ဒီဘက်မှာ ထိုင်ပါ။
+Thank you. Could I have the menu, please?	ကျေးဇူးတင်ပါတယ်။ မီနူး ပေးပါလား။
+Here you are. Take your time.	ဒီမှာ ပါ။ အေးအေးဆေးဆေး ကြည့်ပါ။
+Please recommend a dish that isn't spicy.	မစပ်တဲ့ ဟင်း အကြံပြုပေးပါ။
+to recommend	အကြံပြုသည်
+Please sit down	ထိုင်ပါ
+-a/eo juseyo	-a/eo juseyo (... ပေးပါ)
+Please sit down (for me)	ထိုင်ပေးပါ
+myeongsa + juseyo	myeongsa + juseyo (နာမ် + ပေးပါ)
+Water, please	ရေ ပေးပါ
+-ji maseyo	-ji maseyo (မ...ပါနဲ့)
+Please don't touch	မကိုင်ပါနဲ့
+Both are close to English "want to". "-고 싶다" is a wish in your heart, and "-(으)ㄹ래요" is choosing to do it now.	နှစ်ခုစလုံးသည် "...ချင်တယ်" နှင့် နီးပါသည်။ "-고 싶다" သည် စိတ်ထဲက ဆန္ဒ ဖြစ်ပြီး "-(으)ㄹ래요" သည် အခု လုပ်ရန် ရွေးချယ်ခြင်း ဖြစ်ပါသည်။
+Wishes use "-고 싶다". Choosing now and asking friends use "-(으)ㄹ래요".	ဆန္ဒတွင် "-고 싶다" ကို သုံးပါ။ အခု ရွေးချယ်ခြင်းနှင့် သူငယ်ချင်းများကို မေးခြင်းတွင် "-(으)ㄹ래요" ကို သုံးပါ။
+"-(으)ㄹ래요" is used between close people. "저는 쉴래요" sounds rude to someone above you. Use "쉬고 싶습니다" or "쉬어도 될까요?".	"-(으)ㄹ래요" ကို ရင်းနှီးသူများကြားတွင် သုံးပါသည်။ "저는 쉴래요" သည် အထက်လူကြီးအား ရိုင်းစိုင်းသကဲ့သို့ ကြားရပါသည်။ "쉬고 싶습니다" သို့မဟုတ် "쉬어도 될까요?" ကို သုံးပါ။
+When you ask what someone above you wants, use "-(으)시겠어요?": "뭐 드시겠어요?" Don't use "뭐 먹고 싶어요?" with people above you.	အထက်လူကြီး လိုချင်သည်ကို မေးသောအခါ "-(으)시겠어요?" ကို သုံးပါ: "뭐 드시겠어요?" အထက်လူကြီးကို "뭐 먹고 싶어요?" ဟု မမေးပါနှင့်။
+I want to go	သွားချင်တယ်
+I want to go to my hometown.	ဇာတိ ပြန်ချင်တယ်။
+I want to go to Jeonju.	ဂျွန်ဂျူ သွားချင်တယ်။
+On Seollal, I want to go to my hometown to see my family.	ဆော်လ်လာလ်မှာ မိသားစုနဲ့ တွေ့ဖို့ ဇာတိ ပြန်ချင်တယ်။
+I want to eat	စားချင်တယ်
+I want to eat Pakistani food.	ပါကစ္စတန် အစားအစာ စားချင်တယ်။
+What do you want to eat?	ဘာ စားချင်လဲ။
+Today I want to eat rice noodles.	ဒီနေ့ ဆန်ခေါက်ဆွဲ စားချင်တယ်။
+I'll eat, I'll have	စားမယ်
+bibimbap (mixed rice)	ဘီဘင်ဘပ် (နယ်ထမင်း)
+Do you want to eat together?	အတူ စားမလား။
+I'm hungry. Do you want to eat ramyeon?	ဗိုက်ဆာလို့ ရာမြောင် စားမလား။
+I'll go first.	ကျွန်ုပ် အရင် ပြန်မယ်။
+Do you want to go together on the weekend?	စနေ တနင်္ဂနွေမှာ အတူ သွားမလား။
+Do you want to go to the market together after class?	အတန်းပြီးရင် ဈေးကို အတူ သွားမလား။
+(someone else) wants to do	(တခြားလူ) လုပ်ချင်နေတယ်
+Aisha wants to do it with us too.	အိုင်ရှာလည်း ကျွန်ုပ်တို့နဲ့ အတူ လုပ်ချင်နေတယ်။
+My younger brother wants to learn Korean.	ညီက ကိုရီးယားစာ သင်ချင်နေတယ်။
+Tom wants to learn taekwondo.	တွမ်က တိုက်ကွမ်ဒို သင်ချင်နေတယ်။
+taekwondo	တိုက်ကွမ်ဒို
+I would like to rest (formal)	အနားယူချင်ပါတယ် (တရားဝင်)
+I would like to take one day off tomorrow.	မနက်ဖြန် တစ်ရက် အနားယူချင်ပါတယ်။
+one day	တစ်ရက်
+I'm not feeling well, so I would like to rest.	နေမကောင်းလို့ အနားယူချင်ပါတယ်။
+good (몸이 안 좋다 = to feel unwell)	ကောင်းသည် (몸이 안 좋다 = နေမကောင်းဖြစ်သည်)
+I have body aches, so I would like to rest today.	ကိုယ်လက် ကိုက်ခဲလို့ ဒီနေ့ အနားယူချင်ပါတယ်။
+to come on (몸살이 나다 = to have body aches)	ဖြစ်လာသည် (몸살이 나다 = ကိုယ်လက် ကိုက်ခဲသည်)
+What will you have for lunch?	နေ့လယ်စာ ဘာ စားမလဲ။
+I want something spicy. How about kimchi stew?	စပ်တာ စားချင်တယ်။ ကင်မ်ချီ ဟင်းဆီ ဘယ်လိုလဲ။
+to want	လိုချင်သည်၊ ...ချင်သည်
+how (어때요? = how about?)	ဘယ်လို (어때요? = ဘယ်လိုလဲ)
+Sounds good. I'll have kimchi stew too.	ကောင်းတယ်။ ကျွန်ုပ်လည်း ကင်မ်ချီ ဟင်းဆီ စားမယ်။
+Professor, what would you like to have?	ပါမောက္ခ၊ ဘာ သုံးဆောင်မလဲ။
+to eat (honorific)	သုံးဆောင်သည် (ရိုသေစကား)
+-go sipeoyo	-go sipeoyo (...ချင်တယ်)
+I want to rest	အနားယူချင်တယ်
+I'll rest	အနားယူမယ်
+What will you have?	ဘာ စားမလဲ။
+My younger brother wants to come to Korea	ညီက ကိုရီးယား လာချင်နေတယ်
+This is the difference between English "if" and "when". "-(으)면" is a condition that may or may not happen, and "-(으)ㄹ 때" is the time when it happens.	ဤသည်မှာ "ရင်" နှင့် "တဲ့အခါ" ၏ ကွာခြားချက် ဖြစ်ပါသည်။ "-(으)면" သည် ဖြစ်ချင်မှ ဖြစ်မည့် အခြေအနေ ဖြစ်ပြီး "-(으)ㄹ 때" သည် ဖြစ်သည့် အချိန် ဖြစ်ပါသည်။
+A condition uses "-(으)면". The time when something happens uses "-(으)ㄹ 때".	အခြေအနေတွင် "-(으)면" ကို သုံးပါ။ တစ်ခုခု ဖြစ်သည့် အချိန်တွင် "-(으)ㄹ 때" ကို သုံးပါ။
+"-(으)면" is also used for things that will surely happen. Then it means "when…": "방학이 되면 고향에 가요."	"-(으)면" ကို သေချာပေါက် ဖြစ်မည့် အရာများအတွက်လည်း သုံးပါသည်။ ထိုအခါ "...ရင်၊ ...တဲ့အခါ" ဟု အဓိပ္ပာယ်ရပါသည်: "방학이 되면 고향에 가요." (ကျောင်းပိတ်ရင် ဇာတိ ပြန်တယ်။)
+For a time in the past, use "-았/었을 때": "한국에 처음 왔을 때 많이 힘들었어요."	အတိတ်က အချိန်အတွက် "-았/었을 때" ကို သုံးပါ: "한국에 처음 왔을 때 많이 힘들었어요." (ကိုရီးယားကို ပထမဆုံး ရောက်တုန်းက အရမ်း ပင်ပန်းခဲ့တယ်။)
+if	ရင်၊ လျှင်
+If it rains, I won't go.	မိုး ရွာရင် မသွားဘူး။
+If you don't know, please ask.	မသိရင် မေးပါ။
+If your part-time pay is wrong, tell the owner.	အချိန်ပိုင်း လုပ်ခ မှားနေရင် ပိုင်ရှင်ကို ပြောပါ။
+part-time pay	အချိန်ပိုင်း လုပ်ခ
+to be wrong	မှားသည်
+when, at the time	တဲ့အခါ၊ တုန်းက
+Wear an apron when you cook.	ဟင်းချက်တဲ့အခါ ခါးစည်းအဝတ် ဝတ်ပါ။
+apron	ခါးစည်းအဝတ် (apron)
+to wear (accessories)	ဝတ်ဆင်သည် (အဆင်တန်ဆာ)
+I got a phone call while I was eating.	ထမင်း စားနေတုန်း ဖုန်း လာတယ်။
+When you go to the bank, take your residence card.	ဘဏ် သွားတဲ့အခါ နိုင်ငံခြားသား မှတ်ပုံတင်ကတ် ယူသွားပါ။
+if you're sick	နေမကောင်းရင်
+If you feel sick, tell us right away.	နေမကောင်းရင် ချက်ချင်း ပြောပါ။
+If you have a headache, take this medicine.	ခေါင်းကိုက်ရင် ဒီဆေး သောက်ပါ။
+to eat, to take (honorific of 먹다)	စားသည်၊ သောက်သည် (먹다 ၏ ရိုသေစကား)
+If you're sick, don't put up with it. Go to the hospital.	နေမကောင်းရင် သည်းမခံပါနဲ့။ ဆေးရုံ သွားပါ။
+when you're sick	နေမကောင်းတဲ့အခါ
+When you're sick, take this medicine.	နေမကောင်းတဲ့အခါ ဒီဆေး သောက်ပါ။
+When I'm sick, I think of my family.	နေမကောင်းတဲ့အခါ မိသားစုကို သတိရတယ်။
+to come to mind	သတိရသည်
+I bought some medicine to take when I'm sick.	နေမကောင်းတဲ့အခါ သောက်ဖို့ ဆေး ဝယ်ထားတယ်။
+to keep (사 두다 = to buy and keep)	ထားသည် (사 두다 = ဝယ်ထားသည်)
+when it ends, after	ပြီးရင်
+I'll call you when class is over.	အတန်း ပြီးရင် ဖုန်းဆက်မယ်။
+Please let me know when the group meeting is over.	အဖွဲ့ တွေ့ဆုံပွဲ ပြီးရင် အသိပေးပါ။
+group meeting	အဖွဲ့ တွေ့ဆုံပွဲ
+to let know	အသိပေးသည်
+When I finish my studies, I'm going to open a hotel in Bangladesh.	ပညာရေး ပြီးရင် ဘင်္ဂလားဒေ့ရှ်မှာ ဟိုတယ် ဖွင့်မယ်။
+in	-မှာ
+when I was young	ငယ်ငယ်တုန်းက
+When I was young, I lived in the countryside.	ငယ်ငယ်တုန်းက ကျေးလက်မှာ နေခဲ့တယ်။
+countryside	ကျေးလက်
+When I was young, I liked soccer.	ငယ်ငယ်တုန်းက ဘောလုံး ကြိုက်ခဲ့တယ်။
+When I was young, I often went to the park with my father.	ငယ်ငယ်တုန်းက အဖေနဲ့ ပန်းခြံ မကြာခဏ သွားခဲ့တယ်။
+When you clean the coffee machine, always turn off the power.	ကော်ဖီစက်ကို သန့်ရှင်းရေး လုပ်တဲ့အခါ ပါဝါကို အမြဲ ပိတ်ပါ။
+coffee machine	ကော်ဖီစက်
+always, surely	အမြဲ၊ သေချာပေါက်
+power	ပါဝါ (လျှပ်စစ်)
+Yes. If I see something strange while cleaning, what should I do?	ဟုတ်ကဲ့။ သန့်ရှင်းရေး လုပ်နေတုန်း ထူးဆန်းတာ မြင်ရင် ဘာ လုပ်ရမလဲ။
+strange, unusual	ထူးဆန်းသည်
+to be seen	မြင်ရသည်
+Then don't touch it. Call me right away.	ဒါဆို မကိုင်ပါနဲ့။ ကျွန်ုပ့်ကို ချက်ချင်း ခေါ်ပါ။
+I understand. I'll tell you when I'm finished.	နားလည်ပါပြီ။ ပြီးရင် ပြောပါမယ်။
+Come if you have time	အချိန် ရှိရင် လာခဲ့ပါ
+Come when you have time	အချိန် ရှိတဲ့အခါ လာခဲ့ပါ
+-(eu)myeon doeda	-(eu)myeon doeda (...ရင် ရပြီ)
+You can just write it here	ဒီမှာ ရေးရင် ရပါပြီ
+-(eu)myeon an doeda	-(eu)myeon an doeda (...လို့ မရ)
+You must not touch it	မကိုင်ရပါ
+myeongsa + ttae	myeongsa + ttae (နာမ် + အချိန်)
+at lunchtime	နေ့လယ်စာ အချိန်မှာ
+This is the polite ending used most in daily life. You can use it for what you are doing now, what you always do, and what you will do soon.	နေ့စဉ်ဘဝတွင် အသုံးအများဆုံး ယဉ်ကျေးသော အဆုံးသတ် ဖြစ်ပါသည်။ အခု လုပ်နေသည်၊ အမြဲ လုပ်သည်နှင့် မကြာမီ လုပ်မည့် အရာများအတွက် သုံးနိုင်ပါသည်။
+After ㅏ, ㅗ use "-아요"; otherwise use "-어요"; 하다 becomes "해요".	ㅏ, ㅗ နောက်တွင် "-아요"၊ အခြားတွင် "-어요" ကို သုံးပါ။ 하다 သည် 해요 ဖြစ်သွားပါသည်။
+Take off "-다". If the last vowel is ㅏ or ㅗ, add "-아요"; for other vowels add "-어요"; "하다" becomes "해요". If the stem ends in a vowel, it shortens (가+아요 → 가요, 오+아요 → 와요, 마시+어요 → 마셔요, 배우+어요 → 배워요).	"-다" ကို ဖြုတ်ပါ။ နောက်ဆုံး သရ ㅏ သို့မဟုတ် ㅗ ဖြစ်လျှင် "-아요"၊ အခြား သရများတွင် "-어요" ကို ထည့်ပါ။ "하다" သည် "해요" ဖြစ်ပါသည်။ ပင်စည်သည် သရဖြင့် ဆုံးလျှင် အတိုချုံ့ပါသည် (가+아요 → 가요, 오+아요 → 와요, 마시+어요 → 마셔요, 배우+어요 → 배워요)။
+English verbs change only a little (go, goes, went), but the endings of Korean verbs change in many ways. In the dictionary, they appear in the "-다" form.	မြန်မာ ကြိယာများသည် ပုံစံ မပြောင်းဘဲ နောက်တွင် "တယ်၊ ခဲ့တယ်၊ မယ်" ကဲ့သို့ ပစ္စည်းများ ထည့်သော်လည်း ကိုရီးယား ကြိယာ၏ အဆုံးသတ်များသည် နည်းမျိုးစုံ ပြောင်းပါသည်။ အဘိဓာန်တွင် "-다" ပုံစံဖြင့် ပါပါသည်။
+The same form is used to tell, ask, tell someone to do something, and suggest doing it together: 가요. 가요? 빨리 가요! 같이 가요.	ပုံစံ တစ်ခုတည်းကို ပြောရန်၊ မေးရန်၊ ခိုင်းရန်နှင့် အတူ လုပ်ရန် အကြံပြုရာတွင် သုံးပါသည်: 가요. 가요? 빨리 가요! 같이 가요.
+I'm eating now.	အခု ထမင်း စားနေတယ်။
+My friend is coming tomorrow.	မနက်ဖြန် သူငယ်ချင်း လာမယ်။
+This food is delicious.	ဒီအစားအစာက အရသာ ရှိတယ်။
+(I) go	သွားတယ်
+(I) come	လာတယ်
+(I) eat	စားတယ်
+(I) drink	သောက်တယ်
+(I) study	စာကျက်တယ်
+(It's) good	ကောင်းတယ်
+(I) learn	သင်တယ်
+I watch Korean dramas.	ကိုရီးယား ဒရာမာ ကြည့်တယ်။
+drama (TV series)	ဒရာမာ (တီဗွီ ဇာတ်လမ်းတွဲ)
+Is it fun?	ပျော်စရာ ကောင်းလား။
+Yes, it's really fun.	ဟုတ်ကဲ့၊ အရမ်း ပျော်စရာ ကောင်းတယ်။
+This is the formal ending used in official situations. It is used in meetings, presentations, interviews, announcements and the news.	တရားဝင် အခြေအနေတွင် သုံးသော တရားဝင် အဆုံးသတ် ဖြစ်ပါသည်။ အစည်းအဝေး၊ တင်ပြချက်၊ အင်တာဗျူး၊ ကြေညာချက်နှင့် သတင်းတွင် သုံးပါသည်။
+With a final consonant use "-습니다"; without one use "-ㅂ니다".	받침 ရှိလျှင် "-습니다"၊ မရှိလျှင် "-ㅂ니다" ကို သုံးပါ။
+With a final consonant add "-습니다"; without one add "-ㅂ니다". To ask, use "-습니까?/ㅂ니까?".	받침 ရှိလျှင် "-습니다"၊ မရှိလျှင် "-ㅂ니다" ကို ထည့်ပါ။ မေးရန် "-습니까?/ㅂ니까?" ကို သုံးပါ။
+"ㅂ니다" is pronounced [ㅁ니다]: 갑니다 [감니다] (gamnida), 먹습니다 [먹씀니다] (meokseumnida).	"ㅂ니다" ကို [ㅁ니다] ဟု အသံထွက်ပါသည်: 갑니다 [감니다] (gamnida)၊ 먹습니다 [먹씀니다] (meokseumnida)။
+The ㄹ final consonant drops: 알다 → 압니다, 만들다 → 만듭니다.	ㄹ 받침 ပြုတ်သွားပါသည်: 알다 → 압니다, 만들다 → 만듭니다။
+When answering a professor or a customer, "네, 알겠습니다", "감사합니다" and "죄송합니다" are always said in this style.	ပါမောက္ခ သို့မဟုတ် ဖောက်သည်ကို ဖြေသောအခါ "네, 알겠습니다"၊ "감사합니다" နှင့် "죄송합니다" ကို အမြဲ ဤပုံစံဖြင့် ပြောပါသည်။
+I study business administration at Jeonju University.	ကျွန်ုပ် ဂျွန်ဂျူ တက္ကသိုလ်မှာ စီးပွားရေး စီမံခန့်ခွဲမှု သင်ပါတယ်။
+I will now start the presentation.	အခု တင်ပြချက်ကို စတင်ပါမယ်။
+Do you have any questions?	မေးခွန်း ရှိပါသလား။
+I look forward to working with you. / Please treat me well.	ကူညီ ဆက်ဆံပေးပါ။ (အတူ အလုပ်လုပ်ရမှာ မျှော်လင့်ပါတယ်)
+to ask a favor (polite)	အကူအညီ တောင်းသည် (ယဉ်ကျေး)
+(I) have, (it) is there	ရှိပါတယ်
+(I) know	သိပါတယ်
+Sam, is life in Korea OK for you?	ဆမ်၊ ကိုရီးယား ဘဝ အဆင်ပြေရဲ့လား။
+Yes, it's fine. My friends help me a lot.	ဟုတ်ကဲ့၊ အဆင်ပြေပါတယ်။ သူငယ်ချင်းတွေက အများကြီး ကူညီပေးကြပါတယ်။
+to be fine, to be OK	အဆင်ပြေသည်
+If you have any difficulties, please tell me.	အခက်အခဲ ရှိရင် ပြောပါ။
+Used to speak or ask politely about what the listener or a respected person does.	နားထောင်သူ သို့မဟုတ် လေးစားရသူ လုပ်သည့် အရာအကြောင်း ယဉ်ကျေးစွာ ပြောရန် သို့မဟုတ် မေးရန် သုံးပါသည်။
+Use "-(으)세요" to show respect for what other people do. Don't use it for yourself.	အခြားသူများ လုပ်သည့် အရာကို လေးစားကြောင်း ပြရန် "-(으)세요" ကို သုံးပါ။ ကိုယ့်အတွက် မသုံးပါနှင့်။
+With a final consonant add "-으세요"; without one add "-세요". It is a short form of "-(으)시- + -어요".	받침 ရှိလျှင် "-으세요"၊ မရှိလျှင် "-세요" ကို ထည့်ပါ။ "-(으)시- + -어요" ၏ အတိုပုံစံ ဖြစ်ပါသည်။
+Don't use it for things you do yourself. If someone asks "어디 가세요?", answer "집에 가요". Saying "집에 가세요" is wrong.	ကိုယ်တိုင် လုပ်သည့် အရာများအတွက် မသုံးပါနှင့်။ "어디 가세요?" ဟု မေးလျှင် "집에 가요" ဟု ဖြေပါ။ "집에 가세요" ဟု ပြောလျှင် မှားပါသည်။
+Some words change completely: 먹다 → 드세요, 자다 → 주무세요, 있다 (a person is somewhere) → 계세요.	စကားလုံး အချို့သည် လုံးဝ ပြောင်းသွားပါသည်: 먹다 → 드세요, 자다 → 주무세요, 있다 (လူ တစ်နေရာရာတွင် ရှိသည်) → 계세요။
+The same form is also used to tell someone politely to do something (앉으세요). You will learn this in H-01.	ပုံစံ တစ်ခုတည်းကို တစ်ခုခု လုပ်ရန် ယဉ်ကျေးစွာ ပြောရာတွင်လည်း သုံးပါသည် (앉으세요)။ H-01 တွင် သင်ရပါမည်။
+Professor, where are you going?	ပါမောက္ခ၊ ဘယ် ကြွမလဲ။
+My mother lives in Singapore.	အမေက စင်္ကာပူမှာ နေပါတယ်။
+Do you have time now?	အခု အချိန် ရှိပါသလား။
+The professor is having a meal now.	ပါမောက္ခ အခု ထမင်း သုံးဆောင်နေပါတယ်။
+to have a meal (polite)	ထမင်း စားသည် (ယဉ်ကျေး)
+Are you busy?	အလုပ် များနေလား။
+fine, OK	အဆင်ပြေသည်၊ ရပါသည်
+I'm going to the department office. What are you doing, Sam?	ဌာန ရုံး သွားမလို့ ပါ။ ဆမ်ကော ဘာ လုပ်နေလဲ။
+I'm going to the library. Have you had lunch?	စာကြည့်တိုက် သွားမလို့ ပါ။ နေ့လယ်စာ သုံးဆောင်ပြီးပြီလား။
+to eat (polite)	သုံးဆောင်သည် (ယဉ်ကျေး)
+Yes, I have.	ဟုတ်ကဲ့၊ စားပြီးပါပြီ။
+This marks respect for the subject of the sentence. Add it to the actions of older people, bosses, customers and people you meet for the first time.	ဝါကျ၏ ကတ္တားကို လေးစားကြောင်း ပြပါသည်။ အသက်ကြီးသူ၊ အထက်လူကြီး၊ ဖောက်သည်နှင့် ပထမဆုံး တွေ့သူများ၏ လုပ်ဆောင်ချက်များတွင် ထည့်ပါ။
+For the actions of a respected person, put "-(으)시-" in the verb.	လေးစားရသူ၏ လုပ်ဆောင်ချက်အတွက် ကြိယာထဲတွင် "-(으)시-" ကို ထည့်ပါ။
+With a final consonant put in "-으시-"; without one put in "-시-", then add the ending: 가다 → 가십니다, 가셨어요, 가실 거예요.	받침 ရှိလျှင် "-으시-"၊ မရှိလျှင် "-시-" ကို ထည့်ပြီး အဆုံးသတ် ထည့်ပါ: 가다 → 가십니다, 가셨어요, 가실 거예요။
+In English you show respect with words like "sir" or "please", but in Korean you put "-시-" inside the verb.	မြန်မာစကားတွင် "ပါ" သို့မဟုတ် "ကြွ" ကဲ့သို့ စကားလုံးဖြင့် လေးစားမှုကို ပြသော်လည်း ကိုရီးယားတွင် ကြိယာထဲသို့ "-시-" ကို ထည့်ပါသည်။
+The respect is for the person who does the action. Even if you are talking to a friend, when you talk about the professor you say "교수님이 오셨어".	လေးစားမှုသည် လုပ်ဆောင်သူအတွက် ဖြစ်ပါသည်။ သူငယ်ချင်းကို ပြောနေလျှင်ပင် ပါမောက္ခအကြောင်း ပြောလျှင် "교수님이 오셨어" ဟု ပြောပါသည်။
+The professor is coming.	ပါမောက္ခ ကြွလာပါတယ်။
+The head of the department is in class.	ဌာနမှူးက အတန်း ပို့ချနေပါတယ်။
+A customer is waiting.	ဖောက်သည်တစ်ဦး စောင့်နေပါတယ်။
+Are your parents well?	မိဘတွေ ကျန်းမာကြရဲ့လား။
+parents (respectful)	မိဘ (ရိုသေ)
+(He/She) comes (respectful)	ကြွလာပါတယ် (ရိုသေ)
+(He/She) went (respectful)	ကြွသွားပါပြီ (ရိုသေ)
+(He/She) reads (respectful)	ဖတ်ပါတယ် (ရိုသေ)
+(He/She) is busy (respectful)	အလုပ် များပါတယ် (ရိုသေ)
+(He/She) will do it (respectful)	လုပ်ပါလိမ့်မယ် (ရိုသေ)
+Is Professor Lim Hyunjung in?	ပါမောက္ခ လင်မ် ဟျွန်ဂျောင် ရှိပါသလား။
+She is in class now. It will finish in 30 minutes.	အခု အတန်း ပို့ချနေပါတယ်။ မိနစ် ၃၀ နေရင် ပြီးပါမယ်။
+after, later	နောက်၊ ပြီးနောက်
+Then I will wait.	ဒါဆို စောင့်ပါမယ်။
+Please sit over here.	ဒီဘက်မှာ ထိုင်ပါ။
+this way, this side	ဒီဘက်
+This is the respectful form of "이/가". Use it when a respected person is the subject.	"이/가" ၏ ရိုသေစကား ပုံစံ ဖြစ်ပါသည်။ လေးစားရသူသည် ကတ္တား ဖြစ်လျှင် သုံးပါ။
+When a respected person is the subject, use "께서" together with "-(으)시-".	လေးစားရသူသည် ကတ္တား ဖြစ်လျှင် "께서" ကို "-(으)시-" နှင့် တွဲသုံးပါ။
+Add it after a person and also use "-(으)시-" in the verb. The respectful form of "은/는" is "께서는", and of "도" is "께서도".	လူ၏ နောက်တွင် ထည့်ပြီး ကြိယာတွင်လည်း "-(으)시-" ကို သုံးပါ။ "은/는" ၏ ရိုသေပုံစံမှာ "께서는"၊ "도" ၏ ရိုသေပုံစံမှာ "께서도" ဖြစ်ပါသည်။
+"께서" is used in formal speech and writing. In everyday talk, you can just use "이/가" with "-시-", as in "어머니가 요리하세요".	"께서" ကို တရားဝင် စကားနှင့် စာတွင် သုံးပါသည်။ နေ့စဉ် စကားပြောတွင် "어머니가 요리하세요" ကဲ့သို့ "이/가" ကို "-시-" နှင့် တွဲသုံးရုံ ရပါသည်။
+It is used with respectful words: 말 → 말씀, 집 → 댁, 나이 → 연세, 이름 → 성함, 밥 → 진지, 아프다 → 편찮으시다.	ရိုသေစကား စကားလုံးများနှင့် တွဲသုံးပါသည်: 말 → 말씀, 집 → 댁, 나이 → 연세, 이름 → 성함, 밥 → 진지, 아프다 → 편찮으시다။
+My mother is cooking.	အမေက ဟင်း ချက်နေပါတယ်။
+The head of the department said so.	ဌာနမှူးက ဒီလို မိန့်ပါတယ်။
+to say, to speak (respectful)	ပြောသည်၊ မိန့်သည် (ရိုသေ)
+The professor is Korean.	ပါမောက္ခကတော့ ကိုရီးယား လူမျိုး ပါ။
+My grandmother is sick.	အဖွားက နေမကောင်း ဖြစ်နေပါတယ်။
+to be sick (respectful)	နေမကောင်းဖြစ်သည် (ရိုသေ)
+mother (respectful, subject)	အမေ (ရိုသေ၊ ကတ္တား)
+the head of the department (respectful, subject)	ဌာနမှူး (ရိုသေ၊ ကတ္တား)
+as for the professor (respectful)	ပါမောက္ခကတော့ (ရိုသေ)
+grandfather too (respectful)	အဘိုးလည်း (ရိုသေ)
+Who prepared these snacks?	ဒီမုန့်တွေ ဘယ်သူ ပြင်ဆင်ထားတာလဲ။
+The head of the department prepared them himself.	ဌာနမှူးက ကိုယ်တိုင် ပြင်ဆင်ထားတာ ပါ။
+in person, directly	ကိုယ်တိုင်၊ တိုက်ရိုက်
+Really? Please tell him thank you.	ဟုတ်လား။ ဌာနမှူးကို ကျေးဇူးတင်ကြောင်း ပြောပေးပါ။
+to be so, like that	အဲဒီလို ဖြစ်သည်
+to pass on (a message)	(သတင်းစကား) ပါးသည်
+This is casual speech used with close friends, younger people and family. At work, older or senior people may also use it with junior people.	ရင်းနှီးသော သူငယ်ချင်း၊ အသက်ငယ်သူနှင့် မိသားစုနှင့် သုံးသော ရင်းနှီးသည့် စကား ဖြစ်ပါသည်။ အလုပ်ခွင်တွင် အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးများကလည်း အောက်လူငယ်များကို သုံးတတ်ပါသည်။
+Casual speech is "-아요/어요" without "요", and you use it only with people you are close to.	ရင်းနှီးသော စကားသည် "-아요/어요" မှ "요" ကို ဖြုတ်ထားခြင်း ဖြစ်ပြီး ရင်းနှီးသူများနှင့်သာ သုံးပါ။
+Take "요" off "-아요/어요". "이에요/예요" becomes "이야/야". "네" becomes "응", and "아니요" becomes "아니".	"-아요/어요" မှ "요" ကို ဖြုတ်ပါ။ "이에요/예요" သည် "이야/야" ဖြစ်ပါသည်။ "네" သည် "응"၊ "아니요" သည် "아니" ဖြစ်ပါသည်။
+First, learn to understand casual speech. Use it yourself only after the other person says "말 편하게 해요" or "말 놓으세요" (You can speak casually).	ရင်းနှီးသော စကားကို နားလည်အောင် အရင် သင်ပါ။ တစ်ဖက်လူက "말 편하게 해요" သို့မဟုတ် "말 놓으세요" (ရင်းရင်းနှီးနှီး ပြောလို့ ရပါတယ်) ဟု ပြောမှသာ ကိုယ်တိုင် သုံးပါ။
+Even if an older student (선배) or an older friend speaks casually to you, answer with "-요". Often they do not mean to be rude.	စီနီယာ (선배) သို့မဟုတ် အသက်ကြီးသော သူငယ်ချင်းက ရင်းနှီးသော စကားဖြင့် ပြောလျှင်ပင် "-요" ဖြင့် ဖြေပါ။ များသောအားဖြင့် ရိုင်းစိုင်းရန် ရည်ရွယ်ခြင်း မဟုတ်ပါ။
+Yeah, got it.	အေး၊ သိပြီ။
+to know (알았어 = got it)	သိသည် (알았어 = သိပြီ)
+What's this?	ဒါ ဘာလဲ။
+(I) go (casual)	သွားတယ် (ရင်းနှီး)
+(I) ate (casual)	စားခဲ့တယ် (ရင်းနှီး)
+(I) ate	စားခဲ့ပါတယ်
+What are you doing? (casual)	ဘာ လုပ်နေလဲ။ (ရင်းနှီး)
+(I) am a student (casual)	ကျောင်းသား ပဲ (ရင်းနှီး)
+(I) will do it (casual)	လုပ်မယ် (ရင်းနှီး)
+(I) will do it	လုပ်ပါမယ်
+Sam, did you eat?	ဆမ်၊ ထမင်း စားပြီးပြီလား။
+Then let's eat together.	ဒါဆို အတူ စားကြစို့။
+Yeah, sounds good.	အေး၊ ကောင်းတယ်။
+Some verbs don't add "-(으)시-" to show respect; they use a completely different word. It is a bit like English using "dine" instead of "eat".	ကြိယာ အချို့သည် လေးစားမှုကို ပြရန် "-(으)시-" ကို မထည့်ဘဲ လုံးဝ ကွဲပြားသော စကားလုံးကို သုံးပါသည်။ မြန်မာစကားတွင် "စား" အစား "သုံးဆောင်" ကို သုံးသကဲ့သို့ ဖြစ်ပါသည်။
+Don't use these for yourself. To "많이 드세요", answer "네, 많이 먹겠습니다". "드시겠습니다" is wrong.	ကိုယ့်အတွက် မသုံးပါနှင့်။ "많이 드세요" ကို "네, 많이 먹겠습니다" ဟု ဖြေပါ။ "드시겠습니다" သည် မှားပါသည်။
+"안녕히 가세요" is said to the person leaving, and "안녕히 계세요" to the person staying.	"안녕히 가세요" ကို ထွက်သွားသူကို၊ "안녕히 계세요" ကို နေရစ်ခဲ့သူကို ပြောပါသည်။
+"있다" has two honorific forms. When a person "is (somewhere)", use "계시다"; when someone "has" something, use "있으시다": "시간 있으세요?"	"있다" တွင် ရိုသေပုံစံ နှစ်မျိုး ရှိပါသည်။ လူ တစ်နေရာရာတွင် "ရှိသည်" ဆိုလျှင် "계시다"၊ တစ်ခုခု "ပိုင်ဆိုင်သည်" ဆိုလျှင် "있으시다" ကို သုံးပါ: "시간 있으세요?"
+to eat, to drink (honorific)	သုံးဆောင်သည် (စား၊ သောက်၊ ရိုသေ)
+Please eat a lot. (Enjoy your meal.)	များများ သုံးဆောင်ပါ။
+Professor, would you like some coffee?	ပါမောက္ခ၊ ကော်ဖီ သုံးဆောင်မလား။
+to sleep (honorific)	အိပ်သည် (ရိုသေ)
+Good night. (Sleep well.)	ကောင်းကောင်း အိပ်ပါ။
+in peace, well	ငြိမ်းချမ်းစွာ၊ ကောင်းကောင်း
+My grandmother goes to bed early.	အဖွားက စောစော အိပ်ပါတယ်။
+Did you sleep well last night?	မနေ့ညက ကောင်းကောင်း အိပ်ပျော်ခဲ့ရဲ့လား။
+to be (somewhere) (honorific)	ရှိသည် (ရိုသေ)
+Is the professor in?	ပါမောက္ခ ရှိပါသလား။
+Goodbye. (said to the person staying)	သွားပါပြီ။ (နေရစ်ခဲ့သူကို ပြောသည်)
+The department head is in the department office now.	ဌာနမှူးက အခု ဌာန ရုံးမှာ ရှိပါတယ်။
+department (major)	ဌာန (အဓိက ဘာသာ)
+to speak, to say (honorific)	ပြောသည်၊ မိန့်သည် (ရိုသေ)
+The professor said so.	ပါမောက္ခက ဒီလို မိန့်ပါတယ်။
+Please go ahead (and speak).	ပြောပါ။
+to speak, to tell (polite)	ပြောသည် (ယဉ်ကျေး)
+When the professor is speaking, take notes.	ပါမောက္ခ ပြောနေတဲ့အခါ မှတ်စု ရေးပါ။
+to take notes	မှတ်စု ရေးသည်
+sick (honorific)	နေမကောင်းဖြစ်သည် (ရိုသေ)
+My mother is sick.	အမေ နေမကောင်း ဖြစ်နေပါတယ်။
+Professor Im Hyeonjeong is sick, so there is no class today.	ပါမောက္ခ လင်မ် ဟျွန်ဂျောင် နေမကောင်းလို့ ဒီနေ့ အတန်း မရှိပါဘူး။
+Did you have lunch? (to the TA)	နေ့လယ်စာ သုံးဆောင်ပြီးပြီလား။ (TA ကို)
+Not yet. How about you, Sam?	မစားရသေးဘူး။ ဆမ်ကော။
+still, yet	သေး၊ ...ရသေး
+I haven't eaten yet either. Is the professor in her office?	ကျွန်ုပ်လည်း မစားရသေးဘူး။ ပါမောက္ခ ရုံးခန်းမှာ ရှိလား။
+also, too, even	-လည်း၊ -တောင်
+No, she is sick today, so she didn't come in.	မရှိပါဘူး၊ ဒီနေ့ နေမကောင်းလို့ မလာပါဘူး။
+to come in (to school)	(ကျောင်းကို) လာသည်
+These words make your own action toward an older or higher person humble, to show respect. The person you respect is the one who receives the action.	အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးကို လုပ်ပေးသည့် ကိုယ့်လုပ်ဆောင်ချက်ကို နှိမ့်ချ၍ လေးစားမှု ပြသော စကားလုံးများ ဖြစ်ပါသည်။ လေးစားရသူမှာ လုပ်ဆောင်ချက်ကို လက်ခံသူ ဖြစ်ပါသည်။
+For your actions toward older or higher people, use "드리다, 여쭙다, 뵙다, 모시다, 말씀드리다".	အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးအပေါ် ကိုယ့်လုပ်ဆောင်ချက်များအတွက် "드리다, 여쭙다, 뵙다, 모시다, 말씀드리다" ကို သုံးပါ။
+Use the two kinds of respect correctly. For what an older person does, use "-(으)시-" (교수님이 주셨어요); for what you do for an older person, use the humble word (교수님께 드렸어요).	လေးစားမှု နှစ်မျိုးကို မှန်ကန်စွာ သုံးပါ။ အသက်ကြီးသူ လုပ်သည့်အရာအတွက် "-(으)시-" (교수님이 주셨어요)၊ အသက်ကြီးသူအတွက် ကိုယ်လုပ်သည့်အရာအတွက် နှိမ့်ချစကား (교수님께 드렸어요) ကို သုံးပါ။
+"-아/어 주다" also becomes "-아/어 드리다". In restaurants and shops you often hear "해 드릴게요" and "가져다드리겠습니다".	"-아/어 주다" သည်လည်း "-아/어 드리다" ဖြစ်ပါသည်။ စားသောက်ဆိုင်နှင့် ဆိုင်များတွင် "해 드릴게요" နှင့် "가져다드리겠습니다" ကို မကြာခဏ ကြားရပါသည်။
+to give (to an older or higher person)	ပေးသည် (အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးကို)
+I gave the assignment to the professor.	ပါမောက္ခကို အိမ်စာ ပေးခဲ့ပါတယ်။
+I'll help you.	ကူညီပေးပါမယ်။
+to help (humble)	ကူညီပေးသည် (နှိမ့်ချ)
+On the holiday, I gave the professor some Greek coffee.	ပွဲတော်ရက်မှာ ပါမောက္ခကို ဂရိ ကော်ဖီ ပေးခဲ့ပါတယ်။
+holiday	ပွဲတော်ရက်
+to ask (humble)	မေးမြန်းသည် (နှိမ့်ချ)
+Please ask the TA.	TA ကို မေးကြည့်ပါ။
+May I ask you something?	တစ်ခု မေးလို့ ရမလား။
+I'll ask the professor about the exam date.	စာမေးပွဲ ရက်ကို ပါမောက္ခကို မေးကြည့်ပါမယ်။
+to see, to meet (humble)	တွေ့သည် (နှိမ့်ချ)
+Nice to meet you. (first meeting)	တွေ့ရတာ ဝမ်းသာပါတယ်။ (ပထမဆုံး တွေ့ဆုံခြင်း)
+first time, beginning	ပထမဆုံး၊ အစ
+I'll see you at the interview tomorrow.	မနက်ဖြန် အင်တာဗျူးမှာ တွေ့ကြပါမယ်။
+job interview	အလုပ် အင်တာဗျူး
+to take, to escort (an older or higher person)	(အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးကို) ပင့်ဆောင်သွားသည်
+I took the guest to the hotel.	ဧည့်သည်ကို ဟိုတယ်အထိ ပင့်ဆောင်ခဲ့ပါတယ်။
+I live with my parents and take care of them.	မိဘတွေနဲ့ အတူ နေပြီး ပြုစုစောင့်ရှောက်ပါတယ်။
+Please take the guest to the department office.	ဧည့်သည်ကို ဌာန ရုံးဆီ ပင့်ဆောင်သွားပါ။
+to tell, to report (humble)	ပြောပြသည်၊ သတင်းပို့သည် (နှိမ့်ချ)
+I told the department head.	ဌာနမှူးကို ပြောပြခဲ့ပါတယ်။
+I have something to tell you.	ပြောစရာ ရှိပါတယ်။
+to give (humble) (드릴 말씀 = something to tell you)	ပေးမည့် (နှိမ့်ချ) (드릴 말씀 = ပြောစရာ စကား)
+I told the professor that I would be absent because I'm sick.	နေမကောင်းလို့ ပျက်ကွက်မယ့်အကြောင်း ပါမောက္ခကို ပြောပြခဲ့ပါတယ်။
+to be absent (from class)	(အတန်း) ပျက်ကွက်သည်
+Professor, I have something to tell you.	ပါမောက္ခ၊ ပြောစရာ ရှိပါတယ်။
+Yes, go ahead.	ဟုတ်ကဲ့၊ ပြောပါ။
+May I ask you something about the scholarship?	ပညာသင်ဆု အကြောင်း မေးလို့ ရမလား။
+about (-에 대해서)	အကြောင်း (-에 대해서)
+Of course. Give the application form to me.	ရတာပေါ့။ လျှောက်လွှာကို ကျွန်ုပ့်ဆီ ပေးပါ။
+to, from (a person)	-ဆီ၊ -ဆီက
+to give (주세요 = please …)	ပေးသည် (주세요 = ...ပါ)
+Okay, I'll give it to you tomorrow.	ဟုတ်ကဲ့၊ မနက်ဖြန် ပေးပါမယ်။
+These are honorific nouns used when talking about things related to older or higher people.	အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးနှင့် ဆက်စပ်သော အရာများအကြောင်း ပြောရာတွင် သုံးသော ရိုသေ နာမ်များ ဖြစ်ပါသည်။
+If you use an honorific noun, use an honorific verb too. "이름이 뭐예요?" (normal), "성함이 어떻게 되세요?" (honorific).	ရိုသေ နာမ်ကို သုံးလျှင် ရိုသေ ကြိယာကိုလည်း သုံးပါ။ "이름이 뭐예요?" (သာမန်)၊ "성함이 어떻게 되세요?" (ရိုသေ)။
+"진지" is used for elders in the family; at school and in shops use "식사". "식사하셨어요?" (Have you eaten?) is a Korean greeting.	"진지" ကို မိသားစုထဲရှိ လူကြီးများအတွက် သုံးပြီး ကျောင်းနှင့် ဆိုင်များတွင် "식사" ကို သုံးပါ။ "식사하셨어요?" (ထမင်း စားပြီးပြီလား) သည် ကိုရီးယား နှုတ်ဆက်စကား ဖြစ်ပါသည်။
+name (honorific)	နာမည် (ရိုသေ)
+May I have your name?	နာမည် ဘယ်လို ခေါ်ပါသလဲ။
+May I know the name of the person in charge?	တာဝန်ခံရဲ့ နာမည် သိလို့ ရမလား။
+age (honorific)	အသက် (ရိုသေ)
+May I ask how old you are?	အသက် ဘယ်လောက် ရှိပြီလဲ မေးလို့ ရမလား။
+He is quite old.	အသက် တော်တော် ကြီးပါပြီ။
+My grandfather is eighty.	အဘိုးက အသက် ၈၀ ရှိပါပြီ။
+home, house (honorific)	အိမ် (ရိုသေ)
+Where do you live?	ဘယ်မှာ နေပါသလဲ။
+I went to the professor's house.	ပါမောက္ခရဲ့ အိမ်ကို သွားခဲ့တယ်။
+I was invited to the professor's house.	ပါမောက္ခရဲ့ အိမ်ကို ဖိတ်ခံရတယ်။
+Did you enjoy your meal?	ထမင်း ကောင်းကောင်း သုံးဆောင်ခဲ့ရဲ့လား။
+Excuse me, may I ask something?	တစ်ဆိတ်လောက်၊ မေးလို့ ရမလား။
+I've heard a lot about you.	ခင်ဗျားအကြောင်း အများကြီး ကြားဖူးပါတယ်။
+I understand what you said.	ပြောတာ နားလည်ပါပြီ။
+to know (알겠습니다 = I understand, okay)	သိသည် (알겠습니다 = နားလည်ပါပြီ၊ ဟုတ်ကဲ့)
+person (honorific)	ပုဂ္ဂိုလ် (ရိုသေ)
+This is Professor Im Hyeonjeong.	ဒီပုဂ္ဂိုလ်က ပါမောက္ခ လင်မ် ဟျွန်ဂျောင် ပါ။
+this person (honorific)	ဒီပုဂ္ဂိုလ် (ရိုသေ)
+that person (honorific)	ဟိုပုဂ္ဂိုလ် (ရိုသေ)
+That is the new head of the department.	ဟိုပုဂ္ဂိုလ်က ဌာနမှူး အသစ် ပါ။
+newly	အသစ်
+Welcome. May I have your name?	ကြိုဆိုပါတယ်။ နာမည် ဘယ်လို ခေါ်ပါသလဲ။
+please, come on (어서 오세요 = welcome)	မြန်မြန် (어서 오세요 = ကြိုဆိုပါတယ်)
+name (polite)	နာမည် (ယဉ်ကျေး)
+I'm Park Minha. I came to see Professor Sim Yeongguk.	ပတ် မင်ဟာ ပါ။ ပါမောက္ခ ရှင်မ် ယောင်ဂုတ်နဲ့ တွေ့ဖို့ လာခဲ့တာ ပါ။
+Yes, I'll let the professor know. Please wait here for a moment.	ဟုတ်ကဲ့၊ ပါမောက္ခကို ပြောပေးပါမယ်။ ဒီမှာ ခဏ စောင့်ပါ။
+Korean shows respect to the listener by using a humble word for "I". English has no humble form of "I", so practice "저" carefully.	ကိုရီးယားစကားတွင် "ကျွန်ုပ်" အတွက် နှိမ့်ချသော စကားလုံးကို သုံး၍ နားထောင်သူကို လေးစားမှု ပြပါသည်။ မြန်မာ "ငါ" နှင့် "ကျွန်တော်/ကျွန်မ" ကွာသကဲ့သို့ "나" နှင့် "저" ကွာပါသည်။
+In front of older or higher people, use "저, 제가, 제, 저희" instead of "나, 내가, 내, 우리".	အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးများ ရှေ့တွင် "나, 내가, 내, 우리" အစား "저, 제가, 제, 저희" ကို သုံးပါ။
+When you speak with "-요" or "-습니다", use "저". "나는 샘입니다" sounds strange.	"-요" သို့မဟုတ် "-습니다" ဖြင့် ပြောသောအခါ "저" ကို သုံးပါ။ "나는 샘입니다" သည် ထူးဆန်းစွာ ကြားရပါသည်။
+It is "제가", not "저가", and "내가", not "나가".	"저가" မဟုတ်ဘဲ "제가"၊ "나가" မဟုတ်ဘဲ "내가" ဖြစ်ပါသည်။
+When you talk about your school or shop to guests, say "저희 학교, 저희 가게". But you don't lower your country; say "우리나라".	ဧည့်သည်များကို ကိုယ့် ကျောင်း သို့မဟုတ် ဆိုင်အကြောင်း ပြောသောအခါ "저희 학교, 저희 가게" ဟု ပြောပါ။ သို့သော် ကိုယ့်နိုင်ငံကို မနှိမ့်ချဘဲ "우리나라" ဟု ပြောပါ။
+I (humble)	ကျွန်ုပ် (နှိမ့်ချ)
+I want to go too.	ကျွန်ုပ်လည်း သွားချင်ပါတယ်။
+to want to (-고 싶다)	...ချင်သည် (-고 싶다)
+I'm from Tashkent, Uzbekistan.	ကျွန်ုပ် ဥဇဘက်ကစ္စတန်၊ တာရှကင့်က လာတာ ပါ။
+Tashkent	တာရှကင့်
+I (as subject)	ကျွန်ုပ် (ကတ္တား)
+It was my fault.	ကျွန်ုပ့် အမှား ပါ။
+to do wrong, to make a mistake	မှားယွင်းသည်၊ အမှား လုပ်သည်
+I'll do the cleaning today.	ဒီနေ့ သန့်ရှင်းရေးကို ကျွန်ုပ် လုပ်ပါမယ်။
+I'll give you my phone number.	ကျွန်ုပ့် ဖုန်းနံပါတ် ပေးပါမယ်။
+to let know, to tell	အသိပေးသည်၊ ပြောပြသည်
+Welcome to our department.	ကျွန်ုပ်တို့ ဌာနကို ကြိုဆိုပါတယ်။
+to welcome	ကြိုဆိုသည်
+We will prepare it.	ကျွန်ုပ်တို့ ပြင်ဆင်ပါမယ်။
+Our team presents today.	ကျွန်ုပ်တို့ အသင်းက ဒီနေ့ တင်ပြပါမယ်။
+team	အသင်း
+to give a presentation	တင်ပြသည်
+I (casual)	ငါ (ရင်းနှီး)
+I'm not going.	ငါ မသွားဘူး။
+I don't know either.	ငါလည်း မသိဘူး။
+I'm a bit tired today.	ငါ ဒီနေ့ နည်းနည်း ပင်ပန်းတယ်။
+Who can do this presentation?	ဒီတင်ပြချက်ကို ဘယ်သူ လုပ်နိုင်မလဲ။
+who (as subject)	ဘယ်သူ (ကတ္တား)
+Can you do it alone?	တစ်ယောက်တည်း လုပ်နိုင်မလား။
+Our team can do it together.	ကျွန်ုပ်တို့ အသင်း အတူ လုပ်နိုင်ပါတယ်။
+I (topic)	ငါ (ကတော့)
+In Korean, the same greeting has three speech styles depending on the listener: formal (-습니다), soft polite (-요) and casual (반말).	ကိုရီးယားတွင် နှုတ်ဆက်စကား တစ်ခုတည်းကို နားထောင်သူအလိုက် ပုံစံ သုံးမျိုး ရှိပါသည်: တရားဝင် (-습니다)၊ ယဉ်ကျေးပျော့ပျောင်း (-요) နှင့် ရင်းနှီး (반말)။
+Greetings have three levels: formal "-습니다", soft "-요", and casual.	နှုတ်ဆက်စကားတွင် အဆင့် သုံးဆင့် ရှိပါသည်: တရားဝင် "-습니다"၊ ပျော့ပျောင်း "-요" နှင့် ရင်းနှီး။
+English "hello" is the same for everyone, but in Korean the form changes with the listener. If you are not sure which to use, use "-요".	မြန်မာ "မင်္ဂလာပါ" ကို လူတိုင်းကို ပြောနိုင်သော်လည်း ကိုရီးယားတွင် နားထောင်သူအလိုက် ပုံစံ ပြောင်းပါသည်။ မသေချာလျှင် "-요" ကို သုံးပါ။
+To older or higher people, "미안해요, 고마워요" sounds too light. Use "죄송합니다, 감사합니다".	အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးကို "미안해요, 고마워요" သည် ပေါ့လွန်းပါသည်။ "죄송합니다, 감사합니다" ကို သုံးပါ။
+"안녕" is used both when meeting and when leaving, but only with friends and younger people.	"안녕" ကို တွေ့သောအခါနှင့် ခွဲခွာသောအခါ နှစ်ခုစလုံးတွင် သုံးသော်လည်း သူငယ်ချင်းများနှင့် အသက်ငယ်သူများကိုသာ သုံးပါသည်။
+hello (formal)	မင်္ဂလာပါ (တရားဝင်)
+Hello, everyone.	အားလုံး မင်္ဂလာပါ။
+everyone	အားလုံး၊ လူအများ
+Hello. I'm Sam, and I'm taking this class from today.	မင်္ဂလာပါ။ ကျွန်ုပ် ဆမ် ပါ။ ဒီနေ့ကစပြီး ဒီအတန်းကို တက်မှာ ပါ။
+from (time)	-ကစပြီး (အချိန်)
+to take (a class)	(အတန်း) တက်သည်
+hello	မင်္ဂလာပါ
+Hello. Nice to meet you.	မင်္ဂလာပါ။ တွေ့ရတာ ဝမ်းသာပါတယ်။
+Hello. Nice to meet you. (first meeting)	မင်္ဂလာပါ။ တွေ့ရတာ ဝမ်းသာပါတယ်။ (ပထမဆုံး တွေ့ဆုံခြင်း)
+Hello. I just moved to this floor.	မင်္ဂလာပါ။ ဒီအထပ်ကို ခုလေးတင် ပြောင်းလာတာ ပါ။
+floor (of a building)	အထပ် (အဆောက်အအုံ)
+hi, bye (casual)	ဟိုင်း၊ တာ့တာ (ရင်းနှီး)
+Bye! See you tomorrow.	တာ့တာ! မနက်ဖြန် တွေ့မယ်။
+to see (see you)	တွေ့သည် (နောက်မှ တွေ့မယ်)
+Hi! How have you been?	ဟိုင်း! နေကောင်းလား။
+to get along, to live	နေထိုင်သည်၊ ပေါင်းသင်းသည်
+Bye! Have a nice weekend!	တာ့တာ! ပိတ်ရက် ပျော်ပါစေ!
+thank you (formal)	ကျေးဇူးတင်ပါတယ် (တရားဝင်)
+Thank you for the present.	လက်ဆောင်အတွက် ကျေးဇူးတင်ပါတယ်။
+Thank you so much for interpreting.	စကားပြန်ပေးလို့ အရမ်း ကျေးဇူးတင်ပါတယ်။
+to interpret	စကားပြန်သည်
+Thank you for lending me the umbrella.	ထီး ငှားပေးလို့ ကျေးဇူးပဲ။
+to lend	ငှားပေးသည်
+I'm sorry (formal)	တောင်းပန်ပါတယ် (တရားဝင်)
+I'm sorry. It's my mistake.	တောင်းပန်ပါတယ်။ ကျွန်ုပ့် အမှား ပါ။
+mistake	အမှား
+I'm sorry. I won't be late again.	တောင်းပန်ပါတယ်။ နောက် ထပ် မနောက်ကျပါဘူး။
+not (-지 않다)	မ (-지 않다)
+I'm sorry	ဆောရီး၊ တောင်းပန်ပါတယ်
+I'm sorry. I forgot.	ဆောရီး။ မေ့သွားတယ်။
+Sorry. Did you wait long?	ဆောရီး။ အကြာကြီး စောင့်ရလား။
+Sorry. I couldn't answer the phone.	ဆောရီး။ ဖုန်း မကိုင်နိုင်ခဲ့ဘူး။
+Good morning, Professor.	မင်္ဂလာပါ ပါမောက္ခ။
+Oh, Sam. Hello. Is the class okay for you?	အော်၊ ဆမ်။ မင်္ဂလာပါ။ အတန်းက အဆင်ပြေရဲ့လား။
+to be okay to do, worth doing	အဆင်ပြေသည်၊ လုပ်ထိုက်သည်
+Sam, hi! Did you have lunch?	ဆမ်၊ ဟိုင်း! နေ့လယ်စာ စားပြီးပြီလား။
+hi	ဟိုင်း
+Questions also have three speech styles. If the listener is older or higher, also add "-(으)시-".	မေးခွန်းများတွင်လည်း စကားပြော ပုံစံ သုံးမျိုး ရှိပါသည်။ နားထောင်သူက အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီး ဖြစ်လျှင် "-(으)시-" ကိုလည်း ထည့်ပါ။
+When you ask older or higher people, use "-(으)세요?" or "-(으)십니까?".	အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးကို မေးသောအခါ "-(으)세요?" သို့မဟုတ် "-(으)십니까?" ကို သုံးပါ။
+When you ask about what an older or higher person does, don't just change the ending; add "-(으)시-". Say "어디 가세요?", not "어디 가요?".	အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီး လုပ်သည့်အရာကို မေးသောအခါ အဆုံးသတ်ကိုသာ မပြောင်းဘဲ "-(으)시-" ကို ထည့်ပါ။ "어디 가요?" မဟုတ်ဘဲ "어디 가세요?" ဟု ပြောပါ။
+"어디 가세요?" and "식사하셨어요?" are greetings. You don't need to answer in detail: "네, 잠깐 나가요", "네, 먹었습니다".	"어디 가세요?" နှင့် "식사하셨어요?" သည် နှုတ်ဆက်စကား ဖြစ်ပါသည်။ အသေးစိတ် ဖြေရန် မလိုပါ: "네, 잠깐 나가요"၊ "네, 먹었습니다"။
+Where are you going? (formal)	ဘယ် ကြွမလဲ။ (တရားဝင်)
+Where are you going? I'll take you there.	ဘယ် ကြွမလဲ။ ပို့ပေးပါမယ်။
+to take (someone) there (humble)	လိုက်ပို့ပေးသည် (နှိမ့်ချ)
+Professor, where are you going? Shall I carry your bag?	ပါမောက္ခ၊ ဘယ် ကြွမလဲ။ အိတ် သယ်ပေးရမလား။
+to carry	သယ်သည်
+to give (polite) (-아/어 드리다 = do for someone)	ပေးသည် (ယဉ်ကျေး) (-아/어 드리다 = တစ်ဦးဦးအတွက် လုပ်ပေးသည်)
+Where are you going? (to a senior)	ဘယ် သွားမလဲ။ (စီနီယာကို)
+senior (polite)	စီနီယာ (ယဉ်ကျေး)
+Where are you going at this hour?	ဒီအချိန်ကြီး ဘယ် သွားမလဲ။
+It's your day off. Where are you going?	ပိတ်ရက်ကြီး ဘယ် သွားမလဲ။
+Where are you going? (casual)	ဘယ် သွားမလဲ။ (ရင်းနှီး)
+Minha, where are you going?	မင်ဟာ၊ ဘယ် သွားမလဲ။
+Where are you going? Let's go together.	ဘယ် သွားမလဲ။ အတူ သွားကြစို့။
+Professor, have you eaten?	ပါမောက္ခ၊ ထမင်း သုံးဆောင်ပြီးပြီလား။
+Hello. Have you eaten?	မင်္ဂလာပါ။ ထမင်း သုံးဆောင်ပြီးပြီလား။
+Have you eaten? Would you like to go together? (to the TA)	ထမင်း သုံးဆောင်ပြီးပြီလား။ အတူ သွားကြမလား။ (TA ကို)
+Did you eat? (casual)	ထမင်း စားပြီးပြီလား။ (ရင်းနှီး)
+Did you eat? Want to eat together?	ထမင်း စားပြီးပြီလား။ အတူ စားကြမလား။
+Did you eat? Shall I make ramyeon?	ထမင်း စားပြီးပြီလား။ ရာမြောင် ချက်ပေးရမလား။
+Are you okay?	အဆင်ပြေရဲ့လား။
+Are you sick? Are you okay?	နေမကောင်းဘူးလား။ အဆင်ပြေရဲ့လား။
+Did you fall? Are you okay?	လဲသွားလား။ အဆင်ပြေရဲ့လား။
+You don't look well. Are you okay?	မျက်နှာ မကောင်းဘူး။ အဆင်ပြေရဲ့လား။
+I'm going to the library. Where are you going?	စာကြည့်တိုက် သွားမလို့ ပါ။ ဘယ် ကြွမလဲ။
+To the department office. Did you have lunch?	ဌာန ရုံးကို။ နေ့လယ်စာ စားပြီးပြီလား။
+Yes, I did. Have you eaten?	ဟုတ်ကဲ့၊ စားပြီးပါပြီ။ သုံးဆောင်ပြီးပြီလား။
+Requests and instructions also have three speech styles. The more polite a request is, the longer it gets.	တောင်းဆိုချက်နှင့် ညွှန်ကြားချက်များတွင်လည်း စကားပြော ပုံစံ သုံးမျိုး ရှိပါသည်။ တောင်းဆိုချက် ယဉ်ကျေးလေ ရှည်လေ ဖြစ်ပါသည်။
+Requests get more polite in this order: "줘 → 주세요 → 주십시오 → 주시겠어요?".	တောင်းဆိုချက်များသည် ဤအစီအစဉ်အတိုင်း ပိုယဉ်ကျေးလာပါသည်: "줘 → 주세요 → 주십시오 → 주시겠어요?"။
+When you ask an older or higher person, a question form is more polite than an order form: "-아/어 주시겠어요?", "-아/어 주실 수 있으세요?"	အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးကို တောင်းဆိုသောအခါ အမိန့်ပုံစံထက် မေးခွန်းပုံစံက ပိုယဉ်ကျေးပါသည်: "-아/어 주시겠어요?"၊ "-아/어 주실 수 있으세요?"
+Adding "죄송하지만", "실례지만" or "바쁘시겠지만" (I know you're busy, but…) before a request makes it softer.	တောင်းဆိုချက် ရှေ့တွင် "죄송하지만"၊ "실례지만" သို့မဟုတ် "바쁘시겠지만" (အလုပ်များမှာ သိပေမဲ့) ထည့်လျှင် ပိုပျော့ပျောင်းပါသည်။
+please give (formal)	ပေးပါ (တရားဝင်)
+Please give me a receipt.	ငွေလက်ခံဖြတ်ပိုင်း ပေးပါ။
+Please stamp this document.	ဒီစာရွက်စာတမ်းမှာ တံဆိပ်တုံး ထုပေးပါ။
+stamp, seal	တံဆိပ်တုံး
+One of these, please.	ဒါ တစ်ခု ပေးပါ။
+A receipt too, please.	ငွေလက်ခံဖြတ်ပိုင်းလည်း ပေးပါ။
+give me (casual)	ပေး (ရင်းနှီး)
+Give me that.	အဲဒါ ငါ့ကို ပေး။
+Give me some water.	ရေ နည်းနည်း ပေး။
+Lend me your charger.	အားသွင်းကြိုး ငှားပါဦး။
+Could you…? (very polite)	...ပေးနိုင်မလား။ (အလွန် ယဉ်ကျေး)
+Could you say that again, please?	ထပ် တစ်ခါ ပြောပေးနိုင်မလား။
+once	တစ်ခါ
+Could you close the window, please?	ပြတင်းပေါက် ပိတ်ပေးနိုင်မလား။
+Could you say it again slowly, please?	ဖြည်းဖြည်း ထပ် ပြောပေးနိုင်မလား။
+Excuse me, but please help me.	တစ်ဆိတ်လောက်၊ ကူညီပေးပါ။
+Please help me with this.	ဒါ ကူညီပေးပါ။
+I can't read this Korean document. Please help me.	ဒီကိုရီးယား စာရွက်စာတမ်း မဖတ်တတ်ဘူး။ ကူညီပေးပါ။
+wait (casual)	စောင့် (ရင်းနှီး)
+Wait a minute.	ခဏ စောင့်။
+Wait until I get there.	ငါ ရောက်တဲ့အထိ စောင့်။
+I'll come out soon. Wait a bit.	ခဏနေ ထွက်လာမယ်။ နည်းနည်း စောင့်။
+soon, quickly	ခဏနေ၊ မကြာခင်
+Professor, I know you're busy, but could you look at this document?	ပါမောက္ခ၊ အလုပ်များမှာ သိပေမဲ့ ဒီစာရွက်စာတမ်းကို ကြည့်ပေးနိုင်မလား။
+to look, to see	ကြည့်သည်
+Sure, let me see.	ရပါတယ်၊ ပေးကြည့်ပါ။
+Here it is.	ဒီမှာ ပါ။
+There's no signature here. Sign it and bring it back.	ဒီမှာ လက်မှတ် မထိုးရသေးဘူး။ လက်မှတ်ထိုးပြီး ပြန်ယူလာပါ။
+Answers also change with the speech style. In class and at a part-time job, it is important to answer clearly.	အဖြေများသည်လည်း စကားပြော ပုံစံအလိုက် ပြောင်းပါသည်။ အတန်းထဲနှင့် အချိန်ပိုင်းအလုပ်တွင် ရှင်းရှင်းလင်းလင်း ဖြေခြင်းက အရေးကြီးပါသည်။
+To older or higher people answer "네, 알겠습니다"; if you didn't understand, say "잘 못 들었습니다".	အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးကို "네, 알겠습니다" ဟု ဖြေပါ။ နားမလည်လျှင် "잘 못 들었습니다" ဟု ပြောပါ။
+Answering an older or higher person with "응" or "어" is very rude. Always say "네" or "예".	အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးကို "응" သို့မဟုတ် "어" ဖြင့် ဖြေခြင်းသည် အလွန် ရိုင်းစိုင်းပါသည်။ အမြဲ "네" သို့မဟုတ် "예" ဟု ပြောပါ။
+Don't say "네" if you didn't understand. Say "죄송합니다. 잘 못 들었습니다" or "다시 한번 말씀해 주십시오". Saying "네" when you don't understand causes problems later.	နားမလည်လျှင် "네" ဟု မပြောပါနှင့်။ "죄송합니다. 잘 못 들었습니다" သို့မဟုတ် "다시 한번 말씀해 주십시오" ဟု ပြောပါ။ နားမလည်ဘဲ "네" ဟု ပြောလျှင် နောက်ပိုင်းတွင် ပြဿနာ ဖြစ်ပါသည်။
+"네" means not only "yes" but is also used to show "I'm listening". It is also the answer when someone calls your name: "샘 씨!" "네!"	"네" သည် "ဟုတ်ကဲ့" သာမက "နားထောင်နေပါတယ်" ဟု ပြရာတွင်လည်း သုံးပါသည်။ တစ်ယောက်ယောက်က နာမည် ခေါ်သောအခါလည်း အဖြေ ဖြစ်ပါသည်: "샘 씨!" "네!"
+understood (formal)	နားလည်ပါပြီ (တရားဝင်)
+Yes, understood.	ဟုတ်ကဲ့၊ နားလည်ပါပြီ။
+Understood. I'll do it right away.	နားလည်ပါပြီ။ ချက်ချင်း လုပ်ပါမယ်။
+right, directly	ချက်ချင်း
+Understood. I'll finish by five.	နားလည်ပါပြီ။ ၅ နာရီအထိ ပြီးအောင် လုပ်ပါမယ်။
+I see, okay	သိပါပြီ၊ ဟုတ်ကဲ့
+Okay, I see. I'll do that.	ဟုတ်ကဲ့၊ သိပါပြီ။ အဲဒီလို လုပ်ပါမယ်။
+Okay. I'll go tomorrow.	ဟုတ်ကဲ့။ မနက်ဖြန် သွားပါမယ်။
+Okay. I'll come back tomorrow morning.	ဟုတ်ကဲ့။ မနက်ဖြန် မနက် ပြန်လာပါမယ်။
+got it (casual)	သိပြီ (ရင်းနှီး)
+Got it. See you later.	သိပြီ။ နောက်မှ တွေ့မယ်။
+later, in a bit	နောက်မှ၊ ခဏနေ
+Got it. I'll call you when I arrive.	သိပြီ။ ရောက်ရင် ဖုန်းဆက်မယ်။
+I don't know, I don't understand (formal)	မသိပါဘူး၊ နားမလည်ပါဘူး (တရားဝင်)
+I'm sorry. I don't really understand.	တောင်းပန်ပါတယ်။ သိပ် နားမလည်ပါဘူး။
+I don't know that person.	အဲဒီလူကို မသိပါဘူး။
+person, people	လူ
+I don't know this word. Please explain it again.	ဒီစကားလုံးကို မသိပါဘူး။ ထပ် ရှင်းပြပေးပါ။
+to explain	ရှင်းပြသည်
+no, it's not (formal)	မဟုတ်ပါဘူး (တရားဝင်)
+to be okay, fine	အဆင်ပြေသည်၊ ကိစ္စမရှိ
+No. I'm not the one who did it.	မဟုတ်ပါဘူး။ ကျွန်ုပ် လုပ်ခဲ့တာ မဟုတ်ပါဘူး။
+thing, one (게 = 것이)	အရာ၊ ဟာ (게 = 것이)
+that's right (formal)	ဟုတ်ပါတယ် (တရားဝင်)
+That's right. I'm Sam.	ဟုတ်ပါတယ်။ ကျွန်ုပ် ဆမ် ပါ။
+Yes, that's right. The application details are correct.	ဟုတ်ကဲ့၊ ဟုတ်ပါတယ်။ လျှောက်လွှာ အချက်အလက်တွေ မှန်ပါတယ်။
+content, details	အကြောင်းအရာ၊ အသေးစိတ်
+right, correct	မှန်သည်
+Sam!	ဆမ်!
+Yes!	ဟုတ်ကဲ့!
+Take this coffee to table 3 and give it to the customer. Got it?	ဒီကော်ဖီကို စားပွဲ နံပါတ် ၃ ကို ယူသွားပြီး ဖောက်သည်ကို ပေးပါ။ နားလည်လား။
+table	စားပွဲ
+to take (something) away	ယူသွားသည်
+to know (알겠어요 = I understand, okay)	သိသည် (알겠어요 = နားလည်ပါပြီ၊ ဟုတ်ကဲ့)
+I'm sorry. I didn't catch which table.	တောင်းပန်ပါတယ်။ ဘယ်စားပွဲလဲ မကြားလိုက်ဘူး။
+Table 3.	နံပါတ် ၃ ပါ။
+This is practice changing words with the same meaning for different listeners. The speech style depends on age, your relationship and how close you are.	အဓိပ္ပာယ် တူသော စကားများကို နားထောင်သူ အမျိုးမျိုးအတွက် ပြောင်းလဲ လေ့ကျင့်ခြင်း ဖြစ်ပါသည်။ စကားပြော ပုံစံသည် အသက်၊ ဆက်ဆံရေးနှင့် ရင်းနှီးမှုပေါ် မူတည်ပါသည်။
+Use the formal style with professors and guests, "-요" with seniors and new classmates, and casual speech only with close friends.	ပါမောက္ခနှင့် ဧည့်သည်များကို တရားဝင် ပုံစံ၊ စီနီယာနှင့် အတန်းဖော် အသစ်များကို "-요"၊ ရင်းနှီးသော သူငယ်ချင်းများကိုသာ ရင်းနှီးသော စကား သုံးပါ။
+With people you meet for the first time, use "-요" whatever their age. Use casual speech only after the other person says "말 편하게 해요".	ပထမဆုံး တွေ့သူများကို အသက် မည်မျှ ဖြစ်စေ "-요" ကို သုံးပါ။ တစ်ဖက်လူက "말 편하게 해요" ဟု ပြောပြီးမှသာ ရင်းနှီးသော စကား သုံးပါ။
+At Korean universities, who entered first (학번, entry year) often matters more than age. Even if they are younger, use polite speech with seniors.	ကိုရီးယား တက္ကသိုလ်များတွင် အသက်ထက် ဘယ်သူ အရင် ဝင်ခဲ့သည် (학번၊ ဝင်ရောက်သည့်နှစ်) က ပိုအရေးကြီးတတ်ပါသည်။ အသက်ငယ်လျှင်ပင် စီနီယာများကို ယဉ်ကျေးသော စကား သုံးပါ။
+thank you for your hard work (formal)	ပင်ပင်ပန်းပန်း လုပ်ပေးလို့ ကျေးဇူးတင်ပါတယ် (တရားဝင်)
+Thank you for your hard work today too.	ဒီနေ့လည်း ပင်ပင်ပန်းပန်း လုပ်ပေးလို့ ကျေးဇူးတင်ပါတယ်။
+Everyone, thank you for your hard work.	အားလုံး၊ ပင်ပင်ပန်းပန်း လုပ်ပေးလို့ ကျေးဇူးတင်ပါတယ်။
+Thank you for your hard work today. (to the TA)	ဒီနေ့ ပင်ပင်ပန်းပန်း လုပ်ပေးလို့ ကျေးဇူးတင်ပါတယ်။ (TA ကို)
+good work (said to someone younger or lower)	ကောင်းကောင်း လုပ်ခဲ့တယ် (အသက်ငယ်သူ သို့မဟုတ် အောက်လူကို ပြောသည်)
+Sam, good work.	ဆမ်၊ ကောင်းကောင်း လုပ်ခဲ့တယ်။
+You really worked hard today.	ဒီနေ့ တကယ် ကြိုးစားခဲ့တယ်။
+Good work, everyone. See you tomorrow.	အားလုံး ကောင်းကောင်း လုပ်ခဲ့ကြတယ်။ မနက်ဖြန် တွေ့ကြမယ်။
+I'll be going now (formal)	အရင် ပြန်ခွင့်ပြုပါ (တရားဝင်)
+Professor, I'll be going now.	ပါမောက္ခ၊ အရင် ပြန်ခွင့်ပြုပါ။
+Thank you for your hard work. I'll be going now.	ပင်ပင်ပန်းပန်း လုပ်ပေးလို့ ကျေးဇူးတင်ပါတယ်။ အရင် ပြန်ခွင့်ပြုပါ။
+to work hard (수고하셨습니다 = thank you for your hard work)	ပင်ပန်းစွာ လုပ်သည် (수고하셨습니다 = ပင်ပင်ပန်းပန်း လုပ်ပေးလို့ ကျေးဇူးတင်ပါတယ်)
+I have a class tomorrow morning, so I'll be going now.	မနက်ဖြန် မနက် အတန်း ရှိလို့ အရင် ပြန်ခွင့်ပြုပါ။
+I'll go first	အရင် ပြန်ပါမယ်
+Aisha, I'm going first.	အိုင်ရှာ၊ ကျွန်ုပ် အရင် ပြန်ပါမယ်။
+I have plans, so I'll go first.	ချိန်းထားတာ ရှိလို့ အရင် ပြန်ပါမယ်။
+It's time for my bus, so I'll go first.	ဘတ်စ်ကား အချိန် ရောက်လို့ အရင် ပြန်ပါမယ်။
+I'm going first (casual)	အရင် ပြန်မယ် (ရင်းနှီး)
+Minha, I'm going first.	မင်ဟာ၊ ငါ အရင် ပြန်မယ်။
+I'm tired, so I'm going first.	ပင်ပန်းလို့ အရင် ပြန်မယ်။
+See you tomorrow. I'm going.	မနက်ဖြန် တွေ့မယ်။ ပြန်ပြီနော်။
+please speak casually (to me)	ရင်းရင်းနှီးနှီး ပြောပါ (ကျွန်ုပ့်ကို)
+I'm younger, so please speak casually to me.	ကျွန်ုပ်က ငယ်တော့ ရင်းရင်းနှီးနှီး ပြောပါ။
+young	ငယ်သည်
+Please feel free to speak casually.	စိတ်ချလက်ချ ရင်းရင်းနှီးနှီး ပြောပါ။
+You're older than me, so please speak casually.	ကျွန်ုပ်ထက် အသက်ကြီးတော့ ရင်းရင်းနှီးနှီး ပြောပါ။
+I'll be going now. Thank you for your hard work. (to the TA)	အရင် ပြန်ခွင့်ပြုပါ။ ပင်ပင်ပန်းပန်း လုပ်ပေးလို့ ကျေးဇူးတင်ပါတယ်။ (TA ကို)
+(먼저 가 보겠습니다 = I'll leave first, said when leaving before others)	(먼저 가 보겠습니다 = အခြားသူများထက် အရင် ထွက်သွားသောအခါ "အရင် ပြန်ခွင့်ပြုပါ" ဟု ပြောသည်)
+Okay, good work. See you tomorrow.	ဟုတ်ကဲ့၊ ကောင်းကောင်း လုပ်ခဲ့တယ်။ မနက်ဖြန် တွေ့မယ်။
+Okay, get home safely.	ဟုတ်ကဲ့၊ ဂရုစိုက်ပြီး ပြန်ပါ။
+Minha, I'm off. See you tomorrow.	မင်ဟာ၊ ငါ သွားပြီ။ မနက်ဖြန် တွေ့မယ်။
+Used to talk about the past. English uses a past form of the verb (worked, went); Korean puts "-았/었-" in the verb.	အတိတ်အကြောင်း ပြောရာတွင် သုံးပါသည်။ မြန်မာစကားတွင် "ခဲ့" ကို ထည့်သကဲ့သို့ ကိုရီးယားတွင် ကြိယာထဲသို့ "-았/었-" ကို ထည့်ပါသည်။
+For past events, put "-았/었-" in the verb.	အတိတ်က ဖြစ်ရပ်များအတွက် ကြိယာထဲသို့ "-았/었-" ကို ထည့်ပါ။
+It follows the same rule as "-아요/어요". After ㅏ, ㅗ use "-았어요"; otherwise use "-었어요"; 하다 becomes "했어요". For nouns use "이었어요/였어요".	"-아요/어요" နှင့် စည်းမျဉ်း တူပါသည်။ ㅏ, ㅗ နောက်တွင် "-았어요"၊ အခြားတွင် "-었어요" ကို သုံးပါ။ 하다 သည် "했어요" ဖြစ်ပါသည်။ နာမ်အတွက် "이었어요/였어요" ကို သုံးပါ။
+Even with words like "어제", you must change the verb. "어제 가요" is wrong; "어제 갔어요" is right. (Just like "Yesterday I go" is wrong in English.)	"어제" ကဲ့သို့ စကားလုံး ပါလျှင်ပင် ကြိယာကို ပြောင်းရပါမည်။ "어제 가요" သည် မှားပြီး "어제 갔어요" သည် မှန်ပါသည်။ (မြန်မာတွင် "မနေ့က သွားတယ်" ဟု ပြောနိုင်သော်လည်း ကိုရီးယားတွင် မရပါ။)
+The formal form is "-았습니다/었습니다": 했습니다, 갔습니다.	တရားဝင် ပုံစံမှာ "-았습니다/었습니다" ဖြစ်ပါသည်: 했습니다, 갔습니다။
+"아직 안 했어요" means "I haven't done it yet", and "벌써 했어요" means "I already did it".	"아직 안 했어요" သည် "မလုပ်ရသေးဘူး"၊ "벌써 했어요" သည် "လုပ်ပြီးသွားပြီ" ဟု အဓိပ္ပာယ်ရပါသည်။
+I came to Korea last year.	မနှစ်က ကိုရီးယားကို ရောက်ခဲ့တယ်။
+(I) went	သွားခဲ့တယ်
+(I) came	လာခဲ့တယ်
+(I) studied	စာကျက်ခဲ့တယ်
+(I) met	တွေ့ခဲ့တယ်
+(I) was a student	ကျောင်းသား ဖြစ်ခဲ့တယ်
+Sam, why didn't you come to class yesterday?	ဆမ်၊ မနေ့က ဘာလို့ အတန်း မလာတာလဲ။
+I'm sorry. I was very sick.	တောင်းပန်ပါတယ်။ အရမ်း နေမကောင်း ဖြစ်ခဲ့လို့ ပါ။
+Did you go to the hospital?	ဆေးရုံ သွားခဲ့လား။
+Yes, I did. I took medicine too.	ဟုတ်ကဲ့၊ သွားခဲ့ပါတယ်။ ဆေးလည်း သောက်ခဲ့ပါတယ်။
+Used to talk about things you will do or plans. It is like "will, be going to" in English. It is also used for guesses (probably will).	လုပ်မည့် အရာ သို့မဟုတ် အစီအစဉ်များအကြောင်း ပြောရာတွင် သုံးပါသည်။ မြန်မာ "...မယ်" နှင့် ဆင်တူပါသည်။ ခန့်မှန်းချက် (...လိမ့်မယ်) အတွက်လည်း သုံးပါသည်။
+Talk about things you will do with "-(으)ㄹ 거예요".	လုပ်မည့် အရာများကို "-(으)ㄹ 거예요" ဖြင့် ပြောပါ။
+With a final consonant add "-을 거예요"; without one add "-ㄹ 거예요". With a ㄹ final consonant, just add "거예요".	받침 ရှိလျှင် "-을 거예요"၊ မရှိလျှင် "-ㄹ 거예요" ကို ထည့်ပါ။ ㄹ 받침 ဖြစ်လျှင် "거예요" ကိုသာ ထည့်ပါ။
+In English, "will" comes before the verb, but in Korean it is added after it: "will go" = "갈 거예요".	မြန်မာ "မယ်" ကဲ့သို့ပင် ကြိယာ၏ နောက်တွင် ထည့်ပါသည်: "သွားမယ်" = "갈 거예요"။
+"거예요" is pronounced [꺼예요]: 갈 거예요 [갈 꺼예요] (gal kkeoyeyo).	"거예요" ကို [꺼예요] ဟု အသံထွက်ပါသည်: 갈 거예요 [갈 꺼예요] (gal kkeoyeyo)။
+The formal form is "-(으)ㄹ 것입니다, -(으)ㄹ 겁니다".	တရားဝင် ပုံစံမှာ "-(으)ㄹ 것입니다, -(으)ㄹ 겁니다" ဖြစ်ပါသည်။
+I will rest tomorrow.	မနက်ဖြန် အနားယူမယ်။
+What will you do on the weekend?	စနေ တနင်္ဂနွေမှာ ဘာ လုပ်မလဲ။
+I'm going to my hometown next year.	နောက်နှစ် ဇာတိ ပြန်မယ်။
+It will probably rain tomorrow.	မနက်ဖြန် မိုး ရွာလိမ့်မယ်။
+(I) will go	သွားမယ်
+(I) will eat	စားမယ်
+(I) will rest	အနားယူမယ်
+(I) will make	လုပ်မယ်
+What will you do this vacation?	ဒီကျောင်းပိတ်ရက်မှာ ဘာ လုပ်မလဲ။
+I'm going to Nepal. I will see my family.	နီပေါ သွားမယ်။ မိသားစုနဲ့ တွေ့မယ်။
+That's great. When will you come back?	ကောင်းလိုက်တာ။ ဘယ်တော့ ပြန်လာမလဲ။
+to come back	ပြန်လာသည်
+I'll come back in two weeks.	နှစ်ပတ်နေရင် ပြန်လာမယ်။
+Tells what you are doing right now. It is like "be + -ing" in English.	အခု လုပ်နေသည့် အရာကို ပြောပါသည်။ မြန်မာ "...နေတယ်" နှင့် ဆင်တူပါသည်။
+"Verb + -고 있어요" means "be + verb-ing".	"ကြိယာ + -고 있어요" သည် "...နေတယ်" ဟု အဓိပ္ပာယ်ရပါသည်။
+Take "-다" off the verb and add "-고 있어요". The final consonant does not matter. The respectful form is "-고 계세요".	ကြိယာ၏ "-다" ကို ဖြုတ်ပြီး "-고 있어요" ကို ထည့်ပါ။ 받침 ရှိမရှိ အရေးမပါပါ။ ရိုသေပုံစံမှာ "-고 계세요" ဖြစ်ပါသည်။
+In Korean, "-아요/어요" alone can also show what you are doing now. "뭐 해요?" and "뭐 하고 있어요?" are almost the same.	ကိုရီးယားတွင် "-아요/어요" တစ်ခုတည်းဖြင့်လည်း အခု လုပ်နေသည့် အရာကို ပြနိုင်ပါသည်။ "뭐 해요?" နှင့် "뭐 하고 있어요?" သည် အတူတူနီးပါး ဖြစ်ပါသည်။
+Verbs for wearing also show the state of wearing something. "모자를 쓰고 있어요" means you are putting on a hat, or you are already wearing one.	ဝတ်ဆင်ခြင်း ကြိယာများသည် ဝတ်ထားသော အခြေအနေကိုလည်း ပြပါသည်။ "모자를 쓰고 있어요" သည် ဦးထုပ် ဆောင်းနေသည် သို့မဟုတ် ဆောင်းထားပြီး ဖြစ်သည် ဟု အဓိပ္ပာယ်ရပါသည်။
+I'm studying at the library now.	အခု စာကြည့်တိုက်မှာ စာကျက်နေတယ်။
+These days I'm learning Korean.	ဒီရက်ပိုင်း ကိုရီးယားစာ သင်နေတယ်။
+(I) am studying	စာကျက်နေတယ်
+(I) am eating	စားနေတယ်
+(I) am waiting	စောင့်နေတယ်
+(He/She) is sleeping	အိပ်နေတယ်
+(He/She) is coming (respectful)	ကြွလာနေပါတယ် (ရိုသေ)
+I'm making the presentation slides.	တင်ပြချက် စလိုက်တွေ လုပ်နေတယ်။
+materials, slides	အချက်အလက်၊ စလိုက်
+What about Aisha?	အိုင်ရှာကော။
+She's looking for a book in the library.	စာကြည့်တိုက်မှာ စာအုပ် ရှာနေတယ်။
+It has two meanings: ① the speaker's intention (will) ② a guess (must be, it seems). It is also found in many set greetings.	အဓိပ္ပာယ် နှစ်မျိုး ရှိပါသည်: ① ပြောသူ၏ ရည်ရွယ်ချက် (...မယ်) ② ခန့်မှန်းချက် (...မှာပဲ၊ ...ပုံရတယ်)။ ပုံသေ နှုတ်ဆက်စကား အများအပြားတွင်လည်း ပါပါသည်။
+"-겠-" shows the speaker's intention and a guess.	"-겠-" သည် ပြောသူ၏ ရည်ရွယ်ချက်နှင့် ခန့်မှန်းချက်ကို ပြပါသည်။
+Take "-다" off a verb or adjective, put in "-겠-", then add the ending. The final consonant does not matter.	ကြိယာ သို့မဟုတ် နာမဝိသေသန၏ "-다" ကို ဖြုတ်ပြီး "-겠-" ကို ထည့်ကာ အဆုံးသတ် ထည့်ပါ။ 받침 ရှိမရှိ အရေးမပါပါ။
+"알겠습니다" is the most common answer when you get an instruction. "알아요" means "I already know", so it sounds rude as an answer to an instruction.	"알겠습니다" သည် ညွှန်ကြားချက် ရသောအခါ အသုံးအများဆုံး အဖြေ ဖြစ်ပါသည်။ "알아요" သည် "သိပြီးသား" ဟု အဓိပ္ပာယ်ရသဖြင့် ညွှန်ကြားချက်ကို ဖြေရာတွင် ရိုင်းစိုင်းသကဲ့သို့ ကြားရပါသည်။
+Set greetings: 처음 뵙겠습니다 (Nice to meet you), 잘 먹겠습니다 (Thank you for the food), 다녀오겠습니다 (I'll be back), 실례하겠습니다 (Excuse me).	ပုံသေ နှုတ်ဆက်စကားများ: 처음 뵙겠습니다 (တွေ့ရတာ ဝမ်းသာပါတယ်)၊ 잘 먹겠습니다 (ကောင်းကောင်း စားပါမယ်)၊ 다녀오겠습니다 (သွားပြီး ပြန်လာခဲ့မယ်)၊ 실례하겠습니다 (ခွင့်ပြုပါ)။
+It will rain tomorrow.	မနက်ဖြန် မိုး ရွာပါလိမ့်မယ်။
+Wow, that looks delicious!	ဝိုး၊ အရသာ ရှိမယ့်ပုံပဲ!
+Thank you for the food. (said before eating)	ကောင်းကောင်း စားပါမယ်။ (မစားမီ ပြောသည်)
+I understand. / Got it.	နားလည်ပါပြီ။ / ဟုတ်ကဲ့။
+(I) will come, (he/she) will probably come	လာပါမယ်၊ လာလိမ့်မယ်
+It looks delicious	အရသာ ရှိမယ့်ပုံပဲ
+This assignment has to be handed in by today.	ဒီအိမ်စာကို ဒီနေ့အထိ တင်ရမယ်။
+Yes, I understand. I'll do it.	ဟုတ်ကဲ့၊ နားလည်ပါပြီ။ လုပ်ပါမယ်။
+It must be hard to do it alone. Do it with Aisha.	တစ်ယောက်တည်း လုပ်ရင် ပင်ပန်းမှာပဲ။ အိုင်ရှာနဲ့ အတူ လုပ်ပါ။
+It is used in two ways: ① to suggest trying something (try … and see) ② to talk about experience (have done).	နည်း နှစ်မျိုးဖြင့် သုံးပါသည်: ① တစ်ခုခု စမ်းလုပ်ကြည့်ရန် အကြံပြုခြင်း (...ကြည့်ပါ) ② အတွေ့အကြုံအကြောင်း ပြောခြင်း (...ကြည့်ဖူးတယ်)။
+"-아/어 보세요" means "try … and see", and "-아/어 봤어요" means "have (done)…".	"-아/어 보세요" သည် "...ကြည့်ပါ"၊ "-아/어 봤어요" သည် "...ကြည့်ခဲ့ဖူးတယ်" ဟု အဓိပ္ပာယ်ရပါသည်။
+Take "요" off the "-아요/어요" form and add "보다": 먹어 보세요 (try eating it), 먹어 봤어요 (I have eaten it).	"-아요/어요" ပုံစံမှ "요" ကို ဖြုတ်ပြီး "보다" ကို ထည့်ပါ: 먹어 보세요 (စားကြည့်ပါ)၊ 먹어 봤어요 (စားကြည့်ဖူးတယ်)။
+The idea is the same as English "try … and see". "보다" means "see".	မြန်မာ "စားကြည့်"၊ "ဝတ်ကြည့်" ၏ "ကြည့်" နှင့် အတူတူ ဖြစ်ပါသည်။ "보다" သည် "ကြည့်သည်" ဟု အဓိပ္ပာယ်ရပါသည်။
+"아직 안 해 봤어요" means "I haven't tried it yet".	"아직 안 해 봤어요" သည် "မလုပ်ကြည့်ရသေးဘူး" ဟု အဓိပ္ပာယ်ရပါသည်။
+Don't use it with "보다" itself. Don't say "봐 봤어요"; say "봤어요" or "본 적이 있어요".	"보다" ကိုယ်တိုင်နှင့် မသုံးပါနှင့်။ "봐 봤어요" ဟု မပြောဘဲ "봤어요" သို့မဟုတ် "본 적이 있어요" ဟု ပြောပါ။
+Try eating this.	ဒါ စားကြည့်ပါ။
+I have eaten kimchi.	ကင်မ်ချီ စားဖူးတယ်။
+I'll try doing it.	ကျွန်ုပ် လုပ်ကြည့်ပါမယ်။
+try eating it	စားကြည့်ပါ
+try it on	ဝတ်ကြည့်ပါ
+try doing it	လုပ်ကြည့်ပါ
+(I) have been there	သွားဖူးတယ်
+(I) have eaten it	စားဖူးတယ်
+Sam, have you tried tteokbokki?	ဆမ်၊ တော့ပိုကီ စားဖူးလား။
+No, I haven't tried it yet.	မစားဖူးသေးဘူး။
+Then try it. It's delicious.	ဒါဆို တစ်ခါ စားကြည့်ပါ။ အရသာ ရှိတယ်။
+OK, I'll try it.	ဟုတ်ကဲ့၊ စားကြည့်ပါမယ်။
+Says whether you have or have not done something up to now. It is like "have ever (done)" in English.	ယခုအထိ တစ်ခုခု လုပ်ဖူး မလုပ်ဖူးကို ပြောပါသည်။ မြန်မာ "...ဖူးတယ်" နှင့် ဆင်တူပါသည်။
+"-(으)ㄴ 적이 있다/없다" means "have ever / have never".	"-(으)ㄴ 적이 있다/없다" သည် "...ဖူးတယ် / ...မဖူးဘူး" ဟု အဓိပ္ပာယ်ရပါသည်။
+With a final consonant add "-은 적이 있어요"; without one add "-ㄴ 적이 있어요". If you have not, use "-(으)ㄴ 적이 없어요".	받침 ရှိလျှင် "-은 적이 있어요"၊ မရှိလျှင် "-ㄴ 적이 있어요" ကို ထည့်ပါ။ မလုပ်ဖူးလျှင် "-(으)ㄴ 적이 없어요" ကို သုံးပါ။
+In English, "have ever" comes before the verb, but in Korean it is added after it: "have been there" = "간 적이 있어요".	မြန်မာ "ဖူး" ကဲ့သို့ပင် ကြိယာ၏ နောက်တွင် ထည့်ပါသည်: "သွားဖူးတယ်" = "간 적이 있어요"။
+It is often asked in (part-time) job interviews: "아르바이트를 한 적이 있습니까?" (Have you ever had a part-time job?), "커피를 만들어 본 적이 있습니까?" (Have you ever made coffee?).	(အချိန်ပိုင်း) အလုပ် အင်တာဗျူးတွင် မကြာခဏ မေးပါသည်: "아르바이트를 한 적이 있습니까?" (အချိန်ပိုင်းအလုပ် လုပ်ဖူးပါသလား။)၊ "커피를 만들어 본 적이 있습니까?" (ကော်ဖီ ဖျော်ဖူးပါသလား။)
+Don't use it for things you do every day. "밥을 먹은 적이 있어요" sounds strange.	နေ့တိုင်း လုပ်သည့် အရာများအတွက် မသုံးပါနှင့်။ "밥을 먹은 적이 있어요" (ထမင်း စားဖူးတယ်) သည် ထူးဆန်းစွာ ကြားရပါသည်။
+I have worked part-time at a cafe.	ကဖေးမှာ အချိန်ပိုင်း အလုပ် လုပ်ဖူးတယ်။
+time (an experience before)	အကြိမ် (ယခင် အတွေ့အကြုံ)
+Have you ever been to Korea?	ကိုရီးယား သွားဖူးလား။
+I have never seen snow.	နှင်း မမြင်ဖူးဘူး။
+Have you ever used this program?	ဒီပရိုဂရမ် သုံးဖူးလား။
+(computer) program	(ကွန်ပျူတာ) ပရိုဂရမ်
+(I) have worked part-time	အချိန်ပိုင်း အလုပ် လုပ်ဖူးတယ်
+(I) have never seen it	မမြင်ဖူးဘူး
+(I) have never been hurt	ဒဏ်ရာ မရဖူးဘူး
+Have you ever worked at a cafe?	ကဖေးမှာ အလုပ် လုပ်ဖူးပါသလား။
+Yes, I worked at one in the USA for a year.	ဟုတ်ကဲ့၊ အမေရိကမှာ တစ်နှစ် လုပ်ခဲ့ဖူးပါတယ်။
+for (a period of time), during	ကြာ (ကာလ)၊ အတွင်း
+Have you ever worked at a cafe in Korea?	ကိုရီးယား ကဖေးမှာ အလုပ် လုပ်ဖူးပါသလား။
+No, I haven't. This is my first time.	မလုပ်ဖူးပါဘူး။ ဒါ ပထမဆုံး ပါ။
+"안" means "not, don't". It means you don't do something or something is not so.	"안" သည် "မ...ဘူး" ဟု အဓိပ္ပာယ်ရပါသည်။ တစ်ခုခု မလုပ်ခြင်း သို့မဟုတ် ထိုသို့ မဟုတ်ခြင်းကို ဆိုလိုပါသည်။
+"안 + verb" means "not + verb". "Noun + 하다" becomes "noun + 안 해요".	"안 + ကြိယာ" သည် "မ + ကြိယာ" ဟု အဓိပ္ပာယ်ရပါသည်။ "နာမ် + 하다" သည် "နာမ် + 안 해요" ဖြစ်ပါသည်။
+Put "안" right before the verb or adjective. With "noun + 하다" verbs, put it between the noun and "하다" (공부 안 해요).	ကြိယာ သို့မဟုတ် နာမဝိသေသန၏ ရှေ့တွင် ချက်ချင်း "안" ကို ထားပါ။ "နာမ် + 하다" ကြိယာများတွင် နာမ်နှင့် "하다" ကြားတွင် ထားပါ (공부 안 해요)။
+Like English "don't + verb", "안" comes before the verb, so it is easy. But the object comes before "안": "don't eat rice" = "밥을 안 먹어요".	မြန်မာ "မ" ကဲ့သို့ပင် "안" သည် ကြိယာ၏ ရှေ့တွင် လာသဖြင့် လွယ်ပါသည်။ ကံသည် "안" ၏ ရှေ့တွင် လာပါသည်: "ထမင်း မစားဘူး" = "밥을 안 먹어요"။
+For "있다" say "없어요", not "안 있어요"; for "알다" say "몰라요", not "안 알아요"; for "이다" say "아니에요".	"있다" အတွက် "안 있어요" မဟုတ်ဘဲ "없어요"၊ "알다" အတွက် "안 알아요" မဟုတ်ဘဲ "몰라요"၊ "이다" အတွက် "아니에요" ဟု ပြောပါ။
+I'm not going today.	ဒီနေ့ မသွားဘူး။
+alcohol, drinks	အရက်၊ သောက်စရာ
+This isn't spicy.	ဒါ မစပ်ဘူး။
+I didn't work my part-time job yesterday.	မနေ့က အချိန်ပိုင်း အလုပ် မလုပ်ခဲ့ဘူး။
+(I) don't go	မသွားဘူး
+(I) don't eat	မစားဘူး
+(It's) not cold	မအေးဘူး
+(I) don't study	စာ မကျက်ဘူး
+(I) don't like it	မကြိုက်ဘူး
+Sam, do you drink alcohol?	ဆမ်၊ အရက် သောက်လား။
+No, I don't.	မသောက်ပါဘူး။
+What about cigarettes?	ဆေးလိပ်ကော။
+I don't smoke either.	ဆေးလိပ်လည်း မသောက်ဘူး။
+It means "not", the same as "안". It is a little more formal and used a lot in writing.	"안" ကဲ့သို့ပင် "မ...ဘူး" ဟု အဓိပ္ပာယ်ရပါသည်။ နည်းနည်း ပိုတရားဝင်ပြီး စာရေးရာတွင် အများကြီး သုံးပါသည်။
+"-지 않다" means the same as "안" and is more formal.	"-지 않다" သည် "안" နှင့် အဓိပ္ပာယ် တူပြီး ပိုတရားဝင်ပါသည်။
+Take "-다" off a verb or adjective and add "-지 않아요". The final consonant does not matter.	ကြိယာ သို့မဟုတ် နာမဝိသေသန၏ "-다" ကို ဖြုတ်ပြီး "-지 않아요" ကို ထည့်ပါ။ 받침 ရှိမရှိ အရေးမပါပါ။
+"않아요" is pronounced [아나요] (anayo). The ㅎ is silent.	"않아요" ကို [아나요] (anayo) ဟု အသံထွက်ပါသည်။ ㅎ အသံ မထွက်ပါ။
+For the past, change "않다": "-지 않았어요". "갔지 않아요" is wrong.	အတိတ်အတွက် "않다" ကို ပြောင်းပါ: "-지 않았어요"။ "갔지 않아요" သည် မှားပါသည်။
+With long words or "noun + 하다", "-지 않다" sounds more natural: "필요하지 않아요".	ရှည်သော စကားလုံးများ သို့မဟုတ် "နာမ် + 하다" တွင် "-지 않다" က ပိုသဘာဝကျပါသည်: "필요하지 않아요" (မလိုပါဘူး)။
+The weather is not good.	ရာသီဥတု မကောင်းဘူး။
+not (to not do)	မ (မလုပ်)
+It's not that far.	အဲဒီလောက် မဝေးပါဘူး။
+It wasn't cold yesterday.	မနေ့က မအေးခဲ့ဘူး။
+(It's) not good	မကောင်းဘူး
+(It's) not difficult	မခက်ဘူး
+Is the new textbook difficult?	ပြဋ္ဌာန်းစာအုပ် အသစ်က ခက်လား။
+textbook	ပြဋ္ဌာန်းစာအုပ်
+No, it's not difficult.	မခက်ပါဘူး။
+Isn't there too much homework?	အိမ်စာ သိပ် မများဘူးလား။
+No, there isn't much.	ဟုတ်ကဲ့၊ သိပ် မများပါဘူး။
+"못" means you want to do something but cannot. It is like "can't" in English.	"못" သည် လုပ်ချင်သော်လည်း မလုပ်နိုင်ခြင်းကို ဆိုလိုပါသည်။ မြန်မာ "မ...နိုင်ဘူး" နှင့် ဆင်တူပါသည်။
+"못 + verb" means "can't + verb".	"못 + ကြိယာ" သည် "မ + ကြိယာ + နိုင်" ဟု အဓိပ္ပာယ်ရပါသည်။
+Put it right before the verb. "Noun + 하다" becomes "noun + 못 해요".	ကြိယာ၏ ရှေ့တွင် ချက်ချင်း ထားပါ။ "နာမ် + 하다" သည် "နာမ် + 못 해요" ဖြစ်ပါသည်။
+Like English "can't", "못" comes before the verb: "can't go" = "못 가요".	မြန်မာ "မ" ကဲ့သို့ပင် "못" သည် ကြိယာ၏ ရှေ့တွင် လာပါသည်: "မသွားနိုင်ဘူး" = "못 가요"။
+"안 가요" means you don't go because you don't want to; "못 가요" means you can't go because of some reason. When saying no, "못 가요" sounds softer.	"안 가요" သည် မသွားချင်လို့ မသွားခြင်း၊ "못 가요" သည် အကြောင်းတစ်ခုခုကြောင့် မသွားနိုင်ခြင်း ဖြစ်ပါသည်။ ငြင်းသောအခါ "못 가요" က ပိုပျော့ပျောင်းပါသည်။
+The sound changes: 못 해요 [모태요] (motaeyo), 못 먹어요 [몬머거요] (monmeogeoyo), 못 가요 [몯까요] (motkkayo).	အသံ ပြောင်းပါသည်: 못 해요 [모태요] (motaeyo)၊ 못 먹어요 [몬머거요] (monmeogeoyo)၊ 못 가요 [몯까요] (motkkayo)။
+I can't drink alcohol.	အရက် မသောက်နိုင်ဘူး။
+I was sick yesterday, so I couldn't go.	မနေ့က နေမကောင်းလို့ မသွားနိုင်ခဲ့ဘူး။
+I'm not good at Korean yet.	ကိုရီးယားစကား မတော်သေးဘူး။
+to be bad at, can't do well	မတော်ဘူး၊ ကောင်းကောင်း မလုပ်နိုင်ဘူး
+(I) can't go	မသွားနိုင်ဘူး
+(I) can't eat	မစားနိုင်ဘူး
+(I) can't drink	မသောက်နိုင်ဘူး
+(I) can't do it	မလုပ်နိုင်ဘူး
+(I) can't drive	ကား မမောင်းတတ်ဘူး
+to drive	ကားမောင်းသည်
+Then what about tomorrow?	ဒါဆို မနက်ဖြန်ကော။
+Tomorrow is fine.	မနက်ဖြန်တော့ ရပါတယ်။
+It means the same as "못". It is a little more formal and used a lot in writing.	"못" နှင့် အဓိပ္ပာယ် တူပါသည်။ နည်းနည်း ပိုတရားဝင်ပြီး စာရေးရာတွင် အများကြီး သုံးပါသည်။
+"-지 못하다" means the same as "못" and is more formal.	"-지 못하다" သည် "못" နှင့် အဓိပ္ပာယ် တူပြီး ပိုတရားဝင်ပါသည်။
+Take "-다" off the verb and add "-지 못해요".	ကြိယာ၏ "-다" ကို ဖြုတ်ပြီး "-지 못해요" ကို ထည့်ပါ။
+It is often used when you hand in an assignment late or apologize: "죄송합니다. 끝내지 못했습니다." (I'm sorry. I couldn't finish it.)	အိမ်စာ နောက်ကျ တင်သောအခါ သို့မဟုတ် တောင်းပန်သောအခါ မကြာခဏ သုံးပါသည်: "죄송합니다. 끝내지 못했습니다." (တောင်းပန်ပါတယ်။ မပြီးနိုင်ခဲ့ပါဘူး။)
+"못하다" is pronounced [모타다] (motada).	"못하다" ကို [모타다] (motada) ဟု အသံထွက်ပါသည်။
+It is usually not used with adjectives. Don't say "춥지 못해요"; say "춥지 않아요".	နာမဝိသေသနများနှင့် များသောအားဖြင့် မသုံးပါ။ "춥지 못해요" ဟု မပြောဘဲ "춥지 않아요" ဟု ပြောပါ။
+cannot (-지 못하다)	မ...နိုင် (-지 못하다)
+last night	မနေ့ည
+I couldn't finish all the assignment.	အိမ်စာ အားလုံး မပြီးနိုင်ခဲ့ဘူး။
+I didn't get the message.	သတင်း မရခဲ့ပါဘူး။
+contact, message	ဆက်သွယ်မှု၊ သတင်း
+(I) couldn't do it	မလုပ်နိုင်ခဲ့ပါဘူး
+(I) couldn't sleep	အိပ်မပျော်ခဲ့ဘူး
+(I) couldn't finish it	မပြီးနိုင်ခဲ့ပါဘူး
+Sam, did you finish writing the report?	ဆမ်၊ အစီရင်ခံစာ ရေးပြီးပြီလား။
+I'm sorry. I haven't finished it yet.	တောင်းပန်ပါတယ်။ မပြီးသေးပါဘူး။
+My laptop broke down, so I couldn't write it yesterday.	လက်ပ်တော့ ပျက်သွားလို့ မနေ့က မရေးနိုင်ခဲ့ပါဘူး။
+laptop	လက်ပ်တော့
+to happen, to occur (고장 나다 = to break down)	ဖြစ်ပေါ်သည် (고장 나다 = ပျက်သည်)
+Says whether you are able to, or have the chance to, do something. It is like "can / can't" in English.	တစ်ခုခု လုပ်နိုင်စွမ်း သို့မဟုတ် အခွင့်အရေး ရှိမရှိကို ပြောပါသည်။ မြန်မာ "...နိုင်တယ် / မ...နိုင်ဘူး" နှင့် ဆင်တူပါသည်။
+"-(으)ㄹ 수 있다" means "can", and "-(으)ㄹ 수 없다" means "can't".	"-(으)ㄹ 수 있다" သည် "...နိုင်တယ်"၊ "-(으)ㄹ 수 없다" သည် "မ...နိုင်ဘူး" ဟု အဓိပ္ပာယ်ရပါသည်။
+With a final consonant add "-을 수 있어요"; without one add "-ㄹ 수 있어요".	받침 ရှိလျှင် "-을 수 있어요"၊ မရှိလျှင် "-ㄹ 수 있어요" ကို ထည့်ပါ။
+In English, "can" comes before the verb, but in Korean "수 있어요" comes at the end: "can do" = "할 수 있어요".	မြန်မာ "နိုင်" ကဲ့သို့ပင် "수 있어요" သည် ကြိယာ၏ နောက်တွင် လာပါသည်: "လုပ်နိုင်တယ်" = "할 수 있어요"။
+"수" is pronounced [쑤]: 할 수 있어요 [할 쑤 이써요] (hal ssu isseoyo).	"수" ကို [쑤] ဟု အသံထွက်ပါသည်: 할 수 있어요 [할 쑤 이써요] (hal ssu isseoyo)။
+For skills you have learned, you can also say "-(으)ㄹ 줄 알아요/몰라요": "운전할 줄 알아요." (I know how to drive.)	သင်ယူထားသော ကျွမ်းကျင်မှုများအတွက် "-(으)ㄹ 줄 알아요/몰라요" ဟုလည်း ပြောနိုင်ပါသည်: "운전할 줄 알아요." (ကား မောင်းတတ်တယ်။)
+I can drive.	ကား မောင်းနိုင်တယ်။
+I can read Hangeul.	ဟန်ဂူလ် ဖတ်နိုင်တယ်။
+Hangeul (the Korean alphabet)	ဟန်ဂူလ် (ကိုရီးယား အက္ခရာ)
+I can't meet you today.	ဒီနေ့ မတွေ့နိုင်ဘူး။
+Can I use a card here?	ဒီမှာ ကတ် သုံးလို့ ရလား။
+(I) can do it	လုပ်နိုင်တယ်
+(I) can eat it	စားနိုင်တယ်
+(I) can drive	ကား မောင်းနိုင်တယ်
+(I) can read it	ဖတ်နိုင်တယ်
+Can you speak Korean?	ကိုရီးယားစကား ပြောနိုင်လား။
+Yes, I can speak a little.	ဟုတ်ကဲ့၊ နည်းနည်း ပြောနိုင်ပါတယ်။
+Can you work on weekends too?	စနေ တနင်္ဂနွေမှာလည်း အလုပ် လုပ်နိုင်လား။
+No, I can't on weekends. I can work on weekday evenings.	မလုပ်နိုင်ပါဘူး၊ စနေ တနင်္ဂနွေမှာ မရပါဘူး။ ကြားရက် ညနေတွေမှာ လုပ်နိုင်ပါတယ်။
+Says what you want to do. It is like "want to" in English.	လုပ်ချင်သည့် အရာကို ပြောပါသည်။ မြန်မာ "...ချင်တယ်" နှင့် ဆင်တူပါသည်။
+"Verb + -고 싶어요" means "want to + verb".	"ကြိယာ + -고 싶어요" သည် "ကြိယာ + ချင်တယ်" ဟု အဓိပ္ပာယ်ရပါသည်။
+Take "-다" off the verb and add "-고 싶어요". The final consonant does not matter.	ကြိယာ၏ "-다" ကို ဖြုတ်ပြီး "-고 싶어요" ကို ထည့်ပါ။ 받침 ရှိမရှိ အရေးမပါပါ။
+In English, "want to" comes before the verb, but in Korean it is added after it: "want to go" = "가고 싶어요".	မြန်မာ "ချင်" ကဲ့သို့ပင် ကြိယာ၏ နောက်တွင် ထည့်ပါသည်: "သွားချင်တယ်" = "가고 싶어요"။
+Use it only for your own wishes and the listener's. For other people's wishes, use "-고 싶어 해요": "동생이 한국에 오고 싶어 해요." (My younger brother wants to come to Korea.)	ကိုယ့်ဆန္ဒနှင့် နားထောင်သူ၏ ဆန္ဒအတွက်သာ သုံးပါ။ အခြားသူများ၏ ဆန္ဒအတွက် "-고 싶어 해요" ကို သုံးပါ: "동생이 한국에 오고 싶어 해요." (ညီက ကိုရီးယား လာချင်နေတယ်။)
+"보고 싶어요" is often used to mean "I miss (you)".	"보고 싶어요" ကို "လွမ်းတယ်" ဟူသော အဓိပ္ပာယ်ဖြင့် မကြာခဏ သုံးပါသည်။
+I want to work at a hotel.	ဟိုတယ်မှာ အလုပ် လုပ်ချင်တယ်။
+to want (-고 싶다)	...ချင်သည် (-고 싶다)
+I miss my family.	မိသားစုကို လွမ်းတယ်။
+to see (보고 싶다 = to miss, want to see)	ကြည့်သည် (보고 싶다 = လွမ်းသည်၊ တွေ့ချင်သည်)
+I don't want to do anything today.	ဒီနေ့ ဘာမှ မလုပ်ချင်ဘူး။
+anything (not … anything)	ဘာမှ (မ...)
+(I) want to go	သွားချင်တယ်
+(I) want to eat	စားချင်တယ်
+(I) want to work	အလုပ် လုပ်ချင်တယ်
+(I) want to rest	အနားယူချင်တယ်
+(I) want to learn	သင်ယူချင်ပါတယ်
+Sam, what do you want to do after graduation?	ဆမ်၊ ဘွဲ့ရပြီးရင် ဘာ လုပ်ချင်လဲ။
+to graduate	ဘွဲ့ရသည်
+I want to work at a hotel. And I want to help my family.	ဟိုတယ်မှာ အလုပ် လုပ်ချင်တယ်။ ပြီးတော့ မိသားစုကို ကူညီချင်တယ်။
+Which country do you want to work in?	ဘယ်နိုင်ငံမှာ အလုပ် လုပ်ချင်လဲ။
+Used to say casually what you will do, or to ask what the listener wants to do. It is used between people who are close.	ကိုယ် လုပ်မည့် အရာကို ပေါ့ပေါ့ပါးပါး ပြောရန် သို့မဟုတ် နားထောင်သူ လုပ်ချင်သည်ကို မေးရန် သုံးပါသည်။ ရင်းနှီးသူများကြားတွင် သုံးပါသည်။
+"-(으)ㄹ래요" is used between close people to say what you want or to ask what the other person wants.	"-(으)ㄹ래요" ကို ရင်းနှီးသူများကြားတွင် ကိုယ်လိုချင်သည်ကို ပြောရန် သို့မဟုတ် တစ်ဖက်လူ လိုချင်သည်ကို မေးရန် သုံးပါသည်။
+With a final consonant add "-을래요"; without one add "-ㄹ래요".	받침 ရှိလျှင် "-을래요"၊ မရှိလျှင် "-ㄹ래요" ကို ထည့်ပါ။
+Don't use it to tell a senior person what you want. Saying "저는 갈래요" to a professor sounds rude. Say "가겠습니다".	အထက်လူကြီးကို ကိုယ်လိုချင်သည်ကို ပြောရန် မသုံးပါနှင့်။ ပါမောက္ခကို "저는 갈래요" ဟု ပြောလျှင် ရိုင်းစိုင်းသကဲ့သို့ ကြားရပါသည်။ "가겠습니다" ဟု ပြောပါ။
+To ask a senior person, use "-(으)시겠어요?": "뭐 드시겠어요?"	အထက်လူကြီးကို မေးရန် "-(으)시겠어요?" ကို သုံးပါ: "뭐 드시겠어요?"
+This is what you hear most when choosing food at a restaurant: "뭐 먹을래요?"	စားသောက်ဆိုင်တွင် အစားအစာ ရွေးသောအခါ အများဆုံး ကြားရသော စကား ဖြစ်ပါသည်: "뭐 먹을래요?" (ဘာ စားမလဲ။)
+What do you want to drink?	ဘာ သောက်မလဲ။
+Do you want to go together?	အတူ သွားမလား။
+I'll stay at home.	ကျွန်ုပ် အိမ်မှာ နေမယ်။
+(I) will eat, I'll have	စားမယ်
+Do you want to do it?	လုပ်မလား။
+Do you want to drink?	သောက်မလား။
+Sam, what will you have?	ဆမ်၊ ဘာ စားမလဲ။
+I'll have kimchi stew. And you, Minha?	ကျွန်ုပ် ကင်မ်ချီ ဟင်းဆီ စားမယ်။ မင်ဟာကော။
+I'll have soybean paste stew. Do you want a drink too?	ကျွန်ုပ် ပဲပိစပ် ဟင်းဆီ စားမယ်။ သောက်စရာလည်း သောက်မလား။
+No, I'll have water.	မသောက်ဘူး၊ ရေ သောက်မယ်။
+Used when you promise the listener you will do something. It feels like "I'll … (for you)".	နားထောင်သူကို တစ်ခုခု လုပ်ပေးမည်ဟု ကတိပေးရာတွင် သုံးပါသည်။ "(ခင်ဗျားအတွက်) ...ပေးပါမယ်" ဟု ခံစားရပါသည်။
+"-(으)ㄹ게요" is a promise that you will do something.	"-(으)ㄹ게요" သည် တစ်ခုခု လုပ်မည်ဟု ကတိပေးခြင်း ဖြစ်ပါသည်။
+With a final consonant add "-을게요"; without one add "-ㄹ게요". The subject is always "I".	받침 ရှိလျှင် "-을게요"၊ မရှိလျှင် "-ㄹ게요" ကို ထည့်ပါ။ ကတ္တားသည် အမြဲ "ကျွန်ုပ်" ဖြစ်ပါသည်။
+"게" is pronounced [께]: 할게요 [할께요] (halkkeyo).	"게" ကို [께] ဟု အသံထွက်ပါသည်: 할게요 [할께요] (halkkeyo)။
+It is not used in questions. "할게요?" is wrong.	မေးခွန်းတွင် မသုံးပါ။ "할게요?" သည် မှားပါသည်။
+"-(으)ㄹ 거예요" is your own plan, and "-(으)ㄹ게요" is a promise made with the listener in mind: "내일 갈 거예요" (plan), "내일 갈게요" (promise).	"-(으)ㄹ 거예요" သည် ကိုယ့်အစီအစဉ် ဖြစ်ပြီး "-(으)ㄹ게요" သည် နားထောင်သူကို ထည့်စဉ်းစား၍ ပေးသော ကတိ ဖြစ်ပါသည်: "내일 갈 거예요" (အစီအစဉ်)၊ "내일 갈게요" (ကတိ)။
+I'll be going now. (I'm leaving first.)	အရင် ပြန်ပါမယ်။
+first, before (others)	အရင်၊ (အခြားသူများ) မတိုင်မီ
+I'll call you later.	နောက်မှ ဖုန်းဆက်ပါမယ်။
+Thank you for the food. (said when someone treats you)	ကောင်းကောင်း စားပါမယ်။ (တစ်ယောက်ယောက် ကျွေးသောအခါ ပြောသည်)
+(I) will do it (promise)	လုပ်ပါမယ် (ကတိ)
+(I) will wait	စောင့်နေပါမယ်
