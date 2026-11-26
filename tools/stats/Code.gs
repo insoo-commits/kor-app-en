@@ -1,5 +1,5 @@
 /**
- * jeyCampus usage statistics: receives the app's anonymous events and writes them to this Google Sheet.
+ * JeyCampus usage statistics: receives the app's anonymous events and writes them to this Google Sheet.
  * Setup (once): paste this file into Extensions > Apps Script, run setup(), then Deploy > New deployment >
  * Web app (Execute as: Me, Who has access: Anyone). Put the web app URL into STATS_URL in src/stats.js.
  *
@@ -50,7 +50,7 @@ function doPost(e) {
 
 /** GET ?stats=1: totals only (no device ids, no single scores) for the app's public 학습 통계 page. Cached 10 minutes. */
 function doGet(e) {
-  if (!e || !e.parameter || !e.parameter.stats) return ContentService.createTextOutput('jeyCampus stats endpoint is working.');
+  if (!e || !e.parameter || !e.parameter.stats) return ContentService.createTextOutput('JeyCampus stats endpoint is working.');
   var cache = CacheService.getScriptCache(), hit = cache.get('stats');
   var json = hit || JSON.stringify(stats_());
   if (!hit) cache.put('stats', json, 600);
@@ -117,7 +117,7 @@ function setup() {
   s.clear();
   var E = EVENTS + '!';
   var rows = [
-    ['jeyCampus usage', ''],
+    ['JeyCampus usage', ''],
     ['Devices (users)', '=COUNTUNIQUE(' + E + 'C2:C)'],
     ['App opens', '=COUNTIF(' + E + 'D2:D,"open")'],
     ['Lessons opened', '=COUNTIF(' + E + 'D2:D,"lesson")'],

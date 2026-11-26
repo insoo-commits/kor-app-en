@@ -1,4 +1,4 @@
-# jeyCampus (제이캠퍼스) · Korean for JJ Campus Life (캠퍼스라이프 한국어)
+# JeyCampus (제이캠퍼스) · Korean for JJ Campus Life (캠퍼스라이프 한국어)
 
 전주대학교 영어트랙 유학생이 한국어를 배우는 웹앱입니다. (Learn Korean: an app for English-track students at Jeonju University.)
 라오스어판 KOR Lang(insoo-commits/kor-app)을 바탕으로 만들었습니다. 설명은 영어, 독음은 로마자(실제 소리), 음성은 한국어 + 영어.

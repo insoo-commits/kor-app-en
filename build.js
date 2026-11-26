@@ -124,9 +124,9 @@ fs.writeFileSync(path.join(root, "app.js"), meta + "\nwindow.KO_SW=true;\n" + js
 fs.writeFileSync(path.join(root, "index.html"), `<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>jeyCampus</title>
+<title>JeyCampus</title>
 <meta name="description" content="Learn Korean: an app for English-track students at Jeonju University">
-<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#005595"><meta name="apple-mobile-web-app-title" content="jeyCampus"><meta name="application-name" content="jeyCampus">
+<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#005595"><meta name="apple-mobile-web-app-title" content="JeyCampus"><meta name="application-name" content="JeyCampus">
 <link rel="icon" href="icon-192.png" type="image/png"><link rel="apple-touch-icon" href="icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">${fonts}
 <script>(function(){var n=navigator,t=n.maxTouchPoints>0||"ontouchstart" in window;if((/iPad/.test(n.userAgent)||(/Macintosh/.test(n.userAgent)&&t))||(t&&Math.min(screen.width,screen.height)>=700))document.documentElement.classList.add("tab")})()</script>
@@ -140,7 +140,7 @@ ${LANG_JS}
 </body></html>
 `);
 fs.writeFileSync(path.join(root, "manifest.webmanifest"), JSON.stringify({
-  name: "jeyCampus", short_name: "jeyCampus", start_url: "./", display: "standalone", background_color: "#F3F4F2", theme_color: "#005595",
+  name: "JeyCampus", short_name: "JeyCampus", start_url: "./", display: "standalone", background_color: "#F3F4F2", theme_color: "#005595",
   icons: [{src: "icon-192.png", sizes: "192x192", type: "image/png"}, {src: "icon-512.png", sizes: "512x512", type: "image/png"}]   // JeyJey icon (v1.14, PNG from the official character file)
 }, null, 1));
 fs.writeFileSync(path.join(root, "icon.svg"), `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#005595"/><text x="256" y="340" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif" font-weight="700" font-size="280" fill="#fff">한</text></svg>`);
@@ -164,7 +164,7 @@ self.addEventListener("fetch",e=>{const u=new URL(e.request.url);if(e.request.me
 `);
 
 // preview page (same app, one file plus data/)
-fs.writeFileSync(path.join(root, "preview/korean-app.html"), `<title>jeyCampus</title>
+fs.writeFileSync(path.join(root, "preview/korean-app.html"), `<title>JeyCampus</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 ${fonts}
 <style>

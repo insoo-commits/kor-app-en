@@ -1,6 +1,6 @@
 {
- "name": "jeyCampus",
- "short_name": "jeyCampus",
+ "name": "JeyCampus",
+ "short_name": "JeyCampus",
  "start_url": "./",
  "display": "standalone",
  "background_color": "#F3F4F2",
