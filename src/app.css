@@ -1106,11 +1106,11 @@ figure.jeyfig img{background:#fff}
 #app #groups .group[aria-pressed="true"]+.group::before,#app #groups .group+.group[aria-pressed="true"]:not(.msep)::before{opacity:0!important}
 /* satisfaction survey (v1.11) */
 .svbox:empty{display:none}
-.svcard{position:relative;margin:10px 0 4px;padding:14px 16px;border-radius:16px;background:var(--card,#fff);border:1px solid var(--line);box-shadow:0 1px 2px rgba(0,40,90,.06)}
+.svcard{position:relative;margin:10px 0 4px;padding:14px 16px;border-radius:16px;background:var(--sheet);color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow,0 1px 2px rgba(0,40,90,.06))}
 .svhead{display:flex;align-items:center;gap:10px}.svhead .svjey{height:54px;width:auto}
-.svq{margin:10px 0 6px;font-size:15px}.svhead .svq{margin:0}
+.svq{margin:10px 0 6px;font-size:15px;color:var(--ink)}.svq .ko{color:var(--muted)}.svhead .svq{margin:0}
 .svstars{display:flex;gap:4px;margin:6px 0 2px}
-.svstar{font-size:30px;line-height:1;background:none;border:0;color:var(--line2,#ccd);cursor:pointer;padding:2px 3px}.svstar.on{color:#F2B705}
+.svstar{font-size:30px;line-height:1;background:none;border:0;color:color-mix(in srgb,var(--muted) 45%,var(--sheet));cursor:pointer;padding:2px 3px}.svstar.on{color:#FFC20E}
 .svchips{display:flex;flex-wrap:wrap;gap:6px}
 .svchip{border:1px solid var(--line);background:var(--sheet,#fff);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:14px;cursor:pointer}
 .svchip.on{background:var(--a1,#005595);border-color:transparent;color:#fff}
