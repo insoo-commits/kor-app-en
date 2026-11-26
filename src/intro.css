@@ -214,3 +214,18 @@ html.introon body{overflow:hidden}
 #intro.D .inst{margin-inline:max(64px,calc((100% - 1320px) / 2))}
 #intro .mt{font:inherit;color:inherit;text-align:left;cursor:pointer}
 #intro .sticky{position:sticky}
+html.introon{overflow:hidden}
+#intro.P .hero::after{background:linear-gradient(180deg,rgba(0,28,58,.62) 0%,rgba(0,28,58,.38) 30%,rgba(0,40,80,.62) 55%,var(--deep) 100%)}
+#intro.T .hero::after{background:linear-gradient(180deg,rgba(0,28,58,.55) 0%,rgba(0,28,58,.25) 30%,rgba(0,45,90,.62) 62%,var(--deep) 100%)}
+#intro .hero h1,#intro .hero .lead,#intro .hero .hello,#intro .hero .stats,#intro .brand{text-shadow:0 1px 10px rgba(0,20,45,.55)}
+#intro .lpwrap{position:relative;z-index:30}
+#intro.D .nav .lpwrap{margin-left:auto}
+#intro .langpill{cursor:pointer;font:inherit;font-size:13px;font-weight:600}
+#intro .lpmenu{position:absolute;right:0;top:calc(100% + 8px);min-width:220px;background:var(--ms);color:var(--mi);border:1px solid var(--ml);border-radius:16px;box-shadow:0 18px 40px rgba(0,20,50,.3);padding:6px;display:grid;gap:2px;text-shadow:none}
+#intro .lpmenu button{display:flex;align-items:center;gap:10px;border:0;background:none;color:inherit;border-radius:10px;padding:8px 10px;text-align:left;font:inherit;font-size:.92em;cursor:pointer}
+#intro .lpmenu button:hover:not(:disabled),#intro .lpmenu button.on{background:var(--tint)}
+#intro .lpmenu button:disabled{opacity:.45;cursor:default}
+#intro .lpmenu b{font-family:var(--display);font-size:.72em;width:30px;height:30px;border-radius:8px;display:grid;place-items:center;background:var(--tint);color:var(--blue);flex:none}
+#intro .lpmenu button.on b{background:var(--blue2);color:#fff}
+#intro .lpmenu span{line-height:1.3;font-weight:600}
+#intro .lpmenu small{display:block;font-family:var(--ko);font-weight:500;color:var(--mm);font-size:.78em}
