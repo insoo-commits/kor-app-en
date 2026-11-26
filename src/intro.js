@@ -210,7 +210,7 @@ let box = null, curDev = null;
 function render(){
   if (!box) return;
   const d = devOf(), y = box.scrollTop;
-  box.className = "m " + (d === "phone" ? "P" : d === "pad" ? "T" : "D") + (isDark() ? " dk" : "");
+  box.className = "m notr " + (d === "phone" ? "P" : d === "pad" ? "T" : "D") + (isDark() ? " dk" : "");   // notr: the app's label swapper leaves the intro alone (it has its own texts; it turned "English" into the app language)
   box.setAttribute("data-l", lang); box.lang = lang;
   box.style.setProperty("--fz", fz());
   if (FONTS[lang]){ box.style.setProperty("--tf", FONTS[lang]); box.style.setProperty("--tf2", FONTS[lang]); } else { box.style.removeProperty("--tf"); box.style.removeProperty("--tf2"); }
