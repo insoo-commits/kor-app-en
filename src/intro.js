@@ -109,7 +109,9 @@ const rep = () => String(S.rep || 2), rate = () => String(S.rate || 1), voice = 
 function isDark(){ const th = theme(); if (th === "dark") return true; if (th === "light") return false; return !!(window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches); }
 function devOf(){ const w = window.innerWidth; return w < 700 ? "phone" : w < 1100 ? "pad" : "pc"; }
 
-function langPill(){ const L = LANGS.find(x => x[0] === lang); return `<span class="langpill">${ICON.globe} ${esc(L[1])}</span>`; }
+let lmenu = false;   // the 🌐 button at the top opens a language list too (RYU 2026-11-27)
+function langPill(){ const L = LANGS.find(x => x[0] === lang);
+  return `<div class="lpwrap"><button type="button" class="langpill" data-act="lmenu" aria-expanded="${lmenu}">${ICON.globe} ${esc(L[1])} <span aria-hidden="true">▾</span></button>${lmenu ? `<div class="lpmenu" role="menu">${LANGS.map(([c, n, k, ok]) => `<button type="button" role="menuitemradio" aria-checked="${c === lang}" class="${c === lang ? "on" : ""}" data-lang="${c}"${dis(ok)}><b>${c.toUpperCase()}</b><span>${esc(n)}<small>${k}${soon(ok)}</small></span></button>`).join("")}</div>` : ""}</div>`; }
 function heroCopy(){ const x = t(); return `
   <div class="hello"><span class="star"></span>${esc(x.hello)}</div>
   <h1>${esc(x.h1)}</h1>
@@ -255,8 +257,11 @@ function goArea(a){ const b = document.querySelector('[data-g="' + a + '"]'); cl
 
 document.addEventListener("click", ev => {
   if (!box || !box.contains(ev.target)) return;
-  const b = ev.target.closest("button,a"); if (!b || b.disabled) return;
-  if (b.dataset.lang){ lang = b.dataset.lang; S.lang = lang; JC.save(); render(); return; }
+  const b = ev.target.closest("button,a");
+  if (lmenu && (!b || !b.closest(".lpwrap"))){ lmenu = false; render(); if (!b) return; }
+  if (!b || b.disabled) return;
+  if (b.dataset.act === "lmenu"){ lmenu = !lmenu; render(); return; }
+  if (b.dataset.lang){ lmenu = false; lang = b.dataset.lang; S.lang = lang; JC.save(); render(); return; }
   if (b.dataset.rep){ setRep(b.dataset.rep); render(); return; }
   if (b.dataset.theme){ S.theme = b.dataset.theme; JC.save(); JC.applyPrefs(); render(); return; }
   if (b.dataset.fz){ S.fz = +b.dataset.fz; JC.save(); JC.applyPrefs(); render(); return; }
@@ -274,7 +279,7 @@ document.addEventListener("click", ev => {
 });
 document.addEventListener("input", ev => { if (box && ev.target.matches("#intro [data-rate]")){ const v = (+ev.target.value).toFixed(1).replace(/\.0$/, ""); setRate(v); const o = ev.target.parentNode.querySelector("output"); if (o) o.textContent = "×" + (+v).toFixed(1); } });
 document.addEventListener("change", ev => { if (box && ev.target.matches("#intro [data-rate]")) render(); });
-document.addEventListener("keydown", ev => { if (box && ev.key === "Escape") close(); }, true);
+document.addEventListener("keydown", ev => { if (box && ev.key === "Escape"){ if (lmenu){ lmenu = false; render(); } else close(); } }, true);
 
 /* a way back: a button under the theme row */
 { const pf = document.getElementById("prefs"); if (pf){ const p = document.createElement("p"); p.className = "langline";
