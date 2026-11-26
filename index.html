@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>kojey 코제이 · 캠퍼스라이프 한국어</title>
+<title>kojey · 캠퍼스라이프 한국어</title>
 <meta name="description" content="Learn Korean: an app for English-track students at Jeonju University">
 <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#005595">
 <link rel="icon" href="icon-192.png" type="image/png"><link rel="apple-touch-icon" href="icon-180.png">
@@ -1258,6 +1258,13 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 /* v1.20.7 (RYU): every passage is now a white box, so the choice boxes line up with the passage box's left edge */
 .tqi:has(> .tqp) > .tqo{margin-left:var(--ind)}
 .tqsub:has(> .tqp) > .tqo{margin-left:var(--ind2)}
+/* v1.21.9 (RYU): dark mode shows the characters as stickers on the dark page instead of on a white box */
+:root[data-theme="dark"] figure.jeyfig img{background:none;border:0;box-shadow:none;content:url(img/jey/friends-d.webp)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) figure.jeyfig img{background:none;border:0;box-shadow:none;content:url(img/jey/friends-d.webp)}}
+/* v1.21.9 (RYU): JJU logo showed twice in help (.info figure img's display:block beat .lg-d); one logo per theme */
+.info figure img.lg-d{display:none}
+:root[data-theme="dark"] .info figure img.lg-l{display:none}:root[data-theme="dark"] .info figure img.lg-d{display:block}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .info figure img.lg-l{display:none}:root:not([data-theme="light"]) .info figure img.lg-d{display:block}}
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1889,7 +1896,7 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-26%20v1.21.8"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|ne|vi)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-26%20v1.21.8"><\/script>')})()</script>
-<script src="app.js?v=2026-11-26%20v1.21.8"></script>
+<script src="audio/index.js?v=2026-11-26%20v1.21.9"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|ne|vi)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-26%20v1.21.9"><\/script>')})()</script>
+<script src="app.js?v=2026-11-26%20v1.21.9"></script>
 </body></html>
