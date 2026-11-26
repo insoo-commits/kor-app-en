@@ -121,3 +121,59 @@ K2-N-01 | Phép lịch sự khi ăn
 K2-N-02 | Gặp người lớn tuổi
 K2-N-03 | Ngày lễ truyền thống
 K2-N-04 | Quy tắc nơi công cộng
+K4-B-01 | Giấy tờ du học
+K4-B-02 | Nhập học và định hướng
+K4-B-03 | Đăng ký người nước ngoài
+K4-B-04 | Đến Phòng Hợp tác Quốc tế
+K4-N-01 | Đăng ký điện thoại
+K4-N-02 | Bảo hiểm y tế
+K4-N-03 | Khai báo thay đổi nơi cư trú
+K4-N-04 | Mất đồ và báo khẩn cấp
+K4-N-05 | Ứng dụng cho cuộc sống
+K4-I-01 | Ký túc xá
+K4-I-02 | Quy định ký túc xá
+K4-I-03 | Ở riêng và nhà trọ
+K4-I-04 | Hướng dẫn ký túc xá sinh viên
+K4-M-01 | Đi xe buýt đến trường
+K4-M-02 | Ra trung tâm Jeonju
+K4-C-01 | Các tòa nhà trong trường
+K4-C-02 | Sử dụng thư viện
+K4-C-03 | Thẻ sinh viên và dịch vụ của trường
+K4-C-04 | Tìm phòng học
+K4-C-05 | Nhà ăn sinh viên
+K4-C-06 | Phòng y tế và bệnh viện
+K4-A-01 | Câu nói trong lớp học
+K4-A-02 | Lớp tiếng Hàn
+K4-A-03 | Khi đi thi
+K4-A-04 | Xếp lớp tiếng Hàn
+K4-D-01 | Đăng ký môn học
+K4-D-02 | Học kỳ và năm học
+K4-D-03 | Đi học và vắng mặt
+K4-D-04 | Bảo lưu và đi học lại
+K4-D-05 | Điều chỉnh và rút môn
+K4-E-01 | Câu nói trong giờ giảng
+K4-E-02 | Tài liệu bài giảng
+K4-E-03 | Câu hỏi và thảo luận
+K4-E-04 | Lớp học hệ tiếng Anh
+K4-E-05 | Điều kiện hoàn thành hệ tiếng Anh
+K4-F-01 | Bài tập
+K4-F-02 | Bài tập nhóm
+K4-F-03 | Thuyết trình
+K4-G-01 | Mùa thi
+K4-G-02 | Điểm số
+K4-G-03 | Cảnh cáo học vụ và thi bù
+K4-H-01 | Liên lạc với giáo sư
+K4-H-02 | Gặp tư vấn và thư giới thiệu
+K4-H-03 | Anh chị khóa trên và khóa dưới
+K4-H-04 | Trong giờ tiếp sinh viên
+K4-K-01 | Câu lạc bộ
+K4-K-02 | Sự kiện của trường
+K4-K-03 | Kết bạn với người Hàn
+K4-K-04 | Buddy và trao đổi ngôn ngữ
+K4-J-01 | Học phí
+K4-J-02 | Học bổng
+K4-J-03 | Du học sinh làm thêm
+K4-J-04 | Học bổng trong trường
+K4-L-01 | Tốt nghiệp
+K4-L-02 | Hướng đi và việc làm
+K4-L-03 | Lời cảm ơn và chia tay
