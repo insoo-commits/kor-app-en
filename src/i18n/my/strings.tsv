@@ -3601,14 +3601,14 @@ entrance	ဝင်ပေါက်
 stop	မှတ်တိုင်
 to go to the library	စာကြည့်တိုက် သွားသည်
 to study at the library	စာကြည့်တိုက်မှာ စာကျက်သည်
-close	နီးသည်
+close	ရင်းနှီးသည်
 o'clock	နာရီ (အချိန်)
 hour	နာရီ (ကြာချိန်)
 to wipe	သုတ်သည်
 dirty	ညစ်ပတ်သည်
 to use alone	တစ်ယောက်တည်း သုံးသည်
 tenant	အိမ်ငှားသူ
-to get better	သက်သာလာသည်
+to get better	သက်သာသည်
 to get over a cold	အအေးမိတာ ပျောက်သည်
 I'm tired.	ပင်ပန်းတယ်။
 to leave the hospital	ဆေးရုံက ဆင်းသည်
@@ -3626,7 +3626,7 @@ to make a call	ဖုန်း ဆက်သည်
 to answer a call	ဖုန်း ကိုင်သည်
 to hang up	ဖုန်း ချသည်
 Just a moment.	ခဏလေး။
-clear	(ကောင်းကင်) ကြည်လင်သည်
+clear	ကြည်လင်သည်
 cool	အေးမြသည်
 autumn	ဆောင်းဦး
 It's snowing.	နှင်း ကျနေတယ်။
@@ -3657,7 +3657,7 @@ to break the rules	စည်းကမ်း ချိုးဖောက်သည
 Thank you	ကျေးဇူးတင်ပါတယ်
 I'm from Myanmar	မြန်မာ လူမျိုး ပါ
 I'm twenty years old	အသက် ၂၀ ပါ
-to wake up	အိပ်ရာက နိုးသည်
+to wake up	အိပ်ရာထသည်
 Please give me a refund	ငွေ ပြန်အမ်းပေးပါ
 in front of the school	ကျောင်းရှေ့
 I have a fever	ဖျားတယ်
@@ -4933,31 +4933,31 @@ ruler	ပေတံ
 to see	မြင်သည်၊ ကြည့်သည်
 sleeps	အိပ်သည်
 is cold	အေးသည်
-also	လည်း
+also	-လည်း
 persimmon	တည်သီး
-words	စကား၊ စကားလုံး
+words	စကား
 ten thousand	တစ်သောင်း
-moon	လ (ကောင်းကင်)
+moon	လ
 to fold	ခေါက်သည်
 string	ကြိုး
 rice cake	ဆန်မုန့် (တော့က်)
 tt	တံခါး (တင်းပြီး လေ မထွက်သော အသံ)
 fire	မီး
 horn	ဦးချို
-to hit	ရိုက်သည်
+to hit	ထိသည်
 flesh	အသား (ခန္ဓာ)
 Mr./Ms.	-ရှင်၊ ဦး/ဒေါ် (နာမည်နောက်တွင်)
 frost	နှင်းခဲ
-writing	စာ၊ စာသား
+writing	ရေးခြင်း
 cave	ဂူ
-field	လယ်ကွင်း၊ ကွင်း
+field	ကွင်းပြင်
 my bag	ကျွန်ုပ့် အိတ်
 prize	ဆု
 liver	အသည်း
 sickle	တံစဉ်
-older brother	အစ်ကို (မိန်းကလေး ပြောသည်)
+older brother	အစ်ကို
 older brother (said by a male)	အစ်ကို (ယောက်ျားလေး ခေါ်ပုံ)
-older brother (from a woman)	အစ်ကို (မိန်းကလေး ပြောသည်)
+older brother (from a woman)	အစ်ကို (အမျိုးသမီးက ခေါ်ပုံ)
 You can read ㅊ like English "s". True → O, false → X	ㅊ ကို မြန်မာ "ဆ" ကဲ့သို့ ဖတ်နိုင်သည်။ မှန်လျှင် → O၊ မှားလျှင် → X
 Which letter is closest to the "t" in English "stop"? ㄷ / ㅌ / ㄸ	မြန်မာ "တ" (တံခါး) နှင့် အနီးစပ်ဆုံး စာလုံးက ဘာလဲ? ㄷ / ㅌ / ㄸ
 Which letter sounds like the "k" in English "kit"? ㄱ / ㅋ / ㄲ	မြန်မာ "ခ" (ခွေး) ကဲ့သို့ အသံထွက်သော စာလုံးက ဘာလဲ? ㄱ / ㅋ / ㄲ
@@ -9341,7 +9341,7 @@ Please don't come in	မဝင်ပါနဲ့
 Please turn it on	ဖွင့်ပါ
 Please don't turn it on	မဖွင့်ပါနဲ့
 Please don't smoke here	ဒီမှာ ဆေးလိပ် မသောက်ပါနဲ့
-must not	...လို့ မရဘူး
+must not	-မလုပ်ရ
 may, can	...လို့ ရတယ်
 You must not go in.	ဝင်လို့ မရဘူး။
 may go	သွားလို့ ရတယ်
@@ -9359,16 +9359,16 @@ I go by bus (take the bus and go)	ဘတ်စ်ကားနဲ့ သွား
 Sit and wait	ထိုင်ပြီး စောင့်ပါ
 to end, finish	ပြီးဆုံးသည်
 I study while working	အလုပ်လုပ်ရင်း စာ သင်တယ်
-vacation	အားလပ်ရက်
+vacation	ကျောင်းပိတ်ရက်
 not have, there isn't	မရှိ
 sick, hurt	နာသည်၊ နေမကောင်း
 If you are sick or get hurt	နေမကောင်းရင် ဒါမှမဟုတ် ဒဏ်ရာ ရရင်
 X)	X)
 O)	O)
-even if	...ရင်တောင်
+even if	-ပေမဲ့
 have	ရှိ
 don't have	မရှိ
-to play	ကစားသည်၊ ပျော်ပါးသည်
+to play	ကစားသည်
 come to eat	စားဖို့ လာတယ်
 a person who is going	သွားနေတဲ့ လူ
 a person who went	သွားခဲ့တဲ့ လူ
@@ -9380,7 +9380,7 @@ good to	...ရတာ ကောင်းတယ်
 tough to	...ရတာ ပင်ပန်းတယ်
 loudly, big	ကျယ်ကျယ်၊ ကြီးကြီး
 quietly, small	တိုးတိုး၊ သေးသေး
-on the way	သွားတုန်း
+on the way	-လမ်းမှာ၊ -ရင်း
 after getting there	ရောက်တော့
 It's good (statement)	ကောင်းတယ် (ပြောဆိုချက်)
 Oh, it's good! (just found out)	အို၊ ကောင်းလိုက်တာ။ (အခုမှ သိ)
@@ -12019,7 +12019,7 @@ there (near the listener)	အဲဒီမှာ (နားထောင်သူ 
 that way (over there)	ဟိုဘက် (ဟိုမှာ)
 this morning	ဒီနေ့ မနက်
 tonight	ဒီည
-at first	အစပိုင်းမှာ
+at first	အစပိုင်း
 at the end	နောက်ဆုံးမှာ
 one by one, single items	တစ်ခုချင်း၊ အခုလိုက်
 in bundles	အထုပ်လိုက်
@@ -12051,7 +12051,7 @@ scared	ကြောက်သည်
 is scared	ကြောက်နေသည် (တခြားသူ)
 No, thanks	ရပါတယ်၊ မလိုပါဘူး
 No	မဟုတ်ဘူး
-not at all	လုံးဝ မ...
+not at all	မဟုတ်ပါဘူး (နှိမ့်ချ)
 not a single one	တစ်ခုမှ (မ...)
 all done	အားလုံး ပြီးပြီ
 almost done	အားလုံးနီးပါး ပြီးပြီ
@@ -12128,3 +12128,2616 @@ I've done it all	အားလုံး လုပ်ပြီးပြီ
 Then see you tomorrow	ဒါဆို မနက်ဖြန် တွေ့မယ်
 I'd like to ask for time off	ခွင့် လျှောက်ချင်ပါတယ်
 저는 전주대학교에 (   ). (I'm a student there) 가요 / 다녀요	저는 전주대학교에 (   ). (ကျွန်ုပ် အဲဒီက ကျောင်းသား ပါ) 가요 / 다녀요
+Announcements you hear at school. Listen carefully for dates, times and places. Order: ❶ Listen to the whole text → ❷ Listen line by line → ❸ Words → ❹ Quiz.	ကျောင်းတွင် ကြားရသော ကြေညာချက်များ ဖြစ်ပါသည်။ ရက်စွဲ၊ အချိန်နှင့် နေရာကို သေချာ နားထောင်ပါ။ အစီအစဉ်: ❶ စာသား တစ်ခုလုံး နားထောင် → ❷ တစ်ကြောင်းချင်း ပြန်နားထောင် → ❸ စကားလုံးများ → ❹ ပဟေဠိ။
+At Korean universities, popular courses fill up so fast that people call it the 'course registration war'.	ကိုရီးယား တက္ကသိုလ်များတွင် လူကြိုက်များသော ဘာသာရပ်များ အလွန် မြန်မြန် ပြည့်သွားသောကြောင့် 'ဘာသာရပ် စာရင်းသွင်း စစ်ပွဲ' ဟုပင် ခေါ်ကြပါသည်။
+'-니까' gives a reason: they close fast, so plan ahead.	'-니까' သည် အကြောင်းရင်းကို ပြပါသည်: မြန်မြန် ပြည့်သွားလို့ ကြိုတင် စီစဉ်ပါ။
+Have you already registered for courses?	ဘာသာရပ် စာရင်းသွင်းပြီးပြီလား။
+Course registration is so hard.	ဘာသာရပ် စာရင်းသွင်းတာ အရမ်း ခက်တယ်။
+to be difficult	ခက်သည်
+The exam schedule is out.	စာမေးပွဲ အစီအစဉ် ထွက်ပြီ။
+My schedule this week is so busy.	ဒီအပတ် အစီအစဉ် အရမ်း များတယ်။
+deadline, closing	နောက်ဆုံးရက်၊ ပိတ်ခြင်း
+The application deadline is tomorrow.	လျှောက်ထားရန် နောက်ဆုံးရက်က မနက်ဖြန် ပါ။
+That course is already full.	အဲဒီ ဘာသာရပ်က ပြည့်သွားပြီ။
+course	ဘာသာရပ်
+I made my timetable for this semester.	ဒီစာသင်နှစ်ဝက် အချိန်ဇယား ဆွဲပြီးပြီ။
+to plan (a timetable)	(အချိန်ဇယား) ဆွဲသည်
+I have too many classes on Monday.	တနင်္လာနေ့မှာ အတန်း အရမ်း များတယ်။
+If you're late, contact us in advance.	နောက်ကျရင် ကြိုပြီး ဆက်သွယ်ပါ။
+I contacted the professor by e-mail.	ပါမောက္ခကို အီးမေးလ်နဲ့ ဆက်သွယ်ခဲ့တယ်။
+e-mail	အီးမေးလ်
+Students, here is the course registration schedule.	ကျောင်းသားများ ခင်ဗျာ၊ ဘာသာရပ် စာရင်းသွင်း အစီအစဉ်ကို အသိပေးပါသည်။
+to inform (honorific)	အသိပေးသည် (ယဉ်ကျေး)
+Registration starts on February 15 at 10 a.m.	စာရင်းသွင်းခြင်းကို ဖေဖော်ဝါရီ ၁၅ ရက် နံနက် ၁၀ နာရီမှ စတင်ပါသည်။
+February	ဖေဖော်ဝါရီ
+a.m.	နံနက် (a.m.)
+Log in to the school website and register.	ကျောင်း ဝက်ဘ်ဆိုက်ကို လော့ဂ်အင် ဝင်ပြီး စာရင်းသွင်းပါ။
+website	ဝက်ဘ်ဆိုက်
+to log in	လော့ဂ်အင် ဝင်သည်
+Popular courses fill up fast, so plan your timetable in advance.	လူကြိုက်များသော ဘာသာရပ်များ မြန်မြန် ပြည့်သွားသောကြောင့် အချိန်ဇယားကို ကြိုတင် စီစဉ်ပါ။
+English-track students, check the English-taught courses first.	အင်္ဂလိပ် ထရက် ကျောင်းသားများ အင်္ဂလိပ်ဖြင့် သင်သော ဘာသာရပ်များကို အရင် စစ်ပါ။
+English track	အင်္ဂလိပ် ထရက်
+lecture	ပို့ချချက်၊ အတန်း
+If you have problems, contact the academic affairs team.	ပြဿနာ ရှိလျှင် ပညာရေးရေးရာ အဖွဲ့ကို ဆက်သွယ်ပါ။
+academic affairs team	ပညာရေးရေးရာ အဖွဲ့
+'-기 바랍니다' is a more formal way than '-세요' to ask something in announcements.	'-기 바랍니다' သည် ကြေညာချက်များတွင် တစ်ခုခု တောင်းဆိုရန် '-세요' ထက် ပိုတရားဝင်သော ပုံစံ ဖြစ်ပါသည်။
+Korean dormitories usually have a curfew and room inspections.	ကိုရီးယား အဆောင်များတွင် များသောအားဖြင့် ပြန်ရောက်ရမည့် အချိန်သတ်မှတ်ချက်နှင့် အခန်း စစ်ဆေးမှု ရှိပါသည်။
+dorm resident	အဆောင်နေ ကျောင်းသား
+Dorm residents must come back by 12.	အဆောင်နေ ကျောင်းသားများ ၁၂ နာရီအထိ ပြန်ရောက်ရမယ်။
+There's a dorm residents' meeting.	အဆောင်နေ ကျောင်းသားများ အစည်းအဝေး ရှိတယ်။
+hot water	ရေနွေး
+There's no hot water.	ရေနွေး မလာဘူး။
+Hot water comes well in the morning.	မနက်ဘက်မှာ ရေနွေး ကောင်းကောင်း လာတယ်။
+inspection	စစ်ဆေးခြင်း
+There's an elevator inspection today.	ဒီနေ့ ဓာတ်လှေကား စစ်ဆေးမှု ရှိတယ်။
+Keep your room clean for the room inspection.	အခန်း စစ်ဆေးချိန်မှာ အခန်းကို သန့်ရှင်းအောင် ထားပါ။
+to be clean	သန့်ရှင်းသည်
+drill, training	လေ့ကျင့်ခြင်း၊ ကျင့်စမ်းခြင်း
+Be sure to take part in the fire drill.	မီးဘေး လေ့ကျင့်ခန်းကို မဖြစ်မနေ ပါဝင်ပါ။
+to take part	ပါဝင်သည်
+The drill takes about 30 minutes.	လေ့ကျင့်ခန်းက မိနစ် ၃၀ လောက် ကြာတယ်။
+I go up by the stairs.	လှေကားနဲ့ တက်တယ်။
+In a fire, use the stairs, not the elevator.	မီးလောင်ရင် ဓာတ်လှေကား မဟုတ်ဘဲ လှေကားကို သုံးပါ။
+a fire breaks out	မီး လောင်သည်
+not ... but	... မဟုတ်ဘဲ
+Dorm residents, here is an announcement.	အဆောင်နေ ကျောင်းသားများ ခင်ဗျာ၊ ကြေညာချက် ရှိပါသည်။
+notice	ကြေညာချက်၊ အသိပေးချက်
+to say (humble)	ပြောပြသည် (နှိမ့်ချ)
+There will be no hot water tonight from 10 to 12.	ဒီည ၁၀ နာရီမှ ၁၂ နာရီအထိ ရေနွေး မလာပါ။
+This is because of a boiler inspection.	ရေနွေးအိုး (보일러) စစ်ဆေးမှုကြောင့် ဖြစ်ပါသည်။
+boiler	ရေနွေးအိုး (보일러)
+Please take your shower before then.	အဲဒီ မတိုင်ခင် ရေချိုးပါ။
+shower	ရေချိုးခြင်း
+please (formal)	-ပါ (တရားဝင်)
+Also, there is a fire drill tomorrow at 9 a.m.	ထို့အပြင် မနက်ဖြန် နံနက် ၉ နာရီတွင် မီးဘေး လေ့ကျင့်ခန်း ရှိပါသည်။
+fire drill	မီးဘေး လေ့ကျင့်ခန်း
+When the alarm rings, come out by the stairs.	အချက်ပေးသံ မြည်လျှင် လှေကားဖြင့် ထွက်လာပါ။
+alarm	အချက်ပေးသံ
+to ring	မြည်သည်
+'하루, 이틀, 사흘, 나흘' are native Korean words for counting days (1, 2, 3, 4 days).	'하루, 이틀, 사흘, 나흘' သည် ရက် ရေတွက်ရန် ကိုရီးယား မူရင်း စကားလုံးများ (၁၊ ၂၊ ၃၊ ၄ ရက်) ဖြစ်ပါသည်။
+Famous singers often perform at Korean university festivals.	ကိုရီးယား တက္ကသိုလ် ပွဲတော်များတွင် နာမည်ကြီး အဆိုတော်များ မကြာခဏ ဖျော်ဖြေကြပါသည်။
+A singer comes during the festival.	ပွဲတော်မှာ အဆိုတော် လာတယ်။
+We sold tteokbokki at the festival.	ပွဲတော်မှာ တော့ပိုကီ ရောင်းခဲ့တယ်။
+tteokbokki (spicy rice cakes)	တော့ပိုကီ (ဆန်မုန့် စပ်ကြော်)
+I invited my friend to my birthday party.	သူငယ်ချင်းကို မွေးနေ့ပွဲကို ဖိတ်ခဲ့တယ်။
+booth	ဆိုင်ခန်း (booth)
+Come visit our department's booth.	ကျွန်ုပ်တို့ ဌာန ဆိုင်ခန်းကို လာလည်ပါ။
+to come and hang out	လာလည်သည်
+We played a game at the booth.	ဆိုင်ခန်းမှာ ဂိမ်း ကစားခဲ့တယ်။
+performance, concert	ဖျော်ဖြေပွဲ၊ ဂီတပွဲ
+The concert was really cool.	ဖျော်ဖြေပွဲက တကယ် မိုက်တယ်။
+to be cool	မိုက်သည်၊ ခန့်ညားသည်
+I bought a concert ticket.	ဖျော်ဖြေပွဲ လက်မှတ် ဝယ်ခဲ့တယ်။
+It rained for three days.	သုံးရက်လုံး မိုး ရွာခဲ့တယ်။
+for (a time)	ကြာ (အချိန်)
+The exam is three days away.	စာမေးပွဲ သုံးရက် လိုသေးတယ်။
+to remain	ကျန်သည်
+We invite you to the Jeonju University autumn festival!	ဂျွန်ဂျူ တက္ကသိုလ် ဆောင်းဦး ပွဲတော်သို့ ဖိတ်ကြားပါသည်။
+The festival runs for three days from October 20.	ပွဲတော်ကို အောက်တိုဘာ ၂၀ ရက်မှ စ၍ သုံးရက် ကျင်းပပါသည်။
+to be held	ကျင်းပသည်
+During the day there are department booths and food trucks.	နေ့ဘက်တွင် ဌာနအလိုက် ဆိုင်ခန်းများနှင့် အစားအစာ ကားများ ရှိပါသည်။
+food truck	အစားအစာ ကား
+In the evening at 7, the concert starts on the sports field.	ညနေ ၇ နာရီတွင် ကစားကွင်း၌ ဖျော်ဖြေပွဲ စပါသည်။
+concert, show	ဖျော်ဖြေပွဲ၊ ရှိုး
+The international students' booth sells food from many countries.	နိုင်ငံခြား ကျောင်းသား ဆိုင်ခန်းတွင် နိုင်ငံ အမျိုးမျိုး၏ အစားအစာများ ရောင်းပါသည်။
+Be sure to come with your friends!	သူငယ်ချင်းများနှင့် မဖြစ်မနေ လာခဲ့ပါ။
+be sure to	မဖြစ်မနေ
+Students often shorten 학생 식당 to '학식'.	ကျောင်းသားများသည် 학생 식당 ကို '학식' ဟု အတိုခေါ်လေ့ ရှိပါသည်။
+'드시다' is the honorific form of '먹다' (to eat).	'드시다' သည် '먹다' (စားသည်) ၏ ရိုသေသော ပုံစံ ဖြစ်ပါသည်။
+What's on the menu today?	ဒီနေ့ မီနူးက ဘာလဲ။
+I'll look at the menu and choose.	မီနူး ကြည့်ပြီး ရွေးမယ်။
+vegetarian food	သက်သတ်လွတ် အစားအစာ
+I'm vegetarian.	ကျွန်ုပ် သက်သတ်လွတ် စားပါတယ်။
+Is there a vegetarian menu?	သက်သတ်လွတ် မီနူး ရှိလား။
+It's cheap and tasty.	ဈေးသက်သာပြီး စားကောင်းတယ်။
+to be cheap	ဈေးသက်သာသည်
+to be tasty	စားကောင်းသည်
+to run, to operate	လည်ပတ်သည်၊ ဖွင့်သည်
+The library is open until 10 p.m.	စာကြည့်တိုက်က ည ၁၀ နာရီအထိ ဖွင့်တယ်။
+The cafeteria is closed during vacation.	ကျောင်းပိတ်ရက်မှာ စားသောက်ဆောင် ပိတ်တယ်။
+I got the discount and ate for 4,500 won.	လျှော့ဈေး ရလို့ ဝမ် ၄,၅၀၀ နဲ့ စားခဲ့တယ်။
+Here is today's cafeteria menu.	ဒီနေ့ ကျောင်းသား စားသောက်ဆောင် မီနူးကို အသိပေးပါသည်။
+Lunch is bibimbap and seaweed soup.	နေ့လယ်စာ မီနူးက ဘီဘင်ဘပ်နဲ့ ရေညှိဟင်းချို ပါ။
+seaweed soup	ရေညှိဟင်းချို
+There is also a vegetarian menu for students who don't eat meat.	အသား မစားသော ကျောင်းသားများအတွက် သက်သတ်လွတ် မီနူးလည်း ရှိပါသည်။
+The price is 5,000 won per bowl.	ဈေးနှုန်းက တစ်ပွဲ ဝမ် ၅,၀၀၀ ပါ။
+The cafeteria is open from 11:30 to 1:30.	စားသောက်ဆောင်ကို ၁၁ နာရီခွဲမှ ၁ နာရီခွဲအထိ ဖွင့်ပါသည်။
+to operate	လည်ပတ်သည်
+Show your student ID for 500 won off.	ကျောင်းသားကတ် ပြလျှင် ဝမ် ၅၀၀ လျှော့ပါသည်။
+student ID	ကျောင်းသားကတ်
+to be discounted	လျှော့ဈေး ရသည်
+'-마다' means 'every': 삼십 분마다 (every 30 minutes), 날마다 (every day).	'-마다' သည် 'တိုင်း' ဟု အဓိပ္ပာယ်ရပါသည်: 삼십 분마다 (မိနစ် ၃၀ တိုင်း)၊ 날마다 (နေ့တိုင်း)။
+You often hear '운행하다' (to run) for buses and '영업하다' (to be open) for shops.	ဘတ်စ်ကား ကြေညာချက်များတွင် '운행하다' (ပြေးဆွဲသည်)၊ ဆိုင်များအတွက် '영업하다' (ဖွင့်သည်) ကို မကြာခဏ ကြားရပါသည်။
+I took the shuttle bus to the station.	ရှပ်တဲ ဘတ်စ်ကား စီးပြီး ဘူတာကို သွားခဲ့တယ်။
+The shuttle just left.	ရှပ်တဲ ဘတ်စ်ကား ခုနကပဲ ထွက်သွားတယ်။
+to depart	ထွက်ခွာသည်
+What time does the train leave?	ရထား ဘယ်နှနာရီ ထွက်လဲ။
+We leave tomorrow morning.	ကျွန်ုပ်တို့ မနက်ဖြန် မနက် ထွက်မယ်။
+This event is free.	ဒီပွဲက အခမဲ့ ပါ။
+event	ပွဲ၊ အခမ်းအနား
+The dorm Wi-Fi is free.	အဆောင် ဝိုင်ဖိုင်က အခမဲ့ ပါ။
+I wait for the bus at the stop.	မှတ်တိုင်မှာ ဘတ်စ်ကား စောင့်တယ်။
+Get off at the next stop.	နောက်မှတ်တိုင်မှာ ဆင်းပါ။
+There are no classes on public holidays.	အများပြည်သူ ရုံးပိတ်ရက်မှာ အတန်း မရှိဘူး။
+Next Monday is a public holiday.	နောက်အပတ် တနင်္လာနေ့က ရုံးပိတ်ရက် ပါ။
+This is information about the shuttle bus.	ရှပ်တဲ ဘတ်စ်ကား အသုံးပြုမှုဆိုင်ရာ အချက်အလက် ဖြစ်ပါသည်။
+The shuttle runs between Jeonju Station and the school.	ရှပ်တဲ ဘတ်စ်ကားသည် ဂျွန်ဂျူ ဘူတာနှင့် ကျောင်းကြား ပြေးဆွဲပါသည်။
+Jeonju Station	ဂျွန်ဂျူ ဘူတာ
+to run (go back and forth)	ပြေးဆွဲသည် (အသွားအပြန်)
+It leaves every 30 minutes from 8 a.m.	နံနက် ၈ နာရီမှ စ၍ မိနစ် ၃၀ တိုင်း ထွက်ပါသည်။
+It's free; just tap your student ID and get on.	ကားခ အခမဲ့ ဖြစ်ပြီး ကျောင်းသားကတ်ကို ထိပြီး တက်ရုံပါပဲ။
+fare	ကားခ
+The stop is in front of the student union.	စီးရမည့်နေရာသည် ကျောင်းသား ခန်းမ ရှေ့တွင် ဖြစ်ပါသည်။
+student union	ကျောင်းသား ခန်းမ
+It does not run on weekends and holidays.	စနေ တနင်္ဂနွေနှင့် ရုံးပိတ်ရက်များတွင် မပြေးဆွဲပါ။
+to run (a vehicle)	ပြေးဆွဲသည် (ယာဉ်)
+'학점' is used for both 'credits' and 'grades (GPA)'.	'학점' ကို 'ခရက်ဒစ်' နှင့် 'အမှတ် (GPA)' နှစ်မျိုးလုံးအတွက် သုံးပါသည်။
+Scholarship notices are usually posted on the school website and the International Office's KakaoTalk channel.	ပညာသင်ဆု ကြေညာချက်များကို များသောအားဖြင့် ကျောင်း ဝက်ဘ်ဆိုက်နှင့် နိုင်ငံတကာ ရုံး၏ KakaoTalk ချန်နယ်တွင် တင်ပါသည်။
+I got a scholarship!	ပညာသင်ဆု ရပြီ။
+Thanks to the scholarship, my tuition is half.	ပညာသင်ဆု ကျေးဇူးကြောင့် ကျောင်းလခ တစ်ဝက်ပဲ ပေးရတယ်။
+average	ပျမ်းမျှ
+What's the average score?	ပျမ်းမျှ အမှတ် ဘယ်လောက်လဲ။
+The average on this exam is high.	ဒီစာမေးပွဲ ပျမ်းမျှ အမှတ် မြင့်တယ်။
+to be high	မြင့်သည်
+credit; grade (GPA)	ခရက်ဒစ်၊ အမှတ် (GPA)
+I'm taking 18 credits this semester.	ဒီစာသင်နှစ်ဝက် ခရက်ဒစ် ၁၈ ယူထားတယ်။
+You need good grades to get a scholarship.	ပညာသင်ဆု ရဖို့ အမှတ် ကောင်းရမယ်။
+We'll start when ten or more people come.	ဆယ်ယောက်နှင့်အထက် လာရင် စမယ်။
+Attendance must be 80 percent or more.	တက်ရောက်မှု ၈၀ ရာခိုင်နှုန်းနှင့်အထက် ရှိရမယ်။
+Be sure to read the notices.	ကြေညာချက်တွေကို မဖြစ်မနေ ဖတ်ပါ။
+Class cancellations are posted in the notices.	အတန်း ပိတ်ခြင်းကို ကြေညာချက်မှာ တင်တယ်။
+class cancellation	အတန်း ပိတ်ခြင်း
+to be posted	(ကြေညာချက်) တင်သည်
+The International Office announces scholarship applications.	နိုင်ငံတကာ ရုံးက ပညာသင်ဆု လျှောက်ထားခြင်းကို ကြေညာပါသည်။
+International Office	နိုင်ငံတကာ ရုံး
+to inform	အသိပေးသည်
+This scholarship is for international students with excellent grades.	ဤ ပညာသင်ဆုသည် အမှတ် ထူးချွန်သော နိုင်ငံခြား ကျောင်းသားများအတွက် ဖြစ်ပါသည်။
+excellent	ထူးချွန်
+Your GPA last semester must be 3.5 or higher.	ပြီးခဲ့သော စာသင်နှစ်ဝက် GPA ၃.၅ နှင့်အထက် ရှိရပါမည်။
+GPA	ပျမ်းမျှ အမှတ် (GPA)
+Please also submit your TOPIK score report.	TOPIK အမှတ်စာရင်းကိုလည်း တင်ပေးပါ။
+TOPIK	TOPIK
+score report	အမှတ်စာရင်း
+The application period is from March 2 to 10.	လျှောက်ထားရမည့် ကာလမှာ မတ်လ ၂ ရက်မှ ၁၀ ရက်အထိ ဖြစ်ပါသည်။
+For details, see the notices on the school website.	အသေးစိတ်ကို ကျောင်း ဝက်ဘ်ဆိုက်ရှိ ကြေညာချက်တွင် ကြည့်ပါ။
+to be detailed	အသေးစိတ် ဖြစ်သည်
+'-아도/어도 괜찮다' means something is allowed: 물은 마셔도 괜찮습니다 (it's fine to drink water).	'-아도/어도 괜찮다' သည် ခွင့်ပြုသည် ဟု အဓိပ္ပာယ်ရပါသည်: 물은 마셔도 괜찮습니다 (ရေ သောက်လို့ ရပါတယ်)။
+At the school health center, you can get simple medicine for free.	ကျောင်း ကျန်းမာရေး ခန်းတွင် ရိုးရှင်းသော ဆေးဝါးများကို အခမဲ့ ရနိုင်ပါသည်။
+health center (school clinic)	ကျန်းမာရေး ခန်း (ကျောင်း ဆေးခန်း)
+I had a headache, so I went to the health center.	ခေါင်းကိုက်လို့ ကျန်းမာရေး ခန်းကို သွားခဲ့တယ်။
+I got medicine at the health center.	ကျန်းမာရေး ခန်းမှာ ဆေး ရခဲ့တယ်။
+check-up	ကျန်းမာရေး စစ်ဆေးခြင်း
+I get a check-up once a year.	တစ်နှစ်မှာ တစ်ခါ ကျန်းမာရေး စစ်ဆေးတယ်။
+a year	တစ်နှစ်
+My check-up results are good.	ကျန်းမာရေး စစ်ဆေးမှု ရလဒ် ကောင်းတယ်။
+the day before	တစ်ရက်အလို၊ မတိုင်မီနေ့
+I go to bed early the day before an exam.	စာမေးပွဲ မတိုင်မီနေ့မှာ စောစော အိပ်တယ်။
+I packed the day before the trip.	ခရီး မထွက်ခင်နေ့မှာ ပစ္စည်း ထုပ်ခဲ့တယ်။
+nothing (with a negative)	ဘာမှ (အငြင်းနှင့်)
+I didn't eat anything this morning.	ဒီမနက် ဘာမှ မစားခဲ့ဘူး။
+I don't understand anything.	ဘာမှ နားမလည်ဘူး။
+The exam results are out.	စာမေးပွဲ ရလဒ် ထွက်ပြီ။
+They let you know the result by text.	ရလဒ်ကို မက်ဆေ့ချ်နဲ့ အကြောင်းကြားတယ်။
+The health center announces health check-ups for new students.	ကျန်းမာရေး ခန်းက ကျောင်းသားသစ်များအတွက် ကျန်းမာရေး စစ်ဆေးမှုကို ကြေညာပါသည်။
+health center	ကျန်းမာရေး ခန်း
+health check-up	ကျန်းမာရေး စစ်ဆေးမှု
+Check-ups are Monday to Wednesday next week on the 2nd floor of the student union.	ကျန်းမာရေး စစ်ဆေးမှုကို နောက်အပတ် တနင်္လာမှ ဗုဒ္ဓဟူးအထိ ကျောင်းသား ခန်းမ ၂ ထပ်တွင် ပြုလုပ်ပါသည်။
+Do not eat anything from 9 p.m. the night before.	စစ်ဆေးမှု မတိုင်မီ ည ၉ နာရီမှ စ၍ ဘာမှ မစားပါနှင့်။
+nothing	ဘာမှ
+A little water is fine.	ရေ နည်းနည်း သောက်လို့ ရပါတယ်။
+to be okay	ရသည်၊ အဆင်ပြေသည်
+Results will be sent by e-mail two weeks later.	ရလဒ်ကို နှစ်ပတ်အကြာတွင် အီးမေးလ်ဖြင့် ပို့ပေးပါမည်။
+to send (honorific)	ပို့ပေးသည် (ယဉ်ကျေး)
+The check-up is free, so be sure to get it.	ကျန်းမာရေး စစ်ဆေးမှုက အခမဲ့ ဖြစ်လို့ မဖြစ်မနေ စစ်ပါ။
+Alien registration must be done within 90 days of arriving in Korea.	နိုင်ငံခြားသား မှတ်ပုံတင်ခြင်းကို ကိုရီးယား ရောက်ပြီး ရက် ၉၀ အတွင်း ပြုလုပ်ရပါမည်။
+'그동안 잘 지냈어요?' is a greeting for someone you haven't seen in a while.	'그동안 잘 지냈어요?' သည် ကြာမှ ပြန်တွေ့သူကို နှုတ်ဆက်သော စကား ဖြစ်ပါသည်။
+freshman, new student	ပထမနှစ် ကျောင်းသား၊ ကျောင်းသားသစ်
+There's a welcome party for new students.	ကျောင်းသားသစ် ကြိုဆိုပွဲ ရှိတယ်။
+I'm a freshman this year.	ကျွန်ုပ်က ဒီနှစ် ပထမနှစ် ကျောင်းသား ပါ။
+group	အဖွဲ့
+We took a group photo.	အဖွဲ့လိုက် ဓာတ်ပုံ ရိုက်ခဲ့တယ်။
+There's a discount if you go as a group.	အဖွဲ့လိုက် သွားရင် လျှော့ဈေး ရှိတယ်။
+I've prepared all the documents I need.	လိုအပ်တဲ့ စာရွက်စာတမ်းတွေ အားလုံး ပြင်ဆင်ပြီးပြီ။
+The office closes at lunchtime.	နေ့လယ်စာ ချိန်မှာ ရုံး ပိတ်တယ်။
+meanwhile; all this time	ဒီကြားထဲ၊ အဲဒီ ကာလအတွင်း
+How have you been?	နေကောင်းလား၊ ဘယ်လို နေလဲ။
+to get along	နေထိုင်သည်
+Thank you for all your help.	ဒီကာလအတွင်း ကူညီပေးခဲ့တာ ကျေးဇူးတင်ပါတယ်။
+New international students, this is a notice from the International Office.	နိုင်ငံခြား ကျောင်းသားသစ်များ ခင်ဗျာ၊ နိုင်ငံတကာ ရုံးမှ ကြေညာချက် ဖြစ်ပါသည်။
+new (student)	အသစ် (ကျောင်းသား)
+You can apply for alien registration as a group through the school.	နိုင်ငံခြားသား မှတ်ပုံတင်ခြင်းကို ကျောင်းမှတစ်ဆင့် အဖွဲ့လိုက် လျှောက်ထားနိုင်ပါသည်။
+alien registration	နိုင်ငံခြားသား မှတ်ပုံတင်ခြင်း
+Prepare your passport, one photo and the 30,000 won fee.	နိုင်ငံကူးလက်မှတ်၊ ဓာတ်ပုံ တစ်ပုံနှင့် ဝမ် ၃၀,၀၀၀ ကြေးငွေ ပြင်ဆင်ပါ။
+sheet (counter)	ပုံ၊ ချပ် (ရေတွက်ပုံ)
+Submit them to the International Office by next Wednesday.	နောက်အပတ် ဗုဒ္ဓဟူးနေ့အထိ နိုင်ငံတကာ ရုံးသို့ တင်ပါ။
+Your card will arrive at the school in about a month.	ကတ်သည် တစ်လခန့်တွင် ကျောင်းသို့ ရောက်လာပါမည်။
+Meanwhile, be sure to carry your passport.	ထိုကာလအတွင်း နိုင်ငံကူးလက်မှတ်ကို မဖြစ်မနေ ဆောင်ထားပါ။
+meanwhile	ထိုကာလအတွင်း
+to carry around	ဆောင်ထားသည်၊ ယူဆောင်သွားသည်
+'-씩' shows an equal amount each time: 한 시간씩 (an hour each), 두 개씩 (two each).	'-씩' သည် တစ်ကြိမ်လျှင် ပမာဏ တူညီကြောင်း ပြပါသည်: 한 시간씩 (တစ်နာရီစီ)၊ 두 개씩 (နှစ်ခုစီ)။
+Language exchange is one of the easiest ways to make Korean friends.	ဘာသာစကား အပြန်အလှန် လဲလှယ်ခြင်းသည် ကိုရီးယား သူငယ်ချင်း ရရန် အလွယ်ဆုံး နည်းလမ်းများထဲမှ တစ်ခု ဖြစ်ပါသည်။
+to recruit	စုဆောင်းသည်၊ ခေါ်ယူသည်
+The club is recruiting new members.	အသင်းက အဖွဲ့ဝင်သစ် ခေါ်နေတယ်။
+We are hiring part-timers.	အချိန်ပိုင်း ဝန်ထမ်း ခေါ်နေပါတယ်။
+participant	ပါဝင်သူ
+There are 50 participants.	ပါဝင်သူ ၅၀ ယောက် ရှိတယ်။
+Participants, please wear a name tag.	ပါဝင်သူများ အမည်ကတ် တပ်ပါ။
+name tag	အမည်ကတ်
+to put on (a tag)	(ကတ်) တပ်သည်
+each other	အချင်းချင်း
+We help each other.	ကျွန်ုပ်တို့ အချင်းချင်း ကူညီကြတယ်။
+We asked each other's names.	အချင်းချင်း နာမည် မေးကြတယ်။
+skill, ability	ကျွမ်းကျင်မှု၊ စွမ်းရည်
+My Korean has improved a lot.	ကိုရီးယားစကား စွမ်းရည် အများကြီး တိုးတက်လာတယ်။
+to improve	တိုးတက်သည်
+My friend is a good cook.	သူငယ်ချင်းက ဟင်းချက် တော်တယ်။
+to make (friends); to date	(သူငယ်ချင်း) ဖွဲ့သည်၊ ချစ်သူ ထားသည်
+I want to make many Korean friends.	ကိုရီးယား သူငယ်ချင်း အများကြီး ဖွဲ့ချင်တယ်။
+I made friends at the club.	အသင်းမှာ သူငယ်ချင်း ရခဲ့တယ်။
+We are recruiting participants for a language exchange program for Korean and international students.	ကိုရီးယား ကျောင်းသားနှင့် နိုင်ငံခြား ကျောင်းသားများအတွက် ဘာသာစကား လဲလှယ်ရေး အစီအစဉ်တွင် ပါဝင်သူများ ခေါ်ယူနေပါသည်။
+language exchange	ဘာသာစကား လဲလှယ်ခြင်း
+You meet once a week for an hour and teach each other your languages.	တစ်ပတ်လျှင် တစ်ကြိမ်၊ တစ်နာရီစီ တွေ့ပြီး ကိုယ့် ဘာသာစကားကို အချင်းချင်း သင်ပေးကြပါသည်။
+a week	တစ်ပတ်
+each	-စီ
+Any international student who wants to learn Korean can apply.	ကိုရီးယားစကား သင်ချင်သော နိုင်ငံခြား ကျောင်းသား မည်သူမဆို လျှောက်ထားနိုင်ပါသည်။
+anyone	မည်သူမဆို
+If you take part ten or more times, you get a certificate of participation.	ဆယ်ကြိမ်နှင့်အထက် ပါဝင်လျှင် ပါဝင်ဆောင်ရွက်မှု လက်မှတ် ရပါမည်။
+activity	လှုပ်ရှားမှု
+certificate	လက်မှတ်၊ သက်သေခံ စာ
+Apply by e-mail by the end of this month.	ဒီလကုန်အထိ အီးမေးလ်ဖြင့် လျှောက်ထားပါ။
+this month	ဒီလ
+Make good friends and build your Korean skills!	သူငယ်ချင်းကောင်းများ ဖွဲ့ပြီး ကိုရီးယားစကား စွမ်းရည်ကို မြှင့်တင်ပါ။
+skill	စွမ်းရည်
+to build up	မြှင့်တင်သည်၊ ကြီးထွားစေသည်
+'증명서를 떼다' commonly means 'to get a certificate issued'.	'증명서를 떼다' သည် များသောအားဖြင့် 'လက်မှတ် ထုတ်ယူသည်' ဟု အဓိပ္ပာယ်ရပါသည်။
+At Korean graduations, people give bouquets and take photos throwing their caps.	ကိုရီးယား ဘွဲ့နှင်းသဘင်တွင် ပန်းစည်း ပေးကြပြီး ဦးထုပ်ကို ပစ်မြှောက်ကာ ဓာတ်ပုံ ရိုက်ကြပါသည်။
+My parents are coming to the graduation.	ဘွဲ့နှင်းသဘင်ကို မိဘတွေ လာမယ်။
+We took many photos on graduation day.	ဘွဲ့နှင်းသဘင်နေ့မှာ ဓာတ်ပုံ အများကြီး ရိုက်ခဲ့တယ်။
+Can you attend the meeting?	အစည်းအဝေးကို တက်ရောက်နိုင်မလား။
+I was busy, so I couldn't attend.	အလုပ်များလို့ မတက်ရောက်နိုင်ခဲ့ဘူး။
+to borrow, to rent	ငှားသည်၊ ချေးသည်
+I borrowed an umbrella from a friend.	သူငယ်ချင်းဆီက ထီး ငှားခဲ့တယ်။
+Can I borrow a laptop?	လက်ပ်တော့ ငှားလို့ ရမလား။
+I came to get a certificate.	လက်မှတ် ထုတ်ယူဖို့ လာခဲ့တာ ပါ။
+Is the certificate available in English too?	လက်မှတ်ကို အင်္ဂလိပ်လိုလည်း ရလား။
+Congratulations on your graduation!	ဘွဲ့ရတာ ဂုဏ်ယူပါတယ်။
+I congratulated my friend on passing.	သူငယ်ချင်း အောင်မြင်တာကို ဂုဏ်ပြုခဲ့တယ်။
+Here is information about this semester's graduation ceremony.	ဒီစာသင်နှစ်ဝက် ဘွဲ့နှင်းသဘင်ဆိုင်ရာ အချက်အလက် ဖြစ်ပါသည်။
+The ceremony is on February 25 at 11 a.m. in the main auditorium.	ဘွဲ့နှင်းသဘင်ကို ဖေဖော်ဝါရီ ၂၅ ရက် နံနက် ၁၁ နာရီတွင် ခန်းမကြီး၌ ကျင်းပပါသည်။
+main auditorium	ခန်းမကြီး
+You can borrow a graduation gown at the department office.	ဘွဲ့ဝတ်စုံကို ဌာနရုံးတွင် ငှားနိုင်ပါသည်။
+gown	ဝတ်ရုံ
+Family and friends can also attend.	မိသားစုနှင့် သူငယ်ချင်းများလည်း တက်ရောက်နိုင်ပါသည်။
+You can get your graduation certificate from the day after the ceremony.	ဘွဲ့ရ လက်မှတ်ကို ဘွဲ့နှင်းသဘင်၏ နောက်တစ်နေ့မှ စ၍ ထုတ်ယူနိုင်ပါသည်။
+graduation certificate	ဘွဲ့ရ လက်မှတ်
+Graduates, congratulations from the bottom of our hearts!	ဘွဲ့ရသူများ ခင်ဗျာ၊ စိတ်ရင်းအမှန်ဖြင့် ဂုဏ်ပြုပါသည်။
+sincerely	စိတ်ရင်းအမှန်ဖြင့်
+A short story. Listen to the end and try to remember what happened. Order: ❶ Listen to the whole text → ❷ Listen line by line → ❸ Words → ❹ Quiz.	ပုံပြင်တို ဖြစ်ပါသည်။ အဆုံးအထိ နားထောင်ပြီး ဘာ ဖြစ်ခဲ့သလဲ မှတ်ကြည့်ပါ။ အစီအစဉ်: ❶ စာသား တစ်ခုလုံး နားထောင် → ❷ တစ်ကြောင်းချင်း ပြန်နားထောင် → ❸ စကားလုံးများ → ❹ ပဟေဠိ။
+'배' can mean both pear and stomach.	'배' သည် သစ်တော်သီး နှင့် ဗိုက် နှစ်မျိုးလုံး ဟု အဓိပ္ပာယ်ရပါသည်။
+'-아/어지다' is used when something changes: 뚱뚱해졌어요 (became fat).	'-아/어지다' ကို တစ်ခုခု ပြောင်းလဲသောအခါ သုံးပါသည်: 뚱뚱해졌어요 (ဝလာတယ်)။
+caterpillar	ပိုးတုံးလုံး
+There is a caterpillar on the leaf.	သစ်ရွက်ပေါ်မှာ ပိုးတုံးလုံး ရှိတယ်။
+on top	အပေါ်
+The caterpillar moves slowly.	ပိုးတုံးလုံးက ဖြည်းဖြည်း ရွေ့တယ်။
+The bird laid an egg.	ငှက်က ဥ ဥခဲ့တယ်။
+to lay	ဥသည်
+A little bird came out of the egg.	ဥထဲက ငှက်ကလေး ထွက်လာတယ်။
+I'm hungry because I didn't eat breakfast.	မနက်စာ မစားလို့ ဗိုက်ဆာတယ်။
+If you're hungry, let's eat together.	ဗိုက်ဆာရင် အတူ ထမင်း စားကြစို့။
+fat	ဝသည်
+Our cat is a bit fat.	ကျွန်ုပ်တို့ ကြောင်က နည်းနည်း ဝတယ်။
+a bit	နည်းနည်း
+I got fat, so I started exercising.	ဝလာလို့ လေ့ကျင့်ခန်း စလုပ်တယ်။
+butterfly	လိပ်ပြာ
+There are many butterflies in the park.	ပန်းခြံမှာ လိပ်ပြာ အများကြီး ရှိတယ်။
+many	များသည်
+A yellow butterfly sat on the flower.	အဝါရောင် လိပ်ပြာက ပန်းပေါ်မှာ နားတယ်။
+A little caterpillar came out of an egg.	ပိုးတုံးလုံး သေးသေးလေး ဥထဲက ထွက်လာတယ်။
+The caterpillar was very hungry.	ပိုးတုံးလုံးက အရမ်း ဗိုက်ဆာတယ်။
+On Monday it ate an apple.	တနင်္လာနေ့မှာ ပန်းသီး စားတယ်။
+On Tuesday it ate two pears.	အင်္ဂါနေ့မှာ သစ်တော်သီး နှစ်လုံး စားတယ်။
+Every day it ate and ate.	နေ့တိုင်း စားလိုက် စားလိုက် လုပ်တယ်။
+The caterpillar became fat.	ပိုးတုံးလုံး ဝလာတယ်။
+And it became a beautiful butterfly.	ပြီးတော့ လှပတဲ့ လိပ်ပြာ ဖြစ်လာတယ်။
+'같이 쓰자' is casual speech to a friend. The polite form is '같이 써요'.	'같이 쓰자' သည် သူငယ်ချင်းကို ပြောသော ရင်းနှီးသည့် စကား ဖြစ်ပါသည်။ ယဉ်ကျေးသော ပုံစံမှာ '같이 써요' ဖြစ်ပါသည်။
+'걷다' changes to '걸어요, 걸었어요'.	'걷다' သည် '걸어요, 걸었어요' ဟု ပြောင်းပါသည်။
+Rabbits like carrots.	ယုန်တွေက မုန်လာဥနီ ကြိုက်တယ်။
+carrot	မုန်လာဥနီ
+The white rabbit is really cute.	ယုန်ဖြူလေးက တကယ် ချစ်စရာ ကောင်းတယ်။
+turtle	လိပ်
+Turtles live a very long time.	လိပ်တွေက အရမ်း ကြာကြာ အသက်ရှင်တယ်။
+long time	ကြာကြာ
+I saw a turtle in the sea.	ပင်လယ်ထဲမှာ လိပ် တွေ့ခဲ့တယ်။
+I didn't have an umbrella, so I got rained on.	ထီး မပါလို့ မိုးမိခဲ့တယ်။
+to get rained on	မိုးမိသည်
+Let's share my umbrella.	ကျွန်ုပ် ထီးကို အတူ ဆောင်းကြစို့။
+to use (umbrella)	(ထီး) ဆောင်းသည်
+I walk to school every day.	နေ့တိုင်း ကျောင်းအထိ လမ်းလျှောက်တယ်။
+I walked in the park in the evening.	ညနေဘက် ပန်းခြံထဲ လမ်းလျှောက်ခဲ့တယ်။
+candy	သကြားလုံး
+I gave my friend some candy.	သူငယ်ချင်းကို သကြားလုံး ပေးခဲ့တယ်။
+If you eat too much candy, your teeth hurt.	သကြားလုံး အရမ်း များများ စားရင် သွား ကိုက်တယ်။
+too much	အရမ်း များများ
+School was over, but it was raining.	ကျောင်း ဆင်းပေမဲ့ မိုး ရွာနေတယ်။
+The rabbit didn't have an umbrella.	ယုန်မှာ ထီး မရှိဘူး။
+Just then, the turtle came up to him.	အဲဒီအချိန်မှာ လိပ်က သူ့နား ရောက်လာတယ်။
+just then	အဲဒီအချိန်မှာ
+to come near	အနား ရောက်လာသည်
+"Let's share my umbrella."	"ငါ့ ထီးကို အတူ ဆောင်းကြစို့။"
+let's	-ကြစို့
+The two walked slowly together.	နှစ်ယောက်သား ဖြည်းဖြည်း အတူ လမ်းလျှောက်ကြတယ်။
+the two	နှစ်ယောက်သား
+For the first time, the rabbit liked walking slowly.	ယုန်က ပထမဆုံး အကြိမ် ဖြည်းဖြည်း လမ်းလျှောက်တာကို ကြိုက်သွားတယ်။
+for the first time	ပထမဆုံး အကြိမ်
+The next day, the rabbit gave the turtle some candy.	နောက်တစ်နေ့မှာ ယုန်က လိပ်ကို သကြားလုံး ပေးတယ်။
+the next day	နောက်တစ်နေ့
+'-다가' is used when you are doing one thing and something else happens.	'-다가' ကို တစ်ခုခု လုပ်နေရင်း တခြား တစ်ခု ဖြစ်လာသောအခါ သုံးပါသည်။
+'저쪽' = over there (far away). 이쪽-그쪽-저쪽.	'저쪽' = ဟိုဘက် (အဝေး)။ 이쪽-그쪽-저쪽။
+duck	ဘဲ
+There are many ducks on the lake.	ကန်ထဲမှာ ဘဲ အများကြီး ရှိတယ်။
+lake	ကန် (ရေကန်ကြီး)
+Have you ever eaten duck?	ဘဲသား စားဖူးလား။
+to try	-ကြည့်သည်
+pond	ရေကန်ငယ်
+There are fish in the school pond.	ကျောင်း ရေကန်ထဲမှာ ငါး ရှိတယ်။
+fish	ငါး
+I took a picture next to the pond.	ရေကန် ဘေးမှာ ဓာတ်ပုံ ရိုက်ခဲ့တယ်။
+next to	ဘေး
+to take a picture	ဓာတ်ပုံ ရိုက်သည်
+to lose (sight of)	လွတ်သွားသည် (မျက်စိအောက်မှ)
+I woke up late and missed the bus.	နောက်ကျပြီး အိပ်ရာထလို့ ဘတ်စ်ကား လွတ်သွားတယ်။
+There were many people, so I lost sight of my friend.	လူ များလို့ သူငယ်ချင်းနဲ့ ကွဲသွားတယ်။
+I cried a lot after watching a sad movie.	ဝမ်းနည်းစရာ ရုပ်ရှင် ကြည့်ပြီး အများကြီး ငိုခဲ့တယ်။
+I cried after watching that movie.	အဲဒီ ရုပ်ရှင် ကြည့်ပြီး ငိုခဲ့တယ်။
+I'm waiting for my friend at the bus stop.	ဘတ်စ်ကားမှတ်တိုင်မှာ သူငယ်ချင်းကို စောင့်နေတယ်။
+please	-ပေးပါ
+A baby duck followed its mom to the pond.	ဘဲကလေးက အမေ့နောက် လိုက်ပြီး ရေကန်ကို သွားတယ်။
+to follow	နောက်က လိုက်သွားသည်
+While looking at a butterfly, it lost its mom.	လိပ်ပြာကို ကြည့်ရင်း အမေနဲ့ ကွဲသွားတယ်။
+while	-ရင်း
+"Mom, where are you?" the baby duck cried.	"အမေ၊ ဘယ်မှာလဲ" လို့ ဘဲကလေး ငိုတယ်။
+The frog told it, "The pond is over there."	ဖားက "ရေကန်က ဟိုဘက်မှာ" လို့ ပြောပြတယ်။
+to tell, let know	ပြောပြသည်၊ အသိပေးသည်
+The baby duck walked hard.	ဘဲကလေးက ကြိုးစားပြီး လျှောက်တယ်။
+hard	ကြိုးစားပြီး
+to walk (to)	လျှောက်သွားသည်
+Mom was waiting at the pond.	ရေကန်မှာ အမေက စောင့်နေတယ်။
+to be doing	-နေသည်
+"Now I will stay close by your side."	"အခုကစပြီး အမေ့ဘေးမှာ ကပ်ပြီး နေမယ်။"
+side	ဘေး
+closely	ကပ်ကပ်
+to stick	ကပ်သည်
+'-마다' = every: 밤마다 = every night.	'-마다' = တိုင်း: 밤마다 = ညတိုင်း။
+'멀다' changes to '멀어요, 멀었어요'.	'멀다' သည် '멀어요, 멀었어요' ဟု ပြောင်းပါသည်။
+If I drink coffee at night, I can't sleep.	ညဘက် ကော်ဖီ သောက်ရင် အိပ်မပျော်ဘူး။
+can't sleep	အိပ်မပျော်ဘူး
+Yesterday I studied until late at night.	မနေ့ညက ညနက်တဲ့အထိ စာကျက်ခဲ့တယ်။
+until late	ညနက်တဲ့အထိ
+roof	ခေါင်မိုး
+It's raining, so there's a sound on the roof.	မိုး ရွာလို့ ခေါင်မိုးပေါ်က အသံ ထွက်တယ်။
+to make a sound	အသံ ထွက်သည်
+That house has a red roof.	ဟိုအိမ်က ခေါင်မိုး အနီရောင် ပါ။
+to go up, to climb	တက်သွားသည်
+I go up to the third floor by the stairs.	လှေကားနဲ့ ၃ ထပ်ကို တက်သွားတယ်။
+On the weekend I climbed a mountain with a friend.	စနေ တနင်္ဂနွေမှာ သူငယ်ချင်းနဲ့ တောင် တက်ခဲ့တယ်။
+to climb	တက်သည် (တောင်)
+Is it far from the dorm to downtown?	အဆောင်ကနေ မြို့ထဲအထိ ဝေးလား။
+dorm	အဆောင်
+My hometown is very far from Korea.	ကျွန်ုပ် ဇာတိက ကိုရီးယားနဲ့ အရမ်း ဝေးတယ်။
+to fall asleep	အိပ်ပျော်သွားသည်
+I was so tired that I fell asleep right away.	အရမ်း ပင်ပန်းလို့ ချက်ချင်း အိပ်ပျော်သွားတယ်။
+I fell asleep while reading a book.	စာအုပ် ဖတ်ရင်း အိပ်ပျော်သွားတယ်။
+Nabi the cat looked at the moon every night.	ကြောင် နာဘီက ညတိုင်း လကို ကြည့်တယ်။
+every night	ညတိုင်း
+to look at	ကြည့်သည်
+"Moon, I want to go there too."	"လမင်းရေ၊ ငါလည်း အဲဒီကို သွားချင်တယ်။"
+Mr. Moon	လမင်း
+me too	ငါလည်း
+Nabi climbed up onto the roof.	နာဘီက ခေါင်မိုးပေါ် တက်သွားတယ်။
+But the moon was still very far away.	ဒါပေမဲ့ လက အခုထိ အရမ်း ဝေးနေသေးတယ်။
+Just then, the moon appeared in the pond.	အဲဒီအချိန်မှာ ရေကန်ထဲမှာ လ ပေါ်လာတယ်။
+to appear, be seen	ပေါ်လာသည်၊ မြင်ရသည်
+"Wow, the moon came down!"	"ဝိုး၊ လမင်း ဆင်းလာပြီ။"
+wow	ဝိုး
+Nabi fell asleep by the pond with the moon.	နာဘီက လနဲ့ အတူ ရေကန် ဘေးမှာ အိပ်ပျော်သွားတယ်။
+'욕심' means wanting too much.	'욕심' သည် အလွန် များများ လိုချင်ခြင်း (လောဘ) ဖြစ်ပါသည်။
+'다리' has two meanings: leg and bridge.	'다리' တွင် အဓိပ္ပာယ် နှစ်မျိုး ရှိပါသည်: ခြေထောက် နှင့် တံတား။
+I gave the puppy a bone.	ခွေးကလေးကို အရိုး ပေးခဲ့တယ်။
+puppy	ခွေးကလေး
+Our dog really likes bones.	ကျွန်ုပ်တို့ ခွေးက အရိုးကို တကယ် ကြိုက်တယ်။
+If you cross this bridge, there is a market.	ဒီတံတားကို ဖြတ်ကူးရင် ဈေး ရှိတယ်။
+There are many bridges in Seoul.	ဆိုးလ်မှာ တံတား အများကြီး ရှိတယ်။
+Be careful when you cross the street.	လမ်း ကူးတဲ့အခါ သတိထားပါ။
+street	လမ်း
+I cross the street at the crosswalk.	လူကူးမျဉ်းကြားမှာ လမ်း ကူးတယ်။
+crosswalk	လူကူးမျဉ်းကြား
+The dog keeps barking at night.	ညဘက်မှာ ခွေးက ဆက်တိုက် ဟောင်နေတယ်။
+keep, continuously	ဆက်တိုက်
+The puppy saw a stranger and barked.	ခွေးကလေးက မသိတဲ့ လူကို မြင်ပြီး ဟောင်တယ်။
+stranger	မသိသူ
+to fall (into)	(ထဲသို့) ကျသည်
+My phone fell into the water.	ဖုန်း ရေထဲ ကျသွားတယ်။
+The ball fell into the pond.	ဘောလုံး ရေကန်ထဲ ကျသွားတယ်။
+A puppy crossed a bridge with a big bone in its mouth.	ခွေးကလေးက အရိုးကြီး တစ်ချောင်း ကိုက်ပြီး တံတားကို ဖြတ်ကူးတယ်။
+to hold in the mouth	ပါးစပ်ဖြင့် ကိုက်ထားသည်
+It saw another puppy in the water.	ရေထဲမှာ တခြား ခွေးကလေး တစ်ကောင်ကို မြင်တယ်။
+in the water	ရေထဲ
+That puppy also had a bone in its mouth.	အဲဒီ ခွေးကလေးလည်း အရိုး ကိုက်ထားတယ်။
+"I want that bone too!"	"ဟိုအရိုးကိုလည်း လိုချင်တယ်။"
+The puppy barked, "Woof!"	ခွေးကလေးက "ဝုတ်" လို့ ဟောင်လိုက်တယ်။
+woof	ဝုတ်
+The bone fell into the water with a plop.	အရိုးက "ဗွမ်း" ဆို ရေထဲ ကျသွားတယ်။
+with a plop	ဗွမ်း (ရေထဲ ကျသံ)
+The puppy in the water was its own reflection.	ရေထဲက ခွေးကလေးက ကိုယ့် အရိပ်ပဲ ဖြစ်တယ်။
+exactly	အတိအကျ၊ အဲဒါပဲ
+oneself	မိမိကိုယ်
+appearance, image	ပုံရိပ်၊ အသွင်
+'물을 주다' = to water (a plant).	'물을 주다' = (အပင်ကို) ရေလောင်းသည်။
+'-아/어도' = even if: 일주일이 지나도 (even after a week).	'-아/어도' = ... ပေမဲ့၊ ... လည်း: 일주일이 지나도 (တစ်ပတ် ကြာပေမဲ့)။
+seed	မျိုးစေ့
+In spring I bought seeds and planted them.	နွေဦးမှာ မျိုးစေ့ ဝယ်ပြီး စိုက်ခဲ့တယ်။
+to plant	စိုက်သည်
+What flower is this seed?	ဒီမျိုးစေ့က ဘာ ပန်းလဲ။
+We planted trees at school.	ကျောင်းမှာ သစ်ပင် စိုက်ခဲ့တယ်။
+I want to plant tomatoes on the balcony.	ဝရန်တာမှာ ခရမ်းချဉ်သီး စိုက်ချင်တယ်။
+balcony	ဝရန်တာ
+sprout	အညှောက်
+A sprout came up in the flowerpot!	ပန်းအိုးထဲက အညှောက် ထွက်လာပြီ။
+flowerpot	ပန်းအိုး
+to come up	ထွက်လာသည်
+When spring comes, many sprouts come up.	နွေဦး ရောက်ရင် အညှောက် အများကြီး ထွက်လာတယ်။
+I gave my girlfriend flowers.	ရည်းစားကို ပန်း ပေးခဲ့တယ်။
+to give a gift	လက်ဆောင် ပေးသည်
+There is a flower shop in front of the school.	ကျောင်းရှေ့မှာ ပန်းဆိုင် ရှိတယ်။
+flower shop	ပန်းဆိုင်
+Cherry blossoms bloom in spring.	နွေဦးမှာ ချယ်ရီပန်း ပွင့်တယ်။
+cherry blossom	ချယ်ရီပန်း
+Many flowers have bloomed in the park.	ပန်းခြံမှာ ပန်းတွေ အများကြီး ပွင့်နေပြီ။
+Minji planted a small seed in a flowerpot.	မင်ဂျီက မျိုးစေ့ သေးသေးလေးကို ပန်းအိုးထဲ စိုက်ခဲ့တယ်။
+She watered it every morning.	မနက်တိုင်း ရေလောင်းတယ်။
+to water	ရေလောင်းသည်
+Even after a week, nothing came up.	တစ်ပတ် ကြာပေမဲ့ ဘာမှ မထွက်လာဘူး။
+Minji was a little sad, but she kept waiting.	မင်ဂျီ နည်းနည်း ဝမ်းနည်းသွားပေမဲ့ ဆက်စောင့်တယ်။
+One day a little sprout came up.	တစ်နေ့မှာ အညှောက် သေးသေးလေး ထွက်လာတယ်။
+A month later, a yellow flower bloomed.	တစ်လ အကြာမှာ အဝါရောင် ပန်း ပွင့်လာတယ်။
+"Thank you for waiting." The flower seemed to smile.	"စောင့်ပေးလို့ ကျေးဇူးပါ" လို့ ပန်းက ပြုံးနေသလို ထင်ရတယ်။
+to seem	-သလို ထင်ရသည်
+'-기로 하다' is used when you decide to do something.	'-기로 하다' ကို တစ်ခုခု လုပ်ရန် ဆုံးဖြတ်သောအခါ သုံးပါသည်။
+The birthday song starts with '생일 축하합니다'.	မွေးနေ့ သီချင်းသည် '생일 축하합니다' ဖြင့် စပါသည်။
+Today is Dilnoza's birthday.	ဒီနေ့ ဒီလ်နိုဇာ ရဲ့ မွေးနေ့ ပါ။
+I ate a piece of cake at the cafe.	ကဖေးမှာ ကိတ်မုန့် တစ်စိတ် စားခဲ့တယ်။
+piece	အစိတ်အပိုင်း
+I like chocolate cake.	ချော့ကလက် ကိတ်မုန့် ကြိုက်တယ်။
+chocolate	ချော့ကလက်
+I bought strawberries at the supermarket.	စူပါမားကတ်မှာ စတော်ဘယ်ရီ ဝယ်ခဲ့တယ်။
+One strawberry milk, please.	စတော်ဘယ်ရီ နွားနို့ တစ်ဘူး ပေးပါ။
+squirrel	ရှဉ့်
+I saw a squirrel in the mountains.	တောင်ပေါ်မှာ ရှဉ့် တွေ့ခဲ့တယ်။
+The squirrel went up the tree.	ရှဉ့်က သစ်ပင်ပေါ် တက်သွားတယ်။
+Today is Teddy's birthday.	ဒီနေ့ ဝက်ဝံကလေး ရဲ့ မွေးနေ့ ပါ။
+teddy bear	ဝက်ဝံ ရုပ်ကလေး
+His friends decided to make a cake.	သူငယ်ချင်းတွေက ကိတ်မုန့် လုပ်ဖို့ ဆုံးဖြတ်ကြတယ်။
+friends	သူငယ်ချင်းများ
+to decide to	-ဖို့ ဆုံးဖြတ်သည်
+The rabbit brought strawberries, and the squirrel brought walnuts.	ယုန်က စတော်ဘယ်ရီ၊ ရှဉ့်က သစ်ကြားသီး ယူလာတယ်။
+walnut	သစ်ကြားသီး
+The cake looked a little strange.	ကိတ်မုန့်က နည်းနည်း ထူးဆန်းပုံ ရတယ်။
+strange	ထူးဆန်းသည်
+to look (like)	(ပုံ) ပေါက်သည်
+But everyone smiled and sang the song.	ဒါပေမဲ့ အားလုံး ပြုံးပြီး သီချင်း ဆိုကြတယ်။
+still, but	ဒါပေမဲ့၊ ဒါတောင်
+"Happy birthday!"	"မွေးနေ့ ပျော်ရွှင်ပါစေ။"
+For Teddy, this cake was the most delicious in the world.	ဝက်ဝံကလေးအတွက် ဒီကိတ်မုန့်က ကမ္ဘာပေါ်မှာ အစားကောင်းဆုံး ပါ။
+'무서워하다' is used for other people. For yourself: '무서워요'.	'무서워하다' ကို တခြားသူများအတွက် သုံးပါသည်။ ကိုယ့်အတွက်ဆိုလျှင် '무서워요'။
+'깜짝 놀라다' = to be suddenly surprised.	'깜짝 놀라다' = ရုတ်တရက် လန့်သွားသည်။
+forest	တော
+I feel good when I walk in the forest.	တောထဲမှာ လမ်းလျှောက်ရင် စိတ်ချမ်းသာတယ်။
+to feel good	စိတ်ချမ်းသာသည်
+The air is clean in the forest.	တောထဲမှာ လေ သန့်တယ်။
+in the forest	တောထဲ
+air	လေ
+clean, clear	သန့်သည်၊ ကြည်လင်သည်
+I saw a lion for the first time at the zoo.	တိရစ္ဆာန်ဥယျာဉ်မှာ ခြင်္သေ့ကို ပထမဆုံး တွေ့ခဲ့တယ်။
+Lions eat meat.	ခြင်္သေ့က အသား စားတယ်။
+mouse	ကြွက်
+There's a mouse in the kitchen!	မီးဖိုချောင်မှာ ကြွက် ရှိတယ်။
+The cat caught a mouse.	ကြောင်က ကြွက် ဖမ်းမိတယ်။
+to catch	ဖမ်းသည်
+I can't watch scary movies.	ကြောက်စရာ ရုပ်ရှင် မကြည့်နိုင်ဘူး။
+It's a little scary to walk alone at night.	ညဘက် တစ်ယောက်တည်း လမ်းလျှောက်ရင် နည်းနည်း ကြောက်စရာ ကောင်းတယ်။
+to hide	ပုန်းသည်
+My younger sibling hid behind the door.	ညီ/ညီမက တံခါး နောက်မှာ ပုန်းနေတယ်။
+The cat is hiding under the bed.	ကြောင်က ကုတင်အောက်မှာ ပုန်းနေတယ်။
+A big lion lived in the forest.	တောထဲမှာ ကိုယ်ခန္ဓာ ကြီးမားတဲ့ ခြင်္သေ့ တစ်ကောင် နေတယ်။
+build, size	ကိုယ်ခန္ဓာ အရွယ်
+But the lion was afraid of mice.	ဒါပေမဲ့ ခြင်္သေ့က ကြွက်ကို ကြောက်တယ်။
+to be afraid of	ကြောက်သည်
+One day a little mouse appeared in front of the lion.	တစ်နေ့မှာ ကြွက်ကလေးက ခြင်္သေ့ရှေ့မှာ ပေါ်လာတယ်။
+to appear	ပေါ်လာသည်
+The lion was startled and hid behind a tree.	ခြင်္သေ့က လန့်ပြီး သစ်ပင် နောက်မှာ ပုန်းလိုက်တယ်။
+to be startled	လန့်သွားသည်
+The mouse said, "I'm scared too. Shall we be friends?"	ကြွက်က "ငါလည်း ကြောက်တယ်။ သူငယ်ချင်း ဖြစ်ကြမလား" လို့ ပြောတယ်။
+to be friends	သူငယ်ချင်း ဖြစ်သည်
+do you want to?	-မလား
+The lion smiled and nodded.	ခြင်္သေ့က ပြုံးပြီး ခေါင်း ညိတ်တယ်။
+to nod	ခေါင်း ညိတ်သည်
+From that day, the two became best friends.	အဲဒီနေ့ကစပြီး နှစ်ယောက်သား အရင်းနှီးဆုံး သူငယ်ချင်း ဖြစ်သွားကြတယ်။
+that day	အဲဒီနေ့
+'눈' has two meanings: snow and eye.	'눈' တွင် အဓိပ္ပာယ် နှစ်မျိုး ရှိပါသည်: နှင်း နှင့် မျက်စိ။
+It doesn't snow in Singapore, but in Korea it often snows in winter.	စင်ကာပူမှာ နှင်း မကျပေမဲ့ ကိုရီးယားမှာ ဆောင်းရာသီ နှင်း မကြာခဏ ကျတယ်။
+It snowed in Jeonju yesterday.	မနေ့က ဂျွန်ဂျူမှာ နှင်း ကျတယ်။
+Sam is from Singapore, so he saw snow for the first time.	ဆမ်က စင်ကာပူက ဖြစ်လို့ နှင်းကို ပထမဆုံး မြင်ဖူးတယ်။
+snowman	နှင်းလူရုပ်
+I made a snowman with friends in front of the dorm.	သူငယ်ချင်းတွေနဲ့ အဆောင်ရှေ့မှာ နှင်းလူရုပ် လုပ်ခဲ့တယ်။
+This snowman is really big.	ဒီနှင်းလူရုပ်က တကယ် ကြီးတယ်။
+I don't like carrots.	မုန်လာဥနီ မကြိုက်ဘူး။
+Gimbap has carrots in it.	ကင်ဘပ်ထဲမှာ မုန်လာဥနီ ပါတယ်။
+On Sunday I was at home all day.	တနင်္ဂနွေနေ့မှာ တစ်နေကုန် အိမ်မှာ နေခဲ့တယ်။
+home	အိမ်
+I go to my hometown during winter vacation.	ဆောင်းရာသီ ကျောင်းပိတ်ရက်မှာ ဇာတိ ပြန်တယ်။
+winter vacation	ဆောင်းရာသီ ကျောင်းပိတ်ရက်
+White snow fell all night.	တစ်ညလုံး နှင်းဖြူ ကျတယ်။
+all night	တစ်ညလုံး
+Some friends came outside and made a snowman.	သူငယ်ချင်းတချို့ အပြင် ထွက်လာပြီး နှင်းလူရုပ် လုပ်ကြတယ်။
+They made the nose with a carrot and the eyes with stones.	မုန်လာဥနီနဲ့ နှာခေါင်း၊ ကျောက်ခဲနဲ့ မျက်လုံး လုပ်ကြတယ်။
+stone	ကျောက်ခဲ
+The snowman played with the friends all day.	နှင်းလူရုပ်က သူငယ်ချင်းတွေနဲ့ တစ်နေကုန် ကစားတယ်။
+In the afternoon, the sun came out.	ညနေဘက် ရောက်တော့ နေ ထွက်လာတယ်။
+as soon as	-တော့၊ -တာနဲ့
+sun	နေ
+The snowman got smaller little by little.	နှင်းလူရုပ် တဖြည်းဖြည်း သေးသွားတယ်။
+to get smaller	သေးသွားသည်
+"It's OK, let's meet again next winter!"	"ရပါတယ်၊ နောက်နှစ် ဆောင်းရာသီ ပြန်တွေ့ကြမယ်။"
+OK	ရပါတယ်
+'-아/어서' gives a reason: 목이 길어서 = because its neck is long.	'-아/어서' သည် အကြောင်းရင်းကို ပြပါသည်: 목이 길어서 = လည်ပင်း ရှည်လို့။
+'-(으)니까' also gives a reason: it tastes better because we eat together.	'-(으)니까' လည်း အကြောင်းရင်းကို ပြပါသည်: အတူ စားလို့ ပိုစားကောင်းတယ်။
+The monkey is eating a banana.	မျောက်က ငှက်ပျောသီး စားနေတယ်။
+The monkeys were the most fun at the zoo.	တိရစ္ဆာန်ဥယျာဉ်မှာ မျောက်တွေက အပျော်ဆုံး ပါ။
+giraffe	သစ်ကုလားအုတ်
+Giraffes have long necks.	သစ်ကုလားအုတ်တွေက လည်ပင်း ရှည်တယ်။
+My younger sibling likes the giraffe doll.	ညီ/ညီမက သစ်ကုလားအုတ် အရုပ်ကို ကြိုက်တယ်။
+doll	အရုပ်
+I have a cold, so my throat hurts.	အအေးမိလို့ လည်ချောင်း နာတယ်။
+throat, neck	လည်ချောင်း၊ လည်ပင်း
+I'm thirsty. Water, please.	ရေငတ်တယ်။ ရေ ပေးပါ။
+to be thirsty	ရေငတ်သည်
+to pick	ခူးသည်
+I picked persimmons at Grandma's house.	အဖွားအိမ်မှာ တည်သီး ခူးခဲ့တယ်။
+I tried picking strawberries at a farm.	ခြံမှာ စတော်ဘယ်ရီ ခူးကြည့်ခဲ့တယ်။
+farm	ခြံ၊ စိုက်ခင်း
+I shared a pizza with my friends.	ပီဇာကို သူငယ်ချင်းတွေနဲ့ ခွဲစားခဲ့တယ်။
+Let's split the snack in half.	မုန့်ကို တစ်ဝက်စီ ခွဲကြစို့။
+to divide, share	ခွဲသည်၊ မျှသည်
+A monkey and a giraffe were under an apple tree.	မျောက်နဲ့ သစ်ကုလားအုတ်က ပန်းသီးပင် အောက်မှာ ရှိတယ်။
+apple tree	ပန်းသီးပင်
+The giraffe had a long neck, so it picked the high apples.	သစ်ကုလားအုတ်က လည်ပင်း ရှည်လို့ အမြင့်က ပန်းသီးတွေကို ခူးတယ်။
+The monkey climbed the tree and picked apples.	မျောက်က သစ်ပင်ပေါ် တက်ပြီး ပန်းသီး ခူးတယ်။
+"I picked more!" The two fought.	"ငါ ပိုများများ ခူးတယ်" ဆိုပြီး နှစ်ယောက် ရန်ဖြစ်ကြတယ်။
+Just then, an apple fell down with a thud.	အဲဒီအချိန်မှာ ပန်းသီး တစ်လုံး "ဒုတ်" ဆို ပြုတ်ကျလာတယ်။
+with a thud	ဒုတ် (ကျသံ)
+The two cut the apple in half and shared it.	နှစ်ယောက်သား အဲဒီ ပန်းသီးကို တစ်ဝက်စီ ခွဲပြီး မျှစားကြတယ်။
+"It tastes better when we eat together!"	"အတူ စားတော့ ပိုစားကောင်းတယ်။"
+An old story that every Korean knows. Follow the story as you listen. Order: ❶ Listen to the whole text → ❷ Listen line by line → ❸ Words → ❹ Quiz.	ကိုရီးယားလူတိုင်း သိသော ပုံပြင်ဟောင်း ဖြစ်ပါသည်။ နားထောင်ရင်း ဇာတ်လမ်းကို လိုက်ပါ။ အစီအစဉ်: ❶ စာသား တစ်ခုလုံး နားထောင် → ❷ တစ်ကြောင်းချင်း ပြန်နားထောင် → ❸ စကားလုံးများ → ❹ ပဟေဠိ။
+It is a story about how good people are rewarded and greedy people are punished.	သဘောကောင်းသူက ဆုလာဘ် ရပြီး လောဘကြီးသူက ပြစ်ဒဏ် ခံရသော ပုံပြင် ဖြစ်ပါသည်။
+'일부러' = on purpose.	'일부러' = တမင်တကာ။
+brothers	ညီအစ်ကို
+How many brothers and sisters do you have?	မောင်နှမ ညီအစ်ကို ဘယ်နှယောက် ရှိလဲ။
+siblings, brothers	မောင်နှမ၊ ညီအစ်ကို
+I don't have any brothers or sisters.	ကျွန်ုပ်မှာ မောင်နှမ မရှိဘူး။
+kind, good	သဘောကောင်းသည်
+Minha is really kind.	မင်ဟာက တကယ် သဘောကောင်းတယ်။
+I'm happy because I have many kind friends.	သဘောကောင်းတဲ့ သူငယ်ချင်း အများကြီး ရှိလို့ ပျော်တယ်။
+swallow (bird)	ပျံလွှား ငှက်
+When spring comes, swallows come.	နွေဦး ရောက်ရင် ပျံလွှား ငှက်တွေ လာတယ်။
+A swallow is flying in the sky.	ပျံလွှား ငှက်က ကောင်းကင်မှာ ပျံနေတယ်။
+gourd	ဘူးသီး
+They made a bowl from a gourd.	ဘူးသီးနဲ့ ပန်းကန် လုပ်ခဲ့တယ်။
+There is a big gourd on the roof.	ခေါင်မိုးပေါ်မှာ ဘူးသီးကြီး ရှိတယ်။
+goblin	ဘီလူး (ကိုရီးယား ဒိုကဲဘီ)
+Goblins appear a lot in Korean stories.	ကိုရီးယား ပုံပြင်တွေမှာ ဘီလူးတွေ အများကြီး ပါတယ်။
+story	ပုံပြင်၊ ဇာတ်လမ်း
+Did you watch the goblin drama?	ဘီလူး ဇာတ်လမ်းတွဲ ကြည့်ဖူးလား။
+drama	ဇာတ်လမ်းတွဲ
+Long ago, there lived two brothers, Heungbu and Nolbu.	ရှေးရှေးတုန်းက ဟွန်ဘူ နဲ့ နော်လ်ဘူ ဆိုတဲ့ ညီအစ်ကို နှစ်ယောက် ရှိတယ်။
+long ago	ရှေးရှေးတုန်းက
+The older brother Nolbu was greedy, and the younger brother Heungbu was kind.	အစ်ကို နော်လ်ဘူက လောဘကြီးပြီး ညီ ဟွန်ဘူက သဘောကောင်းတယ်။
+to be greedy	လောဘကြီးသည်
+Heungbu fixed the swallow's hurt leg.	ဟွန်ဘူက ပျံလွှား ငှက်ရဲ့ ဒဏ်ရာ ရတဲ့ ခြေထောက်ကို ကုပေးတယ်။
+to fix, heal	ပြင်သည်၊ ကုသသည်
+The swallow brought him a gourd seed.	ပျံလွှား ငှက်က ဘူးသီး မျိုးစေ့ တစ်စေ့ ယူလာပေးတယ်။
+gourd seed	ဘူးသီး မျိုးစေ့
+to bring in its beak	နှုတ်သီးဖြင့် ချီလာပေးသည်
+When he cut open the gourd, gold and silver poured out.	ဘူးသီးကို ခွဲလိုက်တော့ ရွှေနဲ့ ငွေတွေ ထွက်ကျလာတယ်။
+to cut open a gourd	ဘူးသီး ခွဲသည်
+gold	ရွှေ
+to pour out	ထွက်ကျသည်၊ သွန်ကျသည်
+Nolbu hurt a swallow's leg on purpose.	နော်လ်ဘူက ပျံလွှား ငှက်ရဲ့ ခြေထောက်ကို တမင် ဒဏ်ရာ ရအောင် လုပ်တယ်။
+on purpose	တမင်တကာ
+to hurt (someone)	ဒဏ်ရာ ရစေသည်
+From Nolbu's gourd, goblins came out and punished him.	နော်လ်ဘူရဲ့ ဘူးသီးထဲက ဘီလူးတွေ ထွက်လာပြီး သူ့ကို အပြစ်ပေးတယ်။
+to punish	အပြစ်ပေးသည်
+Every Korean knows the line "떡 하나 주면 안 잡아먹지".	ကိုရီးယားလူတိုင်း "떡 하나 주면 안 잡아먹지" (ဆန်မုန့် တစ်ခု ပေးရင် မစားဘူး) ဆိုတဲ့ စကားကို သိပါသည်။
+Tigers often appear in old Korean stories.	ကိုရီးယား ပုံပြင်ဟောင်းများတွင် ကျား မကြာခဏ ပါလာပါသည်။
+brother and sister	မောင်နှမ
+That brother and sister get along well.	အဲဒီ မောင်နှမက အဆင်ပြေကြတယ်။
+The brother and sister go to school together.	မောင်နှမ အတူ ကျောင်း သွားကြတယ်။
+We eat rice cake soup on New Year's Day.	နှစ်သစ်ကူးနေ့မှာ ဆန်မုန့် ဟင်းချို စားတယ်။
+Lunar New Year	ဆော်လ်လာ (ကိုရီးယား နှစ်သစ်ကူး)
+rice cake soup	ဆန်မုန့် ဟင်းချို
+I bought rice cakes at the market.	ဈေးမှာ ဆန်မုန့် ဝယ်ခဲ့တယ်။
+tiger	ကျား
+The tiger is an animal that represents Korea.	ကျားသည် ကိုရီးယားကို ကိုယ်စားပြုသော တိရစ္ဆာန် ဖြစ်ပါသည်။
+to represent	ကိုယ်စားပြုသည်
+animal	တိရစ္ဆာန်
+I saw a tiger at the zoo.	တိရစ္ဆာန်ဥယျာဉ်မှာ ကျား တွေ့ခဲ့တယ်။
+to run away	ထွက်ပြေးသည်
+The cat saw the dog and ran away.	ကြောင်က ခွေးကို မြင်ပြီး ထွက်ပြေးတယ်။
+The thief ran away quickly.	သူခိုးက မြန်မြန် ထွက်ပြေးတယ်။
+thief	သူခိုး
+The sky is really blue today.	ဒီနေ့ ကောင်းကင်က တကယ် ပြာတယ်။
+There are many clouds in the sky.	ကောင်းကင်မှာ တိမ် အများကြီး ရှိတယ်။
+cloud	တိမ်
+A mother and her son and daughter lived in the mountains.	တောင်ပေါ် ရွာလေးမှာ အမေနဲ့ မောင်နှမ နေကြတယ်။
+mountain village	တောင်ပေါ် ရွာ
+The mother sold rice cakes, and on her way home at night she met a tiger.	အမေက ဆန်မုန့် ရောင်းပြီး ညဘက် အိမ်ပြန်လမ်းမှာ ကျားနဲ့ တွေ့တယ်။
+"Give me a rice cake and I won't eat you."	"ဆန်မုန့် တစ်ခု ပေးရင် မစားဘူး။"
+to eat up (prey)	(သားကောင်ကို) ကိုက်စားသည်
+The tiger put on the mother's clothes and came to the children's house.	ကျားက အမေ့ အဝတ်ကို ဝတ်ပြီး ကလေးတွေ အိမ်ကို လာတယ်။
+The brother and sister ran up a tree and prayed to the sky.	မောင်နှမက သစ်ပင်ပေါ် ပြေးတက်ပြီး ကောင်းကင်ကို ဆုတောင်းတယ်။
+to pray	ဆုတောင်းသည်
+A strong rope came down from the sky.	ကောင်းကင်က ခိုင်ခံ့တဲ့ ကြိုး တစ်ချောင်း ကျလာတယ်။
+rope	ကြိုး
+The brother became the moon, and the sister became the sun.	မောင်က လ ဖြစ်သွားပြီး နှမက နေ ဖြစ်သွားတယ်။
+In Korea there are several rabbit and turtle stories, like 'Byeoljujeon'.	ကိုရီးယားတွင် '별주전' ကဲ့သို့ ယုန်နှင့် လိပ် ပုံပြင် အများအပြား ရှိပါသည်။
+'벌써' = already (earlier than you thought).	'벌써' = ပြီးပြီ (ထင်တာထက် စော)။
+This computer is too slow.	ဒီကွန်ပျူတာက အရမ်း နှေးတယ်။
+The internet is slow, so it's frustrating.	အင်တာနက် နှေးလို့ စိတ်ညစ်တယ်။
+frustrating	စိတ်ညစ်သည်၊ စိတ်မရှည်ဖြစ်သည်
+match, race	ပြိုင်ပွဲ
+There is a soccer match tomorrow.	မနက်ဖြန် ဘောလုံး ပြိုင်ပွဲ ရှိတယ်။
+match	ပြိုင်ပွဲ
+Our class won the match.	ပြိုင်ပွဲမှာ ကျွန်ုပ်တို့ အတန်း နိုင်ခဲ့တယ်။
+Every morning I run on the sports field.	မနက်တိုင်း ကစားကွင်းမှာ ပြေးတယ်။
+I ran to catch the bus.	ဘတ်စ်ကား မီဖို့ ပြေးခဲ့တယ်။
+in order to	-ဖို့
+After class, I rested in the dorm.	အတန်း ပြီးရင် အဆောင်မှာ နားခဲ့တယ်။
+steadily	မပြတ်မလပ်
+I study Korean steadily.	ကိုရီးယားစကားကို မပြတ်မလပ် သင်နေတယ်။
+If you exercise regularly, you get healthy.	မပြတ်မလပ် လေ့ကျင့်ခန်း လုပ်ရင် ကျန်းမာလာတယ်။
+steadily, regularly	မပြတ်မလပ်၊ ပုံမှန်
+The rabbit teased the turtle, "You're too slow."	ယုန်က လိပ်ကို "မင်း အရမ်း နှေးတယ်" လို့ စတယ်။
+to tease	စသည်၊ လှောင်သည်
+The turtle said, "Then let's have a race."	လိပ်က "ဒါဆို ပြေးပြိုင်ကြစို့" လို့ ပြောတယ်။
+running	ပြေးခြင်း
+race, match	ပြိုင်ပွဲ
+The rabbit ran fast and got halfway up the mountain.	ယုန်က မြန်မြန် ပြေးပြီး တောင်ရဲ့ တစ်ဝက်အထိ ရောက်သွားတယ်။
+middle	အလယ်
+up to	-အထိ
+"The turtle is still far behind. I'll sleep a little."	"လိပ်က အခုထိ အဝေးကြီး နောက်မှာ။ နည်းနည်း အိပ်လိုက်ဦးမယ်။"
+still far	အခုထိ ဝေးသေးသည်
+I should	-ရမယ်၊ -လိုက်ဦးမယ်
+The turtle walked slowly without resting.	လိပ်က မနားဘဲ ဖြည်းဖြည်း လျှောက်တယ်။
+When the rabbit woke up, the turtle was already at the top of the mountain.	ယုန် နိုးလာတော့ လိပ်က တောင်ထိပ်ကို ရောက်နေပြီ။
+mountaintop	တောင်ထိပ်
+Even if you are slow, you can win if you keep going.	နှေးပေမဲ့ ဆက်လုပ်ရင် နိုင်နိုင်တယ်။
+'-냐?' is an old-fashioned way of asking.	'-냐?' သည် ရှေးဟောင်း မေးခွန်း ပုံစံ ဖြစ်ပါသည်။
+It is a story about how people who don't lie are rewarded.	လိမ်မပြောသူက ဆုလာဘ် ရသော ပုံပြင် ဖြစ်ပါသည်။
+woodcutter	ထင်းခုတ်သမား
+The woodcutter cuts wood in the mountains.	ထင်းခုတ်သမားက တောင်ပေါ်မှာ ထင်း ခုတ်တယ်။
+to cut firewood	ထင်း ခုတ်သည်
+Woodcutters often appear in old stories.	ပုံပြင်ဟောင်းတွေမှာ ထင်းခုတ်သမား မကြာခဏ ပါတယ်။
+old story	ပုံပြင်ဟောင်း
+axe	ပုဆိန်
+I cut wood with an axe.	ပုဆိန်နဲ့ ထင်း ခုတ်ခဲ့တယ်။
+wood, tree	သစ်သား၊ သစ်ပင်
+An axe is dangerous, so be careful.	ပုဆိန်က အန္တရာယ် ရှိလို့ သတိထားပါ။
+This ring is gold.	ဒီလက်စွပ်က ရွှေ ပါ။
+I got a gold necklace as a present.	ရွှေ ဆွဲကြိုးကို လက်ဆောင် ရခဲ့တယ်။
+honest	ရိုးသားသည်
+John is an honest person.	ဂျွန်က ရိုးသားတဲ့ လူ ပါ။
+Please tell me honestly.	ရိုးရိုးသားသား ပြောပြပါ။
+to tell	ပြောသည်
+I lost my wallet.	ပိုက်ဆံအိတ် ပျောက်သွားတယ်။
+I lost my umbrella on the bus.	ဘတ်စ်ကားပေါ်မှာ ထီး ပျောက်သွားတယ်။
+A woodcutter was cutting wood beside a pond.	ထင်းခုတ်သမားက ရေကန် ဘေးမှာ ထင်း ခုတ်နေတယ်။
+beside	ဘေး
+But his axe fell into the pond.	ဒါပေမဲ့ ပုဆိန်က ရေကန်ထဲ ကျသွားတယ်။
+A mountain spirit came out holding a gold axe. "Is this your axe?"	တောင်စောင့် နတ်က ရွှေပုဆိန် ကိုင်ပြီး ထွက်လာတယ်။ "ဒါ မင်း ပုဆိန်လား။"
+mountain spirit	တောင်စောင့် နတ်
+gold axe	ရွှေပုဆိန်
+to hold	ကိုင်သည်
+"No, my axe is an iron axe."	"မဟုတ်ပါဘူး၊ ကျွန်တော့် ပုဆိန်က သံပုဆိန် ပါ။"
+iron axe	သံပုဆိန်
+The mountain spirit gave all three axes to the honest woodcutter.	တောင်စောင့် နတ်က ရိုးသားတဲ့ ထင်းခုတ်သမားကို ပုဆိန် သုံးလက်လုံး ပေးလိုက်တယ်။
+three (things)	သုံးခု
+The greedy neighbor threw his axe in on purpose and said, "The gold axe is mine."	လောဘကြီးတဲ့ အိမ်နီးချင်းက ကိုယ့် ပုဆိန်ကို တမင် ပစ်ချပြီး "ရွှေပုဆိန်က ကျွန်တော့်ဟာ ပါ" လို့ ပြောတယ်။
+greedy person	လောဘကြီးသူ
+to throw	ပစ်သည်
+That man even lost his own axe.	အဲဒီလူက ကိုယ့် ပုဆိန်တောင် ဆုံးရှုံးသွားတယ်။
+one's own	မိမိ၏
+even	-တောင်
+In Korea, the magpie is a bird that brings good news.	ကိုရီးယားတွင် ငှက်ကျား (까치) သည် သတင်းကောင်း ယူလာသော ငှက် ဖြစ်ပါသည်။
+'은혜를 갚다' = to repay a kindness.	'은혜를 갚다' = ကျေးဇူး ဆပ်သည်။
+scholar	ပညာရှိ (ရှေးခေတ် စာပေသမား)
+Scholars long ago read a lot of books.	ရှေးခေတ် ပညာရှိတွေက စာအုပ် အများကြီး ဖတ်ကြတယ်။
+That scholar was honest and kind.	အဲဒီ ပညာရှိက ရိုးသားပြီး သဘောကောင်းတယ်။
+snake	မြွေ
+I'm really scared of snakes.	မြွေကို တကယ် ကြောက်တယ်။
+Watch out for snakes in the mountains.	တောင်ပေါ်မှာ မြွေကို သတိထားပါ။
+magpie	ငှက်ကျား (까치)
+They say if a magpie sings in the morning, something good will happen.	မနက်ဘက် ငှက်ကျား အော်ရင် ကောင်းတာ ဖြစ်မယ်လို့ ဆိုကြတယ်။
+to sing (bird)	(ငှက်) အော်သည်၊ တွန်သည်
+good thing	ကောင်းသော ကိစ္စ
+There are many magpies in the school trees.	ကျောင်းက သစ်ပင်တွေမှာ ငှက်ကျား အများကြီး ရှိတယ်။
+to save, to rescue	ကယ်သည်
+The firefighters saved the people.	မီးသတ်သမားတွေက လူတွေကို ကယ်ခဲ့တယ်။
+firefighter	မီးသတ်သမား
+people	လူများ
+I rescued a puppy that fell into the water.	ရေထဲ ကျနေတဲ့ ခွေးကလေးကို ကယ်ခဲ့တယ်။
+to rescue	ကယ်တင်သည်
+bell	ခေါင်းလောင်း
+The bell is ringing at the church.	ဘုရားကျောင်းမှာ ခေါင်းလောင်း မြည်နေတယ်။
+There is a big bell at the temple.	ဘုန်းကြီးကျောင်းမှာ ခေါင်းလောင်းကြီး ရှိတယ်။
+temple	ဘုန်းကြီးကျောင်း
+A young scholar was on his way to Seoul to take the state exam.	ပညာရှိ လူငယ် တစ်ယောက်က မင်းစာမေးပွဲ ဖြေဖို့ ဆိုးလ်ကို သွားနေတယ်။
+to take the state exam	မင်းစာမေးပွဲ ဖြေသည်
+A big snake was attacking a magpie's nest.	မြွေကြီး တစ်ကောင်က ငှက်ကျား အသိုက်ကို တိုက်ခိုက်နေတယ်။
+nest	ငှက်သိုက်
+to attack	တိုက်ခိုက်သည်
+The scholar shot an arrow and saved the magpie.	ပညာရှိက မြား ပစ်ပြီး ငှက်ကျားကို ကယ်လိုက်တယ်။
+bow	လေး (မြားပစ်လေး)
+to shoot	ပစ်သည်
+That night the scholar slept in a house in the mountains.	အဲဒီညမှာ ပညာရှိက တောင်ပေါ်က အိမ်တစ်အိမ်မှာ အိပ်တယ်။
+that night	အဲဒီည
+in the mountains	တောင်ထဲ
+A snake appeared and said, "If the bell rings three times, I will let you live."	မြွေ ပေါ်လာပြီး "ခေါင်းလောင်း သုံးချက် မြည်ရင် အသက်ချမ်းသာခွင့် ပေးမယ်" လို့ ပြောတယ်။
+to let live	အသက် ချမ်းသာခွင့် ပေးသည်
+At dawn the bell rang three times.	အာရုဏ်တက်ချိန်မှာ ခေါင်းလောင်း သုံးချက် မြည်တယ်။
+dawn	အာရုဏ်တက်ချိန်
+sound of a bell	ခေါင်းလောင်းသံ
+The magpies hit the bell with their bodies and saved the scholar.	ငှက်ကျားတွေက ကိုယ်နဲ့ ခေါင်းလောင်းကို တိုက်ပြီး ပညာရှိကို ကယ်လိုက်တယ်။
+to ring a bell	ခေါင်းလောင်း တီးသည်
+to save (a life)	(အသက်) ကယ်သည်
+'영감' is an old word for an old man.	'영감' သည် အဘိုးအို ကို ခေါ်သော ရှေးစကား ဖြစ်ပါသည်။
+'금은보화' = gold, silver and all kinds of treasure.	'금은보화' = ရွှေ၊ ငွေနှင့် ရတနာ အမျိုးမျိုး။
+cheek	ပါး
+My cheeks are red from the cold.	အေးလို့ ပါးတွေ နီနေတယ်။
+It's cold, so my cheeks are cold.	အေးလို့ ပါးတွေ အေးစက်နေတယ်။
+lump	အဖု
+I bumped my head and got a lump.	ခေါင်း ဆောင့်မိလို့ အဖု ထွက်လာတယ်။
+to bump	ဆောင့်မိသည်
+I had a small lump on my arm, so I went to the hospital.	လက်မောင်းမှာ အဖု သေးသေးလေး ရှိလို့ ဆေးရုံ သွားခဲ့တယ်။
+empty house	အိမ်လွတ်
+There are many empty houses in this village.	ဒီရွာမှာ အိမ်လွတ် အများကြီး ရှိတယ်။
+village	ရွာ
+That empty house is a bit scary.	အဲဒီ အိမ်လွတ်က နည်းနည်း ကြောက်စရာ ကောင်းတယ်။
+to sing a song	သီချင်း ဆိုသည်
+Aisha sings well.	အိုင်ရှာက သီချင်း ဆို ကောင်းတယ်။
+well	ကောင်းကောင်း
+I sang songs with friends at karaoke.	ကာရာအိုကေမှာ သူငယ်ချင်းတွေနဲ့ သီချင်း ဆိုခဲ့တယ်။
+exactly the same	အတိအကျ တူညီစွာ
+We split the bill exactly equally.	ငွေကို အတိအကျ တူညီအောင် ခွဲပေးခဲ့ကြတယ်။
+to divide	ခွဲသည်
+Repeat exactly what the professor says.	ပါမောက္ခ ပြောတာကို အတိအကျ လိုက်ပြောပါ။
+to repeat	လိုက်လုပ်သည်၊ လိုက်ပြောသည်
+There lived an old man with a big lump on his cheek.	ပါးမှာ အဖုကြီး ရှိတဲ့ အဘိုးအို တစ်ယောက် နေတယ်။
+old man	အဘိုးအို
+The old man got lost in the mountains and sang a song in an empty house.	အဘိုးအိုက တောင်ပေါ်မှာ လမ်းပျောက်ပြီး အိမ်လွတ် တစ်လုံးမှာ သီချင်း ဆိုတယ်။
+to get lost	လမ်းပျောက်သည်
+Goblins came and asked, "Where does that beautiful song come from?"	ဘီလူးတွေ လာပြီး "အဲဒီ သီချင်းလှလှက ဘယ်က ထွက်လာတာလဲ" လို့ မေးတယ်။
+from where	ဘယ်က
+"It comes from this lump," the old man said.	"ဒီအဖုထဲက ထွက်လာတာ" လို့ အဘိုးအိုက ပြောတယ်။
+The goblins gave him treasure and took the lump.	ဘီလူးတွေက ရတနာတွေ ပေးပြီး အဖုကို ယူသွားတယ်။
+treasure	ရတနာ
+to take away	ယူသွားသည်
+The greedy old man did exactly the same, but he got one more lump.	လောဘကြီးတဲ့ အဘိုးအိုက အတိအကျ တူတူ လုပ်ပေမဲ့ အဖု နောက်တစ်ခု ထပ်ရတယ်။
+one more	နောက်တစ်ခု
+to get	ရသည်
+So he ended up with two lumps.	ဒါကြောင့် အဖု နှစ်ခု ဖြစ်သွားတယ်။
+so	ဒါကြောင့်
+two (things)	နှစ်ခု
+The 7th day of the 7th lunar month is called '칠석'.	လပြက္ခဒိန် ၇ လ ၇ ရက်နေ့ကို '칠석' ဟု ခေါ်ပါသည်။
+'-래요' is used to pass on something you heard from someone else (they say...).	'-래요' ကို တခြားသူဆီက ကြားခဲ့သော အရာကို ပြန်ပြောရာတွင် (... တဲ့) သုံးပါသည်။
+A cow is eating grass in the field.	ကွင်းပြင်မှာ နွားက မြက် စားနေတယ်။
+My older sister is getting married next month.	ကျွန်တော့် အစ်မက နောက်လ လက်ထပ်မယ်။
+older sister (of a male)	အစ်မ (အမျိုးသား၏)
+next month	နောက်လ
+the Milky Way	နဂါးငွေ့တန်း
+I saw the Milky Way in the countryside.	ကျေးလက်မှာ နဂါးငွေ့တန်းကို မြင်ခဲ့တယ်။
+The Milky Way has very many stars.	နဂါးငွေ့တန်းမှာ ကြယ် အများကြီး ရှိတယ်။
+star	ကြယ်
+crow	ကျီးကန်း
+Crows are black.	ကျီးကန်းတွေက အနက်ရောင် ပါ။
+A crow is cawing on top of the tree.	သစ်ပင်ပေါ်မှာ ကျီးကန်း အော်နေတယ်။
+to caw, cry	အော်သည်၊ ငိုသည်
+Tears came when I watched a sad movie.	ဝမ်းနည်းစရာ ရုပ်ရှင် ကြည့်တော့ မျက်ရည် ကျလာတယ်။
+tears come	မျက်ရည် ကျသည်
+I'm so happy I'm crying.	ဝမ်းသာလွန်းလို့ ငိုနေတယ်။
+In the kingdom of heaven lived Gyeonu, who raised cows, and Jiknyeo, who wove cloth.	ကောင်းကင် နိုင်ငံတော်မှာ နွားကျောင်းတဲ့ ကျွန်ဝူ နဲ့ အထည်ယက်တဲ့ ဂျစ်ညော် နေကြတယ်။
+kingdom of heaven	ကောင်းကင် နိုင်ငံတော်
+cloth	အထည်
+to weave	ယက်သည်
+The two got married and were so happy that they stopped working.	နှစ်ယောက် လက်ထပ်ပြီး အရမ်း ပျော်လို့ အလုပ် မလုပ်တော့ဘူး။
+The king got angry and made them live apart on both sides of the Milky Way.	ဘုရင်က စိတ်ဆိုးပြီး သူတို့ကို နဂါးငွေ့တန်း နှစ်ဖက်မှာ ခွဲနေခိုင်းတယ်။
+king	ဘုရင်
+to get angry	စိတ်ဆိုးသည်
+both sides	နှစ်ဖက်
+to be apart	ခွဲခွာနေသည်
+They could meet only once a year, on the 7th day of the 7th month.	တစ်နှစ်မှာ တစ်ခါပဲ ၇ လ ၇ ရက်နေ့မှာ တွေ့ခွင့် ရတယ်။
+only, exactly	တစ်ခါပဲ၊ အတိအကျ
+July 7th (7/7)	၇ လ ၇ ရက် (7/7)
+Magpies and crows flew there and made a bridge for them.	ငှက်ကျားနဲ့ ကျီးကန်းတွေ ပျံလာပြီး သူတို့အတွက် တံတား လုပ်ပေးကြတယ်။
+to fly in	ပျံလာသည်
+That bridge is called Ojakgyo.	အဲဒီ တံတားကို အိုဂျက်ကျို (오작교) လို့ ခေါ်တယ်။
+to be called	-လို့ ခေါ်သည်
+They say that if it rains on the 7th day of the 7th month, it is their tears of joy.	၇ လ ၇ ရက်နေ့ မိုး ရွာရင် သူတို့ရဲ့ ဝမ်းသာ မျက်ရည်တွေ ဖြစ်တယ်တဲ့။
+Chilseok (7/7)	ချီဆော့ (၇ လ ၇ ရက်)
+they say	-တဲ့
+'숨다' = to hide yourself, '숨기다' = to hide something.	'숨다' = ကိုယ်တိုင် ပုန်းသည်၊ '숨기다' = တစ်ခုခုကို ဝှက်သည်။
+'-며' is used when you do two things at the same time: 하늘을 보며.	'-며' ကို အလုပ် နှစ်ခု တစ်ပြိုင်နက် လုပ်သောအခါ သုံးပါသည်: 하늘을 보며 (ကောင်းကင်ကို ကြည့်ရင်း)။
+fairy	နတ်သမီး
+That actress is as pretty as a fairy.	အဲဒီ မင်းသမီးက နတ်သမီးလို လှတယ်။
+actor, actress	သရုပ်ဆောင်
+Grandma told me a fairy story.	အဖွားက နတ်သမီး ပုံပြင် ပြောပြတယ်။
+deer	သမင်
+I fed the deer at the park.	ပန်းခြံမှာ သမင်တွေကို အစာ ကျွေးခဲ့တယ်။
+feed	အစာ
+Deer have long legs.	သမင်တွေက ခြေထောက် ရှည်တယ်။
+to hide (something)	ဝှက်သည်
+My younger sibling hid my snacks.	ညီ/ညီမက ကျွန်ုပ် မုန့်တွေကို ဝှက်ထားတယ်။
+I hid the present under the bed.	လက်ဆောင်ကို ကုတင်အောက်မှာ ဝှက်ထားတယ်။
+wing	အတောင်
+Birds have wings.	ငှက်တွေမှာ အတောင် ရှိတယ်။
+The butterfly's wings are really pretty.	လိပ်ပြာ အတောင်တွေက တကယ် လှတယ်။
+to miss (someone)	လွမ်းသည်
+Ahmad misses his hometown.	အာမတ်က ဇာတိကို လွမ်းတယ်။
+International students miss their families a lot.	နိုင်ငံခြား ကျောင်းသားတွေက မိသားစုကို အရမ်း လွမ်းကြတယ်။
+In the forest, a woodcutter hid a deer that was running from a hunter.	တောထဲမှာ ထင်းခုတ်သမားက မုဆိုးဆီက ထွက်ပြေးလာတဲ့ သမင်ကို ဝှက်ပေးတယ်။
+hunter	မုဆိုး
+to be chased	လိုက်ဖမ်းခံရသည်
+The deer said, "Go to the pond where the fairies bathe."	သမင်က "နတ်သမီးတွေ ရေချိုးတဲ့ ရေကန်ကို သွားကြည့်ပါ" လို့ ပြောတယ်။
+to bathe	ရေချိုးသည်
+to go and see	သွားကြည့်သည်
+The woodcutter hid the fairy's winged robe.	ထင်းခုတ်သမားက နတ်သမီးရဲ့ အတောင်ပါ ဝတ်ရုံကို ဝှက်ထားတယ်။
+winged robe	အတောင်ပါ ဝတ်ရုံ
+The fairy who couldn't go back to the sky married the woodcutter.	ကောင်းကင်ကို မပြန်နိုင်တဲ့ နတ်သမီးက ထင်းခုတ်သမားနဲ့ လက်ထပ်တယ်။
+After they had two children, the woodcutter showed her the winged robe.	ကလေး နှစ်ယောက် ရပြီးနောက် ထင်းခုတ်သမားက အတောင်ပါ ဝတ်ရုံကို ပြလိုက်တယ်။
+to have (children)	(ကလေး) ရသည်
+The fairy held the children and went up to the sky.	နတ်သမီးက ကလေးတွေကို ပွေ့ပြီး ကောင်းကင်ကို တက်သွားတယ်။
+children	ကလေးများ
+to hold in arms	ပွေ့သည်
+The woodcutter looked at the sky every day and missed his family.	ထင်းခုတ်သမားက နေ့တိုင်း ကောင်းကင်ကို ကြည့်ပြီး မိသားစုကို လွမ်းတယ်။
+'콩' = bean, '팥' = red bean. The names have meanings too.	'콩' = ပဲ၊ '팥' = ပဲနီ။ နာမည်များတွင်လည်း အဓိပ္ပာယ် ပါပါသည်။
+신발 한 짝 = one shoe, 한 켤레 = one pair.	신발 한 짝 = ဖိနပ် တစ်ဖက်၊ 한 켤레 = ဖိနပ် တစ်ရံ။
+large clay jar	မြေအိုးကြီး
+There is a kimchi jar at Grandma's house.	အဖွားအိမ်မှာ ကင်မ်ချီ မြေအိုး ရှိတယ်။
+I put water in the jar.	မြေအိုးထဲ ရေ ထည့်ခဲ့တယ်။
+hole	အပေါက်
+There's a hole in my sock.	ခြေအိတ်မှာ အပေါက် ဖြစ်နေတယ်။
+sock	ခြေအိတ်
+to get a hole	အပေါက် ဖြစ်သည်
+There is a small hole in my pants.	ဘောင်းဘီမှာ အပေါက် သေးသေးလေး ရှိတယ်။
+toad	ဖားပြုပ်
+I saw a toad on a rainy day.	မိုးရွာတဲ့နေ့မှာ ဖားပြုပ် တွေ့ခဲ့တယ်။
+rainy day	မိုးရွာတဲ့နေ့
+Toads are bigger than frogs.	ဖားပြုပ်တွေက ဖားထက် ကြီးတယ်။
+frog	ဖား
+party, feast	ပွဲ၊ စားသောက်ပွဲ
+I'm going to my grandfather's birthday party.	အဘိုးရဲ့ မွေးနေ့ပွဲကို သွားမယ်။
+birthday (honorific)	မွေးနေ့ (ရိုသေ)
+There was a lot of food at the feast.	စားသောက်ပွဲမှာ အစားအစာ တကယ် များတယ်။
+one of a pair	အတွဲ၏ တစ်ဖက်
+One of my socks is missing.	ခြေအိတ် တစ်ဖက် ပျောက်နေတယ်။
+to be missing	ပျောက်နေသည်
+I lost one of my gloves.	လက်အိတ် တစ်ဖက် ပျောက်သွားတယ်။
+glove	လက်အိတ်
+Kind Kongjwi lived with her stepmother and her stepsister Patjwi.	သဘောကောင်းတဲ့ ကုံဂျွီက မိထွေးနဲ့ ပထွေးသမီး ဖတ်ဂျွီ နဲ့ အတူ နေတယ်။
+stepmother	မိထွေး
+stepsister	ပထွေးသမီး အစ်မ
+The stepmother told her to fill a jar with a hole with water.	မိထွေးက အပေါက်ပါတဲ့ မြေအိုးကို ရေ ဖြည့်ခိုင်းတယ်။
+to have a hole	အပေါက် ရှိသည်
+to fill	ဖြည့်သည်
+to tell to	-ခိုင်းသည်
+A toad came and blocked the hole.	ဖားပြုပ်က လာပြီး အပေါက်ကို ပိတ်ပေးတယ်။
+to block	ပိတ်သည်
+On the day of the feast, Kongjwi had a lot of work, so she couldn't go.	ပွဲနေ့မှာ ကုံဂျွီက အလုပ် များလို့ မသွားနိုင်ဘူး။
+feast day	ပွဲနေ့
+A fairy came down and gave her pretty clothes and flower shoes.	နတ်သမီး ဆင်းလာပြီး အဝတ်လှလှနဲ့ ပန်းဖိနပ် ပေးတယ်။
+flower shoes	ပန်းဖိနပ်
+Kongjwi was in a hurry and lost one of her flower shoes.	ကုံဂျွီက အလျင်စလို ဖြစ်ပြီး ပန်းဖိနပ် တစ်ဖက် ပျောက်သွားတယ်။
+to hurry	အလျင်လိုသည်
+The magistrate found the owner of the flower shoe and married Kongjwi.	မြို့စား အရာရှိက ပန်းဖိနပ် ပိုင်ရှင်ကို ရှာပြီး ကုံဂျွီနဲ့ လက်ထပ်တယ်။
+magistrate	မြို့စား အရာရှိ
+to find	ရှာသည်
+'방귀를 뀌다' = to fart (these words go together).	'방귀를 뀌다' = လေလည်သည် (ဤ စကားလုံးများ တွဲသုံးပါသည်)။
+It's a funny old story, so children love it.	ရယ်စရာ ပုံပြင်ဟောင်း ဖြစ်လို့ ကလေးတွေ အရမ်း ကြိုက်ကြတယ်။
+daughter-in-law	ချွေးမ
+My grandmother really likes her daughter-in-law.	ကျွန်ုပ် အဖွားက ချွေးမကို တကယ် ချစ်တယ်။
+The daughter-in-law cooks with her mother-in-law.	ချွေးမက ယောက္ခမနဲ့ အတူ ဟင်း ချက်တယ်။
+mother-in-law	ယောက္ခမ (မ)
+fart	လေ (အောက်လေ)
+Who farted?	ဘယ်သူ လေလည်တာလဲ။
+to fart	လေလည်သည်
+The fart was so loud that everyone laughed.	လေလည်သံ အရမ်း ကျယ်လို့ အားလုံး ရယ်ကြတယ်။
+loud	ကျယ်သည် (အသံ)
+to laugh	ရယ်သည်
+father-in-law	ယောက္ခမ (ဖ)
+My father-in-law gave me a present.	ယောက္ခမကြီးက လက်ဆောင် ပေးတယ်။
+My older sister lives with her father-in-law.	ကျွန်မ အစ်မက ယောက္ခမကြီးနဲ့ အတူ နေတယ်။
+older sister (of a female)	အစ်မ (အမျိုးသမီး၏)
+to shake	လှုပ်သည်၊ ယိမ်းသည်
+The wind is blowing, so the trees are shaking.	လေ တိုက်လို့ သစ်ပင်တွေ ယိမ်းနေတယ်။
+The bus shook a lot.	ဘတ်စ်ကား အရမ်း လှုပ်ခဲ့တယ်။
+(a married woman's) parents' home	(အိမ်ထောင်သည် အမျိုးသမီး၏) မိဘအိမ်
+My older sister goes to her parents' home on holidays.	အစ်မက ပွဲတော်ရက်မှာ မိဘအိမ် ပြန်တယ်။
+Her own mother looked after the baby.	သူ့ အမေအရင်းက ကလေးကို ထိန်းပေးတယ်။
+a married woman's own mother	အိမ်ထောင်သည် အမျိုးသမီး၏ အမေအရင်း
+to look after	ထိန်းပေးသည်
+Long ago, a newly married daughter-in-law's face became more and more yellow.	ရှေးရှေးတုန်းက လက်ထပ်ပြီးစ ချွေးမရဲ့ မျက်နှာက တဖြည်းဖြည်း ဝါလာတယ်။
+to marry into (a family)	လက်ထပ်ပြီး ယောက်ျားအိမ် ရောက်လာသည်
+more and more	တဖြည်းဖြည်း
+to turn yellow	ဝါလာသည်
+"Are you sick?" her father-in-law asked.	"နေမကောင်းဘူးလား" လို့ ယောက္ခမကြီးက မေးတယ်။
+sick	နေမကောင်းသည်
+"It's because I can't fart."	"လေ မလည်ရလို့ ပါ။"
+it's because	-လို့ ပါ
+"It's OK. Fart as much as you like."	"ရတယ်။ စိတ်ကြိုက် လေလည်ပါ။"
+as much as you like	စိတ်ကြိုက်
+to pass (gas)	(လေ) လည်သည်
+When she farted, the house shook and her father-in-law flew away.	သူ လေလည်လိုက်တော့ အိမ် လှုပ်ပြီး ယောက္ခမကြီး လွင့်သွားတယ်။
+to fly away	လွင့်သွားသည်
+The family was surprised and tried to send her back to her parents' home.	မိသားစုက အံ့သြပြီး သူ့ကို မိဘအိမ် ပြန်ပို့ဖို့ လုပ်တယ်။
+family member	မိသားစုဝင်
+wife's parents' home	ဇနီး၏ မိဘအိမ်
+to try to	-ဖို့ လုပ်သည်
+But she knocked down all the pears from a tall tree with her fart, and everyone laughed.	ဒါပေမဲ့ သူက လေလည်ပြီး အမြင့်ပင်က သစ်တော်သီးတွေ အားလုံး ကြွေကျစေတော့ အားလုံး ရယ်ကြတယ်။
+tall, high	မြင့်သည်
+It is a story about how you can survive danger if you think cleverly.	အန္တရာယ် ကြုံသောအခါ ဉာဏ်ရှိရှိ စဉ်းစားလျှင် လွတ်မြောက်နိုင်ကြောင်း ပုံပြင် ဖြစ်ပါသည်။
+'병에 걸리다' = to get sick.	'병에 걸리다' = နေမကောင်း ဖြစ်သည်။
+I went to the sea with my friends on the weekend.	စနေ တနင်္ဂနွေမှာ သူငယ်ချင်းတွေနဲ့ ပင်လယ် သွားခဲ့တယ်။
+The sea is really blue and pretty.	ပင်လယ်က တကယ် ပြာပြီး လှတယ်။
+to be blue	ပြာသည်
+to be pretty	လှသည်
+illness	ရောဂါ
+My grandmother got sick, so she is in the hospital.	အဖွား နေမကောင်းလို့ ဆေးရုံ တက်နေတယ်။
+to get sick	ရောဂါ ရသည်
+This illness gets better quickly if you take medicine.	ဒီရောဂါက ဆေး သောက်ရင် မြန်မြန် သက်သာတယ်။
+If you drink a lot of alcohol, your liver gets worse.	အရက် အများကြီး သောက်ရင် အသည်း ဆိုးလာတယ်။
+The doctor did a liver test.	ဆရာဝန်က အသည်း စစ်ဆေးခဲ့တယ်။
+test, check-up	စစ်ဆေးခြင်း
+soft-shelled turtle	လိပ်ပျော့
+Soft-shelled turtles live both in water and on land.	လိပ်ပျော့တွေက ရေထဲမှာရော ကုန်းပေါ်မှာရော နေတယ်။
+I saw a small soft-shelled turtle in the river.	မြစ်ထဲမှာ လိပ်ပျော့ သေးသေးလေး တွေ့ခဲ့တယ်။
+to be small	သေးသည်
+land	ကုန်းမြေ
+The ship crossed the sea and arrived on land.	သင်္ဘောက ပင်လယ်ကို ဖြတ်ပြီး ကုန်းမြေကို ရောက်လာတယ်။
+ship	သင်္ဘော
+If you live on an island, you can't go to the mainland often.	ကျွန်းပေါ်မှာ နေရင် ကုန်းမကြီးကို မကြာခဏ မသွားနိုင်ဘူး။
+island	ကျွန်း
+land, mainland	ကုန်းမြေ၊ ကုန်းမကြီး
+The Dragon King under the sea became very ill.	ပင်လယ်အောက်က နဂါးမင်းကြီး အရမ်း နေမကောင်း ဖြစ်လာတယ်။
+Dragon King	နဂါးမင်း
+"If you eat a rabbit's liver, you can get better."	"ယုန်ရဲ့ အသည်းကို စားရင် သက်သာနိုင်တယ်။"
+The turtle went to land and brought back a rabbit.	လိပ်က ကုန်းမြေကို သွားပြီး ယုန်ကို ခေါ်လာတယ်။
+to bring (a person)	(လူကို) ခေါ်လာသည်
+The rabbit was shocked when he found out they wanted to eat his liver.	ယုန်က သူ့ အသည်းကို စားချင်တာ သိတော့ လန့်သွားတယ်။
+to know, find out	သိသည်၊ သိရှိသွားသည်
+with a start	လန့်ဖျပ်
+"I left my liver at home. I'll go and get it."	"ကျွန်တော့် အသည်းကို အိမ်မှာ ထားခဲ့တယ်။ သွားယူလာပါမယ်။"
+to leave behind	ထားခဲ့သည်
+to bring (a thing)	(ပစ္စည်း) ယူလာသည်
+I will	-ပါမယ်
+The turtle took the rabbit back to land.	လိပ်က ယုန်ကို ကုန်းမြေကို ပြန်ပို့ပေးတယ်။
+to take (someone) back	ပြန်ပို့ပေးသည်
+The rabbit said, "What animal goes around without its liver?" and ran away.	ယုန်က "အသည်း မပါဘဲ သွားလာတဲ့ တိရစ္ဆာန် ဘယ်မှာ ရှိလဲ" လို့ ပြောပြီး ထွက်ပြေးသွားတယ်။
+A conversation between two people. Listen for who, where and what. The first speaker is a woman and the second is a man. Order: ❶ Listen to the whole text → ❷ Listen line by line → ❸ Words → ❹ Quiz.	လူ နှစ်ယောက်၏ စကားပြော ဖြစ်ပါသည်။ ဘယ်သူ၊ ဘယ်မှာ၊ ဘာ ကို နားထောင်ပါ။ ပထမ ပြောသူသည် အမျိုးသမီး ဖြစ်ပြီး ဒုတိယ ပြောသူသည် အမျိုးသား ဖြစ်ပါသည်။ အစီအစဉ်: ❶ စာသား တစ်ခုလုံး နားထောင် → ❷ တစ်ကြောင်းချင်း ပြန်နားထောင် → ❸ စကားလုံးများ → ❹ ပဟေဠိ။
+When Koreans get a compliment, they often answer modestly with '아니에요'.	ကိုရီးယားလူများသည် ချီးမွမ်းခံရသောအခါ '아니에요' ဟု နှိမ့်ချစွာ ပြန်ဖြေလေ့ ရှိပါသည်။
+'-(으)ㄴ 지 얼마나 됐어요?' asks how much time has passed.	'-(으)ㄴ 지 얼마나 됐어요?' သည် အချိန် ဘယ်လောက် ကြာပြီလဲ ဟု မေးခြင်း ဖြစ်ပါသည်။
+I like coffee too.	ကျွန်ုပ်လည်း ကော်ဖီ ကြိုက်တယ်။
+Ahmad came from Pakistan.	အာမတ်က ပါကစ္စတန်က လာတာ ပါ။
+What time are you coming to school tomorrow?	မနက်ဖြန် ဘယ်နှနာရီ ကျောင်း လာမလဲ။
+How long does it take from the dorm to school?	အဆောင်ကနေ ကျောင်းအထိ ဘယ်လောက် ကြာလဲ။
+How expensive is this bag?	ဒီအိတ်က ဘယ်လောက် ဈေးကြီးလဲ။
+to be expensive	ဈေးကြီးသည်
+I'm traveling to Seoul next month.	နောက်လ ဆိုးလ်ကို ခရီးသွားမယ်။
+I read two books a month.	တစ်လမှာ စာအုပ် နှစ်အုပ် ဖတ်တယ်။
+Dilnoza is learning the guitar these days.	ဒီလ်နိုဇာက ဒီရက်ပိုင်း ဂီတာ သင်နေတယ်။
+guitar	ဂီတာ
+I learned Korean cooking from Minha.	မင်ဟာဆီက ကိုရီးယား ဟင်းချက်နည်း သင်ခဲ့တယ်။
+Hello. I'm Kim Sujin.	မင်္ဂလာပါ။ ကျွန်မ ကင်မ် ဆူဂျင် ပါ။
+Hello. I'm Sam. I'm from the USA.	မင်္ဂလာပါ။ ကျွန်တော် ဆမ် ပါ။ အမေရိကက ပါ။
+How long has it been since you came to Korea?	ကိုရီးယား ရောက်တာ ဘယ်လောက် ကြာပြီလဲ။
+since	-ကတည်းက
+to become (time passes)	ဖြစ်သည် (အချိန် ကြာသည်)
+It's been three months.	သုံးလ ရှိပြီ။
+three months	သုံးလ
+(time) to pass	(အချိန်) ကြာသည်
+You speak Korean really well.	ကိုရီးယားစကား တကယ် ကောင်းကောင်း ပြောတတ်တာပဲ။
+(surprise)	(အံ့သြမှု) -တာပဲ
+Not at all. I'm still learning a lot.	မဟုတ်ပါဘူး။ အခုထိ အများကြီး သင်နေတုန်း ပါ။
+In a restaurant, people are counted with '명' or '분'. '분' is more polite.	စားသောက်ဆိုင်တွင် လူအရေအတွက်ကို '명' သို့မဟုတ် '분' ဖြင့် ရေတွက်ပါသည်။ '분' က ပိုယဉ်ကျေးပါသည်။
+In Korean restaurants, water and side dishes are usually free.	ကိုရီးယား စားသောက်ဆိုင်များတွင် ရေနှင့် ဟင်းလျာများ များသောအားဖြင့် အခမဲ့ ဖြစ်ပါသည်။
+This restaurant has a lot of menu items.	ဒီစားသောက်ဆိုင်မှာ မီနူး အများကြီး ရှိတယ်။
+to be many	များသည်
+Maria gave me a birthday present.	မာရီယာက ကျွန်ုပ်ကို မွေးနေ့ လက်ဆောင် ပေးခဲ့တယ်။
+Please give me two of these apples.	ဒီပန်းသီး နှစ်လုံး ပေးပါ။
+The tteokbokki is too spicy.	တော့ပိုကီက အရမ်း စပ်တယ်။
+tteokbokki	တော့ပိုကီ
+I can't eat spicy food well.	စပ်တဲ့ အစားအစာ သိပ် မစားနိုင်ဘူး။
+not well	သိပ် မ...
+to be OK	ရသည်၊ အဆင်ပြေသည်
+Does it hurt a lot? Are you OK now?	အရမ်း နာလား။ အခု ရပြီလား။
+Is it OK to meet at three tomorrow?	မနက်ဖြန် သုံးနာရီ တွေ့ရင် ရလား။
+it's OK to	-လည်း ရသည်
+I drink a lot of water after exercising.	လေ့ကျင့်ခန်း လုပ်ပြီးရင် ရေ အများကြီး သောက်တယ်။
+There is no hot water in the dorm.	အဆောင်မှာ ရေနွေး မရှိဘူး။
+welcome	ကြိုဆိုပါတယ်
+Here is the menu. What would you like?	မီနူး ဒီမှာ ပါ။ ဘာ စားမလဲ။
+One kimchi stew and one bibimbap, please.	ကင်မ်ချီ ဟင်းဖတ်ထူ တစ်ပွဲနဲ့ ဘီဘင်ဘပ် တစ်ပွဲ ပေးပါ။
+The kimchi stew is a bit spicy. Is that OK?	ကင်မ်ချီ ဟင်းဖတ်ထူက နည်းနည်း စပ်တယ်။ ရလား။
+Yes, that's fine. Some water too, please.	ဟုတ်ကဲ့၊ ရပါတယ်။ ရေလည်း ပေးပါ။
+please give	ပေးပါ
+'-아/어 봐도 돼요?' = Can I try...?	'-아/어 봐도 돼요?' = ... ကြည့်လို့ ရလား။
+When you choose something, say '이걸로 할게요' (I'll take this one).	ပစ္စည်း ရွေးသောအခါ '이걸로 할게요' (ဒါ ယူမယ်) ဟု ပြောပါ။
+I lost my wallet, so I'm looking for it.	ပိုက်ဆံအိတ် ပျောက်သွားလို့ ရှာနေတယ်။
+What color do you like the most?	ဘယ်အရောင်ကို အကြိုက်ဆုံးလဲ။
+This bag's color is really pretty.	ဒီအိတ်ရဲ့ အရောင်က တကယ် လှတယ်။
+Tom is wearing a blue cap.	တွမ်က အပြာရောင် ဦးထုပ် ဆောင်းထားတယ်။
+cap, hat	ဦးထုပ်
+I like blue.	အပြာရောင်ကို ကြိုက်တယ်။
+It's cold today, so I wore a coat.	ဒီနေ့ အေးလို့ ကုတ်အင်္ကျီ ဝတ်ခဲ့တယ်။
+I wear a suit for interviews.	အင်တာဗျူးမှာ ဝတ်စုံ ဝတ်တယ်။
+These shoes fit me well.	ဒီဖိနပ်က ကျွန်ုပ်နဲ့ တော်တယ်။
+The pants are small, so they don't fit.	ဘောင်းဘီ သေးလို့ မတော်ဘူး။
+Are you looking for something?	ရှာနေတာ ရှိလား။
+do you have (honorific)	ရှိပါသလား (ရိုသေ)
+Do you have this shirt in other colors?	ဒီရှပ်အင်္ကျီ တခြား အရောင်လည်း ရှိလား။
+shirt	ရှပ်အင်္ကျီ
+We have white and blue.	အဖြူနဲ့ အပြာ ရှိပါတယ်။
+Can I try on the blue one?	အပြာရောင်ကို ဝတ်ကြည့်လို့ ရလား။
+may I	-လို့ ရလား
+Sure, the fitting room is over there.	ရပါတယ်၊ အဝတ်လဲခန်းက ဟိုဘက်မှာ ပါ။
+It fits perfectly. I'll take this one. How much is it?	အတိအကျ တော်တယ်။ ဒါ ယူမယ်။ ဘယ်လောက်လဲ။
+to take this one	ဒါ ယူသည်
+When you speak to a stranger, start with '실례합니다'.	မသိသူကို စကားပြောသောအခါ '실례합니다' ဖြင့် စပါ။
+'-쯤' = about.	'-쯤' = ခန့်၊ လောက်။
+subway station	မြေအောက်ရထား ဘူတာ
+Let's meet in front of the subway station.	မြေအောက်ရထား ဘူတာ ရှေ့မှာ တွေ့ကြစို့။
+My house is close to the subway station.	ကျွန်ုပ် အိမ်က မြေအောက်ရထား ဘူတာနဲ့ နီးတယ်။
+to be close	နီးသည်
+If you go straight along this road, there is the library.	ဒီလမ်းအတိုင်း တည့်တည့် သွားရင် စာကြည့်တိုက် ရှိတယ်။
+Turn right and walk straight ahead.	ညာဘက် ချိုးပြီး တည့်တည့် လျှောက်ပါ။
+It takes three hours by bus from Jeonju to Seoul.	ဂျွန်ဂျူကနေ ဆိုးလ်အထိ ဘတ်စ်ကားနဲ့ သုံးနာရီ ကြာတယ်။
+from ~ to	-ကနေ -အထိ
+The homework took longer than I thought.	အိမ်စာက ထင်တာထက် ပိုကြာခဲ့တယ်။
+My right leg hurts.	ညာဘက် ခြေထောက် နာတယ်။
+Jayu Hall is to the left of the Star Center.	자유관 က 스타센터 ရဲ့ ဘယ်ဘက်မှာ ရှိတယ်။
+to be at	-မှာ ရှိသည်
+Go left at the next intersection.	နောက် လမ်းဆုံမှာ ဘယ်ဘက် ချိုးပါ။
+Excuse me. Where is the subway station?	တစ်ဆိတ်လောက်။ မြေအောက်ရထား ဘူတာ ဘယ်မှာလဲ။
+Go straight along this road.	ဒီလမ်းအတိုင်း တည့်တည့် သွားပါ။
+It takes about five minutes on foot.	လမ်းလျှောက်ရင် ငါးမိနစ်လောက် ကြာတယ်။
+on foot	လမ်းလျှောက်၍
+Do I turn right in front of the bank?	ဘဏ်ရှေ့မှာ ညာဘက် ချိုးရမလား။
+No, turn left. It's next to the convenience store.	မဟုတ်ဘူး၊ ဘယ်ဘက် ချိုးပါ။ စတိုးဆိုင် ဘေးမှာ ပါ။
+When you go to a hospital in Korea, bring your residence card or passport.	ကိုရီးယား ဆေးရုံ သွားသောအခါ နေထိုင်ခွင့်ကတ် သို့မဟုတ် နိုင်ငံကူးလက်မှတ် ယူသွားပါ။
+'사흘' = 3 days. 하루 (1), 이틀 (2), 사흘 (3).	'사흘' = ၃ ရက်။ 하루 (၁)၊ 이틀 (၂)၊ 사흘 (၃)။
+appointment, reservation	ချိန်းဆိုမှု၊ ကြိုတင် စာရင်းပေးခြင်း
+I made a reservation at the restaurant for seven.	စားသောက်ဆိုင်မှာ ခုနစ်နာရီအတွက် ကြိုတင် စာရင်းပေးခဲ့တယ်။
+to feel uncomfortable	အဆင်မပြေ ခံစားရသည်
+The chair is hard, so it's a little uncomfortable.	ကုလားထိုင်က မာလို့ နည်းနည်း အဆင်မပြေဘူး။
+to be uncomfortable	အဆင်မပြေသည်
+Isn't dorm life uncomfortable?	အဆောင် ဘဝက အဆင်မပြေဘူးလား။
+life	ဘဝ
+I sang a lot, so my throat hurts.	သီချင်း အများကြီး ဆိုလို့ လည်ချောင်း နာတယ်။
+throat	လည်ချောင်း
+I'm thirsty. Please give me some water.	ရေငတ်တယ်။ ရေ နည်းနည်း ပေးပါ။
+I caught a cold, so I'm coughing a lot.	အအေးမိလို့ ချောင်းအများကြီး ဆိုးတယ်။
+If you keep coughing, go to the hospital.	ချောင်း ဆက်ဆိုးရင် ဆေးရုံ သွားပါ။
+continuously	ဆက်တိုက်
+I have class in the morning.	မနက်ပိုင်းမှာ အတန်း ရှိတယ်။
+The bank opens at 9 a.m.	ဘဏ်က နံနက် ၉ နာရီမှာ ဖွင့်တယ်။
+Hello, this is Hanbit Hospital.	ဟုတ်ကဲ့၊ ဟန်ဘစ် ဆေးရုံ ပါ။
+it is (formal)	ဖြစ်ပါသည် (တရားဝင်)
+I'd like to make an appointment for tomorrow.	မနက်ဖြန်အတွက် ချိန်းဆိုချင်ပါတယ်။
+medical treatment	ဆေးကုသမှု
+to make an appointment	ချိန်းဆိုသည်
+What's wrong? (Where does it bother you?)	ဘာ ဖြစ်နေလဲ။ (ဘယ်နေရာ အဆင်မပြေလဲ)
+I've had a sore throat and a cough for three days.	သုံးရက်ကတည်းက လည်ချောင်း နာပြီး ချောင်းဆိုးနေတယ်။
+Is 10 a.m. tomorrow OK?	မနက်ဖြန် နံနက် ၁၀ နာရီ ရလား။
+ten o'clock	ဆယ်နာရီ
+Yes, that's good. I just need to bring my residence card, right?	ဟုတ်ကဲ့၊ ကောင်းပါတယ်။ နေထိုင်ခွင့်ကတ် ယူလာရုံပဲ မဟုတ်လား။
+residence card	နေထိုင်ခွင့်ကတ်
+to take (along)	ယူသွားသည်
+only need to	-ရုံပဲ
+'-(으)ㄹ까요?' is used to suggest doing something together.	'-(으)ㄹ까요?' ကို အတူ လုပ်ရန် အကြံပြုရာတွင် သုံးပါသည်။
+'-(으)ㄹ게요' = I will do it (a promise).	'-(으)ㄹ게요' = ကျွန်ုပ် လုပ်ပါမယ် (ကတိ)။
+What do you usually do on the weekend?	စနေ တနင်္ဂနွေမှာ များသောအားဖြင့် ဘာ လုပ်လဲ။
+I'm going to Jeonju Hanok Village this weekend.	ဒီစနေ တနင်္ဂနွေ ဂျွန်ဂျူ ဟန်အုတ် ရွာကို သွားမယ်။
+this	ဒီ (အကြိမ်)
+Vishal works part-time at a cafe every weekend.	ဗီရှားလ်က စနေ တနင်္ဂနွေတိုင်း ကဖေးမှာ အချိန်ပိုင်းအလုပ် လုပ်တယ်။
+I like Korean movies.	ကိုရီးယား ရုပ်ရှင် ကြိုက်တယ်။
+I watched a movie in the dorm yesterday.	မနေ့က အဆောင်မှာ ရုပ်ရှင် ကြည့်ခဲ့တယ်။
+I met Jinha at the library yesterday.	မနေ့က စာကြည့်တိုက်မှာ ဂျင်ဟာနဲ့ တွေ့ခဲ့တယ်။
+Shall we meet at the student cafeteria?	ကျောင်းသား စားသောက်ဆောင်မှာ တွေ့ကြမလား။
+shall we	-ကြမလား
+to book (tickets)	(လက်မှတ်) ကြိုတင် ဝယ်သည်
+I booked the train ticket online.	ရထား လက်မှတ်ကို အွန်လိုင်းကနေ ကြိုဝယ်ခဲ့တယ်။
+You have to book concert tickets in advance.	ဂီတပွဲ လက်မှတ်ကို ကြိုတင် ဝယ်ရမယ်။
+concert	ဂီတပွဲ
+Junho, are you free this weekend?	ဂျွန်ဟို၊ ဒီစနေ တနင်္ဂနွေ အားလား။
+I work my part-time job on Saturday. Sunday is fine.	စနေနေ့မှာ အချိန်ပိုင်းအလုပ် ရှိတယ်။ တနင်္ဂနွေ ရတယ်။
+Then shall we see a movie together on Sunday?	ဒါဆို တနင်္ဂနွေနေ့ အတူ ရုပ်ရှင် ကြည့်ကြမလား။
+Sounds good. What time shall we meet?	ကောင်းတယ်။ ဘယ်နှနာရီ တွေ့ကြမလဲ။
+Let's meet in front of the movie theater at two.	နှစ်နာရီမှာ ရုပ်ရှင်ရုံ ရှေ့မှာ တွေ့ကြစို့။
+OK. I'll book the tickets.	ရပြီ။ လက်မှတ် ကျွန်ုပ် ကြိုဝယ်လိုက်မယ်။
+Korean apartments use '동' (building) and '호' (unit number): 101동 302호.	ကိုရီးယား တိုက်ခန်းများတွင် '동' (အဆောက်အအုံ) နှင့် '호' (အခန်းနံပါတ်) ကို သုံးပါသည်: 101동 302호။
+'-이세요?' is a polite way to ask about the other person.	'-이세요?' သည် တစ်ဖက်လူအကြောင်း ယဉ်ကျေးစွာ မေးသော ပုံစံ ဖြစ်ပါသည်။
+The parcel I ordered yesterday came today.	မနေ့က မှာထားတဲ့ ပါဆယ် ဒီနေ့ ရောက်လာတယ်။
+parcel	ပါဆယ်
+I want to send a parcel to my hometown.	ဇာတိကို ပါဆယ် ပို့ချင်တယ်။
+by mistake	မှားပြီး
+I wrote the phone number wrong.	ဖုန်းနံပါတ် မှားရေးမိတယ်။
+wrongly	မှားယွင်းစွာ
+Please put the clothes in this box.	ဒီဘူးထဲ အဝတ်တွေ ထည့်ပေးပါ။
+There is a present inside the box.	ဘူးထဲမှာ လက်ဆောင် ရှိတယ်။
+My bag is heavy because there are many books in it.	အိတ်ထဲ စာအုပ် များလို့ လေးတယ်။
+to be heavy	လေးသည်
+I'll carry the heavy luggage.	လေးတဲ့ ပစ္စည်းကို ကျွန်ုပ် သယ်ပေးမယ်။
+luggage	ခရီးဆောင်အိတ်၊ ပစ္စည်း
+The road is slippery. Be careful.	လမ်း ချော်တယ်။ သတိထားပါ။
+Excuse me, do you live in unit 302?	တစ်ဆိတ်လောက်၊ ၃၀၂ အခန်းမှာ နေတာလား။
+unit (room number)	အခန်း (အခန်းနံပါတ်)
+Yes, that's right. What is it?	ဟုတ်ကဲ့၊ ဟုတ်ပါတယ်။ ဘာ ကိစ္စလဲ။
+what matter	ဘာ ကိစ္စ
+A parcel came to our house by mistake.	ပါဆယ်က ကျွန်ုပ်တို့ အိမ်ကို မှားပြီး ရောက်လာတယ်။
+our (humble)	ကျွန်ုပ်တို့ (နှိမ့်ချ)
+Oh, really? Thank you so much.	အော်၊ ဟုတ်လား။ တကယ် ကျေးဇူးတင်ပါတယ်။
+really?	ဟုတ်လား။
+The box is a bit heavy. Be careful.	ဘူးက နည်းနည်း လေးတယ်။ သတိထားပါ။
+Yes, thanks. I'll give you something tasty next time.	ဟုတ်ကဲ့၊ ကျေးဇူးပါ။ နောက်တစ်ခါ စားစရာ ကောင်းကောင်း ပေးပါမယ်။
+To take it with you: '가져갈게요'. To drink in the café: '여기서 마실게요'.	ယူသွားမယ်ဆိုရင် '가져갈게요'၊ ကဖေးထဲမှာ သောက်မယ်ဆိုရင် '여기서 마실게요' ဟု ပြောပါ။
+In Korean cafés, when the buzzer rings, you go and get your drink.	ကိုရီးယား ကဖေးများတွင် အချက်ပေးစက် မြည်လျှင် ကိုယ်တိုင် သွားယူရပါသည်။
+I ordered food, but it hasn't come out yet.	အစားအစာ မှာထားပေမဲ့ မထွက်လာသေးဘူး။
+yet	သေး
+Shall I take your order?	အော်ဒါ ယူပေးရမလား။
+to help (honorific)	ကူညီပေးသည် (ရိုသေ)
+I drink a cup of coffee every morning.	မနက်တိုင်း ကော်ဖီ တစ်ခွက် သောက်တယ်။
+A glass of water, please.	ရေ တစ်ခွက် ပေးပါ။
+one glass	တစ်ခွက်
+These sneakers are a little big for me.	ဒီအားကစားဖိနပ်က ကျွန်ုပ်နဲ့ နည်းနည်း ကြီးတယ်။
+to be big	ကြီးသည်
+Seoul is a really big city.	ဆိုးလ်က တကယ် မြို့ကြီး ပါ။
+city	မြို့
+It's hot, so shall we drink something cold?	ပူလို့ အေးအေး တစ်ခုခု သောက်ကြမလား။
+I lost my student card.	ကျောင်းသားကတ် ပျောက်သွားတယ်။
+would you (polite)	-မလား (ယဉ်ကျေး)
+One iced americano, please.	အိုက်စ် အမေရိကာနို တစ်ခွက် ပေးပါ။
+americano	အမေရိကာနို
+What size would you like?	ဆိုဒ် ဘယ်လောက် ယူမလဲ။
+to do for you	-ပေးသည်
+A large one, please. I'll drink it here.	အကြီး ပေးပါ။ ဒီမှာ သောက်မယ်။
+That's 4,500 won. Please insert your card here.	ဝမ် ၄,၅၀၀ ပါ။ ကတ်ကို ဒီမှာ ထိုးထည့်ပါ။
+to insert	ထိုးထည့်သည်
+OK. I just come when the buzzer rings, right?	ဟုတ်ကဲ့။ အချက်ပေးစက် မြည်ရင် လာယူရုံပဲ မဟုတ်လား။
+buzzer	အချက်ပေးစက် (buzzer)
+just need to	-ရုံပဲ
+'켜지다' = to turn on. 안 켜져요 = it won't turn on.	'켜지다' = ပွင့်သည် (ဖွင့်သည်)။ 안 켜져요 = မပွင့်ဘူး။
+'비를 맞다' = to get caught in the rain.	'비를 맞다' = မိုးမိသည်။
+My cell phone battery is dead.	ဖုန်း ဘက်ထရီ ကုန်သွားပြီ။
+Don't look at your cell phone during class.	အတန်းချိန်မှာ ဖုန်း မကြည့်ပါနှင့်။
+class time	အတန်းချိန်
+don't	-ပါနှင့်
+The computer screen is too small.	ကွန်ပျူတာ မျက်နှာပြင် အရမ်း သေးတယ်။
+The photo appears on the screen.	မျက်နှာပြင်ပေါ်မှာ ဓာတ်ပုံ ပေါ်လာတယ်။
+It suddenly rained, so my clothes got all wet.	ရုတ်တရက် မိုး ရွာလို့ အဝတ်တွေ အကုန် စိုသွားတယ်။
+My stomach suddenly hurt during class.	အတန်းချိန်အတွင်း ရုတ်တရက် ဗိုက် နာလာတယ်။
+stomach	ဗိုက်
+My bicycle broke, so I had it repaired.	စက်ဘီး ပျက်လို့ ပြင်ခိုင်းခဲ့တယ်။
+How much is it to repair the laptop?	လက်ပ်တော့ ပြင်ဖို့ ဘယ်လောက်လဲ။
+I have a lot of worries because of the exam.	စာမေးပွဲကြောင့် စိုးရိမ်စရာ အများကြီး ရှိတယ်။
+Don't worry. Everything will be fine.	မစိုးရိမ်ပါနှင့်။ အားလုံး အဆင်ပြေသွားမှာ ပါ။
+My phone screen suddenly won't turn on.	ဖုန်း မျက်နှာပြင်က ရုတ်တရက် မပွင့်တော့ဘူး။
+Have you dropped it or gotten it wet?	ပြုတ်ကျခဲ့တာ သို့မဟုတ် ရေထဲ ကျခဲ့တာ ရှိလား။
+to drop into	(ရေထဲ) ကျစေသည်
+to have ever	-ဖူးသည်
+It got a bit of rain yesterday.	မနေ့က မိုး နည်းနည်း မိခဲ့တယ်။
+to get hit (by rain)	(မိုး) မိသည်
+It takes about three days to repair.	ပြင်ဖို့ သုံးရက်လောက် ကြာတယ်။
+The photos won't be deleted, right? That's my biggest worry.	ဓာတ်ပုံတွေ မပျက်ဘူး မဟုတ်လား။ အဲဒါ အစိုးရိမ်ဆုံး ပါ။
+to be deleted	ပျက်သွားသည် (ဖျက်ခံရသည်)
+'-다면서요?' is used to check something you heard.	'-다면서요?' ကို ကြားခဲ့သော အရာကို စစ်ဆေးရာတွင် သုံးပါသည်။
+In Korea, after moving, people invite friends to a '집들이'. Common gifts are toilet paper or detergent.	ကိုရီးယားတွင် အိမ်ပြောင်းပြီးနောက် သူငယ်ချင်းများကို '집들이' (အိမ်တက်ပွဲ) ဖိတ်ကြပါသည်။ အများဆုံး လက်ဆောင်မှာ တစ်ရှူး သို့မဟုတ် ဆပ်ပြာမှုန့် ဖြစ်ပါသည်။
+I'm moving into the dorm next month.	နောက်လ အဆောင်ကို ပြောင်းမယ်။
+The house I moved into is very spacious.	ပြောင်းလာတဲ့ အိမ်က အရမ်း ကျယ်တယ်။
+to be spacious	ကျယ်သည်
+There are many good restaurants near the school.	ကျောင်းနားမှာ စားကောင်းတဲ့ ဆိုင် အများကြီး ရှိတယ်။
+Is there a bank near here?	ဒီနားမှာ ဘဏ် ရှိလား။
+I packed my things in the suitcase.	ခရီးဆောင်အိတ်ထဲ ပစ္စည်းတွေ ထည့်ခဲ့တယ်။
+suitcase	ခရီးဆောင်အိတ်
+things, luggage	ပစ္စည်း၊ ခရီးဆောင်အိတ်
+I had a lot of luggage, so I took a taxi.	ပစ္စည်း များလို့ တက္ကစီ စီးခဲ့တယ်။
+I didn't have enough time, so I couldn't solve all the exam questions.	အချိန် မလောက်လို့ စာမေးပွဲ မေးခွန်းတွေ အားလုံး မဖြေနိုင်ခဲ့ဘူး။
+I'm not getting enough sleep these days.	ဒီရက်ပိုင်း အိပ်ရေး မဝဘူး။
+I went to Aung's housewarming party on Saturday.	စနေနေ့မှာ အောင် ရဲ့ အိမ်တက်ပွဲကို သွားခဲ့တယ်။
+I bought toilet paper as a housewarming gift.	အိမ်တက်ပွဲ လက်ဆောင်အဖြစ် တစ်ရှူး ဝယ်ခဲ့တယ်။
+gift	လက်ဆောင်
+toilet paper	တစ်ရှူး
+Minsu, I heard you're moving next week?	မင်ဆူ၊ နောက်အပတ် အိမ်ပြောင်းမယ်ဆို။
+I heard that	-မယ်ဆို
+Yes, I'm moving to a one-room near school.	ဟုတ်ကဲ့၊ ကျောင်းနားက အခန်းတစ်ခန်းတည်း တိုက်ခန်းကို ပြောင်းမယ်။
+Do you have a lot of things? Shall I help?	ပစ္စည်း များလား။ ကူညီပေးရမလား။
+Thanks. I have a lot of books, so I don't have enough boxes.	ကျေးဇူးပါ။ စာအုပ် များလို့ ဘူး မလောက်ဘူး။
+We have some empty boxes at home. I'll bring them to you.	ကျွန်ုပ်တို့ အိမ်မှာ ဘူးအလွတ်တွေ ရှိတယ်။ ယူလာပေးမယ်။
+to bring (for someone)	ယူလာပေးသည်
+When the move is over, please come to my housewarming party.	အိမ်ပြောင်းတာ ပြီးရင် အိမ်တက်ပွဲကို လာခဲ့ပါ။
+to be over	ပြီးသည်
+Things you hear in Korean class and at school. Listen carefully to the professor and the announcements. Order: ❶ Listen to the whole text → ❷ Listen line by line → ❸ Words → ❹ Quiz.	ကိုရီးယားစကား အတန်းနှင့် ကျောင်းတွင် ကြားရသော အရာများ ဖြစ်ပါသည်။ ပါမောက္ခနှင့် ကြေညာချက်များကို သေချာ နားထောင်ပါ။ အစီအစဉ်: ❶ စာသား တစ်ခုလုံး နားထောင် → ❷ တစ်ကြောင်းချင်း ပြန်နားထောင် → ❸ စကားလုံးများ → ❹ ပဟေဠိ။
+'-지 마세요' = Don't...	'-지 마세요' = ... မလုပ်ပါနှင့်။
+'-부터 -까지' = from... to...	'-부터 -까지' = ... မှ ... အထိ။
+Everyone, please listen carefully.	အားလုံး၊ သေချာ နားထောင်ပါ။
+Everyone, see you again tomorrow.	အားလုံး၊ မနက်ဖြန် ပြန်တွေ့ကြမယ်။
+I have three classes today.	ဒီနေ့ အတန်း သုံးခု ရှိတယ်။
+Let's eat together after class ends.	အတန်း ပြီးရင် အတူ စားကြစို့။
+I overslept, so I was late.	အိပ်ရာ နောက်ကျလို့ နောက်ကျသွားတယ်။
+to oversleep	အိပ်ရာ နောက်ကျသည်
+The road is jammed, so I think I'll be late again today.	လမ်း ပိတ်နေလို့ ဒီနေ့လည်း နောက်ကျမယ် ထင်တယ်။
+traffic is jammed	လမ်း ပိတ်ဆို့သည်
+I think	-မယ် ထင်တယ်
+to ask a question	မေးခွန်း မေးသည်
+There was a word I didn't know, so I asked the professor.	မသိတဲ့ စကားလုံး ရှိလို့ ပါမောက္ခကို မေးခဲ့တယ်။
+Those who want to ask a question, raise your hand.	မေးခွန်း မေးချင်တဲ့သူ လက် ထောင်ပါ။
+to raise a hand	လက် ထောင်သည်
+self-introduction	ကိုယ့်ကိုယ်ကို မိတ်ဆက်ခြင်း
+I introduced myself in Korean in the first class.	ပထမဆုံး အတန်းမှာ ကိုရီးယားလို ကိုယ့်ကိုယ်ကို မိတ်ဆက်ခဲ့တယ်။
+Please give a short self-introduction.	ကိုယ့်ကိုယ်ကို တိုတိုလေး မိတ်ဆက်ပေးပါ။
+to be short	တိုသည်
+Hello, everyone. I'm Lee Jieun, your Korean professor.	အားလုံး မင်္ဂလာပါ။ ကိုရီးယားစကား ပါမောက္ခ လီ ဂျီအွန် ပါ။
+Classes start at 9 a.m. from Monday to Friday.	အတန်းကို တနင်္လာမှ သောကြာအထိ နံနက် ၉ နာရီမှာ စတင်ပါတယ်။
+Please don't be late.	နောက်မကျပါနှင့်။
+If there is anything you don't know, ask any time.	မသိတာ ရှိရင် ဘယ်အချိန်မဆို မေးပါ။
+any time	ဘယ်အချိန်မဆို
+There is a little homework every day.	အိမ်စာ နေ့တိုင်း နည်းနည်းစီ ရှိပါတယ်။
+Now, shall we introduce ourselves one by one?	ကဲ၊ အခု တစ်ယောက်ချင်း မိတ်ဆက်ကြမလား။
+one by one	တစ်ယောက်ချင်း
+Words you often hear in class: 펴세요, 들으세요, 따라 하세요, 쓰세요.	အတန်းထဲမှာ မကြာခဏ ကြားရတဲ့ စကားလုံးများ: 펴세요၊ 들으세요၊ 따라 하세요၊ 쓰세요။
+'듣다' changes to '들으세요'.	'듣다' သည် '들으세요' ဟု ပြောင်းပါသည်။
+page	စာမျက်နှာ
+This book has 300 pages.	ဒီစာအုပ်မှာ စာမျက်နှာ ၃၀၀ ရှိတယ်။
+The homework is on page 15.	အိမ်စာက စာမျက်နှာ ၁၅ မှာ ပါ။
+to open (a book)	(စာအုပ်) ဖွင့်သည်
+Open your textbooks and let's read together.	ဖတ်စာအုပ် ဖွင့်ပြီး အတူ ဖတ်ကြစို့။
+It rained, so I opened my umbrella.	မိုး ရွာလို့ ထီး ဖွင့်ခဲ့တယ်။
+to open (spread)	ဖြန့်သည်၊ ဖွင့်သည်
+to repeat after	လိုက်လုပ်သည်၊ လိုက်ဆိုသည်
+Listen to the song and try to sing along.	သီချင်း နားထောင်ပြီး လိုက်ဆိုကြည့်ပါ။
+I study Korean by repeating drama lines.	ဇာတ်လမ်းတွဲ စကားပြောတွေကို လိုက်ပြောပြီး ကိုရီးယားစကား လေ့လာတယ်။
+lines	(ဇာတ်ကား) စကားပြော
+I practice Korean pronunciation every day.	နေ့တိုင်း ကိုရီးယား အသံထွက် လေ့ကျင့်တယ်။
+Nikos practices soccer on the sports field.	နီကော့စ်က ကစားကွင်းမှာ ဘောလုံး လေ့ကျင့်တယ်။
+to be tired	ပင်ပန်းသည်
+I rest at home on Sundays.	တနင်္ဂနွေနေ့မှာ အိမ်မှာ နားတယ်။
+Open your book to page 20.	စာအုပ် စာမျက်နှာ ၂၀ ကို ဖွင့်ပါ။
+First, listen carefully to the conversation.	ပထမဦးစွာ စကားပြောကို သေချာ နားထောင်ပါ။
+conversation	စကားပြော
+Listen once more and repeat.	နောက်တစ်ခါ နားထောင်ပြီး လိုက်ဆိုပါ။
+Practice with the person next to you.	ဘေးက လူနဲ့ အတူ လေ့ကျင့်ပါ။
+person next to you	ဘေးက လူ
+Are you finished? Then try writing it in your notebook.	ပြီးပြီလား။ ဒါဆို မှတ်စုစာအုပ်ထဲ ရေးကြည့်ပါ။
+Well done. We'll take a five-minute break.	တော်တယ်။ ငါးမိနစ် နားကြမယ်။
+'-에 대해서' = about.	'-에 대해서' = ... အကြောင်း။
+숙제를 '내다' = to give it to the professor (hand in).	숙제를 '내다' = ပါမောက္ခကို ပေးသည် (တင်သည်)။
+I finished all my homework and went to sleep.	အိမ်စာ အားလုံး လုပ်ပြီးမှ အိပ်ခဲ့တယ်။
+I'm busy today because I have a lot of homework.	ဒီနေ့ အိမ်စာ များလို့ အလုပ်များတယ်။
+sentence	ဝါကျ
+Try translating this sentence into English.	ဒီဝါကျကို အင်္ဂလိပ်လို ဘာသာပြန်ကြည့်ပါ။
+to translate	ဘာသာပြန်သည်
+The sentence is too long, so it's difficult.	ဝါကျ အရမ်း ရှည်လို့ ခက်တယ်။
+to be long	ရှည်သည်
+I handed in the report by email.	အစီရင်ခံစာကို အီးမေးလ်နဲ့ တင်ခဲ့တယ်။
+Hand in the application form at the office.	လျှောက်လွှာကို ရုံးမှာ တင်ပါ။
+score, grade	အမှတ်
+I got a good score on this exam.	ဒီစာမေးပွဲမှာ အမှတ် ကောင်းကောင်း ရခဲ့တယ်။
+The score is lower than I expected.	အမှတ်က ထင်တာထက် နိမ့်တယ်။
+than expected	ထင်တာထက်
+to be low	နိမ့်သည်
+I'm going to finish work quickly and go home.	အလုပ်ကို မြန်မြန် ပြီးအောင်လုပ်ပြီး အိမ်ပြန်မယ်။
+I have to finish the homework by today.	အိမ်စာကို ဒီနေ့အထိ ပြီးအောင် လုပ်ရမယ်။
+to have to	-ရမည်
+I'll tell you today's homework.	ဒီနေ့ အိမ်စာကို ပြောပြပါမယ်။
+Do pages 30 to 32 in the workbook.	လေ့ကျင့်ခန်း စာအုပ် စာမျက်နှာ ၃၀ မှ ၃၂ အထိ လုပ်ပါ။
+workbook	လေ့ကျင့်ခန်း စာအုပ်
+And write five sentences about 'My Day'.	ပြီးတော့ 'ကျွန်ုပ်ရဲ့ တစ်နေ့တာ' အကြောင်း ဝါကျ ငါးကြောင်း ရေးပါ။
+Hand in your homework by Thursday.	အိမ်စာကို ကြာသပတေးနေ့အထိ တင်ပါ။
+by	-အထိ
+If you hand it in late, your score goes down.	နောက်ကျပြီး တင်ရင် အမှတ် လျော့တယ်။
+Any questions? If not, we'll finish.	မေးစရာ ရှိသလား။ မရှိရင် ပြီးကြမယ်။
+'시험을 보다' = to take a test.	'시험을 보다' = စာမေးပွဲ ဖြေသည်။
+Adding '-기' makes a noun: 듣다 → 듣기 (listening).	'-기' ထည့်လျှင် နာမ် ဖြစ်ပါသည်: 듣다 → 듣기 (နားထောင်ခြင်း)။
+I'm taking a Korean test tomorrow.	မနက်ဖြန် ကိုရီးယားစကား စာမေးပွဲ ဖြေမယ်။
+to take a test	စာမေးပွဲ ဖြေသည်
+The exam was easier than I thought.	စာမေးပွဲက ထင်တာထက် လွယ်တယ်။
+to be easy	လွယ်သည်
+Listening is the hardest for me.	ကျွန်ုပ်အတွက် နားထောင်ခြင်းက အခက်ဆုံး ပါ။
+I practice listening every day.	နားထောင်ခြင်းကို နေ့တိုင်း လေ့ကျင့်တယ်။
+Rahima is good at reading.	ရာဟီမာက စာဖတ်တာ တော်တယ်။
+I got everything right on the reading test.	စာဖတ် စာမေးပွဲမှာ အားလုံး မှန်ခဲ့တယ်။
+test	စာမေးပွဲ
+to be correct	မှန်သည်
+pencil	ခဲတံ
+Please lend me a pencil.	ခဲတံ ငှားပေးပါ။
+Write your name with a pencil.	ခဲတံနဲ့ နာမည် ရေးပါ။
+eraser	ခဲဖျက်
+I erased the wrong letter with an eraser.	မှားတဲ့ စာလုံးကို ခဲဖျက်နဲ့ ဖျက်ခဲ့တယ်။
+to erase	ဖျက်သည်
+There is no eraser in my pencil case.	ခဲတံဘူးထဲမှာ ခဲဖျက် မရှိဘူး။
+pencil case	ခဲတံဘူး
+There is a midterm exam next Wednesday.	နောက်အပတ် ဗုဒ္ဓဟူးနေ့မှာ စာသင်နှစ်ဝက် အလယ် စာမေးပွဲ ရှိတယ်။
+We will have listening, reading, writing and speaking tests.	နားထောင်ခြင်း၊ ဖတ်ခြင်း၊ ရေးခြင်း၊ ပြောခြင်း စာမေးပွဲ ရှိပါမယ်။
+speaking	ပြောခြင်း
+The exam starts at 9 a.m. and ends at 12.	စာမေးပွဲက နံနက် ၉ နာရီမှာ စပြီး ၁၂ နာရီမှာ ပြီးတယ်။
+The speaking test is in the afternoon, one person at a time.	ပြောခြင်း စာမေးပွဲက ညနေပိုင်းမှာ တစ်ယောက်ချင်း ပါ။
+one person at a time	တစ်ယောက်ချင်း
+Be sure to bring a pencil and an eraser.	ခဲတံနဲ့ ခဲဖျက်ကို မဖြစ်မနေ ယူလာပါ။
+Put your phones in your bags.	ဖုန်းတွေကို အိတ်ထဲ ထည့်ထားပါ။
+'-(으)ㄹ 것 같아요' = I think..., probably...	'-(으)ㄹ 것 같아요' = ... မယ် ထင်တယ်၊ ... လောက်မယ်။
+Many schools ask for a medical certificate if you miss class because you are sick.	နေမကောင်းလို့ အတန်း ပျက်ရင် ကျောင်းတော်တော်များများက ဆေးလက်မှတ် တောင်းပါသည်။
+I had a high fever last night.	မနေ့ညက အဖျား အများကြီး တက်ခဲ့တယ်။
+If you have a fever, take this medicine.	အဖျား ရှိရင် ဒီဆေး သောက်ပါ။
+to take (honorific)	သုံးဆောင်သည် (ရိုသေ)
+I'm busy today, so I can't go to the party.	ဒီနေ့ အလုပ်များလို့ ပါတီ မသွားနိုင်ဘူး။
+It rained a lot, so I couldn't go on the trip.	မိုး သည်းသည်း ရွာလို့ ခရီး မသွားနိုင်ခဲ့ဘူး။
+My stomach hurt, so I went to the hospital.	ဗိုက်နာလို့ ဆေးရုံ သွားခဲ့တယ်။
+There is a big hospital near the school.	ကျောင်းနားမှာ ဆေးရုံကြီး ရှိတယ်။
+I got a medical certificate at the hospital.	ဆေးရုံမှာ ဆေးလက်မှတ် ယူခဲ့တယ်။
+(rest) well, deeply	ကောင်းကောင်း (နားခြင်း)
+I slept well last night.	မနေ့ညက ကောင်းကောင်း အိပ်ခဲ့တယ်။
+deeply	နှစ်နှစ်ခြိုက်ခြိုက်
+Get a good rest at home on the weekend.	စနေ တနင်္ဂနွေမှာ အိမ်မှာ ကောင်းကောင်း နားပါ။
+Professor, it's me, Maria.	ပါမောက္ခ၊ ကျွန်မ မာရီယာ ပါ။
+Yes, Maria. What's the matter?	ဟုတ်ကဲ့၊ မာရီယာ။ ဘာ ဖြစ်လို့လဲ။
+I have a fever, so I don't think I can go to school today.	ဖျားနေလို့ ဒီနေ့ ကျောင်း မလာနိုင်မယ် ထင်ပါတယ်။
+I'm about to go now. Do I need to hand in a medical certificate?	အခု သွားမလို့ ပါ။ ဆေးလက်မှတ် တင်ရမလား။
+to be about to	-မလို့
+Yes, bring it tomorrow. Get some good rest.	ဟုတ်ကဲ့၊ မနက်ဖြန် ယူလာပါ။ ကောင်းကောင်း နားပါ။
+well, deeply	ကောင်းကောင်း
+Books are counted with '권': 한 권, 두 권.	စာအုပ်ကို '권' ဖြင့် ရေတွက်ပါသည်: 한 권၊ 두 권။
+'-(으)면 안 돼요' = you must not...	'-(으)면 안 돼요' = ... မလုပ်ရ။
+During exam period, there are many people in the library.	စာမေးပွဲ ကာလမှာ စာကြည့်တိုက်မှာ လူ များတယ်။
+Shall we study together at the library?	စာကြည့်တိုက်မှာ အတူ စာကျက်ကြမလား။
+(counter for books)	အုပ် (စာအုပ် ရေတွက်ပုံ)
+I bought two books at the bookstore.	စာအုပ်ဆိုင်မှာ စာအုပ် နှစ်အုပ် ဝယ်ခဲ့တယ်။
+I read one book a month.	တစ်လမှာ စာအုပ် တစ်အုပ် ဖတ်တယ်။
+one volume	တစ်အုပ်
+May I borrow a pen?	ဘောပင် ငှားလို့ ရလား။
+to return	ပြန်ပေးသည်
+I'll give back the money I borrowed tomorrow.	ငှားထားတဲ့ ပိုက်ဆံကို မနက်ဖြန် ပြန်ပေးမယ်။
+I returned the book to John.	ဂျွန်ကို စာအုပ် ပြန်ပေးခဲ့တယ်။
+I lost my student ID card, so I had a new one made.	ကျောင်းသားကတ် ပျောက်လို့ အသစ် ပြန်လုပ်ခဲ့တယ်။
+If you have a student ID card, you can get a discount.	ကျောင်းသားကတ် ရှိရင် လျှော့ဈေး ရနိုင်တယ်။
+This is information about using the library.	စာကြည့်တိုက် အသုံးပြုမှုဆိုင်ရာ အချက်အလက် ဖြစ်ပါသည်။
+information	အချက်အလက်၊ လမ်းညွှန်
+The library is open from 9 a.m. to 10 p.m.	စာကြည့်တိုက်ကို နံနက် ၉ နာရီမှ ည ၁၀ နာရီအထိ ဖွင့်ပါသည်။
+to be open	ဖွင့်ထားသည်
+You can borrow up to five books at a time.	တစ်ကြိမ်လျှင် စာအုပ် ငါးအုပ်အထိ ငှားနိုင်ပါသည်။
+at a time	တစ်ကြိမ်လျှင်
+Please return borrowed books within two weeks.	ငှားထားသော စာအုပ်များကို နှစ်ပတ်အတွင်း ပြန်အပ်ပါ။
+You must not eat food in the reading room.	စာဖတ်ခန်းထဲတွင် အစားအစာ မစားရပါ။
+You need a student ID card to go in.	ဝင်ရန် ကျောင်းသားကတ် လိုပါသည်။
+only if	-မှ
+A group of people with the same hobby at university is called a '동아리'.	တက္ကသိုလ်တွင် ဝါသနာ တူသူများ အဖွဲ့ကို '동아리' ဟု ခေါ်ပါသည်။
+'일주일에 두 번' = twice a week.	'일주일에 두 번' = တစ်ပတ်မှာ နှစ်ကြိမ်။
+I joined the photography club.	ဓာတ်ပုံ အသင်းကို ဝင်ခဲ့တယ်။
+to join	ဝင်သည်
+I went hiking with my club friends.	အသင်းက သူငယ်ချင်းတွေနဲ့ တောင်တက် သွားခဲ့တယ်။
+What shall we eat for dinner?	ညစာ ဘာ စားကြမလဲ။
+I exercise every evening.	ညနေတိုင်း လေ့ကျင့်ခန်း လုပ်တယ်။
+every evening	ညနေတိုင်း
+There are many international students in Jeonju too.	ဂျွန်ဂျူမှာလည်း နိုင်ငံခြား ကျောင်းသား များတယ်။
+I have to get a residence card.	နေထိုင်ခွင့်ကတ် လုပ်ရမယ်။
+I'm going to my hometown during vacation.	ကျောင်းပိတ်ရက်မှာ ဇာတိ ပြန်မယ်။
+will	-မည်
+When does winter vacation start?	ဆောင်းရာသီ ကျောင်းပိတ်ရက် ဘယ်တော့ စလဲ။
+interest	စိတ်ဝင်စားမှု
+I'm very interested in Korean history.	ကိုရီးယား သမိုင်းကို အရမ်း စိတ်ဝင်စားတယ်။
+history	သမိုင်း
+to be very interested	အရမ်း စိတ်ဝင်စားသည်
+I've become interested in cooking these days.	ဒီရက်ပိုင်း ဟင်းချက်တာကို စိတ်ဝင်စားလာတယ်။
+to become interested	စိတ်ဝင်စားလာသည်
+Hello. We are the taekwondo club.	မင်္ဂလာပါ။ ကျွန်ုပ်တို့က တိုက်ကွမ်ဒို အသင်း ပါ။
+we	ကျွန်ုပ်တို့
+We practice twice a week, on Tuesday and Thursday evenings.	တစ်ပတ်မှာ နှစ်ကြိမ်၊ အင်္ဂါနဲ့ ကြာသပတေး ညနေတွေမှာ လေ့ကျင့်ပါတယ်။
+times	ကြိမ်
+Beginners are welcome too.	စသင်မယ့်သူတွေကိုလည်း ကြိုဆိုပါတယ်။
+We have many international friends, too.	နိုင်ငံခြား သူငယ်ချင်းတွေလည်း အများကြီး ရှိပါတယ်။
+In the summer vacation, we travel to the beach together.	နွေရာသီ ကျောင်းပိတ်ရက်မှာ ပင်လယ်ကမ်းခြေကို အတူ ခရီးသွားပါတယ်။
+If you are interested, come to the 2nd floor of the Student Union building.	စိတ်ဝင်စားရင် ကျောင်းသား ခန်းမ အဆောက်အအုံ ၂ ထပ်ကို လာခဲ့ပါ။
+student union building	ကျောင်းသား ခန်းမ အဆောက်အအုံ
+'-(으)려고 해요' = I'm planning to...	'-(으)려고 해요' = ... ဖို့ စီစဉ်နေတယ်။
+When you start a presentation, you often say '지금부터 발표를 시작하겠습니다'.	တင်ပြချက် စတင်သောအခါ '지금부터 발표를 시작하겠습니다' ဟု မကြာခဏ ပြောပါသည်။
+I have a presentation in class tomorrow.	မနက်ဖြန် အတန်းချိန်မှာ တင်ပြချက် ရှိတယ်။
+I'm so nervous because of the presentation.	တင်ပြချက်ကြောင့် အရမ်း ရင်ခုန်နေတယ်။
+topic	ခေါင်းစဉ်
+The report topic is too difficult.	အစီရင်ခံစာ ခေါင်းစဉ်က အရမ်း ခက်တယ်။
+Today's discussion topic is the environment.	ဒီနေ့ ဆွေးနွေးမယ့် ခေါင်းစဉ်က ပတ်ဝန်းကျင် ပါ။
+discussion	ဆွေးနွေးခြင်း
+environment	ပတ်ဝန်းကျင်
+to decide	ဆုံးဖြတ်သည်
+Have you decided on the travel date?	ခရီးသွားမယ့် ရက် ဆုံးဖြတ်ပြီးပြီလား။
+Aisha, you decide the lunch menu.	နေ့လယ်စာ မီနူးကို အိုင်ရှာ ဆုံးဖြတ်ပါ။
+I took a lot of photos on the trip.	ခရီးမှာ ဓာတ်ပုံ အများကြီး ရိုက်ခဲ့တယ်။
+to take (photos)	(ဓာတ်ပုံ) ရိုက်သည်
+Who is the person in this photo?	ဒီဓာတ်ပုံထဲက လူက ဘယ်သူလဲ။
+I'm busy preparing for the exam.	စာမေးပွဲ ပြင်ဆင်နေလို့ အလုပ်များတယ်။
+I prepared a birthday party for my friend.	သူငယ်ချင်းရဲ့ မွေးနေ့ပွဲကို ပြင်ဆင်ပေးခဲ့တယ်။
+birthday party	မွေးနေ့ပွဲ
+Have you decided on the topic for next week's presentation?	နောက်အပတ် တင်ပြချက် ခေါင်းစဉ် ဆုံးဖြတ်ပြီးပြီလား။
+Yes, I'm going to talk about Nepali food.	ဟုတ်ကဲ့၊ နီပေါ အစားအစာ အကြောင်း ပြောမလို့ ပါ။
+to plan to	-ဖို့ စီစဉ်သည်
+Nice. Will you show some photos too?	ကောင်းတယ်။ ဓာတ်ပုံတွေလည်း ပြမှာလား။
+Yes, I've prepared photos of momo and dal bhat.	ဟုတ်ကဲ့၊ မိုမို နဲ့ ဒါလ်ဘတ် ဓာတ်ပုံတွေ ပြင်ဆင်ထားတယ်။
+momo	မိုမို
+dal bhat	ဒါလ်ဘတ်
+How long is the presentation?	တင်ပြချက်က ဘယ်နှမိနစ်လဲ။
+how many minutes	ဘယ်နှမိနစ်
+Ten minutes. I'm going to practice tonight.	ဆယ်မိနစ် ပါ။ ဒီည လေ့ကျင့်မလို့။
+ten minutes	ဆယ်မိနစ်
+'알려 드립니다' is a polite expression used to start an announcement.	'알려 드립니다' သည် ကြေညာချက် စတင်ရာတွင် သုံးသော ယဉ်ကျေးသည့် အသုံးအနှုန်း ဖြစ်ပါသည်။
+Winter vacation at Korean universities is usually about two months.	ကိုရီးယား တက္ကသိုလ်များ၏ ဆောင်းရာသီ ကျောင်းပိတ်ရက်သည် များသောအားဖြင့် နှစ်လခန့် ဖြစ်ပါသည်။
+I'm taking five classes this semester.	ဒီစာသင်နှစ်ဝက်မှာ အတန်း ငါးခု တက်နေတယ်။
+to take a class	အတန်း တက်သည်
+I want to get a scholarship next semester.	နောက်စာသင်နှစ်ဝက်မှာ ပညာသင်ဆု ရချင်တယ်။
+The dorm room is a bit small.	အဆောင် အခန်းက နည်းနည်း သေးတယ်။
+I eat breakfast at the dormitory cafeteria.	အဆောင် စားသောက်ဆောင်မှာ မနက်စာ စားတယ်။
+cafeteria	စားသောက်ဆောင်
+I want to apply for the Korean speaking contest.	ကိုရီးယားစကား မိန့်ခွန်း ပြိုင်ပွဲကို လျှောက်ချင်တယ်။
+speaking contest	မိန့်ခွန်း ပြိုင်ပွဲ
+When my grades come out, I'll show them to my parents.	အမှတ်တွေ ထွက်ရင် မိဘတွေကို ပြမယ်။
+to spend (time)	(အချိန်) ကုန်လွန်စေသည်
+I spent a fun time with my friends.	သူငယ်ချင်းတွေနဲ့ ပျော်ပျော်ရွှင်ရွှင် အချိန် ကုန်လွန်ခဲ့တယ်။
+to be fun	ပျော်ရွှင်သည်
+How are you going to spend your vacation?	ကျောင်းပိတ်ရက်ကို ဘယ်လို ကုန်လွန်မလဲ။
+Attention, students.	ကျောင်းသားများ ခင်ဗျာ၊ အသိပေးပါသည်။
+Classes this semester end next Friday.	ဒီစာသင်နှစ်ဝက် အတန်းများ နောက်အပတ် သောကြာနေ့တွင် ပြီးဆုံးပါမည်။
+Vacation is from December 21st to the end of February.	ကျောင်းပိတ်ရက်သည် ဒီဇင်ဘာ ၂၁ ရက်မှ ဖေဖော်ဝါရီ လကုန်အထိ ဖြစ်ပါသည်။
+December	ဒီဇင်ဘာ
+Students who will stay in the dorm, please apply by this week.	အဆောင်တွင် ဆက်နေမည့် ကျောင်းသားများ ဒီအပတ်အတွင်း လျှောက်ထားပါ။
+to stay, remain	ဆက်နေသည်၊ ကျန်သည်
+You can see your grades on the website on January 5th.	အမှတ်များကို ဇန်နဝါရီ ၅ ရက်နေ့တွင် ဝက်ဘ်ဆိုက်၌ ကြည့်နိုင်ပါသည်။
+Have a healthy and happy vacation.	ကျန်းမာပြီး ပျော်ရွှင်သော ကျောင်းပိတ်ရက် ဖြစ်ပါစေ။
+to be healthy	ကျန်းမာသည်
+to be happy, fun	ပျော်ရွှင်သည်
+'-씩' = each, per: 네 명씩 (four people each).	'-씩' = စီ၊ တစ်... လျှင်: 네 명씩 (လေးယောက်စီ)။
+'계획을 세우다' = to make a plan.	'계획을 세우다' = အစီအစဉ် ချသည်။
+small group	အဖွဲ့ငယ်
+Our group has five people.	ကျွန်ုပ်တို့ အဖွဲ့မှာ ငါးယောက် ရှိတယ်။
+I did the homework with my group friends.	အဖွဲ့ သူငယ်ချင်းတွေနဲ့ အတူ အိမ်စာ လုပ်ခဲ့တယ်။
+I want to do volunteer activities during vacation.	ကျောင်းပိတ်ရက်မှာ စေတနာ့ဝန်ထမ်း လုပ်ချင်တယ်။
+volunteer activity	စေတနာ့ဝန်ထမ်း လုပ်ငန်း
+Club activities are very fun.	အသင်း လှုပ်ရှားမှုတွေက အရမ်း ပျော်စရာ ကောင်းတယ်။
+plan	အစီအစဉ်
+Do you have plans for the weekend?	စနေ တနင်္ဂနွေ အစီအစဉ် ရှိလား။
+My plan this year is to get good at Korean.	ဒီနှစ် အစီအစဉ်က ကိုရီးယားစကား ကောင်းကောင်း ပြောတတ်ဖို့ ပါ။
+I traveled to Busan in the summer.	နွေရာသီမှာ ဘူဆန်ကို ခရီးသွားခဲ့တယ်။
+Busan	ဘူဆန်
+I like traveling alone.	တစ်ယောက်တည်း ခရီးသွားတာ ကြိုက်တယ်။
+to travel	ခရီးသွားသည်
+I talked on the phone with my friend for a long time yesterday.	မနေ့က သူငယ်ချင်းနဲ့ ဖုန်း အကြာကြီး ပြောခဲ့တယ်။
+Try talking to the professor about that matter.	အဲဒီကိစ္စကို ပါမောက္ခနဲ့ ပြောကြည့်ပါ။
+Today you will work in groups of four.	ဒီနေ့ လေးယောက်စီ အဖွဲ့ဖွဲ့ပြီး လုပ်ပါမယ်။
+to do an activity	လှုပ်ရှားမှု လုပ်သည်
+Each group, make a travel plan for Korea.	အဖွဲ့တိုင်း ကိုရီးယား ခရီးစဉ် အစီအစဉ် ချပါ။
+to make a plan	အစီအစဉ် ချသည်
+Talk about where to go and what to eat.	ဘယ်ကို သွားမလဲ၊ ဘာ စားမလဲ ပြောကြပါ။
+whether, what	-မလဲ (ဟုတ်မဟုတ်၊ ဘာ)
+In 30 minutes, each group will present.	မိနစ် ၃၀ အကြာမှာ အဖွဲ့လိုက် တင်ပြပါမယ်။
+by (each)	-လိုက်
+to present	တင်ပြသည်
+Each person must say at least one thing.	လူတိုင်း အနည်းဆုံး တစ်ခု ပြောရမယ်။
+one thing	တစ်ခု
+must	-ရမည်
+Speak only in Korean. OK, start!	ကိုရီးယားလိုပဲ ပြောပါ။ ကဲ၊ စကြစို့။
+only in	-လိုပဲ
+Announcements you hear in places like the subway, the airport and the supermarket. Listen for the place, the time and what to do. Order: ❶ Listen to the whole text → ❷ Listen line by line → ❸ Words → ❹ Quiz.	မြေအောက်ရထား၊ လေဆိပ်၊ စူပါမားကတ် စသည့် နေရာများတွင် ကြားရသော ကြေညာချက်များ ဖြစ်ပါသည်။ နေရာ၊ အချိန်နှင့် ဘာ လုပ်ရမလဲ ကို နားထောင်ပါ။ အစီအစဉ်: ❶ စာသား တစ်ခုလုံး နားထောင် → ❷ တစ်ကြောင်းချင်း ပြန်နားထောင် → ❸ စကားလုံးများ → ❹ ပဟေဠိ။
+'-시기 바랍니다' is a very polite way to ask something, used in announcements.	'-시기 바랍니다' သည် ကြေညာချက်များတွင် သုံးသော အလွန် ယဉ်ကျေးသည့် တောင်းဆိုပုံ ဖြစ်ပါသည်။
+'이번 역' = the station we are arriving at, '다음 역' = the next station.	'이번 역' = ရောက်လာမည့် ဘူတာ၊ '다음 역' = နောက် ဘူတာ။
+I took the KTX at Seoul Station.	ဆိုးလ် ဘူတာမှာ KTX စီးခဲ့တယ်။
+Get off at the next station.	နောက်ဘူတာမှာ ဆင်းပါ။
+I got off the bus and walked a little.	ဘတ်စ်ကားက ဆင်းပြီး နည်းနည်း လမ်းလျှောက်ခဲ့တယ်။
+Where do I have to get off?	ဘယ်မှာ ဆင်းရမလဲ။
+Transfer to Line 2 at Seoul Station.	ဆိုးလ် ဘူတာမှာ လိုင်း ၂ ကို ပြောင်းစီးပါ။
+line (subway)	လိုင်း (မြေအောက်ရထား)
+To get to Jeonju, you have to change buses once.	ဂျွန်ဂျူ သွားဖို့ ဘတ်စ်ကား တစ်ခါ ပြောင်းစီးရမယ်။
+to go to	သွားဖို့
+platform	ရထား စင်္ကြံ (ပလက်ဖောင်း)
+I wait for the subway on the platform.	ပလက်ဖောင်းမှာ မြေအောက်ရထား စောင့်တယ်။
+Board the train to Busan on platform 3.	ဘူဆန် သွားမယ့် ရထားကို ၃ နံပါတ် ပလက်ဖောင်းမှာ စီးပါ။
+to board	စီးသည်
+Check your passport before you leave.	မထွက်ခင် နိုင်ငံကူးလက်မှတ်ကို စစ်ပါ။
+Did you check the email?	အီးမေးလ် စစ်ပြီးပြီလား။
+This stop is City Hall, City Hall Station.	ဒီဘူတာက မြို့တော်ခန်းမ၊ မြို့တော်ခန်းမ ဘူတာ ဖြစ်ပါသည်။
+The doors will open on the right.	ဆင်းရမည့် တံခါးမှာ ညာဘက် ဖြစ်ပါသည်။
+Passengers transferring to Line 1, please get off at this station.	လိုင်း ၁ သို့ ပြောင်းစီးမည့် ခရီးသည်များ ဒီဘူတာတွင် ဆင်းပါ။
+There is a wide gap between the train and the platform.	ရထားနှင့် ပလက်ဖောင်းကြား အကွာအဝေး ကျယ်ပါသည်။
+gap	ကြား၊ အကွာ
+to be wide	ကျယ်သည်
+Please watch your step when you get off.	ဆင်းသောအခါ ခြေလှမ်းကို သတိထားပါ။
+one's step	ခြေလှမ်း
+Please check once more that you haven't left anything behind.	ကျန်ခဲ့သော ပစ္စည်း မရှိကြောင်း နောက်တစ်ကြိမ် စစ်ပါ။
+thing	ပစ္စည်း
+On Korean buses, you must tap your card when you get off too, to get a transfer discount.	ကိုရီးယား ဘတ်စ်ကားများတွင် ပြောင်းစီး လျှော့ဈေး ရရန် ဆင်းသောအခါလည်း ကတ် ထိရပါမည်။
+'노약자석' = seats for elderly, weak or disabled people.	'노약자석' = သက်ကြီးရွယ်အို၊ အားနည်းသူ သို့မဟုတ် မသန်စွမ်းသူများအတွက် ထိုင်ခုံ။
+I take the bus at the bus stop in front of the school.	ကျောင်းရှေ့ မှတ်တိုင်မှာ ဘတ်စ်ကား စီးတယ်။
+I waited at the bus stop for 30 minutes.	မှတ်တိုင်မှာ မိနစ် ၃၀ စောင့်ခဲ့တယ်။
+for (time)	ကြာ (အချိန်)
+Please call in advance before you come.	မလာခင် ကြိုပြီး ဖုန်းဆက်ပါ။
+Study in advance before the exam.	စာမေးပွဲ မတိုင်ခင် ကြိုပြီး စာကျက်ပါ။
+Please press the elevator button.	ဓာတ်လှေကား ခလုတ်ကို နှိပ်ပါ။
+If you press this button, the door opens.	ဒီခလုတ်ကို နှိပ်ရင် တံခါး ပွင့်တယ်။
+Let's leave when the rain stops.	မိုး တိတ်ရင် ထွက်ကြစို့။
+The clock suddenly stopped.	နာရီ ရုတ်တရက် ရပ်သွားတယ်။
+clock	နာရီ
+to give up (a seat), to yield	(ထိုင်ခုံ) ဖယ်ပေးသည်၊ လိုက်လျောသည်
+I gave up my seat to a grandmother on the subway.	မြေအောက်ရထားပေါ်မှာ အဖွားကို ထိုင်ခုံ ဖယ်ပေးခဲ့တယ်။
+to give up (a seat)	(ထိုင်ခုံ) ဖယ်ပေးသည်
+I let my friend have the last bread.	နောက်ဆုံး မုန့်ကို သူငယ်ချင်းကို ဖယ်ပေးခဲ့တယ်။
+to yield	လိုက်လျောသည်
+This stop is Seoul Station.	ဒီမှတ်တိုင်က ဆိုးလ် ဘူတာ ဖြစ်ပါသည်။
+The next stop is Namdaemun Market.	နောက်မှတ်တိုင်က နမ်ဒယ်မွန် ဈေး ဖြစ်ပါသည်။
+If you are getting off, please press the bell in advance.	ဆင်းမည့်သူများ ခေါင်းလောင်းကို ကြိုတင် နှိပ်ပါ။
+Please stand up after the bus has completely stopped.	ဘတ်စ်ကား လုံးဝ ရပ်ပြီးမှ ထပါ။
+completely	လုံးဝ
+to stand up	မတ်တပ် ထသည်
+Please give the priority seats to elderly people and pregnant women.	ဦးစားပေး ထိုင်ခုံများကို သက်ကြီးရွယ်အိုများနှင့် ကိုယ်ဝန်ဆောင်များကို ဖယ်ပေးပါ။
+priority seat	ဦးစားပေး ထိုင်ခုံ
+elderly person	သက်ကြီးရွယ်အို
+pregnant woman	ကိုယ်ဝန်ဆောင်
+Please tap your transportation card when you get off, too.	ဆင်းသောအခါလည်း ခရီးသွားကတ် ထိပါ။
+Flight numbers use '편': 칠백일 편 (Flight 701).	လေယာဉ် နံပါတ်များတွင် '편' ကို သုံးပါသည်: 칠백일 편 (လေယာဉ် ၇၀၁)။
+Airport announcements come in Korean first, then English.	လေဆိပ် ကြေညာချက်များကို ကိုရီးယားလို အရင် ပြောပြီးမှ အင်္ဂလိပ်လို ပြောပါသည်။
+passenger	ခရီးသည်
+There are many passengers on the bus.	ဘတ်စ်ကားပေါ်မှာ ခရီးသည် များတယ်။
+The passengers are getting off the plane.	ခရီးသည်တွေ လေယာဉ်ပေါ်က ဆင်းနေကြတယ်။
+boarding	လေယာဉ်ပေါ် တက်ခြင်း
+The boarding time is 10:30.	လေယာဉ်ပေါ် တက်ချိန်က ၁၀ နာရီခွဲ ပါ။
+I'll go to the restroom before boarding.	လေယာဉ်ပေါ် မတက်ခင် အိမ်သာ သွားမယ်။
+boarding gate	လေယာဉ်တက်ပေါက်
+The boarding gate has changed.	လေယာဉ်တက်ပေါက် ပြောင်းသွားပြီ။
+Please wait in front of the boarding gate.	လေယာဉ်တက်ပေါက် ရှေ့မှာ စောင့်ပါ။
+I took a passport photo.	နိုင်ငံကူးလက်မှတ် ဓာတ်ပုံ ရိုက်ခဲ့တယ်။
+If you lose your passport, you have to go to the embassy.	နိုင်ငံကူးလက်မှတ် ပျောက်ရင် သံရုံးကို သွားရမယ်။
+When is the departure date?	ထွက်ခွာမယ့် ရက်က ဘယ်တော့လဲ။
+I arrived ten minutes before the train's departure.	ရထား ထွက်ခါနီး ဆယ်မိနစ်အလိုမှာ ရောက်ခဲ့တယ်။
+Attention, passengers traveling to Kathmandu.	ကတ္တမန္ဒူ သို့ ခရီးသွားမည့် ခရီးသည်များ ခင်ဗျာ။
+Kathmandu	ကတ္တမန္ဒူ
+announcement	ကြေညာချက်
+to tell (honorific)	ပြောပြသည် (ရိုသေ)
+Flight 701 is now boarding.	လေယာဉ် ၇၀၁ သည် ယခု လေယာဉ်ပေါ် တက်နေပါပြီ။
+flight	လေယာဉ် (ခရီးစဉ်)
+from now	ယခုမှ စ၍
+The boarding gate is number 23.	လေယာဉ်တက်ပေါက်မှာ ၂၃ နံပါတ် ဖြစ်ပါသည်။
+Passengers traveling with children will board first.	ကလေးများနှင့် ခရီးသွားသော ခရီးသည်များ အရင် တက်ပါမည်။
+child	ကလေး
+Please have your passport and boarding pass ready.	နိုင်ငံကူးလက်မှတ်နှင့် လေယာဉ်တက် လက်မှတ်ကို အဆင်သင့် ပြင်ထားပါ။
+boarding pass	လေယာဉ်တက် လက်မှတ်
+The departure time is 6:40 p.m.	ထွက်ခွာချိန်မှာ ညနေ ၆ နာရီ ၄၀ မိနစ် ဖြစ်ပါသည်။
+p.m.	ညနေ (p.m.)
+Counters for fruit: 봉지 (bag), 송이 (bunch), 통 (a whole one, like a watermelon).	သစ်သီး ရေတွက်ပုံများ: 봉지 (အိတ်)၊ 송이 (ခိုင်)၊ 통 (ဖရဲသီး ကဲ့သို့ တစ်လုံးလုံး)။
+'퍼센트' can also be said '프로': 이십 프로 할인.	'퍼센트' ကို '프로' ဟုလည်း ပြောနိုင်ပါသည်: 이십 프로 할인။
+I called the customer center.	ဖောက်သည် စင်တာကို ဖုန်းဆက်ခဲ့တယ်။
+This cafe has really many customers.	ဒီကဖေးမှာ ဖောက်သည် တကယ် များတယ်။
+Students get a 10 percent discount.	ကျောင်းသားတွေ ၁၀ ရာခိုင်နှုန်း လျှော့ဈေး ရတယ်။
+These shoes are cheap because they're on sale.	ဒီဖိနပ်က လျှော့ဈေးမို့ သက်သာတယ်။
+to discount	လျှော့ဈေး ပေးသည်
+Please give me one more bag.	အိတ် နောက်တစ်လုံး ပေးပါ။
+I ate a whole bag of snacks.	မုန့် တစ်ထုပ်လုံး စားပစ်လိုက်တယ်။
+I don't eat pork.	ဝက်သား မစားဘူး။
+Is there pork in this kimchi stew?	ဒီကင်မ်ချီ ဟင်းဖတ်ထူထဲ ဝက်သား ပါလား။
+to be inside	ပါဝင်သည်
+product, item	ကုန်ပစ္စည်း
+This store has a variety of products.	ဒီဆိုင်မှာ ကုန်ပစ္စည်း အမျိုးမျိုး ရှိတယ်။
+store	ဆိုင်
+to be various	အမျိုးမျိုး ဖြစ်သည်
+Popular items sell out fast.	လူကြိုက်များတဲ့ ကုန်ပစ္စည်းတွေ မြန်မြန် ကုန်တယ်။
+item	ကုန်ပစ္စည်း
+Dear customers, thank you for visiting our store again today.	ဖောက်သည်များ ခင်ဗျာ၊ ဒီနေ့လည်း ကျွန်ုပ်တို့ ဆိုင်ကို လာရောက်သည့်အတွက် ကျေးဇူးတင်ပါသည်။
+to visit	လာရောက်သည်
+For the next 30 minutes, there is a special discount in the fruit section.	ယခုမှ စ၍ မိနစ် ၃၀ အတွင်း သစ်သီး ကဏ္ဍတွင် အထူး လျှော့ဈေး ရှိပါသည်။
+section	ကဏ္ဍ
+special	အထူး
+Apples are 5,000 won a bag, and bananas are 3,000 won a bunch.	ပန်းသီး တစ်အိတ် ဝမ် ၅,၀၀၀၊ ငှက်ပျောသီး တစ်ခိုင် ဝမ် ၃,၀၀၀ ဖြစ်ပါသည်။
+At the meat counter, pork is 20 percent off.	အသား ကောင်တာတွင် ဝက်သား ၂၀ ရာခိုင်နှုန်း လျှော့ပါသည်။
+The sale ends when the prepared items are sold out.	ပြင်ဆင်ထားသော ကုန်ပစ္စည်းများ ကုန်သွားလျှင် လျှော့ဈေး ပြီးဆုံးပါမည်။
+to be prepared	ပြင်ဆင်ထားသည်
+Enjoy your shopping.	ပျော်ရွှင်စွာ ဈေးဝယ်ပါ။
+to be enjoyable	ပျော်စရာ ကောင်းသည်
+shopping	ဈေးဝယ်ခြင်း
+In Korean apartments, you put out recycling only on set days.	ကိုရီးယား တိုက်ခန်းများတွင် ပြန်လည်အသုံးပြုနိုင်သော အမှိုက်ကို သတ်မှတ်ရက်များတွင်သာ ပစ်ပါသည်။
+'-아/어 두다' = to do something in advance.	'-아/어 두다' = ကြိုတင် လုပ်ထားသည်။
+management office	စီမံခန့်ခွဲရေး ရုံး
+If there's a problem with your room, contact the management office.	အခန်းမှာ ပြဿနာ ရှိရင် စီမံခန့်ခွဲရေး ရုံးကို ဆက်သွယ်ပါ။
+I picked up my parcel at the management office.	ပါဆယ်ကို စီမံခန့်ခွဲရေး ရုံးမှာ သွားယူခဲ့တယ်။
+to pick up	သွားယူသည်
+I cleaned my room on the weekend.	စနေ တနင်္ဂနွေမှာ အခန်း သန့်ရှင်းရေး လုပ်ခဲ့တယ်။
+Whose turn is it to clean?	သန့်ရှင်းရေး အလှည့်က ဘယ်သူလဲ။
+person on duty	တာဝန်ကျသူ
+recycling	ပြန်လည်အသုံးပြုခြင်း
+Plastic can be recycled.	ပလတ်စတစ်ကို ပြန်လည်အသုံးပြုနိုင်တယ်။
+plastic	ပလတ်စတစ်
+to recycle	ပြန်လည်အသုံးပြုသည်
+Put the bottles in the recycling box.	ပုလင်းတွေကို ပြန်လည်အသုံးပြု ဘူးထဲ ထည့်ပါ။
+trash	အမှိုက်
+Please throw the trash away outside.	အမှိုက်ကို အပြင်မှာ ပစ်ပါ။
+There is a lot of trash on the street.	လမ်းပေါ်မှာ အမှိုက် များတယ်။
+to be a lot	များသည်
+cooperation	ပူးပေါင်းဆောင်ရွက်မှု
+Thanks to your cooperation, the event ended well.	အားလုံးရဲ့ ပူးပေါင်းဆောင်ရွက်မှု ကျေးဇူးကြောင့် ပွဲ ကောင်းကောင်း ပြီးသွားပါပြီ။
+We need the students' cooperation.	ကျောင်းသားများ၏ ပူးပေါင်းဆောင်ရွက်မှု လိုအပ်ပါသည်။
+to be needed	လိုအပ်သည်
+This is an announcement from the management office.	စီမံခန့်ခွဲရေး ရုံးမှ ကြေညာချက် ဖြစ်ပါသည်။
+There will be no water tomorrow from 10 a.m. to 2 p.m.	မနက်ဖြန် နံနက် ၁၀ နာရီမှ ညနေ ၂ နာရီအထိ ရေ မလာပါ။
+It is because of water tank cleaning.	ရေတိုင်ကီ သန့်ရှင်းရေးကြောင့် ဖြစ်ပါသည်။
+water tank	ရေတိုင်ကီ
+Please store the water you need in advance.	လိုအပ်သော ရေကို ကြိုတင် ခံထားပါ။
+to store up	ခံထားသည်
+Also, please put out recycling only on Wednesday evenings.	ထို့အပြင် ပြန်လည်အသုံးပြုနိုင်သော အမှိုက်ကို ဗုဒ္ဓဟူး ညနေများတွင်သာ ပစ်ပါ။
+We ask for your cooperation, residents.	နေထိုင်သူများ၏ ပူးပေါင်းဆောင်ရွက်မှုကို မေတ္တာရပ်ခံပါသည်။
+resident	နေထိုင်သူ
+'-행' = bound for...: 부산행 = bound for Busan.	'-행' = ... သို့ သွားမည့်: 부산행 = ဘူဆန် သို့ သွားမည့်။
+The KTX is Korea's fast train. It takes about two and a half hours from Seoul to Busan.	KTX သည် ကိုရီးယား၏ အမြန် ရထား ဖြစ်ပါသည်။ ဆိုးလ်မှ ဘူဆန်အထိ နှစ်နာရီခွဲခန့် ကြာပါသည်။
+This train goes to Jeonju.	ဒီရထားက ဂျွန်ဂျူအထိ သွားတယ်။
+to, as far as	-အထိ
+I ate a lunch box on the train.	ရထားပေါ်မှာ ထမင်းဘူး စားခဲ့တယ်။
+What time do you arrive in Seoul?	ဆိုးလ်ကို ဘယ်နှနာရီ ရောက်မလဲ။
+Please contact me when you get home.	အိမ် ရောက်ရင် ဆက်သွယ်ပါ။
+to stop (at a station)	(ဘူတာတွင်) ရပ်သည်
+Does this bus stop at Jeonju University?	ဒီဘတ်စ်ကား ဂျွန်ဂျူ တက္ကသိုလ်မှာ ရပ်လား။
+This train stops at every station.	ဒီရထားက ဘူတာတိုင်းမှာ ရပ်တယ်။
+to step back	နောက်ဆုတ်သည်
+It's dangerous, so step back one step.	အန္တရာယ် ရှိလို့ တစ်လှမ်း နောက်ဆုတ်ပါ။
+step	ခြေလှမ်း
+A car came, so I stepped back.	ကား လာလို့ နောက်ဆုတ်လိုက်တယ်။
+backward	နောက်သို့
+car number (train)	တွဲ နံပါတ် (ရထား)
+My seat is car 5, number 10.	ကျွန်ုပ် ထိုင်ခုံက တွဲ ၅၊ နံပါတ် ၁၀ ပါ။
+Which car are you riding in?	ဘယ်တွဲ စီးမလဲ။
+what, how many	ဘယ်၊ ဘယ်နှ
+The KTX train to Busan will arrive shortly.	ခဏအကြာတွင် ဘူဆန် သို့ သွားမည့် KTX ရထား ဝင်ရောက်လာပါမည်။
+shortly	ခဏအကြာတွင်
+bound for	-သို့ သွားမည့်
+This train stops at Daejeon and Dongdaegu.	ဤရထားသည် ဒယ်ဂျွန် နှင့် တုံဒယ်ဂူ တွင် ရပ်ပါသည်။
+Passengers, please step back behind the yellow line.	ခရီးသည်များ အဝါရောင်မျဉ်း၏ နောက်သို့ ဆုတ်ပေးပါ။
+When you board, please check the car number on your ticket.	စီးသောအခါ လက်မှတ်ပေါ်ရှိ တွဲ နံပါတ်ကို စစ်ပါ။
+car number	တွဲ နံပါတ်
+This train will depart five minutes late.	ဤရထားသည် ငါးမိနစ် နောက်ကျ၍ ထွက်ခွာပါမည်။
+We are sorry for the inconvenience.	အဆင်မပြေမှုအတွက် တောင်းပန်ပါသည်။
+inconvenience	အဆင်မပြေမှု
+To describe clothes: 노란 티셔츠에 파란 반바지 (a yellow T-shirt and blue shorts).	အဝတ်အစား ဖော်ပြရာတွင်: 노란 티셔츠에 파란 반바지 (အဝါရောင် တီရှပ်နှင့် အပြာရောင် ဘောင်းဘီတို)။
+'어머니께서는' = polite form of '어머니는'.	'어머니께서는' = '어머니는' ၏ ယဉ်ကျေးသော ပုံစံ။
+lost child	လမ်းပျောက် ကလေး
+I took the lost child to the police station.	လမ်းပျောက် ကလေးကို ရဲစခန်းကို ခေါ်သွားပေးခဲ့တယ်။
+to take (someone)	ခေါ်သွားပေးသည်
+When a child gets lost at the amusement park, they make an announcement.	အပန်းဖြေ ပန်းခြံမှာ ကလေး လမ်းပျောက်ရင် ကြေညာတယ်။
+amusement park	အပန်းဖြေ ပန်းခြံ
+May 5th is Children's Day.	မေလ ၅ ရက်နေ့က ကလေးများနေ့ ပါ။
+May	မေလ
+Children's Day	ကလေးများနေ့
+Children are playing in the park.	ပန်းခြံမှာ ကလေးတွေ ကစားနေကြတယ်။
+shorts	ဘောင်းဘီတို
+I often wear shorts in summer.	နွေရာသီမှာ ဘောင်းဘီတို မကြာခဏ ဝတ်တယ်။
+These shorts are too short.	ဒီဘောင်းဘီတိုက အရမ်း တိုတယ်။
+toy	ကစားစရာ အရုပ်
+I bought my nephew a toy.	တူ/တူမကို ကစားစရာ ဝယ်ပေးခဲ့တယ်။
+nephew, niece	တူ၊ တူမ
+to buy for	ဝယ်ပေးသည်
+My younger sibling is playing with a toy.	ညီ/ညီမက ကစားစရာနဲ့ ကစားနေတယ်။
+to be separated	ကွဲသွားသည်
+There were so many people that I got separated from my friend.	လူ အရမ်း များလို့ သူငယ်ချင်းနဲ့ ကွဲသွားတယ်။
+I parted from my friend in front of the station and went home.	ဘူတာရှေ့မှာ သူငယ်ချင်းနဲ့ ခွဲပြီး အိမ်ပြန်ခဲ့တယ်။
+to part	ခွဲခွာသည်
+We are looking for a lost child.	လမ်းပျောက် ကလေးကို ရှာနေပါသည်။
+We are looking for a five-year-old boy, Kim Doyun.	ငါးနှစ်အရွယ် ကလေးငယ် ကင်မ် ဒိုယွန် ကို ရှာနေပါသည်။
+years old	နှစ် (အသက်)
+boy	ယောက်ျားလေး
+He is wearing a yellow T-shirt and blue shorts.	အဝါရောင် တီရှပ်နှင့် အပြာရောင် ဘောင်းဘီတို ဝတ်ထားပါသည်။
+He got separated from his mother at the toy store on the 3rd floor.	၃ ထပ် ကစားစရာ ဆိုင်တွင် မိခင်နှင့် ကွဲသွားပါသည်။
+If you have seen this child, please tell the nearest staff member.	ဤကလေးကို တွေ့ခဲ့လျှင် အနီးဆုံး ဝန်ထမ်းကို ပြောပါ။
+to be near	နီးသည်
+His mother, please come to the Customer Center on the 1st floor.	မိခင်ကြီး၊ ၁ ထပ် ဖောက်သည် စင်တာသို့ ကြွလာပါ။
+customer center	ဖောက်သည် စင်တာ
+'무음' = no sound. Vibrate = '진동 모드'.	'무음' = အသံ မရှိ။ တုန်ခါမုဒ် = '진동 모드'။
+'-지 마십시오' is more polite than '-지 마세요'.	'-지 마십시오' သည် '-지 마세요' ထက် ပိုယဉ်ကျေးပါသည်။
+The festival begins at 6 p.m.	ပွဲတော်က ညနေ ၆ နာရီမှာ စတယ်။
+The new semester has begun.	စာသင်နှစ်ဝက် အသစ် စပြီ။
+Please turn off the lights when you go out.	ထွက်တဲ့အခါ မီး ပိတ်ပေးပါ။
+I turned off the computer before going to bed.	မအိပ်ခင် ကွန်ပျူတာ ပိတ်ခဲ့တယ်။
+I take photos with my friends.	သူငယ်ချင်းတွေနဲ့ အတူ ဓာတ်ပုံ ရိုက်တယ်။
+window side	ပြတင်းပေါက်ဘက်
+The airplane seat was narrow, so it was uncomfortable.	လေယာဉ် ထိုင်ခုံ ကျဉ်းလို့ အဆင်မပြေခဲ့ဘူး။
+to be narrow	ကျဉ်းသည်
+Check where the emergency exit is.	အရေးပေါ် ထွက်ပေါက် ဘယ်မှာလဲ စစ်ပါ။
+Don't put things in front of the emergency exit.	အရေးပေါ် ထွက်ပေါက် ရှေ့မှာ ပစ္စည်း မထားပါနှင့်။
+The movie will begin shortly.	ခဏအကြာတွင် ရုပ်ရှင် စပါမည်။
+Please turn off your phone or switch it to silent mode.	ဖုန်းကို ပိတ်ထားပါ သို့မဟုတ် အသံပိတ်မုဒ်သို့ ပြောင်းပါ။
+silent mode	အသံပိတ်မုဒ်
+You may not take photos or videos during the movie.	ရုပ်ရှင် ပြသနေစဉ် ဓာတ်ပုံ သို့မဟုတ် ဗီဒီယို မရိုက်ရပါ။
+screening	ပြသခြင်း
+Please do not kick the seat in front of you.	ရှေ့ထိုင်ခုံကို ခြေထောက်ဖြင့် မကန်ပါနှင့်။
+The emergency exits are on the left and right of the screen.	အရေးပေါ် ထွက်ပေါက်များမှာ မျက်နှာပြင်၏ ဘယ်ဘက်နှင့် ညာဘက်တွင် ဖြစ်ပါသည်။
+Enjoy the movie.	ပျော်ရွှင်စွာ ကြည့်ရှုပါ။
+watching (a show)	ကြည့်ရှုခြင်း
+In Korea, when you get a prescription at a hospital, you go to a pharmacy to buy the medicine.	ကိုရီးယားတွင် ဆေးရုံမှ ဆေးညွှန်း ရလျှင် ဆေးဆိုင်သို့ သွား၍ ဆေး ဝယ်ရပါသည်။
+'내과' = internal medicine (for illnesses inside the body).	'내과' = အတွင်းရောဂါ ကုသဌာန (ခန္ဓာကိုယ် အတွင်းရောဂါများအတွက်)။
+I took a number ticket at the bank.	ဘဏ်မှာ နံပါတ်ပြား ယူခဲ့တယ်။
+to take, pull	ယူသည်၊ ဆွဲထုတ်သည်
+window, counter	ကောင်တာ
+Send money at window 2.	ငွေကို ၂ နံပါတ် ကောင်တာမှာ လွှဲပါ။
+There are many people in front of the counter.	ကောင်တာ ရှေ့မှာ လူ များတယ်။
+counter	ကောင်တာ
+Where do I register?	ဘယ်မှာ စာရင်းသွင်းရမလဲ။
+Registration for the speaking contest is until today.	မိန့်ခွန်း ပြိုင်ပွဲ စာရင်းသွင်းခြင်းက ဒီနေ့အထိ ပါ။
+What are the consultation hours?	ဆေးကုသချိန်က ဘယ်တော့လဲ။
+time, hours	အချိန်၊ နာရီ
+On Saturdays, they only see patients in the morning.	စနေနေ့မှာ မနက်ပိုင်းမှာပဲ လူနာ ကြည့်တယ်။
+to treat (patients)	(လူနာ) ကုသသည်
+Take the prescription to the pharmacy.	ဆေးညွှန်းကို ဆေးဆိုင် ယူသွားပါ။
+The doctor wrote me a prescription.	ဆရာဝန်က ဆေးညွှန်း ရေးပေးတယ်။
+to write for	ရေးပေးသည်
+Customer with number 25, please come to window 3.	နံပါတ် ၂၅ ဖောက်သည်၊ ၃ နံပါတ် ကောင်တာသို့ ကြွပါ။
+customer (honorific)	ဖောက်သည် (ရိုသေ)
+First-time visitors, please fill out the registration form.	ပထမဆုံး လာသူများ စာရင်းသွင်း ပုံစံ ဖြည့်ပါ။
+registration form	စာရင်းသွင်း ပုံစံ
+to fill out	ဖြည့်သည်
+Internal medicine is on the 2nd floor.	အတွင်းရောဂါ ကုသဌာနက ၂ ထပ်မှာ ပါ။
+internal medicine	အတွင်းရောဂါ ကုသဌာန
+Lunchtime is from 12:30 to 1:30.	နေ့လယ်စာ ချိန်က ၁၂ နာရီခွဲမှ ၁ နာရီခွဲအထိ ပါ။
+There is no treatment during lunchtime.	နေ့လယ်စာ ချိန်မှာ ကုသမှု မရှိပါ။
+Get your prescription at the 1st floor administration office.	ဆေးညွှန်းကို ၁ ထပ် စီမံရေး ရုံးမှာ ယူပါ။
+administration office	စီမံရေး ရုံး (ဆေးရုံ)
+In Korea, schools and dorms often have evacuation drills.	ကိုရီးယားတွင် ကျောင်းများနှင့် အဆောင်များ၌ ဘေးလွတ်ရာ ရွှေ့ပြောင်းရေး လေ့ကျင့်ခန်း မကြာခဏ ရှိပါသည်။
+'절대 -지 마세요' = never do... (very strong).	'절대 -지 마세요' = ဘယ်တော့မှ ... မလုပ်ပါနှင့် (အလွန် ပြင်းထန်)။
+earthquake	ငလျင်
+There was a small earthquake last night.	မနေ့ညက ငလျင် သေးသေး လှုပ်ခဲ့တယ်။
+When an earthquake happens, don't go outside.	ငလျင် လှုပ်ရင် အပြင် မထွက်ပါနှင့်။
+an earthquake happens	ငလျင် လှုပ်သည်
+evacuation	ဘေးလွတ်ရာ ရွှေ့ခြင်း
+If there is a fire, evacuate quickly.	မီးလောင်ရင် မြန်မြန် ဘေးလွတ်ရာကို ရွှေ့ပါ။
+to evacuate	ဘေးလွတ်ရာ ရွှေ့သည်
+The evacuation place is the sports field.	ဘေးလွတ်ရာ နေရာက ကစားကွင်း ပါ။
+to protect	ကာကွယ်သည်
+Sunscreen protects your skin.	နေလောင်ကာ ခရင်မ်က အရေပြားကို ကာကွယ်တယ်။
+sunscreen	နေလောင်ကာ ခရင်မ်
+skin	အရေပြား
+Protect your head with a helmet when you ride a bike.	စက်ဘီး စီးတဲ့အခါ ဦးထုပ်နဲ့ ခေါင်းကို ကာကွယ်ပါ။
+helmet	ဦးထုပ် (ဟဲလ်မက်)
+The elevator broke down, so I went up the stairs.	ဓာတ်လှေကား ပျက်လို့ လှေကားနဲ့ တက်ခဲ့တယ်။
+Don't run on the stairs.	လှေကားမှာ မပြေးပါနှင့်။
+playground, sports field	ကစားကွင်း
+We play soccer on the sports field at lunchtime.	နေ့လယ်စာ ချိန်မှာ ကစားကွင်းမှာ ဘောလုံး ကန်တယ်။
+The sports field is spacious, so it's nice.	ကစားကွင်းက ကျယ်လို့ ကောင်းတယ်။
+We will now start the earthquake evacuation drill.	ယခုမှ စ၍ ငလျင် ဘေးလွတ်ရာ ရွှေ့ပြောင်းရေး လေ့ကျင့်ခန်း စတင်ပါမည်။
+drill	လေ့ကျင့်ခန်း
+If you feel shaking, get under your desk.	လှုပ်ခါမှု ခံစားရလျှင် စားပွဲအောက်သို့ ဝင်ပါ။
+shaking	လှုပ်ခါမှု
+to be felt	ခံစားရသည်
+Protect your head with your bag or your hands.	ခေါင်းကို အိတ် သို့မဟုတ် လက်ဖြင့် ကာကွယ်ပါ။
+When the shaking stops, go out slowly by the stairs.	လှုပ်ခါမှု ရပ်သွားလျှင် လှေကားဖြင့် ဖြည်းဖြည်း ထွက်ပါ။
+Never take the elevator.	ဓာတ်လှေကားကို ဘယ်တော့မှ မစီးပါနှင့်။
+never	ဘယ်တော့မှ
+Gather on the sports field and wait for your professor.	ကစားကွင်းတွင် စုပြီး ပါမောက္ခကို စောင့်ပါ။
+Radio and everyday information. Listen for the key information like numbers, times and how to do things. Order: ❶ Listen to the whole text → ❷ Listen line by line → ❸ Words → ❹ Quiz.	ရေဒီယိုနှင့် နေ့စဉ်ဘဝ အချက်အလက်များ ဖြစ်ပါသည်။ ဂဏန်း၊ အချိန်နှင့် လုပ်နည်း ကဲ့သို့ အဓိက အချက်များကို နားထောင်ပါ။ အစီအစဉ်: ❶ စာသား တစ်ခုလုံး နားထောင် → ❷ တစ်ကြောင်းချင်း ပြန်နားထောင် → ❸ စကားလုံးများ → ❹ ပဟေဠိ။
+In forecasts, '-겠습니다' tells what will happen.	ခန့်မှန်းချက်များတွင် '-겠습니다' သည် ဖြစ်လာမည့် အရာကို ပြောပါသည်။
+'영하' means below 0 degrees. It almost never happens in Bangladesh.	'영하' သည် သုည ဒီဂရီ အောက် ဖြစ်ပါသည်။ မြန်မာနိုင်ငံ အများစုတွင် မဖြစ်သလောက် ရှိပါသည်။
+The weather is nice in Jeonju today.	ဒီနေ့ ဂျွန်ဂျူမှာ ရာသီဥတု ကောင်းတယ်။
+It's cold, so Sam is staying in the dorm.	ရာသီဥတု အေးလို့ ဆမ်က အဆောင်မှာ နေတယ်။
+It's minus ten degrees this morning.	ဒီမနက် အနှုတ် ၁၀ ဒီဂရီ ပါ။
+degree(s)	ဒီဂရီ
+Wear gloves in below-zero weather.	သုညအောက် ရာသီဥတုမှာ လက်အိတ် စွပ်ပါ။
+The sky is really clear today.	ဒီနေ့ ကောင်းကင် တကယ် ကြည်လင်တယ်။
+If the weather is clear, let's go to the park.	ရာသီဥတု သာယာရင် ပန်းခြံ သွားကြစို့။
+The temperature in Seoul today is 20 degrees.	ဒီနေ့ ဆိုးလ်ရဲ့ အပူချိန်က ၂၀ ဒီဂရီ ပါ။
+At night the temperature drops a lot.	ညဘက်မှာ အပူချိန် အများကြီး ကျတယ်။
+It's cold because the wind is blowing hard.	လေ ပြင်းပြင်း တိုက်လို့ အေးတယ်။
+If you open the window, a cool breeze comes in.	ပြတင်းပေါက် ဖွင့်ရင် လေအေး ဝင်လာတယ်။
+Here is tomorrow's weather.	မနက်ဖြန် ရာသီဥတု ဖြစ်ပါသည်။
+In Seoul, it will drop to minus 5 degrees in the morning.	ဆိုးလ်တွင် နံနက်ပိုင်း အနှုတ် ၅ ဒီဂရီအထိ ကျပါမည်။
+will (forecast)	-မည် (ခန့်မှန်းချက်)
+It will be sunny during the day with a high of 3 degrees.	နေ့ဘက်တွင် နေသာပြီး အမြင့်ဆုံး ၃ ဒီဂရီ ရှိပါမည်။
+highest	အမြင့်ဆုံး
+It will rain in the southern regions in the afternoon.	တောင်ပိုင်း ဒေသများတွင် ညနေပိုင်း မိုး ရွာပါမည်။
+southern part	တောင်ပိုင်း
+region	ဒေသ
+The wind will be strong, so it will feel even colder.	လေ ပြင်းထန်စွာ တိုက်မည်ဖြစ်၍ ပိုအေးသလို ခံစားရပါမည်။
+wind chill	ခံစားရသော အပူချိန်
+Be sure to bring warm clothes.	အနွေးထည်များကို မဖြစ်မနေ ယူဆောင်ပါ။
+to pack, to bring	ယူဆောင်သည်၊ ပြင်ဆင်သည်
+to hope that	-ရန် မျှော်လင့်ပါသည်
+'길이 막히다' = there is a traffic jam.	'길이 막히다' = ယာဉ်ကြော ပိတ်ဆို့သည်။
+'-는 게 좋겠습니다' is a soft way to give advice (it would be better to...).	'-는 게 좋겠습니다' သည် အကြံဉာဏ် ပေးသော ညင်သာသည့် ပုံစံ (... တာ ပိုကောင်းမယ်) ဖြစ်ပါသည်။
+The part-time job manager leaves work at six.	အချိန်ပိုင်းအလုပ် မန်နေဂျာက ခြောက်နာရီမှာ အလုပ်ဆင်းတယ်။
+There are many people on the bus at rush hour.	အလုပ်ဆင်းချိန်မှာ ဘတ်စ်ကားပေါ်မှာ လူ များတယ်။
+evening rush hour	ညနေ အလုပ်ဆင်းချိန်
+to be jammed	ပိတ်ဆို့သည်
+I was late for class because the road was jammed.	လမ်း ပိတ်ဆို့လို့ အတန်း နောက်ကျခဲ့တယ်။
+On Friday evenings the roads are very jammed.	သောကြာ ညနေတွေမှာ လမ်းတွေ အရမ်း ပိတ်ဆို့တယ်။
+There was a traffic accident in front of the school.	ကျောင်းရှေ့မှာ ယာဉ်မတော်တဆမှု ဖြစ်ခဲ့တယ်။
+traffic accident	ယာဉ်မတော်တဆမှု
+If an accident happens, call the police right away.	မတော်တဆမှု ဖြစ်ရင် ရဲကို ချက်ချင်း ဖုန်းဆက်ပါ။
+police	ရဲ
+highway	အမြန်လမ်းမကြီး
+It takes three hours from Jeonju to Seoul by highway.	ဂျွန်ဂျူကနေ ဆိုးလ်အထိ အမြန်လမ်းနဲ့ သုံးနာရီ ကြာတယ်။
+I ate udon at a highway rest area.	အမြန်လမ်း နားနေစခန်းမှာ ဥဒုံ ခေါက်ဆွဲ စားခဲ့တယ်။
+rest area	နားနေစခန်း
+driving	ကားမောင်းခြင်း
+Aung drives well.	အောင်က ကား မောင်းတာ တော်တယ်။
+Be careful when you drive at night.	ညဘက် ကား မောင်းတဲ့အခါ သတိထားပါ။
+Here is the traffic report for the evening rush hour.	ညနေ အလုပ်ဆင်းချိန် ယာဉ်ကြော သတင်း ဖြစ်ပါသည်။
+way home from work	အလုပ်မှ အိမ်ပြန်လမ်း
+traffic	ယာဉ်ကြော
+Traffic in downtown Seoul is very heavy right now.	ယခု ဆိုးလ် မြို့လယ်တွင် ယာဉ်ကြော အလွန် ပိတ်ဆို့နေပါသည်။
+Especially around Gangnam Station, only one lane is open because of an accident.	အထူးသဖြင့် ဂန်းနမ် ဘူတာ ပတ်ဝန်းကျင်တွင် မတော်တဆမှုကြောင့် လမ်းကြောင်း တစ်ခုသာ ဖွင့်ထားပါသည်။
+area around	ပတ်ဝန်းကျင်
+lane	လမ်းကြောင်း
+to go, to pass	သွားလာသည်၊ ဖြတ်သန်းသည်
+The highways are fairly clear.	အမြန်လမ်းများမှာ အတော်အတန် ချောမွေ့ပါသည်။
+fairly	အတော်အတန်
+smooth, clear	ချောမွေ့သည်
+If you are in a hurry, it would be better to take the subway.	အလျင်လိုသူများ မြေအောက်ရထား စီးတာ ပိုကောင်းပါမည်။
+it would be better to	-တာ ပိုကောင်းမည်
+Drive safely.	ဘေးကင်းစွာ မောင်းနှင်ပါ။
+'끓다' = (water) boils by itself, '끓이다' = to boil something.	'끓다' = (ရေ) ဆူသည်၊ '끓이다' = တစ်ခုခုကို ပြုတ်သည်။
+Order: 먼저 (first) → 그다음 (next) → 마지막에 (finally).	အစီအစဉ်: 먼저 (ပထမ) → 그다음 (နောက်) → 마지막에 (နောက်ဆုံး)။
+I was hungry, so I bought ramyeon at the convenience store.	ဗိုက်ဆာလို့ စတိုးဆိုင်မှာ ရာမျွန် ဝယ်ခဲ့တယ်။
+ramyeon	ရာမျွန် (အသင့်စား ခေါက်ဆွဲ)
+Vishal likes spicy ramyeon.	ဗီရှားလ်က စပ်တဲ့ ရာမျွန်ကို ကြိုက်တယ်။
+I made seaweed soup in the morning.	မနက်ဘက် ရေညှိဟင်းချို ချက်ခဲ့တယ်။
+to cook (by boiling)	(ပြုတ်၍) ချက်သည်
+I'm boiling water to drink tea.	လက်ဖက်ရည် သောက်ဖို့ ရေ ကျိုနေတယ်။
+tea	လက်ဖက်ရည်
+This pot is too small.	ဒီအိုးက အရမ်း သေးတယ်။
+I bought a pot to use in the dorm.	အဆောင်မှာ သုံးဖို့ အိုး ဝယ်ခဲ့တယ်။
+I like noodles more than rice.	ထမင်းထက် ခေါက်ဆွဲကို ပိုကြိုက်တယ်။
+The noodles got too soggy, so they don't taste good.	ခေါက်ဆွဲ အရမ်း ပွသွားလို့ မစားကောင်းဘူး။
+to get soggy	ပွသည်
+I ate two eggs in the morning.	မနက်ဘက် ကြက်ဥ နှစ်လုံး စားခဲ့တယ်။
+I bought eggs and milk at the supermarket.	စူပါမားကတ်မှာ ကြက်ဥနဲ့ နွားနို့ ဝယ်ခဲ့တယ်။
+Today I'll show you how to cook delicious ramyeon.	ဒီနေ့ စားကောင်းတဲ့ ရာမျွန် ချက်နည်းကို ပြပေးပါမယ်။
+way, how to	နည်း
+to tell, to show	ပြောပြသည်၊ ပြသသည်
+First, put 550 ml of water in a pot and boil it.	ပထမဦးစွာ အိုးထဲ ရေ ၅၅၀ မီလီလီတာ ထည့်ပြီး ဆူအောင် ကျိုပါ။
+When the water boils, add the noodles and the soup powder.	ရေ ဆူလာရင် ခေါက်ဆွဲနဲ့ ဟင်းချိုမှုန့် ထည့်ပါ။
+soup powder	ဟင်းချိုမှုန့်
+Boil it for four and a half more minutes.	လေးမိနစ်ခွဲ ထပ် ပြုတ်ပါ။
+At the end, add an egg and green onion to make it tastier.	နောက်ဆုံးမှာ ကြက်ဥ တစ်လုံးနဲ့ ကြက်သွန်မြိတ် ထည့်ရင် ပိုစားကောင်းတယ်။
+the end	နောက်ဆုံး
+Eat it with kimchi.	ကင်မ်ချီနဲ့ တွဲ စားပါ။
+'-(으)려면' = if you want to...	'-(으)려면' = ... ချင်ရင်။
+'주무세요' is the polite form of '자요'.	'주무세요' သည် '자요' ၏ ရိုသေသော ပုံစံ ဖြစ်ပါသည်။
+I caught a cold, so I couldn't go to class.	အအေးမိလို့ အတန်း မတက်နိုင်ခဲ့ဘူး။
+I took cold medicine and went to bed early.	အအေးမိဆေး သောက်ပြီး စောစော အိပ်ခဲ့တယ်။
+to take (medicine)	(ဆေး) သောက်သည်
+to prevent	ကာကွယ်သည်
+I got a shot to prevent the flu.	တုပ်ကွေး ကာကွယ်ဖို့ ဆေးထိုးခဲ့တယ်။
+flu	တုပ်ကွေး
+to get a shot	ဆေးထိုးခံသည်
+Exercise is good for preventing illness.	လေ့ကျင့်ခန်းက ရောဂါ ကာကွယ်ဖို့ ကောင်းတယ်။
+Wash the apple clean with water.	ပန်းသီးကို ရေနဲ့ သန့်သန့် ဆေးပါ။
+Please wear a mask on the bus.	ဘတ်စ်ကားပေါ်မှာ နှာခေါင်းစည်း တပ်ပါ။
+I bought masks at the pharmacy.	ဆေးဆိုင်မှာ နှာခေါင်းစည်း ဝယ်ခဲ့တယ်။
+enough	လုံလောက်စွာ
+Get enough sleep the day before the exam.	စာမေးပွဲ မတိုင်မီနေ့မှာ လုံလောက်အောင် အိပ်ပါ။
+We have enough time, so let's walk.	အချိန် လုံလောက်လို့ လမ်းလျှောက်ကြစို့။
+As the weather gets colder, more people are catching colds.	ရာသီဥတု အေးလာတာနဲ့အမျှ အအေးမိတဲ့ လူနာတွေ များလာတယ်။
+as, while	-တာနဲ့အမျှ၊ -ရင်း
+to increase	များလာသည်
+To prevent colds, wash your hands often.	အအေးမိခြင်း ကာကွယ်ဖို့ လက်ကို မကြာခဏ ဆေးပါ။
+It is good to wear a mask when you go out.	အပြင် ထွက်တဲ့အခါ နှာခေါင်းစည်း တပ်တာ ကောင်းပါတယ်။
+Drink a lot of water and get enough sleep.	ရေ အများကြီး သောက်ပြီး လုံလောက်အောင် အိပ်ပါ။
+If your fever goes over 38 degrees, go to a hospital.	အဖျား ၃၈ ဒီဂရီ ကျော်ရင် ဆေးရုံ သွားပါ။
+to go over	ကျော်သည်
+We hope you have a healthy winter.	ကျန်းမာသော ဆောင်းရာသီ ဖြစ်ပါစေ။
+Korean radio has a time when they read 'stories' sent in by listeners.	ကိုရီးယား ရေဒီယိုတွင် နားထောင်သူများ ပို့သော 'ဇာတ်လမ်း' များကို ဖတ်ပြသည့် အချိန် ရှိပါသည်။
+'-아/어 주다' = to do something for someone else.	'-아/어 주다' = တခြားသူအတွက် တစ်ခုခု လုပ်ပေးသည်။
+story (sent in by a listener)	(နားထောင်သူ ပို့သော) ဇာတ်လမ်း
+I heard a sad story on the radio.	ရေဒီယိုမှာ ဝမ်းနည်းစရာ ဇာတ်လမ်း ကြားခဲ့တယ်။
+My story was on the radio.	ကျွန်ုပ်ရဲ့ ဇာတ်လမ်း ရေဒီယိုမှာ ထွက်လာတယ်။
+to come out, to be on	ထွက်လာသည်
+I'm so tired when my part-time job is over.	အချိန်ပိုင်းအလုပ် ပြီးရင် အရမ်း ပင်ပန်းတယ်။
+Korean grammar is a little hard.	ကိုရီးယား သဒ္ဒါက နည်းနည်း ခက်တယ်။
+grammar	သဒ္ဒါ
+I watched a movie with a friend on the weekend.	စနေ တနင်္ဂနွေမှာ သူငယ်ချင်းနဲ့ ရုပ်ရှင် ကြည့်ခဲ့တယ်။
+Aisha met a new friend in the dorm.	အိုင်ရှာက အဆောင်မှာ သူငယ်ချင်းသစ် တွေ့ခဲ့တယ်။
+Professor Hwang Insu teaches Korean.	ပါမောက္ခ ဟွမ်အင်ဆူက ကိုရီးယားစကား သင်တယ်။
+I teach Jinha English.	ကျွန်ုပ်က ဂျင်ဟာကို အင်္ဂလိပ်စကား သင်ပေးတယ်။
+to do for someone	-ပေးသည်
+to give as a gift	လက်ဆောင် ပေးသည်
+I gave my mother flowers for her birthday.	အမေ့ မွေးနေ့မှာ ပန်း လက်ဆောင် ပေးခဲ့တယ်။
+I want to give my friend a book.	သူငယ်ချင်းကို စာအုပ် လက်ဆောင် ပေးချင်တယ်။
+Today's story is from someone from Uzbekistan.	ဒီနေ့ ဇာတ်လမ်းက ဥဇဘက်ကစ္စတန်က လူတစ်ယောက်ဆီက ပါ။
+listener's story	နားထောင်သူ၏ ဇာတ်လမ်း
+"I'm Maria, an international student, and it's been a year since I came to Korea."	"ကျွန်မက ကိုရီးယား ရောက်တာ တစ်နှစ် ရှိပြီဖြစ်တဲ့ နိုင်ငံခြား ကျောင်းသူ မာရီယာ ပါ။"
+"At first it was very hard because I didn't know Korean."	"အစပိုင်းမှာ ကိုရီးယားစကား မသိလို့ အရမ်း ခက်ခဲ့တယ်။"
+"Back then, Minha, a friend from my department, taught me Korean every day."	"အဲဒီတုန်းက ဌာနတူ သူငယ်ချင်း မင်ဟာက နေ့တိုင်း ကိုရီးယားစကား သင်ပေးခဲ့တယ်။"
+"Minha, thank you so much. I want to give you this song."	"မင်ဟာ၊ တကယ် ကျေးဇူးတင်ပါတယ်။ ဒီသီချင်းကို လက်ဆောင် ပေးချင်ပါတယ်။"
+We hope Maria's feelings reach Minha.	မာရီယာရဲ့ စိတ်ခံစားချက် မင်ဟာဆီ ရောက်ပါစေ။
+heart, feelings	နှလုံးသား၊ ခံစားချက်
+to be delivered	ရောက်ရှိသည်
+I hope that	-ရင် ကောင်းမယ်
+'종량제 봉투' = a trash bag you buy at a supermarket or convenience store.	'종량제 봉투' = စူပါမားကတ် သို့မဟုတ် စတိုးဆိုင်တွင် ဝယ်ရသော အမှိုက်အိတ်။
+'-(으)ㄹ 수도 있어요' = it may...	'-(으)ㄹ 수도 있어요' = ... နိုင်တယ်။
+Throw trash in the trash can.	အမှိုက်ကို အမှိုက်ပုံးထဲ ပစ်ပါ။
+I threw away old clothes.	အဝတ်ဟောင်းတွေကို ပစ်လိုက်တယ်။
+to be old	ဟောင်းသည်
+Do you need a bag at the convenience store?	စတိုးဆိုင်မှာ အိတ် လိုလား။
+I put the letter in an envelope.	စာကို စာအိတ်ထဲ ထည့်ခဲ့တယ်။
+envelope	စာအိတ်
+food (waste)	အစားအစာ (အမှိုက်)
+I throw away food waste in the evening.	အစားအစာ အမှိုက်ကို ညနေဘက်မှာ ပစ်တယ်။
+food waste	အစားအစာ အမှိုက်
+Don't leave food at the restaurant.	စားသောက်ဆိုင်မှာ အစားအစာ မကျန်ပါစေနဲ့။
+to leave (over)	ချန်ထားသည်
+I use a tumbler instead of a plastic cup.	ပလတ်စတစ် ခွက်အစား ရေဘူး (tumbler) သုံးတယ်။
+instead	အစား
+This chair is plastic, so it's light.	ဒီကုလားထိုင်က ပလတ်စတစ်မို့ ပေါ့တယ်။
+I paid a fine because I parked in the wrong place.	ကား မှားရပ်လို့ ဒဏ်ငွေ ပေးခဲ့ရတယ်။
+to do wrongly	မှားယွင်းစွာ လုပ်သည်
+Is there a fine if I return library books late?	စာကြည့်တိုက် စာအုပ်ကို နောက်ကျ ပြန်ပေးရင် ဒဏ်ငွေ ရှိလား။
+In Korea, people sort their trash before throwing it away.	ကိုရီးယားတွင် အမှိုက်ကို မပစ်မီ ခွဲခြားကြပါသည်။
+to sort, to divide	ခွဲခြားသည်
+Put general trash in a volume-based trash bag.	သာမန် အမှိုက်ကို အလေးချိန်အလိုက် အမှိုက်အိတ်ထဲ ထည့်ပါ။
+general	သာမန်
+pay-as-you-throw bag	အလေးချိန်အလိုက် ငွေပေးရသော အမှိုက်အိတ်
+Food waste is collected and thrown away separately.	အစားအစာ အမှိုက်ကို သီးသန့် စုပြီး ပစ်ပါ။
+to collect	စုသည်
+Wash plastic bottles with water and take off the labels.	ပလတ်စတစ် ပုလင်းတွေကို ရေနဲ့ ဆေးပြီး တံဆိပ်ကို ခွာပါ။
+label	တံဆိပ်
+Fold paper boxes flat before putting them out.	စက္ကူဘူးတွေကို ပြားပြားဖြစ်အောင် ခေါက်ပြီးမှ ထုတ်ထားပါ။
+flat	ပြားသည်
+to put out	ထုတ်ထားသည်
+If you throw things away wrongly, you may have to pay a fine.	မှားပစ်ရင် ဒဏ်ငွေ ပေးရနိုင်တယ်။
+may	-နိုင်သည်
+When pressing numbers, use Sino-Korean numbers: 일 번, 이 번.	နံပါတ် နှိပ်သောအခါ တရုတ်-ကိုရီးယား ဂဏန်းများကို သုံးပါ: 일 번၊ 이 번။
+'별표' = the ✱ button, '우물 정' = the # button.	'별표' = ✱ ခလုတ်၊ '우물 정' = # ခလုတ်။
+customer service center	ဖောက်သည် ဝန်ဆောင်မှု စင်တာ
+My phone broke, so I called customer service.	ဖုန်း ပျက်လို့ ဖောက်သည် ဝန်ဆောင်မှု စင်တာကို ဖုန်းဆက်ခဲ့တယ်။
+The customer service center opens at 9 a.m.	ဖောက်သည် ဝန်ဆောင်မှု စင်တာက နံနက် ၉ နာရီမှာ ဖွင့်တယ်။
+This product was made in Korea.	ဒီထုတ်ကုန်ကို ကိုရီးယားမှာ ထုတ်လုပ်ခဲ့တယ်။
+A new product came out, so the price is low.	ထုတ်ကုန်သစ် ထွက်လာလို့ ဈေး နိမ့်တယ်။
+The delivery of the clothes I bought online is late.	အွန်လိုင်းကနေ ဝယ်ထားတဲ့ အဝတ်တွေ ပို့ဆောင်မှု နောက်ကျနေတယ်။
+Delivery usually takes two days.	ပို့ဆောင်မှုက များသောအားဖြင့် နှစ်ရက် ကြာတယ်။
+consultation	တိုင်ပင်ဆွေးနွေးခြင်း
+I had a consultation with my professor about course registration.	ဘာသာရပ် စာရင်းသွင်းဖို့ ပါမောက္ခနဲ့ တိုင်ပင်ခဲ့တယ်။
+to consult	တိုင်ပင်သည်
+Counseling for international students is at Star Center.	နိုင်ငံခြား ကျောင်းသား အကြံပေးခြင်းက 스타센터 မှာ ပါ။
+connection	ချိတ်ဆက်မှု
+The dorm Wi-Fi connection isn't working.	အဆောင် ဝိုင်ဖိုင် ချိတ်ဆက်လို့ မရဘူး။
+to not work	အလုပ် မလုပ်ဘူး၊ မရဘူး
+I'll connect you to the person in charge.	တာဝန်ရှိသူနဲ့ ဆက်ပေးပါမယ်။
+to connect	ဆက်သွယ်ပေးသည်
+Hello. This is the Hankook Electronics customer service center.	မင်္ဂလာပါ။ ဟန်ကုတ် အီလက်ထရောနစ် ဖောက်သည် ဝန်ဆောင်မှု စင်တာ ဖြစ်ပါသည်။
+electronics	အီလက်ထရောနစ်
+For product repair questions, please press 1.	ထုတ်ကုန် ပြင်ဆင်မှုဆိုင်ရာ မေးမြန်းချက်အတွက် ၁ ကို နှိပ်ပါ။
+inquiry	မေးမြန်းချက်
+For delivery questions, please press 2.	ပို့ဆောင်မှုဆိုင်ရာ မေးမြန်းချက်အတွက် ၂ ကို နှိပ်ပါ။
+For help in other languages, press 5.	အခြား ဘာသာစကားဖြင့် အကူအညီအတွက် ၅ ကို နှိပ်ပါ။
+foreign language	နိုင်ငံခြား ဘာသာစကား
+To hear this again, please press the star key.	ပြန်နားထောင်လိုလျှင် ကြယ်ခလုတ်ကို နှိပ်ပါ။
+star key	ကြယ်ခလုတ်
+Because of a high number of calls, connection is delayed.	ဖုန်းခေါ်ဆိုမှု များနေသောကြောင့် ချိတ်ဆက်မှု နောက်ကျနေပါသည်။
+call volume	ဖုန်းခေါ်ဆိုမှု ပမာဏ
+to be delayed	နောက်ကျလာသည်
+'단돈' stresses that the price is cheap (only).	'단돈' သည် ဈေးနှုန်း သက်သာကြောင်း (... သာ) ကို အလေးပေးပါသည်။
+'든든하다' = full and satisfied.	'든든하다' = ဗိုက်ပြည့်ပြီး ကျေနပ်သည်။
+I had a lunch box for lunch today.	ဒီနေ့ နေ့လယ်စာ ထမင်းဘူး စားခဲ့တယ်။
+I pack a lunch box when I go on a picnic.	ပျော်ပွဲစား သွားတဲ့အခါ ထမင်းဘူး ထည့်သွားတယ်။
+picnic	ပျော်ပွဲစား
+The student cafeteria has a lot of side dishes.	ကျောင်းသား စားသောက်ဆောင်မှာ ဟင်းလျာ အများကြီး ရှိတယ်။
+My favorite side dish is seaweed.	ကျွန်ုပ် အကြိုက်ဆုံး ဟင်းလျာက ကင် (ရေညှိခြောက်) ပါ။
+dried seaweed	ရေညှိခြောက် (김)
+This bag is a bit expensive.	ဒီအိတ်က ဈေး နည်းနည်း ကြီးတယ်။
+May I ask the price?	ဈေးနှုန်း မေးလို့ ရလား။
+You can use the school library for free.	ကျောင်း စာကြည့်တိုက်ကို အခမဲ့ သုံးလို့ ရတယ်။
+This cafe gives one more cup of coffee for free.	ဒီကဖေးက ကော်ဖီ နောက်တစ်ခွက် အခမဲ့ ပေးတယ်။
+Dilnoza works part-time at a convenience store.	ဒီလ်နိုဇာက စတိုးဆိုင်မှာ အချိန်ပိုင်းအလုပ် လုပ်တယ်။
+There is a convenience store in front of the dorm.	အဆောင်ရှေ့မှာ စတိုးဆိုင် ရှိတယ်။
+When you're hungry, when you're busy, Hanbit Lunch Box!	ဗိုက်ဆာချိန်၊ အလုပ်များချိန်မှာ ဟန်ဘစ် ထမင်းဘူး!
+Rice and five side dishes all at once!	ထမင်းနဲ့ ဟင်းလျာ ငါးမျိုး တစ်ခါတည်း!
+all at once	တစ်ခါတည်း
+The price is just 6,000 won.	ဈေးနှုန်း ဝမ် ၆,၀၀၀ သာ!
+This month, drinks are free too.	ဒီလမှာ အချိုရည်လည်း အခမဲ့!
+Find it at convenience stores across the country.	တစ်နိုင်ငံလုံးရှိ စတိုးဆိုင်များတွင် ရှာပါ။
+nationwide	တစ်နိုင်ငံလုံး
+A filling meal, Hanbit Lunch Box!	ဗိုက်ပြည့်တဲ့ တစ်နပ်၊ ဟန်ဘစ် ထမင်းဘူး!
+filling	ဗိုက်ပြည့်စေသည်
+'연락드렸어요' is the polite form of '연락했어요'. Teaching assistants and professors often use it with students, too.	'연락드렸어요' သည် '연락했어요' ၏ ယဉ်ကျေးသော ပုံစံ ဖြစ်ပါသည်။ တွဲဖက်ဆရာများနှင့် ပါမောက္ခများသည် ကျောင်းသားများကိုလည်း မကြာခဏ သုံးပါသည်။
+'문자 주세요' = please send me a text message.	'문자 주세요' = မက်ဆေ့ချ် ပို့ပေးပါ။
+training, education	သင်တန်း၊ ပညာရေး
+I got safety training on my first day at my part-time job.	အချိန်ပိုင်းအလုပ် ပထမနေ့မှာ ဘေးကင်းရေး သင်တန်း တက်ခဲ့တယ်။
+first day	ပထမနေ့
+training	သင်တန်း
+Korea is very interested in education.	ကိုရီးယားက ပညာရေးကို အရမ်း စိတ်ဝင်စားတယ်။
+education	ပညာရေး
+Contact me when you arrive in Korea.	ကိုရီးယား ရောက်ရင် ဆက်သွယ်ပါ။
+These days I keep in touch with my friends back home often.	ဒီရက်ပိုင်း ဇာတိက သူငယ်ချင်းတွေနဲ့ မကြာခဏ ဆက်သွယ်နေတယ်။
+What floor is the lecture room on?	စာသင်ခန်းက ဘယ်နှထပ်မှာလဲ။
+I came to the lecture room early before class.	အတန်း မစခင် စာသင်ခန်းကို စောစော ရောက်ခဲ့တယ်။
+You need a student ID card to enter the library.	စာကြည့်တိုက်ထဲ ဝင်ဖို့ ကျောင်းသားကတ် လိုတယ်။
+I lost my student ID card.	ကျောင်းသားကတ် ပျောက်သွားတယ်။
+I submitted my visa documents to the immigration office.	ဗီဇာ စာရွက်စာတမ်းတွေကို လူဝင်မှုကြီးကြပ်ရေး ရုံးမှာ တင်ခဲ့တယ်။
+Please write your name on this document.	ဒီစာရွက်ပေါ်မှာ နာမည် ရေးပေးပါ။
+Sam, this is Park Jihyun, the teaching assistant of the Hotel Management department.	ဆမ်၊ ဟိုတယ် စီမံခန့်ခွဲမှု ဌာန တွဲဖက်ဆရာ ပတ် ဂျီဟျွန် ပါ။
+Dept. of Hotel Management	ဟိုတယ် စီမံခန့်ခွဲမှု ဌာန
+I'm calling because there is an orientation for new students tomorrow.	မနက်ဖြန် ကျောင်းသားသစ် မိတ်ဆက်ပွဲ ရှိလို့ ဆက်သွယ်တာ ပါ။
+orientation, training	မိတ်ဆက်ပွဲ၊ သင်တန်း
+to contact (honorific)	ဆက်သွယ်သည် (ရိုသေ)
+The orientation is at 2 p.m. in the lecture room on the 3rd floor of Jiyeok Hyeoksin Hall.	မိတ်ဆက်ပွဲက ညနေ ၂ နာရီမှာ 지역혁신관 ၃ ထပ် စာသင်ခန်းမှာ ပါ။
+Be sure to bring your student ID card and your passport.	ကျောင်းသားကတ်နဲ့ နိုင်ငံကူးလက်မှတ် မဖြစ်မနေ ယူလာပါ။
+After it ends, you also need to sign the scholarship documents.	ပြီးရင် ပညာသင်ဆု စာရွက်စာတမ်းတွေမှာလည်း လက်မှတ် ထိုးရမယ်။
+When you get this message, please text me.	ဒီမက်ဆေ့ချ် ကြားရင် မက်ဆေ့ချ် ပို့ပေးပါ။
+On Seollal and Chuseok, many people go to their hometowns.	ဆော်လ်လာ နှင့် ချူဆော့ တွင် လူအများအပြား ဇာတိ ပြန်ကြပါသည်။
+'-(으)면서' = while doing...: 쉬면서 운전하세요 (drive and take breaks).	'-(으)면서' = ... ရင်း: 쉬면서 운전하세요 (နားရင်း မောင်းပါ)။
+On Seollal, people eat rice cake soup.	ဆော်လ်လာ တွင် ဆန်မုန့် ဟင်းချို စားကြပါသည်။
+Seollal	ဆော်လ်လာ
+I went to Minha's house this Seollal.	ဒီဆော်လ်လာ မှာ မင်ဟာ့ အိမ်ကို သွားခဲ့တယ်။
+holiday (several days)	ရုံးပိတ်ရက် ရှည် (ရက်ဆက်)
+I'm traveling to Seoul with friends over the holiday.	ရုံးပိတ်ရက် ရှည်မှာ သူငယ်ချင်းတွေနဲ့ ဆိုးလ်ကို ခရီးသွားမယ်။
+to go on a trip	ခရီး ထွက်သည်
+This holiday is three days long.	ဒီရုံးပိတ်ရက် ရှည်က သုံးရက် ပါ။
+Nikos's hometown is in Greece.	နီကော့စ် ရဲ့ ဇာတိက ဂရိမှာ ပါ။
+I want to go home during vacation.	ကျောင်းပိတ်ရက်မှာ ဇာတိ ပြန်ချင်တယ်။
+crowded, complicated	လူကြပ်သည်၊ ရှုပ်ထွေးသည်
+The student cafeteria is crowded at lunchtime.	နေ့လယ်စာ ချိန်မှာ ကျောင်းသား စားသောက်ဆောင် လူကြပ်တယ်။
+crowded	လူကြပ်သည်
+The bank documents are too complicated.	ဘဏ် စာရွက်စာတမ်းတွေက အရမ်း ရှုပ်ထွေးတယ်။
+complicated	ရှုပ်ထွေးသည်
+toll	လမ်းကြေး
+How much is the highway toll?	အမြန်လမ်း လမ်းကြေး ဘယ်လောက်လဲ။
+I paid the toll by card.	လမ်းကြေးကို ကတ်နဲ့ ပေးခဲ့တယ်။
+The Lunar New Year holiday starts tomorrow.	ဆော်လ်လာ ရုံးပိတ်ရက် မနက်ဖြန်မှ စတင်ပါမည်။
+Many cars are heading to people's hometowns, so the highways will be crowded.	ဇာတိ ပြန်မည့် ကားများ များသဖြင့် အမြန်လမ်းများ ပိတ်ဆို့ပါမည်။
+It will take about eight hours from Seoul to Busan.	ဆိုးလ်မှ ဘူဆန်အထိ ရှစ်နာရီခန့် ကြာပါမည်။
+Highway tolls are free during the holiday.	ရုံးပိတ်ရက်အတွင်း အမြန်လမ်း လမ်းကြေး အခမဲ့ ဖြစ်ပါသည်။
+Check your car before you leave, and take enough breaks while driving.	မထွက်မီ ကားကို စစ်ဆေးပြီး မောင်းရင်း လုံလောက်စွာ နားပါ။
+Have a happy Lunar New Year with your family.	မိသားစုနှင့်အတူ ပျော်ရွှင်သော ဆော်လ်လာ ဖြစ်ပါစေ။
+happy, fun	ပျော်ရွှင်သည်
+Easy news. Listen for when, where and what happened. Order: ❶ Listen to the whole text → ❷ Listen line by line → ❸ Words → ❹ Quiz.	လွယ်ကူသော သတင်း ဖြစ်ပါသည်။ ဘယ်တော့၊ ဘယ်မှာ၊ ဘာ ဖြစ်ခဲ့လဲ ကို နားထောင်ပါ။ အစီအစဉ်: ❶ စာသား တစ်ခုလုံး နားထောင် → ❷ တစ်ကြောင်းချင်း ပြန်နားထောင် → ❸ စကားလုံးများ → ❹ ပဟေဠိ။
+News uses '-았/었습니다' to talk about past events.	သတင်းများတွင် အတိတ်က ဖြစ်ရပ်များကို ပြောရန် '-았/었습니다' ကို သုံးပါသည်။
+There are many international students at Jeonju University.	ဂျွန်ဂျူ တက္ကသိုလ်မှာ နိုင်ငံခြား ကျောင်းသား များတယ်။
+Rahima is an international student from Bangladesh.	ရာဟီမာက ဘင်္ဂလားဒေ့ရှ်က နိုင်ငံခြား ကျောင်းသူ ပါ။
+I sang a song at the school festival.	ကျောင်း ပွဲတော်မှာ သီချင်း ဆိုခဲ့တယ်။
+Jeonju has a film festival.	ဂျွန်ဂျူမှာ ရုပ်ရှင် ပွဲတော် ရှိတယ်။
+film	ရုပ်ရှင်
+A special lecture will be held in Jayu Hall next week.	နောက်အပတ် 자유관 မှာ အထူး ဟောပြောပွဲ ကျင်းပမယ်။
+Jayu Hall	ဂျာယူ ခန်းမ (자유관)
+Tom took part in a marathon.	တွမ်က မာရသွန် ပြိုင်ပွဲမှာ ပါဝင်ခဲ့တယ်။
+marathon	မာရသွန်
+competition	ပြိုင်ပွဲ
+I want to take part in this event too.	ကျွန်ုပ်လည်း ဒီပွဲမှာ ပါဝင်ချင်တယ်။
+This cafe is very popular with students.	ဒီကဖေးက ကျောင်းသားတွေကြား အရမ်း လူကြိုက်များတယ်။
+to be popular	လူကြိုက်များသည်
+What's a popular song these days?	ဒီရက်ပိုင်း လူကြိုက်များတဲ့ သီချင်းက ဘာလဲ။
+popular	လူကြိုက်များသော
+Last Sunday, a festival for international students was held in Jeonju.	ပြီးခဲ့သော တနင်္ဂနွေနေ့က ဂျွန်ဂျူတွင် နိုင်ငံခြား ကျောင်းသားများအတွက် ပွဲတော် ကျင်းပခဲ့ပါသည်။
+People from 20 countries took part.	နိုင်ငံ ၂၀ မှ လူများ ပါဝင်ခဲ့ပါသည်။
+(counter)	ခု (ရေတွက်ပုံ)
+The participants introduced food and dances from their countries.	ပါဝင်သူများသည် မိမိတို့ နိုင်ငံ၏ အစားအစာနှင့် အကများကို မိတ်ဆက်ခဲ့ပါသည်။
+dance	အက
+At the Pakistan booth, biryani and naan were very popular.	ပါကစ္စတန် ဆိုင်ခန်းတွင် ဘီရယ်နီ နှင့် နံပြား အလွန် လူကြိုက်များခဲ့ပါသည်။
+About 30,000 people visited the festival.	မြို့သူမြို့သား ၃၀,၀၀၀ ခန့် ပွဲတော်သို့ လာရောက်ခဲ့ပါသည်။
+citizen	မြို့သူမြို့သား
+The festival is held every autumn.	ပွဲတော်ကို နှစ်စဉ် ဆောင်းဦးရာသီတွင် ကျင်းပပါသည်။
+every year	နှစ်စဉ်
+'폭설' = very heavy snow.	'폭설' = အလွန် သည်းထန်သော နှင်းကျခြင်း။
+'문을 닫다' can also mean not working that day (closed).	'문을 닫다' သည် ထိုနေ့ အလုပ် မလုပ်ခြင်း (ပိတ်ခြင်း) ဟုလည်း အဓိပ္ပာယ်ရပါသည်။
+Maria saw snow for the first time.	မာရီယာက နှင်းကို ပထမဆုံး မြင်ခဲ့တယ်။
+to pile up	ပုံလာသည်၊ စုပုံသည်
+A lot of books are piled up on the desk.	စားပွဲပေါ်မှာ စာအုပ်တွေ အများကြီး ပုံနေတယ်။
+Stress has built up, so I exercise.	စိတ်ဖိစီးမှု စုပုံလာလို့ လေ့ကျင့်ခန်း လုပ်တယ်။
+stress	စိတ်ဖိစီးမှု
+This road is quiet at night.	ဒီလမ်းက ညဘက်မှာ တိတ်ဆိတ်တယ်။
+Be careful when you cross the road.	လမ်း ကူးတဲ့အခါ သတိထားပါ။
+(bus/train) service	(ဘတ်စ်ကား/ရထား) ပြေးဆွဲမှု
+This bus runs until 11 p.m.	ဒီဘတ်စ်ကား ည ၁၁ နာရီအထိ ပြေးဆွဲတယ်။
+to run (service)	ပြေးဆွဲသည်
+Train service was delayed because of the snow.	နှင်းကြောင့် ရထား ပြေးဆွဲမှု နောက်ကျခဲ့တယ်။
+service	ပြေးဆွဲမှု
+The road is slippery, so be careful.	လမ်း ချော်လို့ သတိထားပါ။
+Drink the hot water carefully.	ရေနွေးကို သတိထားပြီး သောက်ပါ။
+to drink (honorific)	သုံးဆောင်သည် (ရိုသေ)
+Since last night, a lot of snow has been falling in Gangwon-do.	မနေ့ညကစပြီး ဂန်ဝမ်ဒို တွင် နှင်း သည်းသည်း ကျနေပါသည်။
+Gangwon Province	ဂန်ဝမ် ပြည်နယ်
+In mountain areas, more than 30 cm of snow has piled up.	တောင်တန်း ဒေသများတွင် နှင်း စင်တီမီတာ ၃၀ ကျော် ပုံနေပါသည်။
+mountain area	တောင်တန်း ဒေသ
+more than	ကျော်
+Some roads are closed and buses have stopped running.	လမ်းအချို့ ပိတ်ထားပြီး ဘတ်စ်ကားများ ပြေးဆွဲမှု ရပ်ဆိုင်းထားပါသည်။
+some	အချို့
+to be closed off	ပိတ်ဆို့ ထိန်းချုပ်ခံရသည်
+(bus) service	(ဘတ်စ်ကား) ပြေးဆွဲမှု
+Ten schools are closed today.	ကျောင်း ဆယ်ကျောင်း ဒီနေ့ ပိတ်ထားပါသည်။
+The snow will continue until tomorrow afternoon.	နှင်းသည် မနက်ဖြန် ညနေပိုင်းအထိ ဆက်ကျပါမည်။
+Please be extra careful when driving.	ကားမောင်းသောအခါ အထူး သတိထားပါ။
+'-에서 -(으)로 줄어들다' = to go down from... to...	'-에서 -(으)로 줄어들다' = ... မှ ... သို့ လျော့ကျသည်။
+'-(으)ㄹ 거라고 기대하다' = to expect that something will (get better).	'-(으)ㄹ 거라고 기대하다' = (ပိုကောင်းလာ) မည်ဟု မျှော်လင့်သည်။
+(subway) line, route	(မြေအောက်ရထား) လိုင်း၊ လမ်းကြောင်း
+This bus route passes in front of Jeonju University.	ဒီဘတ်စ်ကား လမ်းကြောင်းက ဂျွန်ဂျူ တက္ကသိုလ် ရှေ့ကနေ ဖြတ်တယ်။
+route	လမ်းကြောင်း
+The Seoul subway has many lines, so it's complicated.	ဆိုးလ် မြေအောက်ရထားမှာ လိုင်း အများကြီး ရှိလို့ ရှုပ်ထွေးတယ်။
+Please connect the laptop to the projector.	လက်ပ်တော့ကို ပရိုဂျက်တာနဲ့ ချိတ်ပေးပါ။
+projector	ပရိုဂျက်တာ
+This bridge connects two cities.	ဒီတံတားက မြို့ နှစ်မြို့ကို ချိတ်ဆက်ပေးတယ်။
+During vacation, the number of students at school goes down.	ကျောင်းပိတ်ရက်မှာ ကျောင်းမှာ ကျောင်းသား အရေအတွက် လျော့သွားတယ်။
+My weight went down because I exercised.	လေ့ကျင့်ခန်း လုပ်လို့ ကိုယ်အလေးချိန် ကျသွားတယ်။
+How much was the taxi fare?	တက္ကစီခ ဘယ်လောက် ကျလဲ။
+My phone bill this month is expensive.	ဒီလ ဖုန်းဘေလ် ဈေးကြီးတယ်။
+bill, fee	ဘေလ်၊ အခ
+to look forward to	မျှော်လင့်စောင့်စားသည်
+I'm really looking forward to next week's trip.	နောက်အပတ် ခရီးကို တကယ် မျှော်လင့်စောင့်စားနေတယ်။
+Don't get your hopes up about the exam results.	စာမေးပွဲ ရလဒ်ကို အရမ်း မမျှော်လင့်ပါနှင့်။
+to expect	မျှော်လင့်သည်
+A new subway line opens on the 1st of next month.	နောက်လ ၁ ရက်နေ့တွင် မြေအောက်ရထား လိုင်းသစ် ဖွင့်ပါမည်။
+The new line connects the airport and downtown.	လိုင်းသစ်သည် လေဆိပ်နှင့် မြို့လယ်ကို ချိတ်ဆက်ပါသည်။
+The time to the airport will go down from one hour to 30 minutes.	လေဆိပ်အထိ ကြာချိန်သည် တစ်နာရီမှ မိနစ် ၃၀ သို့ လျော့ကျပါမည်။
+from ... to	-မှ ... သို့
+The basic fare is 1,400 won.	အခြေခံ ကားခမှာ ဝမ် ၁,၄၀၀ ဖြစ်ပါသည်။
+basic	အခြေခံ
+You can ride for free for the first week.	ပထမ တစ်ပတ်အတွင်း အခမဲ့ စီးနိုင်ပါသည်။
+International students expect that going home will become easier.	နိုင်ငံခြား ကျောင်းသားများသည် ဇာတိ ပြန်ရ ပိုလွယ်လာမည်ဟု မျှော်လင့်ကြပါသည်။
+to become easier	ပိုလွယ်ကူလာသည်
+'-(이)라는' is used to introduce a name or a title.	'-(이)라는' ကို အမည် သို့မဟုတ် ခေါင်းစဉ် မိတ်ဆက်ရာတွင် သုံးပါသည်။
+Order of prizes: 대상 (grand prize) → 최우수상 (1st) → 우수상 (2nd).	ဆု အစီအစဉ်: 대상 (ဆုကြီး) → 최우수상 (ပထမ) → 우수상 (ဒုတိယ)။
+contest	ပြိုင်ပွဲ
+Ahmad is going to play in a soccer tournament.	အာမတ်က ဘောလုံး ပြိုင်ပွဲမှာ ကစားမယ်။
+contest, tournament	ပြိုင်ပွဲ
+to take part in	(ပြိုင်ပွဲ) ဝင်သည်
+I won first place in the singing contest.	သီချင်း ပြိုင်ပွဲမှာ ပထမ ရခဲ့တယ်။
+singing	သီချင်းဆိုခြင်း
+first place	ပထမ
+grand prize	ဆုကြီး
+Who won the grand prize in this cooking contest?	ဒီ ဟင်းချက် ပြိုင်ပွဲမှာ ဆုကြီး ဘယ်သူ ရလဲ။
+I'm really happy because I won the grand prize.	ဆုကြီး ရလို့ တကယ် ပျော်တယ်။
+My younger sibling is a university student too.	ကျွန်ုပ် ညီ/ညီမလည်း တက္ကသိုလ် ကျောင်းသား ပါ။
+University students can get a discount.	တက္ကသိုလ် ကျောင်းသားတွေ လျှော့ဈေး ရနိုင်တယ်။
+title	ခေါင်းစဉ်
+What is the title of this book?	ဒီစာအုပ်ရဲ့ ခေါင်းစဉ်က ဘာလဲ။
+Be sure to write a title on your report.	အစီရင်ခံစာမှာ ခေါင်းစဉ် မဖြစ်မနေ ရေးပါ။
+gift certificate	လက်ဆောင် ကူပွန်
+I got a department store gift certificate for my birthday.	မွေးနေ့မှာ ကုန်တိုက် လက်ဆောင် ကူပွန် ရခဲ့တယ်။
+You can buy books with this gift certificate.	ဒီလက်ဆောင် ကူပွန်နဲ့ စာအုပ် ဝယ်လို့ ရတယ်။
+Yesterday, a Korean speech contest for foreigners was held in Seoul.	မနေ့က ဆိုးလ်တွင် နိုင်ငံခြားသားများအတွက် ကိုရီးယားစကား မိန့်ခွန်း ပြိုင်ပွဲ ကျင်းပခဲ့ပါသည်။
+Fifty people from 30 countries took part.	နိုင်ငံ ၃၀ မှ လူ ၅၀ ပါဝင်ခဲ့ပါသည်။
+The grand prize went to a university student from Greece.	ဆုကြီးကို ဂရိမှ တက္ကသိုလ် ကျောင်းသား တစ်ဦး ရရှိခဲ့ပါသည်။
+The student gave a speech titled 'My Mom's Bread'.	ထိုကျောင်းသားသည် 'ကျွန်ုပ် အမေရဲ့ ပေါင်မုန့်' ဆိုသော ခေါင်းစဉ်ဖြင့် မိန့်ခွန်း ပြောခဲ့ပါသည်။
+called	-ဆိုသော
+"While learning Korean, I missed my family even more."	"ကိုရီးယားစကား သင်ရင်း မိသားစုကို ပိုလွမ်းလာခဲ့တယ်။"
+to come to miss	လွမ်းလာသည်
+The grand prize winner also received a travel voucher for Korea.	ဆုကြီး ရသူသည် ကိုရီးယား ခရီးသွား ကူပွန်ကိုလည်း ရရှိခဲ့ပါသည်။
+travel	ခရီးသွားခြင်း
+A month is divided into 초순 (1st–10th), 중순 (11th–20th) and 하순 (21st–end).	တစ်လကို 초순 (၁–၁၀ ရက်)၊ 중순 (၁၁–၂၀ ရက်)၊ 하순 (၂၁ ရက်–လကုန်) ဟု ခွဲပါသည်။
+Koreans often go to see the autumn leaves in fall.	ကိုရီးယားလူများသည် ဆောင်းဦးတွင် သစ်ရွက်ဝါ ကြည့်ရန် မကြာခဏ သွားကြပါသည်။
+In autumn I go to see the fall leaves with friends.	ဆောင်းဦးမှာ သူငယ်ချင်းတွေနဲ့ သစ်ရွက်ဝါ ကြည့်ဖို့ သွားတယ်။
+to go to see	ကြည့်ဖို့ သွားသည်
+The autumn leaves are pretty on campus too.	ကျောင်းဝင်းထဲမှာလည်း သစ်ရွက်ဝါတွေ လှတယ်။
+I got up late today.	ဒီနေ့ နောက်ကျပြီး အိပ်ရာထခဲ့တယ်။
+south	တောင်ဘက်
+Jeonju is south of Seoul.	ဂျွန်ဂျူက ဆိုးလ်ရဲ့ တောင်ဘက်မှာ ရှိတယ်။
+My room's window faces south, so it's bright.	ကျွန်ုပ် အခန်း ပြတင်းပေါက်က တောင်ဘက် မျက်နှာမူလို့ လင်းတယ်။
+the middle of the month	လလယ်
+There is an exam in the middle of next month.	နောက်လ လလယ်မှာ စာမေးပွဲ ရှိတယ်။
+middle of the month	လလယ်
+From mid-March the weather gets warm.	မတ်လ လလယ်ကစပြီး ရာသီဥတု နွေးလာတယ်။
+to get warm	နွေးလာသည်
+hiker	တောင်တက်သမား
+There are many hikers on the mountain on Sunday mornings.	တနင်္ဂနွေ မနက်တွေမှာ တောင်ပေါ်မှာ တောင်တက်သမား များတယ်။
+Hikers take photos at the top of the mountain.	တောင်တက်သမားတွေက တောင်ထိပ်မှာ ဓာတ်ပုံ ရိုက်ကြတယ်။
+The first autumn colors have started on Seoraksan.	ဆော်ရက်ဆန် တောင်ပေါ်တွင် ပထမဆုံး သစ်ရွက်ဝါ စတင်ပါပြီ။
+Seoraksan (mountain)	ဆော်ရက်ဆန် (တောင်)
+It is three days later than last year.	ယမန်နှစ်ထက် သုံးရက် နောက်ကျပါသည်။
+The autumn colors move south about 20 km a day.	သစ်ရွက်ဝါသည် တစ်ရက်လျှင် ကီလိုမီတာ ၂၀ ခန့် တောင်ဘက်သို့ ရွေ့ပါသည်။
+each, per	-စီ၊ တစ်... လျှင်
+Mountains near Seoul will be most beautiful in the middle of next month.	ဆိုးလ် အနီးရှိ တောင်များသည် နောက်လ လလယ်တွင် အလှဆုံး ဖြစ်ပါမည်။
+near	အနီး
+On weekends there are many hikers, so the trails may be crowded.	စနေ တနင်္ဂနွေတွင် တောင်တက်သမား များသဖြင့် တောင်လမ်းများ လူကြပ်နိုင်ပါသည်။
+mountain trail	တောင်လမ်း
+When you go to the mountains, bring warm clothes and water.	တောင်ပေါ် သွားသောအခါ အနွေးထည်နှင့် ရေ ယူသွားပါ။
+'-게 되다' = to come to be able to... (the situation changed).	'-게 되다' = ... လာသည် (အခြေအနေ ပြောင်းသွားသည်)။
+'동남아시아' = Southeast Asia, countries like Myanmar, Thailand and Singapore.	'동남아시아' = အရှေ့တောင်အာရှ၊ မြန်မာ၊ ထိုင်း၊ စင်ကာပူ စသည့် နိုင်ငံများ။
+overseas	ပြည်ပ
+I'm traveling abroad during vacation.	ကျောင်းပိတ်ရက်မှာ ပြည်ပကို ခရီးသွားမယ်။
+Can I use this card overseas?	ပြည်ပမှာ ဒီကတ်ကို သုံးလို့ ရလား။
+I sent my mother a photo.	အမေ့ဆီ ဓာတ်ပုံ ပို့ခဲ့တယ်။
+I have to send an email to the professor.	ပါမောက္ခဆီ အီးမေးလ် ပို့ရမယ်။
+The service at this hotel is very good.	ဒီဟိုတယ်ရဲ့ ဝန်ဆောင်မှုက အရမ်း ကောင်းတယ်။
+This drink is on the house.	ဒီအချိုရည်က အလကား ပါ။
+free extra (on the house)	အလကား ပေးသော ပစ္စည်း
+Breakfast is included in the room price.	အခန်းခထဲမှာ မနက်စာ ပါတယ်။
+room price	အခန်းခ
+Is shipping included in this price too?	ဒီဈေးထဲမှာ ပို့ခလည်း ပါလား။
+shipping fee	ပို့ခ
+The plane arrived at Incheon.	လေယာဉ် အင်ချွန်ကို ရောက်ပြီ။
+Incheon	အင်ချွန်
+I arrive at school ten minutes before class.	အတန်း မစခင် ဆယ်မိနစ်အလိုမှာ ကျောင်း ရောက်တယ်။
+Now you will be able to send parcels overseas from convenience stores.	ယခုမှ စ၍ စတိုးဆိုင်များမှ ပြည်ပသို့ ပါဆယ် ပို့နိုင်လာပါမည်။
+to become able to	-နိုင်လာသည်
+This service starts at convenience stores nationwide next week.	ဤဝန်ဆောင်မှုကို နောက်အပတ်တွင် တစ်နိုင်ငံလုံးရှိ စတိုးဆိုင်များ၌ စတင်ပါမည်။
+You can send parcels to ten countries in Southeast Asia.	အရှေ့တောင်အာရှ နိုင်ငံ ဆယ်နိုင်ငံသို့ ပါဆယ် ပို့နိုင်ပါသည်။
+Southeast Asia	အရှေ့တောင်အာရှ
+Myanmar is included too.	မြန်မာလည်း ပါဝင်ပါသည်။
+Items usually arrive within a week.	ပစ္စည်းများသည် များသောအားဖြင့် တစ်ပတ်အတွင်း ရောက်ပါသည်။
+item, thing	ပစ္စည်း
+It is getting a lot of attention from international students.	နိုင်ငံခြား ကျောင်းသားများထံမှ စိတ်ဝင်စားမှု အများကြီး ရနေပါသည်။
+interest, attention	စိတ်ဝင်စားမှု
+'-지 말라고 했습니다' passes on an order not to do something (said not to...).	'-지 말라고 했습니다' သည် မလုပ်ရန် ညွှန်ကြားချက်ကို ပြန်ပြောခြင်း (မလုပ်ပါနှင့်ဟု ပြောခဲ့သည်) ဖြစ်ပါသည်။
+Summer in Korea is hot and humid, like in Singapore.	ကိုရီးယား နွေရာသီသည် မြန်မာကဲ့သို့ ပူပြီး စိုထိုင်းပါသည်။
+I had the air conditioner on all day because of the heat wave.	အပူလှိုင်းကြောင့် လေအေးပေးစက်ကို တစ်နေကုန် ဖွင့်ထားခဲ့တယ်။
+Don't exercise outside during a heat wave.	အပူလှိုင်း ကာလမှာ အပြင်မှာ လေ့ကျင့်ခန်း မလုပ်ပါနှင့်။
+There is no class because of a typhoon warning.	တိုင်ဖုန်း သတိပေးချက်ကြောင့် အတန်း မရှိဘူး။
+A warning text came to my phone.	ဖုန်းထဲ သတိပေး မက်ဆေ့ချ် ရောက်လာတယ်။
+government	အစိုးရ
+The government gives scholarships to international students.	အစိုးရက နိုင်ငံခြား ကျောင်းသားတွေကို ပညာသင်ဆု ပေးတယ်။
+The government made a new law.	အစိုးရက ဥပဒေသစ် ပြဋ္ဌာန်းခဲ့တယ်။
+law	ဥပဒေ
+shade	အရိပ်
+It's hot, so let's sit in the shade.	ပူလို့ အရိပ်မှာ ထိုင်ကြစို့။
+I read a book in the shade of a tree.	သစ်ပင် အရိပ်မှာ စာအုပ် ဖတ်ခဲ့တယ်။
+I feel dizzy because I skipped breakfast.	မနက်စာ မစားလို့ မူးနေတယ်။
+If you feel dizzy, take a rest.	ခေါင်းမူးရင် နားပါ။
+A heat wave warning has been issued nationwide.	တစ်နိုင်ငံလုံးတွင် အပူလှိုင်း သတိပေးချက် ထုတ်ပြန်ထားပါသည်။
+to be issued	ထုတ်ပြန်ခံရသည်
+The daytime temperature in Daegu rose to 39 degrees today.	ဒီနေ့ ဒယ်ဂူ ၏ နေ့ဘက် အပူချိန် ၃၉ ဒီဂရီအထိ မြင့်တက်ခဲ့ပါသည်။
+Daegu	ဒယ်ဂူ
+to rise	မြင့်တက်သည်
+The government said not to stay outside for long from 2 to 5 p.m.	အစိုးရက နေ့လယ် ၂ နာရီမှ ၅ နာရီအထိ အပြင်မှာ အကြာကြီး မနေပါနှင့်ဟု ပြောခဲ့ပါသည်။
+to tell not to	-ပါနှင့်ဟု ပြောသည်
+You should drink water often and rest in the shade.	ရေ မကြာခဏ သောက်ပြီး အရိပ်မှာ နားရပါမည်။
+should	-ရမည်
+If you feel dizzy or have a headache, go to a hospital right away.	ခေါင်းမူးခြင်း သို့မဟုတ် ခေါင်းကိုက်ခြင်း ရှိလျှင် ဆေးရုံသို့ ချက်ချင်း သွားပါ။
+to have a headache	ခေါင်းကိုက်သည်
+The heat will continue until this weekend.	အပူဒဏ်သည် ဒီစနေ တနင်္ဂနွေအထိ ဆက်ရှိပါမည်။
+to continue	ဆက်ဖြစ်သည်
+'-을/를 위한' = for...	'-을/를 위한' = ... အတွက်။
+'-(으)면 됩니다' = you just need to...	'-(으)면 됩니다' = ... ရုံပါပဲ။
+city-run	မြို့တော် ပိုင်
+The city art museum is closed on Mondays.	မြို့တော် အနုပညာ ပြတိုက်က တနင်္လာနေ့ ပိတ်တယ်။
+art museum	အနုပညာ ပြတိုက်
+The city swimming pool is cheap.	မြို့တော် ရေကူးကန်က ဈေးသက်သာတယ်။
+beginner level	အခြေခံ အဆင့်
+I'm taking a beginner Korean class.	ကိုရီးယားစကား အခြေခံ အတန်း တက်နေတယ်။
+This book is good for beginner students.	ဒီစာအုပ်က အခြေခံ ကျောင်းသားတွေအတွက် ကောင်းတယ်။
+intermediate level	အလယ်အလတ် အဆင့်
+Next semester I'm going to the intermediate class.	နောက်စာသင်နှစ်ဝက်မှာ အလယ်အလတ် အတန်းကို တက်မယ်။
+Intermediate grammar is a little difficult.	အလယ်အလတ် သဒ္ဒါက နည်းနည်း ခက်တယ်။
+class (group)	အတန်း (အဖွဲ့)
+There are twenty students in our class.	ကျွန်ုပ်တို့ အတန်းမှာ ကျောင်းသား နှစ်ဆယ် ရှိတယ်။
+John and I are in the same class.	ဂျွန်နဲ့ ကျွန်ုပ်က အတန်းတူ ပါ။
+The scholarship application is due this week.	ပညာသင်ဆု လျှောက်ထားခြင်းက ဒီအပတ်အထိ ပါ။
+I applied for the dorm online.	အဆောင်ကို အွန်လိုင်းကနေ လျှောက်ခဲ့တယ်။
+The city library is opening a free Korean class for foreigners.	မြို့တော် စာကြည့်တိုက်က နိုင်ငံခြားသားတွေအတွက် အခမဲ့ ကိုရီးယားစကား အတန်း ဖွင့်ပါမယ်။
+city library	မြို့တော် စာကြည့်တိုက်
+for	-အတွက်
+Classes are every Saturday from 10 a.m. to 12.	အတန်းကို အပတ်တိုင်း စနေနေ့ နံနက် ၁၀ နာရီမှ ၁၂ နာရီအထိ သင်ပါတယ်။
+every week	အပတ်တိုင်း
+There are beginner and intermediate classes.	အခြေခံ အတန်းနဲ့ အလယ်အလတ် အတန်း ရှိပါတယ်။
+beginner class	အခြေခံ အတန်း
+intermediate class	အလယ်အလတ် အတန်း
+Each class takes up to 15 people.	အတန်းတစ်ခုမှာ အများဆုံး ၁၅ ယောက် လက်ခံပါတယ်။
+to accept	လက်ခံသည်
+You can apply on the library website by the end of this month.	ဒီလကုန်အထိ စာကြည့်တိုက် ဝက်ဘ်ဆိုက်မှာ လျှောက်ထားရုံပါပဲ။
+you can just	-ရုံပါပဲ
+The library gives books and notebooks for free.	စာကြည့်တိုက်က စာအုပ်နဲ့ မှတ်စုစာအုပ်တွေကို အခမဲ့ ပေးပါတယ်။
+for free	အခမဲ့
+'닷새' = 5 days. 하루, 이틀, 사흘, 나흘, 닷새.	'닷새' = ၅ ရက်။ 하루၊ 이틀၊ 사흘၊ 나흘၊ 닷새။
+'-(으)ㄹ 것으로 기대됩니다' (it is expected that...) is often used in the news.	'-(으)ㄹ 것으로 기대됩니다' (... မည်ဟု မျှော်လင့်ရသည်) ကို သတင်းများတွင် မကြာခဏ သုံးပါသည်။
+There is a department event this Friday.	ဒီအပတ် သောကြာနေ့မှာ ဌာန ပွဲ ရှိတယ်။
+They gave out rice cakes at the event.	ပွဲမှာ ဆန်မုန့်တွေ ဝေပေးတယ်။
+tradition	ရိုးရာ
+I saw traditional Korean houses at the Jeonju Hanok Village.	ဂျွန်ဂျူ ဟန်အုတ် ရွာမှာ ကိုရီးယား ရိုးရာ အိမ်တွေ တွေ့ခဲ့တယ်။
+Hanok Village	ဟန်အုတ် ရွာ
+traditional	ရိုးရာ
+On Lunar New Year's Day, people play traditional games.	ဆော်လ်လာ နေ့မှာ ရိုးရာ ကစားနည်းတွေ ကစားကြတယ်။
+Lunar New Year's Day	ဆော်လ်လာ နေ့
+performance	ဖျော်ဖြေပွဲ
+I went to see a show with a friend on the weekend.	စနေ တနင်္ဂနွေမှာ သူငယ်ချင်းနဲ့ ရှိုး ကြည့်ခဲ့တယ်။
+The performance starts at 7 p.m.	ဖျော်ဖြေပွဲက ည ၇ နာရီမှာ စတယ်။
+to be displayed	ပြသထားသည်
+Old clothes are on display at the museum.	ပြတိုက်မှာ ရှေးခေတ် အဝတ်အစားတွေ ပြသထားတယ်။
+old times	ရှေးခေတ်
+Students' paintings were displayed in the library.	ကျောင်းသားတွေရဲ့ ပန်းချီကားတွေကို စာကြည့်တိုက်မှာ ပြသခဲ့တယ်။
+painting	ပန်းချီကား
+How much is the museum admission fee?	ပြတိုက် ဝင်ကြေး ဘယ်လောက်လဲ။
+Students pay half price for admission.	ကျောင်းသားတွေ ဝင်ကြေး တစ်ဝက်ပဲ ပေးရတယ်။
+half price	ဈေး တစ်ဝက်
+Next week, a Myanmar Culture Week event will be held in Seoul.	နောက်အပတ်တွင် ဆိုးလ်၌ မြန်မာ ယဉ်ကျေးမှု သီတင်းပတ် ပွဲ ကျင်းပပါမည်။
+At the event, you can see traditional Myanmar dance performances.	ပွဲတွင် မြန်မာ ရိုးရာ အက ဖျော်ဖြေမှုများကို ကြည့်ရှုနိုင်ပါသည်။
+Myanmar coffee and silk will also be displayed.	မြန်မာ ကော်ဖီနှင့် ပိုးထည်များကိုလည်း ပြသပါမည်။
+silk	ပိုးထည်
+Visitors can try on traditional Myanmar clothes themselves.	လာရောက်သူများသည် မြန်မာ ရိုးရာ ဝတ်စုံကို ကိုယ်တိုင် ဝတ်ကြည့်နိုင်ပါသည်။
+traditional clothes	ရိုးရာ ဝတ်စုံ
+The event will be held for five days, and admission is free.	ပွဲကို ငါးရက် ကျင်းပမည်ဖြစ်ပြီး ဝင်ကြေး အခမဲ့ ဖြစ်ပါသည်။
+The friendship between the two countries is expected to grow deeper.	နှစ်နိုင်ငံကြား ချစ်ကြည်ရေး ပိုမို နက်ရှိုင်းလာမည်ဟု မျှော်လင့်ရပါသည်။
+friendship	ချစ်ကြည်ရေး၊ ခင်မင်မှု
+to deepen	နက်ရှိုင်းလာသည်
+to be expected	မျှော်လင့်ရသည်
+'-기 위해서' = in order to...	'-기 위해서' = ... ရန်၊ ... ဖို့။
+'시행되다' = (a law or system) to come into effect.	'시행되다' = (ဥပဒေ သို့မဟုတ် စနစ်) အာဏာ တည်သည်။
+disposable	တစ်ခါသုံး
+Please don't give me disposable chopsticks.	တစ်ခါသုံး တူ မပေးပါနှင့်။
+I take a disposable toothbrush when I travel.	ခရီးသွားတဲ့အခါ တစ်ခါသုံး သွားတိုက်တံ ယူသွားတယ်။
+The deposit for the studio is too expensive.	အခန်းတစ်ခန်းတည်း တိုက်ခန်း စပေါ်ငွေ အရမ်း ဈေးကြီးတယ်။
+I got my deposit back when I moved out.	အိမ်ပြောင်းထွက်တဲ့အခါ စပေါ်ငွေ ပြန်ရခဲ့တယ်။
+to move out	ပြောင်းထွက်သည်
+system	စနစ်
+Korea's health insurance system is good.	ကိုရီးယားရဲ့ ကျန်းမာရေး အာမခံ စနစ်က ကောင်းတယ်။
+The school has a new scholarship system.	ကျောင်းမှာ ပညာသင်ဆု စနစ်သစ် ပေါ်လာတယ်။
+to be created	ပေါ်ပေါက်လာသည်
+Please pour water into the cup.	ခွက်ထဲ ရေ ငှဲ့ပေးပါ။
+I bought a pretty cup at the cafe.	ကဖေးမှာ ခွက်လှလှ ဝယ်ခဲ့တယ်။
+to reduce	လျှော့သည်
+I cut down on coffee to save money.	ငွေ ချွေတာဖို့ ကော်ဖီ လျှော့သောက်တယ်။
+Please turn the music down a little.	သီချင်း အသံ နည်းနည်း လျှော့ပေးပါ။
+sound, volume	အသံ
+to lower, to reduce	လျှော့သည်၊ နိမ့်စေသည်
+A deposit system for disposable cups starts next month.	နောက်လမှ စ၍ တစ်ခါသုံး ခွက် အာမခံငွေ စနစ် စတင်ပါမည်။
+If you buy a drink in a disposable cup at a café, you have to pay 300 won more.	ကဖေးတွင် တစ်ခါသုံး ခွက်ဖြင့် အချိုရည် ဝယ်လျှင် ဝမ် ၃၀၀ ပို ပေးရပါမည်။
+If you return the cup, you can get the 300 won back.	ခွက်ကို ပြန်အပ်လျှင် ဝမ် ၃၀၀ ပြန်ရနိုင်ပါသည်။
+If you bring your own cup, you can also get a discount.	ကိုယ်ပိုင် ခွက် ယူလာလျှင် လျှော့ဈေးလည်း ရနိုင်ပါသည်။
+The government made this system to reduce trash.	အစိုးရသည် အမှိုက် လျှော့ချရန် ဤစနစ်ကို ပြုလုပ်ခဲ့ပါသည်။
+At first, it will only apply at big cafés.	အစပိုင်းတွင် ကဖေးကြီးများ၌သာ အကျုံးဝင်ပါမည်။
+only at	-မှာသာ
+to be put into effect	အာဏာ တည်သည်
+Korean songs that international students love. Listen to the song introduction, learn the words in the song, then watch the music video. Order: ❶ Listen to the whole text → ❷ Listen line by line → ❸ Words → ❹ Quiz.	နိုင်ငံခြား ကျောင်းသားများ ကြိုက်သော ကိုရီးယား သီချင်းများ ဖြစ်ပါသည်။ သီချင်း မိတ်ဆက်ကို နားထောင်ပြီး သီချင်းထဲမှ စကားလုံးများကို သင်ကာ မြူးဇစ်ဗီဒီယိုကို ကြည့်ပါ။ အစီအစဉ်: ❶ စာသား တစ်ခုလုံး နားထောင် → ❷ တစ်ကြောင်းချင်း ပြန်နားထောင် → ❸ စကားလုံးများ → ❹ ပဟေဠိ။
+'오빤' is short for '오빠는'.	'오빤' သည် '오빠는' ၏ အတိုပုံစံ ဖြစ်ပါသည်။
+'-스타일' comes from the English word style. Korean has many words from English.	'-스타일' သည် အင်္ဂလိပ် စကားလုံး style မှ လာပါသည်။ ကိုရီးယားတွင် အင်္ဂလိပ်မှ လာသော စကားလုံး များစွာ ရှိပါသည်။
+My older brother works in Seoul.	ကျွန်မ အစ်ကိုက ဆိုးလ်မှာ အလုပ်လုပ်တယ်။
+my, our	ကျွန်ုပ်၏၊ ကျွန်ုပ်တို့၏
+Jinha has two older brothers.	ဂျင်ဟာမှာ အစ်ကို နှစ်ယောက် ရှိတယ်။
+Busan is in the south of Korea.	ဘူဆန်က ကိုရီးယားရဲ့ တောင်ဘက်မှာ ရှိတယ်။
+In winter, birds go south.	ဆောင်းရာသီမှာ ငှက်တွေ တောင်ဘက်ကို သွားကြတယ်။
+Aisha dances well.	အိုင်ရှာက ကချေ ကောင်းတယ်။
+I danced with my friends at the festival.	ပွဲတော်မှာ သူငယ်ချင်းတွေနဲ့ ကခဲ့တယ်။
+I have classes in the daytime and work part-time at night.	နေ့ဘက်မှာ အတန်း ရှိပြီး ညဘက်မှာ အချိန်ပိုင်း အလုပ်လုပ်တယ်။
+In summer the days are long.	နွေရာသီမှာ နေ့တာ ရှည်တယ်။
+I studied until late last night.	မနေ့ညက ညနက်အထိ စာကျက်ခဲ့တယ်။
+Don't walk alone at night.	ညဘက် တစ်ယောက်တည်း မလမ်းလျှောက်ပါနှင့်။
+Gangnam Style is a song by PSY released in 2012.	Gangnam Style က ၂၀၁၂ ခုနှစ်မှာ ထွက်ခဲ့တဲ့ PSY ရဲ့ သီချင်း ပါ။
+It became famous around the world for its horse-riding dance.	မြင်းစီးသလို အကကြောင့် ကမ္ဘာအနှံ့ နာမည်ကြီးလာခဲ့တယ်။
+horse	မြင်း
+to seem like	... ပုံရသည်၊ ... နှင့် တူသည်
+to become famous	နာမည်ကြီးလာသည်
+Gangnam is the area south of the Han River in Seoul.	ဂန်နမ်က ဆိုးလ် ဟန်မြစ်ရဲ့ တောင်ဘက် ဒေသ ပါ။
+Han River	ဟန်မြစ်
+area	ဒေသ
+The song talks about a person who is warm in the day and hot at night.	သီချင်းက နေ့ဘက်မှာ နွေးထွေးပြီး ညဘက်မှာ ပူပြင်းတဲ့ လူအကြောင်း ပြောတယ်။
+to talk about	... အကြောင်း ပြောသည်
+Every Korean sings along to '오빤 강남스타일'.	ကိုရီးယားလူတိုင်း '오빤 강남스타일' ကို လိုက်ဆိုကြတယ်။
+to follow along	လိုက်လုပ်သည်
+'아파트' is short for the English word apartment.	'아파트' သည် အင်္ဂလိပ် စကားလုံး apartment ၏ အတိုပုံစံ ဖြစ်ပါသည်။
+'따라 부르다' = to sing along.	'따라 부르다' = လိုက်ဆိုသည်။
+My friend lives in an apartment near the school.	ကျွန်ုပ် သူငယ်ချင်းက ကျောင်းအနီးက တိုက်ခန်းမှာ နေတယ်။
+This apartment building has fifteen floors.	ဒီတိုက်ခန်း အဆောက်အအုံမှာ ၁၅ ထပ် ရှိတယ်။
+I played games with friends on the weekend.	စနေ တနင်္ဂနွေမှာ သူငယ်ချင်းတွေနဲ့ ဂိမ်း ကစားခဲ့တယ်။
+to do, to play	လုပ်သည်၊ ကစားသည်
+Don't play too many phone games.	ဖုန်း ဂိမ်း အများကြီး မကစားပါနှင့်။
+If you have a question, raise your hand.	မေးစရာ ရှိရင် လက်ထောင်ပါ။
+to raise one's hand	လက်ထောင်သည်
+to stack	ထပ်စီသည်
+I stacked the boxes in the corner of the room.	သေတ္တာတွေကို အခန်း ထောင့်မှာ ထပ်စီထားခဲ့တယ်။
+corner	ထောင့်
+I want to gain a lot of good experience in Korea.	ကိုရီးယားမှာ အတွေ့အကြုံ ကောင်းတွေ အများကြီး ရချင်တယ်။
+experience	အတွေ့အကြုံ
+to be excited, fun	စိတ်လှုပ်ရှားသည်၊ ပျော်စရာကောင်းသည်
+Vacation has started, so I'm really excited.	ကျောင်းပိတ်ရက် စပြီမို့ တကယ် ပျော်တယ်။
+to be excited	စိတ်လှုပ်ရှားသည်
+Listening to upbeat music makes me feel good.	မြူးကြွတဲ့ သီချင်း နားထောင်ရင် စိတ်ကြည်လင်တယ်။
+fun, upbeat	ပျော်စရာကောင်းသည်၊ မြူးကြွသည်
+mood	စိတ်ခံစားမှု
+APT. is a song sung by BLACKPINK's Rosé and Bruno Mars.	APT. သည် BLACKPINK ၏ Rosé နှင့် Bruno Mars ဆိုသော သီချင်း ဖြစ်ပါသည်။
+BLACKPINK	BLACKPINK
+The title comes from '아파트', a Korean drinking game.	ခေါင်းစဉ်သည် ကိုရီးယား အရက်သောက် ဂိမ်း '아파트' မှ လာပါသည်။
+to come from	... မှ လာသည်
+Several people stack their hands while singing '아파트, 아파트'.	လူအများက '아파트, 아파트' ဟု ဆိုရင်း လက်တွေကို ထပ်ကြပါသည်။
+several	အမျိုးမျိုး၊ အများ
+The song is very easy and fun, so people all over the world sang along.	သီချင်းက အရမ်း လွယ်ပြီး ပျော်စရာကောင်းလို့ ကမ္ဘာတစ်ဝှမ်းက လူတွေ လိုက်ဆိုကြတယ်။
+fun, exciting	ပျော်စရာကောင်းသည်
+to sing along	လိုက်ဆိုသည်
+In Korean, '아파트' is a big building with many homes in it.	ကိုရီးယားစကားတွင် '아파트' သည် အိမ်ခန်း အများအပြား ပါဝင်သော အဆောက်အအုံကြီး ဖြစ်ပါသည်။
+'힘을 주다' = to encourage, to give strength.	'힘을 주다' = အားပေးသည်၊ ခွန်အား ပေးသည်။
+'방탄' = bulletproof. 방탄소년단 = Bulletproof Boy Scouts.	'방탄' = ကျည်ကာ။ 방탄소년단 = Bulletproof Boy Scouts (ကျည်ကာ လူငယ်အဖွဲ့)။
+My favorite singer is IU.	ကျွန်ုပ် အကြိုက်ဆုံး အဆိုတော်က IU ပါ။
+My dream is to become a singer.	ကျွန်ုပ် အိပ်မက်က အဆိုတော် ဖြစ်ဖို့ ပါ။
+dream	အိပ်မက်၊ ရည်မှန်းချက်
+lyrics	သီချင်းစာသား
+I really like the lyrics of this song.	ဒီသီချင်းရဲ့ စာသားကို တကယ် ကြိုက်တယ်။
+I study Korean while reading the lyrics.	စာသားကို ဖတ်ရင်း ကိုရီးယားစကား လေ့လာတယ်။
+strength, energy	ခွန်အား၊ အင်အား
+I feel energized after eating.	ထမင်းစားပြီးတော့ အားပြည့်လာတယ်။
+to feel energized	အားပြည့်လာသည်
+This box is heavy, so it takes a lot of strength.	ဒီသေတ္တာက လေးလို့ အားအများကြီး စိုက်ရတယ်။
+to take effort	အားစိုက်ရသည်၊ ပင်ပန်းသည်
+This room is bright because the window is big.	ဒီအခန်းက ပြတင်းပေါက် ကြီးလို့ လင်းတယ်။
+Maria has a cheerful personality.	မာရီယာက စိတ်ဓာတ် ရွှင်လန်းတယ်။
+bright, cheerful	လင်းသည်၊ ရွှင်လန်းသည်
+fan	ပရိသတ်၊ ဖန်
+I'm a fan of a soccer team.	ကျွန်ုပ်က ဘောလုံးအသင်း တစ်သင်းရဲ့ ပရိသတ် ပါ။
+There are a lot of fans in front of the concert hall.	ဖျော်ဖြေပွဲ ခန်းမ ရှေ့မှာ ပရိသတ် အများကြီး ရှိတယ်။
+Dynamite is a song BTS released in 2020.	Dynamite သည် BTS က ၂၀၂၀ ခုနှစ်တွင် ထုတ်ခဲ့သော သီချင်း ဖြစ်ပါသည်။
+BTS	BTS
+to release	ထုတ်သည်
+The lyrics are all in English, but it is a song by Korean singers.	စာသားအားလုံး အင်္ဂလိပ်လို ဖြစ်သော်လည်း ကိုရီးယား အဆိုတော်များ၏ သီချင်း ဖြစ်ပါသည်။
+It is a bright song made to give people strength during hard times.	ခက်ခဲသော ကာလတွင် လူများကို ခွန်အား ပေးရန် ဖန်တီးထားသော ရွှင်လန်းသည့် သီချင်း ဖြစ်ပါသည်။
+period, time	ကာလ၊ အချိန်
+strength	ခွန်အား
+In English, 방탄소년단 is called BTS.	အင်္ဂလိပ်လို 방탄소년단 ကို BTS ဟု ခေါ်ပါသည်။
+The fans are called '아미' (ARMY).	ပရိသတ်များကို '아미' (ARMY) ဟု ခေါ်ပါသည်။
+'보고 싶어요' = I miss you.	'보고 싶어요' = လွမ်းတယ်၊ တွေ့ချင်တယ်။
+'봄날' = 봄 (spring) + 날 (day).	'봄날' = 봄 (နွေဦး) + 날 (နေ့)။
+In spring, many flowers bloom.	နွေဦးမှာ ပန်းတွေ အများကြီး ပွင့်တယ်။
+Jeonju University is very pretty in spring.	ဂျွန်ဂျူ တက္ကသိုလ်က နွေဦးမှာ အရမ်း လှတယ်။
+I'm going to America during winter vacation.	ဆောင်းရာသီ ကျောင်းပိတ်ရက်မှာ အမေရိကားကို သွားမယ်။
+America	အမေရိကား
+I miss my family back home.	ဇာတိက မိသားစုကို လွမ်းတယ်။
+I really want to see that movie.	အဲဒီရုပ်ရှင်ကို တကယ် ကြည့်ချင်တယ်။
+to want to see	ကြည့်ချင်သည်၊ တွေ့ချင်သည်
+I'm waiting for a friend at the bus stop.	ဘတ်စ်ကားမှတ်တိုင်မှာ သူငယ်ချင်းကို စောင့်နေတယ်။
+I'm sad because my friend went back home.	သူငယ်ချင်း ဇာတိ ပြန်သွားလို့ ဝမ်းနည်းတယ်။
+Yesterday I watched a sad movie and cried.	မနေ့က ဝမ်းနည်းစရာ ရုပ်ရှင် ကြည့်ပြီး ငိုခဲ့တယ်။
+Spring Day (봄날) is a quiet, sad song by BTS.	Spring Day (봄날) သည် BTS ၏ တိတ်ဆိတ်ပြီး ဝမ်းနည်းစရာ သီချင်း ဖြစ်ပါသည်။
+spring day	နွေဦးနေ့
+It sings about waiting for a friend you miss.	လွမ်းနေသော သူငယ်ချင်းကို စောင့်ခြင်းအကြောင်း ဆိုထားပါသည်။
+It says we can meet again when winter is over and spring comes.	ဆောင်းရာသီ ကုန်ပြီး နွေဦး ရောက်လာလျှင် ပြန်တွေ့နိုင်မည်ဟု ဆိုထားပါသည်။
+In Korea, many people listen to this song in winter.	ကိုရီးယားတွင် ဆောင်းရာသီ၌ ဤသီချင်းကို လူအများ နားထောင်ကြပါသည်။
+'보고 싶다' appears very often in songs.	'보고 싶다' သည် သီချင်းများတွင် မကြာခဏ ပါပါသည်။
+Korean has many words that copy sounds: 뚜두뚜두, 쿵쿵, 똑똑.	ကိုရီးယားစကားတွင် အသံကို တုပသော စကားလုံး များစွာ ရှိပါသည်: 뚜두뚜두၊ 쿵쿵၊ 똑똑။
+'인기가 많다' = very popular.	'인기가 많다' = အလွန် လူကြိုက်များသည်။
+gun	သေနတ်
+Police officers carry guns.	ရဲတွေက သေနတ် ကိုင်ဆောင်ကြတယ်။
+You can't buy a gun in Korea.	ကိုရီးယားမှာ သေနတ် ဝယ်လို့ မရဘူး။
+There's a strange sound coming from outside.	အပြင်ကနေ ထူးဆန်းတဲ့ အသံ ကြားနေရတယ်။
+Please turn up the TV a little.	တီဗီ အသံ နည်းနည်း ချဲ့ပေးပါ။
+to turn up	(အသံ) ချဲ့သည်
+to imitate	တုပသည်
+Tom imitated the professor's voice.	တွမ်က ပါမောက္ခရဲ့ အသံကို တုပခဲ့တယ်။
+My friend imitates a cat's sound.	ကျွန်ုပ် သူငယ်ချင်းက ကြောင်အော်သံကို တုပတယ်။
+shape	ပုံသဏ္ဌာန်
+This bread is star-shaped.	ဒီပေါင်မုန့်က ကြယ်ပုံ ပါ။
+The shape is the same, but the color is different.	ပုံသဏ္ဌာန် တူပေမဲ့ အရောင် မတူဘူး။
+I like fruit. I especially like strawberries.	ကျွန်ုပ် အသီးအနှံ ကြိုက်တယ်။ အထူးသဖြင့် စတော်ဘယ်ရီ ကြိုက်တယ်။
+It's especially hot today.	ဒီနေ့ အထူးသဖြင့် ပူတယ်။
+DDU-DU DDU-DU is a song BLACKPINK released in 2018.	DDU-DU DDU-DU သည် BLACKPINK က ၂၀၁၈ ခုနှစ်တွင် ထုတ်ခဲ့သော သီချင်း ဖြစ်ပါသည်။
+DDU-DU DDU-DU	DDU-DU DDU-DU (뚜두뚜두)
+The title copies the sound of a gun.	ခေါင်းစဉ်သည် သေနတ်သံကို တုပထားပါသည်။
+gunshot sound	သေနတ်သံ
+The dance where you make a gun shape with your fingers is famous.	လက်ချောင်းများဖြင့် သေနတ်ပုံ လုပ်သော အကသည် နာမည်ကြီးပါသည်။
+BLACKPINK has four members: Jisoo, Jennie, Rosé and Lisa.	BLACKPINK တွင် Jisoo၊ Jennie၊ Rosé နှင့် Lisa ဟူ၍ အဖွဲ့ဝင် လေးဦး ရှိပါသည်။
+Lisa is from Thailand, so the group is especially popular in Southeast Asia.	Lisa သည် ထိုင်းနိုင်ငံသူ ဖြစ်သဖြင့် အဖွဲ့သည် အရှေ့တောင်အာရှတွင် အထူး လူကြိုက်များပါသည်။
+'-만에' = within (a time).	'-만에' = (အချိန်) အတွင်း၊ ... ကြာပြီးနောက်။
+Like the longyi in Myanmar, Korea has traditional clothes called hanbok.	မြန်မာ၏ လုံချည်ကဲ့သို့ ကိုရီးယားတွင်လည်း ဟမ်ဘော့ ဟုခေါ်သော ရိုးရာ ဝတ်စုံ ရှိပါသည်။
+The sunlight is strong today.	ဒီနေ့ နေရောင် ပြင်းတယ်။
+Sam is strong, so he doesn't catch colds easily.	ဆမ်က ကျန်းမာ သန်မာလို့ အအေးမိ မလွယ်ဘူး။
+heart, mind	စိတ်၊ နှလုံးသား
+I got a present, so my heart feels warm.	လက်ဆောင် ရလို့ စိတ်ထဲ နွေးထွေးတယ်။
+heart	နှလုံးသား
+Dilnoza is kind-hearted.	ဒီလ်နိုဇာက စိတ်ထား ကောင်းတယ်။
+I get up at seven every day.	ကျွန်ုပ် နေ့တိုင်း ခုနစ်နာရီမှာ အိပ်ရာထတယ်။
+Please stand up from your seat.	ထိုင်ခုံကနေ ထရပ်ပါ။
+hanbok	ဟမ်ဘော့
+I wore hanbok at the Jeonju Hanok Village.	ဂျွန်ဂျူ ဟန်အုတ် ရွာမှာ ဟမ်ဘော့ ဝတ်ခဲ့တယ်။
+How much is it to rent a hanbok?	ဟမ်ဘော့ ငှားရင် ဘယ်လောက်လဲ။
+to rent	ငှားသည်
+Kimchi is a traditional Korean food.	ကင်မ်ချီက ကိုရီးယား ရိုးရာ အစားအစာ ပါ။
+Uzbekistan's traditional food is plov.	ဥဇဘက်ကစ္စတန်ရဲ့ ရိုးရာ အစားအစာက ပလော့ဖ် ပါ။
+How You Like That is a BLACKPINK song released in 2020.	How You Like That သည် ၂၀၂၀ ခုနှစ်တွင် ထွက်ခဲ့သော BLACKPINK ၏ သီချင်း ဖြစ်ပါသည်။
+It sings about a strong heart that gets up again even after hard times.	ခက်ခဲမှုများ ကြုံပြီးနောက်တွင်ပင် ပြန်ထရပ်သော ခိုင်မာသည့် စိတ်ဓာတ်အကြောင်း ဆိုထားပါသည်။
+In the music video, they wear hanbok.	မြူးဇစ်ဗီဒီယိုတွင် ဟမ်ဘော့ ဝတ်ထားကြပါသည်။
+music video	မြူးဇစ်ဗီဒီယို
+appearance	ပုံပန်းသဏ္ဌာန်
+Hanbok is Korea's traditional clothing.	ဟမ်ဘော့သည် ကိုရီးယား၏ ရိုးရာ ဝတ်စုံ ဖြစ်ပါသည်။
+This music video was watched by a huge number of people in just one day.	ဤမြူးဇစ်ဗီဒီယိုကို တစ်ရက်တည်းအတွင်း လူ အမြောက်အမြား ကြည့်ခဲ့ကြပါသည်။
+'여러 번' = many times.	'여러 번' = အကြိမ်ကြိမ်။
+'-아/어 봐요' = let's try it.	'-아/어 봐요' = စမ်းကြည့်ကြစို့။
+There are ten members in our club.	ကျွန်ုပ်တို့ ကလပ်မှာ အဖွဲ့ဝင် ဆယ်ယောက် ရှိတယ်။
+Which member of this group do you like most?	ဒီအဖွဲ့ထဲမှာ ဘယ်အဖွဲ့ဝင်ကို အကြိုက်ဆုံးလဲ။
+Students come from many countries around the world.	ကမ္ဘာ့ နိုင်ငံ အမျိုးမျိုးက ကျောင်းသားတွေ လာကြတယ်။
+I want to travel around the world.	ကမ္ဘာပတ် ခရီးသွားချင်တယ်။
+This cafe has a nice atmosphere.	ဒီကဖေးက လေထုသဘော ကောင်းတယ်။
+atmosphere	လေထုသဘော၊ ပတ်ဝန်းကျင် ခံစားမှု
+It's before the exam, so the classroom is quiet.	စာမေးပွဲ မတိုင်ခင်မို့ စာသင်ခန်း တိတ်ဆိတ်နေတယ်။
+The class time changes from next week.	နောက်အပတ်ကစပြီး အတန်းချိန် ပြောင်းမယ်။
+The traffic light turned green.	မီးပွိုင့် အစိမ်းရောင် ပြောင်းသွားပြီ။
+level, stage	အဆင့်
+The higher the level, the harder this game gets.	ဒီဂိမ်းက အဆင့် မြင့်လေ ခက်လေ ပါ။
+level	အဆင့်
+Try it slowly, starting from the first step.	ပထမ အဆင့်ကစပြီး ဖြည်းဖြည်း စမ်းကြည့်ပါ။
+Next Level is a song aespa sang in 2021.	Next Level သည် aespa က ၂၀၂၁ ခုနှစ်တွင် ဆိုခဲ့သော သီချင်း ဖြစ်ပါသည်။
+aespa	aespa
+aespa has four members, and they tell a story about a virtual world.	aespa တွင် အဖွဲ့ဝင် လေးဦး ရှိပြီး စိတ်ကူးယဉ် ကမ္ဘာအကြောင်း ပြောပြပါသည်။
+virtual	စိတ်ကူးယဉ်၊ virtual
+The mood changes several times during the song.	သီချင်း အလယ်တွင် လေထုသဘော အကြိမ်ကြိမ် ပြောင်းပါသည်။
+several times	အကြိမ်ကြိမ်
+The title means 'the next stage'.	ခေါင်းစဉ်သည် 'နောက် အဆင့်' ဟု အဓိပ္ပာယ် ရပါသည်။
+stage, level	အဆင့်
+Let's go to the next level in studying Korean too!	ကိုရီးယားစကား လေ့လာရာမှာလည်း နောက် အဆင့်ကို တက်ကြစို့!
+'부끄러워하다' is used for other people.	'부끄러워하다' ကို အခြားသူများအတွက် သုံးပါသည်။
+'십 대' = ages 10–19, '이십 대' = ages 20–29.	'십 대' = အသက် ၁၀–၁၉၊ '이십 대' = အသက် ၂၀–၂၉။
+shy	ရှက်တတ်သည်
+I'm shy about speaking in front of people.	လူတွေရှေ့မှာ စကားပြောရတာ ရှက်တယ်။
+in front of	ရှေ့မှာ
+to speak	ပြောသည်
+shy, embarrassed	ရှက်သည်
+I was embarrassed by my wrong pronunciation.	အသံထွက် မှားလို့ ရှက်ခဲ့တယ်။
+embarrassed	ရှက်သည်
+sport	အားကစား
+The professor speaks too fast.	ပါမောက္ခက စကား အရမ်း မြန်တယ်။
+This laptop is good because it's light.	ဒီလက်ပ်တော့က ပေါ့လို့ ကောင်းတယ်။
+I eat light in the morning.	မနက်မှာ ပေါ့ပေါ့ပါးပါး စားတယ်။
+Summer in Korea is hot and rainy.	ကိုရီးယား နွေရာသီက ပူပြီး မိုးများတယ်။
+I want to go to the beach during summer vacation.	နွေရာသီ ကျောင်းပိတ်ရက်မှာ ပင်လယ်ကမ်းခြေ သွားချင်တယ်။
+Super Shy is a song NewJeans released in summer 2023.	Super Shy သည် NewJeans က ၂၀၂၃ နွေရာသီတွင် ထုတ်ခဲ့သော သီချင်း ဖြစ်ပါသည်။
+NewJeans	NewJeans
+It sings about feeling shy in front of someone you like.	ကြိုက်သူရှေ့တွင် ရှက်ရွံ့သော ခံစားချက်အကြောင်း ဆိုထားပါသည်။
+to feel shy	ရှက်ရွံ့သည်
+feeling	ခံစားချက်
+It has a fast and light rhythm.	မြန်ပြီး ပေါ့ပါးသော စည်းချက် ရှိပါသည်။
+rhythm	စည်းချက်
+characteristic	ထူးခြားချက်
+'shy' in Korean is '부끄럽다'.	'shy' ကို ကိုရီးယားလို '부끄럽다' ဟု ဆိုပါသည်။
+NewJeans is very popular with teens and people in their twenties.	NewJeans သည် ဆယ်ကျော်သက်များနှင့် အသက် နှစ်ဆယ်ကျော်များကြားတွင် အလွန် လူကြိုက်များပါသည်။
+teens	ဆယ်ကျော်သက်
+twenties	အသက် နှစ်ဆယ်ကျော်
+'세계적으로' = worldwide.	'세계적으로' = ကမ္ဘာအနှံ့။
+'-기 좋아요' = good for...ing: 듣기 좋아요 (good to listen to).	'-기 좋아요' = ... ဖို့ ကောင်းသည်: 듣기 좋아요 (နားထောင်လို့ ကောင်းတယ်)။
+Parents' love is really great.	မိဘတွေရဲ့ မေတ္တာက တကယ် ကြီးမားတယ်။
+This movie is a love story.	ဒီရုပ်ရှင်က အချစ် ဇာတ်လမ်း ပါ။
+arrow	မြား
+The arrow hit the center of the target.	မြားက ပစ်မှတ် အလယ်ကို ထိခဲ့တယ်။
+target	ပစ်မှတ်
+Follow the arrow on the sign.	ဆိုင်းဘုတ်ပေါ်က မြားအတိုင်း လိုက်သွားပါ။
+sign	ဆိုင်းဘုတ်
+Today I'll treat you to coffee.	ဒီနေ့ ကျွန်ုပ် ကော်ဖီ တိုက်မယ်။
+to treat (slang)	တိုက်ကျွေးသည် (ဗန်းစကား)
+I tried shooting a bow at the festival.	ပွဲတော်မှာ လေး ပစ်ကြည့်ခဲ့တယ်။
+In class, three people made one group.	အတန်းမှာ သုံးယောက် အဖွဲ့တစ်ဖွဲ့ ဖွဲ့ခဲ့တယ်။
+We do the group presentation next week.	အဖွဲ့ တင်ပြချက်ကို နောက်အပတ် လုပ်မယ်။
+soft, gentle	နူးညံ့သည်
+This bread is very soft.	ဒီပေါင်မုန့်က အရမ်း နူးညံ့တယ်။
+soft	နူးညံ့သည်
+Professor Sim Yeongguk has a gentle voice.	ပါမောက္ခ ရှင်မ်ယောင်ဂုခ်က အသံ နူးညံ့တယ်။
+gentle	နူးညံ့သည်
+Cupid is a song FIFTY FIFTY sang in 2023.	Cupid သည် FIFTY FIFTY က ၂၀၂၃ ခုနှစ်တွင် ဆိုခဲ့သော သီချင်း ဖြစ်ပါသည်။
+FIFTY FIFTY	FIFTY FIFTY
+Cupid is a god who shoots arrows of love.	ကျူပစ်သည် အချစ် မြားကို ပစ်သော နတ်ဘုရား ဖြစ်ပါသည်။
+Cupid	ကျူပစ်
+god	နတ်ဘုရား
+The song talks about wanting to find love.	သီချင်းက အချစ်ကို ရှာချင်ခြင်းအကြောင်း ပြောပါသည်။
+They were a new group from a small entertainment agency, but they became famous worldwide.	အနုပညာ ကုမ္ပဏီ သေးသေးလေးမှ အဖွဲ့သစ် ဖြစ်သော်လည်း ကမ္ဘာအနှံ့ နာမည်ကြီးလာခဲ့ပါသည်။
+entertainment agency	အနုပညာ ကုမ္ပဏီ
+worldwide	ကမ္ဘာအနှံ့
+It's a soft, easy song, so it's good to listen to while studying.	နူးညံ့ပြီး နားထောင်ရ လွယ်သော သီချင်း ဖြစ်သဖြင့် စာကျက်ရင်း နားထောင်ရန် ကောင်းပါသည်။
+comfortable, easy	သက်တောင့်သက်သာ ရှိသည်၊ လွယ်ကူသည်
+'용기 있다' = brave.	'용기 있다' = သတ္တိ ရှိသည်။
+'누군가' = someone.	'누군가' = တစ်စုံတစ်ယောက်။
+Japan	ဂျပန်
+I'm going on a trip to Japan during vacation.	ကျောင်းပိတ်ရက်မှာ ဂျပန်ကို ခရီးသွားမယ်။
+Of Japanese foods, I like sushi.	ဂျပန် အစားအစာထဲမှာ ဆူရှီကို ကြိုက်တယ်။
+sushi	ဆူရှီ
+courage	သတ္တိ
+I worked up the courage and asked the professor a question.	သတ္တိမွေးပြီး ပါမောက္ခကို မေးခွန်း မေးခဲ့တယ်။
+to muster courage	သတ္တိမွေးသည်
+I needed courage when I first came to Korea.	ကိုရီးယားကို ပထမဆုံး လာတုန်းက သတ္တိ လိုခဲ့တယ်။
+First wash your hands, then eat.	အရင် လက်ဆေးပြီးမှ ထမင်းစားပါ။
+colorful, fancy	ခမ်းနားသည်၊ ရောင်စုံ တောက်ပသည်
+The wedding clothes are really fancy.	မင်္ဂလာဆောင် အဝတ်အစားတွေ တကယ် ခမ်းနားတယ်။
+fancy	ခမ်းနားသည်
+The streets of Seoul are very colorful at night.	ညဘက် ဆိုးလ် လမ်းတွေက အရမ်း ရောင်စုံ တောက်ပတယ်။
+colorful, flashy	ရောင်စုံ တောက်ပသည်
+A new music video came out today.	ဒီနေ့ မြူးဇစ်ဗီဒီယို အသစ် ထွက်လာတယ်။
+This music video was filmed in Jeonju.	ဒီမြူးဇစ်ဗီဒီယိုကို ဂျွန်ဂျူမှာ ရိုက်ခဲ့တယ်။
+to film	ရိုက်ကူးသည်
+FANCY is a song TWICE released in 2019.	FANCY သည် TWICE က ၂၀၁၉ ခုနှစ်တွင် ထုတ်ခဲ့သော သီချင်း ဖြစ်ပါသည်။
+TWICE	TWICE
+TWICE has nine members from Korea, Japan and Taiwan.	TWICE တွင် ကိုရီးယား၊ ဂျပန်နှင့် ထိုင်ဝမ်မှ အဖွဲ့ဝင် ကိုးဦး ရှိပါသည်။
+Taiwan	ထိုင်ဝမ်
+'fancy' means to like someone.	'fancy' သည် တစ်စုံတစ်ယောက်ကို ကြိုက်သည် ဟု အဓိပ္ပာယ် ရပါသည်။
+someone	တစ်စုံတစ်ယောက်
+It's a brave song about telling someone you like them first.	ကြိုက်သူကို ကိုယ်တိုင် အရင် ဖွင့်ပြောခြင်းအကြောင်း သတ္တိရှိသော သီချင်း ဖြစ်ပါသည်။
+The colorful music video is famous too.	ရောင်စုံ မြူးဇစ်ဗီဒီယိုလည်း နာမည်ကြီးပါသည်။
+colorful	ရောင်စုံ တောက်ပသည်
