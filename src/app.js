@@ -1024,7 +1024,7 @@ function langSheet(first){
       h("p", {class: "lsnote"}, "Korean stays Korean. Meanings, tips and help are shown in your language."),
       LANG_LIST.map(([c, name, ko]) => { const ok = c === "en" || LANGS[c], on = c === LG;
         return h("button", {type: "button", class: "lsopt" + (on ? " on" : ""), disabled: !ok, "aria-pressed": on ? "true" : "false", onclick: ok ? () => pick(c) : null},
-          h("b", null, c.toUpperCase()), h("span", {class: "lsn"}, name, " ", h("span", {class: "ko"}, ko)),
+          h("b", {class: "notr"}, c.toUpperCase()), h("span", {class: "lsn notr"}, name, " ", h("span", {class: "ko"}, ko)),
           on ? h("span", {class: "lsok", "aria-hidden": "true"}, "✓") : null, ok ? null : h("span", {class: "lssoon ko"}, "준비 중")); }),
       LX && LX.note ? h("p", {class: "lsfoot"}, LX.note) : null,
       h("p", {class: "lsfoot"}, "You can change it any time with 🌐 at the top. ", h("span", {class: "ko"}, "언제든 위의 🌐 로 바꿀 수 있어요."))));
@@ -1047,7 +1047,7 @@ if (LX){
   const ATT = ["placeholder", "title", "aria-label"];
   const attrs = el => { for (const a of ATT){ const x = el.getAttribute(a); if (x){ const v = one(x); if (v != null && v !== x) el.setAttribute(a, v); } } };
   const tr = n => {
-    if (n.nodeType === 3){ if (n.parentElement && n.parentElement.closest(".ko,script,style")){ if (n.nodeValue.includes("영어 음성")) n.nodeValue = n.nodeValue.replace("영어 음성", KONAME + " 음성"); return; } const v = one(n.nodeValue); if (v != null && v !== n.nodeValue) n.nodeValue = v; return; }   // same text: no write (a write is a new mutation, which would loop)
+    if (n.nodeType === 3){ if (n.parentElement && n.parentElement.closest(".notr")) return; if (n.parentElement && n.parentElement.closest(".ko,script,style")){ if (n.nodeValue.includes("영어 음성")) n.nodeValue = n.nodeValue.replace("영어 음성", KONAME + " 음성"); return; } const v = one(n.nodeValue); if (v != null && v !== n.nodeValue) n.nodeValue = v; return; }   // same text: no write (a write is a new mutation, which would loop)
     if (n.nodeType !== 1 || /^(SCRIPT|STYLE)$/.test(n.tagName)) return;
     attrs(n); n.querySelectorAll("[placeholder],[title],[aria-label]").forEach(attrs);
     const w = document.createTreeWalker(n, NodeFilter.SHOW_TEXT); const list = []; let x; while ((x = w.nextNode())) list.push(x); list.forEach(tr);
