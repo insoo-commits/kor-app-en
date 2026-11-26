@@ -8,7 +8,7 @@ const root = __dirname, src = path.join(root, "src");
 const bundles = process.argv[2] || path.join(root, "data");
 const M = require(path.join(src, "meta.js"));
 const STATS_PUBLIC = /const STATS_PUBLIC = true;/.test(fs.readFileSync(path.join(src, "stats.js"), "utf8"));
-const VER = "2026-11-26 v1.21.7";
+const VER = "2026-11-26 v1.21.8";
 const read = f => fs.readFileSync(path.join(src, f), "utf8");
 fs.mkdirSync(path.join(root, "data"), {recursive: true});
 fs.mkdirSync(path.join(root, "preview"), {recursive: true});
@@ -124,7 +124,7 @@ fs.writeFileSync(path.join(root, "app.js"), meta + "\nwindow.KO_SW=true;\n" + js
 fs.writeFileSync(path.join(root, "index.html"), `<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>KoJey 코제이 · 캠퍼스라이프 한국어</title>
+<title>kojey 코제이 · 캠퍼스라이프 한국어</title>
 <meta name="description" content="Learn Korean: an app for English-track students at Jeonju University">
 <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#005595">
 <link rel="icon" href="icon-192.png" type="image/png"><link rel="apple-touch-icon" href="icon-180.png">
@@ -140,7 +140,7 @@ ${LANG_JS}
 </body></html>
 `);
 fs.writeFileSync(path.join(root, "manifest.webmanifest"), JSON.stringify({
-  name: "KoJey 코제이 · 캠퍼스라이프 한국어", short_name: "KoJey", start_url: "./", display: "standalone", background_color: "#F3F4F2", theme_color: "#005595",
+  name: "kojey 코제이 · 캠퍼스라이프 한국어", short_name: "kojey", start_url: "./", display: "standalone", background_color: "#F3F4F2", theme_color: "#005595",
   icons: [{src: "icon-192.png", sizes: "192x192", type: "image/png"}, {src: "icon-512.png", sizes: "512x512", type: "image/png"}]   // JeyJey icon (v1.14, PNG from the official character file)
 }, null, 1));
 fs.writeFileSync(path.join(root, "icon.svg"), `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#005595"/><text x="256" y="340" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif" font-weight="700" font-size="280" fill="#fff">한</text></svg>`);
@@ -164,7 +164,7 @@ self.addEventListener("fetch",e=>{const u=new URL(e.request.url);if(e.request.me
 `);
 
 // preview page (same app, one file plus data/)
-fs.writeFileSync(path.join(root, "preview/korean-app.html"), `<title>KoJey 코제이 · 캠퍼스라이프 한국어</title>
+fs.writeFileSync(path.join(root, "preview/korean-app.html"), `<title>kojey 코제이 · 캠퍼스라이프 한국어</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 ${fonts}
 <style>
