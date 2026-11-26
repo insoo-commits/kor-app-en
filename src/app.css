@@ -1248,3 +1248,10 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 /* v1.20.7 (RYU): every passage is now a white box, so the choice boxes line up with the passage box's left edge */
 .tqi:has(> .tqp) > .tqo{margin-left:var(--ind)}
 .tqsub:has(> .tqp) > .tqo{margin-left:var(--ind2)}
+/* v1.21.9 (RYU): dark mode shows the characters as stickers on the dark page instead of on a white box */
+:root[data-theme="dark"] figure.jeyfig img{background:none;border:0;box-shadow:none;content:url(img/jey/friends-d.webp)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) figure.jeyfig img{background:none;border:0;box-shadow:none;content:url(img/jey/friends-d.webp)}}
+/* v1.21.9 (RYU): JJU logo showed twice in help (.info figure img's display:block beat .lg-d); one logo per theme */
+.info figure img.lg-d{display:none}
+:root[data-theme="dark"] .info figure img.lg-l{display:none}:root[data-theme="dark"] .info figure img.lg-d{display:block}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .info figure img.lg-l{display:none}:root:not([data-theme="light"]) .info figure img.lg-d{display:block}}
