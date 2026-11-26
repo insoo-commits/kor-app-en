@@ -177,3 +177,37 @@ K4-J-04 | Học bổng trong trường
 K4-L-01 | Tốt nghiệp
 K4-L-02 | Hướng đi và việc làm
 K4-L-03 | Lời cảm ơn và chia tay
+K5-A-01 | Giấy phép làm thêm
+K5-A-02 | Số giờ được làm
+K5-A-03 | Xin giấy phép
+K5-B-01 | Tin tuyển làm thêm
+K5-B-02 | Hỏi qua điện thoại
+K5-B-03 | Phỏng vấn làm thêm
+K5-C-01 | Hợp đồng lao động
+K5-C-02 | Lương giờ và phụ cấp ngày nghỉ
+K5-C-03 | Ngày lương và tài khoản
+K5-D-01 | Việc ở cửa hàng tiện lợi
+K5-D-02 | Thu ngân cửa hàng tiện lợi
+K5-D-03 | Giúp khách tìm đồ
+K5-E-01 | Thực đơn quán cà phê
+K5-E-02 | Nhận gọi món ở quán cà phê
+K5-E-03 | Đóng cửa quán cà phê
+K5-F-01 | Đón khách
+K5-F-02 | Gọi món và phục vụ
+K5-F-03 | Phụ bếp
+K5-G-01 | Những việc cần cẩn thận
+K5-G-02 | Phân loại ở trung tâm logistics
+K5-G-03 | Đóng gói đơn giao hàng
+K5-H-01 | Dạy kèm và giấy phép
+K5-H-02 | Trao đổi ngôn ngữ
+K5-H-03 | Câu dùng khi dạy
+K5-I-01 | Làm thêm trong trường
+K5-I-02 | Làm ở sự kiện
+K5-I-03 | Phiên dịch và hướng dẫn
+K5-J-01 | Phục vụ thân thiện
+K5-J-02 | Xử lý phàn nàn
+K5-J-03 | Nghe điện thoại của quán
+K5-K-01 | Đổi giờ làm
+K5-K-02 | Khi bị thương lúc làm việc
+K5-K-03 | Khi không được trả lương
+K5-K-04 | Nghỉ việc
