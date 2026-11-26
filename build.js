@@ -8,7 +8,7 @@ const root = __dirname, src = path.join(root, "src");
 const bundles = process.argv[2] || path.join(root, "data");
 const M = require(path.join(src, "meta.js"));
 const STATS_PUBLIC = /const STATS_PUBLIC = true;/.test(fs.readFileSync(path.join(src, "stats.js"), "utf8"));
-const VER = "2026-11-26 v1.20.7";
+const VER = "2026-11-26 v1.21.0";
 const read = f => fs.readFileSync(path.join(src, f), "utf8");
 fs.mkdirSync(path.join(root, "data"), {recursive: true});
 fs.mkdirSync(path.join(root, "preview"), {recursive: true});
@@ -117,7 +117,7 @@ for (const lg in mlessons){ const L = writePacks(path.join(root, "audio"), mless
   fs.writeFileSync(path.join(root, "audio/index-" + lg + ".js"), "window.AUDIO_LANG=" + JSON.stringify({index: L.index, packs: L.packs}) + ";\n");
   console.log("audio packs " + lg, L.packs.length, "clips", Object.keys(L.index).length); }
 const LANG_JS = `<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(${["en", ...Object.keys(LANGS)].join("|")})$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=${encodeURIComponent(VER)}"><\\/script>')})()</script>`;
-const fonts = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Noto+Sans:wght@400;600&display=swap">';
+const fonts = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Noto+Sans:wght@400;600&family=Noto+Sans+Devanagari:wght@400;600&display=swap">';
 
 // standalone site
 fs.writeFileSync(path.join(root, "app.js"), meta + "\nwindow.KO_SW=true;\n" + js);
