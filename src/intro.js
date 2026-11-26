@@ -223,10 +223,11 @@ function open(){
   box = document.createElement("div"); box.id = "intro"; box.setAttribute("role", "dialog"); box.setAttribute("aria-label", "JeyCampus");
   document.body.appendChild(box); document.documentElement.classList.add("introon");
   render();
-  try { sessionStorage.setItem("jc-intro", "1"); } catch (e) {}
+  try { sessionStorage.setItem("jc-intro", "open"); } catch (e) {}   // a refresh keeps the intro (RYU 2026-11-27)
 }
 function close(){
   stopSample();
+  try { sessionStorage.setItem("jc-intro", "closed"); } catch (e) {}   // a refresh keeps the main screen
   if (!S.lang){ S.lang = lang; JC.save(); }
   if (lang !== JC.LG){ S.lang = lang; JC.save(); location.reload(); return; }   // the app loads a language's texts at start
   if (box){ box.remove(); box = null; } document.documentElement.classList.remove("introon");
@@ -295,7 +296,8 @@ document.addEventListener("keydown", ev => { if (box && ev.key === "Escape"){ if
   b.addEventListener("click", open); p.appendChild(b); (pf.nextElementSibling && pf.nextElementSibling.classList.contains("langline") ? pf.nextElementSibling : pf).after(p); } }
 
 /* open: no lesson link in the address, and not yet shown in this visit */
-let seen = false; try { seen = sessionStorage.getItem("jc-intro") === "1"; } catch (e) {}
-if (location.hash.length <= 1 && !seen) open();
+/* refresh keeps whichever screen was showing: the intro stays open until Start is pressed */
+let st = null; try { st = sessionStorage.getItem("jc-intro"); } catch (e) {}
+if (st === "open" || (location.hash.length <= 1 && st !== "closed")) open();
 window.JC.intro = open;
 })();
