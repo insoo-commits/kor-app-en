@@ -1030,6 +1030,12 @@ if (LX){
 }
 route();
 if ("serviceWorker" in navigator && window.KO_SW) navigator.serviceWorker.register("sw.js").catch(() => {});
+/* v1.21.12 (RYU): tapping the title at the top left (or "kojey" in the sticky bar) goes back to the first menu's first lesson, at the top */
+(() => { const home = () => { const g = document.querySelector("#groups .group"), r = g && IDX.find(r => areaOf(r[0]) === g.dataset.g);
+    if (r) go(r[0]); setTimeout(() => scrollTo(0, 0), 80); };
+  for (const e of [document.querySelector(".top .brand"), document.querySelector("#stick .strow > b")]) if (e){
+    e.style.cursor = "pointer"; e.setAttribute("role", "link"); e.setAttribute("tabindex", "0"); e.title = "Home";
+    e.addEventListener("click", home); e.addEventListener("keydown", ev => { if (ev.key === "Enter") home(); }); } })();
 })();
 /* phone swipe left / right = next / previous bundle, like the 다음 묶음 / 이전 묶음 buttons (lao-app v3.23, RYU 2026-11-23, v2.49).
    Ignored: screen edges (browser back gesture), menus, pickers, tables that scroll sideways (v2.50: plain tables on 대한민국 pages swipe), the player bar, anything that scrolls sideways,
