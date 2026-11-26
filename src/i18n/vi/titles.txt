@@ -467,3 +467,205 @@ K6-O-05 | Bất quy tắc 르
 K6-O-06 | Bất quy tắc ㅅ
 K6-O-07 | Bất quy tắc ㅎ
 K6-Z-01 | Tổng ôn ngữ pháp
+K7-A-01 | Kích thước và số lượng
+K7-A-02 | Giá cả và cân nặng
+K7-A-03 | Nhiệt độ
+K7-A-04 | Tốt và xấu
+K7-A-05 | Tình trạng
+K7-A-06 | Trạng thái ở trường và ký túc xá
+K7-B-01 | Đi và đến
+K7-B-02 | Cho và nhận
+K7-B-03 | Mở và đóng
+K7-B-04 | Thao tác với đồ vật
+K7-B-05 | Hành động hằng ngày
+K7-C-01 | Vị trí
+K7-C-02 | Thời gian
+K7-C-03 | Thứ tự và tốc độ
+K7-D-01 | Từ đếm đồ vật
+K7-D-02 | Từ đếm người và con vật
+K7-D-03 | Từ đếm đồ ăn và đồ uống
+K7-D-04 | Từ đếm bó và gói
+K7-D-05 | Độ dài · Cân nặng · Số lần
+K7-D-06 | Số đi với đơn vị
+K7-E-01 | Nói giờ
+K7-E-02 | Tuổi và ngày tháng
+K7-E-03 | Tiền và số điện thoại
+K7-E-04 | Số lượng và con số
+K7-E-05 | Khoảng thời gian
+K7-H-01 | Cách xưng hô trong gia đình
+K7-H-02 | Chức danh ở trường
+K7-H-03 | Cách gọi người ở cửa hàng và ngoài đường
+K7-I-01 | Mở cửa và đóng cửa
+K7-I-02 | Hỏng và thay đổi
+K7-I-03 | Bắt đầu và kết thúc
+K8-C-01 | Đi · Đến · Đi rồi về
+K8-C-02 | Cho · Nhận · Biếu
+K8-C-03 | Biết · Không biết · Hiểu
+K8-C-04 | 하다 và 되다
+K8-C-05 | Nhìn · Thấy · Cho xem
+K8-C-06 | Hai nghĩa của 있다
+K8-C-07 | Nghe · Nghe thấy · Hỏi
+K8-C-08 | Đặt · Để · Cho vào
+K8-C-09 | Nhiều nghĩa của 쓰다
+K8-D-01 | Mặc quần áo · Mang giày · Đội mũ
+K8-D-02 | Đeo · Thắt · Buộc
+K8-D-03 | Cởi · Tháo · Rút ra
+K8-D-04 | Mặc đồng phục và đồ thực hành
+K8-E-01 | 좋다 và 좋아하다
+K8-E-02 | Mừng · Vui · Hào hứng · Hạnh phúc
+K8-E-03 | Mệt · Vất vả · Kiệt sức
+K8-E-04 | Sợ · Lo · Giật mình
+K8-E-05 | Nhiều nghĩa của 괜찮다
+K8-E-06 | 싫다 và 싫어하다
+K8-F-01 | Rất · Quá · Thật sự
+K8-F-02 | Một chút · Hơi · Làm ơn
+K8-F-03 | Thường · Thỉnh thoảng · Luôn · Hay
+K8-F-04 | Đã · Vẫn · Từ trước
+K8-F-05 | Vừa · Gần đây · Sắp · Lát nữa
+K8-F-06 | Nhanh (tốc độ) và Sớm (thời gian)
+K8-F-07 | Lại và Thêm
+K8-F-08 | Tất cả · Mọi · Hết
+K8-G-01 | Và và Vì vậy
+K8-G-02 | Nhưng (ba loại)
+K8-G-03 | Vậy thì và Thôi, được
+K8-G-04 | Cho nên và Vì
+K8-H-01 | Gì · Nào · Loại gì
+K8-H-02 | Mấy · Bao nhiêu · Bao lâu
+K8-H-03 | Khi nào · Ở đâu · Ai
+K8-H-04 | Tại sao · Thế nào · Ra sao
+K8-I-01 | Công việc, bài tập, làm thêm, ca làm
+K8-I-02 | Tiền tiêu vặt, học bổng, tiền làm thêm, lương theo giờ
+K8-I-03 | Ngày nghỉ · Ngày lễ · Nghỉ phép · Nghỉ ngơi
+K8-I-04 | Khách, khách hàng, khách quen
+K8-I-05 | Trường, đại học, khuôn viên, khoa
+K8-I-06 | Sửa · Sửa chữa · Đổi · Thay
+K8-I-07 | Kết thúc · Hoàn thành · Xong
+K9-A-01 | -원 (thành viên, nhân viên)
+K9-A-02 | -사 (người làm nghề chuyên môn)
+K9-A-03 | -자 và -가 (người làm…)
+K9-A-04 | -님 (kính ngữ)
+K9-A-05 | -생 (sinh viên, học sinh)
+K9-B-01 | -실 (phòng)
+K9-B-02 | -장 (nơi, người đứng đầu)
+K9-B-03 | -소 và -점 (văn phòng, cửa hàng)
+K9-B-04 | -관 và -원 (tòa nhà, viện)
+K9-B-05 | -국·-청·-서 (cơ quan nhà nước)
+K9-C-01 | -비 (chi phí cho…)
+K9-C-02 | -료 và -금 (phí, tiền)
+K9-C-03 | -증 (thẻ, giấy chứng nhận)
+K9-C-04 | -서 và -표 (đơn, bảng)
+K9-D-01 | 학- (học)
+K9-D-02 | 안전- (an toàn)
+K9-D-03 | -근 (làm việc)
+K9-D-04 | 출-·입-·퇴- (ra, vào, rời)
+K9-D-05 | 금- (cấm)
+K9-D-06 | -기 (máy)
+K9-E-01 | 학- (học tập)
+K9-E-02 | 식- (ăn)
+K9-E-03 | 회- (họp)
+K9-E-04 | 시- (thời gian)
+K9-E-05 | 한- (Hàn Quốc)
+K9-E-06 | 전- (điện)
+K9-F-01 | Danh từ + 하다 trong đời sống
+K9-F-02 | Danh từ đời sống đại học + 하다
+K9-F-03 | -하다 và -되다
+K9-F-04 | Từ -하다 chỉ trạng thái
+K9-G-01 | Từ ghép: cơ thể
+K9-G-02 | Từ ghép: đồ ăn
+K9-G-03 | Từ ghép: chuyển động
+K9-H-01 | Từ ngoại lai trong đời sống
+K9-H-02 | Từ mượn ở trường và nơi làm thêm
+K9-H-03 | Từ mang nghĩa khác trong tiếng Hàn
+K8-Z-01 | Ôn tập từ gần nghĩa
+K9-Z-01 | Ôn tập họ từ
+LS-A-01 | Thông báo đăng ký môn học
+LS-A-02 | Thông báo ký túc xá
+LS-A-03 | Thông báo lễ hội
+LS-A-04 | Thực đơn nhà ăn
+LS-A-05 | Thông tin xe buýt đưa đón
+LS-A-06 | Thông báo học bổng
+LS-A-07 | Thông báo khám sức khỏe
+LS-A-08 | Đăng ký người nước ngoài theo nhóm
+LS-A-09 | Tuyển bạn trao đổi ngôn ngữ
+LS-A-10 | Thông báo lễ tốt nghiệp
+LS-B-01 | Chú sâu háu ăn
+LS-B-02 | Che chung ô
+LS-B-03 | Chú vịt con bị lạc
+LS-B-04 | Chú mèo lên mặt trăng
+LS-B-05 | Chú cún tham lam
+LS-B-06 | Hạt giống nhỏ
+LS-B-07 | Chiếc bánh sinh nhật
+LS-B-08 | Chú sư tử nhát gan
+LS-B-09 | Một ngày của người tuyết
+LS-B-10 | Hai người bạn và cây táo
+LS-C-01 | Heungbu và Nolbu
+LS-C-02 | Anh em hóa thành mặt trời và mặt trăng
+LS-C-03 | Thỏ và rùa
+LS-C-04 | Rìu vàng và rìu bạc
+LS-C-05 | Chim chích báo ơn
+LS-C-06 | Ông lão có cục bướu
+LS-C-07 | Gyeonu và Jiknyeo (Ngưu Lang Chức Nữ)
+LS-C-08 | Tiên nữ và chàng tiều phu
+LS-C-09 | Kongjwi và Patjwi
+LS-C-10 | Nàng dâu hay đánh rắm
+LS-C-11 | Lá gan của thỏ
+LS-D-01 | Lần đầu gặp mặt
+LS-D-02 | Gọi món ở nhà hàng
+LS-D-03 | Ở cửa hàng quần áo
+LS-D-04 | Hỏi đường
+LS-D-05 | Đặt lịch khám bệnh
+LS-D-06 | Kế hoạch cuối tuần
+LS-D-07 | Nhận bưu kiện
+LS-D-08 | Ở quán cà phê
+LS-D-09 | Điện thoại bị hỏng
+LS-D-10 | Chuẩn bị chuyển nhà
+LS-E-01 | Buổi học đầu tiên
+LS-E-02 | Hướng dẫn của giáo viên
+LS-E-03 | Thông tin bài tập
+LS-E-04 | Thông tin kỳ thi
+LS-E-05 | Báo vắng mặt
+LS-E-06 | Hướng dẫn thư viện
+LS-E-07 | Giới thiệu câu lạc bộ
+LS-E-08 | Chuẩn bị thuyết trình
+LS-E-09 | Thông báo kỳ nghỉ
+LS-E-10 | Hoạt động nhóm
+LS-F-01 | Thông báo trên tàu điện ngầm
+LS-F-02 | Thông báo trên xe buýt
+LS-F-03 | Thông báo lên máy bay ở sân bay
+LS-F-04 | Thông báo giảm giá ở siêu thị
+LS-F-05 | Thông báo của ban quản lý chung cư
+LS-F-06 | Thông báo ở ga tàu
+LS-F-07 | Thông báo tìm trẻ lạc
+LS-F-08 | Thông báo ở rạp chiếu phim
+LS-F-09 | Thông báo ở phòng chờ bệnh viện
+LS-F-10 | Diễn tập động đất
+LS-G-01 | Dự báo thời tiết
+LS-G-02 | Tin giao thông
+LS-G-03 | Cách nấu mì ramyeon
+LS-G-04 | Mẹo sức khỏe: phòng cảm lạnh
+LS-G-05 | Câu chuyện thính giả trên radio
+LS-G-06 | Cách phân loại rác
+LS-G-07 | Tin nhắn thoại tự động
+LS-G-08 | Quảng cáo
+LS-G-09 | Tin nhắn thoại
+LS-G-10 | Thông tin giao thông dịp lễ
+LS-H-01 | Lễ hội du học sinh
+LS-H-02 | Tin tuyết rơi dày
+LS-H-03 | Khai trương tuyến tàu điện ngầm mới
+LS-H-04 | Cuộc thi hùng biện tiếng Hàn
+LS-H-05 | Tin lá mùa thu
+LS-H-06 | Dịch vụ gửi hàng ở cửa hàng tiện lợi
+LS-H-07 | Cảnh báo nắng nóng mùa hè
+LS-H-08 | Lớp tiếng Hàn miễn phí ở thư viện
+LS-H-09 | Giao lưu văn hóa Hàn Quốc - Myanmar
+LS-H-10 | Chế độ đặt cọc cốc
+LS-I-01 | Gangnam Style - PSY
+LS-I-02 | APT. - ROSÉ & Bruno Mars
+LS-I-03 | Dynamite - BTS
+LS-I-04 | Spring Day - BTS
+LS-I-05 | DDU-DU DDU-DU - BLACKPINK
+LS-I-06 | How You Like That - BLACKPINK
+LS-I-07 | Next Level - aespa
+LS-I-08 | Super Shy - NewJeans
+LS-I-09 | Cupid - FIFTY FIFTY
+LS-I-10 | FANCY - TWICE
