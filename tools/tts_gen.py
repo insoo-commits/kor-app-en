@@ -10,6 +10,7 @@ Options:  --lang ko|en|vi|ne   only one language      --limit N   stop after N c
 Voices: Korean ko-KR-SunHiNeural, English en-US-AvaNeural. Output: 24 kbps mono mp3 (RYU's choice in the Lao app).
 Needs network access to speech.platform.bing.com. Behind a proxy, HTTPS_PROXY is used automatically.
 """
+import re
 import argparse, asyncio, json, os, subprocess, sys, tempfile
 
 if os.path.exists("/root/.ccr/ca-bundle.crt"):   # cloud session proxy: edge-tts verifies TLS with certifi
@@ -70,6 +71,8 @@ async def main():
     a = ap.parse_args()
     clips = json.load(open(os.path.join(AUDIO, "list.json"), encoding="utf8"))
     todo = [c for c in clips if (not a.lang or c["lang"] == a.lang) and not os.path.exists(os.path.join(AUDIO, c["key"] + ".mp3"))]
+    # Nepali: skip English fallback text (menus not yet translated), which the Nepali voice would read badly
+    todo = [c for c in todo if c["lang"] != "ne" or re.search("[\u0900-\u097F]", c["text"])]
     if a.limit:
         todo = todo[: a.limit]
     print(f"{len(clips)} clips in the list, {len(todo)} to make")
