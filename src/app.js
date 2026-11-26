@@ -1038,7 +1038,7 @@ if (Object.keys(LANGS).length){
   if (!S.lang && location.hash.length > 1) setTimeout(() => langSheet(true), 400);   // v1.25: with no lesson link the intro (src/intro.js) asks for the language
 }
 /* v1.25 (RYU 2026-11-27): the intro page (src/intro.js) reads and sets these */
-window.JC = {S, save, applyPrefs, setSayLo, LG, LANGS, LANG_LIST, nWords: META.nWords, nSents: META.nSents, nAreas: AREAS.length, ver: META.ver};
+window.JC = {S, save, applyPrefs, setSayLo, speak: speakOne, quiet, LG, LANGS, LANG_LIST, nWords: META.nWords, nSents: META.nSents, nAreas: AREAS.length, ver: META.ver};
 /* buttons and labels in the chosen language: each known English label is swapped as soon as it appears in the page (ui.tsv; "{n}" = a number) */
 if (LX){
   const U = LX.u || {}, RX = [], KONAME = (LANG_LIST.find(x => x[0] === LG) || [])[2] || "";
