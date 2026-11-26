@@ -211,3 +211,61 @@ K5-K-01 | Đổi giờ làm
 K5-K-02 | Khi bị thương lúc làm việc
 K5-K-03 | Khi không được trả lương
 K5-K-04 | Nghỉ việc
+KR-A-01 | Tên nước và quốc kỳ
+KR-A-02 | Thủ đô và dân số
+KR-A-03 | Chính phủ và kinh tế
+KR-B-01 | Đất liền và biển
+KR-B-02 | Vùng miền và thành phố
+KR-B-03 | Thời tiết và bốn mùa
+KR-C-01 | Các vương quốc cổ
+KR-C-02 | Vua Sejong và Hangeul
+KR-C-03 | Thời cận hiện đại
+KR-D-01 | Tôn giáo
+KR-D-02 | Nho giáo và tuổi tác
+KR-E-01 | Tết Hàn Quốc
+KR-E-02 | Chuseok
+KR-E-03 | Những ngày đặc biệt khác
+KR-F-01 | Cơm và món ăn kèm
+KR-F-02 | Những món ăn nổi tiếng
+KR-F-03 | Phép lịch sự khi ăn
+KR-G-01 | Chào hỏi và cử chỉ
+KR-G-02 | Cách xưng hô
+KR-G-03 | Nhà ở và sinh hoạt hằng ngày
+KR-G-04 | Sống ở Hàn Quốc
+KR-H-01 | Hanbok
+KR-H-02 | Văn hóa truyền thống
+KR-H-03 | Làn sóng Hàn Quốc
+KR-I-01 | Seoul
+KR-I-02 | Busan
+KR-I-03 | Gyeongju
+KR-I-05 | Đảo Jeju
+JB-A-01 | Tỉnh Jeonbuk
+JB-A-02 | Thành phố Jeonju
+JB-A-03 | Thiên nhiên và các mùa ở Jeonbuk
+JB-A-04 | Vì sao nên học ở Jeonju?
+JB-B-01 | Star Center
+JB-B-02 | Star Garden và hoa đỗ quyên
+JB-B-03 | Khuôn viên trường trong phim truyền hình
+JB-B-04 | Ba túp lều trong rừng
+JB-B-05 | Nơi học tập và nghỉ ngơi
+JB-C-01 | Làng Hanok Jeonju
+JB-C-02 | Gyeonggijeon, Nhà thờ Jeondong, Pungnammun
+JB-C-03 | Omokdae, Làng bích họa, Chợ Nambu
+JB-C-04 | Công viên Deokjin và Vườn thực vật
+JB-D-01 | Bibimbap Jeonju
+JB-D-02 | Canh cơm giá đỗ và Moju
+JB-D-03 | Hanjeongsik, Gamaek và các hẻm Makgeolli
+JB-D-04 | Đồ ăn vặt đường phố và chợ đêm
+JB-E-01 | Hanji: giấy Hàn Quốc
+JB-E-02 | Pansori và cuộc thi Daesaseup
+JB-E-03 | Cội nguồn của triều Joseon
+JB-F-01 | Liên hoan phim Quốc tế Jeonju
+JB-F-02 | Các lễ hội Jeonju quanh năm
+JB-F-03 | Các lễ hội quanh Jeonbuk
+JB-G-01 | Gunsan
+JB-G-02 | Namwon
+JB-G-03 | Muju
+JB-G-04 | Buan và Gochang
+JB-H-01 | Đi lại ở Jeonju
+JB-H-02 | Chi phí sinh hoạt và mua sắm
+JB-H-03 | Phương ngữ Jeonju
