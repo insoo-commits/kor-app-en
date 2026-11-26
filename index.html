@@ -1265,6 +1265,39 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 .info figure img.lg-d{display:none}
 :root[data-theme="dark"] .info figure img.lg-l{display:none}:root[data-theme="dark"] .info figure img.lg-d{display:block}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .info figure img.lg-l{display:none}:root:not([data-theme="light"]) .info figure img.lg-d{display:block}}
+/* v1.21.13 (RYU): help in boxes; menu overview as area cards, each in its menu colour */
+.info .mgrps{margin:6px 0 10px}
+.info .mgrps .ibml{margin:16px 2px 8px}.info .mgrps .ibml:first-child{margin-top:4px}
+.info .mcards{display:grid;grid-template-columns:1fr;gap:10px}
+.info .mcard{display:grid;grid-template-columns:44px 1fr;column-gap:12px;align-items:center;text-align:left;font:inherit;color:inherit;width:100%;
+  background:var(--sheet);border:1px solid color-mix(in srgb,var(--accent) 30%,var(--line));border-left:5px solid var(--accent);border-radius:14px;padding:11px 14px 9px 12px;margin:0;
+  box-shadow:0 1px 4px rgba(0,0,0,.05);transition:transform .12s,box-shadow .12s}
+button.mcard{cursor:pointer}
+.info button.mcard:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,.09)}
+.info button.mcard:active{transform:none}
+.info .mcard .mi{grid-row:1 / span 2;align-self:start;width:44px;height:44px;border-radius:12px;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:800;line-height:1}
+.info .mcard .mt{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.info .mcard .mt b{font-size:17px;color:var(--accent);font-weight:800}
+.info .mcard .mt small{font-size:12.5px;color:var(--muted);font-weight:500}
+.info .mcard p{margin:3px 0 2px;font-size:14.5px;line-height:1.5;color:var(--ink)}
+.info .mcard p .ko{font-size:inherit}
+@media (min-width:640px){.info .mcards{grid-template-columns:1fr 1fr}.info .mcards>.mcard:last-child:nth-child(odd){grid-column:1 / -1}}
+:root[data-theme="dark"] .info .mcard .mi{background:color-mix(in srgb,var(--accent) 22%,var(--sheet))}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .info .mcard .mi{background:color-mix(in srgb,var(--accent) 22%,var(--sheet))}}
+.info .ib-lead>.ibb{padding-top:12px}
+.info .ib .ibb>figure.shot:first-child{margin-top:2px}
+.info .hpb{--hc:#2F6FB5;border-top:3px solid var(--hc)}
+.info .hpb.hc1{--hc:#1E7F4F}.info .hpb.hc2{--hc:#C2416F}.info .hpb.hc3{--hc:#C98A00}
+.info .hpb>h3{background:color-mix(in srgb,var(--hc) 9%,var(--sheet));align-items:center}
+.info .hpb>h3::before{display:none}
+.info .hpb .hn{flex:0 0 auto;width:24px;height:24px;border-radius:50%;background:var(--hc);color:#fff;font-size:13.5px;font-weight:800;display:inline-flex;align-items:center;justify-content:center}
+.info .ib-lead{background:color-mix(in srgb,var(--accent) 5%,var(--sheet))}
+:root[data-theme="dark"] .info .hpb{--hc:#6FA4E0}:root[data-theme="dark"] .info .hpb.hc1{--hc:#4FBF85}:root[data-theme="dark"] .info .hpb.hc2{--hc:#E07AA0}:root[data-theme="dark"] .info .hpb.hc3{--hc:#E0B040}
+:root[data-theme="dark"] .info .hpb .hn{color:#111}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .info .hpb{--hc:#6FA4E0}:root:not([data-theme="light"]) .info .hpb.hc1{--hc:#4FBF85}:root:not([data-theme="light"]) .info .hpb.hc2{--hc:#E07AA0}:root:not([data-theme="light"]) .info .hpb.hc3{--hc:#E0B040}:root:not([data-theme="light"]) .info .hpb .hn{color:#111}}
+.info .mg0{--accent:var(--k1);--accent-soft:var(--k1-soft)}.info .mg1{--accent:var(--k2);--accent-soft:var(--k2-soft)}
+.info .mg2{--accent:var(--k3);--accent-soft:var(--k3-soft)}.info .mg3{--accent:var(--k5);--accent-soft:var(--k5-soft)}
+.info .mgrps .ibml{color:var(--accent);display:flex;align-items:center;gap:8px}.info .mgrps .ibml::after{content:"";flex:1;height:1px;background:color-mix(in srgb,var(--accent) 35%,var(--line))}
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1489,6 +1522,11 @@ html.tab .tqd .tqn{font-size:16.8px}
 html.tab .tqd .tqdt>.ko{font-size:20.4px}
 html.tab .tqx .res{font-size:19.2px}
 @media (max-width:600px){html.tab .tqd .tqn{font-size:15.6px}}
+html.tab .info .mcard .mi{font-size:26.4px}
+html.tab .info .mcard .mt b{font-size:20.4px}
+html.tab .info .mcard .mt small{font-size:15px}
+html.tab .info .mcard p{font-size:17.4px}
+html.tab .info .hpb .hn{font-size:16.2px}
 /* iPad control row: kept on one line, boxes a bit taller (RYU 2026-11-14, v0.96; text 1.2x from v0.97) */
 html.tab .controls .seg button{font-size:18px;height:36px}
 html.tab .controls .bsel{font-size:18px;height:38px}
@@ -1896,7 +1934,7 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-26%20v1.21.12"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|ne|vi)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-26%20v1.21.12"><\/script>')})()</script>
-<script src="app.js?v=2026-11-26%20v1.21.12"></script>
+<script src="audio/index.js?v=2026-11-26%20v1.21.13"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|ne|vi)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-26%20v1.21.13"><\/script>')})()</script>
+<script src="app.js?v=2026-11-26%20v1.21.13"></script>
 </body></html>

@@ -667,7 +667,8 @@ function render(){
     const art = h("article", {class: "info"}); art.innerHTML = b.info;
     { const sp = art.querySelector("#statsPage"); if (sp) STP.page(sp); const sv = art.querySelector("#surveyPage"); if (sv) SV.form(sv, true); }   // 사용 통계 page (src/stats.js)
     { const tr = art.querySelector("#tpRandom"); if (tr) tprMount(tr); }
-    if (b.code.startsWith("TP-") && !art.querySelector(".ib")) ibGroup(art);   // v1.19.18 (RYU): TOPIK guide pages, each group in a box   // TOPIK random practice (v1.17)
+    if (b.code.startsWith("TP-") && !art.querySelector(".ib")) ibGroup(art);
+    if (b.code.startsWith("HP-") && !b.code.startsWith("HP-C") && !art.querySelector(".ib")) hpBoxes(art, b.code);   // v1.21.13 (RYU): help pages in boxes, menu overview as area cards   // v1.19.18 (RYU): TOPIK guide pages, each group in a box   // TOPIK random practice (v1.17)
     const bq = !b.tq ? b : MOCK[b.code] ? mockBundle(b) : isPage(b.code) ? pageBundle(b) : b;   // mock tests: a new random sheet (v1.17)
     view.replaceChildren(art, bq.tq ? tqView(bq) : "", pnRow(b.code)); return; }
   /* the two repeat buttons sit in the control bar above its bottom line, learn tab only (RYU 2026-11-16, v1.67) */
@@ -702,6 +703,33 @@ function tqView(b, bare){ TQB[b.code] = b;
 const tqScript = au => h("div", {class: "tqs ko"}, au.map(l => h("div", null, WHO[l[0]] ? h("b", null, WHO[l[0]]) : null, l[1])));
 /* picture questions (v1.18.11, RYU): the four pictures themselves are the answer buttons */
 /* v1.19.18: wrap each h3 and what follows it (up to the next h3 or h2) in the .ib box used on the 대한민국 pages */
+/* v1.21.13 (RYU): help pages grouped like the info pages. The menu overview table becomes area cards in the menu's groups
+   (the · and | of the menu), each with its colour, lesson count and a tap to open it; other pages: one box per h3 section,
+   and the table or pictures before the first h3 in a box of their own */
+const HPI = {K2: "💬", K1: "ㄱ", K6: "🧩", K7: "📖", LS: "🎧", TP: "📝", K4: "🎓", K5: "💼", KR: "🇰🇷", JB: "🏯", HP: "❓"};
+const HPG = ["한국어 공부 · TOPIK", "대학 생활 · 아르바이트", "대한민국 · 전주", "도움말"];
+function hpBoxes(art, code){
+  const tb = art.querySelector("table.facts");
+  if (code === "HP-A-02" && tb){
+    const D = new Map([...tb.rows].map(r => [r.cells[0].textContent.trim(), r.cells[1].innerHTML]));
+    const wrap = h("div", {class: "mgrps"}); let grp = null, gi = 0;
+    for (const [a, ko, en] of AREAS){
+      if (!grp || (META.seps || []).includes(a)){ grp = h("div", {class: "mcards mg" + (gi % 4)}); wrap.append(h("div", {class: "ibml mg" + (gi % 4)}, HPG[gi++] || ""), grp); }
+      const n = IDX.filter(r => areaOf(r[0]) === a).length, first = IDX.find(r => areaOf(r[0]) === a);
+      const p = h("p"); p.innerHTML = D.get(ko) || "";
+      const c = h(a === "HP" ? "div" : "button", {class: "mcard", type: a === "HP" ? null : "button", onclick: a === "HP" || !first ? null : () => { go(first[0]); setTimeout(() => scrollTo(0, 0), 80); }},
+        h("span", {class: "mi"}, HPI[a] || "•"), h("span", {class: "mt"}, h("b", {class: "ko"}, ko), h("small", null, en + (a === "HP" ? "" : " · 묶음 " + n))), p);
+      grp.append(c);
+    }
+    tb.replaceWith(wrap); return;
+  }
+  const sub = art.querySelector(".sub2"), lead = [];
+  for (let n = (sub || art.querySelector("h2"))?.nextSibling; n && !(n.nodeType === 1 && /^H[23]$/.test(n.tagName)); n = n.nextSibling) lead.push(n);
+  const els = lead.filter(n => n.nodeType === 1);
+  if (els.length && !els.every(e => e.matches("figure.poster"))){ const ib = h("div", {class: "ib ib-f ib-lead"}), bb = h("div", {class: "ibb"}); lead[0].before(ib); ib.append(bb); bb.append(...lead); }
+  ibGroup(art);
+  [...art.querySelectorAll(":scope > .ib:not(.ib-lead)")].forEach((ib, i) => { ib.classList.add("hpb", "hc" + (i % 4)); ib.querySelector("h3")?.prepend(h("span", {class: "hn"}, String(i + 1))); });   // numbered, colours in turn (as phasaKAO v2.77)
+}
 function ibGroup(art){
   const box = (h3, items) => { const ib = h("div", {class: "ib"}), bb = h("div", {class: "ibb"}); h3.replaceWith(ib); ib.append(h3, bb); bb.append(...items); return ib; };
   art.querySelectorAll(".two > div").forEach(d => { const f = d.firstElementChild; if (f && f.tagName === "H3") { const rest = [...d.childNodes].filter(n => n !== f); box(f, rest); } });
