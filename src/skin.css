@@ -326,3 +326,11 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
 .vinote{background:#FFF3C4;border-left:4px solid #FFC20E;padding:.6em .8em;border-radius:6px;font-size:.92em}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .vinote{background:#3A3112}}
 :root[data-theme="dark"] .vinote{background:#3A3112}
+
+/* v1.23.0 jeyCampus (RYU 2026-11-26): app-name pill like phasaKAO/phasaLAO: white pill, navy name, a little bigger than the line beside it */
+#app .top .eyebrow{font-size:14px;letter-spacing:.02em}
+#app .top .eyebrow .logo{background:rgba(255,255,255,.93);color:#00305F;border:0;font:700 15px/1 var(--display);letter-spacing:.3px;padding:5px 11px 4px;border-radius:10px;margin-right:9px;vertical-align:1px}
+@media (max-width:600px){
+  #app .top .eyebrow{font-size:min(12.5px,3.2vw)}
+  #app .top .eyebrow .logo{font-size:min(13px,3.4vw);padding:4px 9px 3px;border-radius:8px;margin-right:7px}
+}

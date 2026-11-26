@@ -1058,7 +1058,7 @@ if (LX){
 }
 route();
 if ("serviceWorker" in navigator && window.KO_SW) navigator.serviceWorker.register("sw.js").catch(() => {});
-/* v1.21.12 (RYU): tapping the title at the top left (or "kojey" in the sticky bar) goes back to the first menu's first lesson, at the top */
+/* v1.21.12 (RYU): tapping the title at the top left (or "jeyCampus" in the sticky bar) goes back to the first menu's first lesson, at the top */
 (() => { const home = () => { const g = document.querySelector("#groups .group"), r = g && IDX.find(r => areaOf(r[0]) === g.dataset.g);
     if (r) go(r[0]); setTimeout(() => scrollTo(0, 0), 80); };
   for (const e of [document.querySelector(".top .brand"), document.querySelector("#stick .strow > b")]) if (e){

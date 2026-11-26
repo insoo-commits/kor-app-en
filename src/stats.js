@@ -174,13 +174,13 @@ const SV = (() => {
     };
     more.append(
       el("p", {class: "svq"}, "Which menu helped you most? ", el("span", {class: "ko"}, "가장 도움이 된 메뉴")), mg,
-      el("p", {class: "svq"}, "Would you recommend KoJey to a friend? ", el("span", {class: "ko"}, "친구에게 추천할래요?")), rg,
+      el("p", {class: "svq"}, "Would you recommend jeyCampus to a friend? ", el("span", {class: "ko"}, "친구에게 추천할래요?")), rg,
       ta, el("div", {class: "svbtns"}, el("button", {type: "button", class: "btn primary", onclick: send}, "Send ", el("span", {class: "ko"}, "보내기"))));
     box.replaceChildren(el("div", {class: "svcard"},
       inPage ? null : el("button", {type: "button", class: "svx", "aria-label": "Later", title: "Later 나중에", onclick: () => {
         const d = new Date(); d.setDate(d.getDate() + 3); put(DK, JSON.stringify({later: d.toISOString().slice(0, 10)})); box.replaceChildren(); }}, "×"),
       el("div", {class: "svhead"}, el("img", {src: "img/jey/jey_side.webp", alt: "", class: "svjey"}),
-        el("p", {class: "svq"}, el("b", null, "How do you like KoJey? "), el("span", {class: "ko"}, "코제이 어때요?"))), stars, more));
+        el("p", {class: "svq"}, el("b", null, "How do you like jeyCampus? "), el("span", {class: "ko"}, "제이캠퍼스 어때요?"))), stars, more));
   }
   /* offer it under the 내 학습 card: seen = lessons opened, days = study days */
   function offer(box, seen, days){
