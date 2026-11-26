@@ -3650,7 +3650,7 @@ polite speech	ယဉ်ကျေးသော စကား
 casual speech	ရင်းနှီးသော စကား (반말)
 senior, elder	အထက်လူကြီး
 junior, younger person	အငယ်
-traditional holiday	ရိုးရာ ပွဲတော်
+traditional holiday	ရိုးရာ ပွဲတော်ရက်
 long holiday	ရက်ရှည် အားလပ်ရက်
 to follow the rules	စည်းကမ်း လိုက်နာသည်
 to break the rules	စည်းကမ်း ချိုးဖောက်သည်
@@ -4924,7 +4924,7 @@ ba	ba
 pa	pa
 ja	ja
 X	X
-let's go	သွားကြရအောင်
+let's go	သွားကြစို့
 snack	မုန့်၊ သရေစာ
 moving house	အိမ်ပြောင်းခြင်း
 interest (money)	အတိုး (ငွေ)
@@ -12083,7 +12083,7 @@ bill	ငွေတောင်းခံလွှာ
 manual, instructions	လက်စွဲ၊ ညွှန်ကြားချက်
 school supplies	ကျောင်းသုံး ပစ္စည်း
 coming to work	အလုပ်သွားခြင်း
-absence	အလုပ်ပျက်ခြင်း
+absence	ပျက်ကွက်ခြင်း
 withdraw money	ငွေ ထုတ်သည်
 not allowed	ခွင့်မပြု
 allowed	ခွင့်ပြုချက်
@@ -12091,7 +12091,7 @@ washing	လျှော်ဖွပ်ခြင်း
 machine	စက်
 tool	ကိရိယာ
 machine, device	စက်၊ ကိရိယာ
-membership fee	အသင်းဝင်ကြေး
+membership fee	အဖွဲ့ဝင် ကြေး
 president	ဥက္ကဋ္ဌ
 in a meeting	အစည်းအဝေး လုပ်နေဆဲ
 Western food	အနောက်တိုင်း အစားအစာ
@@ -12105,7 +12105,7 @@ soup bowl	ဟင်းချို ပန်းကန်လုံး
 water glass	ရေခွက်
 Get home safely (said when saying goodbye).	ဘေးကင်းစွာ ပြန်ပါ (နှုတ်ဆက်ရာတွင် ပြောသည်)။
 heater	အပူပေးစက်
-handout	လက်ကမ်းစာ
+handout	လက်ကမ်းစာရွက်
 It's free (on the house).	အခမဲ့ ပါ (ဆိုင်က ပေးသည်)။
 out	ထွက်
 turn off the computer	ကွန်ပျူတာ ပိတ်ပါ
@@ -16398,3 +16398,1571 @@ How long does it take to get to Jeonju University?	ဂျွန်ဂျူ တ�
 If there's no traffic, not long. Listen for the announcement.	ကားမကြပ်ရင် မကြာပါဘူး။ ကြေညာသံကို နားထောင်ပါ။
 Thank you!	ကျေးဇူးတင်ပါတယ်!
 These are expressions for going out in Jeonju on the weekend, asking for directions and taking a taxi.	စနေ တနင်္ဂနွေတွင် ဂျွန်ဂျူမြို့ထဲ အပြင်ထွက်ခြင်း၊ လမ်းမေးခြင်းနှင့် တက္ကစီ စီးခြင်းဆိုင်ရာ အသုံးအနှုန်းများ ဖြစ်ပါသည်။
+Ask the way with "-에 어떻게 가요?", and in a taxi say "-(으)로 가 주세요" and "여기에서 세워 주세요".	လမ်းကို "-에 어떻게 가요?" ဖြင့် မေးပြီး တက္ကစီတွင် "-(으)로 가 주세요" နှင့် "여기에서 세워 주세요" ဟု ပြောပါ။
+Jeonju Hanok Village, Jeonju Station and the express bus terminal are places international students often go. Searching in Korean in map apps gives better results.	ဂျွန်ဂျူ ဟန်အုတ် ရွာ၊ ဂျွန်ဂျူ ဘူတာနှင့် အမြန်ပြေး ဘတ်စ်ကားဂိတ်တို့သည် နိုင်ငံခြား ကျောင်းသားများ မကြာခဏ သွားသော နေရာများ ဖြစ်ပါသည်။ မြေပုံ အက်ပ်တွင် ကိုရီးယားလို ရှာလျှင် ရလဒ် ပိုကောင်းပါသည်။
+Call a taxi driver "기사님". Showing your destination written in Korean makes things easy.	တက္ကစီ ယာဉ်မောင်းကို "기사님" ဟု ခေါ်ပါ။ သွားမည့်နေရာကို ကိုရီးယားလို ရေးပြီး ပြလျှင် လွယ်ကူပါသည်။
+How do I get to …?	... ကို ဘယ်လို သွားရမလဲ။
+How do I get to the Hanok Village?	ဟန်အုတ် ရွာကို ဘယ်လို သွားရမလဲ။
+How do I get to Jeonju Station from here?	ဒီကနေ ဂျွန်ဂျူ ဘူတာကို ဘယ်လို သွားရမလဲ။
+How do I get to the express bus terminal by bus?	အမြန်ပြေး ဘတ်စ်ကားဂိတ်ကို ဘတ်စ်ကားနဲ့ ဘယ်လို သွားရမလဲ။
+express bus terminal	အမြန်ပြေး ဘတ်စ်ကားဂိတ်
+please take me to …	... ကို ပို့ပေးပါ
+Please take me to Jeonju Station.	ဂျွန်ဂျူ ဘူတာကို ပို့ပေးပါ။
+Please take me to the main gate of Jeonju University.	ဂျွန်ဂျူ တက္ကသိုလ် ဂိတ်ပေါက်မကြီးကို ပို့ပေးပါ။
+Driver, please take me to the Hanok Village.	ဆရာ၊ ဟန်အုတ် ရွာကို ပို့ပေးပါ။
+please stop here	ဒီမှာ ရပ်ပေးပါ
+Please stop here.	ဒီမှာ ရပ်ပေးပါ။
+Please stop up ahead.	ရှေ့နားမှာ ရပ်ပေးပါ။
+Please stop in front of the convenience store.	စတိုးဆိုင် ရှေ့မှာ ရပ်ပေးပါ။
+how long does it take?	ဘယ်လောက် ကြာလဲ
+How long does it take on foot?	လမ်းလျှောက်ရင် ဘယ်လောက် ကြာလဲ။
+How long does it take by taxi?	တက္ကစီနဲ့ ဘယ်လောက် ကြာလဲ။
+How long does it take to Seoul by train?	ဆိုးလ်ကို ရထားနဲ့ ဘယ်လောက် ကြာလဲ။
+may I pay by card?	ကတ်နဲ့ ပေးလို့ ရမလား
+May I pay by card?	ကတ်နဲ့ ပေးလို့ ရမလား။
+Driver, may I pay by card?	ဆရာ၊ ကတ်နဲ့ ပေးလို့ ရမလား။
+I don't have cash. May I pay by card?	ငွေသား မပါဘူး။ ကတ်နဲ့ ပေးလို့ ရမလား။
+OK. Where in the Hanok Village?	ဟုတ်ကဲ့။ ဟန်အုတ် ရွာ ဘယ်နေရာလဲ။
+The entrance, please. How long does it take?	ဝင်ပေါက်ကို ပို့ပေးပါ။ ဘယ်လောက် ကြာလဲ။
+About twenty minutes.	မိနစ် နှစ်ဆယ်လောက် ကြာပါတယ်။
+Please stop here. May I pay by card?	ဒီမှာ ရပ်ပေးပါ။ ကတ်နဲ့ ပေးလို့ ရမလား။
+Sure, tap it here.	ရပါတယ်၊ ဒီမှာ ထိပါ။
+These are the names of buildings and places on the Jeonju University campus. English-track students mainly study in 지역혁신관, 스타센터 (Star Center) and 자유관.	ဂျွန်ဂျူ တက္ကသိုလ် ကျောင်းဝင်းရှိ အဆောက်အအုံနှင့် နေရာ အမည်များ ဖြစ်ပါသည်။ အင်္ဂလိပ် သင်ရိုး ကျောင်းသားများသည် 지역혁신관၊ 스타센터 (Star Center) နှင့် 자유관 တွင် အဓိက စာသင်ကြပါသည်။
+First learn where 지역혁신관, the Star Center, 자유관, the student union building and the main administration building are.	지역혁신관၊ Star Center၊ 자유관၊ ကျောင်းသား သမဂ္ဂ အဆောက်အအုံနှင့် အဓိက စီမံခန့်ခွဲရေး အဆောက်အအုံ ဘယ်မှာ ရှိသလဲ အရင် လေ့လာပါ။
+"관" after a name means building: 자유관, 지역혁신관, 진리관. Lecture rooms are given as building name + room number: 자유관 305호 (Room 305).	အမည်နောက်ရှိ "관" သည် အဆောက်အအုံ ဟု ဆိုလိုပါသည်: 자유관၊ 지역혁신관၊ 진리관။ စာသင်ခန်းကို အဆောက်အအုံ အမည် + အခန်းနံပါတ်ဖြင့် ဖော်ပြပါသည်: 자유관 305호 (အခန်း ၃၀၅)။
+You can see a campus map on the Jeonju University website. At first, it's easier to find your way using the Star Center as a landmark.	ကျောင်းဝင်း မြေပုံကို ဂျွန်ဂျူ တက္ကသိုလ် ဝက်ဘ်ဆိုက်တွင် ကြည့်နိုင်ပါသည်။ အစပိုင်းတွင် Star Center ကို မှတ်တိုင်အဖြစ် သုံး၍ လမ်းရှာလျှင် ပိုလွယ်ပါသည်။
+to be wide, big	ကျယ်သည်၊ ကြီးသည်
+I looked around the campus with a friend.	သူငယ်ချင်းနဲ့ ကျောင်းဝင်းကို လှည့်ပတ် ကြည့်ခဲ့တယ်။
+to look around	လှည့်ပတ် ကြည့်ရှုသည်
+In spring, many flowers bloom on campus.	နွေဦးမှာ ကျောင်းဝင်းထဲ ပန်းတွေ အများကြီး ပွင့်တယ်။
+I came to the lecture room early.	စာသင်ခန်းကို စောစော ရောက်ခဲ့တယ်။
+The lecture room has changed, so check the notice.	စာသင်ခန်း ပြောင်းသွားလို့ အသိပေးချက်ကို စစ်ပါ။
+Star Center (JJU building)	Star Center (ဂျွန်ဂျူ တက္ကသိုလ် အဆောက်အအုံ)
+Let's meet at the Star Center.	Star Center မှာ တွေ့ကြစို့။
+The library is in the Star Center.	စာကြည့်တိုက်က Star Center ထဲမှာ ရှိတယ်။
+The Star Center is in the middle of the campus, so it's easy to find.	Star Center က ကျောင်းဝင်း အလယ်မှာ ရှိလို့ ရှာရ လွယ်တယ်။
+Jiyeok Hyeoksin-gwan (JJU building)	지역혁신관 (ဂျွန်ဂျူ တက္ကသိုလ် အဆောက်အအုံ)
+I have a class in 지역혁신관.	지역혁신관 မှာ အတန်း ရှိတယ်။
+Where is 지역혁신관?	지역혁신관 ဘယ်မှာလဲ။
+In the morning I have classes in 지역혁신관, and in the afternoon in 자유관.	မနက်ပိုင်း 지역혁신관 မှာ၊ နေ့လယ်ပိုင်း 자유관 မှာ အတန်း ရှိတယ်။
+Jayugwan (JJU building)	자유관 (ဂျွန်ဂျူ တက္ကသိုလ် အဆောက်အအုံ)
+I'll wait in front of 자유관.	자유관 ရှေ့မှာ စောင့်နေမယ်။
+Korean class is in 자유관.	ကိုရီးယားစကား အတန်းက 자유관 မှာ ပါ။
+How long does it take to walk from 자유관 to the Star Center?	자유관 ကနေ Star Center ကို လမ်းလျှောက်ရင် ဘယ်လောက် ကြာလဲ။
+There is a student cafeteria in the student union building.	ကျောင်းသား သမဂ္ဂ အဆောက်အအုံမှာ ကျောင်းသား စားသောက်ဆောင် ရှိတယ်။
+The club rooms are in the student union building.	ကလပ် အခန်းတွေက ကျောင်းသား သမဂ္ဂ အဆောက်အအုံမှာ ရှိတယ်။
+During the festival there are a lot of people in front of the student union building.	ပွဲတော်အချိန်မှာ ကျောင်းသား သမဂ္ဂ အဆောက်အအုံ ရှေ့မှာ လူ အများကြီး ရှိတယ်။
+main administration building	အဓိက စီမံခန့်ခွဲရေး အဆောက်အအုံ
+The main administration building is a big building.	အဓိက စီမံခန့်ခွဲရေး အဆောက်အအုံက အဆောက်အအုံကြီး ပါ။
+I took a photo in front of the main administration building.	အဓိက စီမံခန့်ခွဲရေး အဆောက်အအုံ ရှေ့မှာ ဓာတ်ပုံ ရိုက်ခဲ့တယ်။
+For tuition problems, go and ask at the main administration building.	ကျောင်းလခ ပြဿနာအတွက် အဓိက စီမံခန့်ခွဲရေး အဆောက်အအုံမှာ သွားမေးပါ။
+I take the bus in front of the main gate.	ဂိတ်ပေါက်မကြီး ရှေ့မှာ ဘတ်စ်ကား စီးတယ်။
+Let's meet at the main gate.	ဂိတ်ပေါက်မကြီးမှာ တွေ့ကြစို့။
+I told the taxi driver, "Please go to the main gate of Jeonju University."	တက္ကစီ ယာဉ်မောင်းကို "ဂျွန်ဂျူ တက္ကသိုလ် ဂိတ်ပေါက်မကြီးကို ပို့ပေးပါ" လို့ ပြောခဲ့တယ်။
+Excuse me, where is 지역혁신관?	တစ်ဆိတ်လောက်၊ 지역혁신관 ဘယ်မှာလဲ။
+It's that way. I'm going that way too. Let's go together.	ဟိုဘက်မှာပါ။ ကျွန်ုပ်လည်း ဟိုဘက် သွားမှာ။ အတူ သွားကြစို့။
+Thanks. My class is on the second floor of 지역혁신관.	ကျေးဇူးပဲ။ ကျွန်ုပ် အတန်းက 지역혁신관 ဒုတိယထပ်မှာ ပါ။
+Do you want to have lunch at the Star Center after class?	အတန်းပြီးရင် Star Center မှာ နေ့လယ်စာ စားမလား။
+The Jeonju University library is in the Star Center. These are words for borrowing books and studying in the library.	ဂျွန်ဂျူ တက္ကသိုလ် စာကြည့်တိုက်သည် Star Center ထဲတွင် ရှိပါသည်။ စာကြည့်တိုက်တွင် စာအုပ်ငှားခြင်းနှင့် စာလေ့လာခြင်းဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+At the Star Center library, borrow books with your student ID and return or renew them on time.	Star Center စာကြည့်တိုက်တွင် ကျောင်းသား ကတ်ဖြင့် စာအုပ်ငှားပြီး အချိန်မီ ပြန်အပ် သို့မဟုတ် သက်တမ်းတိုးပါ။
+In the library, borrowing a book is also called "대출하다". Giving it back is "반납하다".	စာကြည့်တိုက်တွင် စာအုပ်ငှားခြင်းကို "대출하다" ဟုလည်း ခေါ်ပါသည်။ ပြန်ပေးခြင်းကို "반납하다" ဟု ခေါ်ပါသည်။
+In the reading room, don't answer calls; go outside. Check how many books and how long you can borrow on the library website.	စာဖတ်ခန်းထဲတွင် ဖုန်း မကိုင်ပါနှင့်၊ အပြင်ထွက်ပါ။ စာအုပ် ဘယ်နှအုပ်၊ ဘယ်လောက်ကြာ ငှားနိုင်သလဲ စာကြည့်တိုက် ဝက်ဘ်ဆိုက်တွင် စစ်ပါ။
+I want to borrow a book.	စာအုပ် ငှားချင်တယ်။
+How many books can I borrow?	စာအုပ် ဘယ်နှအုပ်အထိ ငှားလို့ ရလဲ။
+You need a student ID card to borrow books.	စာအုပ်ငှားဖို့ ကျောင်းသား ကတ် လိုတယ်။
+returning (a book)	(စာအုပ်) ပြန်အပ်ခြင်း
+I came to return a book.	စာအုပ် ပြန်အပ်ဖို့ လာခဲ့တာပါ။
+When is the return date?	ပြန်အပ်ရမည့် ရက်က ဘယ်တော့လဲ။
+If you return books late, you can't borrow books for a while.	စာအုပ် နောက်ကျ ပြန်အပ်ရင် ခဏကြာ စာအုပ် ငှားလို့ မရဘူး။
+for a while	ခဏကြာ
+renewal, extension	သက်တမ်းတိုးခြင်း
+Can I renew the loan period?	ငှားချိန်ကို သက်တမ်းတိုးလို့ ရမလား။
+loan, borrowing	ငှားခြင်း
+I renewed it with the app.	အက်ပ်နဲ့ သက်တမ်းတိုးခဲ့တယ်။
+You can't renew a book someone else has reserved.	တခြားသူ ကြိုတင်မှာထားတဲ့ စာအုပ်ကို သက်တမ်းတိုးလို့ မရဘူး။
+I study in the reading room.	စာဖတ်ခန်းမှာ စာကျက်တယ်။
+Be quiet in the reading room.	စာဖတ်ခန်းထဲမှာ တိတ်တိတ် နေပါ။
+During exam period there are no seats in the reading room.	စာမေးပွဲ ကာလမှာ စာဖတ်ခန်းထဲ ထိုင်ခုံ မရှိဘူး။
+search	ရှာဖွေခြင်း
+I search for books on the computer.	ကွန်ပျူတာနဲ့ စာအုပ် ရှာတယ်။
+I searched by book title.	စာအုပ် ခေါင်းစဉ်နဲ့ ရှာခဲ့တယ်။
+I searched, and that book is in the English book section.	ရှာကြည့်တော့ အဲဒီစာအုပ်က အင်္ဂလိပ် စာအုပ် ကဏ္ဍမှာ ရှိတယ်။
+English book	အင်္ဂလိပ် စာအုပ်
+section, corner	ကဏ္ဍ၊ ထောင့်
+copying, photocopy	မိတ္တူ ကူးခြင်း
+I want to copy this page.	ဒီစာမျက်နှာကို မိတ္တူ ကူးချင်တယ်။
+Where is the copy machine?	မိတ္တူစက် ဘယ်မှာလဲ။
+You must not copy a whole book.	စာအုပ် တစ်အုပ်လုံးကို မိတ္တူ ကူးလို့ မရပါ။
+whole, entirely	တစ်ခုလုံး
+I'd like to borrow this book.	ဒီစာအုပ် ငှားချင်ပါတယ်။
+Your student ID, please. It's due back in two weeks.	ကျောင်းသား ကတ် ပေးပါ။ နှစ်ပတ်အတွင်း ပြန်အပ်ရမယ်။
+return	ပြန်အပ်ခြင်း
+Can I also renew it?	သက်တမ်းလည်း တိုးလို့ ရလား။
+renewal	သက်တမ်းတိုးခြင်း
+Yes, if nobody has reserved it, you can renew it in the app.	ရပါတယ်၊ ဘယ်သူမှ ကြိုတင်မမှာထားရင် အက်ပ်မှာ သက်တမ်းတိုးလို့ ရတယ်။
+These are words for using your student ID card and other campus services.	ကျောင်းသား ကတ်နှင့် အခြား ကျောင်းဝင်း ဝန်ဆောင်မှုများ အသုံးပြုခြင်းဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+Always carry your student ID, and check notices often.	ကျောင်းသား ကတ်ကို အမြဲ ယူဆောင်ပြီး အသိပေးချက်များကို မကြာခဏ စစ်ပါ။
+A student ID may be used for the library, paying at restaurants, attendance and more. If you lose it, get a new one right away.	ကျောင်းသား ကတ်ကို စာကြည့်တိုက်၊ စားသောက်ဆိုင်တွင် ငွေပေးခြင်း၊ တက်ရောက်မှု စသည်တို့အတွက် သုံးနိုင်ပါသည်။ ပျောက်လျှင် ချက်ချင်း အသစ် ထုတ်ပါ။
+If you don't know something, first ask the department office or the International Office.	မသိသည် ရှိလျှင် ဌာန ရုံး သို့မဟုတ် နိုင်ငံတကာ ရုံးကို အရင် မေးပါ။
+I got my student ID card.	ကျောင်းသား ကတ် လုပ်ခဲ့တယ်။
+I enter the library with my student ID card.	ကျောင်းသား ကတ်နဲ့ စာကြည့်တိုက်ထဲ ဝင်တယ်။
+to enter	ဝင်သည်
+Ask at the department office.	ဌာန ရုံးမှာ မေးပါ။
+I asked the Business Administration office about course registration.	စီးပွားရေး စီမံခန့်ခွဲမှု ရုံးမှာ ဘာသာ စာရင်းသွင်းခြင်းအကြောင်း မေးခဲ့တယ်။
+Submit the course documents to the department office.	ဘာသာ စာရွက်စာတမ်းတွေကို ဌာန ရုံးမှာ တင်ပါ။
+taking a course	ဘာသာ တက်ခြင်း
+The International Office helps.	နိုင်ငံတကာ ရုံးက ကူညီပေးတယ်။
+Ask the International Office about visa problems.	ဗီဇာ ပြဿနာကို နိုင်ငံတကာ ရုံးမှာ မေးပါ။
+The International Office holds events for international students.	နိုင်ငံတကာ ရုံးက နိုင်ငံခြား ကျောင်းသားတွေအတွက် ပွဲတွေ ကျင်းပတယ်။
+I want to get a certificate.	လက်မှတ် တစ်ခု ထုတ်ချင်တယ်။
+A certificate of enrollment can also be issued online.	ကျောင်းတက်နေကြောင်း လက်မှတ်ကို အွန်လိုင်းကလည်း ထုတ်လို့ ရတယ်။
+being enrolled	ကျောင်းတက်နေခြင်း
+A transcript is needed for a visa extension.	ဗီဇာ သက်တမ်းတိုးဖို့ အမှတ်စာရင်း လိုတယ်။
+notice, announcement	အသိပေးချက်၊ ကြေညာချက်
+Check the notice.	အသိပေးချက်ကို စစ်ပါ။
+A notice was posted on the school website.	ကျောင်း ဝက်ဘ်ဆိုက်မှာ အသိပေးချက် တင်ထားတယ်။
+Important notices are also posted in English.	အရေးကြီး အသိပေးချက်တွေကို အင်္ဂလိပ်လိုလည်း တင်တယ်။
+to be important	အရေးကြီးသည်
+What's the school Wi-Fi password?	ကျောင်း Wi-Fi စကားဝှက်က ဘာလဲ။
+The Wi-Fi works well in the lecture rooms.	စာသင်ခန်းတွေမှာ Wi-Fi ကောင်းကောင်း ရတယ်။
+I lost my student ID card. What should I do?	ကျောင်းသား ကတ် ပျောက်သွားပြီ။ ဘာလုပ်ရမလဲ။
+Apply for a reissue. You need a photo and an ID.	ပြန်ထုတ်ရန် လျှောက်ပါ။ ဓာတ်ပုံနဲ့ မှတ်ပုံတင် လိုတယ်။
+reissue	ပြန်ထုတ်ပေးခြင်း
+Will it be ready today?	ဒီနေ့ပဲ ရမလား။
+No, it takes a few days. Check the notice.	မရပါဘူး၊ ရက်အနည်းငယ် ကြာတယ်။ အသိပေးချက်ကို စစ်ပါ။
+a few days	ရက်အနည်းငယ်
+These are expressions for finding buildings and classrooms on campus.	ကျောင်းဝင်းထဲတွင် အဆောက်အအုံနှင့် စာသင်ခန်း ရှာရန် အသုံးအနှုန်းများ ဖြစ်ပါသည်။
+Ask with "-이/가 어디예요?" and "몇 층이에요?", and understand "쭉 가세요" (go straight) and "옆에 있어요" (it's next to).	"-이/가 어디예요?" နှင့် "몇 층이에요?" ဖြင့် မေးပြီး "쭉 가세요" (တည့်တည့် သွားပါ) နှင့် "옆에 있어요" (ဘေးမှာ ရှိတယ်) ကို နားလည်ပါ။
+In room numbers, the first digit is usually the floor: Room 305 is usually on the 3rd floor. Your timetable shows the building name and room number together.	အခန်းနံပါတ်တွင် ပထမ ဂဏန်းသည် များသောအားဖြင့် အထပ် ဖြစ်ပါသည်: အခန်း ၃၀၅ သည် များသောအားဖြင့် ၃ ထပ်တွင် ရှိပါသည်။ အချိန်ဇယားတွင် အဆောက်အအုံ အမည်နှင့် အခန်းနံပါတ်ကို အတူ ပြပါသည်။
+If you find the classroom before the first class, you won't be late.	ပထမ အတန်း မတိုင်မီ စာသင်ခန်းကို ကြိုရှာထားလျှင် နောက်မကျပါ။
+Where is …?	... ဘယ်မှာလဲ။
+Where is 자유관?	자유관 ဘယ်မှာလဲ။
+Jayugwan (building)	자유관 (အဆောက်အအုံ)
+Excuse me, where is the Star Center?	တစ်ဆိတ်လောက်၊ Star Center ဘယ်မှာလဲ။
+Where is the restroom around here?	ဒီနားမှာ အိမ်သာ ဘယ်မှာလဲ။
+What floor is Room …?	အခန်း ... က ဘယ်နှထပ်လဲ။
+What floor is Room 305 on?	အခန်း ၃၀၅ က ဘယ်နှထပ်မှာလဲ။
+What floor is Room 201 in 지역혁신관 on?	지역혁신관 အခန်း ၂၀၁ က ဘယ်နှထပ်မှာလဲ။
+Jiyeok Hyeoksin-gwan (building)	지역혁신관 (အဆောက်အအုံ)
+It's my first time here. What floor is this classroom on?	ဒီကို ပထမဆုံး ရောက်တာပါ။ ဒီစာသင်ခန်းက ဘယ်နှထပ်မှာလဲ။
+go straight	တည့်တည့် သွားပါ
+Go straight and it's on the right.	တည့်တည့် သွားရင် ညာဘက်မှာ ရှိတယ်။
+Go straight from the main gate and then turn left.	ဂိတ်ပေါက်မကြီးကနေ တည့်တည့် သွားပြီး ဘယ်ဘက် ချိုးပါ။
+It's next to …	... ဘေးမှာ ရှိတယ်
+It's next to the library.	စာကြည့်တိုက် ဘေးမှာ ရှိတယ်။
+It's next to the elevator.	ဓာတ်လှေကား ဘေးမှာ ရှိတယ်။
+That classroom is next to the stairs. You'll find it quickly.	အဲဒီစာသင်ခန်းက လှေကား ဘေးမှာ ရှိတယ်။ မြန်မြန် တွေ့မှာပါ။
+Could you go with me?	အတူ လိုက်ပို့ပေးနိုင်မလား။
+Sorry, could you go with me?	တောင်းပန်ပါတယ်၊ အတူ လိုက်ပို့ပေးနိုင်မလား။
+I don't know the way well. Could you go with me?	လမ်း သိပ်မသိဘူး။ အတူ လိုက်ပို့ပေးနိုင်မလား။
+Class starts soon. Could you take me there?	အတန်း မကြာခင် စတော့မယ်။ အဲဒီကို ပို့ပေးနိုင်မလား။
+The classroom has changed	စာသင်ခန်း ပြောင်းသွားပြီ
+The classroom has changed today.	ဒီနေ့ စာသင်ခန်း ပြောင်းသွားပြီ။
+The classroom has changed. Come to 자유관.	စာသင်ခန်း ပြောင်းသွားပြီ။ 자유관 ကို လာပါ။
+According to the notice, the classroom has moved to the Star Center.	အသိပေးချက်အရ စာသင်ခန်းက Star Center ကို ပြောင်းသွားပြီ။
+Excuse me. Where is 지역혁신관?	တစ်ဆိတ်လောက်ပါ။ 지역혁신관 ဘယ်မှာလဲ။
+to excuse	ခွင့်ပြုပါ (တစ်ဆိတ်)
+Go straight along this road and it's on the left.	ဒီလမ်းအတိုင်း တည့်တည့် သွားရင် ဘယ်ဘက်မှာ ရှိတယ်။
+Thanks. And what floor is Room 305 on?	ကျေးဇူးပဲ။ ပြီးတော့ အခန်း ၃၀၅ က ဘယ်နှထပ်မှာလဲ။
+The third floor. It's next to the elevator.	တတိယထပ် ပါ။ ဓာတ်လှေကား ဘေးမှာ ရှိတယ်။
+My class starts soon. Could you go with me?	အတန်း မကြာခင် စတော့မယ်။ အတူ လိုက်ပို့ပေးနိုင်မလား။
+Of course. I'm going to that building too.	ရပါတယ်။ ကျွန်ုပ်လည်း အဲဒီ အဆောက်အအုံကို သွားမှာ။
+Jeonju University has student cafeterias in the Star Center and the student union building. These are words for ordering and eating there.	ဂျွန်ဂျူ တက္ကသိုလ်တွင် Star Center နှင့် ကျောင်းသား သမဂ္ဂ အဆောက်အအုံ၌ ကျောင်းသား စားသောက်ဆောင်များ ရှိပါသည်။ ထိုနေရာတွင် မှာယူခြင်းနှင့် စားသောက်ခြင်းဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+At the student cafeteria, buy a meal ticket at the kiosk and ask in advance about food you can't eat.	ကျောင်းသား စားသောက်ဆောင်တွင် ကီယော့စ်ကနေ ထမင်းလက်မှတ် ဝယ်ပြီး မစားနိုင်သော အစားအစာများကို ကြိုမေးပါ။
+Jeonju University has run a "1,000-won breakfast" for students. In the 2nd semester of 2025 it was on Tuesday, Wednesday and Thursday mornings at the campus student cafeterias. Check the notice each semester for dates and times.	ဂျွန်ဂျူ တက္ကသိုလ်တွင် ကျောင်းသားများအတွက် "ဝမ် ၁,၀၀၀ မနက်စာ" ကို ကျင်းပခဲ့ပါသည်။ ၂၀၂၅ ဒုတိယ စာသင်နှစ်ဝက်တွင် ကျောင်းဝင်း စားသောက်ဆောင်များ၌ အင်္ဂါ၊ ဗုဒ္ဓဟူး၊ ကြာသပတေး မနက်များတွင် ရှိခဲ့ပါသည်။ စာသင်နှစ်ဝက်တိုင်း ရက်နှင့် အချိန်ကို အသိပေးချက်တွင် စစ်ပါ။
+If you don't eat meat or eat only halal food, ask "돼지고기 들어 있어요?" (Is there pork in it?) or "고기 빼 주세요" (Please leave out the meat).	အသား မစားလျှင် သို့မဟုတ် ဟလာလ် အစားအစာသာ စားလျှင် "돼지고기 들어 있어요?" (ဝက်သား ပါလား) သို့မဟုတ် "고기 빼 주세요" (အသား မထည့်ပါနှင့်) ဟု မေးပါ။
+I eat lunch at the student cafeteria.	ကျောင်းသား စားသောက်ဆောင်မှာ နေ့လယ်စာ စားတယ်။
+The student cafeteria is cheaper than outside.	ကျောင်းသား စားသောက်ဆောင်က အပြင်ထက် ဈေးသက်သာတယ်။
+The student union cafeteria is crowded at lunchtime.	ကျောင်းသား သမဂ္ဂ စားသောက်ဆောင်က နေ့လယ်စာ ချိန်မှာ လူကြပ်တယ်။
+The menu changes every day.	မီနူးက နေ့တိုင်း ပြောင်းတယ်။
+Does the menu say whether there's pork in it?	မီနူးမှာ ဝက်သား ပါမပါ ရေးထားလား။
+menu board	မီနူး ဘုတ်
+meal ticket	ထမင်းလက်မှတ်
+Buy a meal ticket.	ထမင်းလက်မှတ် ဝယ်ပါ။
+You buy meal tickets at the kiosk.	ထမင်းလက်မှတ်ကို ကီယော့စ်မှာ ဝယ်ရတယ်။
+kiosk	ကီယော့စ်
+After buying a meal ticket, you line up.	ထမင်းလက်မှတ် ဝယ်ပြီးရင် တန်းစီရတယ်။
+to line up	တန်းစီသည်
+kiosk (self-order machine)	ကီယော့စ် (ကိုယ်တိုင်မှာ စက်)
+I order at the kiosk.	ကီယော့စ်မှာ မှာတယ်။
+Does the kiosk have an English menu?	ကီယော့စ်မှာ အင်္ဂလိပ် မီနူး ရှိလား။
+If the kiosk is hard to use, ask a staff member.	ကီယော့စ် သုံးရ ခက်ရင် ဝန်ထမ်းကို မေးပါ။
+1,000-won breakfast	ဝမ် ၁,၀၀၀ မနက်စာ
+I had the 1,000-won breakfast.	ဝမ် ၁,၀၀၀ မနက်စာ စားခဲ့တယ်။
+The 1,000-won breakfast is really cheap.	ဝမ် ၁,၀၀၀ မနက်စာက တကယ် ဈေးသက်သာတယ်။
+The 1,000-won breakfast runs out quickly, so go early.	ဝမ် ၁,၀၀၀ မနက်စာက မြန်မြန် ကုန်လို့ စောစော သွားပါ။
+Can I get this to go?	ပါဆယ် ယူလို့ ရလား။
+to be possible to take out	ပါဆယ် ယူလို့ ရသည်
+Please pack it to go.	ပါဆယ် ထုပ်ပေးပါ။
+to pack (to go)	ပါဆယ် ထုပ်သည်
+I had class soon, so I got it to go and ate in the lecture room.	အတန်း မကြာခင် ရှိလို့ ပါဆယ် ယူပြီး စာသင်ခန်းထဲမှာ စားခဲ့တယ်။
+halal	ဟလာလ်
+Is there a halal menu?	ဟလာလ် မီနူး ရှိလား။
+I only eat halal food.	ကျွန်ုပ် ဟလာလ် အစားအစာပဲ စားတယ်။
+You can find out about halal restaurants by asking friends.	ဟလာလ် စားသောက်ဆိုင်တွေကို သူငယ်ချင်းတွေကို မေးပြီး သိနိုင်တယ်။
+Ahmad, want to go to the student cafeteria together?	အာမတ်၊ ကျောင်းသား စားသောက်ဆောင် အတူ သွားမလား။
+Sure. What's on today's menu?	သွားမယ်။ ဒီနေ့ မီနူးက ဘာလဲ။
+Kimchi stew and pork cutlet.	ကင်မ်ချီ ဟင်းချိုနဲ့ ဝက်သား ကြော်ပါ။
+pork cutlet	ဝက်သား ကြော် (ဒွန်ကတ်စု)
+I don't eat pork. Is there another menu?	ကျွန်ုပ် ဝက်သား မစားဘူး။ တခြား မီနူး ရှိလား။
+There's also bibimbap. You can ask them to leave out the meat.	ဘီဘင်ဘပ်လည်း ရှိတယ်။ အသား မထည့်ဖို့ ပြောလို့ ရတယ်။
+to leave out	ဖယ်ထုတ်သည်
+When you feel sick at school, you can go to the health room (보건실). If it's serious, you go to a hospital. These are the words you need.	ကျောင်းမှာ နေမကောင်းဖြစ်လျှင် ကျန်းမာရေး ခန်း (보건실) သို့ သွားနိုင်ပါသည်။ ပြင်းထန်လျှင် ဆေးရုံ သွားပါ။ လိုအပ်သော စကားလုံးများ ဖြစ်ပါသည်။
+For a mild illness go to the health room; for something serious go to a hospital. If you miss class, submit a doctor's note.	အနည်းငယ် နေမကောင်းလျှင် ကျန်းမာရေး ခန်းသို့၊ ပြင်းထန်လျှင် ဆေးရုံသို့ သွားပါ။ အတန်း ပျက်လျှင် ဆရာဝန် ထောက်ခံစာ တင်ပါ။
+Say where it hurts with "-이/가 아파요": 머리가 아파요 (I have a headache), 배가 아파요 (My stomach hurts).	နာသော နေရာကို "-이/가 아파요" ဖြင့် ပြောပါ: 머리가 아파요 (ခေါင်းကိုက်တယ်)၊ 배가 아파요 (ဗိုက်နာတယ်)။
+International students in Korea must also join the national health insurance. Check details with the National Health Insurance Service or the International Office. In an emergency, call 119.	ကိုရီးယားရှိ နိုင်ငံခြား ကျောင်းသားများလည်း အမျိုးသား ကျန်းမာရေး အာမခံ ဝင်ရပါမည်။ အသေးစိတ်ကို အမျိုးသား ကျန်းမာရေး အာမခံ ဝန်ဆောင်မှု သို့မဟုတ် နိုင်ငံတကာ ရုံးတွင် စစ်ပါ။ အရေးပေါ်တွင် 119 ကို ခေါ်ပါ။
+health room, campus clinic	ကျန်းမာရေး ခန်း၊ ကျောင်းဝင်း ဆေးခန်း
+I had a headache, so I went to the health room.	ခေါင်းကိုက်လို့ ကျန်းမာရေး ခန်းကို သွားခဲ့တယ်။
+I got medicine at the health room.	ကျန်းမာရေး ခန်းမှာ ဆေး ရခဲ့တယ်။
+I checked on the school website where the health room is.	ကျန်းမာရေး ခန်း ဘယ်မှာလဲ ကျောင်း ဝက်ဘ်ဆိုက်မှာ စစ်ခဲ့တယ်။
+My throat has hurt since yesterday.	မနေ့ကတည်းက လည်ချောင်း နာနေတယ်။
+I was sick, so I couldn't go to class.	နေမကောင်းလို့ အတန်း မတက်နိုင်ခဲ့ဘူး။
+to be unable to go	မသွားနိုင်
+I have a fever.	ဖျားနေတယ်။
+to come out (fever)	(အဖျား) ထွက်သည်
+My temperature is 38 degrees.	ကိုယ်အပူချိန် ၃၈ ဒီဂရီ ရှိတယ်။
+degree	ဒီဂရီ
+If you have a high fever, go to the hospital.	အဖျား အရမ်းတက်ရင် ဆေးရုံ သွားပါ။
+Because of my cold, I've lost my voice.	အအေးမိလို့ အသံ ပျောက်သွားတယ်။
+It's easy to catch a cold when the seasons change.	ရာသီ ကူးပြောင်းချိန်မှာ အအေးမိ လွယ်တယ်။
+change of seasons	ရာသီ ကူးပြောင်းချိန်
+I need to go to the hospital.	ဆေးရုံ သွားရမယ်။
+I saw a doctor at a clinic near the school.	ကျောင်းနားက ဆေးခန်းမှာ ဆရာဝန် ပြခဲ့တယ်။
+medical care	ဆေးကုသမှု
+Bring your residence card and insurance information when you go to the hospital.	ဆေးရုံ သွားတဲ့အခါ နေထိုင်ခွင့် ကတ်နဲ့ အာမခံ အချက်အလက် ယူသွားပါ။
+I signed up for health insurance.	ကျန်းမာရေး အာမခံ ဝင်ခဲ့တယ်။
+to join, sign up	ဝင်ရောက်သည်၊ စာရင်းသွင်းသည်
+International students also need health insurance.	နိုင်ငံခြား ကျောင်းသားတွေလည်း ကျန်းမာရေး အာမခံ လိုတယ်။
+With health insurance, hospital bills are lower.	ကျန်းမာရေး အာမခံ ရှိရင် ဆေးရုံစရိတ် နည်းတယ်။
+Please give me a medical certificate.	ဆေးလက်မှတ် ထုတ်ပေးပါ။
+I was absent, so I gave the professor a doctor's note.	အတန်း ပျက်လို့ ပါမောက္ခကို ဆရာဝန် ထောက်ခံစာ ပေးခဲ့တယ်။
+Some clinics charge for a medical certificate.	ဆေးခန်းအချို့က ဆေးလက်မှတ်အတွက် ငွေ ယူတယ်။
+Excuse me, I have a headache and a fever.	တစ်ဆိတ်လောက်ပါ၊ ခေါင်းကိုက်ပြီး ဖျားနေတယ်။
+Since when have you been sick?	ဘယ်တုန်းက စပြီး နေမကောင်းတာလဲ။
+since when	ဘယ်တုန်းကစပြီး
+Since yesterday evening. I think I caught a cold.	မနေ့ ညနေကစပြီးပါ။ အအေးမိတယ် ထင်တယ်။
+I'll give you some medicine. If you still have a fever tomorrow, go to a hospital.	ဆေး ပေးမယ်။ မနက်ဖြန်လည်း ဖျားနေသေးရင် ဆေးရုံ သွားပါ။
+OK, thank you.	ဟုတ်ကဲ့၊ ကျေးဇူးတင်ပါတယ်။
+These are things the professor often says in Korean class. You will also see them in this app, so learn them first.	ကိုရီးယားစကား အတန်းတွင် ပါမောက္ခ မကြာခဏ ပြောလေ့ရှိသော စကားများ ဖြစ်ပါသည်။ ဤအက်ပ်တွင်လည်း တွေ့ရမည်ဖြစ်၍ အရင် လေ့လာပါ။
+Classroom instructions end in "-(으)세요".	အတန်းထဲ ညွှန်ကြားချက်များသည် "-(으)세요" ဖြင့် အဆုံးသတ်ပါသည်။
+"-(으)세요" is a polite way to tell someone to do something: 보세요 (look), 읽으세요 (read), 쓰세요 (write).	"-(으)세요" သည် တစ်စုံတစ်ယောက်ကို လုပ်ရန် ယဉ်ကျေးစွာ ပြောသော နည်း ဖြစ်ပါသည်: 보세요 (ကြည့်ပါ)၊ 읽으세요 (ဖတ်ပါ)၊ 쓰세요 (ရေးပါ)။
+If you don't understand, say "모르겠어요" (I don't know) or "다시 말해 주세요" (please say it again).	နားမလည်လျှင် "모르겠어요" (မသိပါ) သို့မဟုတ် "다시 말해 주세요" (ထပ်ပြောပေးပါ) ဟု ပြောပါ။
+Open your book.	စာအုပ်ကို ဖွင့်ပါ။
+from, at	... မှ၊ ... တွင်
+Write in your notebook.	မှတ်စုစာအုပ်ထဲ ရေးပါ။
+I didn't bring my notebook.	မှတ်စုစာအုပ် မယူလာခဲ့ဘူး။
+I write new words in my notebook.	စကားလုံးသစ်တွေကို မှတ်စုစာအုပ်ထဲ ရေးတယ်။
+There is homework.	အိမ်စာ ရှိတယ်။
+to have, there is	ရှိသည်
+I finished all my homework.	အိမ်စာ အကုန် လုပ်ပြီးပြီ။
+I had a lot of work for my English-taught classes, so I couldn't do my Korean homework.	အင်္ဂလိပ်လို သင်တဲ့ အတန်းတွေရဲ့ အလုပ် များလို့ ကိုရီးယား အိမ်စာ မလုပ်နိုင်ခဲ့ဘူး။
+to be unable to do	မလုပ်နိုင်
+board (blackboard, whiteboard)	ကျောက်သင်ပုန်း (ဘုတ်)
+Look at the board.	ကျောက်သင်ပုန်းကို ကြည့်ပါ။
+to look	ကြည့်သည်
+I wrote my name on the board.	ကျောက်သင်ပုန်းပေါ်မှာ နာမည် ရေးခဲ့တယ်။
+If I sit at the back, I can't see the writing on the board well.	နောက်မှာ ထိုင်ရင် ကျောက်သင်ပုန်းပေါ်က စာကို ကောင်းကောင်း မမြင်ရဘူး။
+That's a good question.	မေးခွန်း ကောင်းပါတယ်။
+If you have a question, ask.	မေးစရာ ရှိရင် မေးပါ။
+May I ask a question after class?	အတန်းပြီးရင် မေးခွန်း မေးလို့ ရမလား။
+look	ကြည့်ပါ
+Look here.	ဒီကို ကြည့်ပါ။
+board	ကျောက်သင်ပုန်း
+Look at the picture on the screen.	မျက်နှာပြင်ပေါ်က ပုံကို ကြည့်ပါ။
+picture	ပုံ
+Listen once more.	နောက်တစ်ခါ နားထောင်ပါ။
+Listen to the conversation and answer the questions.	စကားပြောကို နားထောင်ပြီး မေးခွန်းတွေကို ဖြေပါ။
+Read aloud.	အသံကျယ်ကျယ် ဖတ်ပါ။
+loudly	အသံကျယ်ကျယ်
+Read the sentence.	ဝါကျကို ဖတ်ပါ။
+First read it alone, then read it with your partner.	အရင် တစ်ယောက်တည်း ဖတ်ပြီး အတွဲဖော်နဲ့ ဖတ်ပါ။
+partner	အတွဲဖော်
+write	ရေးပါ
+Write your name.	နာမည် ရေးပါ။
+Write it in your notebook.	မှတ်စုစာအုပ်ထဲ ရေးပါ။
+Write the right word in the blank.	ကွက်လပ်ထဲ မှန်ကန်တဲ့ စကားလုံး ရေးပါ။
+blank	ကွက်လပ်
+to be right, suitable	မှန်ကန်သည်၊ သင့်တော်သည်
+repeat after me	လိုက်ပြောပါ
+Repeat after the professor.	ပါမောက္ခနောက်က လိုက်ပြောပါ။
+Listen carefully and repeat.	သေချာ နားထောင်ပြီး လိုက်ပြောပါ။
+Listen to the pronunciation carefully and repeat slowly.	အသံထွက်ကို သေချာ နားထောင်ပြီး ဖြည်းဖြည်း လိုက်ပြောပါ။
+I have a question	မေးစရာ ရှိပါတယ်
+Professor, I have a question about the homework.	ဆရာ၊ အိမ်စာအကြောင်း မေးစရာ ရှိပါတယ်။
+Oh, now I know how to do it.	အို၊ အခု ဘယ်လို လုပ်ရမလဲ သိပြီ။
+What does "빈칸" mean?	"빈칸" ဆိုတာ ဘာအဓိပ္ပာယ်လဲ။
+It's an empty box. Write a word here.	လွတ်နေတဲ့ အကွက် ပါ။ ဒီမှာ စကားလုံး ရေးပါ။
+box, space	အကွက်၊ နေရာ
+English-track students also take Korean classes. These are words used in Korean class.	အင်္ဂလိပ် သင်ရိုး ကျောင်းသားများလည်း ကိုရီးယားစကား အတန်း တက်ကြပါသည်။ ကိုရီးယားစကား အတန်းတွင် သုံးသော စကားလုံးများ ဖြစ်ပါသည်။
+The person who learns is a 학생, the person who teaches is a 교수님. English-track students also study in a Korean class.	သင်ယူသူကို 학생၊ သင်ကြားသူကို 교수님 ဟု ခေါ်ပါသည်။ အင်္ဂလိပ် သင်ရိုး ကျောင်းသားများလည်း ကိုရီးယားစကား အတန်းတွင် လေ့လာကြပါသည်။
+"한국어" and "한국말" mean the same: the Korean language.	"한국어" နှင့် "한국말" သည် အဓိပ္ပာယ် တူပါသည်: ကိုရီးယား ဘာသာစကား။
+Even in the English track, learning Korean makes campus life, part-time jobs and making friends much easier.	အင်္ဂလိပ် သင်ရိုးတွင်ပင် ကိုရီးယားစကား သင်ယူခြင်းသည် ကျောင်းဝင်း ဘဝ၊ အချိန်ပိုင်း အလုပ်နှင့် သူငယ်ချင်း ဖွဲ့ခြင်းကို များစွာ ပိုလွယ်ကူစေပါသည်။
+"교수님" is used not only for teachers but also to politely address doctors and older people you meet for the first time.	"교수님" ကို ဆရာများအတွက်သာမက ဆရာဝန်များနှင့် ပထမဆုံး တွေ့သော အသက်ကြီးသူများကို ယဉ်ကျေးစွာ ခေါ်ရာတွင်လည်း သုံးပါသည်။
+Korean class is fun.	ကိုရီးယားစကား အတန်းက ပျော်စရာ ကောင်းတယ်။
+I take my major classes in English and also learn Korean.	အဓိက ဘာသာ အတန်းတွေကို အင်္ဂလိပ်လို တက်ပြီး ကိုရီးယားစကားလည်း သင်တယ်။
+to be well (greeting)	နေကောင်းသည် (နှုတ်ဆက်စကား)
+I asked the professor a question.	ပါမောက္ခကို မေးခွန်း မေးခဲ့တယ်။
+It's nice that the Korean professor speaks slowly for us.	ကိုရီးယားစကား ပါမောက္ခက ဖြည်းဖြည်း ပြောပေးလို့ ကောင်းတယ်။
+class (group of students)	အတန်း (ကျောင်းသား အဖွဲ့)
+I'm in the beginner class.	ကျွန်ုပ်က အခြေခံ အတန်း ပါ။
+There are fifteen students in our class.	ကျွန်ုပ်တို့ အတန်းမှာ ကျောင်းသား ဆယ့်ငါးယောက် ရှိတယ်။
+In our class there are students from Nepal, Greece and the US.	ကျွန်ုပ်တို့ အတန်းမှာ နီပေါ၊ ဂရိနဲ့ အမေရိကားက ကျောင်းသားတွေ ရှိတယ်။
+Your pronunciation is good.	အသံထွက် ကောင်းတယ်။
+Pronunciation is difficult.	အသံထွက်က ခက်တယ်။
+Please correct me if my pronunciation is wrong.	အသံထွက် မှားရင် ပြင်ပေးပါ။
+to correct	ပြင်ပေးသည်
+word, vocabulary	စကားလုံး၊ ဝေါဟာရ
+I memorize words.	စကားလုံးတွေ ကျက်တယ်။
+to memorize	အလွတ်ကျက်သည်
+What does this word mean?	ဒီစကားလုံးက ဘာအဓိပ္ပာယ်လဲ။
+I memorize the words used often at school first.	ကျောင်းမှာ မကြာခဏ သုံးတဲ့ စကားလုံးတွေကို အရင် ကျက်တယ်။
+from, first	... မှ စ၍၊ အရင်
+Today we learn new grammar.	ဒီနေ့ သဒ္ဒါသစ် သင်မယ်။
+This grammar is confusing.	ဒီသဒ္ဒါက ရှုပ်ထွေးတယ်။
+to be confusing	ရှုပ်ထွေးသည်
+After learning the grammar, we try making sentences.	သဒ္ဒါ သင်ပြီးရင် ဝါကျ ဖွဲ့ကြည့်ကြမယ်။
+Go into the classroom.	စာသင်ခန်းထဲ ဝင်ပါ။
+What floor is the Korean classroom on?	ကိုရီးယားစကား စာသင်ခန်းက ဘယ်နှထပ်မှာလဲ။
+Korean class is held in a classroom in 자유관.	ကိုရီးယားစကား အတန်းကို 자유관 ရှိ စာသင်ခန်းမှာ သင်တယ်။
+Jayugwan (building name)	자유관 (အဆောက်အအုံ အမည်)
+Upload your homework to the Cyber Campus.	အိမ်စာကို Cyber Campus မှာ တင်ပါ။
+Cyber Campus (JJU online learning site)	Cyber Campus (ဂျွန်ဂျူ တက္ကသိုလ် အွန်လိုင်း သင်ယူရေး ဆိုက်)
+to upload	တင်သည် (upload)
+Where did you learn Korean?	ကိုရီးယားစကားကို ဘယ်မှာ သင်ခဲ့လဲ။
+I learned it in Greece for three months. Now I learn it at school.	ဂရိမှာ သုံးလ သင်ခဲ့တယ်။ အခု ကျောင်းမှာ သင်နေတယ်။
+How is Korean class?	ကိုရီးယားစကား အတန်း ဘယ်လိုလဲ။
+It's fun. But pronunciation is hard.	ပျော်စရာ ကောင်းတယ်။ ဒါပေမဲ့ အသံထွက်က ခက်တယ်။
+Not at all. You're good!	မဟုတ်ပါဘူး။ တော်ပါတယ်!
+These are words you meet on the test paper and instructions when you take a Korean test such as TOPIK.	TOPIK ကဲ့သို့ ကိုရီးယားစကား စာမေးပွဲ ဖြေသောအခါ မေးခွန်းစာရွက်နှင့် ညွှန်ကြားချက်များတွင် တွေ့ရသော စကားလုံးများ ဖြစ်ပါသည်။
+Use "보다" for a test, "풀다" for questions, and "고르다" for choosing answers.	စာမေးပွဲအတွက် "보다"၊ မေးခွန်းအတွက် "풀다"၊ အဖြေ ရွေးရန် "고르다" ကို သုံးပါ။
+With 시험 (test) use "보다": 시험을 보다 (to take a test). With 문제 (question) use "풀다" (to solve).	시험 (စာမေးပွဲ) နှင့် "보다" ကို သုံးပါ: 시험을 보다 (စာမေးပွဲ ဖြေသည်)။ 문제 (မေးခွန်း) နှင့် "풀다" (ဖြေရှင်းသည်) ကို သုံးပါ။
+Common test instructions: "다음을 듣고 맞는 것을 고르십시오" (Listen and choose the correct answer), "빈칸에 들어갈 말을 고르십시오" (Choose the word for the blank).	အဖြစ်များသော စာမေးပွဲ ညွှန်ကြားချက်များ: "다음을 듣고 맞는 것을 고르십시오" (နားထောင်ပြီး မှန်သော အဖြေကို ရွေးပါ)၊ "빈칸에 들어갈 말을 고르십시오" (ကွက်လပ်အတွက် စကားလုံးကို ရွေးပါ)။
+Adding "-기" turns a verb into a noun: 듣다 → 듣기 (listening), 읽다 → 읽기 (reading), 쓰다 → 쓰기 (writing).	"-기" ကို ထည့်လျှင် ကြိယာသည် နာမ် ဖြစ်သွားပါသည်: 듣다 → 듣기 (နားထောင်ခြင်း)၊ 읽다 → 읽기 (ဖတ်ခြင်း)၊ 쓰다 → 쓰기 (ရေးခြင်း)။
+The test was difficult.	စာမေးပွဲ ခက်ခဲ့တယ်။
+I'm taking the TOPIK test next month.	နောက်လ TOPIK စာမေးပွဲ ဖြေမယ်။
+to take (a test)	(စာမေးပွဲ) ဖြေသည်
+You apply for the TOPIK test online.	TOPIK စာမေးပွဲကို အွန်လိုင်းကနေ လျှောက်ရတယ်။
+application, registration	လျှောက်ထားခြင်း၊ စာရင်းသွင်းခြင်း
+question, problem (on a test)	(စာမေးပွဲ) မေးခွန်း၊ ပုစ္ဆာ
+The questions are hard.	မေးခွန်းတွေ ခက်တယ်။
+I don't know this question.	ဒီမေးခွန်းကို မသိဘူး။
+Skip the questions you don't know and look again later.	မသိတဲ့ မေးခွန်းတွေကို ကျော်ပြီး နောက်မှ ပြန်ကြည့်ပါ။
+to skip, move on	ကျော်သွားသည်
+Write the answer.	အဖြေ ရေးပါ။
+The answer is correct.	အဖြေ မှန်တယ်။
+Copy your answers onto the answer sheet.	အဖြေတွေကို အဖြေလွှာပေါ် ကူးရေးပါ။
+answer sheet	အဖြေလွှာ
+to move, copy	ရွှေ့သည်၊ ကူးသည်
+Choose only one.	တစ်ခုပဲ ရွေးပါ။
+Choose the correct one.	မှန်တာကို ရွေးပါ။
+Listen and choose the right picture.	နားထောင်ပြီး မှန်ကန်တဲ့ ပုံကို ရွေးပါ။
+listening (test section)	နားထောင်ခြင်း (စာမေးပွဲ အပိုင်း)
+The listening part is hard.	နားထောင်ခြင်း အပိုင်းက ခက်တယ်။
+The listening questions are played only once.	နားထောင်ခြင်း မေးခွန်းတွေကို တစ်ခါပဲ ဖွင့်တယ်။
+to play (sound), let hear	(အသံ) ဖွင့်ပြသည်၊ ကြားစေသည်
+For listening practice, I watch Korean dramas without subtitles.	နားထောင်ခြင်း လေ့ကျင့်ဖို့ ကိုရီးယား ဇာတ်လမ်းတွဲတွေကို စာတန်းထိုး မပါဘဲ ကြည့်တယ်။
+subtitles	စာတန်းထိုး
+reading (test section)	ဖတ်ခြင်း (စာမေးပွဲ အပိုင်း)
+Reading is easy.	ဖတ်ခြင်းက လွယ်တယ်။
+I solve the reading questions first.	ဖတ်ခြင်း မေးခွန်းတွေကို အရင် ဖြေတယ်။
+Ads and notices also come up in the reading test.	ဖတ်ခြင်း စာမေးပွဲမှာ ကြော်ငြာနဲ့ အသိပေးချက်တွေလည်း ပါတယ်။
+advertisement	ကြော်ငြာ
+I got a good score.	အမှတ် ကောင်းကောင်း ရခဲ့တယ်။
+What's your score?	အမှတ် ဘယ်လောက် ရလဲ။
+point	အမှတ်
+If your TOPIK score is high, you can get a scholarship.	TOPIK အမှတ် မြင့်ရင် ပညာသင်ဆု ရနိုင်တယ်။
+Bring your admission ticket.	ဝင်ခွင့်လက်မှတ် ယူလာပါ။
+Don't lose your admission ticket.	ဝင်ခွင့်လက်မှတ် မပျောက်ပါစေနဲ့။
+Be sure to bring your admission ticket and ID.	ဝင်ခွင့်လက်မှတ်နဲ့ မှတ်ပုံတင်ကို မဖြစ်မနေ ယူလာပါ။
+passing (a test)	(စာမေးပွဲ) အောင်ခြင်း
+I passed the test.	စာမေးပွဲ အောင်ခဲ့တယ်။
+If I pass, I'll apply for a scholarship.	အောင်ရင် ပညာသင်ဆု လျှောက်မယ်။
+Check the result on the website.	ရလဒ်ကို ဝက်ဘ်ဆိုက်မှာ စစ်ပါ။
+Did your TOPIK test go well?	TOPIK စာမေးပွဲ ကောင်းကောင်း ဖြေနိုင်ခဲ့လား။
+Listening was easy, but reading was hard.	နားထောင်ခြင်းက လွယ်ပေမဲ့ ဖတ်ခြင်းက ခက်ခဲ့တယ်။
+When do the results come out?	ရလဒ် ဘယ်တော့ ထွက်မလဲ။
+Next month.	နောက်လ ထွက်မယ်။
+I'm sure you'll pass.	သေချာပေါက် အောင်မှာပါ။
+surely	သေချာပေါက်
+Before Korean classes start, you may take a level test to decide your class. These are the words you need then.	ကိုရီးယားစကား အတန်း မစမီ သင့်အတန်းကို ဆုံးဖြတ်ရန် အဆင့်စစ် စာမေးပွဲ ဖြေရနိုင်ပါသည်။ ထိုအချိန်တွင် လိုအပ်သော စကားလုံးများ ဖြစ်ပါသည်။
+You take a level test and are placed in a class. If it doesn't fit, say so early.	အဆင့်စစ် စာမေးပွဲ ဖြေပြီး အတန်းခွဲပေးပါသည်။ မကိုက်ညီလျှင် စောစော ပြောပါ။
+Each school runs Korean classes differently. Check the level test and placement in school notices or at the International Office (국제교류원).	ကျောင်းတိုင်းသည် ကိုရီးယားစကား အတန်းများကို မတူညီစွာ ကျင်းပပါသည်။ အဆင့်စစ် စာမေးပွဲနှင့် အတန်းခွဲခြင်းကို ကျောင်း အသိပေးချက် သို့မဟုတ် နိုင်ငံတကာ ရုံး (국제교류원) တွင် စစ်ပါ။
+Levels are counted with Sino-Korean numbers: 일 단계 (level 1), 이 단계 (level 2).	အဆင့်များကို တရုတ်-ကိုရီးယား ဂဏန်းဖြင့် ရေတွက်ပါသည်: 일 단계 (အဆင့် ၁)၊ 이 단계 (အဆင့် ၂)။
+level test, placement test	အဆင့်စစ် စာမေးပွဲ
+There's a level test tomorrow.	မနက်ဖြန် အဆင့်စစ် စာမေးပွဲ ရှိတယ်။
+The level test isn't difficult.	အဆင့်စစ် စာမေးပွဲက မခက်ပါဘူး။
+Your class is decided by the level test result.	အဆင့်စစ် စာမေးပွဲ ရလဒ်အရ အတန်းကို ဆုံးဖြတ်တယ်။
+according to	... အရ၊ ... အလိုက်
+I'm a beginner.	ကျွန်ုပ်က အခြေခံ အဆင့် ပါ။
+The beginner class starts with Hangeul.	အခြေခံ အတန်းက ဟန်ဂူလ်ကနေ စတယ်။
+If you're learning Korean for the first time, you go into the beginner class.	ကိုရီးယားစကားကို ပထမဆုံး သင်တာဆိုရင် အခြေခံ အတန်းကို ဝင်ရတယ်။
+The intermediate class is a bit hard.	အလယ်အလတ် အတန်းက နည်းနည်း ခက်တယ်။
+I want to go to the intermediate class next semester.	နောက်စာသင်နှစ်ဝက်မှာ အလယ်အလတ် အတန်းကို တက်ချင်တယ်။
+In the intermediate class we also read Korean news.	အလယ်အလတ် အတန်းမှာ ကိုရီးယား သတင်းတွေလည်း ဖတ်တယ်။
+Which level are you?	ဘယ်အဆင့်လဲ။
+You go up one level at a time.	တစ်ဆင့်ချင်း တက်သွားတယ်။
+When you finish level 1, you move up to level 2.	အဆင့် ၁ ပြီးရင် အဆင့် ၂ ကို တက်တယ်။
+assignment, placement	သတ်မှတ်ပေးခြင်း၊ အတန်းခွဲခြင်း
+The class placement results are out.	အတန်းခွဲ ရလဒ် ထွက်ပြီ။
+I was placed in beginner class 2.	ကျွန်ုပ်ကို အခြေခံ အတန်း ၂ မှာ ထားတယ်။
+to be placed	(အတန်း) သတ်မှတ်ခံရသည်
+If your placement doesn't fit you, tell the professor.	အတန်းခွဲတာ မကိုက်ညီရင် ပါမောက္ခကို ပြောပါ။
+I can read all of Hangeul.	ဟန်ဂူလ် အကုန် ဖတ်နိုင်တယ်။
+I learned Hangeul before coming to Korea.	ကိုရီးယား မလာခင် ဟန်ဂူလ် သင်ခဲ့တယ်။
+to change classes	အတန်း ပြောင်းသည်
+I want to change classes.	အတန်း ပြောင်းချင်တယ်။
+It was too easy, so I changed classes.	အရမ်း လွယ်လို့ အတန်း ပြောင်းခဲ့တယ်။
+If you want to change classes, apply in the first week.	အတန်း ပြောင်းချင်ရင် ပထမ အပတ်မှာ လျှောက်ပါ။
+first week	ပထမ အပတ်
+The level test results are out. Dilnoza, you're in beginner class 2.	အဆင့်စစ် စာမေးပွဲ ရလဒ် ထွက်ပြီ။ ဒီလ်နိုဇာ၊ အခြေခံ အတန်း ၂ မှာ ပါ။
+I already know all of Hangeul. Won't it be too easy?	ကျွန်မ ဟန်ဂူလ် အကုန် သိပြီးသား။ အရမ်း လွယ်နေမှာ မဟုတ်ဘူးလား။
+Hangeul	ဟန်ဂူလ်
+Try it for the first week, and tell me if it's easy.	ပထမ အပတ် တက်ကြည့်ပြီး လွယ်ရင် ပြောပါ။
+OK. Then can I change classes?	ဟုတ်ကဲ့။ ဒါဆို အတန်း ပြောင်းလို့ ရလား။
+Yes, you can change in the first week.	ရပါတယ်၊ ပထမ အပတ်မှာ ပြောင်းလို့ ရတယ်။
+These are words for choosing and registering for courses each semester.	စာသင်နှစ်ဝက်တိုင်း ဘာသာရပ်များ ရွေးချယ်ခြင်းနှင့် စာရင်းသွင်းခြင်းဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+Plan your timetable and register before the deadline. Also check the credits you need to graduate.	အချိန်ဇယား စီစဉ်ပြီး နောက်ဆုံးရက် မတိုင်မီ စာရင်းသွင်းပါ။ ဘွဲ့ရရန် လိုအပ်သော ခရက်ဒစ်များကိုလည်း စစ်ပါ။
+Popular classes fill up in minutes. Plan your timetable in advance and register right on time.	လူကြိုက်များသော အတန်းများသည် မိနစ်ပိုင်းအတွင်း ပြည့်သွားပါသည်။ အချိန်ဇယားကို ကြိုစီစဉ်ပြီး အချိန်မှန် စာရင်းသွင်းပါ။
+Use "듣다" for taking a class: 수업을 듣다, 과목을 듣다. Graduation credits and required courses differ by department, so always check.	အတန်း တက်ခြင်းအတွက် "듣다" ကို သုံးပါ: 수업을 듣다၊ 과목을 듣다။ ဘွဲ့ရ ခရက်ဒစ်နှင့် မဖြစ်မနေ ဘာသာများသည် ဌာနအလိုက် ကွာခြားသဖြင့် အမြဲ စစ်ပါ။
+I register for courses tomorrow.	မနက်ဖြန် ဘာသာ စာရင်းသွင်းမယ်။
+Course registration is difficult.	ဘာသာ စာရင်းသွင်းတာ ခက်တယ်။
+Course registration starts online at a set time.	ဘာသာ စာရင်းသွင်းခြင်းကို သတ်မှတ်ချိန်မှာ အွန်လိုင်းကနေ စတယ်။
+to be set	သတ်မှတ်ထားသည်
+course, subject	ဘာသာရပ်
+to take (a course)	(ဘာသာ) တက်သည်
+Which course is the hardest?	ဘယ်ဘာသာက အခက်ဆုံးလဲ။
+English-track courses are taught in English.	အင်္ဂလိပ် သင်ရိုး ဘာသာတွေကို အင်္ဂလိပ်လို သင်တယ်။
+credit (unit)	ခရက်ဒစ် (ယူနစ်)
+This course is three credits.	ဒီဘာသာက ခရက်ဒစ် သုံး ပါ။
+The number of credits you can take in one semester is fixed.	စာသင်နှစ်ဝက် တစ်ခုမှာ ယူနိုင်တဲ့ ခရက်ဒစ် အရေအတွက်က သတ်မှတ်ထားတယ်။
+to be fixed	သတ်မှတ်ထားသည်
+Check the credits you need to graduate at the department office.	ဘွဲ့ရဖို့ လိုတဲ့ ခရက်ဒစ်ကို ဌာန ရုံးမှာ စစ်ပါ။
+What's your major?	အဓိက ဘာသာက ဘာလဲ။
+My major is hotel management.	ကျွန်ုပ် အဓိက ဘာသာက ဟိုတယ် စီမံခန့်ခွဲမှု ပါ။
+Major classes increase from second year.	အဓိက ဘာသာ အတန်းတွေက ဒုတိယနှစ်ကစပြီး များလာတယ်။
+general education (course)	အထွေထွေ ပညာရေး (ဘာသာ)
+I'm taking one more general education course.	အထွေထွေ ပညာရေး ဘာသာ နောက်တစ်ခု ယူနေတယ်။
+There are many students from other departments in general education classes.	အထွေထွေ ပညာရေး အတန်းတွေမှာ တခြား ဌာနက ကျောင်းသားတွေ အများကြီး ရှိတယ်။
+English-track students also take Korean classes.	အင်္ဂလိပ် သင်ရိုး ကျောင်းသားတွေလည်း ကိုရီးယားစကား အတန်း တက်တယ်။
+I made my timetable.	အချိန်ဇယား ဆွဲခဲ့တယ်။
+to put together	စီစဉ်ဖွဲ့စည်းသည်
+My Monday timetable is full.	တနင်္လာနေ့ အချိန်ဇယား ပြည့်နေတယ်။
+The timetable shows the building name and classroom number.	အချိန်ဇယားမှာ အဆောက်အအုံ အမည်နဲ့ စာသင်ခန်း နံပါတ် ပြထားတယ်။
+When is the registration deadline?	လျှောက်ထားရမည့် နောက်ဆုံးရက်က ဘယ်တော့လဲ။
+That class is already full.	အဲဒီ အတန်းက ပြည့်သွားပြီ။
+to be closed, full	ပိတ်သွားသည်၊ ပြည့်သွားသည်
+Be sure to check your registration before the deadline.	နောက်ဆုံးရက် မတိုင်ခင် စာရင်းသွင်းထားတာကို သေချာ စစ်ပါ။
+Did you register for your courses?	ဘာသာ စာရင်းသွင်းပြီးပြီလား။
+Yes, I signed up for four business administration courses and one Korean course.	ပြီးပြီ၊ စီးပွားရေး စီမံခန့်ခွဲမှု ဘာသာ လေးခုနဲ့ ကိုရီးယားစကား ဘာသာ တစ်ခု ယူခဲ့တယ်။
+How many credits in total?	စုစုပေါင်း ခရက်ဒစ် ဘယ်လောက်လဲ။
+Fifteen credits. All my major classes are taught in English.	ခရက်ဒစ် ဆယ့်ငါး ပါ။ အဓိက ဘာသာ အတန်းအားလုံးကို အင်္ဂလိပ်လို သင်တယ်။
+Nice. Show me your timetable.	ကောင်းလိုက်တာ။ အချိန်ဇယား ပြပါဦး။
+These words describe the university year and school years.	တက္ကသိုလ်၏ တစ်နှစ်တာနှင့် ကျောင်းနှစ်များကို ဖော်ပြသော စကားလုံးများ ဖြစ်ပါသည်။
+A year has two semesters, with vacations between them.	တစ်နှစ်တွင် စာသင်နှစ်ဝက် နှစ်ခု ရှိပြီး ကြားတွင် ကျောင်းပိတ်ရက်များ ရှိပါသည်။
+School years are counted with Sino-Korean numbers: 일 학년 (1st year), 이 학년 (2nd year).	ကျောင်းနှစ်များကို တရုတ်-ကိုရီးယား ဂဏန်းဖြင့် ရေတွက်ပါသည်: 일 학년 (ပထမနှစ်)၊ 이 학년 (ဒုတိယနှစ်)။
+A leave of absence can make it hard to keep your student visa (D-2). Always talk to the International Office first.	ကျောင်းခွင့် ယူလျှင် ကျောင်းသား ဗီဇာ (D-2) ကို ထိန်းထားရန် ခက်နိုင်ပါသည်။ နိုင်ငံတကာ ရုံးနှင့် အရင် အမြဲ ဆွေးနွေးပါ။
+This semester is over.	ဒီစာသင်နှစ်ဝက် ပြီးသွားပြီ။
+I'll take this course next semester.	နောက်စာသင်နှစ်ဝက်မှာ ဒီဘာသာကို ယူမယ်။
+One semester is usually 15 or 16 weeks.	စာသင်နှစ်ဝက် တစ်ခုက များသောအားဖြင့် ၁၅ ပတ် သို့မဟုတ် ၁၆ ပတ် ပါ။
+In fourth year, you prepare for graduation.	စတုတ္ထနှစ်မှာ ဘွဲ့ရဖို့ ပြင်ဆင်တယ်။
+When does summer vacation start?	နွေရာသီ ကျောင်းပိတ်ရက် ဘယ်တော့ စမလဲ။
+I'm going to Myanmar during the vacation.	ကျောင်းပိတ်ရက်မှာ မြန်မာကို သွားမယ်။
+I took a summer/winter session during the vacation.	ကျောင်းပိတ်ရက်အတွင်း နွေ/ဆောင်း အထူး အတန်း တက်ခဲ့တယ်။
+seasonal session	ရာသီအလိုက် အထူး အတန်း
+start of classes (semester)	(စာသင်နှစ်ဝက်) အတန်း စတင်ခြင်း
+Classes start next week.	နောက်အပတ် အတန်း စမယ်။
+It's the first day of classes, so I'm busy.	အတန်း စတဲ့ ပထမ နေ့မို့ အလုပ်များတယ်။
+Buy your textbooks before classes start.	အတန်း မစခင် ဖတ်စာအုပ်တွေ ဝယ်ထားပါ။
+to buy in advance	ကြိုဝယ်ထားသည်
+end of classes (semester)	(စာသင်နှစ်ဝက်) အတန်း ပြီးဆုံးခြင်း
+Tomorrow is the last day of classes.	မနက်ဖြန် နောက်ဆုံး အတန်းနေ့ ပါ။
+After classes ended, I had a meal with friends.	အတန်းတွေ ပြီးတော့ သူငယ်ချင်းတွေနဲ့ ထမင်းစားခဲ့တယ်။
+We take final exams before the end of the semester.	စာသင်နှစ်ဝက် မပြီးခင် နောက်ဆုံး စာမေးပွဲ ဖြေရတယ်။
+leave of absence	ကျောင်းခွင့် (ခေတ္တရပ်နား)
+I took a one-semester leave of absence.	စာသင်နှစ်ဝက် တစ်ခု ကျောင်းခွင့် ယူခဲ့တယ်။
+If international students take a leave of absence, visa problems can arise.	နိုင်ငံခြား ကျောင်းသားတွေ ကျောင်းခွင့် ယူရင် ဗီဇာ ပြဿနာ ဖြစ်နိုင်တယ်။
+to arise	ဖြစ်ပေါ်သည်
+Talk to the International Office before taking a leave of absence.	ကျောင်းခွင့် မယူခင် နိုင်ငံတကာ ရုံးနဲ့ ဆွေးနွေးပါ။
+What are you doing over the vacation?	ကျောင်းပိတ်ရက်မှာ ဘာလုပ်မလဲ။
+I'm going to Myanmar to see my family.	မြန်မာကို သွားပြီး မိသားစုနဲ့ တွေ့မယ်။
+Lucky you! When are you coming back?	ကံကောင်းလိုက်တာ! ဘယ်တော့ ပြန်လာမလဲ။
+A week before classes start.	အတန်း မစခင် တစ်ပတ်အလိုမှာ ပါ။
+start of classes	အတန်း စတင်ခြင်း
+These words are about coming to and missing class. Attendance is very important in English-track classes too.	အတန်း တက်ခြင်းနှင့် ပျက်ကွက်ခြင်းဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။ အင်္ဂလိပ် သင်ရိုး အတန်းများတွင်လည်း တက်ရောက်မှုသည် အလွန် အရေးကြီးပါသည်။
+Attendance matters for your grades and visa. If you're absent, explain why and submit documents.	တက်ရောက်မှုသည် အမှတ်နှင့် ဗီဇာအတွက် အရေးကြီးပါသည်။ ပျက်ကွက်လျှင် အကြောင်းရင်း ရှင်းပြပြီး စာရွက်စာတမ်း တင်ပါ။
+If you miss too many classes, you may get an F in that course. Check the rule in the syllabus.	အတန်း အလွန် ပျက်လျှင် ထိုဘာသာတွင် F ရနိုင်ပါသည်။ သင်ရိုး ညွှန်းတမ်းတွင် စည်းကမ်းကို စစ်ပါ။
+Attendance can also affect international students' visa extensions.	တက်ရောက်မှုသည် နိုင်ငံခြား ကျောင်းသားများ၏ ဗီဇာ သက်တမ်းတိုးခြင်းကိုလည်း ထိခိုက်နိုင်ပါသည်။
+The professor takes attendance.	ပါမောက္ခက တက်ရောက်မှု စာရင်း ခေါ်တယ်။
+Attendance is checked with an app.	တက်ရောက်မှုကို အက်ပ်နဲ့ စစ်တယ်။
+In this class, attendance is 20 percent of the grade.	ဒီအတန်းမှာ တက်ရောက်မှုက အမှတ်ရဲ့ ၂၀ ရာခိုင်နှုန်း ပါ။
+I was absent yesterday.	မနေ့က အတန်း ပျက်ခဲ့တယ်။
+If you have too many absences, you can't get a grade.	ပျက်ကွက်မှု အရမ်း များရင် အမှတ် မရနိုင်ဘူး။
+grade	အမှတ် (grade)
+When you're absent because of illness, submit a doctor's note.	နေမကောင်းလို့ ပျက်ကွက်တဲ့အခါ ဆရာဝန် ထောက်ခံစာ တင်ပါ။
+doctor's note	ဆရာဝန် ထောက်ခံစာ
+Being late many times can count as an absence.	နောက်ကျ အကြိမ်ကြိမ် ဝင်ရင် ပျက်ကွက်ခြင်းအဖြစ် တွက်နိုင်တယ်။
+many times	အကြိမ်ကြိမ်
+If you're late, tell the professor after class.	နောက်ကျရင် အတန်းပြီးမှ ပါမောက္ခကို ပြောပါ။
+cancelled class	အတန်း ဖျက်သိမ်းခြင်း
+There's no class today.	ဒီနေ့ အတန်း မရှိဘူး။
+The class was cancelled because the professor went to a conference.	ပါမောက္ခ ညီလာခံ သွားလို့ အတန်း ဖျက်လိုက်တယ်။
+academic conference	ပညာရပ်ဆိုင်ရာ ညီလာခံ
+Notices of cancelled classes are posted on the Cyber Campus.	အတန်း ဖျက်ကြောင်း အသိပေးချက်တွေကို Cyber Campus မှာ တင်တယ်။
+Cyber Campus	Cyber Campus
+The make-up class is on Saturday.	အစားထိုး အတန်းက စနေနေ့မှာ ပါ။
+Attendance is taken in the make-up class too.	အစားထိုး အတန်းမှာလည်း တက်ရောက်မှု စစ်တယ်။
+I heard the make-up class will be online.	အစားထိုး အတန်းကို အွန်လိုင်းမှာ လုပ်မယ်လို့ ကြားတယ်။
+excused absence	ခွင့်ပြုထားသော ပျက်ကွက်မှု
+Can I get an excused absence?	ခွင့်ပြုထားသော ပျက်ကွက်မှုအဖြစ် ရနိုင်မလား။
+I asked if going to the immigration office for visa matters counts as an excused absence.	ဗီဇာကိစ္စနဲ့ လဝက ရုံး သွားတာ ခွင့်ပြုထားသော ပျက်ကွက်မှုအဖြစ် ရမလား မေးခဲ့တယ်။
+Submit excused-absence documents within a week.	ခွင့်ပြုထားသော ပျက်ကွက်မှု စာရွက်စာတမ်းကို တစ်ပတ်အတွင်း တင်ပါ။
+Professor Lim, I was absent yesterday because I was sick.	ဆရာမ လင်မ်၊ မနေ့က နေမကောင်းလို့ အတန်း ပျက်ခဲ့ပါတယ်။
+Do you have a doctor's note?	ဆရာဝန် ထောက်ခံစာ ရှိလား။
+All right. Be sure to come to the make-up class next week.	ကောင်းပြီ။ နောက်အပတ် အစားထိုး အတန်းကို သေချာ လာပါ။
+Words for taking a break from school, coming back, and correcting grades.	ကျောင်းကို ခဏ နားခြင်း၊ ပြန်တက်ခြင်းနှင့် အမှတ် ပြင်ခြင်းဆိုင်ရာ စကားလုံးများ။
+If an international student (D-2) takes a leave of absence, it can affect their visa status. Always talk to the International Office before taking leave.	နိုင်ငံခြား ကျောင်းသား (D-2) ကျောင်းခွင့် ယူလျှင် ဗီဇာ အခြေအနေကို ထိခိုက်နိုင်ပါသည်။ ကျောင်းခွင့် မယူမီ နိုင်ငံတကာ ရုံးနှင့် အမြဲ ဆွေးနွေးပါ။
+Grades can only be corrected during the correction period. Check your grades as soon as they come out.	အမှတ်များကို ပြင်ဆင်ခွင့် ကာလတွင်သာ ပြင်နိုင်ပါသည်။ အမှတ် ထွက်လာသည်နှင့် စစ်ပါ။
+I'm planning to take one semester off.	စာသင်နှစ်ဝက် တစ်ခု ကျောင်းခွင့် ယူဖို့ စီစဉ်နေတယ်။
+What happens to my visa if I take a leave?	ကျောင်းခွင့် ယူရင် ဗီဇာ ဘာဖြစ်မလဲ။
+You apply for leave at the department office.	ကျောင်းခွင့်ကို ဌာန ရုံးမှာ လျှောက်ရတယ်။
+returning to school	ကျောင်း ပြန်တက်ခြင်း
+I'll return to school next semester.	နောက်စာသင်နှစ်ဝက်မှာ ကျောင်း ပြန်တက်မယ်။
+Check the application period for returning.	ကျောင်း ပြန်တက်ဖို့ လျှောက်ထားချိန်ကို စစ်ပါ။
+There's a senior who came back to school after military service.	စစ်မှုထမ်းပြီး ကျောင်း ပြန်တက်လာတဲ့ စီနီယာ တစ်ယောက် ရှိတယ်။
+military	စစ်တပ်
+leave of absence form	ကျောင်းခွင့် လျှောက်လွှာ
+I submitted a leave of absence form.	ကျောင်းခွင့် လျှောက်လွှာ တင်ခဲ့တယ်။
+The form needs your advisor's signature.	လျှောက်လွှာမှာ လမ်းညွှန် ပါမောက္ခရဲ့ လက်မှတ် လိုတယ်။
+academic advisor	လမ်းညွှန် ပါမောက္ခ
+You can submit the form online too.	လျှောက်လွှာကို အွန်လိုင်းကလည်း တင်လို့ ရတယ်။
+retaking a course	ဘာသာ ပြန်ယူခြင်း
+I have to retake this course.	ဒီဘာသာကို ပြန်ယူရမယ်။
+Retaking can raise your grade.	ပြန်ယူရင် အမှတ် တက်နိုင်တယ်။
+You sign up for a retake during course registration.	ပြန်ယူခြင်းကို ဘာသာ စာရင်းသွင်းချိန်မှာ လျှောက်ရတယ်။
+grade correction	အမှတ် ပြင်ဆင်ခြင်း
+When is the grade correction period?	အမှတ် ပြင်ဆင်ခွင့် ကာလက ဘယ်တော့လဲ။
+My attendance score was wrong, so I asked for a grade correction.	တက်ရောက်မှု အမှတ် မှားနေလို့ အမှတ် ပြင်ပေးဖို့ တောင်းခဲ့တယ်။
+You ask the professor for a correction by e-mail.	အမှတ် ပြင်ဆင်ခြင်းကို ပါမောက္ခဆီ အီးမေးလ်နဲ့ တောင်းရတယ်။
+student status (record)	ကျောင်းသား အခြေအနေ (မှတ်တမ်း)
+Ask the academic affairs team about student status.	ကျောင်းသား အခြေအနေ ကိစ္စကို ပညာရေးရေးရာ အဖွဲ့မှာ မေးပါ။
+If you take leave, your status changes to "on leave".	ကျောင်းခွင့် ယူရင် အခြေအနေက "ကျောင်းခွင့်" သို့ ပြောင်းတယ်။
+student on leave	ကျောင်းခွင့် ယူထားသော ကျောင်းသား
+To graduate, your student record must have no problems.	ဘွဲ့ရဖို့ ကျောင်းသား မှတ်တမ်းမှာ ပြဿနာ မရှိရဘူး။
+Professor, I'd like to take a leave next semester.	ဆရာ၊ နောက်စာသင်နှစ်ဝက်မှာ ကျောင်းခွင့် ယူချင်ပါတယ်။
+Is something wrong?	ဘာဖြစ်လို့လဲ။
+Something happened at home, so I have to go back to my country.	အိမ်မှာ ကိစ္စ ရှိလို့ ကိုယ့်နိုင်ငံ ပြန်ရမယ်။
+I see. Submit the leave form and be sure to tell the International Office too.	ဟုတ်လား။ ကျောင်းခွင့် လျှောက်လွှာ တင်ပြီး နိုင်ငံတကာ ရုံးကိုလည်း သေချာ ပြောပါ။
+What about my visa?	ဗီဇာကရော ဘယ်လို ဖြစ်မလဲ။
+Your visa can change if you take leave, so be sure to ask first.	ကျောင်းခွင့် ယူရင် ဗီဇာ ပြောင်းနိုင်လို့ အရင် သေချာ မေးပါ။
+Words for changing or dropping courses after registration, based on Jeonju University's course handbook.	ဂျွန်ဂျူ တက္ကသိုလ်၏ ဘာသာ လမ်းညွှန်စာအုပ်အပေါ် အခြေခံ၍ စာရင်းသွင်းပြီးနောက် ဘာသာ ပြောင်းခြင်း သို့မဟုတ် ဖြုတ်ခြင်းဆိုင်ရာ စကားလုံးများ။
+At Jeonju University you register and make changes on the registration site (sugang.jj.ac.kr), and you drop courses on the student portal inSTAR (instar.jj.ac.kr).	ဂျွန်ဂျူ တက္ကသိုလ်တွင် စာရင်းသွင်းခြင်းနှင့် ပြောင်းလဲခြင်းကို စာရင်းသွင်း ဆိုက် (sugang.jj.ac.kr) တွင်၊ ဘာသာ ဖြုတ်ခြင်းကို ကျောင်းသား ပေါ်တယ် inSTAR (instar.jj.ac.kr) တွင် လုပ်ပါသည်။
+International students register about a week before other students. Always check the dates in the academic calendar each semester.	နိုင်ငံခြား ကျောင်းသားများသည် အခြား ကျောင်းသားများထက် တစ်ပတ်ခန့် စော၍ စာရင်းသွင်းပါသည်။ စာသင်နှစ်ဝက်တိုင်း ပညာရေး ပြက္ခဒိန်တွင် ရက်စွဲများကို အမြဲ စစ်ပါ။
+You can drop up to 6 credits a semester. A drop can't be undone or swapped for another course.	စာသင်နှစ်ဝက် တစ်ခုလျှင် ခရက်ဒစ် ၆ အထိ ဖြုတ်နိုင်ပါသည်။ ဖြုတ်ပြီးလျှင် ပြန်ပြင်၍ သို့မဟုတ် အခြား ဘာသာနှင့် လဲ၍ မရပါ။
+course cart (saved list before registration)	ဘာသာ ခြင်း (စာရင်းသွင်းမီ သိမ်းထားသော စာရင်း)
+I put courses in my course cart.	ဘာသာ ခြင်းထဲ ဘာသာတွေ ထည့်ခဲ့တယ်။
+The course cart opens before registration.	ဘာသာ ခြင်းက စာရင်းသွင်းချိန် မတိုင်ခင် ဖွင့်တယ်။
+Even if a course is in the cart, be sure to check that you are registered.	ခြင်းထဲ ထည့်ထားရင်တောင် စာရင်းသွင်းပြီးကြောင်း သေချာ စစ်ပါ။
+add/drop (changing courses)	ဘာသာ ထည့်/ဖြုတ် (ပြောင်းလဲခြင်း)
+I changed a course during the add/drop period.	ထည့်/ဖြုတ် ကာလမှာ ဘာသာ ပြောင်းခဲ့တယ်။
+Add/drop is in the first week of the semester.	ထည့်/ဖြုတ် ကာလက စာသင်နှစ်ဝက်ရဲ့ ပထမ အပတ် ပါ။
+During add/drop you can sign up for more courses.	ထည့်/ဖြုတ် ကာလမှာ ဘာသာ ထပ်ယူလို့ ရတယ်။
+course cancellation	ဘာသာ ဖျက်သိမ်းခြင်း
+This course has been cancelled.	ဒီဘာသာ ဖျက်သိမ်းလိုက်ပြီ။
+If few students sign up, the course is cancelled.	လျှောက်တဲ့ ကျောင်းသား နည်းရင် ဘာသာကို ဖျက်သိမ်းတယ်။
+to be few	နည်းသည်
+Cancelled courses are posted in the notices on the school website.	ဖျက်သိမ်းတဲ့ ဘာသာတွေကို ကျောင်း ဝက်ဘ်ဆိုက် အသိပေးချက်မှာ တင်တယ်။
+dropping a course	ဘာသာ ဖြုတ်ခြင်း
+I dropped one course.	ဘာသာ တစ်ခု ဖြုတ်လိုက်တယ်။
+You drop a course on inSTAR.	ဘာသာကို inSTAR မှာ ဖြုတ်ရတယ်။
+inSTAR (student portal)	inSTAR (ကျောင်းသား ပေါ်တယ်)
+You can't sign up again for a course you dropped.	ဖြုတ်ထားတဲ့ ဘာသာကို ပြန် စာရင်းသွင်းလို့ မရဘူး။
+minimum credits	အနည်းဆုံး ခရက်ဒစ်
+The minimum is 12 credits.	အနည်းဆုံး ခရက်ဒစ် ၁၂ ပါ။
+You must not take fewer than the minimum credits.	အနည်းဆုံး ခရက်ဒစ်ထက် နည်းပြီး မယူရပါ။
+fewer	နည်းနည်း
+Fourth-year students have no minimum credit limit.	စတုတ္ထနှစ် ကျောင်းသားတွေမှာ အနည်းဆုံး ခရက်ဒစ် ကန့်သတ်ချက် မရှိဘူး။
+limit	ကန့်သတ်ချက်
+maximum credits	အများဆုံး ခရက်ဒစ်
+What's my maximum number of credits this semester?	ဒီစာသင်နှစ်ဝက် ကျွန်ုပ် အများဆုံး ခရက်ဒစ် ဘယ်လောက်လဲ။
+this semester	ဒီစာသင်နှစ်ဝက်
+The maximum depends on last semester's grades.	အများဆုံး ခရက်ဒစ်က ပြီးခဲ့တဲ့ စာသင်နှစ်ဝက် အမှတ်ပေါ် မူတည်တယ်။
+to differ	ကွာခြားသည်
+Check your maximum on the registration screen.	အများဆုံး ခရက်ဒစ်ကို စာရင်းသွင်း မျက်နှာပြင်မှာ စစ်ပါ။
+Minsu, a course I signed up for was cancelled.	မင်ဆူ၊ ကျွန်ုပ် လျှောက်ထားတဲ့ ဘာသာ ဖျက်သိမ်းခံရပြီ။
+to be cancelled (course)	(ဘာသာ) ဖျက်သိမ်းခံရသည်
+Don't worry. You can sign up for another course in the add/drop period.	မပူပါနဲ့။ ထည့်/ဖြုတ် ကာလမှာ တခြား ဘာသာ ယူလို့ ရတယ်။
+Where do I make changes?	ပြောင်းလဲခြင်းကို ဘယ်မှာ လုပ်ရမလဲ။
+On the registration site. Dropping is done on inSTAR.	စာရင်းသွင်း ဆိုက်မှာ ပါ။ ဖြုတ်ခြင်းကို inSTAR မှာ လုပ်တယ်။
+Can I drop it and sign up again later?	ဖြုတ်ပြီး နောက်မှ ပြန် စာရင်းသွင်းလို့ ရလား။
+No, you can't take a dropped course again. Think carefully before you drop.	မရပါဘူး၊ ဖြုတ်ထားတဲ့ ဘာသာကို ပြန်ယူလို့ မရဘူး။ မဖြုတ်ခင် သေချာ စဉ်းစားပါ။
+These are things professors often say in lectures and things students say. You hear them in Korean even around English-taught classes.	ပို့ချချက်များတွင် ပါမောက္ခများ မကြာခဏ ပြောသော စကားများနှင့် ကျောင်းသားများ ပြောသော စကားများ ဖြစ်ပါသည်။ အင်္ဂလိပ်လို သင်သော အတန်းများ ပတ်ဝန်းကျင်တွင်ပင် ကိုရီးယားလို ကြားရပါသည်။
+If you don't understand, politely ask for another explanation.	နားမလည်လျှင် ယဉ်ကျေးစွာ ထပ်ရှင်းပြပေးရန် မေးပါ။
+When asking a professor for something, use polite forms like "-아/어 주시겠어요?".	ပါမောက္ခကို တစ်ခုခု တောင်းဆိုသောအခါ "-아/어 주시겠어요?" ကဲ့သို့ ယဉ်ကျေးသော ပုံစံများ သုံးပါ။
+Always get permission before recording a lecture or taking photos.	ပို့ချချက်ကို အသံသွင်းခြင်း သို့မဟုတ် ဓာတ်ပုံ ရိုက်ခြင်း မပြုမီ ခွင့်တောင်းပါ။
+That's all for today	ဒီနေ့ ဒီလောက်ပါပဲ
+That's all for today. Good work.	ဒီနေ့ ဒီလောက်ပါပဲ။ ပင်ပန်းသွားပြီ။
+to work hard	ကြိုးစားအားထုတ်သည်
+We're out of time. That's all for today.	အချိန် ကုန်ပြီ။ ဒီနေ့ ဒီလောက်ပါပဲ။
+to be up	(အချိန်) ကုန်သည်
+If there are no questions, that's all for today.	မေးစရာ မရှိရင် ဒီနေ့ ဒီလောက်ပါပဲ။
+last class, last time	ပြီးခဲ့တဲ့ အတန်း၊ အရင်တစ်ခါ
+Where did we stop last time?	ပြီးခဲ့တဲ့ အတန်းမှာ ဘယ်မှာ ရပ်ခဲ့လဲ။
+Let's review what we learned last time.	ပြီးခဲ့တဲ့ အတန်းမှာ သင်ခဲ့တာကို ပြန်လေ့လာကြစို့။
+to review	ပြန်လေ့လာသည်
+Those who were absent last time, please take the handout.	ပြီးခဲ့တဲ့ အတန်းမှာ ပျက်ကွက်ခဲ့သူတွေ စာရွက်ကို ယူပါ။
+open to page …	စာမျက်နှာ ... ကို ဖွင့်ပါ
+Open to page thirty.	စာမျက်နှာ သုံးဆယ်ကို ဖွင့်ပါ။
+What page of the textbook should we open?	ဖတ်စာအုပ် ဘယ်စာမျက်နှာကို ဖွင့်ရမလဲ။
+Look at the picture on page fifty-two.	စာမျက်နှာ ငါးဆယ့်နှစ်က ပုံကို ကြည့်ပါ။
+Could you explain that once more?	နောက်တစ်ခါ ရှင်းပြပေးနိုင်မလား။
+Sorry, could you explain that once more?	တောင်းပန်ပါတယ်၊ နောက်တစ်ခါ ရှင်းပြပေးနိုင်မလား။
+Professor, could you explain this part once more?	ဆရာ၊ ဒီအပိုင်းကို နောက်တစ်ခါ ရှင်းပြပေးနိုင်မလား။
+It was too fast and I didn't catch it. Could you explain once more?	အရမ်း မြန်လို့ နားမလည်ခဲ့ဘူး။ နောက်တစ်ခါ ရှင်းပြပေးနိုင်မလား။
+to understand (by hearing)	(ကြား၍) နားလည်သည်
+May I record this?	အသံသွင်းလို့ ရမလား။
+Professor, may I record the lecture?	ဆရာ၊ ပို့ချချက်ကို အသံသွင်းလို့ ရမလား။
+Korean class is hard for me. May I record it?	ကိုရီးယားစကား အတန်းက ကျွန်ုပ်အတွက် ခက်တယ်။ အသံသွင်းလို့ ရမလား။
+May I record it? I want to listen when I review.	အသံသွင်းလို့ ရမလား။ ပြန်လေ့လာတဲ့အခါ နားထောင်ချင်လို့ပါ။
+Continuing from last class, open to page forty.	ပြီးခဲ့တဲ့ အတန်းက ဆက်ပြီး စာမျက်နှာ လေးဆယ်ကို ဖွင့်ပါ။
+last class	ပြီးခဲ့တဲ့ အတန်း
+Professor Ahn, sorry, could you explain that once more?	ဆရာ အန်း၊ တောင်းပန်ပါတယ်၊ နောက်တစ်ခါ ရှင်းပြပေးနိုင်မလား။
+Sure, I'll say it again slowly.	ရပါတယ်၊ ဖြည်းဖြည်း ပြန်ပြောမယ်။
+Thank you. May I record it?	ကျေးဇူးတင်ပါတယ်။ အသံသွင်းလို့ ရမလား။
+to record	အသံသွင်းသည်
+Yes, but use it only for studying.	ရပါတယ်၊ ဒါပေမဲ့ စာလေ့လာဖို့ပဲ သုံးပါ။
+Jeonju University posts course materials and assignments on the Cyber Campus (cyber.jj.ac.kr). These are words for course materials and online lectures.	ဂျွန်ဂျူ တက္ကသိုလ်သည် သင်ကြားရေး ပစ္စည်းများနှင့် အလုပ်များကို Cyber Campus (cyber.jj.ac.kr) တွင် တင်ပါသည်။ သင်ကြားရေး ပစ္စည်းနှင့် အွန်လိုင်း ပို့ချချက်ဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+Prepare the textbook and lecture materials in advance, and check the Cyber Campus often.	ဖတ်စာအုပ်နှင့် ပို့ချချက် ပစ္စည်းများကို ကြိုပြင်ဆင်ပြီး Cyber Campus ကို မကြာခဏ စစ်ပါ။
+Check the lecture materials, notices and assignment deadlines on the Cyber Campus every week. See the school guide for how to log in.	Cyber Campus တွင် ပို့ချချက် ပစ္စည်း၊ အသိပေးချက်နှင့် အလုပ် နောက်ဆုံးရက်များကို အပတ်တိုင်း စစ်ပါ။ ဝင်ရောက်ပုံကို ကျောင်း လမ်းညွှန်တွင် ကြည့်ပါ။
+If Korean class is hard, reading the materials before class makes it much easier to follow.	ကိုရီးယားစကား အတန်း ခက်လျှင် အတန်း မတိုင်မီ ပစ္စည်းများကို ဖတ်ထားခြင်းက လိုက်ရ များစွာ ပိုလွယ်စေပါသည်။
+I bought the textbook.	ဖတ်စာအုပ် ဝယ်ခဲ့တယ်။
+The textbook is in English.	ဖတ်စာအုပ်က အင်္ဂလိပ်လို ပါ။
+I got a used textbook from an older student.	စီနီယာဆီကနေ ဖတ်စာအုပ် အဟောင်း ရခဲ့တယ်။
+used	အဟောင်း (တစ်ပတ်ရစ်)
+lecture materials, slides	ပို့ချချက် ပစ္စည်း၊ စလိုက်များ
+Download the lecture materials.	ပို့ချချက် ပစ္စည်းကို ဒေါင်းလုဒ် လုပ်ပါ။
+The lecture materials have been posted.	ပို့ချချက် ပစ္စည်းတွေ တင်ထားပြီ။
+Read the lecture materials before coming to class.	အတန်း မလာခင် ပို့ချချက် ပစ္စည်းကို ဖတ်ခဲ့ပါ။
+Cyber Campus (JJU online learning system)	Cyber Campus (ဂျွန်ဂျူ တက္ကသိုလ် အွန်လိုင်း သင်ယူရေး စနစ်)
+I logged in to the Cyber Campus.	Cyber Campus ကို ဝင်ခဲ့တယ်။
+Upload your assignment to the Cyber Campus.	အလုပ်ကို Cyber Campus မှာ တင်ပါ။
+You can also access the Cyber Campus on your phone.	Cyber Campus ကို ဖုန်းကနေလည်း ဝင်လို့ ရတယ်။
+note-taking, notes	မှတ်စုထုတ်ခြင်း၊ မှတ်စု
+I took notes carefully.	မှတ်စုကို ကြိုးစားပြီး ရေးခဲ့တယ်။
+I borrowed a friend's notes.	သူငယ်ချင်းရဲ့ မှတ်စုကို ငှားခဲ့တယ်။
+Even in English classes, I take notes in whatever language is easy for me.	အင်္ဂလိပ် အတန်းမှာတောင် ကိုယ့်အတွက် လွယ်တဲ့ ဘာသာနဲ့ မှတ်စု ရေးတယ်။
+online lecture	အွန်လိုင်း ပို့ချချက်
+This course is an online lecture.	ဒီဘာသာက အွန်လိုင်း ပို့ချချက် ပါ။
+You can watch online lectures again.	အွန်လိုင်း ပို့ချချက်ကို ပြန်ကြည့်လို့ ရတယ်။
+You have to watch online lectures to the end for attendance to count.	တက်ရောက်မှု တွက်ဖို့ အွန်လိုင်း ပို့ချချက်ကို အဆုံးထိ ကြည့်ရမယ်။
+to the end	အဆုံးထိ
+I watch with subtitles on.	စာတန်းထိုး ဖွင့်ပြီး ကြည့်တယ်။
+It's nice that there are English subtitles.	အင်္ဂလိပ် စာတန်းထိုး ရှိလို့ ကောင်းတယ်။
+Without subtitles, it's hard to understand.	စာတန်းထိုး မရှိရင် နားလည်ရ ခက်တယ်။
+I downloaded the file.	ဖိုင် ဒေါင်းလုဒ် လုပ်ခဲ့တယ်။
+file	ဖိုင်
+You download the materials from the Cyber Campus.	ပစ္စည်းတွေကို Cyber Campus ကနေ ဒေါင်းလုဒ် လုပ်ရတယ်။
+The Wi-Fi is slow, so downloading takes a long time.	Wi-Fi နှေးလို့ ဒေါင်းလုဒ် အကြာကြီး ကြာတယ်။
+to be slow	နှေးသည်
+Minha, could you lend me your notes from today?	မင်ဟာ၊ ဒီနေ့ မှတ်စု ငှားပေးနိုင်မလား။
+notes	မှတ်စု
+Sure, I'll take a photo and send it.	ရတယ်၊ ဓာတ်ပုံ ရိုက်ပြီး ပို့ပေးမယ်။
+Thanks. Have the lecture materials been posted too?	ကျေးဇူးပဲ။ ပို့ချချက် ပစ္စည်းတွေလည်း တင်ပြီးပြီလား။
+lecture materials	ပို့ချချက် ပစ္စည်း
+Yes, they're on the Cyber Campus.	တင်ပြီးပြီ၊ Cyber Campus မှာ ရှိတယ်။
+These are expressions for asking questions and giving opinions in class.	အတန်းထဲတွင် မေးခွန်း မေးခြင်းနှင့် အမြင် ပေးခြင်းဆိုင်ရာ အသုံးအနှုန်းများ ဖြစ်ပါသည်။
+Start a question with "질문이 있습니다" and an opinion with "제 생각에는".	မေးခွန်းကို "질문이 있습니다" ဖြင့်၊ အမြင်ကို "제 생각에는" ဖြင့် စပါ။
+Use the formal "-습니다" style when giving opinions in class. In English-taught classes you speak English, but practise these expressions in Korean class.	အတန်းထဲ အမြင် ပေးသောအခါ ရုံးသုံး "-습니다" ပုံစံကို သုံးပါ။ အင်္ဂလိပ်လို သင်သော အတန်းများတွင် အင်္ဂလိပ်လို ပြောသော်လည်း ဤအသုံးအနှုန်းများကို ကိုရီးယားစကား အတန်းတွင် လေ့ကျင့်ပါ။
+It's fine to ask questions during class at Korean universities. Raise your hand, or ask after class.	ကိုရီးယား တက္ကသိုလ်များတွင် အတန်းချိန်အတွင်း မေးခွန်း မေးခြင်းက ကိစ္စမရှိပါ။ လက်ထောင်ပါ၊ သို့မဟုတ် အတန်းပြီးမှ မေးပါ။
+I have a question. What does this word mean?	မေးစရာ ရှိပါတယ်။ ဒီစကားလုံးက ဘာအဓိပ္ပာယ်လဲ။
+Thank you for the presentation. I have a question.	တင်ပြချက်အတွက် ကျေးဇူးတင်ပါတယ်။ မေးစရာ ရှိပါတယ်။
+in my opinion	ကျွန်ုပ်၏ အမြင်အရ
+In my opinion, this method is good.	ကျွန်ုပ် အမြင်အရ ဒီနည်းလမ်းက ကောင်းပါတယ်။
+method	နည်းလမ်း
+I think it's a little different.	နည်းနည်း ကွာခြားတယ်လို့ ထင်ပါတယ်။
+In my opinion, Greece and Korea have a lot in common in family culture.	ကျွန်ုပ် အမြင်အရ ဂရိနဲ့ ကိုရီးယားဟာ မိသားစု ယဉ်ကျေးမှုမှာ တူညီချက် များပါတယ်။
+to be similar	ဆင်တူသည်
+I agree, I think so too	ကျွန်ုပ်လည်း ဒီလိုပဲ ထင်ပါတယ်
+I think so too.	ကျွန်ုပ်လည်း ဒီလိုပဲ ထင်ပါတယ်။
+I agree with Ahmad's opinion.	အာမတ်ရဲ့ အမြင်ကို သဘောတူပါတယ်။
+opinion	အမြင်
+I agree. But to add one more thing…	သဘောတူပါတယ်။ ဒါပေမဲ့ နောက်တစ်ချက် ထပ်ပြောရရင်…
+to say (honorific)	ပြောသည် (ရိုသေ)
+for example	ဥပမာ
+For example, there is the Dashain festival in Nepal.	ဥပမာ နီပေါမှာ ဒါရှိုင်း ပွဲတော် ရှိပါတယ်။
+Please explain with an example.	ဥပမာနဲ့ ရှင်းပြပေးပါ။
+For example, regional foods like Jeonju bibimbap are famous.	ဥပမာ ဂျွန်ဂျူ ဘီဘင်ဘပ် ကဲ့သို့ ဒေသ အစားအစာတွေ နာမည်ကြီးပါတယ်။
+to be famous	နာမည်ကြီးသည်
+I'm not sure, I don't really know	သိပ် မသေချာပါဘူး၊ သိပ် မသိပါဘူး
+Sorry, I'm not sure.	တောင်းပန်ပါတယ်၊ သိပ် မသေချာပါဘူး။
+I'm not sure about that part.	အဲဒီအပိုင်းကို သိပ် မသေချာပါဘူး။
+I'm not sure. I'll look it up by next class.	သိပ် မသေချာပါဘူး။ နောက်အတန်းအထိ ရှာကြည့်ပါမယ်။
+next class	နောက်အတန်း
+to look up	ရှာကြည့်သည်
+Everyone, what do you think about this issue?	အားလုံးပဲ၊ ဒီပြဿနာအပေါ် ဘယ်လို ထင်ကြလဲ။
+issue	ပြဿနာ (ကိစ္စ)
+In my opinion, both countries think family is important.	ကျွန်ုပ် အမြင်အရ နိုင်ငံ နှစ်ခုလုံးက မိသားစုကို အရေးကြီးတယ်လို့ ထင်ကြပါတယ်။
+I agree. Holidays are an example.	သဘောတူပါတယ်။ ပွဲတော်ရက်တွေက ဥပမာ ပါ။
+Yes, in Greece too the whole family gets together at Easter.	ဟုတ်ကဲ့၊ ဂရိမှာလည်း အီစတာမှာ မိသားစု တစ်ခုလုံး စုဝေးကြပါတယ်။
+Easter	အီစတာ
+Major classes in Jeonju University's English track (Hotel Management, Business Administration) are taught in English. Still, you meet many Korean words in and around class.	ဂျွန်ဂျူ တက္ကသိုလ် အင်္ဂလိပ် သင်ရိုး (ဟိုတယ် စီမံခန့်ခွဲမှု၊ စီးပွားရေး စီမံခန့်ခွဲမှု) ၏ အဓိက ဘာသာ အတန်းများကို အင်္ဂလိပ်လို သင်ပါသည်။ သို့သော် အတန်းထဲနှင့် ပတ်ဝန်းကျင်တွင် ကိုရီးယား စကားလုံး များစွာ တွေ့ရပါသည်။
+English-track classes are in English, but learn school words like syllabus, attendance and assignment in Korean too.	အင်္ဂလိပ် သင်ရိုး အတန်းများသည် အင်္ဂလိပ်လို ဖြစ်သော်လည်း သင်ရိုး ညွှန်းတမ်း၊ တက်ရောက်မှု၊ အလုပ် ကဲ့သို့ ကျောင်း စကားလုံးများကို ကိုရီးယားလိုလည်း သင်ယူပါ။
+English-track classes have the same rules on attendance, assignments and exams as other classes. Read the syllabus in the first week.	အင်္ဂလိပ် သင်ရိုး အတန်းများတွင်လည်း တက်ရောက်မှု၊ အလုပ်နှင့် စာမေးပွဲ စည်းကမ်းများ အခြား အတန်းများနှင့် အတူတူပင်။ ပထမ အပတ်တွင် သင်ရိုး ညွှန်းတမ်းကို ဖတ်ပါ။
+Even if classes are in English, you need Korean for office notices and chatting with friends. Learn school words in Korean too.	အတန်းများ အင်္ဂလိပ်လို ဖြစ်သော်လည်း ရုံး အသိပေးချက်များနှင့် သူငယ်ချင်းများနှင့် စကားပြောရန် ကိုရီးယားစကား လိုအပ်ပါသည်။ ကျောင်း စကားလုံးများကို ကိုရီးယားလိုလည်း သင်ယူပါ။
+I'm an English-track student.	ကျွန်ုပ်က အင်္ဂလိပ် သင်ရိုး ကျောင်းသား ပါ။
+There are students from many countries in the English track.	အင်္ဂလိပ် သင်ရိုးမှာ နိုင်ငံ အမျိုးမျိုးက ကျောင်းသားတွေ ရှိတယ်။
+Because I'm in the English track, I take my major classes in English.	အင်္ဂလိပ် သင်ရိုးမှာ ဖြစ်လို့ အဓိက ဘာသာ အတန်းတွေကို အင်္ဂလိပ်လို တက်တယ်။
+English-taught lecture	အင်္ဂလိပ်လို သင်သော ပို့ချချက်
+Introduction to Hotel Management is taught in English.	ဟိုတယ် စီမံခန့်ခွဲမှု နိဒါန်းကို အင်္ဂလိပ်လို သင်တယ်။
+Introduction to Hotel Management	ဟိုတယ် စီမံခန့်ခွဲမှု နိဒါန်း
+Korean students also take English-taught lectures.	ကိုရီးယား ကျောင်းသားတွေလည်း အင်္ဂလိပ်လို သင်တဲ့ ပို့ချချက်တွေ တက်ကြတယ်။
+Korean student	ကိုရီးယား ကျောင်းသား
+Professor Todd's class is taught in English, so we ask questions in English too.	ပါမောက္ခ တော့ဒ် အတန်းကို အင်္ဂလိပ်လို သင်လို့ မေးခွန်းကိုလည်း အင်္ဂလိပ်လို မေးကြတယ်။
+syllabus	သင်ရိုး ညွှန်းတမ်း
+I read the syllabus.	သင်ရိုး ညွှန်းတမ်းကို ဖတ်ခဲ့တယ်။
+The exam dates are in the syllabus.	စာမေးပွဲ ရက်တွေက သင်ရိုး ညွှန်းတမ်းထဲမှာ ပါတယ်။
+Be sure to check the syllabus before registering.	စာရင်းမသွင်းခင် သင်ရိုး ညွှန်းတမ်းကို သေချာ စစ်ပါ။
+professor in charge (of a course)	တာဝန်ခံ ပါမောက္ခ (ဘာသာ)
+Who is the professor for this course?	ဒီဘာသာရဲ့ ပါမောက္ခက ဘယ်သူလဲ။
+The professor for the marketing class is Professor Hwang Insu of Business Administration.	မားကတ်တင်း အတန်းရဲ့ ပါမောက္ခက စီးပွားရေး စီမံခန့်ခွဲမှု ဌာနက ပါမောက္ခ ဟွမ်အင်ဆူ ပါ။
+marketing	မားကတ်တင်း
+For attendance issues, email the professor in charge.	တက်ရောက်မှု ကိစ္စအတွက် တာဝန်ခံ ပါမောက္ခဆီ အီးမေးလ် ပို့ပါ။
+class participation	အတန်းတွင်း ပါဝင်မှု
+Class participation counts toward the grade.	အတန်းတွင်း ပါဝင်မှုက အမှတ်ထဲ ပါတယ်။
+I prepared questions to participate in class.	အတန်းမှာ ပါဝင်ဖို့ မေးခွန်းတွေ ပြင်ဆင်ခဲ့တယ်။
+The participation score is ten percent.	ပါဝင်မှု အမှတ်က ဆယ် ရာခိုင်နှုန်း ပါ။
+discussion, debate	ဆွေးနွေးခြင်း၊ စကားစစ်ထိုးခြင်း
+We had a discussion in class today.	ဒီနေ့ အတန်းမှာ ဆွေးနွေးခဲ့ကြတယ်။
+What's the discussion topic?	ဆွေးနွေးမည့် ခေါင်းစဉ်က ဘာလဲ။
+In a discussion, you also need to listen well to others' opinions.	ဆွေးနွေးတဲ့အခါ တခြားသူတွေရဲ့ အမြင်ကိုလည်း ကောင်းကောင်း နားထောင်ဖို့ လိုတယ်။
+internship	အလုပ်သင်
+There is an internship.	အလုပ်သင် ရှိတယ်။
+there is	ရှိသည်
+Hotel Management students do internships at hotels.	ဟိုတယ် စီမံခန့်ခွဲမှု ကျောင်းသားတွေ ဟိုတယ်တွေမှာ အလုပ်သင် ဆင်းကြတယ်။
+To do an internship, you should also be able to speak some Korean.	အလုပ်သင် ဆင်းဖို့ ကိုရီးယားစကား နည်းနည်း ပြောတတ်ရမယ်။
+quiz	စာမေးပွဲ အတို
+There's a quiz tomorrow.	မနက်ဖြန် စာမေးပွဲ အတို ရှိတယ်။
+The quiz is ten minutes long.	စာမေးပွဲ အတိုက ဆယ်မိနစ် ကြာတယ်။
+We take the quiz on the Cyber Campus.	စာမေးပွဲ အတိုကို Cyber Campus မှာ ဖြေတယ်။
+How are your English-track classes?	အင်္ဂလိပ် သင်ရိုး အတန်းတွေ ဘယ်လိုလဲ။
+They're fun. There are lots of discussions, so I have to talk a lot.	ပျော်စရာ ကောင်းတယ်။ ဆွေးနွေးမှု များလို့ စကား အများကြီး ပြောရတယ်။
+I'm planning to take one English-taught lecture next semester too.	ကျွန်ုပ်လည်း နောက်စာသင်နှစ်ဝက်မှာ အင်္ဂလိပ်လို သင်တဲ့ ပို့ချချက် တစ်ခု ယူဖို့ စီစဉ်နေတယ်။
+Great! I recommend Professor Hwang's marketing class.	ကောင်းလိုက်တာ! ပါမောက္ခ ဟွမ်ရဲ့ မားကတ်တင်း အတန်းကို အကြံပြုပါတယ်။
+I heard Professor Capio's class is good too. I'll look at the syllabus first.	ပါမောက္ခ ကာပီယိုရဲ့ အတန်းလည်း ကောင်းတယ်လို့ ကြားတယ်။ သင်ရိုး ညွှန်းတမ်းကို အရင် ကြည့်မယ်။
+Words for what English-track students must take to graduate, based on Jeonju University's course handbook.	ဂျွန်ဂျူ တက္ကသိုလ်၏ ဘာသာ လမ်းညွှန်စာအုပ်အပေါ် အခြေခံ၍ အင်္ဂလိပ် သင်ရိုး ကျောင်းသားများ ဘွဲ့ရရန် ယူရမည့် ဘာသာများဆိုင်ရာ စကားလုံးများ။
+The English track (English, Business, Hotel Management, Tourism Management and Art Therapy) and the School of International Studies need 110 credits to graduate, and at least half of them are courses taught in English.	အင်္ဂလိပ် သင်ရိုး (အင်္ဂလိပ်၊ စီးပွားရေး၊ ဟိုတယ် စီမံခန့်ခွဲမှု၊ ခရီးသွား စီမံခန့်ခွဲမှုနှင့် အနုပညာ ကုထုံး) နှင့် နိုင်ငံတကာ လေ့လာရေး ကျောင်းသည် ဘွဲ့ရရန် ခရက်ဒစ် ၁၁၀ လိုပြီး အနည်းဆုံး တစ်ဝက်သည် အင်္ဂလိပ်လို သင်သော ဘာသာများ ဖြစ်ရပါမည်။
+Korean courses: from the 2025 intake (International Studies from 2026) 4 courses, 12 credits; earlier intakes 2 courses, 6 credits. Check the rules for your own year at your department office.	ကိုရီးယားစကား ဘာသာများ: ၂၀၂၅ ဝင်ခွင့်မှ စ၍ (နိုင်ငံတကာ လေ့လာရေးသည် ၂၀၂၆ မှ) ဘာသာ ၄ ခု၊ ခရက်ဒစ် ၁၂၊ ယခင် ဝင်ခွင့်များ ဘာသာ ၂ ခု၊ ခရက်ဒစ် ၆။ ကိုယ့်နှစ်၏ စည်းကမ်းကို ဌာန ရုံးတွင် စစ်ပါ။
+General education courses are limited to 50 credits in total, and internships to 28 credits during your studies.	အထွေထွေ ပညာရေး ဘာသာများကို စုစုပေါင်း ခရက်ဒစ် ၅၀ အထိ၊ အလုပ်သင်ကို ပညာသင်ကာလအတွင်း ခရက်ဒစ် ၂၈ အထိ ကန့်သတ်ထားပါသည်။
+credits needed to graduate	ဘွဲ့ရရန် လိုအပ်သော ခရက်ဒစ်
+You need 110 credits to graduate.	ဘွဲ့ရဖို့ ခရက်ဒစ် ၁၁၀ လိုတယ်။
+I've earned all the credits I need to graduate.	ဘွဲ့ရဖို့ လိုတဲ့ ခရက်ဒစ်တွေ အကုန် ရပြီ။
+If you're short of credits, you have to attend one more semester.	ခရက်ဒစ် မလောက်ရင် နောက်ထပ် စာသင်နှစ်ဝက် တစ်ခု တက်ရမယ်။
+to complete (a course)	(ဘာသာ) ပြီးမြောက်သည်
+I have to complete four Korean courses.	ကိုရီးယားစကား ဘာသာ လေးခု ပြီးမြောက်ရမယ်။
+four (things)	လေးခု
+I completed this course last semester.	ဒီဘာသာကို ပြီးခဲ့တဲ့ စာသင်နှစ်ဝက်မှာ ပြီးခဲ့တယ်။
+last semester	ပြီးခဲ့တဲ့ စာသင်နှစ်ဝက်
+You can graduate only after completing all required courses.	မဖြစ်မနေ ဘာသာ အားလုံး ပြီးမှ ဘွဲ့ရနိုင်တယ်။
+required	မဖြစ်မနေ
+required major course	မဖြစ်မနေ အဓိက ဘာသာ
+This is a required major course.	ဒီဘာသာက မဖြစ်မနေ အဓိက ဘာသာ ပါ။
+You must take the required major courses.	မဖြစ်မနေ အဓိက ဘာသာတွေကို ယူရမယ်။
+I choose my major electives myself.	ရွေးချယ် အဓိက ဘာသာတွေကို ကိုယ်တိုင် ရွေးတယ်။
+major elective	ရွေးချယ် အဓိက ဘာသာ
+career guidance seminar	အသက်မွေးဝမ်းကျောင်း လမ်းညွှန် ဆွေးနွေးပွဲ
+I signed up for the career guidance seminar this semester too.	ဒီစာသင်နှစ်ဝက်မှာလည်း အသက်မွေးဝမ်းကျောင်း လမ်းညွှန် ဆွေးနွေးပွဲကို စာရင်းသွင်းခဲ့တယ်။
+English-track students must take 6 credits of career guidance seminar.	အင်္ဂလိပ် သင်ရိုး ကျောင်းသားတွေ အသက်မွေးဝမ်းကျောင်း လမ်းညွှန် ဆွေးနွေးပွဲ ခရက်ဒစ် ၆ ယူရမယ်။
+I heard about getting a job in the career seminar.	အသက်မွေးဝမ်းကျောင်း ဆွေးနွေးပွဲမှာ အလုပ်ရှာခြင်းအကြောင်း ကြားခဲ့တယ်။
+talk	ဟောပြောချက်၊ စကား
+online (distance) class	အွန်လိုင်း (အဝေးသင်) အတန်း
+This course is an online class.	ဒီဘာသာက အွန်လိုင်း အတန်း ပါ။
+You can take up to 6 credits of online classes a semester.	စာသင်နှစ်ဝက် တစ်ခုမှာ အွန်လိုင်း အတန်းကို ခရက်ဒစ် ၆ အထိ ယူလို့ ရတယ်။
+For online classes too, you must watch the lectures by the set date.	အွန်လိုင်း အတန်းတွေမှာလည်း သတ်မှတ်ရက်အထိ ပို့ချချက်တွေကို ကြည့်ရမယ်။
+internship (field training)	အလုပ်သင် (လက်တွေ့ လေ့ကျင့်ခြင်း)
+I did an internship during the vacation.	ကျောင်းပိတ်ရက်မှာ အလုပ်သင် ဆင်းခဲ့တယ်။
+You can get credits for an internship too.	အလုပ်သင်အတွက်လည်း ခရက်ဒစ် ရနိုင်တယ်။
+I want to do a semester-long internship at a hotel.	ဟိုတယ်မှာ စာသင်နှစ်ဝက် တစ်ခုစာ အလုပ်သင် ဆင်းချင်တယ်။
+for (a period)	... အတွင်း (ကာလ)
+Excuse me, how many credits do I need to graduate?	တစ်ဆိတ်လောက်ပါ၊ ဘွဲ့ရဖို့ ခရက်ဒစ် ဘယ်လောက် လိုလဲ။
+department assistant	ဌာန လက်ထောက်
+For the English track it's 110 credits.	အင်္ဂလိပ် သင်ရိုးအတွက် ခရက်ဒစ် ၁၁၀ ပါ။
+Do I have to take Korean classes too?	ကိုရီးယားစကား အတန်းတွေလည်း မဖြစ်မနေ ယူရမလား။
+Yes, you must complete four Korean courses. You also need 6 credits of career guidance seminar.	ဟုတ်ကဲ့၊ ကိုရီးယားစကား ဘာသာ လေးခု ပြီးမြောက်ရမယ်။ အသက်မွေးဝမ်းကျောင်း လမ်းညွှန် ဆွေးနွေးပွဲ ခရက်ဒစ် ၆ လည်း လိုတယ်။
+Do online classes count toward graduation credits?	အွန်လိုင်း အတန်းတွေကလည်း ဘွဲ့ရ ခရက်ဒစ်ထဲ ပါလား။
+online class	အွန်လိုင်း အတန်း
+to go into	ထဲ ဝင်သည်
+Yes, but you can take only up to 6 credits a semester.	ပါတယ်၊ ဒါပေမဲ့ စာသင်နှစ်ဝက် တစ်ခုမှာ ခရက်ဒစ် ၆ အထိပဲ ယူလို့ ရတယ်။
+only up to	... အထိသာ
+These words are about writing assignments (reports) and submitting them on the Cyber Campus.	အလုပ် (အစီရင်ခံစာ) ရေးခြင်းနှင့် Cyber Campus တွင် တင်ခြင်းဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+Submit assignments before the due date, list your references, and don't plagiarize.	အလုပ်ကို နောက်ဆုံးရက် မတိုင်မီ တင်ပြီး ကိုးကားချက်များ ဖော်ပြပါ၊ ခိုးချ မရေးပါနှင့်။
+When you use someone else's words, put them in quotation marks and say where they came from. Otherwise it's plagiarism.	သူတစ်ပါး၏ စကားကို သုံးသောအခါ မျက်တောင်အဖွင့်အပိတ်ထဲ ထည့်ပြီး ဘယ်က လာသလဲ ဖော်ပြပါ။ မဟုတ်လျှင် ခိုးချခြင်း ဖြစ်ပါသည်။
+Whether you may use AI or translation tools differs by course. Check the syllabus and the professor's instructions.	AI သို့မဟုတ် ဘာသာပြန် ကိရိယာများ သုံးခွင့် ရှိမရှိသည် ဘာသာအလိုက် ကွာခြားပါသည်။ သင်ရိုး ညွှန်းတမ်းနှင့် ပါမောက္ခ၏ ညွှန်ကြားချက်ကို စစ်ပါ။
+There are a lot of assignments.	အလုပ် အများကြီး ရှိတယ်။
+I finished the assignment.	အလုပ် ပြီးပြီ။
+This week's assignment is an essay about Korean culture.	ဒီအပတ် အလုပ်က ကိုရီးယား ယဉ်ကျေးမှုအကြောင်း စာစီစာကုံး ပါ။
+essay	စာစီစာကုံး
+report, paper	အစီရင်ခံစာ၊ စာတမ်း
+I have to write a report.	အစီရင်ခံစာ ရေးရမယ်။
+The report is five pages.	အစီရင်ခံစာက စာမျက်နှာ ငါးမျက်နှာ ပါ။
+You may write the report in English.	အစီရင်ခံစာကို အင်္ဂလိပ်လို ရေးလို့ ရတယ်။
+I submitted the assignment.	အလုပ်ကို တင်ပြီးပြီ။
+When is the submission deadline?	တင်ရမည့် နောက်ဆုံးရက်က ဘယ်တော့လဲ။
+deadline, time limit	နောက်ဆုံးရက်၊ အချိန်ကန့်သတ်
+Submit your assignment on the Cyber Campus.	အလုပ်ကို Cyber Campus မှာ တင်ပါ။
+due date	နောက်ဆုံးရက်
+The due date is tomorrow.	နောက်ဆုံးရက်က မနက်ဖြန် ပါ။
+Keep to the due date.	နောက်ဆုံးရက်ကို လိုက်နာပါ။
+to keep, follow	လိုက်နာသည်၊ စောင့်ထိန်းသည်
+Points are taken off after the due date.	နောက်ဆုံးရက် ကျော်ရင် အမှတ် နုတ်တယ်။
+to be cut	နုတ်ခံရသည်
+references, bibliography	ကိုးကားချက်များ
+Be sure to include references.	ကိုးကားချက်များကို သေချာ ထည့်ပါ။
+References go at the very end.	ကိုးကားချက်များက အဆုံးဆုံးမှာ ထားတယ်။
+very end	အဆုံးဆုံး
+Internet sources must also be in the references.	အင်တာနက် အရင်းအမြစ်တွေလည်း ကိုးကားချက်ထဲ ထည့်ရမယ်။
+plagiarism	ခိုးချခြင်း
+You must not plagiarize.	ခိုးချ မရေးရပါ။
+to plagiarize	ခိုးချသည်
+Plagiarism is a serious problem.	ခိုးချခြင်းက ပြဿနာ ကြီးပါတယ်။
+Submitting text written by AI as it is can also be a problem.	AI ရေးတဲ့ စာကို ဒီအတိုင်း တင်တာလည်း ပြဿနာ ဖြစ်နိုင်တယ်။
+AI	AI (ဉာဏ်ရည်တု)
+Professor Shim, when is the report due?	ဆရာ ရှင်မ်၊ အစီရင်ခံစာ ဘယ်တော့ တင်ရမလဲ။
+Submit it on the Cyber Campus by next Friday.	နောက်အပတ် သောကြာနေ့အထိ Cyber Campus မှာ တင်ပါ။
+Do we need to include references?	ကိုးကားချက်များလည်း ထည့်ရမလား။
+references	ကိုးကားချက်များ
+Yes, definitely. I also check for plagiarism.	ဟုတ်ကဲ့၊ သေချာ ထည့်ပါ။ ခိုးချခြင်းကိုလည်း စစ်မယ်။
+check	စစ်ဆေးခြင်း
+These are words for group assignments (team projects) where several students work together.	ကျောင်းသား အများအပြား အတူ လုပ်ရသော အဖွဲ့ အလုပ် (အဖွဲ့ ပရောဂျက်) ဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+In group projects, divide the roles, match schedules and keep in touch.	အဖွဲ့ ပရောဂျက်တွင် တာဝန်များ ခွဲဝေပြီး အချိန်ဇယား ညှိကာ အဆက်အသွယ် ထားပါ။
+"단톡방" is short for "단체 카톡방", a group chat on KakaoTalk, the messenger app widely used in Korea.	"단톡방" သည် ကိုရီးယားတွင် ကျယ်ကျယ်ပြန့်ပြန့် သုံးသော မက်ဆေ့ချ် အက်ပ် KakaoTalk ရှိ အဖွဲ့ ချတ် "단체 카톡방" ၏ အတိုပုံစံ ဖြစ်ပါသည်။
+If you don't reply during a group project, it's hard for the others. If you can't do something, say so early.	အဖွဲ့ ပရောဂျက်အတွင်း မပြန်ကြားလျှင် အခြားသူများအတွက် ခက်ခဲပါသည်။ မလုပ်နိုင်လျှင် စောစော ပြောပါ။
+group, team	အဖွဲ့
+Our group has four people.	ကျွန်ုပ်တို့ အဖွဲ့မှာ လူ လေးယောက် ရှိတယ်။
+I ended up in the same group as Minha.	မင်ဟာနဲ့ အဖွဲ့တူ ဖြစ်သွားတယ်။
+The professor made the groups for us.	ပါမောက္ခက အဖွဲ့တွေ ဖွဲ့ပေးတယ်။
+to organize	စီစဉ်ဖွဲ့စည်းသည်
+group leader	အဖွဲ့ခေါင်းဆောင်
+Aisha is the group leader.	အိုင်ရှာက အဖွဲ့ခေါင်းဆောင် ပါ။
+(polite title)	(ယဉ်ကျေးစွာ ခေါ်ဝေါ်ချက်)
+The group leader divided the roles.	အဖွဲ့ခေါင်းဆောင်က တာဝန်တွေ ခွဲပေးခဲ့တယ်။
+role	တာဝန်၊ အခန်းကဏ္ဍ
+Please send the materials to the group leader.	ပစ္စည်းတွေကို အဖွဲ့ခေါင်းဆောင်ဆီ ပို့ပေးပါ။
+role, part	တာဝန်၊ အပိုင်း
+Let's divide the roles.	တာဝန်တွေ ခွဲကြစို့။
+My role is finding materials.	ကျွန်ုပ် တာဝန်က အချက်အလက် ရှာခြင်း ပါ။
+Everyone has to do their part to the end.	လူတိုင်း ကိုယ့်အပိုင်းကို အဆုံးထိ လုပ်ရမယ်။
+We have a group meeting.	အဖွဲ့ အစည်းအဝေး လုပ်မယ်။
+We have the meeting in an empty classroom.	အစည်းအဝေးကို လွတ်နေတဲ့ စာသင်ခန်းမှာ လုပ်တယ်။
+We're meeting online this evening.	ဒီညနေ အွန်လိုင်းမှာ တွေ့ကြမယ်။
+I made a group chat for our team.	အဖွဲ့အတွက် ချတ် အဖွဲ့ ဖွဲ့ခဲ့တယ်။
+I posted the materials in the group chat.	အဖွဲ့ ချတ်ထဲ ပစ္စည်းတွေ တင်ခဲ့တယ်။
+to post	တင်သည် (post)
+Please reply quickly to messages in the group chat.	အဖွဲ့ ချတ်က မက်ဆေ့ချ်တွေကို မြန်မြန် ပြန်ပါ။
+to reply	ပြန်ကြားသည်
+Let's match our schedules.	အချိန်ဇယား ညှိကြစို့။
+to match	ညှိသည်
+How is your schedule next week?	နောက်အပတ် အချိန်ဇယား ဘယ်လိုလဲ။
+Because of my part-time job schedule, I'm only free in the evening.	အချိန်ပိုင်း အလုပ် အချိန်ဇယားကြောင့် ညနေပဲ အားတယ်။
+Let's divide the roles at today's group meeting.	ဒီနေ့ အဖွဲ့ အစည်းအဝေးမှာ တာဝန်တွေ ခွဲကြစို့။
+I'll find the materials.	ကျွန်ုပ် အချက်အလက်တွေ ရှာမယ်။
+I'll make the presentation slides.	ကျွန်ုပ် တင်ပြမည့် စလိုက်တွေ လုပ်မယ်။
+presentation slides	တင်ပြမည့် စလိုက်များ
+Great. Please post them in the group chat by Friday.	ကောင်းတယ်။ သောကြာနေ့အထိ အဖွဲ့ ချတ်ထဲ တင်ပေးပါ။
+These are expressions for the beginning, middle and end of a presentation, for when you present in Korean in Korean class.	ကိုရီးယားစကား အတန်းတွင် ကိုရီးယားလို တင်ပြသောအခါ တင်ပြချက်၏ အစ၊ အလယ်နှင့် အဆုံးအတွက် အသုံးအနှုန်းများ ဖြစ်ပါသည်။
+Presentations are much easier if you start and finish with set expressions.	တင်ပြချက်ကို သတ်မှတ်ထားသော အသုံးအနှုန်းများဖြင့် စပြီး အဆုံးသတ်လျှင် များစွာ ပိုလွယ်ပါသည်။
+Give presentations in the formal "-습니다" style, in the order: opening, topic, content, closing.	တင်ပြချက်ကို ရုံးသုံး "-습니다" ပုံစံဖြင့် အဖွင့်၊ ခေါင်းစဉ်၊ အကြောင်းအရာ၊ အပိတ် အစီအစဉ်အတိုင်း ပြောပါ။
+Keep the text on your slides (PPT) short, and practise what you'll say separately.	စလိုက် (PPT) ပေါ်ရှိ စာကို တိုတိုထားပြီး ပြောမည့်အရာကို သီးခြား လေ့ကျင့်ပါ။
+I will now begin my presentation	ယခု တင်ပြချက်ကို စတင်ပါမည်
+Hello. I will now begin my presentation.	မင်္ဂလာပါ။ ယခု တင်ပြချက်ကို စတင်ပါမည်။
+We're Group 3. We will now begin our presentation.	ကျွန်ုပ်တို့က အဖွဲ့ ၃ ပါ။ ယခု တင်ပြချက်ကို စတင်ပါမည်။
+It's time, so I will now begin the presentation.	အချိန် ရောက်ပြီမို့ ယခု တင်ပြချက်ကို စတင်ပါမည်။
+the topic of today's presentation is	ဒီနေ့ တင်ပြမည့် ခေါင်းစဉ်မှာ
+The topic of today's presentation is food in Singapore.	ဒီနေ့ တင်ပြမည့် ခေါင်းစဉ်မှာ စင်ကာပူ အစားအစာ ဖြစ်ပါသည်။
+Today's topic is holidays in Korea and Uzbekistan.	ဒီနေ့ ခေါင်းစဉ်မှာ ကိုရီးယားနှင့် ဥဇဘက်ကစ္စတန်ရှိ ပွဲတော်ရက်များ ဖြစ်ပါသည်။
+Today's topic is tourism in Jeonju Hanok Village.	ဒီနေ့ ခေါင်းစဉ်မှာ ဂျွန်ဂျူ ဟန်အုတ် ရွာ၏ ခရီးသွားလုပ်ငန်း ဖြစ်ပါသည်။
+tourism	ခရီးသွားလုပ်ငန်း
+please look at the screen	မျက်နှာပြင်ကို ကြည့်ပေးပါ
+Please look at this screen.	ဒီမျက်နှာပြင်ကို ကြည့်ပေးပါ။
+Please look at the next slide.	နောက် စလိုက်ကို ကြည့်ပေးပါ။
+Please look at this table. The numbers have gone up a lot.	ဒီဇယားကို ကြည့်ပေးပါ။ ကိန်းဂဏန်းတွေ အများကြီး တက်လာတယ်။
+this concludes my presentation	ဤဖြင့် တင်ပြချက်ကို အဆုံးသတ်ပါမည်
+This concludes my presentation. Thank you.	ဤဖြင့် တင်ပြချက်ကို အဆုံးသတ်ပါမည်။ ကျေးဇူးတင်ပါသည်။
+Time is up, so I will end my presentation here.	အချိန် ကုန်သွားသဖြင့် တင်ပြချက်ကို ဤနေရာတွင် အဆုံးသတ်ပါမည်။
+This concludes Group 3's presentation.	ဤဖြင့် အဖွဲ့ ၃ ၏ တင်ပြချက်ကို အဆုံးသတ်ပါမည်။
+if you have any questions, please ask	မေးစရာ ရှိပါက မေးပါ
+If you have any questions, please ask.	မေးစရာ ရှိပါက မေးပါ။
+The presentation is over. If you have questions, please ask.	တင်ပြချက် ပြီးပါပြီ။ မေးစရာ ရှိပါက မေးပါ။
+If you're curious about anything or have questions, please ask.	သိချင်တာ သို့မဟုတ် မေးစရာ ရှိပါက မေးပါ။
+to be curious	သိချင်သည်
+I will now begin my presentation. Today's topic is Thanksgiving in the US.	ယခု တင်ပြချက်ကို စတင်ပါမည်။ ဒီနေ့ ခေါင်းစဉ်မှာ အမေရိကန်ရှိ ကျေးဇူးတော်နေ့ ဖြစ်ပါသည်။
+Thanksgiving	ကျေးဇူးတော်နေ့ (Thanksgiving)
+Please look at this screen. Families gather and eat turkey.	ဒီမျက်နှာပြင်ကို ကြည့်ပေးပါ။ မိသားစုတွေ စုဝေးပြီး ကြက်ဆင် စားကြပါတယ်။
+turkey	ကြက်ဆင်
+This concludes my presentation. If you have questions, please ask.	ဤဖြင့် တင်ပြချက်ကို အဆုံးသတ်ပါမည်။ မေးစရာ ရှိပါက မေးပါ။
+It seems similar to Chuseok in Korea. When is it?	ကိုရီးယားက ချူဆော့နဲ့ ဆင်တူပုံ ရတယ်။ ဘယ်တော့လဲ။
+Chuseok	ချူဆော့
+It's the fourth Thursday of November.	နိုဝင်ဘာလ စတုတ္ထ ကြာသပတေးနေ့ ပါ။
+fourth	စတုတ္ထ
+These are words for university exams and the exam period.	တက္ကသိုလ် စာမေးပွဲများနှင့် စာမေးပွဲ ကာလဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+Check the exam coverage and prepare in advance. Never cheat.	စာမေးပွဲ အပိုင်းအခြားကို စစ်ပြီး ကြိုပြင်ဆင်ပါ။ ဘယ်တော့မှ မလိမ်ညာပါနှင့်။
+During exam period the library reading rooms are very crowded. Find a seat early.	စာမေးပွဲ ကာလတွင် စာကြည့်တိုက် စာဖတ်ခန်းများ အလွန် လူကြပ်ပါသည်။ စောစော နေရာ ရှာပါ။
+Cheating during an exam can mean an F in the course and disciplinary action.	စာမေးပွဲအတွင်း လိမ်ညာခြင်းသည် ထိုဘာသာတွင် F နှင့် စည်းကမ်း အရေးယူခံရခြင်းကို ဖြစ်စေနိုင်ပါသည်။
+Midterms are next week.	နောက်အပတ်က နှစ်ဝက် စာမေးပွဲ ပါ။
+My midterm went well.	နှစ်ဝက် စာမေးပွဲ ကောင်းကောင်း ဖြေနိုင်ခဲ့တယ်။
+Midterms are usually in week eight.	နှစ်ဝက် စာမေးပွဲက များသောအားဖြင့် ရှစ်ပတ်မြောက်မှာ ပါ။
+week (number)	(နံပါတ်) ပတ်မြောက်
+Finals are over.	နောက်ဆုံး စာမေးပွဲ ပြီးပြီ။
+The final exam covers a lot.	နောက်ဆုံး စာမေးပွဲ အပိုင်းအခြား များတယ်။
+range	အပိုင်းအခြား
+When finals are over, it's vacation.	နောက်ဆုံး စာမေးပွဲ ပြီးရင် ကျောင်းပိတ်ရက် ပါ။
+exam coverage (what's on the exam)	စာမေးပွဲ အပိုင်းအခြား (စာမေးပွဲတွင် ပါမည့် အရာ)
+How far does the exam cover?	စာမေးပွဲ အပိုင်းအခြား ဘယ်အထိလဲ။
+up to where	ဘယ်အထိ
+The exam covers chapters one to seven.	စာမေးပွဲက အခန်း ၁ ကနေ ၇ အထိ ပါ။
+chapter	အခန်း (chapter)
+The professor posted the exam coverage on the Cyber Campus.	ပါမောက္ခက စာမေးပွဲ အပိုင်းအခြားကို Cyber Campus မှာ တင်ခဲ့တယ်။
+essay-type (question)	အရေးအသား ပုံစံ (မေးခွန်း)
+Essay questions are hard.	အရေးအသား မေးခွန်းတွေ ခက်တယ်။
+It's an English-taught lecture, so we write essay answers in English.	အင်္ဂလိပ်လို သင်တဲ့ ပို့ချချက် ဖြစ်လို့ အရေးအသား အဖြေကို အင်္ဂလိပ်လို ရေးတယ်။
+This exam has only essay questions, no multiple choice.	ဒီစာမေးပွဲမှာ အရေးအသား မေးခွန်းတွေပဲ ပါပြီး အဖြေရွေး မပါဘူး။
+multiple choice	အဖြေရွေး
+The multiple-choice part was easy.	အဖြေရွေး အပိုင်းက လွယ်ခဲ့တယ်။
+There are twenty multiple-choice questions.	အဖြေရွေး မေးခွန်း နှစ်ဆယ် ရှိတယ်။
+(counter for items)	(ပစ္စည်း ရေတွက်ပုဒ်)
+For multiple choice, you choose one of four.	အဖြေရွေးမှာ လေးခုထဲက တစ်ခု ရွေးရတယ်။
+among	... ထဲမှ
+cramming	နောက်ဆုံးမိနစ် အလုအယက် ကျက်ခြင်း
+I crammed yesterday.	မနေ့က အလုအယက် ကျက်ခဲ့တယ်။
+Cramming isn't very effective.	အလုအယက် ကျက်တာက သိပ် ထိရောက်မှု မရှိဘူး။
+effect	ထိရောက်မှု
+to be little	နည်းသည်
+Instead of cramming, study a little every day.	အလုအယက် မကျက်ဘဲ နေ့တိုင်း နည်းနည်းစီ လေ့လာပါ။
+cheating	လိမ်ညာ ကူးချခြင်း
+You must not cheat.	လိမ်ညာ ကူးချ မလုပ်ရပါ။
+Looking at your phone during the exam is cheating.	စာမေးပွဲအတွင်း ဖုန်း ကြည့်တာက လိမ်ညာခြင်း ဖြစ်တယ်။
+If you cheat, you can get an F in that course.	လိမ်ညာရင် အဲဒီဘာသာမှာ F ရနိုင်တယ်။
+How's your final exam prep going?	နောက်ဆုံး စာမေးပွဲ ပြင်ဆင်မှု ဘယ်လိုလဲ။
+I'm worried about the Korean exam. There are essay questions.	ကိုရီးယားစကား စာမေးပွဲအတွက် စိုးရိမ်တယ်။ အရေးအသား မေးခွန်းတွေ ပါတယ်။
+essay-type	အရေးအသား ပုံစံ
+Try memorizing the important words in the exam coverage first.	စာမေးပွဲ အပိုင်းအခြားထဲက အရေးကြီး စကားလုံးတွေကို အရင် ကျက်ကြည့်ပါ။
+exam coverage	စာမေးပွဲ အပိုင်းအခြား
+Good idea. Want to study together at the library tomorrow?	ကောင်းတဲ့ အကြံပဲ။ မနက်ဖြန် စာကြည့်တိုက်မှာ အတူ စာကျက်မလား။
+OK. Let's go early in the morning.	ရပါတယ်။ မနက် စောစော သွားကြစို့။
+These are words for getting and checking your grades.	အမှတ်များ ရယူခြင်းနှင့် စစ်ဆေးခြင်းဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+Check grades on the portal, and if something looks wrong, appeal within the period.	အမှတ်ကို ပေါ်တယ်တွင် စစ်ပြီး တစ်ခုခု မှားပုံရလျှင် သတ်မှတ်ကာလအတွင်း ကန့်ကွက်ပါ။
+Grades usually come as A, B, C, D and F. An F means you don't get the credits.	အမှတ်များကို များသောအားဖြင့် A၊ B၊ C၊ D၊ F ဖြင့် ပေးပါသည်။ F ဆိုလျှင် ခရက်ဒစ် မရပါ။
+If an international student's GPA is too low, it can cause problems with visa extensions or scholarships.	နိုင်ငံခြား ကျောင်းသား၏ GPA အလွန် နိမ့်လျှင် ဗီဇာ သက်တမ်းတိုးခြင်း သို့မဟုတ် ပညာသင်ဆုတွင် ပြဿနာ ဖြစ်နိုင်ပါသည်။
+grade(s)	အမှတ်များ
+The grades are out.	အမှတ် ထွက်ပြီ။
+My grades went up.	အမှတ် တက်လာတယ်။
+You check your grades on the school portal.	အမှတ်ကို ကျောင်း ပေါ်တယ်မှာ စစ်ရတယ်။
+portal	ပေါ်တယ်
+My GPA is 3.5.	ကျွန်ုပ် GPA က ၃.၅ ပါ။
+You need a high GPA to get a scholarship.	ပညာသင်ဆု ရဖို့ GPA မြင့်ဖို့ လိုတယ်။
+This semester's GPA is better than last semester's.	ဒီစာသင်နှစ်ဝက် GPA က ပြီးခဲ့တဲ့ စာသင်နှစ်ဝက်ထက် ပိုကောင်းတယ်။
+If you get an F, you can retake the course.	F ရရင် အဲဒီဘာသာကို ပြန်ယူလို့ ရတယ်။
+If you retake it, you get a new grade.	ပြန်ယူရင် အမှတ်အသစ် ရတယ်။
+grade appeal	အမှတ် ကန့်ကွက်ခြင်း
+I appealed my grade.	ကျွန်ုပ် အမှတ်ကို ကန့်ကွက်ခဲ့တယ်။
+The appeal period is short.	ကန့်ကွက်ခွင့် ကာလက တိုတယ်။
+If your score looks wrong, try appealing within the period.	အမှတ် ထူးဆန်းနေရင် သတ်မှတ်ကာလအတွင်း ကန့်ကွက်ကြည့်ပါ။
+to be strange	ထူးဆန်းသည်
+I got my transcript.	အမှတ်စာရင်း လက်မှတ် ထုတ်ခဲ့တယ်။
+A transcript is needed for the scholarship application.	ပညာသင်ဆု လျှောက်ဖို့ အမှတ်စာရင်း လိုတယ်။
+You can also get an English transcript.	အင်္ဂလိပ် အမှတ်စာရင်းလည်း ထုတ်လို့ ရတယ်။
+English (written)	အင်္ဂလိပ် (စာ)
+failing (a course)	(ဘာသာ) ကျခြင်း
+I failed this course.	ဒီဘာသာမှာ ကျခဲ့တယ်။
+If you're absent a lot, you can fail.	ပျက်ကွက်မှု များရင် ကျနိုင်တယ်။
+I study hard so I won't fail.	မကျအောင် ကြိုးစားပြီး စာကျက်တယ်။
+Are the grades out?	အမှတ် ထွက်ပြီလား။
+Yes, my GPA is 3.8.	ထွက်ပြီ၊ ကျွန်ုပ် GPA က ၃.၈ ပါ။
+Wow, congratulations! One of my course scores looks strange.	ဝိုး၊ ဂုဏ်ယူပါတယ်! ကျွန်ုပ် ဘာသာ တစ်ခုရဲ့ အမှတ်က ထူးဆန်းနေတယ်။
+Then try appealing to the professor in charge.	ဒါဆို တာဝန်ခံ ပါမောက္ခဆီ ကန့်ကွက်ကြည့်ပါ။
+OK. The period is short, so I'll do it today.	ဟုတ်ကဲ့၊ ကာလ တိုလို့ ဒီနေ့ပဲ လုပ်မယ်။
+Words for the school's rules on attendance, exams and grades, based on Jeonju University's course handbook.	ဂျွန်ဂျူ တက္ကသိုလ်၏ ဘာသာ လမ်းညွှန်စာအုပ်အပေါ် အခြေခံ၍ တက်ရောက်မှု၊ စာမေးပွဲနှင့် အမှတ်ဆိုင်ရာ ကျောင်း စည်းကမ်းများ၏ စကားလုံးများ။
+At Jeonju University, missing more than a third of a course's class time means an F, and you must attend at least two thirds to take the exams.	ဂျွန်ဂျူ တက္ကသိုလ်တွင် ဘာသာတစ်ခု၏ အတန်းချိန် သုံးပုံတစ်ပုံထက် ပိုပျက်လျှင် F ဖြစ်ပြီး စာမေးပွဲ ဖြေရန် အနည်းဆုံး သုံးပုံနှစ်ပုံ တက်ရပါမည်။
+Grades go from A+ (4.5) to F (0). A course graded C+ (79) or lower can be retaken up to twice, and the retake grade can be at most A (94).	အမှတ်များသည် A+ (4.5) မှ F (0) အထိ ဖြစ်ပါသည်။ C+ (79) နှင့်အောက် ရသော ဘာသာကို နှစ်ကြိမ်အထိ ပြန်ယူနိုင်ပြီး ပြန်ယူ အမှတ်သည် အများဆုံး A (94) ဖြစ်ပါသည်။
+If a grade looks wrong, appeal on inSTAR within 7 days after grades come out. A make-up exam can give at most B+.	အမှတ် ထူးဆန်းလျှင် အမှတ်ထွက်ပြီး ၇ ရက်အတွင်း inSTAR တွင် ကန့်ကွက်ပါ။ အစားထိုး စာမေးပွဲသည် အများဆုံး B+ ပေးနိုင်ပါသည်။
+academic warning (probation)	ပညာရေး သတိပေးချက် (probation)
+I got an academic warning.	ပညာရေး သတိပေးချက် ရခဲ့တယ်။
+If your GPA is below 1.5, you get an academic warning.	GPA ၁.၅ အောက်ဆိုရင် ပညာရေး သတိပေးချက် ရတယ်။
+With an academic warning, you can take only up to 15 credits next semester.	ပညာရေး သတိပေးချက် ရရင် နောက်စာသင်နှစ်ဝက်မှာ ခရက်ဒစ် ၁၅ အထိပဲ ယူလို့ ရတယ်။
+next semester	နောက်စာသင်နှစ်ဝက်
+attendance rate	တက်ရောက်မှု နှုန်း
+Your attendance rate is important.	တက်ရောက်မှု နှုန်းက အရေးကြီးတယ်။
+If your attendance rate is low, you can't take the exam.	တက်ရောက်မှု နှုန်း နိမ့်ရင် စာမေးပွဲ ဖြေခွင့် မရဘူး။
+Attendance is calculated automatically by the electronic attendance system.	တက်ရောက်မှုကို အီလက်ထရွန်နစ် တက်ရောက်မှု စနစ်က အလိုအလျောက် တွက်တယ်။
+electronic attendance	အီလက်ထရွန်နစ် တက်ရောက်မှု
+to be calculated	တွက်ချက်ခံရသည်
+make-up exam	အစားထိုး စာမေးပွဲ
+I was sick, so I took a make-up exam.	နေမကောင်းလို့ အစားထိုး စာမေးပွဲ ဖြေခဲ့တယ်။
+You can take a make-up exam if you were in hospital or a family member died.	ဆေးရုံတက်ခဲ့ရင် သို့မဟုတ် မိသားစုဝင် ဆုံးပါးသွားရင် အစားထိုး စာမေးပွဲ ဖြေနိုင်တယ်။
+to be hospitalized	ဆေးရုံ တက်သည်
+to pass away (honorific)	ဆုံးပါးသည် (ရိုသေ)
+You must apply for a make-up exam within three days after the exam.	အစားထိုး စာမေးပွဲကို စာမေးပွဲပြီး သုံးရက်အတွင်း လျှောက်ရမယ်။
+Looking at your phone during an exam counts as cheating.	စာမေးပွဲအတွင်း ဖုန်း ကြည့်တာ လိမ်ညာခြင်းအဖြစ် တွက်တယ်။
+If you cheat, your exam for that course becomes void.	လိမ်ညာရင် အဲဒီဘာသာရဲ့ စာမေးပွဲ ပျက်ပြယ်သွားတယ်။
+void	ပျက်ပြယ်သည်
+grading on a curve	နှိုင်းယှဉ် အမှတ်ပေးခြင်း (curve)
+This class is graded on a curve.	ဒီအတန်းကို နှိုင်းယှဉ် အမှတ်ပေးစနစ်နဲ့ ပေးတယ်။
+On a curve, up to 30 percent of students get an A.	နှိုင်းယှဉ် အမှတ်ပေးစနစ်မှာ ကျောင်းသား ၃၀ ရာခိုင်နှုန်းအထိ A ရတယ်။
+Classes taught in English can have more A's.	အင်္ဂလိပ်လို သင်တဲ့ အတန်းတွေမှာ A ပိုများနိုင်တယ်။
+expulsion (losing student status)	ကျောင်းထုတ်ခြင်း (ကျောင်းသား အခြေအနေ ဆုံးရှုံးခြင်း)
+Three academic warnings in a row can get you expelled.	ပညာရေး သတိပေးချက် ဆက်တိုက် သုံးကြိမ် ရရင် ကျောင်းထုတ်ခံရနိုင်တယ်။
+in a row	ဆက်တိုက်
+You can also lose your student status if you don't register.	ကျောင်းလခ မသွင်းရင်လည်း ကျောင်းသား အခြေအနေ ဆုံးရှုံးနိုင်တယ်။
+to register (pay fees)	စာရင်းသွင်းသည် (ကြေး ပေးသည်)
+If you're expelled, your visa has problems too.	ကျောင်းထုတ်ခံရရင် ဗီဇာမှာလည်း ပြဿနာ ဖြစ်တယ်။
+I've missed quite a few classes this semester.	စီနီယာ၊ ဒီစာသင်နှစ်ဝက် အတန်း တော်တော် ပျက်ခဲ့တယ်။
+How many times? If it's over a third, it's an F.	ဘယ်နှခါ ပျက်လဲ။ သုံးပုံတစ်ပုံ ကျော်ရင် F ပဲ။
+one third	သုံးပုံတစ်ပုံ
+Does being late count as an absence too?	နောက်ကျတာလည်း ပျက်ကွက်တာအဖြစ် တွက်လား။
+Yes, two lates make one absence.	တွက်တယ်၊ နောက်ကျ နှစ်ခါက ပျက်ကွက် တစ်ခါ ဖြစ်တယ်။
+That's bad. What happens if my grades are low?	ဆိုးလိုက်တာ။ အမှတ် နိမ့်ရင် ဘာဖြစ်မလဲ။
+big trouble	ဒုက္ခကြီး
+Below a 1.5 GPA is an academic warning. From now on, don't miss class and work hard.	GPA ၁.၅ အောက်ဆိုရင် ပညာရေး သတိပေးချက် ပဲ။ အခုကစပြီး အတန်း မပျက်ဘဲ ကြိုးစားပါ။
+These are polite expressions for emailing or texting a professor.	ပါမောက္ခထံ အီးမေးလ် သို့မဟုတ် မက်ဆေ့ချ် ပို့ရန် ယဉ်ကျေးသော အသုံးအနှုန်းများ ဖြစ်ပါသည်။
+To a professor, write the greeting, your name, purpose and thanks in order, politely.	ပါမောက္ခထံ နှုတ်ဆက်စကား၊ အမည်၊ ရည်ရွယ်ချက်နှင့် ကျေးဇူးတင်စကားကို အစဉ်လိုက် ယဉ်ကျေးစွာ ရေးပါ။
+Write to a professor in this order: greeting, your name and department, your purpose, thanks, "name 올림". You may write in English to English-track professors, but the order is the same.	ပါမောက္ခထံ ဤအစဉ်အတိုင်း ရေးပါ: နှုတ်ဆက်စကား၊ အမည်နှင့် ဌာန၊ ရည်ရွယ်ချက်၊ ကျေးဇူးတင်စကား၊ "အမည် 올림"။ အင်္ဂလိပ် သင်ရိုး ပါမောက္ခများထံ အင်္ဂလိပ်လို ရေးနိုင်သော်လည်း အစဉ် အတူတူပင်။
+The polite form of "묻다" (to ask) is "여쭈다 (여쭤보다)". To a professor, "여쭤봐도 될까요?" is better than "물어봐도 돼요?".	"묻다" (မေးသည်) ၏ ယဉ်ကျေးသော ပုံစံမှာ "여쭈다 (여쭤보다)" ဖြစ်ပါသည်။ ပါမောက္ခထံ "물어봐도 돼요?" ထက် "여쭤봐도 될까요?" က ပိုကောင်းပါသည်။
+Dear Professor, hello	လေးစားအပ်သော ပါမောက္ခ၊ မင်္ဂလာပါ
+Hello, Professor. This is Sam from Business Administration.	မင်္ဂလာပါ ပါမောက္ခ။ စီးပွားရေး စီမံခန့်ခွဲမှု ဌာနက ဆမ် ပါ။
+Dear Professor Hwang Insu, hello.	လေးစားအပ်သော ပါမောက္ခ ဟွမ်အင်ဆူ၊ မင်္ဂလာပါ။
+Hello, Professor. I'm sorry to contact you so late.	မင်္ဂလာပါ ပါမောက္ခ။ ဒီလောက် နောက်ကျမှ ဆက်သွယ်ရလို့ တောင်းပန်ပါတယ်။
+the reason I'm writing is	ဆက်သွယ်ရခြင်း အကြောင်းမှာ
+The reason I'm writing is that I'd like to ask about the assignment.	ဆက်သွယ်ရခြင်း အကြောင်းမှာ အလုပ်အကြောင်း မေးမြန်းချင်လို့ ပါ။
+to ask (honorific)	မေးမြန်းသည် (ရိုသေ)
+I'm writing because I will be absent tomorrow.	မနက်ဖြန် အတန်း ပျက်မှာမို့ ဆက်သွယ်ရခြင်း ဖြစ်ပါတယ်။
+I'm writing to ask about a time for a meeting.	တွေ့ဆုံချိန်အကြောင်း မေးမြန်းဖို့ ဆက်သွယ်ရခြင်း ဖြစ်ပါတယ်။
+meeting, consultation	တွေ့ဆုံ ဆွေးနွေးခြင်း
+I'm asking because I have a question.	မေးစရာ ရှိလို့ မေးတာပါ။
+I asked the professor.	ပါမောက္ခကို မေးမြန်းခဲ့တယ်။
+sorry to bother you when you're busy	အလုပ်များနေတုန်း အနှောင့်အယှက် ပေးမိလို့ တောင်းပန်ပါတယ်
+Sorry to bother you when you're busy.	အလုပ်များနေတုန်း အနှောင့်အယှက် ပေးမိလို့ တောင်းပန်ပါတယ်။
+Sorry to bother you. Please check it.	အနှောင့်အယှက် ပေးမိလို့ တောင်းပန်ပါတယ်။ စစ်ပေးပါ။
+to ask a favor (honorific)	အကူအညီ တောင်းသည် (ရိုသေ)
+Sorry to bother you, but could I ask you for a recommendation letter?	အလုပ်များနေတုန်း တောင်းပန်ပါတယ်၊ ထောက်ခံစာ တောင်းလို့ ရမလား။
+recommendation letter	ထောက်ခံစာ
+Thank you. Sincerely, Sam	ကျေးဇူးတင်ပါတယ်။ လေးစားစွာဖြင့်၊ ဆမ်
+I look forward to your reply. Thank you. Sincerely, Sam.	ပြန်စာကို မျှော်လင့်ပါတယ်။ ကျေးဇူးတင်ပါတယ်။ လေးစားစွာဖြင့်၊ ဆမ်။
+Thank you for always helping me. Sincerely, Sam.	အမြဲ ကူညီပေးလို့ ကျေးဇူးတင်ပါတယ်။ လေးစားစွာဖြင့်၊ ဆမ်။
+Please check it. Thank you. Sincerely, Sam.	စစ်ပေးပါ။ ကျေးဇူးတင်ပါတယ်။ လေးစားစွာဖြင့်၊ ဆမ်။
+Hello, Professor. This is Sam from the Business Administration English track.	မင်္ဂလာပါ ပါမောက္ခ။ စီးပွားရေး စီမံခန့်ခွဲမှု အင်္ဂလိပ် သင်ရိုးက ဆမ် ပါ။
+I'd like to ask you about my report topic.	ကျွန်ုပ် အစီရင်ခံစာ ခေါင်းစဉ်အကြောင်း မေးမြန်းချင်ပါတယ်။
+OK, come to my office tomorrow at two.	ရပါတယ်၊ မနက်ဖြန် နှစ်နာရီမှာ ကျွန်ုပ် ရုံးခန်းကို လာပါ။
+Thank you. I'll come see you tomorrow.	ကျေးဇူးတင်ပါတယ်။ မနက်ဖြန် လာတွေ့ပါမယ်။
+to visit (polite)	လာရောက်တွေ့ဆုံသည် (ယဉ်ကျေး)
+These are words for visiting a professor for advice and asking for documents.	အကြံဉာဏ်အတွက် ပါမောက္ခထံ သွားရောက်ခြင်းနှင့် စာရွက်စာတမ်း တောင်းခြင်းဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+Make appointments for meetings, and ask for recommendation letters well in advance.	တွေ့ဆုံရန် ကြိုတင်ချိန်းဆိုပြီး ထောက်ခံစာကို အချိန်အလုံအလောက် ကြိုတောင်းပါ။
+Make an appointment before going to a professor's office, and be on time.	ပါမောက္ခ ရုံးခန်းသို့ မသွားမီ ချိန်းဆိုပြီး အချိန်မှန် သွားပါ။
+The polite form of "만나다" (to meet) is "뵙다", and of "찾아가다" (to visit) is "찾아뵙다".	"만나다" (တွေ့သည်) ၏ ယဉ်ကျေးသော ပုံစံမှာ "뵙다"၊ "찾아가다" (သွားတွေ့သည်) ၏ ပုံစံမှာ "찾아뵙다" ဖြစ်ပါသည်။
+meeting, consultation (with a professor)	တွေ့ဆုံ ဆွေးနွေးခြင်း (ပါမောက္ခနှင့်)
+I had a meeting with the professor.	ပါမောက္ခနဲ့ တွေ့ဆုံ ဆွေးနွေးခဲ့တယ်။
+I booked a meeting time.	တွေ့ဆုံချိန် ချိန်းထားခဲ့တယ်။
+to book	ချိန်းဆိုသည်၊ ကြိုတင် စာရင်းသွင်းသည်
+I meet my academic advisor every semester.	စာသင်နှစ်ဝက်တိုင်း လမ်းညွှန် ပါမောက္ခနဲ့ တွေ့တယ်။
+What's the professor's office number?	ပါမောက္ခရဲ့ ရုံးခန်း နံပါတ်က ဘာလဲ။
+I knocked on the office door.	ရုံးခန်း တံခါးကို ခေါက်ခဲ့တယ်။
+to knock	ခေါက်သည်
+Contact the professor before going to the office.	ရုံးခန်း မသွားခင် ပါမောက္ခကို ဆက်သွယ်ပါ။
+to contact (polite)	ဆက်သွယ်သည် (ယဉ်ကျေး)
+My academic advisor is Professor Hwang Insu of Business Administration.	ကျွန်ုပ် လမ်းညွှန် ပါမောက္ခက စီးပွားရေး စီမံခန့်ခွဲမှု ဌာနက ပါမောက္ခ ဟွမ်အင်ဆူ ပါ။
+I consulted my academic advisor.	လမ်းညွှန် ပါမောက္ခနဲ့ တိုင်ပင်ခဲ့တယ်။
+I talk with my advisor before course registration.	ဘာသာ စာရင်းမသွင်းခင် လမ်းညွှန် ပါမောက္ခနဲ့ ဆွေးနွေးတယ်။
+I got career counseling.	အသက်မွေးဝမ်းကျောင်း အကြံဉာဏ် ရခဲ့တယ်။
+career path	အသက်မွေးဝမ်းကျောင်း လမ်းကြောင်း
+There's something I'd like advice on.	အကြံဉာဏ် ယူချင်တာ တစ်ခု ရှိပါတယ်။
+The school has student counseling programs.	ကျောင်းမှာ ကျောင်းသား အကြံပေး အစီအစဉ်တွေ ရှိတယ်။
+program	အစီအစဉ်
+I asked for a recommendation letter.	ထောက်ခံစာ တောင်းခဲ့တယ်။
+A recommendation letter is needed for the scholarship application.	ပညာသင်ဆု လျှောက်ဖို့ ထောက်ခံစာ လိုတယ်။
+You should ask for a recommendation letter at least two weeks in advance.	ထောက်ခံစာကို အနည်းဆုံး နှစ်ပတ် ကြိုတောင်းသင့်တယ်။
+at least	အနည်းဆုံး
+I'll visit you tomorrow.	မနက်ဖြန် လာတွေ့ပါမယ်။
+May I visit you in your office?	ရုံးခန်းမှာ လာတွေ့လို့ ရမလား။
+I'd like to visit you once before the vacation.	ကျောင်းပိတ်ရက် မတိုင်ခင် တစ်ခါ လာတွေ့ချင်ပါတယ်။
+Professor Ahn, could I ask you for a scholarship recommendation letter?	ဆရာ အန်း၊ ပညာသင်ဆုအတွက် ထောက်ခံစာ တောင်းလို့ ရမလား။
+Sure, when is the deadline?	ရပါတယ်၊ နောက်ဆုံးရက်က ဘယ်တော့လဲ။
+The 10th of next month. Sorry to bother you.	နောက်လ ၁၀ ရက်နေ့ ပါ။ အနှောင့်အယှက် ပေးမိလို့ တောင်းပန်ပါတယ်။
+That's fine. Please send me your transcript too.	ကိစ္စမရှိပါဘူး။ အမှတ်စာရင်းလည်း ပို့ပေးပါ။
+These are words for people who entered school before you and after you.	ကျောင်းတွင် သင့်ထက် အရင် ဝင်ခဲ့သူများနှင့် နောက်မှ ဝင်ခဲ့သူများဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+Someone who entered before you is a 선배, after you a 후배, and in the same year a 동기.	သင့်ထက် အရင် ဝင်ခဲ့သူကို 선배၊ နောက်မှ ဝင်ခဲ့သူကို 후배၊ တစ်နှစ်တည်း ဝင်ခဲ့သူကို 동기 ဟု ခေါ်ပါသည်။
+At Korean universities, the year you entered often matters more than age. Whoever entered first is your 선배.	ကိုရီးယား တက္ကသိုလ်များတွင် ဝင်ခဲ့သော နှစ်က အသက်ထက် ပိုအရေးကြီးလေ့ ရှိပါသည်။ အရင် ဝင်ခဲ့သူသည် သင်၏ 선배 ဖြစ်ပါသည်။
+Call a senior by name + "선배": 민하 선배. Some people also use "형/오빠" (older brother) or "누나/언니" (older sister).	စီနီယာကို အမည် + "선배" ဖြင့် ခေါ်ပါ: 민하 선배။ အချို့က "형/오빠" (အစ်ကို) သို့မဟုတ် "누나/언니" (အစ်မ) ကိုလည်း သုံးကြပါသည်။
+My seniors help me a lot.	စီနီယာတွေက အများကြီး ကူညီပေးတယ်။
+A senior bought me a meal.	စီနီယာ တစ်ယောက်က ထမင်း ဝယ်ကျွေးခဲ့တယ်။
+to be treated to food	ဧည့်ခံ ကျွေးမွေးခံရသည်
+I asked a senior how to register for courses.	ဘာသာ စာရင်းသွင်းပုံကို စီနီယာ တစ်ယောက်ကို မေးခဲ့တယ်။
+junior (younger student)	ဂျူနီယာ (နောက်မှ ဝင်သူ)
+New juniors have come in.	ဂျူနီယာ အသစ်တွေ ဝင်လာပြီ။
+I helped a junior from Bangladesh.	ဘင်္ဂလားဒေ့ရှ်က ဂျူနီယာ တစ်ယောက်ကို ကူညီခဲ့တယ်။
+I showed the juniors around the campus.	ဂျူနီယာတွေကို ကျောင်းဝင်း လိုက်ပြခဲ့တယ်။
+to guide	လမ်းညွှန်သည်
+classmate (same entering year)	တစ်နှစ်တည်း ဝင်ခဲ့သော အတန်းဖော်
+Rahima is in my year.	ရာဟီမာက ကျွန်ုပ်နဲ့ တစ်နှစ်တည်း ပါ။
+I study with my classmates.	အတန်းဖော်တွေနဲ့ အတူ စာလေ့လာတယ်။
+Classmates talk casually with each other.	တစ်နှစ်တည်း အတန်းဖော်တွေ အချင်းချင်း ရင်းရင်းနှီးနှီး ပြောကြတယ်။
+I handed in my assignment to the TA.	လက်ထောက် ဆရာ (TA) ဆီ အလုပ် အပ်ခဲ့တယ်။
+The TA takes attendance.	လက်ထောက် ဆရာက တက်ရောက်မှု စာရင်း ခေါ်တယ်။
+Ask the TA first about grades.	အမှတ်အကြောင်းကို လက်ထောက် ဆရာကို အရင် မေးပါ။
+I use polite speech with seniors.	စီနီယာတွေနဲ့ ယဉ်ကျေးသော စကား သုံးတယ်။
+At first, I use polite speech with classmates too.	အစပိုင်းမှာ အတန်းဖော်တွေနဲ့လည်း ယဉ်ကျေးသော စကား သုံးတယ်။
+Once you get close, you use casual speech instead of polite speech.	ရင်းနှီးလာရင် ယဉ်ကျေးသော စကားအစား ရင်းနှီးသော စကား သုံးတယ်။
+Aung, I'm Minha, a third-year. Ask me if you have any questions.	အောင်၊ ကျွန်မ တတိယနှစ်က မင်ဟာ ပါ။ မေးစရာ ရှိရင် မေးပါ။
+Thank you, Minha! (senior)	ကျေးဇူးတင်ပါတယ်၊ မင်ဟာ! (စီနီယာ)
+senior	စီနီယာ
+We're in the same department, so let's be relaxed with each other.	ကျွန်ုပ်တို့ ဌာနတူ ဖြစ်လို့ အေးအေးဆေးဆေး ဆက်ဆံကြစို့။
+OK, then let's have a meal together next time.	ဟုတ်ကဲ့၊ ဒါဆို နောက်တစ်ခါ အတူ ထမင်းစားကြစို့။
+These are expressions for visiting Professor Hwang Insu during office hours to ask questions and get advice.	ရုံးချိန်အတွင်း ပါမောက္ခ ဟွမ်အင်ဆူထံ မေးခွန်းမေးရန်နှင့် အကြံဉာဏ် ယူရန် သွားရောက်ခြင်းဆိုင်ရာ အသုံးအနှုန်းများ ဖြစ်ပါသည်။
+During office hours, say why you came, ask about what you don't understand, and end by thanking the professor.	ရုံးချိန်အတွင်း ဘာကြောင့် လာသလဲ ပြောပြီး နားမလည်သည်များကို မေးကာ ပါမောက္ခကို ကျေးဇူးတင်ကြောင်း ပြော၍ အဆုံးသတ်ပါ။
+Office hours are times when the professor is in the office to meet students. They are often in the syllabus or on the office door.	ရုံးချိန် (office hours) သည် ပါမောက္ခ ကျောင်းသားများနှင့် တွေ့ရန် ရုံးခန်းတွင် ရှိနေသော အချိန် ဖြစ်ပါသည်။ သင်ရိုး ညွှန်းတမ်း သို့မဟုတ် ရုံးခန်း တံခါးပေါ်တွင် မကြာခဏ ဖော်ပြထားပါသည်။
+If office hours don't suit you, email to ask for another time. Prepare your questions before you go.	ရုံးချိန် အဆင်မပြေလျှင် အခြား အချိန်အတွက် အီးမေးလ်ဖြင့် မေးပါ။ မသွားမီ မေးခွန်းများ ပြင်ဆင်ပါ။
+When are your office hours?	ရုံးချိန် ဘယ်တော့လဲ။
+Professor, when are your office hours?	ပါမောက္ခ၊ ရုံးချိန် ဘယ်တော့လဲ။
+When are office hours this week?	ဒီအပတ် ရုံးချိန် ဘယ်တော့လဲ။
+Office hours aren't in the syllabus. When are they?	သင်ရိုး ညွှန်းတမ်းမှာ ရုံးချိန် မပါဘူး။ ဘယ်တော့လဲ။
+May I come in for a moment?	ခဏ ဝင်လို့ ရမလား။
+Professor, may I come in for a moment?	ပါမောက္ခ၊ ခဏ ဝင်လို့ ရမလား။
+Knock knock. May I come in for a moment?	ခေါက် ခေါက်။ ခဏ ဝင်လို့ ရမလား။
+knock knock	ခေါက် ခေါက်
+I came because it's office hours. May I come in?	ရုံးချိန်မို့ လာခဲ့တာပါ။ ဝင်လို့ ရမလား။
+office hours	ရုံးချိန်
+I came to ask about …	... အကြောင်း မေးမြန်းဖို့ လာခဲ့တာပါ
+I came to ask about the assignment.	အလုပ်အကြောင်း မေးမြန်းဖို့ လာခဲ့တာပါ။
+I came to ask about my midterm score.	နှစ်ဝက် စာမေးပွဲ အမှတ်အကြောင်း မေးမြန်းဖို့ လာခဲ့တာပါ။
+midterm	နှစ်ဝက် စာမေးပွဲ
+I came to ask about course registration for next semester.	နောက်စာသင်နှစ်ဝက် ဘာသာ စာရင်းသွင်းခြင်းအကြောင်း မေးမြန်းဖို့ လာခဲ့တာပါ။
+I don't understand this part	ဒီအပိုင်းကို နားမလည်ပါဘူး
+Professor, I don't understand this part.	ပါမောက္ခ၊ ဒီအပိုင်းကို နားမလည်ပါဘူး။
+I don't understand this part of the lecture materials.	ပို့ချချက် ပစ္စည်းရဲ့ ဒီအပိုင်းကို နားမလည်ပါဘူး။
+I don't understand this graph. Could you explain it again?	ဒီဂရပ်ကို နားမလည်ပါဘူး။ ထပ်ရှင်းပြပေးနိုင်မလား။
+graph	ဂရပ်
+I want to improve my grade. What should I do?	အမှတ် တိုးချင်ပါတယ်။ ဘာလုပ်သင့်လဲ။
+I want to improve my Korean. What would you suggest?	ကိုရီးယားစကား တိုးတက်ချင်ပါတယ်။ ဘာ အကြံပြုမလဲ။
+I get so nervous about presentations. What should I do?	တင်ပြချက်အတွက် အရမ်း စိတ်လှုပ်ရှားတယ်။ ဘာလုပ်သင့်လဲ။
+thank you for your time	အချိန်ပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်
+Professor, thank you for your time.	ပါမောက္ခ၊ အချိန်ပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်။
+Thank you for making time when you're busy.	အလုပ်များတဲ့ကြားက အချိန်ပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်။
+It helped a lot. Thank you for your time.	အများကြီး အထောက်အကူ ဖြစ်ခဲ့ပါတယ်။ အချိန်ပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်။
+Professor Hwang, may I come in for a moment?	ပါမောက္ခ ဟွမ်၊ ခဏ ဝင်လို့ ရမလား။
+Yes, come in. What's up?	ရပါတယ်၊ ဝင်ပါ။ ဘာကိစ္စလဲ။
+I came to ask about my midterm score. I don't understand the essay question.	နှစ်ဝက် စာမေးပွဲ အမှတ်အကြောင်း မေးမြန်းဖို့ လာခဲ့တာပါ။ အရေးအသား မေးခွန်းကို နားမလည်ဘူး။
+Look here. You need more examples to get a higher score.	ဒီမှာ ကြည့်ပါ။ အမှတ် ပိုမြင့်ဖို့ ဥပမာ ပိုထည့်ဖို့ လိုတယ်။
+example	ဥပမာ
+Oh, I see. Thank you for your time.	အို၊ နားလည်ပါပြီ။ အချိန်ပေးတဲ့အတွက် ကျေးဇူးတင်ပါတယ်။
+These words are about clubs, groups of students with the same hobbies.	ဝါသနာ တူသော ကျောင်းသား အုပ်စုများ ဖြစ်သည့် ကလပ်များဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+Join a club to make Korean friends at meetings and retreats.	ကလပ်တွင် ဝင်ပြီး အစည်းအဝေးများနှင့် ခရီးထွက်ခြင်းများတွင် ကိုရီးယား သူငယ်ချင်းများ ဖွဲ့ပါ။
+At the start of each semester, clubs recruit new members, often promoting in front of the student union building.	စာသင်နှစ်ဝက် အစတိုင်းတွင် ကလပ်များက အဖွဲ့ဝင်သစ်များ စုဆောင်းပြီး ကျောင်းသား သမဂ္ဂ အဆောက်အအုံ ရှေ့တွင် မကြာခဏ ကြော်ငြာကြပါသည်။
+Clubs are a great way to make Korean friends and improve your Korean.	ကလပ်များသည် ကိုရီးယား သူငယ်ချင်း ဖွဲ့ရန်နှင့် ကိုရီးယားစကား တိုးတက်ရန် အကောင်းဆုံး နည်းလမ်း ဖြစ်ပါသည်။
+I joined a club.	ကလပ်ထဲ ဝင်ခဲ့တယ်။
+to join, enter	ဝင်ရောက်သည်
+What club are you in?	ဘယ်ကလပ်မှာ ရှိလဲ။
+I made a lot of Korean friends in my club.	ကလပ်မှာ ကိုရီးယား သူငယ်ချင်း အများကြီး ရခဲ့တယ်။
+joining, membership	အဖွဲ့ဝင်ခြင်း
+I joined the soccer club.	ဘောလုံး ကလပ်ကို ဝင်ခဲ့တယ်။
+I filled in the membership form.	အဖွဲ့ဝင် ဖောင် ဖြည့်ခဲ့တယ်။
+Can international students join too?	နိုင်ငံခြား ကျောင်းသားတွေလည်း ဝင်လို့ ရလား။
+The fee is 10,000 won a month.	ကြေးက တစ်လ ဝမ် ၁၀,၀၀၀ ပါ။
+I paid the membership fee.	အဖွဲ့ဝင် ကြေး ပေးခဲ့တယ်။
+We buy snacks with the fees.	ကြေးငွေနဲ့ မုန့်တွေ ဝယ်ကြတယ်။
+The club meets every Wednesday.	ကလပ်က ဗုဒ္ဓဟူးနေ့တိုင်း တွေ့ဆုံတယ်။
+I can't go to the meeting today.	ဒီနေ့ အစည်းအဝေး မသွားနိုင်ဘူး။
+I introduced myself at the first meeting.	ပထမ အစည်းအဝေးမှာ ကိုယ့်ကိုယ်ကို မိတ်ဆက်ခဲ့တယ်။
+president (of a club)	ဥက္ကဋ္ဌ (ကလပ်)
+Who is the club president?	ကလပ် ဥက္ကဋ္ဌက ဘယ်သူလဲ။
+Jinha became president.	ဂျင်ဟာ ဥက္ကဋ္ဌ ဖြစ်လာတယ်။
+Ask the president if you have questions.	မေးစရာ ရှိရင် ဥက္ကဋ္ဌကို မေးပါ။
+club/department retreat (MT)	ကလပ်/ဌာန ခရီးထွက်ခြင်း (MT)
+I'm going on a club retreat.	ကလပ် ခရီးထွက်မယ်။
+We played games on the retreat.	ခရီးထွက်တုန်း ဂိမ်းတွေ ကစားခဲ့ကြတယ်။
+Retreats are usually at the start of the semester.	ခရီးထွက်ခြင်းက များသောအားဖြင့် စာသင်နှစ်ဝက် အစမှာ ပါ။
+start of semester	စာသင်နှစ်ဝက် အစ
+Would you like to join our club?	ကျွန်ုပ်တို့ ကလပ်ကို ဝင်ချင်လား။
+Yes. Can international students join too?	ဝင်ချင်တယ်။ နိုင်ငံခြား ကျောင်းသားတွေလည်း ဝင်လို့ ရလား။
+Of course. We meet every Wednesday, and the fee is 10,000 won a month.	ရတာပေါ့။ ဗုဒ္ဓဟူးနေ့တိုင်း တွေ့ပြီး ကြေးက တစ်လ ဝမ် ၁၀,၀၀၀ ပါ။
+Great. I'll fill in the membership form.	ကောင်းတယ်။ အဖွဲ့ဝင် ဖောင် ဖြည့်မယ်။
+These words are about university events. Jeonju University holds a spring festival called 대동제.	တက္ကသိုလ် ပွဲအမျိုးမျိုးဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။ ဂျွန်ဂျူ တက္ကသိုလ်သည် 대동제 ဟုခေါ်သော နွေဦး ပွဲတော်ကို ကျင်းပပါသည်။
+Taking part in festivals and events makes campus life more fun.	ပွဲတော်များနှင့် ပွဲများတွင် ပါဝင်ခြင်းက ကျောင်းဝင်း ဘဝကို ပိုပျော်စရာ ကောင်းစေပါသည်။
+During the festival, departments and clubs open booths and sell food. In 2023, 대동제 was held around the main sports field and the student union building.	ပွဲတော်အတွင်း ဌာနများနှင့် ကလပ်များက ဆိုင်ခန်းများ ဖွင့်ပြီး အစားအစာ ရောင်းကြပါသည်။ ၂၀၂၃ တွင် 대동제 ကို အဓိက အားကစားကွင်းနှင့် ကျောင်းသား သမဂ္ဂ အဆောက်အအုံ တဝိုက်တွင် ကျင်းပခဲ့ပါသည်။
+If someone offers you alcohol at a party or retreat and you don't drink, it's fine to say "저는 술을 못 마셔요" (I can't drink).	ပါတီ သို့မဟုတ် ခရီးထွက်ရာတွင် အရက် တိုက်လျှင် မသောက်ပါက "저는 술을 못 마셔요" (အရက် မသောက်နိုင်ပါ) ဟု ပြောလည်း ကိစ္စမရှိပါ။
+The school festival is next week.	ကျောင်း ပွဲတော်က နောက်အပတ် ပါ။
+Singers come to the festival.	ပွဲတော်ကို အဆိုတော်တွေ လာတယ်။
+The Jeonju University festival is called 대동제.	ဂျွန်ဂျူ တက္ကသိုလ် ပွဲတော်ကို 대동제 လို့ ခေါ်တယ်။
+Daedongje (university festival)	대동제 (တက္ကသိုလ် ပွဲတော်)
+start-of-semester party	စာသင်နှစ်ဝက် အစ ပါတီ
+I went to the start-of-semester party.	စာသင်နှစ်ဝက် အစ ပါတီကို သွားခဲ့တယ်။
+The Hotel Management start-of-semester party is on Friday.	ဟိုတယ် စီမံခန့်ခွဲမှု ဌာနရဲ့ စာသင်နှစ်ဝက် အစ ပါတီက သောကြာနေ့ ပါ။
+I met seniors at the start-of-semester party.	စာသင်နှစ်ဝက် အစ ပါတီမှာ စီနီယာတွေနဲ့ တွေ့ခဲ့တယ်။
+Our department has a sports day.	ကျွန်ုပ်တို့ ဌာနမှာ အားကစားနေ့ ရှိတယ်။
+I played soccer at sports day.	အားကစားနေ့မှာ ဘောလုံး ကန်ခဲ့တယ်။
+Everyone wears the same clothes on sports day.	အားကစားနေ့မှာ လူတိုင်း အဝတ်အစား တူတူ ဝတ်ကြတယ်။
+international student event	နိုင်ငံခြား ကျောင်းသား ပွဲ
+I danced at the international student event.	နိုင်ငံခြား ကျောင်းသား ပွဲမှာ ကခဲ့တယ်။
+I introduced Nepal at the international student event.	နိုင်ငံခြား ကျောင်းသား ပွဲမှာ နီပေါကို မိတ်ဆက်ခဲ့တယ်။
+There's food from many countries at international student events.	နိုင်ငံခြား ကျောင်းသား ပွဲတွေမှာ နိုင်ငံ အမျိုးမျိုးက အစားအစာတွေ ရှိတယ်။
+participation	ပါဝင်ခြင်း
+I took part in the festival.	ပွဲတော်မှာ ပါဝင်ခဲ့တယ်။
+Sign-up is until this week.	ပါဝင်ရန် စာရင်းပေးခြင်းက ဒီအပတ်အထိ ပါ။
+If you're taking part, write your name.	ပါဝင်မယ်ဆိုရင် နာမည် ရေးပါ။
+We opened an Uzbek food booth.	ဥဇဘက် အစားအစာ ဆိုင်ခန်း ဖွင့်ခဲ့တယ်။
+We sold plov at the booth.	ဆိုင်ခန်းမှာ ပလော့ဖ် ရောင်းခဲ့တယ်။
+plov	ပလော့ဖ်
+There were a lot of people in front of the booth.	ဆိုင်ခန်း ရှေ့မှာ လူ အများကြီး ရှိခဲ့တယ်။
+Is there an international student booth at this festival?	ဒီပွဲတော်မှာ နိုင်ငံခြား ကျောင်းသား ဆိုင်ခန်း ရှိလား။
+Yes, Uzbek students are selling plov.	ရှိတယ်၊ ဥဇဘက် ကျောင်းသားတွေ ပလော့ဖ် ရောင်းနေတယ်။
+What's plov?	ပလော့ဖ်ဆိုတာ ဘာလဲ။
+It's rice with meat and carrots. It's delicious!	အသားနဲ့ မုန်လာဥနီ ထည့်ထားတဲ့ ထမင်း ပါ။ အရသာ ရှိတယ်!
+I'll definitely come and eat some!	သေချာပေါက် လာစားမယ်!
+These are expressions for becoming friends with Korean students.	ကိုရီးယား ကျောင်းသားများနှင့် သူငယ်ချင်း ဖြစ်ရန် အသုံးအနှုန်းများ ဖြစ်ပါသည်။
+Suggest eating together, ask for contacts and teach each other your languages to become friends easily.	အတူ စားရန် အကြံပြုခြင်း၊ ဆက်သွယ်ရန် လိပ်စာ တောင်းခြင်းနှင့် အချင်းချင်း ဘာသာစကား သင်ပေးခြင်းဖြင့် အလွယ်တကူ သူငယ်ချင်း ဖြစ်နိုင်ပါသည်။
+"-(으)ㄹ래요?" is a soft way to suggest something to friends.	"-(으)ㄹ래요?" သည် သူငယ်ချင်းများကို တစ်ခုခု ပျော့ပျောင်းစွာ အကြံပြုသော နည်း ဖြစ်ပါသည်။
+In Korea people often ask your age. If you're the same age (동갑), they may suggest switching to casual speech.	ကိုရီးယားတွင် အသက်ကို မကြာခဏ မေးကြပါသည်။ အသက်တူလျှင် (동갑) ရင်းနှီးသော စကားသို့ ပြောင်းရန် အကြံပြုနိုင်ပါသည်။
+Do you want to eat together after class?	အတန်းပြီးရင် အတူ ထမင်းစားမလား။
+Do you want to eat together at the student cafeteria?	ကျောင်းသား စားသောက်ဆောင်မှာ အတူ ထမင်းစားမလား။
+Do you want to have lunch together tomorrow?	မနက်ဖြန် နေ့လယ်စာ အတူ စားမလား။
+Can I have your contact?	ဆက်သွယ်ရန် လိပ်စာ ပေးမလား။
+Could you give me your contact?	ဆက်သွယ်ရန် လိပ်စာ ပေးနိုင်မလား။
+contact information	ဆက်သွယ်ရန် အချက်အလက်
+Could you give me your contact for the assignment?	အလုပ်အတွက် ဆက်သွယ်ရန် လိပ်စာ ပေးနိုင်မလား။
+Could you give me your KakaoTalk ID or number?	KakaoTalk ID ဒါမှမဟုတ် ဖုန်းနံပါတ် ပေးနိုင်မလား။
+you can speak casually with me	ကျွန်ုပ်နဲ့ ရင်းရင်းနှီးနှီး ပြောလို့ ရတယ်
+We're the same age, so you can speak casually.	ကျွန်ုပ်တို့ အသက်တူမို့ ရင်းရင်းနှီးနှီး ပြောလို့ ရတယ်။
+same age	အသက်တူ
+May I speak casually?	ရင်းရင်းနှီးနှီး ပြောလို့ ရမလား။
+We're close now, so you can speak casually.	အခု ရင်းနှီးပြီမို့ ရင်းရင်းနှီးနှီး ပြောလို့ ရတယ်။
+come visit my country	ကျွန်ုပ် နိုင်ငံကို လာလည်ပါ
+Come visit Greece during the vacation.	ကျောင်းပိတ်ရက်မှာ ဂရိကို လာလည်ပါ။
+Food in Singapore is delicious. Come visit.	စင်ကာပူက အစားအစာ အရသာ ရှိတယ်။ လာလည်ပါ။
+Come visit Nepal. I'll show you around.	နီပေါကို လာလည်ပါ။ လိုက်ပြပေးမယ်။
+please teach me some Korean	ကိုရီးယားစကား နည်းနည်း သင်ပေးပါ
+Please teach me some Korean. I'll teach you English.	ကိုရီးယားစကား နည်းနည်း သင်ပေးပါ။ ကျွန်ုပ် အင်္ဂလိပ် သင်ပေးမယ်။
+Please teach me this expression.	ဒီအသုံးအနှုန်းကို သင်ပေးပါ။
+expression	အသုံးအနှုန်း
+Pronunciation is hard. Please teach me.	အသံထွက်က ခက်တယ်။ သင်ပေးပါ။
+Aisha, do you want to eat together after class?	အိုင်ရှာ၊ အတန်းပြီးရင် အတူ ထမင်းစားမလား။
+Sure! We're the same age, so you can speak casually.	စားမယ်! ကျွန်ုပ်တို့ အသက်တူမို့ ရင်းရင်းနှီးနှီး ပြောလို့ ရတယ်။
+OK, Aisha. Let's go to the student cafeteria.	ကောင်းပြီ၊ အိုင်ရှာ။ ကျောင်းသား စားသောက်ဆောင်ကို သွားကြစို့။
+Great. Give me your number on the way too.	ကောင်းတယ်။ သွားရင်းနဲ့ ဖုန်းနံပါတ်လည်း ပေးပါ။
+These are words for buddy activities and language exchange, where a Korean student and an international student pair up to help each other. Ask the International Office whether a program is running.	ကိုရီးယား ကျောင်းသားနှင့် နိုင်ငံခြား ကျောင်းသား အတွဲလိုက် အချင်းချင်း ကူညီကြသော buddy လုပ်ငန်းနှင့် ဘာသာစကား ဖလှယ်ခြင်းဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။ အစီအစဉ် ရှိမရှိ နိုင်ငံတကာ ရုံးကို မေးပါ။
+Through buddies and language exchange, you make Korean friends and learn each other's language and culture.	buddy နှင့် ဘာသာစကား ဖလှယ်ခြင်းဖြင့် ကိုရီးယား သူငယ်ချင်းများ ရပြီး အချင်းချင်း ဘာသာစကားနှင့် ယဉ်ကျေးမှုကို သင်ယူကြပါသည်။
+A good language exchange splits the time in half: thirty minutes in Korean, thirty minutes in English.	ကောင်းသော ဘာသာစကား ဖလှယ်ခြင်းသည် အချိန်ကို တစ်ဝက်စီ ခွဲပါသည်: ကိုရီးယားလို မိနစ် ၃၀၊ အင်္ဂလိပ်လို မိနစ် ၃၀။
+Buddy programs and language exchange groups differ by school and semester. Check International Office notices and the school website.	buddy အစီအစဉ်များနှင့် ဘာသာစကား ဖလှယ်ရေး အဖွဲ့များသည် ကျောင်းနှင့် စာသင်နှစ်ဝက်အလိုက် ကွာခြားပါသည်။ နိုင်ငံတကာ ရုံး အသိပေးချက်များနှင့် ကျောင်း ဝက်ဘ်ဆိုက်ကို စစ်ပါ။
+buddy	buddy (အဖော်)
+My buddy is Jinha.	ကျွန်ုပ် buddy က ဂျင်ဟာ ပါ။
+My buddy showed me around campus.	buddy က ကျောင်းဝင်း လိုက်ပြခဲ့တယ်။
+Thanks to my buddy, alien registration was easy.	buddy ကြောင့် နိုင်ငံခြားသား မှတ်ပုံတင်တာ လွယ်ခဲ့တယ်။
+I want to do a language exchange.	ဘာသာစကား ဖလှယ်ချင်တယ်။
+We practise Korean and English through language exchange.	ဘာသာစကား ဖလှယ်ခြင်းနဲ့ ကိုရီးယားနဲ့ အင်္ဂလိပ် လေ့ကျင့်ကြတယ်။
+to practise	လေ့ကျင့်သည်
+We do our language exchange once a week at a café.	ဘာသာစကား ဖလှယ်ခြင်းကို တစ်ပတ်တစ်ခါ ကဖေးမှာ လုပ်တယ်။
+partner, pair	အတွဲဖော်၊ အတွဲ
+We decided on partners.	အတွဲဖော်တွေ သတ်မှတ်ခဲ့တယ်။
+I did homework with my partner.	အတွဲဖော်နဲ့ အတူ အိမ်စာ လုပ်ခဲ့တယ်။
+If your partner is busy, change to another day.	အတွဲဖော် အလုပ်များရင် တခြား နေ့ကို ပြောင်းပါ။
+application, sign-up	လျှောက်ထားခြင်း၊ စာရင်းပေးခြင်း
+I signed up for the buddy program.	buddy အစီအစဉ်ကို စာရင်းပေးခဲ့တယ်။
+You sign up online.	အွန်လိုင်းကနေ စာရင်းပေးရတယ်။
+The sign-up period is short, so watch the notices.	စာရင်းပေးချိန် တိုလို့ အသိပေးချက်တွေကို စောင့်ကြည့်ပါ။
+Buddy activities are fun.	buddy လုပ်ငန်းတွေက ပျော်စရာ ကောင်းတယ်။
+This month's activity is visiting Jeonju Hanok Village.	ဒီလ လုပ်ငန်းက ဂျွန်ဂျူ ဟန်အုတ် ရွာကို သွားလည်ခြင်း ပါ။
+We take photos of our activities and put them in the report.	လုပ်ငန်းတွေရဲ့ ဓာတ်ပုံ ရိုက်ပြီး အစီရင်ခံစာထဲ ထည့်တယ်။
+I want to learn about Korean culture.	ကိုရီးယား ယဉ်ကျေးမှုအကြောင်း သင်ယူချင်တယ်။
+I introduced Bangladeshi culture to my buddy.	buddy ကို ဘင်္ဂလားဒေ့ရှ် ယဉ်ကျေးမှု မိတ်ဆက်ပေးခဲ့တယ်။
+Our cultures are different, so it was a bit awkward at first.	ယဉ်ကျေးမှု မတူလို့ အစပိုင်းမှာ နည်းနည်း အနေရခက်ခဲ့တယ်။
+to be awkward	အနေရခက်သည်
+Hi! I'm your buddy, Rahima.	မင်္ဂလာပါ! ကျွန်မ သင့် buddy ရာဟီမာ ပါ။
+Nice to meet you! I'm from Bangladesh.	တွေ့ရတာ ဝမ်းသာပါတယ်! ကျွန်ုပ် ဘင်္ဂလားဒေ့ရှ်က ပါ။
+Shall we do a language exchange too? I want to learn English.	ကျွန်ုပ်တို့ ဘာသာစကား ဖလှယ်ခြင်းလည်း လုပ်ကြမလား။ အင်္ဂလိပ် သင်ချင်တယ်။
+Great. I want to learn Korean. How about once a week?	ကောင်းတယ်။ ကျွန်ုပ် ကိုရီးယားစကား သင်ချင်တယ်။ တစ်ပတ်တစ်ခါ ဘယ်လိုလဲ။
+Good. Let's meet at the Star Center on Thursday afternoon.	ကောင်းတယ်။ ကြာသပတေး နေ့လယ်ပိုင်း Star Center မှာ တွေ့ကြစို့။
+These are words about the tuition you pay each semester.	စာသင်နှစ်ဝက်တိုင်း ပေးရသော ကျောင်းလခဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+Check the bill and pay tuition within the payment period. If it's hard, apply to pay in installments.	ငွေတောင်းခံလွှာကို စစ်ပြီး ပေးချေရမည့် ကာလအတွင်း ကျောင်းလခ ပေးပါ။ ခက်ခဲလျှင် အရစ်ကျ ပေးရန် လျှောက်ပါ။
+You're only enrolled for the semester once you pay tuition. Missing the period can cause serious problems.	ကျောင်းလခ ပေးမှသာ ထိုစာသင်နှစ်ဝက်တွင် ကျောင်းသားအဖြစ် စာရင်းဝင်ပါသည်။ ကာလ လွတ်သွားလျှင် ပြဿနာ ကြီးနိုင်ပါသည်။
+Sending money from abroad takes fees and time. Send it about a week before the deadline.	ပြည်ပမှ ငွေလွှဲလျှင် အခကြေးငွေနှင့် အချိန် ကုန်ပါသည်။ နောက်ဆုံးရက် မတိုင်မီ တစ်ပတ်ခန့် ကြိုလွှဲပါ။
+I paid my tuition.	ကျောင်းလခ ပေးပြီးပြီ။
+Tuition is paid every semester.	ကျောင်းလခကို စာသင်နှစ်ဝက်တိုင်း ပေးရတယ်။
+bill, payment notice	ငွေတောင်းခံလွှာ
+The tuition bill is out.	ကျောင်းလခ ငွေတောင်းခံလွှာ ထွက်ပြီ။
+You print the bill from the school portal.	ငွေတောင်းခံလွှာကို ကျောင်း ပေါ်တယ်ကနေ ပရင့်ထုတ်တယ်။
+Send the money to the account on the bill.	ငွေတောင်းခံလွှာပေါ်က ဘဏ်စာရင်းကို ငွေလွှဲပါ။
+payment	ငွေပေးချေခြင်း
+When is the tuition payment period?	ကျောင်းလခ ပေးချေရမည့် ကာလက ဘယ်တော့လဲ။
+I paid at the bank.	ဘဏ်မှာ ပေးခဲ့တယ်။
+If you miss the payment period, you're not registered.	ပေးချေရမည့် ကာလ ကျော်သွားရင် စာရင်းမဝင်ဘူး။
+paying in installments	အရစ်ကျ ပေးချေခြင်း
+Can I pay tuition in installments?	ကျောင်းလခကို အရစ်ကျ ပေးလို့ ရမလား။
+How many installments can I pay in?	ဘယ်နှရစ် ခွဲပေးလို့ ရလဲ။
+You must apply in advance to pay in installments.	အရစ်ကျ ပေးချင်ရင် ကြိုလျှောက်ရမယ်။
+Please tell me the account number.	ဘဏ်စာရင်း နံပါတ် ပြောပြပါ။
+I opened an account at a Korean bank.	ကိုရီးယား ဘဏ်မှာ ဘဏ်စာရင်း ဖွင့်ခဲ့တယ်။
+My parents sent money from Pakistan to my account.	မိဘတွေက ပါကစ္စတန်ကနေ ကျွန်ုပ် ဘဏ်စာရင်းကို ငွေ ပို့ခဲ့တယ်။
+Can I get a tuition refund?	ကျောင်းလခ ပြန်အမ်းငွေ ရနိုင်မလား။
+to get a refund	ငွေပြန်ရသည်
+If you take a leave of absence, you may get part of it back.	ကျောင်းခွင့် ယူရင် တစ်စိတ်တစ်ပိုင်း ပြန်ရနိုင်တယ်။
+A refund takes some time after you apply.	ငွေပြန်အမ်းခြင်းက လျှောက်ပြီးနောက် အချိန် အတော်ကြာတယ်။
+The tuition bill is out. Until when is the payment period?	ကျောင်းလခ ငွေတောင်းခံလွှာ ထွက်ပြီ။ ပေးချေရမည့် ကာလ ဘယ်အချိန်အထိလဲ။
+It's on the bill. Until the 20th of this month.	ငွေတောင်းခံလွှာပေါ်မှာ ရေးထားတယ်။ ဒီလ ၂၀ ရက်နေ့အထိ ပါ။
+Can I pay in installments?	အရစ်ကျ ပေးလို့လည်း ရလား။
+Yes, apply by this week.	ရတယ်၊ ဒီအပတ်အထိ လျှောက်ပါ။
+These are words for finding out about and applying for scholarships. Jeonju University's English track also has scholarships.	ပညာသင်ဆုများအကြောင်း ရှာဖွေခြင်းနှင့် လျှောက်ထားခြင်းဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။ ဂျွန်ဂျူ တက္ကသိုလ် အင်္ဂလိပ် သင်ရိုးတွင်လည်း ပညာသင်ဆုများ ရှိပါသည်။
+For scholarships, check the requirements, prepare the documents and apply within the period.	ပညာသင်ဆုအတွက် လိုအပ်ချက်များ စစ်ပြီး စာရွက်စာတမ်း ပြင်ဆင်ကာ သတ်မှတ်ကာလအတွင်း လျှောက်ပါ။
+Jeonju University's English-track scholarship guide lists a TOPIK scholarship (1,000,000 won) for students who get TOPIK level 4 or higher. Amounts and conditions can change, so always check the notice.	ဂျွန်ဂျူ တက္ကသိုလ် အင်္ဂလိပ် သင်ရိုး ပညာသင်ဆု လမ်းညွှန်တွင် TOPIK အဆင့် ၄ နှင့်အထက် ရသော ကျောင်းသားများအတွက် TOPIK ပညာသင်ဆု (ဝမ် ၁,၀၀၀,၀၀၀) ပါပါသည်။ ပမာဏနှင့် လိုအပ်ချက်များ ပြောင်းနိုင်သဖြင့် အသိပေးချက်ကို အမြဲ စစ်ပါ။
+"급을 따다" means to pass a test and get a level: 토픽 삼 급을 땄어요 (I got TOPIK level 3).	"급을 따다" သည် စာမေးပွဲ အောင်ပြီး အဆင့် ရခြင်း ဖြစ်ပါသည်: 토픽 삼 급을 땄어요 (TOPIK အဆင့် ၃ ရခဲ့တယ်)။
+There are scholarships for English-track students.	အင်္ဂလိပ် သင်ရိုး ကျောင်းသားတွေအတွက် ပညာသင်ဆုတွေ ရှိတယ်။
+to be for	... အတွက်
+Thanks to the scholarship, my tuition went down.	ပညာသင်ဆုကြောင့် ကျောင်းလခ လျော့သွားတယ်။
+I'm a scholarship student.	ကျွန်ုပ်က ပညာသင်ဆု ရ ကျောင်းသား ပါ။
+I was selected as a scholarship student.	ပညာသင်ဆု ရ ကျောင်းသားအဖြစ် ရွေးချယ်ခံရတယ်။
+to be selected	ရွေးချယ်ခံရသည်
+Scholarship students must keep up their grades.	ပညာသင်ဆု ရ ကျောင်းသားတွေ အမှတ်ကို ထိန်းထားရမယ်။
+to maintain	ထိန်းသိမ်းသည်
+condition, requirement	အခြေအနေ၊ လိုအပ်ချက်
+What are the requirements to apply?	လျှောက်ဖို့ လိုအပ်ချက်တွေက ဘာတွေလဲ။
+GPA is a requirement.	GPA က လိုအပ်ချက် တစ်ခု ပါ။
+Anyone who meets the requirements can apply.	လိုအပ်ချက် ပြည့်မီရင် ဘယ်သူမဆို လျှောက်လို့ ရတယ်။
+selection	ရွေးချယ်ခြင်း
+The selection results are out.	ရွေးချယ်မှု ရလဒ် ထွက်ပြီ။
+They select ten people.	လူ ဆယ်ယောက် ရွေးတယ်။
+If you're selected, they'll let you know by text.	ရွေးချယ်ခံရရင် မက်ဆေ့ချ်နဲ့ အကြောင်းကြားမယ်။
+TOPIK (Test of Proficiency in Korean)	TOPIK (ကိုရီးယားစကား ကျွမ်းကျင်မှု စာမေးပွဲ)
+I got TOPIK level 4.	TOPIK အဆင့် ၄ ရခဲ့တယ်။
+to obtain	ရယူသည်
+If your TOPIK level is high, you can get a scholarship.	TOPIK အဆင့် မြင့်ရင် ပညာသင်ဆု ရနိုင်တယ်။
+personal statement	ကိုယ်ရေး ဖော်ပြချက်
+I wrote a personal statement.	ကိုယ်ရေး ဖော်ပြချက် ရေးခဲ့တယ်။
+I wrote about my dream in my personal statement.	ကိုယ်ရေး ဖော်ပြချက်မှာ ကျွန်ုပ် အိပ်မက်အကြောင်း ရေးခဲ့တယ်။
+A senior corrected my personal statement.	စီနီယာ တစ်ယောက်က ကျွန်ုပ် ကိုယ်ရေး ဖော်ပြချက်ကို ပြင်ပေးခဲ့တယ်။
+What are the requirements for the international student scholarship?	နိုင်ငံခြား ကျောင်းသား ပညာသင်ဆုအတွက် လိုအပ်ချက်တွေက ဘာတွေလဲ။
+requirement	လိုအပ်ချက်
+It depends on the scholarship. The TOPIK scholarship is for level 4 or higher.	ပညာသင်ဆုအလိုက် ကွာတယ်။ TOPIK ပညာသင်ဆုက အဆင့် ၄ နဲ့အထက်အတွက် ပါ။
+I got TOPIK level 4 last month!	ကျွန်ုပ် ပြီးခဲ့တဲ့လ TOPIK အဆင့် ၄ ရခဲ့တယ်!
+Congratulations! The application period is short, so ask the International Office soon.	ဂုဏ်ယူပါတယ်! လျှောက်ထားချိန် တိုလို့ နိုင်ငံတကာ ရုံးကို မြန်မြန် မေးပါ။
+These are the basic words international students must know before working part-time. You learn more in the "아르바이트" (part-time jobs) area.	နိုင်ငံခြား ကျောင်းသားများ အချိန်ပိုင်း အလုပ် မလုပ်မီ သိထားရမည့် အခြေခံ စကားလုံးများ ဖြစ်ပါသည်။ "아르바이트" (အချိန်ပိုင်း အလုပ်) ကဏ္ဍတွင် ပိုလေ့လာနိုင်ပါသည်။
+For part-time jobs, international students must check the permit, the contract, the hourly wage and working hours.	အချိန်ပိုင်း အလုပ်အတွက် နိုင်ငံခြား ကျောင်းသားများသည် ခွင့်ပြုချက်၊ စာချုပ်၊ နာရီလုပ်ခနှင့် အလုပ်ချိန်ကို စစ်ရပါမည်။
+International students must get a part-time work permit before working. Working without one can lead to fines or visa problems.	နိုင်ငံခြား ကျောင်းသားများသည် အလုပ် မလုပ်မီ အချိန်ပိုင်း အလုပ်လုပ်ခွင့် ရယူရပါမည်။ ခွင့်ပြုချက် မရှိဘဲ အလုပ်လုပ်လျှင် ဒဏ်ငွေ သို့မဟုတ် ဗီဇာ ပြဿနာ ဖြစ်နိုင်ပါသည်။
+How many hours you may work depends on your degree, year and Korean level (TOPIK). Check on HiKorea and with the International Office.	အလုပ်လုပ်နိုင်သော နာရီသည် ဘွဲ့၊ နှစ်နှင့် ကိုရီးယားစကား အဆင့် (TOPIK) ပေါ် မူတည်ပါသည်။ HiKorea နှင့် နိုင်ငံတကာ ရုံးတွင် စစ်ပါ။
+I work part-time on weekends.	စနေ တနင်္ဂနွေမှာ အချိန်ပိုင်း အလုပ်လုပ်တယ်။
+Because of my part-time job, I don't have enough time to study.	အချိန်ပိုင်း အလုပ်ကြောင့် စာလေ့လာဖို့ အချိန် မလောက်ဘူး။
+part-time work permit	အချိန်ပိုင်း အလုပ်လုပ်ခွင့်
+I got a part-time work permit.	အချိန်ပိုင်း အလုပ်လုပ်ခွင့် ရခဲ့တယ်။
+You must not work without a permit.	ခွင့်ပြုချက် မရှိဘဲ အလုပ် မလုပ်ရပါ။
+You apply for the part-time work permit after getting confirmation from the International Office.	အချိန်ပိုင်း အလုပ်လုပ်ခွင့်ကို နိုင်ငံတကာ ရုံးက အတည်ပြုချက် ရပြီးမှ လျှောက်ရတယ်။
+What's the hourly wage?	နာရီလုပ်ခ ဘယ်လောက်လဲ။
+The 2026 minimum hourly wage is 10,320 won.	၂၀၂၆ အနည်းဆုံး နာရီလုပ်ခက ဝမ် ၁၀,၃၂၀ ပါ။
+minimum	အနည်းဆုံး
+The hourly wage must not be less than the minimum wage.	နာရီလုပ်ခက အနည်းဆုံး လုပ်ခထက် မနည်းရဘူး။
+to be less	နည်းသည်
+working hours	အလုပ်ချိန်
+International students have a fixed limit on working hours.	နိုင်ငံခြား ကျောင်းသားတွေမှာ အလုပ်ချိန် ကန့်သတ်ချက် ရှိတယ်။
+I cut my working hours during exam period.	စာမေးပွဲ ကာလမှာ အလုပ်ချိန် လျှော့ခဲ့တယ်။
+I signed an employment contract.	အလုပ်ခန့် စာချုပ် ချုပ်ခဲ့တယ်။
+Be sure to get a copy of your employment contract.	အလုပ်ခန့် စာချုပ် မိတ္တူကို သေချာ ယူထားပါ။
+You need an employment contract to apply for the permit.	ခွင့်ပြုချက် လျှောက်ဖို့ အလုပ်ခန့် စာချုပ် လိုတယ်။
+weekly holiday allowance	အပတ်စဉ် အားလပ်ရက် ခံစားခွင့်ငွေ
+You can also get a weekly holiday allowance.	အပတ်စဉ် အားလပ်ရက် ခံစားခွင့်ငွေလည်း ရနိုင်တယ်။
+If you work 15 hours or more a week, you get a weekly holiday allowance.	တစ်ပတ်ကို ၁၅ နာရီနဲ့အထက် အလုပ်လုပ်ရင် အပတ်စဉ် အားလပ်ရက် ခံစားခွင့်ငွေ ရတယ်။
+I asked the owner about the weekly holiday allowance.	ပိုင်ရှင်ကို အပတ်စဉ် အားလပ်ရက် ခံစားခွင့်ငွေအကြောင်း မေးခဲ့တယ်။
+boss, owner	သူဌေး၊ ပိုင်ရှင်
+Are you an international student? Do you have a part-time work permit?	နိုင်ငံခြား ကျောင်းသားလား။ အချိန်ပိုင်း အလုပ်လုပ်ခွင့် ရှိလား။
+I'm going to apply after signing the contract. What's the hourly wage?	စာချုပ် ချုပ်ပြီးမှ လျှောက်မှာပါ။ နာရီလုပ်ခ ဘယ်လောက်လဲ။
+Minimum wage. Let's write the employment contract first.	အနည်းဆုံး လုပ်ခ ပါ။ အလုပ်ခန့် စာချုပ်ကို အရင် ရေးကြစို့။
+minimum wage	အနည်းဆုံး လုပ်ခ
+OK. I'll start working once the permit is issued.	ဟုတ်ကဲ့။ ခွင့်ပြုချက် ထွက်ရင် အလုပ် စမယ်။
+Words for the kinds of Jeonju University scholarships and their conditions, based on the school's scholarship guide.	ကျောင်း၏ ပညာသင်ဆု လမ်းညွှန်အပေါ် အခြေခံ၍ ဂျွန်ဂျူ တက္ကသိုလ် ပညာသင်ဆု အမျိုးအစားများနှင့် လိုအပ်ချက်များဆိုင်ရာ စကားလုံးများ။
+At Jeonju University the academic excellence scholarship is 30% of tuition (12+ credits and a GPA of 3.0+ last semester), and the department top-student scholarship is 65% (GPA 3.5+). The school selects students by grades and takes it off the next semester's bill.	ဂျွန်ဂျူ တက္ကသိုလ်တွင် ပညာရေး ထူးချွန် ပညာသင်ဆုသည် ကျောင်းလခ၏ ၃၀% (ပြီးခဲ့သော စာသင်နှစ်ဝက်တွင် ခရက်ဒစ် ၁၂ နှင့်အထက်၊ GPA ၃.၀ နှင့်အထက်) ဖြစ်ပြီး ဌာန ထိပ်ဆုံး ကျောင်းသား ပညာသင်ဆုသည် ၆၅% (GPA ၃.၅ နှင့်အထက်) ဖြစ်ပါသည်။ ကျောင်းက အမှတ်အလိုက် ရွေးပြီး နောက်စာသင်နှစ်ဝက် ငွေတောင်းခံလွှာမှ နုတ်ပေးပါသည်။
+There are also scholarships for StarT program points (3,000 won a point), ambassadors, student council officers and volunteering. All scholarships together can't be more than your tuition.	StarT အစီအစဉ် အမှတ်များ (တစ်မှတ်လျှင် ဝမ် ၃,၀၀၀)၊ သံတမန် ကျောင်းသားများ၊ ကျောင်းသား ကောင်စီ အရာရှိများနှင့် စေတနာ့ဝန်ထမ်းအတွက်လည်း ပညာသင်ဆုများ ရှိပါသည်။ ပညာသင်ဆု အားလုံး ပေါင်းသော်လည်း ကျောင်းလခထက် မပိုနိုင်ပါ။
+Scholarship notices are posted on the school website (Notices › Scholarships) and on your college office board. Also ask the international office which scholarships international students can get.	ပညာသင်ဆု အသိပေးချက်များကို ကျောင်း ဝက်ဘ်ဆိုက် (အသိပေးချက်များ › ပညာသင်ဆုများ) နှင့် ကောလိပ် ရုံး ကြော်ငြာဘုတ်တွင် တင်ပါသည်။ နိုင်ငံခြား ကျောင်းသားများ ရနိုင်သော ပညာသင်ဆုများကို နိုင်ငံတကာ ရုံးတွင်လည်း မေးပါ။
+academic excellence scholarship	ပညာရေး ထူးချွန် ပညာသင်ဆု
+I got an academic excellence scholarship.	ပညာရေး ထူးချွန် ပညာသင်ဆု ရခဲ့တယ်။
+The academic excellence scholarship is 30 percent of tuition.	ပညာရေး ထူးချွန် ပညာသင်ဆုက ကျောင်းလခရဲ့ ၃၀ ရာခိုင်နှုန်း ပါ။
+You need 12 or more credits last semester and a GPA of 3.0 or higher.	ပြီးခဲ့တဲ့ စာသင်နှစ်ဝက်မှာ ခရက်ဒစ် ၁၂ နဲ့အထက်၊ GPA ၃.၀ နဲ့အထက် လိုတယ်။
+top student (first place)	ထိပ်ဆုံး ကျောင်းသား (ပထမ)
+Who is the top student in our department?	ကျွန်ုပ်တို့ ဌာနရဲ့ ထိပ်ဆုံး ကျောင်းသားက ဘယ်သူလဲ။
+The department's top student gets 65 percent of tuition as a scholarship.	ဌာနရဲ့ ထိပ်ဆုံး ကျောင်းသားက ကျောင်းလခရဲ့ ၆၅ ရာခိုင်နှုန်းကို ပညာသင်ဆုအဖြစ် ရတယ်။
+My friend came first in the department this semester.	ကျွန်ုပ် သူငယ်ချင်းက ဒီစာသင်နှစ်ဝက် ဌာနမှာ ပထမ ရခဲ့တယ်။
+How much is tuition for one semester?	စာသင်နှစ်ဝက် တစ်ခုစာ ကျောင်းလခ ဘယ်လောက်လဲ။
+A scholarship can't be more than your tuition.	ပညာသင်ဆုက ကျောင်းလခထက် မပိုနိုင်ဘူး။
+With a scholarship, the tuition on your bill goes down.	ပညာသင်ဆု ရရင် ငွေတောင်းခံလွှာပေါ်က ကျောင်းလခ လျော့သွားတယ်။
+tuition and fees	ကျောင်းလခနှင့် အခကြေးငွေများ
+The scholarship is written on the bill.	ငွေတောင်းခံလွှာပေါ်မှာ ပညာသင်ဆုကို ရေးထားတယ်။
+Check the bill and pay the fees within the period.	ငွေတောင်းခံလွှာကို ကြည့်ပြီး ကာလအတွင်း အခကြေးငွေ ပေးပါ။
+points	အမှတ်များ (points)
+I collected points in the StarT program.	StarT အစီအစဉ်မှာ အမှတ်တွေ စုခဲ့တယ်။
+They give a 3,000-won scholarship for each point.	တစ်မှတ်လျှင် ဝမ် ၃,၀၀၀ ပညာသင်ဆု ပေးတယ်။
+The more points you have, the bigger the scholarship.	အမှတ် များလေ ပညာသင်ဆု ကြီးလေ ပါ။
+student ambassador	ကျောင်းသား သံတမန်
+I'm a school ambassador.	ကျွန်ုပ်က ကျောင်း သံတမန် ပါ။
+Ambassadors get a scholarship for their work.	သံတမန်တွေ သူတို့ လုပ်ငန်းအတွက် ပညာသင်ဆု ရတယ်။
+to be active	လှုပ်ရှားဆောင်ရွက်သည်
+Student council officers can get a scholarship too.	ကျောင်းသား ကောင်စီ အရာရှိတွေလည်း ပညာသင်ဆု ရနိုင်တယ်။
+officer	အရာရှိ
+How do I get a grade scholarship?	အမှတ်အလိုက် ပညာသင်ဆုကို ဘယ်လို ရမလဲ။
+You don't need to apply. The school picks students by their grades.	သီးခြား လျှောက်စရာ မလိုဘူး။ ကျောင်းက အမှတ်အလိုက် ရွေးတယ်။
+What are the conditions?	လိုအပ်ချက်တွေက ဘာတွေလဲ။
+condition	လိုအပ်ချက်
+When do I get the scholarship?	ပညာသင်ဆုကို ဘယ်တော့ ရမလဲ။
+The tuition on next semester's bill goes down.	နောက်စာသင်နှစ်ဝက် ငွေတောင်းခံလွှာပေါ်က ကျောင်းလခ လျော့သွားမယ်။
+These are words for preparing to graduate.	ဘွဲ့ရရန် ပြင်ဆင်ရာတွင် သုံးသော စကားလုံးများ ဖြစ်ပါသည်။
+Check the graduation requirements early and prepare your thesis and credits.	ဘွဲ့ရ လိုအပ်ချက်များကို ကြိုစစ်ပြီး စာတမ်းနှင့် ခရက်ဒစ်များကို ပြင်ဆင်ပါ။
+Graduation requirements (credits, required courses, Korean level, etc.) may differ by department and entry year. Check early at the department office.	ဘွဲ့ရ လိုအပ်ချက်များ (ခရက်ဒစ်၊ မဖြစ်မနေ ဘာသာ၊ ကိုရီးယားစကား အဆင့် စသည်) သည် ဌာနနှင့် ဝင်ခွင့်နှစ်အလိုက် ကွာခြားနိုင်ပါသည်။ ဌာန ရုံးတွင် စောစော စစ်ပါ။
+Degrees go in this order: bachelor's (학사), master's (석사), doctorate (박사).	ဘွဲ့များသည် ဤအစဉ်အတိုင်း ဖြစ်ပါသည်: ဘွဲ့ (학사)၊ မဟာ (석사)၊ ပါရဂူ (박사)။
+I graduate next year.	နောက်နှစ် ဘွဲ့ရမယ်။
+After graduating, I'll go back to the US.	ဘွဲ့ရပြီးရင် အမေရိကားကို ပြန်မယ်။
+graduation thesis	ဘွဲ့ရ စာတမ်း
+I'm writing my graduation thesis.	ဘွဲ့ရ စာတမ်း ရေးနေတယ်။
+I decided on my thesis topic.	စာတမ်း ခေါင်းစဉ်ကို ဆုံးဖြတ်ခဲ့တယ်။
+My academic advisor reviews my thesis.	လမ်းညွှန် ပါမောက္ခက ကျွန်ုပ် စာတမ်းကို စစ်ပေးတယ်။
+My parents are coming to the graduation ceremony.	ဘွဲ့နှင်းသဘင်ကို မိဘတွေ လာမယ်။
+I took lots of photos on graduation day.	ဘွဲ့နှင်းသဘင် နေ့မှာ ဓာတ်ပုံ အများကြီး ရိုက်ခဲ့တယ်။
+The graduation ceremony is usually in February.	ဘွဲ့နှင်းသဘင်က များသောအားဖြင့် ဖေဖော်ဝါရီလမှာ ပါ။
+I received a bachelor's degree.	ဘွဲ့ ရခဲ့တယ်။
+bachelor's	ဘွဲ့ (bachelor's)
+I want to get a master's degree.	မဟာဘွဲ့ ယူချင်တယ်။
+master's	မဟာဘွဲ့
+A degree helps with getting a job.	ဘွဲ့ ရရင် အလုပ်ရဖို့ အထောက်အကူ ဖြစ်တယ်။
+graduation requirements	ဘွဲ့ရ လိုအပ်ချက်များ
+Check the graduation requirements.	ဘွဲ့ရ လိုအပ်ချက်တွေကို စစ်ပါ။
+Graduation requirements differ by department.	ဘွဲ့ရ လိုအပ်ချက်တွေက ဌာနအလိုက် ကွာတယ်။
+I didn't have enough credits, so I didn't meet the graduation requirements.	ခရက်ဒစ် မလောက်လို့ ဘွဲ့ရ လိုအပ်ချက် မပြည့်ခဲ့ဘူး။
+graduation cap	ဘွဲ့ဦးထုပ်
+I wore a graduation cap and took photos.	ဘွဲ့ဦးထုပ် ဆောင်းပြီး ဓာတ်ပုံ ရိုက်ခဲ့တယ်။
+We threw our caps in the air.	ဦးထုပ်တွေကို လေထဲ ပစ်လွှင့်ခဲ့ကြတယ်။
+We rent the gown and cap.	ဘွဲ့ဝတ်စုံနဲ့ ဦးထုပ်ကို ငှားကြတယ်။
+to rent, borrow	ငှားသည်
+John, did you finish your thesis?	ဂျွန်၊ ဘွဲ့ရ စာတမ်း ပြီးပြီလား။
+Almost. Professor Hwang looked at it for me.	ပြီးခါနီးပြီ။ ပါမောက္ခ ဟွမ်က ကြည့်ပေးခဲ့တယ်။
+Are your parents coming to the graduation ceremony?	ဘွဲ့နှင်းသဘင်ကို မိဘတွေ လာမလား။
+Yes, they're coming from the US.	လာမယ်၊ အမေရိကားကနေ လာကြမယ်။
+These are words for deciding your path after graduation and finding a job.	ဘွဲ့ရပြီးနောက် လမ်းကြောင်း ဆုံးဖြတ်ခြင်းနှင့် အလုပ်ရှာခြင်းဆိုင်ရာ စကားလုံးများ ဖြစ်ပါသည်။
+Decide your path and prepare internships, résumés and visas in advance.	လမ်းကြောင်းကို ဆုံးဖြတ်ပြီး အလုပ်သင်၊ ကိုယ်ရေးရာဇဝင်နှင့် ဗီဇာများကို ကြိုပြင်ဆင်ပါ။
+Being good at both English and Korean is a big advantage at Korean companies, in Korea or in your home country.	အင်္ဂလိပ်နှင့် ကိုရီးယားစကား နှစ်မျိုးလုံး တော်ခြင်းသည် ကိုရီးယား သို့မဟုတ် ကိုယ့်နိုင်ငံရှိ ကိုရီးယား ကုမ္ပဏီများတွင် အားသာချက် ကြီး ဖြစ်ပါသည်။
+The school's career support office helps with résumés and interviews. Check visa conditions on HiKorea and with the International Office.	ကျောင်း၏ အလုပ်အကိုင် ပံ့ပိုးရေး ရုံးက ကိုယ်ရေးရာဇဝင်နှင့် အင်တာဗျူးအတွက် ကူညီပါသည်။ ဗီဇာ လိုအပ်ချက်များကို HiKorea နှင့် နိုင်ငံတကာ ရုံးတွင် စစ်ပါ။
+I'm thinking about my career path.	ကျွန်ုပ် အသက်မွေးဝမ်းကျောင်း လမ်းကြောင်းအကြောင်း စဉ်းစားနေတယ်။
+to think hard, worry	ပြင်းပြင်းထန်ထန် စဉ်းစားသည်၊ စိုးရိမ်သည်
+My path after graduation is decided.	ဘွဲ့ရပြီးနောက် လမ်းကြောင်း ဆုံးဖြတ်ပြီးပြီ။
+I got a job at a Korean company.	ကိုရီးယား ကုမ္ပဏီမှာ အလုပ် ရခဲ့တယ်။
+company	ကုမ္ပဏီ
+I'm preparing to find a job.	အလုပ်ရှာဖို့ ပြင်ဆင်နေတယ်။
+I want to get a job at a Korean company in Singapore.	စင်ကာပူရှိ ကိုရီးယား ကုမ္ပဏီမှာ အလုပ် ရချင်တယ်။
+graduate school	ဘွဲ့လွန် ကျောင်း
+I want to go to graduate school.	ဘွဲ့လွန် ကျောင်း တက်ချင်တယ်။
+I submitted my graduate school application.	ဘွဲ့လွန် ကျောင်း လျှောက်လွှာ တင်ခဲ့တယ်။
+I'll study more hotel management in graduate school.	ဘွဲ့လွန် ကျောင်းမှာ ဟိုတယ် စီမံခန့်ခွဲမှုကို ပိုလေ့လာမယ်။
+intern, internship	အလုပ်သင်
+Internship experience helps.	အလုပ်သင် အတွေ့အကြုံက အထောက်အကူ ဖြစ်တယ်။
+I work as an intern at a hotel in Jeonju.	ဂျွန်ဂျူက ဟိုတယ်မှာ အလုပ်သင်အဖြစ် လုပ်နေတယ်။
+résumé, CV	ကိုယ်ရေးရာဇဝင် (CV)
+I wrote my résumé.	ကိုယ်ရေးရာဇဝင် ရေးခဲ့တယ်။
+I attached a photo to my résumé.	ကိုယ်ရေးရာဇဝင်မှာ ဓာတ်ပုံ ကပ်ခဲ့တယ်။
+I wrote my English and Korean skills on my résumé.	ကိုယ်ရေးရာဇဝင်မှာ အင်္ဂလိပ်နဲ့ ကိုရီးယားစကား ကျွမ်းကျင်မှုကို ရေးခဲ့တယ်။
+job-seeking visa (D-10)	အလုပ်ရှာ ဗီဇာ (D-10)
+After graduation, I changed to a job-seeking visa.	ဘွဲ့ရပြီးနောက် အလုပ်ရှာ ဗီဇာကို ပြောင်းခဲ့တယ်။
+A job-seeking visa lets you stay while you look for work.	အလုပ်ရှာ ဗီဇာက အလုပ်ရှာနေတုန်း နေထိုင်ခွင့် ပေးတယ်။
+to stay	နေထိုင်သည်
+I asked the International Office about the job-seeking visa conditions.	အလုပ်ရှာ ဗီဇာ လိုအပ်ချက်တွေကို နိုင်ငံတကာ ရုံးမှာ မေးခဲ့တယ်။
+Have you decided what to do after graduation?	ဘွဲ့ရပြီးရင် ဘာလုပ်မလဲ ဆုံးဖြတ်ပြီးပြီလား။
+Professor Lim, I'd like to get a job at a Korean company. But I'm worried about my visa.	ဆရာမ လင်မ်၊ ကိုရီးယား ကုမ္ပဏီမှာ အလုပ် ရချင်ပါတယ်။ ဒါပေမဲ့ ဗီဇာအတွက် စိုးရိမ်တယ်။
+Ask the International Office about the job-seeking visa. An internship over the vacation would also help.	အလုပ်ရှာ ဗီဇာအကြောင်း နိုင်ငံတကာ ရုံးကို မေးပါ။ ကျောင်းပိတ်ရက်မှာ အလုပ်သင် ဆင်းတာလည်း အထောက်အကူ ဖြစ်မယ်။
+job-seeking visa	အလုပ်ရှာ ဗီဇာ
+Yes, I'll start by preparing my résumé.	ဟုတ်ကဲ့၊ ကိုယ်ရေးရာဇဝင်ကနေ စပြင်ဆင်မယ်။
+These are farewells to professors and friends when you graduate or go back home.	ဘွဲ့ရသောအခါ သို့မဟုတ် ဇာတိ ပြန်သောအခါ ပါမောက္ခများနှင့် သူငယ်ချင်းများကို နှုတ်ဆက်ခြင်း ဖြစ်ပါသည်။
+When you say goodbye, give thanks and promise to stay in touch.	နှုတ်ဆက်သောအခါ ကျေးဇူးတင်ကြောင်း ပြောပြီး အဆက်အသွယ် ထားမည်ဟု ကတိပြုပါ။
+"덕분에" shows thanks when something good happened because of someone's help. For bad results, use "때문에".	"덕분에" သည် တစ်စုံတစ်ယောက်၏ အကူအညီကြောင့် ကောင်းသည့်အရာ ဖြစ်လာသောအခါ ကျေးဇူးတင်ကြောင်း ပြပါသည်။ မကောင်းသော ရလဒ်အတွက် "때문에" ကို သုံးပါ။
+To a professor say "감사했습니다"; to a friend, "고마웠어".	ပါမောက္ခကို "감사했습니다"၊ သူငယ်ချင်းကို "고마웠어" ဟု ပြောပါ။
+thank you for everything	အားလုံးအတွက် ကျေးဇူးတင်ပါတယ်
+Professor, thank you for everything.	ဆရာ၊ အားလုံးအတွက် ကျေးဇူးတင်ပါတယ်။
+all this time	ဒီကာလ တစ်လျှောက်
+Thank you so much for these four years.	ဒီလေးနှစ်အတွက် အရမ်း ကျေးဇူးတင်ပါတယ်။
+Thank you for teaching me so much.	အများကြီး သင်ပေးခဲ့လို့ ကျေးဇူးတင်ပါတယ်။
+Thanks to you, I was able to graduate.	စီနီယာကြောင့် ဘွဲ့ရနိုင်ခဲ့တယ်။
+Thanks to you, Professor, I learned a lot.	ဆရာ့ကြောင့် အများကြီး သင်ယူခဲ့ရပါတယ်။
+I had a great time thanks to all of you.	အားလုံးကြောင့် ပျော်ပျော်ရွှင်ရွှင် ဖြတ်သန်းခဲ့ရတယ်။
+I'll keep in touch	အဆက်အသွယ် ထားပါမယ်
+I'll keep in touch even after I go home.	ဇာတိ ပြန်ရောက်ရင်လည်း အဆက်အသွယ် ထားပါမယ်။
+hometown, home country	ဇာတိ၊ ကိုယ့်နိုင်ငံ
+I'll contact you often.	မကြာခဏ ဆက်သွယ်ပါမယ်။
+I'll contact you when I arrive in Athens.	အေသင်ကို ရောက်ရင် ဆက်သွယ်ပါမယ်။
+Athens	အေသင်
+take care, stay healthy	ကျန်းမာစွာ နေပါ
+Professor, please stay healthy always.	ဆရာ၊ အမြဲ ကျန်းမာစွာ နေပါ။
+Thanks for everything. Take care.	အားလုံးအတွက် ကျေးဇူးပဲ။ ကျန်းမာစွာ နေပါ။
+Take care until we meet again.	ပြန်တွေ့ချိန်အထိ ကျန်းမာစွာ နေပါ။
+let's meet again for sure	သေချာပေါက် ပြန်တွေ့ကြစို့
+Let's meet again for sure.	ကျွန်ုပ်တို့ သေချာပေါက် ပြန်တွေ့ကြစို့။
+for sure	သေချာပေါက်
+Let's meet again in Seoul.	ဆိုးလ်မှာ ပြန်တွေ့ကြစို့။
+I'll come to Jeonju again. Let's meet again.	ဂျွန်ဂျူကို ထပ်လာမယ်။ ပြန်တွေ့ကြစို့။
+Professor Shim, thank you for everything. Thanks to you, I was able to graduate.	ဆရာ ရှင်မ်၊ အားလုံးအတွက် ကျေးဇူးတင်ပါတယ်။ ဆရာ့ကြောင့် ဘွဲ့ရနိုင်ခဲ့ပါတယ်။
+You worked hard. Keep in touch after you go back to Greece.	ကြိုးစားခဲ့တာ ချီးကျူးပါတယ်။ ဂရိ ပြန်ရောက်ရင် အဆက်အသွယ် ထားပါ။
+hard work	ကြိုးစားအားထုတ်မှု
+Yes, I'll be sure to contact you. Please stay healthy.	ဟုတ်ကဲ့၊ သေချာပေါက် ဆက်သွယ်ပါမယ်။ ကျန်းမာစွာ နေပါ။
+You too, Nikos. Take care.	နီကို့စ်လည်း ကျန်းမာစွာ နေပါ။
+to submit documents	စာရွက်စာတမ်း တင်သည်
+to receive documents	စာရွက်စာတမ်း လက်ခံသည်
+to issue	ထုတ်ပေးသည်
+entering a country	နိုင်ငံဝင်ခြင်း
+leaving a country	နိုင်ငံထွက်ခြင်း
+to guide, inform	လမ်းညွှန်သည်၊ အသိပေးသည်
+I'd like to get advice.	အကြံဉာဏ် ယူချင်ပါတယ်။
+personal	ကိုယ်ပိုင်
+moving into a dorm	အဆောင် ဝင်ခြင်း
+moving out of a dorm	အဆောင် ထွက်ခြင်း
+you may	... လို့ ရတယ်
+you must not	... ရင် မရဘူး
+staying out overnight	အပြင်မှာ ညအိပ်ခြင်း
+living alone	တစ်ယောက်တည်း နေခြင်း
+to move in	ပြောင်းလာသည်
+by car	ကားနဲ့
+back gate	နောက်ပေါက်
+borrowing	ငှားယူခြင်း
+returning	ပြန်အပ်ခြင်း
+upstairs	အပေါ်ထပ်
+downstairs	အောက်ထပ်
+to eat in	ဆိုင်မှာ စားသွားသည်
+to be bland	အရသာ ပေါ့သည်
+passing	အောင်ခြင်း
+failing	ကျခြင်း
+beginner	အခြေခံ အဆင့်
+intermediate	အလယ်အဆင့်
+advanced	အဆင့်မြင့်
+general education	အထွေထွေ ပညာရေး ဘာသာ
+end of classes	စာသင်ချိန် ပြီးဆုံးခြင်း
+preparing before class	အတန်းမတိုင်မီ ကြိုလေ့လာခြင်း
+reviewing after class	အတန်းပြီးနောက် ပြန်လေ့လာခြင်း
+That's all for today.	ဒီနေ့ ဒီလောက်ပါပဲ။
+in-person class	မျက်နှာချင်းဆိုင် အတန်း
+agreement	ထောက်ခံခြင်း
+disagreement	ကန့်ကွက်ခြင်း
+English-taught class	အင်္ဂလိပ်လို သင်သော အတန်း
+Korean-taught class	ကိုရီးယားလို သင်သော အတန်း
+before the deadline	နောက်ဆုံးရက် မတိုင်မီ
+after the deadline	နောက်ဆုံးရက် ကျော်ပြီးနောက်
+presenter	တင်ပြသူ
+audience	ပရိသတ်
+Please look at the screen.	မျက်နှာပြင်ကို ကြည့်ပေးပါ။
+grades go up	အမှတ် တက်သည်
+grades go down	အမှတ် ကျသည်
+pass	အောင်
+fail	ကျ
+F	F (ကျ)
+to meet (polite)	တွေ့ဆုံသည် (ယဉ်ကျေး)
+junior	ဂျူနီယာ
+Thank you for your time.	အချိန်ပေးလို့ ကျေးဇူးတင်ပါတယ်။
+joining	အသင်းဝင်ခြင်း
+leaving	အသင်းမှ ထွက်ခြင်း
+to watch, look around	လှည့်ကြည့်သည်
+end-of-semester party	စာသင်နှစ်ဝက် ပြီးဆုံး ပါတီ
+You can speak casually with me.	ကျွန်ုပ်နဲ့ ရင်းရင်းနှီးနှီး ပြောလို့ ရပါတယ်။
+in installments	အရစ်ကျ
+monthly salary	လစာ
+illegal	တရားမဝင်
+bachelor's degree	ဘွဲ့ (bachelor's)
+master's degree	မဟာဘွဲ့
+going on to further study	ဆက်လက် ပညာသင်ခြင်း
+intern	အလုပ်သင်
+permanent employee	အမြဲတမ်း ဝန်ထမ်း
+thanks to (good result)	... ကြောင့် (ကောင်းသော ရလဒ်)
+because of (bad result)	... ကြောင့် (မကောင်းသော ရလဒ်)
+Where is the Star Center?	Star Center ဘယ်မှာလဲ။
+This concludes my presentation.	ဒါနဲ့ ကျွန်ုပ် တင်ပြချက် ပြီးဆုံးပါပြီ။
+Thank you for everything.	အားလုံးအတွက် ကျေးဇူးတင်ပါတယ်။
