@@ -298,3 +298,31 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
 :root[data-theme="dark"] #app .tiptog{background:#3A3112;color:#FFD95A}
 #app .band{border-top:4px solid #FFC20E}
 #app .sub[aria-selected="true"],#app .sub[aria-pressed="true"]{border-color:#F2B200}
+/* v1.20 language: 🌐 button in the search box, the picker sheet, the line under the theme row */
+#app label.search{position:relative}
+#app label.search input{padding-right:74px}
+#app .langbtn{position:absolute;top:50%;right:6px;transform:translateY(-50%);z-index:2;display:inline-flex;align-items:center;gap:3px;border:1px solid var(--line2,var(--line));background:var(--sheet);color:var(--accent);border-radius:999px;padding:4px 10px;font:600 13px/1.2 system-ui,sans-serif;cursor:pointer}
+#app .langbtn span{font-size:15px}
+.langsheet{position:fixed;inset:0;z-index:9999}
+.langsheet .lsbg{position:absolute;inset:0;background:rgba(0,0,0,.45)}
+.langsheet .lscard{position:absolute;left:50%;top:max(60px,12vh);transform:translateX(-50%);width:min(440px,calc(100% - 24px));box-sizing:border-box;max-height:calc(100% - 80px);overflow:auto;background:var(--sheet);color:var(--ink);border-radius:20px;padding:18px 16px 12px;box-shadow:0 12px 40px rgba(0,0,0,.3)}
+.langsheet .lshead{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.langsheet .lshead img{height:46px;width:auto}
+.langsheet .lst{font-weight:700;font-size:18px}
+.langsheet .lss,.langsheet .lsnote,.langsheet .lsfoot{font-size:13px;color:var(--muted)}
+.langsheet .lsnote{margin:6px 0 10px}
+.langsheet .lsfoot{margin:10px 0 2px;text-align:center;font-size:12px}
+.langsheet .lsopt{display:flex;width:100%;align-items:center;gap:10px;padding:11px 12px;margin:6px 0;border-radius:14px;border:1px solid var(--line);background:var(--sheet);color:var(--ink);font:inherit;text-align:left;cursor:pointer}
+.langsheet .lsopt.on{border:2px solid var(--accent);background:var(--accent-soft,var(--sheet));padding:10px 11px}
+.langsheet .lsopt:disabled{opacity:.55;cursor:default}
+.langsheet .lsopt b{min-width:28px;font-size:12px;color:var(--accent)}
+.langsheet .lsn{flex:1;font-size:16px;font-weight:600}
+.langsheet .lsn .ko{font-size:12.5px;color:var(--muted);font-weight:400}
+.langsheet .lsok{color:var(--accent);font-weight:700}
+.langsheet .lssoon{font-size:11.5px;color:var(--muted)}
+#app .langline{text-align:center;margin:6px 0 0}
+#app .langline .pb{border:1px solid var(--line);background:var(--sheet);color:var(--ink);border-radius:999px;padding:5px 14px;font:inherit;font-size:13px;cursor:pointer}
+/* v1.20: AI-translation note on the help pages (vi) */
+.vinote{background:#FFF3C4;border-left:4px solid #FFC20E;padding:.6em .8em;border-radius:6px;font-size:.92em}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .vinote{background:#3A3112}}
+:root[data-theme="dark"] .vinote{background:#3A3112}

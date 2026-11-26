@@ -4,7 +4,10 @@
    Packs are kept in IndexedDB (store "c", key "p:" + code, value {h: hash, b: bytes}), next to the single clips that older versions saved
    there (key = clip name); those still play. Same file can be copied to the other apps: makeAudioPack({db: "<their IndexedDB name>"}). */
 function makeAudioPack(opt){
-  const IDX = window.AUDIO_INDEX || {}, PACKS = window.AUDIO_PACKS || [], base = opt.base || "audio/";
+  const IDX = Object.assign({}, window.AUDIO_INDEX || {}), PACKS = (window.AUDIO_PACKS || []).slice(), base = opt.base || "audio/";
+  /* v1.20: the meanings of the chosen language come in their own packs (audio/index-<lang>.js → AUDIO_LANG); a lesson needs both */
+  const LA = window.AUDIO_LANG, NK = PACKS.length, byLang = new Map();
+  if (LA && window.AUDIO_INDEX){ PACKS.push(...LA.packs); for (const k in LA.index) IDX[k] = LA.index[k] + NK; LA.packs.forEach((p, i) => byLang.set(p[0].split("/").pop(), NK + i)); }
   const byCode = new Map(PACKS.map((p, i) => [p[0], i]));
   const MEM = new Map(), PEND = new Map(), LIMIT = 4000;   // clip name -> blob URL (about 25 MB at most)
   let _db;
@@ -42,7 +45,7 @@ function makeAudioPack(opt){
       return get(k).then(b => { if (b){ remember(k, b); return MEM.get(k); }
         return load(IDX[k]).then(() => MEM.get(k) || null); });
     },
-    warm: code => load(byCode.get(code)),   // a lesson is opened: get its clips ready
+    warm: code => Promise.all([load(byCode.get(code)), load(byLang.get(code))]).then(r => r[0]),   // a lesson is opened: get its clips ready
     count: () => PACKS.length,
     sig: () => PACKS.map(p => p[1]).join("").length ? String(PACKS.length) + ":" + PACKS.reduce((s, p) => (s * 31 + parseInt(p[1], 16)) % 2147483647, 7) : "",
     /* save every pack in IndexedDB for offline use; tick(done, total) */

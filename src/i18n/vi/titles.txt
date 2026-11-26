@@ -1,0 +1,123 @@
+# code | lesson title in Tiếng Việt (shown in brackets after the Korean title). Machine-made by Claude: please have a native speaker check it.
+HP-A-01 | Ứng dụng này là gì?
+HP-A-02 | Giới thiệu các menu
+HP-A-03 | Giọng đọc và phiên âm
+HP-B-01 | Bắt đầu
+HP-B-02 | Câu · Từ · Đố vui
+HP-B-03 | Cách phát âm thanh
+HP-B-04 | Phím tắt
+HP-B-05 | Cách dùng Luyện nghe
+HP-B-06 | Lưu âm thanh và dùng khi không có mạng
+HP-C-01 | Thống kê học tập
+HP-C-02 | Gửi góp ý
+K1-A-01 | Nguyên âm cơ bản ㅏ·ㅓ·ㅗ·ㅜ·ㅡ·ㅣ
+K1-A-02 | Nguyên âm cơ bản ㅐ·ㅔ
+K1-A-03 | Nguyên âm ghép ㅑ·ㅕ·ㅛ·ㅠ·ㅒ·ㅖ
+K1-A-04 | Nguyên âm ghép ㅘ·ㅝ·ㅙ·ㅞ
+K1-A-05 | Nguyên âm ghép ㅚ·ㅟ·ㅢ
+K1-B-01 | Phụ âm cơ bản ㄱ·ㄴ·ㄷ·ㄹ·ㅁ
+K1-B-02 | Phụ âm cơ bản ㅂ·ㅅ·ㅇ·ㅈ·ㅎ
+K1-B-03 | Phụ âm bật hơi ㅋ·ㅌ·ㅍ·ㅊ
+K1-B-04 | Phụ âm căng ㄲ·ㄸ·ㅃ·ㅆ·ㅉ
+K1-C-01 | Phụ âm cuối ㅁ ㅇ
+K1-C-02 | Phụ âm cuối ㄴ ㄹ
+K1-C-03 | Phụ âm cuối ㄱ ㅂ ㄷ
+K1-C-04 | Phụ âm cuối kép
+K1-D-01 | Ghép âm tiết
+K1-D-02 | Nối âm
+K1-D-03 | Đọc những từ đầu tiên
+K1-E-01 | Âm ㄱ·ㅋ·ㄲ
+K1-E-02 | Âm ㄷ·ㅌ·ㄸ
+K1-E-03 | Âm ㅂ·ㅍ·ㅃ
+K1-E-04 | Âm ㅈ·ㅊ·ㅉ
+K1-E-05 | Âm ㅅ·ㅆ
+K1-F-01 | Âm ㅓ·ㅗ
+K1-F-02 | Âm ㅡ·ㅜ
+K1-F-03 | Âm ㅐ·ㅔ
+K1-F-04 | Âm ㅚ·ㅙ·ㅞ và ㅢ
+K1-G-01 | Phụ âm cuối ㄴ·ㅇ·ㅁ
+K1-G-02 | Phụ âm cuối ㄹ
+K1-G-03 | Phụ âm cuối đọc là [ㄷ]
+K1-H-01 | Biến thành âm mũi
+K1-H-02 | Biến thành âm căng
+K1-H-03 | ㅎ tạo âm bật hơi
+K1-H-04 | ㅎ đọc nhẹ đi
+K1-H-05 | 같이 đọc là [가치]
+K1-H-06 | Khi ㄴ gặp ㄹ
+K1-I-01 | Câu hỏi và câu trả lời
+K1-I-02 | Câu hỏi có từ để hỏi (gì, ở đâu...)
+K1-I-03 | Ngữ điệu khi nhờ và ra lệnh
+K1-Z-01 | Ôn phát âm
+K2-A-01 | Chào hỏi lần đầu
+K2-A-02 | Cảm ơn · Xin lỗi
+K2-A-03 | Tên và tuổi
+K2-A-04 | Đất nước và quốc tịch
+K2-A-05 | Vâng · Không · Xin nói lại
+K2-A-06 | Cảm xúc trong một từ
+K2-A-07 | Hỏi và trả lời
+K2-B-01 | Gia đình
+K2-B-02 | Hôn nhân và anh chị em
+K2-B-03 | Ngoại hình
+K2-B-04 | Tính cách
+K2-B-05 | Bạn bè · Hàng xóm
+K2-C-01 | Số Hán Hàn
+K2-C-02 | Số thuần Hàn
+K2-C-03 | Ngày và thứ
+K2-C-04 | Hôm nay · Ngày mai · Hôm qua
+K2-C-05 | Nói giờ
+K2-C-06 | Sinh hoạt hằng ngày
+K2-C-07 | Đếm tiền
+K2-D-01 | Món ăn Hàn Quốc
+K2-D-02 | Đồ uống và đồ ăn vặt
+K2-D-03 | Gọi món ở nhà hàng
+K2-D-04 | Vị
+K2-D-05 | Thanh toán
+K2-D-06 | Gọi đồ ăn giao tận nơi
+K2-D-07 | Thịt và cá
+K2-D-08 | Gia vị
+K2-D-09 | Nấu ăn
+K2-E-01 | Ở cửa hàng
+K2-E-02 | Giá cả và mặc cả
+K2-E-03 | Quần áo và giày dép
+K2-E-04 | Màu sắc
+K2-E-05 | Kích cỡ và mặc thử
+K2-E-06 | Trái cây và rau củ
+K2-E-07 | Đổi hàng và hoàn tiền
+K2-F-01 | Phương tiện giao thông
+K2-F-02 | Vị trí
+K2-F-03 | Hướng đi và hỏi đường
+K2-F-04 | Đi xe và chuyển tuyến
+K2-F-05 | Tên địa điểm
+K2-F-06 | Khoảng cách và thời gian đi
+K2-G-01 | Các phần của ngôi nhà
+K2-G-02 | Đồ đạc và đồ điện
+K2-G-03 | Việc nhà
+K2-G-04 | Sống chung
+K2-G-05 | Tìm nhà và chuyển nhà
+K2-G-06 | Đồ dùng hằng ngày
+K2-H-01 | Cơ thể
+K2-H-02 | Triệu chứng
+K2-H-03 | Ở bệnh viện
+K2-H-04 | Ở hiệu thuốc
+K2-H-05 | Khi bị thương
+K2-I-01 | Ngân hàng
+K2-I-02 | Gửi tiền và đổi tiền
+K2-I-03 | Bưu điện và bưu phẩm
+K2-I-04 | Điện thoại di động
+K2-I-05 | Mẫu câu khi gọi điện
+K2-J-01 | Thời tiết
+K2-J-02 | Bốn mùa
+K2-J-03 | Nhiệt độ và trang phục
+K2-K-01 | Sở thích
+K2-K-02 | Thể thao
+K2-K-03 | Ngày nghỉ
+K2-K-04 | Du lịch
+K2-K-05 | Phim và chương trình
+K2-L-01 | Lên kế hoạch
+K2-L-02 | Mời và thăm nhà
+K2-L-03 | Từ chối và đổi kế hoạch
+K2-L-04 | Đám cưới và đám tang
+K2-N-01 | Phép lịch sự khi ăn
+K2-N-02 | Gặp người lớn tuổi
+K2-N-03 | Ngày lễ truyền thống
+K2-N-04 | Quy tắc nơi công cộng

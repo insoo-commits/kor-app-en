@@ -6,7 +6,7 @@
   python3 tools/tts_gen.py      # makes only the clips that are missing; safe to stop and run again
   node build.js                 # registers the new clips in audio/index.js
 
-Options:  --lang ko|en   only one language      --limit N   stop after N clips      --jobs N   parallel requests (default 4)
+Options:  --lang ko|en|vi   only one language      --limit N   stop after N clips      --jobs N   parallel requests (default 4)
 Voices: Korean ko-KR-SunHiNeural, English en-US-AvaNeural. Output: 24 kbps mono mp3 (RYU's choice in the Lao app).
 Needs network access to speech.platform.bing.com. Behind a proxy, HTTPS_PROXY is used automatically.
 """
@@ -18,8 +18,8 @@ if os.path.exists("/root/.ccr/ca-bundle.crt"):   # cloud session proxy: edge-tts
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AUDIO = os.path.join(ROOT, "audio")
-VOICE = {"ko": "ko-KR-SunHiNeural", "en": "en-US-AvaNeural", "km": "ko-KR-InJoonNeural"}   # km: 남자 lines of TOPIK listening questions
-BITRATE = {"ko": "16k", "en": "16k", "km": "16k"}   # both 16k (RYU 2026-11-16; 8k sounded bad)
+VOICE = {"ko": "ko-KR-SunHiNeural", "en": "en-US-AvaNeural", "km": "ko-KR-InJoonNeural", "vi": "vi-VN-HoaiMyNeural"}   # km: 남자 lines of TOPIK listening questions
+BITRATE = {"ko": "16k", "en": "16k", "km": "16k", "vi": "16k"}   # both 16k (RYU 2026-11-16; 8k sounded bad)
 VOWEL = dict(zip("ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ", "아애야얘어에여예오와왜외요우워웨위유으의이"))
 
 
@@ -64,7 +64,7 @@ async def make(clip, sem, proxy, failed):
 
 async def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--lang", choices=["ko", "en", "km"])
+    ap.add_argument("--lang", choices=["ko", "en", "km", "vi"])
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--jobs", type=int, default=4)
     a = ap.parse_args()
