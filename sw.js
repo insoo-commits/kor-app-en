@@ -1,5 +1,5 @@
-const SHELL="koen-shell-2026-11-26-v1.21.13";
-const FILES=["./","index.html","app.js","audio/index.js","audio/index-en.js","audio/index-ne.js","audio/index-vi.js","manifest.webmanifest","icon.svg","data/K2.json","data/K1.json","data/K6.json","data/K7.json","data/LS.json","data/TP.json","data/K4.json","data/K5.json","data/KR.json","data/JB.json","data/HP.json"];
+const SHELL="koen-shell-2026-11-26-v1.22.0";
+const FILES=["./","index.html","app.js","audio/index.js","audio/index-en.js","audio/index-my.js","audio/index-ne.js","audio/index-vi.js","manifest.webmanifest","icon.svg","data/K2.json","data/K1.json","data/K6.json","data/K7.json","data/LS.json","data/TP.json","data/K4.json","data/K5.json","data/KR.json","data/JB.json","data/HP.json"];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(SHELL).then(c=>Promise.all(FILES.map(f=>fetch(new Request(f,{cache:"reload"})).then(r=>{if(r.ok)return c.put(f,r)}).catch(()=>{})))).then(()=>self.skipWaiting()))});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith("koen-shell-")&&k!==SHELL).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 /* Audio clips are kept in IndexedDB ("ko-audio" / store "c", key = clip name), not CacheStorage: with thousands of entries iPhone is slow to open CacheStorage (lesson from the Lao app). */
