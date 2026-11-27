@@ -1839,17 +1839,18 @@ html.tab #app .band .bandtxt .tipbox{font-size:16.2px!important}
 #app label.search input{padding-right:74px}
 #app .langbtn{position:absolute;top:50%;right:6px;transform:translateY(-50%);z-index:2;display:inline-flex;align-items:center;gap:3px;border:1px solid var(--line2,var(--line));background:var(--sheet);color:var(--accent);border-radius:999px;padding:4px 10px;font:600 13px/1.2 system-ui,sans-serif;cursor:pointer}
 #app .langbtn span{font-size:15px}
-.langsheet{position:fixed;inset:0;z-index:9999}
+.langsheet{position:fixed;inset:0;z-index:9999;overscroll-behavior:contain}
+html.lsopen,html.lsopen body{overflow:hidden}
 .langsheet .lsbg{position:absolute;inset:0;background:rgba(0,0,0,.45)}
-.langsheet .lscard{position:absolute;left:50%;top:max(60px,12vh);transform:translateX(-50%);width:min(440px,calc(100% - 24px));box-sizing:border-box;max-height:calc(100% - 80px);overflow:auto;background:var(--sheet);color:var(--ink);border-radius:20px;padding:18px 16px 12px;box-shadow:0 12px 40px rgba(0,0,0,.3)}
+.langsheet .lscard{position:absolute;left:50%;top:max(24px,6vh);transform:translateX(-50%);width:min(440px,calc(100% - 24px));box-sizing:border-box;max-height:calc(100% - 48px);max-height:calc(100dvh - 48px);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;touch-action:pan-y;background:var(--sheet);color:var(--ink);border-radius:20px;padding:18px 16px 12px;box-shadow:0 12px 40px rgba(0,0,0,.3)}
 .langsheet .lshead{display:flex;align-items:center;gap:10px;margin-bottom:4px}
 .langsheet .lshead img{height:46px;width:auto}
 .langsheet .lst{font-weight:700;font-size:18px}
 .langsheet .lss,.langsheet .lsnote,.langsheet .lsfoot{font-size:13px;color:var(--muted)}
 .langsheet .lsnote{margin:6px 0 10px}
 .langsheet .lsfoot{margin:10px 0 2px;text-align:center;font-size:12px}
-.langsheet .lsopt{display:flex;width:100%;align-items:center;gap:10px;padding:11px 12px;margin:6px 0;border-radius:14px;border:1px solid var(--line);background:var(--sheet);color:var(--ink);font:inherit;text-align:left;cursor:pointer}
-.langsheet .lsopt.on{border:2px solid var(--accent);background:var(--accent-soft,var(--sheet));padding:10px 11px}
+.langsheet .lsopt{display:flex;width:100%;align-items:center;gap:10px;padding:7px 12px;margin:4px 0;border-radius:14px;border:1px solid var(--line);background:var(--sheet);color:var(--ink);font:inherit;text-align:left;cursor:pointer}
+.langsheet .lsopt.on{border:2px solid var(--accent);background:var(--accent-soft,var(--sheet));padding:6px 11px}
 .langsheet .lsopt:disabled{opacity:.55;cursor:default}
 .langsheet .lsopt b{min-width:28px;font-size:12px;color:var(--accent)}
 .langsheet .lsn{flex:1;font-size:16px;font-weight:600}
@@ -2097,8 +2098,8 @@ html.introon{overflow:hidden}
 #intro .lpwrap{position:relative;z-index:30}
 #intro.D .nav .lpwrap{margin-left:auto}
 #intro .langpill{cursor:pointer;font:inherit;font-size:13px;font-weight:600}
-#intro .lpmenu{position:absolute;right:0;top:calc(100% + 8px);min-width:220px;background:var(--ms);color:var(--mi);border:1px solid var(--ml);border-radius:16px;box-shadow:0 18px 40px rgba(0,20,50,.3);padding:6px;display:grid;gap:2px;text-shadow:none}
-#intro .lpmenu button{display:flex;align-items:center;gap:10px;border:0;background:none;color:inherit;border-radius:10px;padding:8px 10px;text-align:left;font:inherit;font-size:.92em;cursor:pointer}
+#intro .lpmenu{position:absolute;right:0;top:calc(100% + 8px);max-height:calc(100dvh - 140px);overflow-y:auto;overscroll-behavior:contain;min-width:220px;background:var(--ms);color:var(--mi);border:1px solid var(--ml);border-radius:16px;box-shadow:0 18px 40px rgba(0,20,50,.3);padding:6px;display:grid;gap:2px;text-shadow:none}
+#intro .lpmenu button{display:flex;align-items:center;gap:10px;border:0;background:none;color:inherit;border-radius:10px;padding:6px 10px;text-align:left;font:inherit;font-size:.92em;cursor:pointer}
 #intro .lpmenu button:hover:not(:disabled),#intro .lpmenu button.on{background:var(--tint)}
 #intro .lpmenu button:disabled{opacity:.45;cursor:default}
 #intro .lpmenu b{font-family:var(--display);font-size:.72em;width:30px;height:30px;border-radius:8px;display:grid;place-items:center;background:var(--tint);color:var(--blue);flex:none}
@@ -2220,7 +2221,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.30.1"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.30.1"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.30.1"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.30.2"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.30.2"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.30.2"></script>
 </body></html>

@@ -224,8 +224,8 @@ html.introon{overflow:hidden}
 #intro .lpwrap{position:relative;z-index:30}
 #intro.D .nav .lpwrap{margin-left:auto}
 #intro .langpill{cursor:pointer;font:inherit;font-size:13px;font-weight:600}
-#intro .lpmenu{position:absolute;right:0;top:calc(100% + 8px);min-width:220px;background:var(--ms);color:var(--mi);border:1px solid var(--ml);border-radius:16px;box-shadow:0 18px 40px rgba(0,20,50,.3);padding:6px;display:grid;gap:2px;text-shadow:none}
-#intro .lpmenu button{display:flex;align-items:center;gap:10px;border:0;background:none;color:inherit;border-radius:10px;padding:8px 10px;text-align:left;font:inherit;font-size:.92em;cursor:pointer}
+#intro .lpmenu{position:absolute;right:0;top:calc(100% + 8px);max-height:calc(100dvh - 140px);overflow-y:auto;overscroll-behavior:contain;min-width:220px;background:var(--ms);color:var(--mi);border:1px solid var(--ml);border-radius:16px;box-shadow:0 18px 40px rgba(0,20,50,.3);padding:6px;display:grid;gap:2px;text-shadow:none}
+#intro .lpmenu button{display:flex;align-items:center;gap:10px;border:0;background:none;color:inherit;border-radius:10px;padding:6px 10px;text-align:left;font:inherit;font-size:.92em;cursor:pointer}
 #intro .lpmenu button:hover:not(:disabled),#intro .lpmenu button.on{background:var(--tint)}
 #intro .lpmenu button:disabled{opacity:.45;cursor:default}
 #intro .lpmenu b{font-family:var(--display);font-size:.72em;width:30px;height:30px;border-radius:8px;display:grid;place-items:center;background:var(--tint);color:var(--blue);flex:none}
