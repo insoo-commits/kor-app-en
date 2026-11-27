@@ -244,8 +244,11 @@ function render(){
   box.scrollTop = d === curDev ? y : 0; curDev = d;
   mirrorDl();
 }
+/* v1.29.2 (RYU 2026-11-27): a video playing on the main screen (도움말) stops when the intro opens: the player turns back into its card */
+function stopVideos(){ document.querySelectorAll("div.ytv.on").forEach(w => { if (w._card) w.replaceWith(w._card); else w.remove(); }); }
 function open(){
   if (box) return;
+  stopVideos();
   box = document.createElement("div"); box.id = "intro"; box.setAttribute("role", "dialog"); box.setAttribute("aria-label", "JeyCampus");
   document.body.appendChild(box); document.documentElement.classList.add("introon");
   render();
@@ -323,7 +326,7 @@ document.addEventListener("click", ev => {
   const f = document.createElement("iframe");
   f.src = "https://www.youtube-nocookie.com/embed/" + b.dataset.yt + "?autoplay=1&rel=0&playsinline=1";
   f.title = "JeyCampus intro video"; f.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen"; f.allowFullscreen = true;
-  const w = document.createElement("div"); w.className = "ytv on"; w.appendChild(f); b.replaceWith(w);
+  const w = document.createElement("div"); w.className = "ytv on"; w._card = b; w.appendChild(f); b.replaceWith(w);
 }, true);
 
 /* a way back: a button under the theme row */
