@@ -346,6 +346,10 @@ html.lsopen,html.lsopen body{overflow:hidden}
   .stick .strow{font-size:14.8px}
   .stick .strow b{font-size:16px}
   .stick .strow svg{width:20px;height:20px}
-  #app .stick .groups{padding:3.5px!important}
-  #app .stick .group{padding:6px 14px!important;font-size:16px!important}
+  #app .stick .groups{padding:4px!important;align-self:stretch}
+  #app .stick .group{padding:7px 14px!important;font-size:15px!important}
+  /* v1.31.15 (RYU): the stuck menu sits exactly where the page menu was (wrap 16px + menu card 14px) and has its size */
+  .stick .stin{padding-left:30px;padding-right:30px}
+  .stick .strow{padding:0}
+  .stick .hs{align-self:stretch}
 }
