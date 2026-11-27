@@ -1,18 +1,17 @@
-/* Korean for English-track students (from the Lao app KOR Lang). Data: META (areas, sub-groups, bundle index) is inlined; bundle bodies load per area from data/K?.json. */
+/* Korean for English-track students (JeyCampus, from the Lao-speaker app PhasaKAO). Data: META (areas, sub-groups, bundle index) is inlined; bundle bodies load per area from data/K?.json. */
 (function(){
 "use strict";
 const META = window.KO_META, AREAS = META.areas, SUBS = META.subs, IDX = META.idx;
 const byCode = new Map(IDX.map((r, i) => [r[0], i]));
 const $ = id => document.getElementById(id);
 const AL = META.alias || {}, SAL = META.subAlias || {}, SAR = META.subArea || {}, subOf = c => SAL[c.slice(0, 4)] || c.slice(0, 4),
-  areaOf = c => SAR[subOf(c)] || AL[c.slice(0, 2)] || c.slice(0, 2);   // K8 · K9 live in menu K7 어휘 (v1.8); merged subs and 조사·말끝·높임말 in 문법 (v1.10)   // K8 · K9 live in menu K7 어휘 (v1.8)
+  areaOf = c => SAR[subOf(c)] || AL[c.slice(0, 2)] || c.slice(0, 2);   // K8 · K9 live in menu K7 어휘 (v1.8); merged subs and 조사·말끝·높임말 in 문법 (v1.10)
 const T = {
   sec: {m: "How to form it", l: "Letters", x: "Table", w: "Words", f: "Useful expressions", c: "Word forms", e: "Example sentences", tp: "Tips", pr: "Pairs", dl: "Dialogue", sm: "Summary", rel: "Related lessons", qz: "Review questions"},
-  level: "Level", repBundle: "Play lesson", repDlg: "Repeat dialogue", repWord: "Repeat", repGroup: "Repeat group", example: "Example", repLetters: "Play all", repAll: "Play all", pause: "Pause", resume: "Resume", stop: "Stop", hideLo: "Hide English", done: "Done", markDone: "Mark as done", next: "Next lesson →", prev: "← Previous", nextCard: "Next →",
-  hidePr: "Hide reading", showKo: "Show Korean notes", known: "I know it", flip: "Tap to see the meaning", onlyNew: "Only words not learned yet",
-  showAns: "Show answer", hideAns: "Hide answer", again: "Try again", score: "Score", noCards: "This lesson has no word cards.", allKnown: "You know every word!", noQuiz: "This lesson does not have enough words for a quiz.",
+  repBundle: "Play lesson", repDlg: "Repeat dialogue", repWord: "Repeat", repGroup: "Repeat group", example: "Example", repLetters: "Play all", repAll: "Play all", pause: "Pause", resume: "Resume", nextCard: "Next →",
+  showAns: "Show answer", hideAns: "Hide answer", again: "Try again", noCards: "This lesson has no word cards.", noQuiz: "This lesson does not have enough words for a quiz.",
   pick: "Choose the right meaning", pickKo: "Choose the right Korean word", pickHeard: "Listen and choose the word you hear", pickBlank: "Choose the word for the blank", listenBtn: "Listen", loading: "Loading…", loadFail: "Could not load the lesson. Please reload the page.",
-  noHit: "No results.", searching: "Searching…", lessons: "lessons", words: "words", sents: "sentences", wordsShort: "words",
+  noHit: "No results.", searching: "Searching…", lessons: "lessons", words: "words", sents: "sentences",
   noVoice: "This device has no Korean voice. Please install a Korean voice in Settings, or use Chrome / Edge."
 };
 /* line icons (speaker, repeat) instead of emoji, so they take the theme colour */
@@ -39,12 +38,11 @@ function h(tag, attrs, ...kids){
 
 /* ---------- saved state (this device only) ---------- */
 const LS = "kolearn-en-v1";
-let S = {code: IDX[0][0], mode: "learn", rate: "1", rep: "2", hidePr: false, hideLo: false, showKo: true, onlyNew: false, known: {}, done: {}};
+let S = {code: IDX[0][0], mode: "learn", rate: "1", rep: "2", showKo: true};
 try { const v = JSON.parse(localStorage.getItem(LS) || "null"); if (v && typeof v === "object") S = Object.assign(S, v); } catch (e) {}
 S.showKo = true;   // Korean notes always shown; the checkbox was removed (RYU 2026-11-14)   // RYU 2026-11-14: Korean notes shown by default
 if (!S.playDef){ S.rate = "1"; S.rep = "2"; S.playDef = 1; }   // RYU 2026-11-14: start at speed 1.0, 2 times
 if (!byCode.has(S.code)) S.code = IDX[0][0];
-S.hidePr = false; S.hideLo = false; S.onlyNew = false;   // both boxes removed (v1.64, v1.66); the hide-reading box was removed (v1.64), so a saved "hide" must not stick
 function save(){ try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) {} }
 /* explanation language (v1.20, RYU 2026-11-25): Korean stays Korean; meanings, tips, help and buttons in English or Tiếng Việt.
    Translations: src/i18n/<lang>/ (tools/i18n.js); the data of a language is data/<lang>/<area>.json; its audio packs audio/p/<lang>/ */
@@ -80,7 +78,7 @@ function pickVoice(){
   $("voiceNote").textContent = all.length && !koVoice && !window.AUDIO_INDEX ? T.noVoice : "";
 }
 if (synth){ pickVoice(); try { synth.addEventListener("voiceschanged", pickVoice); } catch (e) {} } else if (!window.AUDIO_INDEX) $("voiceNote").textContent = T.noVoice;
-const CLIPS = window.AUDIO_INDEX || {}, AP = makeAudioPack({db: "koen-audio"});   // clips come in one pack per lesson (v0.5)
+const AP = makeAudioPack({db: "koen-audio"});   // clips come in one pack per lesson (v0.5)
 let AEL = null;
 const hasClip = (lang, text) => AP.has(clipKey(lang === "lo" ? LG : lang, lang === "lo" ? cleanLo(text) : cleanKo(text)));
 /* a ready-made clip when there is one, the device's voice otherwise */
@@ -145,7 +143,7 @@ function msSync(title){
   const ms = navigator.mediaSession; if (!ms) return;
   try {
     if (!P.mode){ ms.playbackState = "none"; ms.metadata = null; return; }
-    if (window.MediaMetadata) ms.metadata = new MediaMetadata({title: title || "KOR Lang", artist: "KOR Lang", album: (IDX[byCode.get(S.code)] || [])[1] || ""});
+    if (window.MediaMetadata) ms.metadata = new MediaMetadata({title: title || "JeyCampus", artist: "JeyCampus", album: (IDX[byCode.get(S.code)] || [])[1] || ""});
     ms.playbackState = P.paused ? "paused" : "playing";
     if (!msSync.done){ msSync.done = true;
       ms.setActionHandler("pause", () => { if (P.mode && !P.paused) togglePause(); });
@@ -157,8 +155,13 @@ function msSync(title){
     }
   } catch (e) {}
 }
-/* previous / next line during a repeat (lock screen, ← →); a single 🔊 loop has nothing to move to */
-function skipBy(d){ if (!P.mode || P.mode === "single") return; P.hold = false; P.skip = d; if (P.paused) togglePause(); quiet(); }
+/* previous / next line during a repeat (lock screen, ← →); in a single-line loop it moves to the line before or after (v1.30.7) */
+function skipBy(d){ if (!P.mode) return;
+  /* v1.30.7 (RYU): while one line repeats (🔊 or a tap), ← → move to the line before / after and repeat that one */
+  if (P.mode === "single"){ const cur = document.querySelector("#view .now"); if (!cur) return;
+    const all = [...document.querySelectorAll("#view .line[data-say], #view .wcard[data-say]")], i = all.indexOf(cur), nx = all[i + d];
+    if (i < 0 || !nx) return; if (nx.classList.contains("wcard")) playCard(nx); else playSingle(nx); return; }
+  P.hold = false; P.skip = d; if (P.paused) togglePause(); quiet(); }
 async function hold(tok){ while (P.paused && tok === P.tok) await gap(150); return tok === P.tok; }
 /* says one piece; if paused in the middle, says it again after resuming */
 async function say(tok, text, lao, male){
@@ -333,7 +336,6 @@ function drawStats(){
   $("stats").replaceChildren(h("span", null, h("b", null, n(IDX.filter(r => r[3] !== "info").length)), T.lessons), h("span", null, h("b", null, n(META.nWords)), T.words), h("span", null, h("b", null, n(META.nSents)), T.sents));
 }
 /* areas: lesson count after the Korean name; subs: "N ບົດ · N ຄຳ" on its own line (RYU 2026-11-15) */
-const cnt = rows => { const w = rows.reduce((t, r) => t + (r[5] || 0), 0); return rows.length + " " + T.lessons + (w ? " · " + w + " " + T.wordsShort : ""); };
 function drawGroups(){
   const cur = areaOf(S.code);
   $("app").setAttribute("data-g", cur);
@@ -470,7 +472,6 @@ function pnRow(code){
 const veilLbl = on => on ? ["Show text ", h("span", {class: "ko"}, "본문 보기")] : ["Hide text ", h("span", {class: "ko"}, "본문 가리기")];
 const veilBar = () => h("div", {class: "veilbar"}, h("button", {class: "btn veilbtn", type: "button", onclick: ev => { const r = ev.currentTarget.closest(".sec").querySelector(".dlg"); ev.currentTarget.replaceChildren(...veilLbl(r.classList.toggle("veil"))); }}, ...veilLbl(true)), h("span", {class: "veilhint"}, "Listen first, then show the text.", " ", h("span", {class: "ko"}, "먼저 듣고 나서 본문을 보세요.")));
 function renderLearn(b){
-  const i = byCode.get(b.code), next = IDX[i + 1], prev = i > 0 ? IDX[i - 1] : null, isDone = !!S.done[b.code];
   const dl = b.dl || [], lis = b.type === "듣기";
   const dlSec = sec("dl", dl.length ? [
       lis ? veilBar() : null,
@@ -642,9 +643,9 @@ function renderQuiz(b){
 let query = "";
 function renderSearch(){
   const q = query.toLowerCase(), hits = [];
-  for (const r of IDX) if (r[1].toLowerCase().includes(q) || (r[4] && r[4].includes(q))) hits.push({code: r[0], ko: r[1], lo: r[4] || "", pr: ""});
+  for (const r of IDX) if (r[1].toLowerCase().includes(q) || (r[4] && r[4].toLowerCase().includes(q))) hits.push({code: r[0], ko: r[1], lo: r[4] || "", pr: ""});
   for (const a of AREAS) for (const b of cache.get(a[0]) || []){
-    for (const it of items(b)) if (it.ko.toLowerCase().includes(q) || it.lo.toLowerCase().includes(q) || (it.pr || "").includes(q)) hits.push({code: b.code, ko: it.ko, lo: it.lo, pr: it.pr});
+    for (const it of items(b)) if (it.ko.toLowerCase().includes(q) || it.lo.toLowerCase().includes(q) || (it.pr || "").toLowerCase().includes(q)) hits.push({code: b.code, ko: it.ko, lo: it.lo, pr: it.pr});
     if (hits.length > 80) break;
   }
   const pending = AREAS.some(a => !cache.has(a[0]));
@@ -656,7 +657,6 @@ function renderSearch(){
 /* ---------- render and routing ---------- */
 function render(){
   const view = $("view");
-  view.classList.toggle("hidepr", !!S.hidePr); view.classList.toggle("hidelo", !!S.hideLo && S.mode === "learn");
   if (query){ $("band").hidden = true; $("controls").hidden = true; view.replaceChildren(...renderSearch()); return; }
   $("band").hidden = false; $("controls").hidden = false;
   const b = bundle(S.code);
@@ -747,7 +747,7 @@ function tqPics(q){ if (!q.p || !q.o || q.o.join("") !== "①②③④" || !q.p.
 function tqChoices(q, k, redo, pics){ const st = TQ[k];
   return [h("div", {class: "choices tqo" + (pics ? " picgrid" : q.o.length < 3 ? " two" : "")}, q.o.map((o, j) => h("button", {class: "choice" + (pics ? " picch" : "") + (q.lo ? "" : " ko") + (st != null ? (j === q.a ? " right" : j === st ? " wrong" : "") : ""), type: "button", disabled: st != null,
       onclick: () => { TQ[k] = j; tpMark(k, j === q.a); redo(); tqDone(k); }}, h("span", {class: "n"}, NUM[j]), ...(pics ? [(() => { const d = h("div", {class: "pic"}); d.innerHTML = pics[j]; return d; })()] : [" " + o])))),
-    st != null ? h("div", {class: "tqx"}, h("div", {class: "res " + (st === q.a ? "ok" : "no")}, st === q.a ? "✓ Correct" : "✗ Not quite · Answer " + NUM[q.a]), h("p", null, koMix(q.x)),
+    st != null ? h("div", {class: "tqx"}, h("div", {class: "res " + (st === q.a ? "ok" : "no")}, ...(st === q.a ? ["✓ Correct"] : ["✗ Not quite · Answer ", NUM[q.a]])), h("p", null, koMix(q.x)),
       h("button", {class: "btn", type: "button", onclick: () => { delete TQ[k]; redo(); }}, "Try again ", h("span", {class: "ko"}, "다시"))) : null]; }
 function tqItem(b, q, i, upd){
   const k = b.code + "#" + i, redo = () => { el.replaceWith(tqItem(b, q, i, upd)); upd(); };
@@ -946,8 +946,6 @@ $("rateSel").addEventListener("change", ev => { S.rate = ev.target.value; save()
 $("pstop").addEventListener("click", stopPlay);
 $("ppause").addEventListener("click", togglePause);
 $("view").addEventListener("click", ev => {
-  const m = ev.target.closest(".hidelo .m, .hidepr .p");
-  if (m && !m.classList.contains("show")){ m.classList.add("show"); return; }
   /* a tap anywhere on a sentence or word box plays it on repeat; a second tap stops it */
   if (ev.target.closest("button, a, input, select, label")) return;
   const sel = window.getSelection && String(window.getSelection()); if (sel) return;
@@ -1020,7 +1018,7 @@ function langSheet(first){
     h("div", {class: "lsbg", onclick: close}),
     h("div", {class: "lscard", role: "dialog", "aria-modal": "true", "aria-label": "Choose your language"},
       h("div", {class: "lshead"}, h("img", {src: "img/jey/jey.webp", alt: "", width: 33, height: 46}),
-        h("div", null, h("div", {class: "lst"}, "Choose your language"), h("div", {class: "lss"}, "Chọn ngôn ngữ · ", h("span", {class: "ko"}, "설명 언어 선택")))),
+        h("div", null, h("div", {class: "lst"}, "Choose your language"), h("div", {class: "lss"}, h("span", {class: "ko"}, "설명 언어 선택")))),
       h("p", {class: "lsnote"}, "Korean stays Korean. Meanings, tips and help are shown in your language."),
       LANG_LIST.map(([c, name, ko]) => { const ok = c === "en" || LANGS[c], on = c === LG;
         return h("button", {type: "button", class: "lsopt" + (on ? " on" : ""), disabled: !ok, "aria-pressed": on ? "true" : "false", onclick: ok ? () => pick(c) : null},
@@ -1059,7 +1057,7 @@ if (LX){
     .observe(document.body, {childList: true, subtree: true, characterData: true});
 }
 route();
-if ("serviceWorker" in navigator && window.KO_SW) navigator.serviceWorker.register("sw.js").catch(() => {});
+if ("serviceWorker" in navigator && window.KO_SW) navigator.serviceWorker.register("sw.js" + (LX ? "?lang=" + LG : "")).catch(() => {});
 /* v1.21.12 (RYU): tapping the title at the top left (or "JeyCampus" in the sticky bar) goes back to the first menu's first lesson, at the top */
 /* v1.25.5 (RYU 2026-11-27): it now opens the intro page (src/intro.js); the old jump stays as the fallback */
 (() => { const home = () => { if (window.JC && window.JC.intro){ window.JC.intro(); return; }

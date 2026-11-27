@@ -8,7 +8,7 @@ const root = __dirname, src = path.join(root, "src");
 const bundles = process.argv[2] || path.join(root, "data");
 const M = require(path.join(src, "meta.js"));
 const STATS_PUBLIC = /const STATS_PUBLIC = true;/.test(fs.readFileSync(path.join(src, "stats.js"), "utf8"));
-const VER = "2026-11-27 v1.30.6";
+const VER = "2026-11-27 v1.30.7";
 const read = f => fs.readFileSync(path.join(src, f), "utf8");
 fs.mkdirSync(path.join(root, "data"), {recursive: true});
 fs.mkdirSync(path.join(root, "preview"), {recursive: true});
@@ -148,9 +148,11 @@ fs.writeFileSync(path.join(root, "icon.svg"), `<svg xmlns="http://www.w3.org/200
 fs.writeFileSync(path.join(root, ".nojekyll"), "");
 fs.writeFileSync(path.join(root, "sw.js"), `const SHELL="koen-shell-${VER.replace(/\s+/g, "-")}";
 const FILES=["./","index.html","app.js","audio/index.js",${["en", ...Object.keys(LANGS)].map(l => '"audio/index-' + l + '.js"').join(",")},"manifest.webmanifest","icon.svg",${M.areas.map(a => '"data/' + a[0] + '.json"').join(",")}];
+/* v1.30.7: the app registers sw.js?lang=<code>, so the lessons of the student's own language are kept for offline use too, not only the English ones */
+const LG=new URL(location).searchParams.get("lang");if(${JSON.stringify(Object.keys(LANGS))}.includes(LG))FILES.push(${JSON.stringify(M.areas.map(a => a[0]))}.map(a=>"data/"+LG+"/"+a+".json"));
 self.addEventListener("install",e=>{e.waitUntil(caches.open(SHELL).then(c=>Promise.all(FILES.map(f=>fetch(new Request(f,{cache:"reload"})).then(r=>{if(r.ok)return c.put(f,r)}).catch(()=>{})))).then(()=>self.skipWaiting()))});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith("koen-shell-")&&k!==SHELL).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
-/* Audio clips are kept in IndexedDB ("ko-audio" / store "c", key = clip name), not CacheStorage: with thousands of entries iPhone is slow to open CacheStorage (lesson from the Lao app). */
+/* Audio clips are kept in IndexedDB ("koen-audio" / store "c", key = clip name), not CacheStorage: with thousands of entries iPhone is slow to open CacheStorage (lesson from the Lao app). */
 let _db;const ADB=()=>_db||(_db=new Promise((res,rej)=>{const r=indexedDB.open("koen-audio",1);r.onupgradeneeded=()=>r.result.createObjectStore("c");r.onsuccess=()=>res(r.result);r.onerror=()=>{_db=null;rej(r.error)}}));
 const aget=k=>ADB().then(db=>new Promise(res=>{const q=db.transaction("c").objectStore("c").get(k);q.onsuccess=()=>res(q.result||null);q.onerror=()=>res(null)})).catch(()=>null);
 const aput=(k,v)=>ADB().then(db=>new Promise(res=>{const tx=db.transaction("c","readwrite");tx.objectStore("c").put(v,k);tx.oncomplete=()=>res(true);tx.onerror=tx.onabort=()=>res(false)})).catch(()=>false);

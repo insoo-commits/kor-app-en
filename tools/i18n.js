@@ -29,9 +29,12 @@ function walk(b, f){
   (b.c || []).forEach(c => { at(c, 3, c[1]); gl(c[4]); if (typeof c[0] === "string") c[0] = tail(c[0], true); });
   (b.dl || []).forEach(d => { at(d, 2, d[1]); gl(d[3]); });
   (b.pr || []).forEach((p, i) => { b.pr[i] = p.map(s => typeof s === "string" ? tail(s, true) : s); });
+  /* tables: "가다 = to go", an English cell, or "규칙을 지키다 to follow the rules" (v1.30.7: the last kind and one-word cells too;
+     a romanisation cell such as "jigwon" stays, because only texts found in strings.tsv are replaced) */
   (b.x || []).forEach((r, j) => { if (j) r.forEach((c, i) => { if (typeof c !== "string") return;
     const m = /^(.*?=\s*)(.+)$/.exec(c); if (m && HANGUL.test(m[1]) && enOnly(m[2])){ const v = f(m[2].trim(), m[1].replace(/\s*=\s*$/, "")); if (v != null) r[i] = m[1] + v; }
-    else if (i && enOnly(c) && /\s/.test(c)){ const v = f(c, r[0]); if (v != null) r[i] = v; } }); });
+    else if (enOnly(c)){ const v = f(c.trim(), r[i ? 0 : 1] || "", !/\s/.test(c.trim())); if (v != null) r[i] = v; }
+    else if (HANGUL.test(c) && LATIN.test(c)) r[i] = tail(c, true); }); });
   (b.qz || []).forEach(q => {
     const whole = typeof q[0] === "string" ? f(q[0].trim(), q[1], true) : null;   // an all-English question (pronunciation checks) is translated as a whole
     if (whole != null) q[0] = whole;
@@ -39,7 +42,9 @@ function walk(b, f){
       .replace(/(\?\s+)([^가-힣?]+)$/, (all, a, list) => !LATIN.test(list) ? all : a + list.split(" / ").map(o => { const v = f(o.trim(), "", true); return v != null ? v : o; }).join(" / "));
     if (enOnly(q[1])){ const v = f(q[1], q[0], true); if (v != null) q[1] = v; }
   });
-  const tq = q => { for (const k of ["dl", "x"]) if (isEn(q[k])){ const v = f(q[k], q.d || ""); if (v != null) q[k] = v; } (q.qs || []).forEach(tq); };
+  const tq = q => { for (const k of ["dl", "x"]) if (isEn(q[k])){ const v = f(q[k], q.d || ""); if (v != null) q[k] = v; }
+    if (q.lo && Array.isArray(q.o)) q.o = q.o.map(o => { const v = enOnly(o) ? f(o.trim(), q.d || "", true) : null; return v != null ? v : o; });   // English answer choices (v1.30.7)
+    (q.qs || []).forEach(tq); };
   (b.tq || []).forEach(tq);
 }
 function load(lang){
@@ -57,6 +62,9 @@ function load(lang){
 function apply(b, L){
   const c = JSON.parse(JSON.stringify(b));
   walk(c, s => L.S.has(s) ? L.S.get(s) : L.S.has(s.trim()) ? L.S.get(s.trim()) : null);
+  /* a table column headed 영어 now holds the student's language (v1.30.7) */
+  const KN = {zh: "중국어", vi: "베트남어", uz: "우즈베크어", my: "미얀마어", ne: "네팔어", lo: "라오스어"}[path.basename(L.dir)];
+  if (KN && c.x && c.x[0]) c.x[0] = c.x[0].map(h => h === "영어" ? KN : h);
   if (c.info){ const v = L.info(c.code); if (v) c.info = v; }
   return c;
 }
