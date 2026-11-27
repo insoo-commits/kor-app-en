@@ -1910,8 +1910,12 @@ html.lsopen,html.lsopen body{overflow:hidden}
   .stick .strow{font-size:14.8px}
   .stick .strow b{font-size:16px}
   .stick .strow svg{width:20px;height:20px}
-  #app .stick .groups{padding:3.5px!important}
-  #app .stick .group{padding:6px 14px!important;font-size:16px!important}
+  #app .stick .groups{padding:4px!important;align-self:stretch}
+  #app .stick .group{padding:7px 14px!important;font-size:15px!important}
+  /* v1.31.15 (RYU): the stuck menu sits exactly where the page menu was (wrap 16px + menu card 14px) and has its size */
+  .stick .stin{padding-left:30px;padding-right:30px}
+  .stick .strow{padding:0}
+  .stick .hs{align-self:stretch}
 }
 
 /* v1.31.0 layout (RYU 2026-11-27 design review, artifact ReQpX8Ri6W4FFYE22UHUiz). Loaded after skin.css.
@@ -2340,7 +2344,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.31.14"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.14"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.31.14"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.31.15"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.15"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.31.15"></script>
 </body></html>
