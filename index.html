@@ -2023,12 +2023,6 @@ html.tab #app .search input{font-size:17px}
   #app .top .brand{display:flex;flex-direction:column;align-items:flex-start;gap:7px}
   #app .top .eyebrow{line-height:1.2}
   #app .top h1{line-height:1.15;margin:0}
-  /* main menu: each item a soft outlined cell; 대한민국 starts the last row with 전주생활 and 도움말 */
-  /* v1.31.8 (RYU): the menu keeps its rounded box; each item gets a light background, and the soft pill with the line under it shows only under the mouse */
-  #app .menubox #groups{padding:5px!important;gap:5px!important;border-radius:16px}
-  #app .menubox #groups .group{border-radius:999px!important;background:color-mix(in srgb,var(--sheet) 80%,transparent)!important}
-  #app .menubox #groups .group[aria-pressed="true"]{background:var(--accent)!important}
-  #app .menubox #groups .group[data-g="KR"]{grid-column:1}
   /* right side: a JJU-blue line on top (was yellow) that lines up with the blue title card on the left (RYU) */
   #app .band{border-top:5px solid #005595}
   :root[data-theme="dark"] #app .band{border-top-color:#2F7FC0}
@@ -2052,6 +2046,48 @@ html.tab #app .search input{font-size:17px}
   #app.wrap .footbar .fbr{margin-left:auto}
   #app.wrap .footbar .fbr button,#app.wrap .footbar .fbr a,#app.wrap .footbar .fbr span{white-space:nowrap}
   #app.wrap .footbar .fbbtns{flex-wrap:nowrap}
+}
+
+/* v1.31.9 (RYU picked menu B-2, artifact TGbwSqnVzG5pMJUKQnVNAz): wide screens, the main menu is one soft panel, the chosen item a white chip;
+   rows 3 + 3 + 4 (대학생활 · 알바 · 전주 · 대한민국), 도움말 a small button top right; the sub menu a plain list with "3/8" at the right */
+#app .gs,#app .sfr{display:none}
+@media (min-width:1100px) and (orientation:landscape){
+  #app .menubox{position:relative;padding-top:44px}
+  #app .menubox .hs{position:static}
+  #app .menubox .groups .glide{display:none!important}
+  #app .menubox #groups{position:static!important;grid-template-columns:repeat(12,minmax(0,1fr))!important;border-radius:16px!important;padding:4px!important;gap:2px!important}
+  #app .menubox #groups::after{display:block!important;content:""!important;width:auto;grid-column:1 / -1;order:2;height:1px;background:var(--line);margin:2px 10px}
+  #app .menubox #groups .group{grid-column:span 4;order:1;position:relative;background:transparent!important;border:0!important;box-shadow:none!important;border-radius:999px!important;padding:7px 2px!important;white-space:nowrap}
+  #app .menubox #groups .group:not([aria-pressed="true"]):hover .gn,#app .menubox #groups .group:not([aria-pressed="true"]):hover .gs{text-decoration:underline 2.5px var(--a2);text-underline-offset:6px}
+  #app .menubox #groups .group[aria-pressed="true"]{background:var(--accent)!important;color:#fff!important}
+  /* the · between menus, as on the portrait screen */
+  #app .menubox #groups .group:is([data-g="K1"],[data-g="K6"],[data-g="LS"],[data-g="TP"],[data-g="K5"],[data-g="JB"],[data-g="KR"])::before{display:block!important;content:"·"!important;position:absolute;left:-3px;top:50%;transform:translate(-50%,-52%);width:auto;height:auto;background:none;margin:0;color:var(--muted);opacity:.7;font-weight:700;pointer-events:none}
+  #app .menubox #groups .group[data-g="K4"],#app .menubox #groups .group[data-g="K5"],#app .menubox #groups .group[data-g="JB"],#app .menubox #groups .group[data-g="KR"]{grid-column:span 3}
+  #app .menubox #groups .group[data-g="K4"]{order:3}
+  #app .menubox #groups .group[data-g="K5"]{order:4}
+  #app .menubox #groups .group[data-g="JB"]{order:5}
+  #app .menubox #groups .group[data-g="KR"]{order:6}
+  #app .menubox #groups .group[data-g="K5"] .gn,#app .menubox #groups .group[data-g="JB"] .gn{display:none}
+  #app .menubox #groups .group .gs{display:inline}
+  #app .menubox #groups .group[data-g="HP"]{position:absolute;top:10px;right:10px;width:auto;padding:3px 11px!important;font-size:12.5px!important;border:1px solid var(--line)!important;border-radius:999px!important;background:transparent!important;box-shadow:none!important}
+  #app .menubox #groups .group[data-g="HP"] .gn::before{content:"? "}
+  #app .menubox #groups .group[data-g="HP"][aria-pressed="true"]{border-color:var(--accent)!important;background:var(--sheet)!important}
+  /* sub menu: one column, no boxes, progress as numbers; long lists sit closer */
+  #app .menubox .hs:has(#subs){border-top:1px solid var(--line);padding-top:6px;margin-top:4px}
+  #app .menubox .subs,#app .menubox .subs:has(.sub:nth-of-type(9)){display:flex!important;flex-direction:column;gap:0!important}
+  #app .menubox .sub,#app .menubox .subs:has(.sub:nth-of-type(9)) .sub{border:0!important;background:transparent!important;box-shadow:none!important;border-radius:8px!important;padding:6px 6px!important;min-height:0!important;align-items:center}
+  #app .menubox .sub:hover{background:color-mix(in srgb,var(--accent) 6%,var(--sheet))!important}
+  #app .menubox .sub[aria-selected="true"]{background:color-mix(in srgb,var(--accent) 12%,var(--sheet))!important}
+  #app .menubox .sub[aria-selected="true"] .name{font-weight:700}
+  #app .menubox .sub .name,#app .menubox .subs:has(.sub:nth-of-type(9)) .sub .name{font-size:14px!important;letter-spacing:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  #app .menubox .subs:has(.sub:nth-of-type(14)) .sub{padding:3px 6px!important}
+  #app .menubox .subs:has(.sub:nth-of-type(14)) .sub .name{font-size:13.5px!important}
+  #app .menubox .sub .sprog{display:none}
+  #app .menubox .sub .sfr{display:inline;margin-left:auto;padding-left:8px;font-family:var(--display);font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+  #app .menubox .sub .sfr.on{color:var(--accent);font-weight:600}
+  html.tab #app .menubox #groups .group{font-size:15.5px!important}
+  html.tab #app .menubox .sub .name{font-size:15px!important}
+  html.tab #app .menubox .sub{padding:7px 6px!important}
 }
 
 /* intro page (v1.25, RYU 2026-11-27): src/intro.js. Layout class on #intro: P phone, T tablet, D desktop */
@@ -2403,7 +2439,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.31.8"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.8"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.31.8"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.31.9"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.9"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.31.9"></script>
 </body></html>

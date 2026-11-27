@@ -336,6 +336,7 @@ function drawStats(){
   $("stats").replaceChildren(h("span", null, h("b", null, n(IDX.filter(r => r[3] !== "info").length)), T.lessons), h("span", null, h("b", null, n(META.nWords)), T.words), h("span", null, h("b", null, n(META.nSents)), T.sents));
 }
 /* areas: lesson count after the Korean name; subs: "N ບົດ · N ຄຳ" on its own line (RYU 2026-11-15) */
+const GSHORT = {K5: "알바", JB: "전주"};   // short names for the wide left menu (RYU v1.31.9)
 function drawGroups(){
   const cur = areaOf(S.code);
   $("app").setAttribute("data-g", cur);
@@ -343,7 +344,7 @@ function drawGroups(){
   $("groups").replaceChildren(...AREAS.filter(a => !HID.includes(a[0])).map(a => {
     const rows = IDX.filter(r => areaOf(r[0]) === a[0]);
     return h("button", {class: "group" + ((META.seps || []).includes(a[0]) ? " msep" : ""), type: "button", "data-g": a[0], "aria-pressed": a[0] === cur ? "true" : "false", onclick: () => go(lastIn(S.lastA, a[0], rows))},
-      h("span", {class: "gn ko"}, a[1].replace(/\s+/g, "")));   // menus in Korean, no spaces, like lao-app (RYU 2026-11-19, v2.13)
+      h("span", {class: "gn ko"}, a[1].replace(/\s+/g, "")), GSHORT[a[0]] ? h("span", {class: "gs ko"}, GSHORT[a[0]]) : null);   // menus in Korean, no spaces, like lao-app (RYU 2026-11-19, v2.13)
   }), ...HID.map(c => { const rows = IDX.filter(r => areaOf(r[0]) === c), a = AREAS.find(x => x[0] === c);
     return h("button", {class: "group ghelp" + ((META.seps || []).includes(c) ? " msep" : ""), type: "button", "data-g": c, "aria-pressed": c === cur ? "true" : "false", "aria-label": a[2], title: a[2] + " " + a[1], onclick: () => go(lastIn(S.lastA, c, rows))}, h("span", {class: "gn"}, "?")); }));
   const on = $("groups").querySelector('[aria-pressed="true"]'); if (on && on.scrollIntoView) on.scrollIntoView({block: "nearest", inline: "nearest"});
@@ -351,6 +352,8 @@ function drawGroups(){
 /* progress marks (v1.4): a thin line under each sub-group button (lessons opened / lessons), a check in the lesson list */
 function subProg(rows){ const L = rows.filter(r => r[3] !== "info"); if (!L.length) return null; const n = L.filter(r => (S.seen || {})[r[0]]).length; if (!n) return null;
   return h("i", {class: "sprog" + (n === L.length ? " full" : ""), style: "--p:" + (100 * n / L.length).toFixed(0) + "%", title: n + " / " + L.length}); }
+function subFr(rows){ const L = rows.filter(r => r[3] !== "info"); if (!L.length) return null; const n = L.filter(r => (S.seen || {})[r[0]]).length;
+  return h("span", {class: "sfr" + (n ? " on" : ""), "aria-hidden": "true"}, n + "/" + L.length); }   // "3/8" at the right of a sub, wide left menu only (v1.31.9)
 function drawSubs(){
   const a = areaOf(S.code), cur = subOf(S.code);
   const ids = [...new Set(IDX.filter(r => areaOf(r[0]) === a).map(r => subOf(r[0])))], PT = META.parts || {};
@@ -358,7 +361,7 @@ function drawSubs(){
     const pt = a === "K7" && PT[s.slice(0, 2)] && (k === 0 || ids[k - 1].slice(0, 2) !== s.slice(0, 2)) ? h("span", {class: "subpart ko"}, PT[s.slice(0, 2)]) : null;   // 어휘: 짝말 · 비슷한 말 · 단어 뿌리 labels
     const rows = IDX.filter(r => subOf(r[0]) === s), n = SUBS[s] || [s, s];
     return [pt, h("button", {class: "sub", type: "button", role: "tab", "aria-selected": s === cur ? "true" : "false", onclick: () => go(lastIn(S.lastS, s, rows))},
-      h("span", {class: "code"}, String(ids.indexOf(s) + 1).padStart(2, "0")), h("span", {class: "name ko"}, n[0].replace(/\s+/g, "")), subProg(rows))].filter(Boolean);
+      h("span", {class: "code"}, String(ids.indexOf(s) + 1).padStart(2, "0")), h("span", {class: "name ko"}, n[0].replace(/\s+/g, "")), subProg(rows), subFr(rows))].filter(Boolean);
   }));
   /* line under the sub tabs, like lao-app: [1-01] name · N묶음 N단어 N문장 */
   const sr = IDX.filter(r => subOf(r[0]) === cur), ai = AREAS.findIndex(x => x[0] === a) + 1, sn = SUBS[cur] || [cur];
