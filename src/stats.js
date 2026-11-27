@@ -32,8 +32,9 @@ const ST = (() => {
     busy = true;   // text/plain + no-cors: no preflight; the answer cannot be read, a network error rejects
     fetch(STATS_URL, {method: "POST", mode: "no-cors", body, keepalive: body.length < 60000}).then(() => { done(); busy = false; if (load().length) setTimeout(send, 2000); }, () => { busy = false; });
   }
+  function appLang(){ try { return String(JSON.parse(localStorage.getItem("kolearn-en-v1") || "{}").lang || ""); } catch (e) { return ""; } }
   if (STATS_URL){
-    log("open", "", dev, pwa ? "installed" : "browser");
+    log("open", appLang(), dev, pwa ? "installed" : "browser");   // v1.31.20 (RYU): the explanation language picked in the app goes in the lesson column of "open"
     setTimeout(send, 4000); setInterval(send, 60000);
     addEventListener("online", () => send());
     document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") send(true); });
@@ -100,6 +101,7 @@ const STP = (() => {
   let CW = 640;   // chart width in px = the card width, so text keeps its size on a computer
   function draw(box, d){
     CW = Math.max(300, Math.min(1100, (box.clientWidth || 640) - 30));
+    const LGN = {en: "English 영어", zh: "中文 중국어", vi: "Tiếng Việt 베트남어", uz: "Oʻzbekcha 우즈베크어", my: "မြန်မာ 미얀마어", ne: "नेपाली 네팔어", lo: "ລາວ 라오스어"};
     const t = d.totals || {}, KM = window.KO_META, titles = new Map(KM.idx.map(r => [r[0], [r[1], r[4]]])), areaName = new Map(KM.areas.map(a => [a[0], a[1]])), AL = KM.alias || {};
     if (d.areas){ const m = new Map(); for (const [k, v] of d.areas){ const a = AL[k] || k; m.set(a, (m.get(a) || 0) + v); } d.areas = [...m].sort((x, y) => y[1] - x[1]); }
     const tile = (v, en, ko, sub) => el("div", {class: "sttile"}, el("b", null, v), el("span", null, en), el("span", {class: "ko"}, ko), sub ? el("small", null, sub) : null);
@@ -116,6 +118,7 @@ const STP = (() => {
       d.areas && d.areas.length ? card("By area", "영역별 열람", hbars(d.areas.map(r => [areaName.get(r[0]) || r[0], r[1], AC[r[0]]]))) : null,
       d.devices && d.devices.length ? card("Devices", "기기", donut(d.devices)) : null,
       d.os && d.os.length ? card("Systems", "운영체제", hbars(d.os)) : null,
+      d.langs && d.langs.length ? card("Explanation language", "설명 언어", hbars(d.langs.map(r => [LGN[r[0]] || r[0], r[1]]))) : null,
       d.survey && d.survey.n ? card("Satisfaction", "만족도 설문", el("div", null, el("div", {class: "sttiles"}, tile(fmt(d.survey.n), "Answers", "응답"), tile(d.survey.avg == null ? "–" : d.survey.avg + " ★", "Average", "평균 별점"), tile(d.survey.recPct == null ? "–" : d.survey.recPct + "%", "Would recommend", "추천 의향")), vbars(["★1", "★2", "★3", "★4", "★5"].map((l, i) => [l, d.survey.dist[i] || 0]), "var(--k5)"))) : null,
       d.quizHist && d.quizHist.some(Boolean) ? card("Quiz scores", "퀴즈 점수 분포", vbars(["0–19%", "20–39%", "40–59%", "60–79%", "80–100%"].map((l, i) => [l, d.quizHist[i] || 0]), "var(--good)")) : null,
       d.hours && d.hours.some(Boolean) ? card("Time of day (Korea)", "공부하는 시간", vbars(d.hours.map((v, i) => [String(i), v]), "var(--k6)"), true) : null,
