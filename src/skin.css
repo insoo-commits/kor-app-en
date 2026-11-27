@@ -355,4 +355,7 @@ html.lsopen,html.lsopen body{overflow:hidden}
   /* v1.31.16: menu on top, the app name and lesson line under it, in the same order as the page (menu, then lesson) */
   .stick .stin{flex-direction:column-reverse;padding-top:8px;padding-bottom:6px}
   .stick .strow{padding-left:14px}
+  /* v1.31.18 (RYU): no line under the menu, the stuck bar is just the page menu */
+  .stick .strow{display:none}
+  .stick .stin{padding-bottom:8px}
 }
