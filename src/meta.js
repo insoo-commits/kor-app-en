@@ -81,7 +81,7 @@ module.exports = {
    "Health"
   ],
   "K2-I": [
-   "은행·우편·통신",
+   "은행·우체국·통신",
    "Bank & Phone"
   ],
   "K2-J": [
@@ -129,15 +129,15 @@ module.exports = {
    "Wishes & Suggestions"
   ],
   "K6-H": [
-   "부탁·허락·금지",
+   "부탁·허락·금지·의무",
    "Requests & Rules"
   ],
   "K6-I": [
-   "순서·대조",
+   "순서·대조 잇기",
    "Linking: Order"
   ],
   "K6-J": [
-   "이유·조건·목적",
+   "이유·조건·목적 잇기",
    "Linking: Reasons"
   ],
   "K6-K": [
@@ -193,7 +193,7 @@ module.exports = {
    "Speech Levels"
   ],
   "K7-H": [
-   "부름말·되는말",
+   "부르는 말·되는 말",
    "Calling and Passive Words"
   ],
   "K7-I": [
@@ -201,7 +201,7 @@ module.exports = {
    "Happening vs Doing"
   ],
   "K8-A": [
-   "조사·말끝 구별",
+   "헷갈리는 조사·말끝",
    "Confusing Particles and Endings"
   ],
   "K8-B": [
@@ -221,7 +221,7 @@ module.exports = {
    "Feelings"
   ],
   "K8-F": [
-   "정도·때·이음말",
+   "정도·때·이음말·묻는 말",
    "Degree, Time, Linkers, Questions"
   ],
   "K8-G": [
@@ -233,7 +233,7 @@ module.exports = {
    "Question Words"
   ],
   "K8-I": [
-   "헷갈리는 학교말",
+   "학교·알바 헷갈리는 말",
    "Campus & Job Words"
   ],
   "K8-Z": [
