@@ -157,10 +157,12 @@ function addr(){ return `<div class="addr">${URL_APP}<button type="button" data-
 function foot(){ return `<div class="foot"><img src="img/jju/${isDark() ? "logo_ko_d" : "logo_ko_t"}.png" alt="전주대학교 Jeonju University"><div>${esc(t().foot)}</div><div>${URL_APP} · ${esc(JC.ver)}</div></div>`; }
 /* v1.27 (RYU 2026-11-27): the JeyCampus intro video on YouTube. A picture with a play button until it is tapped, so YouTube
    loads only then; the same card sits at the top of 도움말 > 이 앱은 (data/HP.json and each language folder HP.json, class ytv). */
-const YT_ID = "8B8TUJqVXKk";
+/* one video per language; a language without its own video shows the English one (RYU 2026-11-27: Lao first) */
+const YT = {en: {id: "8B8TUJqVXKk", len: "3:38", img: "img/help/intro-video.webp", nm: "English"},
+            lo: {id: "Sl7pDNfsA9s", len: "4:34", img: "img/help/intro-video-lo.webp", nm: "ລາວ"}};
 const VID = {en:"Watch the intro video", vi:"Xem video giới thiệu", ne:"परिचय भिडियो हेर्नुहोस्", my:"မိတ်ဆက် ဗီဒီယို ကြည့်ရန်", lo:"ເບິ່ງວິດີໂອແນະນຳ"};
-function video(){ return `<div class="sec vsec"><div class="sh"><div><h2>${esc(VID[lang] || VID.en)} <span class="kosub">소개 영상 · 3:38</span></h2></div></div>${ytCard()}</div>`; }
-function ytCard(){ return `<button type="button" class="ytv" data-yt="${YT_ID}" aria-label="Play video"><img src="img/help/intro-video.webp" alt="JeyCampus intro video" width="960" height="540" loading="lazy"><span class="ytplay" aria-hidden="true"></span><span class="ytlen">3:38 · English</span></button>`; }
+function video(){ const v = YT[lang] || YT.en; return `<div class="sec vsec"><div class="sh"><div><h2>${esc(VID[lang] || VID.en)} <span class="kosub">소개 영상 · ${v.len}</span></h2></div></div>${ytCard(v)}</div>`; }
+function ytCard(v){ return `<button type="button" class="ytv" data-yt="${v.id}" aria-label="Play video"><img src="${v.img}" alt="JeyCampus intro video" width="960" height="540" loading="lazy"><span class="ytplay" aria-hidden="true"></span><span class="ytlen">${v.len} · ${esc(v.nm)}</span></button>`; }
 function cta(){ return `<button type="button" class="btn pri" data-act="start">${esc(t().start)} ${ICON.arrow}</button>`; }
 
 function phone(){ const x = t(); return `
