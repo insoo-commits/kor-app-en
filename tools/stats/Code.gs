@@ -68,22 +68,22 @@ function stats_() {
     var when = r[0] instanceof Date ? r[0] : new Date(r[0]); if (isNaN(when)) return;
     var id = String(r[2]), ev = r[3], code = String(r[4] || ''), day = Utilities.formatDate(when, TZ, 'yyyy-MM-dd'), mon = day.slice(0, 7);
     if (!first || when < first) first = when;
-    var d = dev[id] || (dev[id] = {days: {}, dev: '', os: '', pwa: false});
+    var d = dev[id] || (dev[id] = {days: {}, dev: '', os: '', pwa: false, lang: ''});
     d.days[day] = 1; if (r[7]) d.dev = r[7]; if (r[8]) d.os = r[8]; if (r[11] === 'yes') d.pwa = true;
     var D = days[day] || (days[day] = {ids: {}, lessons: 0}); D.ids[id] = 1;
     var M = months[mon] || (months[mon] = {ids: {}, lessons: 0}); M.ids[id] = 1;
     hours[+Utilities.formatDate(when, TZ, 'H')]++;
-    if (ev === 'open') t.opens++;
+    if (ev === 'open') { t.opens++; if (code) d.lang = code; }   // app v1.31.20+: explanation language in the lesson column
     else if (ev === 'lesson') { t.lessons++; D.lessons++; M.lessons++; lessons[code] = (lessons[code] || 0) + 1; var a = code.split('-')[0]; areas[a] = (areas[a] || 0) + 1; }
     else if (ev === 'quiz') { var R = +r[5], N = +r[6]; if (N > 0) { t.quizzes++; qR += R; qN += N; hist[Math.min(4, Math.floor(5 * R / N))]++; } }
     else if (ev === 'topik') { var R2 = +r[5], N2 = +r[6]; if (N2 > 0) { t.topik++; tR += R2; tN += N2; } }
     else if (ev === 'play') t.plays++;
     else if (ev === 'speak') { var sp = +r[5]; if (sp >= 0) { t.speaks = (t.speaks || 0) + 1; spS += sp; } }
   });
-  var devs = {}, oss = {};
+  var devs = {}, oss = {}, langs = {};
   Object.keys(dev).forEach(function (id) {
     var d = dev[id]; t.devices++; if (Object.keys(d.days).length > 1) t.returning++; if (d.pwa) t.installed++;
-    var dv = d.dev || 'other', os = d.os || 'other'; devs[dv] = (devs[dv] || 0) + 1; oss[os] = (oss[os] || 0) + 1;
+    var dv = d.dev || 'other', os = d.os || 'other'; devs[dv] = (devs[dv] || 0) + 1; oss[os] = (oss[os] || 0) + 1; if (d.lang) langs[d.lang] = (langs[d.lang] || 0) + 1;
   });
   if (qN) t.quizAvg = Math.round(1000 * qR / qN) / 10;
   if (tN) t.topikAvg = Math.round(1000 * tR / tN) / 10;
@@ -93,7 +93,7 @@ function stats_() {
   var dayList = Object.keys(days).sort().slice(-60).map(function (k) { return [k, Object.keys(days[k].ids).length, days[k].lessons]; });
   var monList = Object.keys(months).sort().map(function (k) { return [k, Object.keys(months[k].ids).length, months[k].lessons]; });
   return {updated: Utilities.formatDate(new Date(), TZ, 'yyyy-MM-dd HH:mm') + ' KST', first: first ? Utilities.formatDate(first, TZ, 'yyyy-MM-dd') : '',
-    survey: survey_(), totals: t, daily: dayList, monthly: monList, top: pairs(lessons).slice(0, 15), areas: pairs(areas), devices: pairs(devs), os: pairs(oss), quizHist: hist, hours: hours};
+    survey: survey_(), totals: t, daily: dayList, monthly: monList, top: pairs(lessons).slice(0, 15), areas: pairs(areas), devices: pairs(devs), os: pairs(oss), langs: pairs(langs), quizHist: hist, hours: hours};
 }
 
 /** survey totals for the public page: no comments, no device ids */
