@@ -1099,8 +1099,8 @@ figure.jeyfig img{background:#fff}
 .subs .subpart{flex:0 0 auto;align-self:center;font-size:12px;font-weight:700;color:var(--accent);padding:0 2px 0 8px;white-space:nowrap}
 .subs .subpart:first-child{padding-left:2px}
 /* · between menus inside one section, | between sections (RYU 2026-11-25, v1.9) */
-#app #groups .group+.group:not(.msep)::before{content:"·"!important;display:block!important;position:absolute;left:-3px;top:50%;transform:translate(-50%,-52%);color:var(--muted);opacity:.6;font-weight:700;background:none;width:auto;height:auto}
-#app #groups .group[aria-pressed="true"]+.group::before,#app #groups .group+.group[aria-pressed="true"]:not(.msep)::before{opacity:0!important}
+#app #groups .group+.group:not(.msep)::before,#app #stickG .group+.group:not(.msep)::before{content:"·"!important;display:block!important;position:absolute;left:-3px;top:50%;transform:translate(-50%,-52%);color:var(--muted);opacity:.6;font-weight:700;background:none;width:auto;height:auto}
+#app #groups .group[aria-pressed="true"]+.group::before,#app #groups .group+.group[aria-pressed="true"]:not(.msep)::before,#app #stickG .group[aria-pressed="true"]+.group::before,#app #stickG .group+.group[aria-pressed="true"]:not(.msep)::before{opacity:0!important}
 /* satisfaction survey (v1.11) */
 .svbox:empty{display:none}
 .svcard{position:relative;margin:10px 0 4px;padding:14px 16px;border-radius:16px;background:var(--sheet);color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow,0 1px 2px rgba(0,40,90,.06))}
