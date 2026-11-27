@@ -2019,6 +2019,25 @@ html.tab #app .search input{font-size:17px}
   html.tab #app #groups .group{font-size:16px!important;padding:7px 4px!important}
   html.tab #app .menubox .sub .name,html.tab #app .menubox .subs:has(.sub:nth-of-type(9)) .sub .name{font-size:15px!important}
   html.tab #app .menubox .sub{min-height:38px}
+  /* v1.31.3 (RYU): title pill and heading no longer touch */
+  #app .top .brand{display:flex;flex-direction:column;align-items:flex-start;gap:7px}
+  #app .top .eyebrow{line-height:1.2}
+  #app .top h1{line-height:1.15;margin:0}
+  /* main menu: each item a soft outlined cell; 대한민국 starts the last row with 전주생활 and 도움말 */
+  #app .menubox #groups{background:none!important;padding:0!important;gap:5px!important}
+  #app .menubox #groups .group{border:1px solid var(--line2)!important;border-radius:10px!important;background:var(--sheet)}
+  #app .menubox #groups .group[aria-pressed="true"]{border-color:transparent!important}
+  #app .menubox #groups .group[data-g="KR"]{grid-column:1}
+  #app .menubox #groups .glide{display:none}
+  /* right side: no yellow line on top, so both columns start on the same line */
+  #app .band{border-top:0}
+  /* lesson title bar and the Korean of each word a step smaller, closer to the left column */
+  #app .band #bsel .bsel{height:36px;font-size:16px}
+  #app .band #bsel .bsel.two{min-height:36px}
+  #view .line .k{font-size:17.5px}
+  #view .word>.line.head .k{font-size:21px}
+  #view .word>.line.head .p{font-size:15px}
+  #view .word>.line.head .m{font-size:16px}
 }
 
 /* intro page (v1.25, RYU 2026-11-27): src/intro.js. Layout class on #intro: P phone, T tablet, D desktop */
@@ -2370,7 +2389,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.31.2"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.2"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.31.2"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.31.3"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.3"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.31.3"></script>
 </body></html>
