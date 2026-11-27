@@ -193,7 +193,7 @@ module.exports = {
    "Speech Levels"
   ],
   "K7-H": [
-   "부르는 말·되는 말",
+   "부름말·되는말",
    "Calling and Passive Words"
   ],
   "K7-I": [
