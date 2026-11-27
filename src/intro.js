@@ -185,7 +185,7 @@ function pad(){ const x = t(); return `
   <div style="display:grid;gap:14px;align-content:start">${detectChip("pad")}<h2 style="font-size:1.4em">${esc(x.it)}</h2><p style="margin:0;opacity:.85;font-size:.9em">${esc(x.itn)}</p>${osTabs("pad")}${steps("pad")}</div>
   <div style="display:grid;gap:12px;align-content:start"><h3 style="font-size:1em;opacity:.9">${esc(x.dlt)}</h3>${downloads("pad")}${addr()}</div>
  </div>
- <div class="frow">${foot()}<img src="img/jey/friends.webp" alt="" style="width:190px;height:auto"></div>`; }
+ <div class="frow">${foot()}<img src="img/jey/friends.webp" alt="" class="frpic"></div>`; }
 function pc(){ const x = t(); return `
  <div class="hero"><img class="bg" src="img/jb/jju_aerial.jpg" alt="">
   <div class="nav">${brand()}${["K2","TP","K4","HP"].map(a => `<a href="#" data-area="${a}">${esc(x.mn[a])}</a>`).join("")}${langPill()}${cta()}</div>
@@ -202,7 +202,7 @@ function pc(){ const x = t(); return `
   <div style="display:grid;gap:12px;align-content:start;justify-items:start"><h3 style="font-size:1em">${esc(x.qr)}</h3><div class="qrbox"><img src="img/jju/qr.png" alt="QR ${URL_APP}"></div><p style="margin:0;opacity:.85;font-size:.85em">${esc(x.qrd)}</p>${addr()}</div>
   <div style="display:grid;gap:12px;align-content:start"><h3 style="font-size:1em;opacity:.9">${esc(x.dlt)}</h3>${downloads("pc")}</div>
  </div>
- <div class="frow">${foot()}<img src="img/jey/friends.webp" alt="" style="width:220px;height:auto"></div>`; }
+ <div class="frow">${foot()}<img src="img/jey/friends.webp" alt="" class="frpic"></div>`; }
 
 /* ---- show, redraw, close ---- */
 let box = null, curDev = null;

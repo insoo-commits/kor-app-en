@@ -252,3 +252,6 @@ html.introon{overflow:hidden}
 #intro .ticks span::before{content:"";position:absolute;left:50%;top:-5px;width:1px;height:4px;background:var(--mm);opacity:.6}
 #intro .rate{align-items:flex-start}
 #intro .rate output{padding-top:2px}
+/* v1.25.8 (RYU): Jey and friends at the bottom about as tall as the logo and text beside them */
+#intro .frow .frpic{height:86px;width:auto;display:block}
+#intro .frow{align-items:center}
