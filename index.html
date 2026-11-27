@@ -2041,6 +2041,17 @@ html.tab #app .search input{font-size:17px}
   #view .word>.line.head .m{font-size:16px}
 }
 @media (min-width:1100px) and (orientation:landscape) and (prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .band{border-top-color:#2F7FC0}}
+/* v1.31.6 (RYU): wide screens, theme · text size · language · first-screen buttons in one row at the bottom */
+@media (min-width:1100px) and (orientation:landscape){
+  #app.wrap .footbar .fbr{display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:flex-end;gap:8px}
+  #app.wrap .footbar .prefs{flex-wrap:nowrap}
+  #app.wrap .footbar .fbr{flex:0 0 auto}
+  #app.wrap .footbar{flex-wrap:wrap}
+  #app.wrap .footbar .fbl{flex:1 1 auto;min-width:260px}
+  #app.wrap .footbar .fbr{margin-left:auto}
+  #app.wrap .footbar .fbr button,#app.wrap .footbar .fbr a,#app.wrap .footbar .fbr span{white-space:nowrap}
+  #app.wrap .footbar .fbbtns{flex-wrap:nowrap}
+}
 
 /* intro page (v1.25, RYU 2026-11-27): src/intro.js. Layout class on #intro: P phone, T tablet, D desktop */
 #intro{position:fixed;inset:0;z-index:900;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch}
@@ -2391,7 +2402,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.31.5"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.5"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.31.5"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.31.6"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.6"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.31.6"></script>
 </body></html>
