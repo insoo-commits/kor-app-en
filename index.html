@@ -1929,6 +1929,9 @@ html.lsopen,html.lsopen body{overflow:hidden}
 .stick .strow{display:none}
 /* (RYU 2026-11-27): iPad: the stuck bar is solid, no blur */
 html.tab .stick{-webkit-backdrop-filter:none!important;backdrop-filter:none!important;background:var(--sheet)!important}
+/* v1.31.24 (RYU): no blur on iPad, also when the iPad is not detected as html.tab; no soft shadow under the bar either, only a thin line */
+html.tab .stick{box-shadow:0 1px 0 var(--line)!important}
+@media (min-width:601px) and (any-pointer:coarse){.stick{-webkit-backdrop-filter:none!important;backdrop-filter:none!important;background:var(--sheet)!important;box-shadow:0 1px 0 var(--line)!important}}
 
 /* v1.31.0 layout (RYU 2026-11-27 design review, artifact ReQpX8Ri6W4FFYE22UHUiz). Loaded after skin.css.
    2 sizes that were out of step (sub-menu line, pad chips, PC lesson intro)
@@ -2358,7 +2361,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.31.23"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.23"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.31.23"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.31.24"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.24"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.31.24"></script>
 </body></html>
