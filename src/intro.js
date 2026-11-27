@@ -203,9 +203,8 @@ function pc(){ const x = t(); return `
   </div></div>
  <div class="band">
   <div style="display:grid;gap:12px;align-content:start"><div class="eyebrow">JeyCampus</div><h2>${esc(x.inside)}</h2><span class="kosub">${KO.inside}</span><p style="margin:0;color:var(--mm);font-size:.92em">${esc(x.s1n)}</p></div>
-  <div>${menus()}<div class="gal"><img src="img/jb/jju_starcenter_wide.jpg" alt="스타센터"><img src="img/jb/jju_library.jpg" alt="도서관"><img src="img/jb/jju_spring.jpg" alt="봄 캠퍼스"></div></div>
+  <div>${menus()}<div class="gal"><img src="img/jb/jju_starcenter_wide.jpg" alt="스타센터"><img src="img/jb/jju_library.jpg" alt="도서관"><img src="img/jb/jju_spring.jpg" alt="봄 캠퍼스"></div>${video()}</div>
  </div>
- <div class="band vband">${video()}</div>
  <div class="inst"><img class="bg" src="img/jb/jju_stargarden_night.jpg" alt="">
   <div style="display:grid;gap:14px;align-content:start">${detectChip("pc")}<h2 style="font-size:1.5em">${esc(x.it)}</h2><p style="margin:0;opacity:.85;font-size:.92em">${esc(x.itn)}</p>${osTabs("pc")}${steps("pc")}</div>
   <div style="display:grid;gap:12px;align-content:start;justify-items:start"><h3 style="font-size:1em">${esc(x.qr)}</h3><div class="qrbox"><img src="img/jju/qr.png" alt="QR ${URL_APP}"></div><p style="margin:0;opacity:.85;font-size:.85em">${esc(x.qrd)}</p>${addr()}</div>
