@@ -257,6 +257,8 @@ function render(){
   box.innerHTML = '<div class="wrapin">' + (d === "phone" ? phone() : d === "pad" ? pad() : pc()) + "</div>";
   box.scrollTop = d === curDev ? y : 0; curDev = d;
   mirrorDl();
+  /* v1.30.4 (RYU 2026-11-27): on a phone the chip rows scroll sideways; keep the chosen language in view after the redraw (only the row moves, not the page) */
+  box.querySelectorAll(".lchips,.lgrid").forEach(r => { const c = r.querySelector(".lchip.on"); if (c && r.scrollWidth > r.clientWidth){ const a = c.getBoundingClientRect(), b = r.getBoundingClientRect(); r.scrollLeft += a.left - b.left - (r.clientWidth - a.width) / 2; } });
 }
 /* v1.29.2 (RYU 2026-11-27): a video playing on the main screen (도움말) stops when the intro opens: the player turns back into its card */
 function stopVideos(){ document.querySelectorAll("div.ytv.on").forEach(w => { if (w._card) w.replaceWith(w._card); else w.remove(); }); }
