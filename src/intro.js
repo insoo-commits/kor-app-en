@@ -130,8 +130,7 @@ function pass(withLangs, withCta){ const x = t();
   ${withLangs ? langChips("lgrid") : ""}
   <div class="passbody">
    <div class="row"><div class="lab">${esc(x.rep)}<small>${KO.rep}</small></div>${seg("rep", [1,2,3,4,5].map(n => [n, n + "×"]), rep())}</div>
-   <div class="row full"><div class="rate"><div class="lab">${esc(x.spd)}<small>${KO.spd}</small></div><input type="range" min="0.7" max="2" step="0.1" value="${rate()}" data-rate aria-label="${esc(x.spd)}"><output>×${(+rate()).toFixed(1)}</output></div>
-     <div class="ticks"><span>0.7</span><span>1.0</span><span>1.5</span><span>2.0</span></div></div>
+   <div class="row full"><div class="rate"><div class="lab">${esc(x.spd)}<small>${KO.spd}</small></div><div class="rtrack"><input type="range" min="0.7" max="2" step="0.1" value="${rate()}" data-rate aria-label="${esc(x.spd)}"><div class="ticks" aria-hidden="true">${[0.7, 1, 1.5, 2].map(v => `<span style="left:${((v - 0.7) / 1.3 * 100).toFixed(2)}%">${v.toFixed(1)}</span>`).join("")}</div></div><output>×${(+rate()).toFixed(1)}</output></div></div>
    <div class="row"><div class="lab">${esc(x.voice)}<small>${KO.voice} · ${esc(x.voiceN)}</small></div><button type="button" class="sw${voice() ? " on" : ""}" data-voice role="switch" aria-checked="${voice()}" aria-label="${esc(x.voice)}"></button></div>
    <div class="row"><div class="lab">${esc(x.theme)}<small>${KO.theme}</small></div>${seg("theme", [["auto", x.th[0]], ["light", x.th[1]], ["dark", x.th[2]]], theme(), "txt")}</div>
    <div class="row"><div class="lab">${esc(x.fz)}<small>${KO.fz}</small></div>${seg("fz", [[0.9, "A−"], [1, "A"], [1.15, "A+"], [1.3, "A++"]], fz())}</div>
@@ -186,7 +185,7 @@ function pad(){ const x = t(); return `
   <div style="display:grid;gap:14px;align-content:start">${detectChip("pad")}<h2 style="font-size:1.4em">${esc(x.it)}</h2><p style="margin:0;opacity:.85;font-size:.9em">${esc(x.itn)}</p>${osTabs("pad")}${steps("pad")}</div>
   <div style="display:grid;gap:12px;align-content:start"><h3 style="font-size:1em;opacity:.9">${esc(x.dlt)}</h3>${downloads("pad")}${addr()}</div>
  </div>
- <div class="frow">${foot()}<img src="img/jey/friends.webp" alt="" style="width:190px;height:auto"></div>`; }
+ <div class="frow">${foot()}<img src="img/jey/friends.webp" alt="" class="frpic"></div>`; }
 function pc(){ const x = t(); return `
  <div class="hero"><img class="bg" src="img/jb/jju_aerial.jpg" alt="">
   <div class="nav">${brand()}${["K2","TP","K4","HP"].map(a => `<a href="#" data-area="${a}">${esc(x.mn[a])}</a>`).join("")}${langPill()}${cta()}</div>
@@ -203,7 +202,7 @@ function pc(){ const x = t(); return `
   <div style="display:grid;gap:12px;align-content:start;justify-items:start"><h3 style="font-size:1em">${esc(x.qr)}</h3><div class="qrbox"><img src="img/jju/qr.png" alt="QR ${URL_APP}"></div><p style="margin:0;opacity:.85;font-size:.85em">${esc(x.qrd)}</p>${addr()}</div>
   <div style="display:grid;gap:12px;align-content:start"><h3 style="font-size:1em;opacity:.9">${esc(x.dlt)}</h3>${downloads("pc")}</div>
  </div>
- <div class="frow">${foot()}<img src="img/jey/friends.webp" alt="" style="width:220px;height:auto"></div>`; }
+ <div class="frow">${foot()}<img src="img/jey/friends.webp" alt="" class="frpic"></div>`; }
 
 /* ---- show, redraw, close ---- */
 let box = null, curDev = null;
@@ -295,6 +294,15 @@ document.addEventListener("keydown", ev => { if (box && ev.key === "Escape"){ if
   const b = document.createElement("button"); b.type = "button"; b.className = "pb"; b.innerHTML = '<img src="icon-192.png" alt="" style="width:18px;height:18px;border-radius:5px;vertical-align:-4px"> JeyCampus <span class="ko">첫 화면</span>';
   b.addEventListener("click", open); p.appendChild(b); (pf.nextElementSibling && pf.nextElementSibling.classList.contains("langline") ? pf.nextElementSibling : pf).after(p); } }
 
+/* v1.25.6 (RYU 2026-11-27): footer on tablet/PC: JJU logo and version at the left; theme, text size, 🌐 and the intro button
+   at the right, the two buttons on one line (CSS .footbar in src/intro.css; on phones the order stays as before) */
+{ const pf = document.getElementById("prefs"), jf = document.querySelector(".jjufoot"), ver = document.getElementById("ver");
+  if (pf && jf && ver){
+    const lines = [...document.querySelectorAll(".langline")];
+    const bar = document.createElement("div"), L = document.createElement("div"), R = document.createElement("div"), B = document.createElement("div");
+    bar.className = "footbar"; L.className = "fbl"; R.className = "fbr"; B.className = "fbbtns";
+    pf.before(bar); L.append(jf, ver); lines.forEach(l => B.appendChild(l)); R.append(pf, B); bar.append(L, R);
+  } }
 /* open: no lesson link in the address, and not yet shown in this visit */
 /* refresh keeps whichever screen was showing: the intro stays open until Start is pressed */
 let st = null; try { st = sessionStorage.getItem("jc-intro"); } catch (e) {}
