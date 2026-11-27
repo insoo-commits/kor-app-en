@@ -1,4 +1,4 @@
-const SHELL="koen-shell-2026-11-28-v1.31.25";
+const SHELL="koen-shell-2026-11-28-v1.31.26";
 const FILES=["./","index.html","app.js","audio/index.js","audio/index-en.js","audio/index-lo.js","audio/index-my.js","audio/index-ne.js","audio/index-uz.js","audio/index-vi.js","audio/index-zh.js","manifest.webmanifest","icon.svg","data/K2.json","data/K1.json","data/K6.json","data/K7.json","data/LS.json","data/TP.json","data/K4.json","data/K5.json","data/KR.json","data/JB.json","data/HP.json"];
 /* v1.30.7: the app registers sw.js?lang=<code>, so the lessons of the student's own language are kept for offline use too, not only the English ones */
 const LG=new URL(location).searchParams.get("lang");if(["lo","my","ne","uz","vi","zh"].includes(LG))FILES.push(["K2","K1","K6","K7","LS","TP","K4","K5","KR","JB","HP"].map(a=>"data/"+LG+"/"+a+".json"));
