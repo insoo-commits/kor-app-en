@@ -7,7 +7,7 @@
   --accent:var(--k1); --accent-soft:var(--k1-soft); --good:#1E7F4F; --good-soft:#E1F3E9; --bad:#B33A3A; --bad-soft:#FBE8E8;
   --display:"Space Grotesk","IBM Plex Sans KR",system-ui,sans-serif;
   --ko:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;
-  --lao:"Noto Sans","Noto Sans Devanagari","Noto Sans Myanmar","IBM Plex Sans KR",system-ui,sans-serif;   /* English text (variable name kept from the Lao app) */
+  --lao:"Noto Sans","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans Lao","IBM Plex Sans KR",system-ui,sans-serif;   /* English text (variable name kept from the Lao app) */
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#111514; --sheet:#191E1D; --ink:#E8EDEB; --muted:#9BA7A4; --line:#2C3533; --raise:#202725;

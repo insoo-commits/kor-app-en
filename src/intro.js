@@ -148,7 +148,7 @@ function steps(dev){ const x = t(), k = os[dev] === "atab" ? "android" : os[dev]
 function detectChip(dev){ const x = t(); const name = {phone:{ios:"iPhone · Safari",android:"Android · Chrome"},pad:{ipad:"iPad · Safari",atab:"Android tablet"},pc:{chrome:"PC · Chrome/Edge",safari:"Mac · Safari"}}[dev][os[dev]];
   return `<span class="detect"><i>${dev === "pc" ? ICON.pc : ICON.phone}</i>${esc(x.det)}: <b>${name}</b></span>`; }
 function downloads(dev){ const x = t(), ios = (dev === "phone" && os.phone === "ios") || (dev === "pad" && os.pad === "ipad") || (dev === "pc" && os.pc === "safari");
-  const poster = {en:1, vi:1, ne:1, my:1}[lang] ? lang : "en", hasAudio = !!document.getElementById("dlAll") && !document.getElementById("dlbox").hidden;
+  const poster = {en:1, vi:1, ne:1, my:1, lo:1}[lang] ? lang : "en", hasAudio = !!document.getElementById("dlAll") && !document.getElementById("dlbox").hidden;
   return `<div class="dls">
    <div class="dl"><span class="ic"><img src="icon-192.png" alt=""></span><span class="tx"><b>${esc(x.dla)}</b><small>${esc(x.dlad)}</small></span>${standalone ? '<span class="go y">✓</span>' : `<button type="button" class="go y" data-act="${ios ? "how" : "install"}">${esc(ios ? x.seehow : x.inst)}</button>`}</div>
    ${hasAudio ? `<div class="dl"><span class="ic">${ICON.audio}</span><span class="tx"><b>${esc(x.dlv)}</b><small>${esc(x.dlvd.replace("{L}", x.vname))}</small><small class="dlmsg" data-dlmsg></small></span><button type="button" class="go" data-act="audio">${esc(x.save)}</button></div>` : ""}
@@ -243,7 +243,7 @@ function setRate(v){ S.rate = String(v); JC.save(); const e = document.getElemen
    Korean and the meaning (RYU 2026-11-27: the phone's voices ran at different speeds). The meaning voice is the app's language;
    when the intro shows another language (not loaded until Start), the device's voice reads it. */
 const SAMPLE_KO = "웃으면서 인사해요.";
-const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။"};
+const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ."};
 const sampleM = () => SAMPLE_M[lang] || t().sample;
 let playing = false;
 function stopSample(){ if (playing){ playing = false; try { JC.quiet(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} } }
