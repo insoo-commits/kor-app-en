@@ -1097,6 +1097,16 @@ if ("serviceWorker" in navigator && window.KO_SW) navigator.serviceWorker.regist
 
 { const $ = id => document.getElementById(id);
   const h = (tag, attrs) => { const el = document.createElement(tag); for (const k in attrs || {}) el.setAttribute(k, attrs[k]); return el; };
+// v1.31.0 (RYU 2026-11-27 design review): the title, search, progress and menus share one <aside id="side">.
+// Wide landscape screens (src/layout.css) show it as a left column that stays put; everywhere else it is display:contents, so the page looks as before.
+(function(){
+  const app = $("app"); if (!app || $("side")) return;
+  const parts = [app.querySelector("header.top"), app.querySelector(".search"), $("mine"), $("svbox"), app.querySelector(".menubox")].filter(Boolean);
+  if (!parts.length) return;
+  const side = h("aside", {id: "side", "aria-label": "Menu"}); app.insertBefore(side, parts[0]); side.append(...parts);
+  /* the key list under the play buttons became one ⌨ button (PC, pad); ? still opens it */
+  const kb = $("kbinfo"); if (kb){ const b = h("button", {type: "button", class: "kbbtn", title: "Keyboard shortcuts 키보드 단축키 (?)", "aria-label": "Keyboard shortcuts"}); b.textContent = "⌨"; b.addEventListener("click", () => document.dispatchEvent(new KeyboardEvent("keydown", {key: "?", bubbles: true}))); kb.appendChild(b); }
+})();
 // v2.54 RYU: design A — sticky menu bar, PC hover glide, arrow buttons (same code as the hotel English app v1.51–v1.57)
 // menu bar that stays at the top while reading down (design A, RYU 2026-11-24)
 (function(){
