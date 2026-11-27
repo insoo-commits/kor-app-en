@@ -1034,7 +1034,7 @@ function langSheet(first){
 if (Object.keys(LANGS).length){
   const sb = document.querySelector("label.search");
   if (sb) sb.appendChild(h("button", {type: "button", class: "langbtn", "aria-label": "Language", title: "Language 언어", onclick: ev => { ev.preventDefault(); langSheet(); }}, h("span", {"aria-hidden": "true"}, "🌐"), " " + LG.toUpperCase()));
-  const pf = $("prefs"); if (pf) pf.after(h("p", {class: "langline"}, h("button", {type: "button", class: "pb", onclick: () => langSheet()}, "🌐 ", (LANG_LIST.find(x => x[0] === LG) || LANG_LIST[0])[1], " ", h("span", {class: "ko"}, "설명 언어"))));
+  /* v1.31.21 (RYU): footer 🌐 button removed (the 🌐 by the search box does the same) */
   if (!S.lang && location.hash.length > 1) setTimeout(() => langSheet(true), 400);   // v1.25: with no lesson link the intro (src/intro.js) asks for the language
 }
 /* v1.25 (RYU 2026-11-27): the intro page (src/intro.js) reads and sets these */

@@ -357,7 +357,7 @@ document.addEventListener("click", ev => {
 
 /* a way back: a button under the theme row */
 { const pf = document.getElementById("prefs"); if (pf){ const p = document.createElement("p"); p.className = "langline";
-  const b = document.createElement("button"); b.type = "button"; b.className = "pb"; b.innerHTML = '<img src="icon-192.png" alt="" style="width:18px;height:18px;border-radius:5px;vertical-align:-4px"> JeyCampus <span class="ko">첫 화면</span>';
+  const b = document.createElement("button"); b.type = "button"; b.className = "pb"; b.innerHTML = '<img src="icon-192.png" alt="" style="width:18px;height:18px;border-radius:5px;vertical-align:-4px"> HOME'; b.title = "JeyCampus 첫 화면";
   b.addEventListener("click", open); p.appendChild(b); (pf.nextElementSibling && pf.nextElementSibling.classList.contains("langline") ? pf.nextElementSibling : pf).after(p); } }
 
 /* v1.25.6 (RYU 2026-11-27): footer on tablet/PC: JJU logo and version at the left; theme, text size, 🌐 and the intro button

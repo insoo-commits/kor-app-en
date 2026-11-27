@@ -2249,13 +2249,15 @@ html.introon{overflow:hidden}
 #app .footbar .fbl{display:grid;justify-items:center;gap:2px}
 @media (min-width:700px){
   #app .footbar{flex-direction:row;align-items:center;justify-content:space-between;gap:16px 24px;margin-top:10px;padding-top:12px;border-top:1px solid var(--line)}
-  #app .footbar .fbr{order:0;justify-items:end}
+  #app .footbar .fbr{order:0;display:flex;align-items:center;justify-content:flex-end;gap:22px}
   #app .footbar .fbl{justify-items:start;text-align:left}
   #app .footbar .fbl .jjufoot{margin:0}
   #app .footbar .fbl .ver{text-align:left}
   #app .footbar .prefs{margin:0;justify-content:flex-end}
   #app .footbar .fbbtns{justify-content:flex-end;flex-wrap:nowrap}
+  #app .footbar .fbbtns .pb{white-space:nowrap}
 }
+@media (min-width:700px) and (max-width:1000px){#app .footbar .fbr{gap:12px}#app .footbar{gap:12px}}
 /* v1.25.7 (RYU): speed numbers sit under their places on the slider */
 #intro .rtrack{flex:1;min-width:0;display:grid;gap:2px}
 #intro .rtrack input{width:100%;margin:0}
@@ -2356,7 +2358,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.31.20"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.20"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.31.20"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.31.21"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.21"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.31.21"></script>
 </body></html>
