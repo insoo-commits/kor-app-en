@@ -244,3 +244,11 @@ html.introon{overflow:hidden}
   #app .footbar .prefs{margin:0;justify-content:flex-end}
   #app .footbar .fbbtns{justify-content:flex-end;flex-wrap:nowrap}
 }
+/* v1.25.7 (RYU): speed numbers sit under their places on the slider */
+#intro .rtrack{flex:1;min-width:0;display:grid;gap:2px}
+#intro .rtrack input{width:100%;margin:0}
+#intro .ticks{position:relative;height:1.3em;margin:0 9px;padding:0;display:block}
+#intro .ticks span{position:absolute;top:0;transform:translateX(-50%);white-space:nowrap}
+#intro .ticks span::before{content:"";position:absolute;left:50%;top:-5px;width:1px;height:4px;background:var(--mm);opacity:.6}
+#intro .rate{align-items:flex-start}
+#intro .rate output{padding-top:2px}

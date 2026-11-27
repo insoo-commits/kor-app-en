@@ -130,8 +130,7 @@ function pass(withLangs, withCta){ const x = t();
   ${withLangs ? langChips("lgrid") : ""}
   <div class="passbody">
    <div class="row"><div class="lab">${esc(x.rep)}<small>${KO.rep}</small></div>${seg("rep", [1,2,3,4,5].map(n => [n, n + "×"]), rep())}</div>
-   <div class="row full"><div class="rate"><div class="lab">${esc(x.spd)}<small>${KO.spd}</small></div><input type="range" min="0.7" max="2" step="0.1" value="${rate()}" data-rate aria-label="${esc(x.spd)}"><output>×${(+rate()).toFixed(1)}</output></div>
-     <div class="ticks"><span>0.7</span><span>1.0</span><span>1.5</span><span>2.0</span></div></div>
+   <div class="row full"><div class="rate"><div class="lab">${esc(x.spd)}<small>${KO.spd}</small></div><div class="rtrack"><input type="range" min="0.7" max="2" step="0.1" value="${rate()}" data-rate aria-label="${esc(x.spd)}"><div class="ticks" aria-hidden="true">${[0.7, 1, 1.5, 2].map(v => `<span style="left:${((v - 0.7) / 1.3 * 100).toFixed(2)}%">${v.toFixed(1)}</span>`).join("")}</div></div><output>×${(+rate()).toFixed(1)}</output></div></div>
    <div class="row"><div class="lab">${esc(x.voice)}<small>${KO.voice} · ${esc(x.voiceN)}</small></div><button type="button" class="sw${voice() ? " on" : ""}" data-voice role="switch" aria-checked="${voice()}" aria-label="${esc(x.voice)}"></button></div>
    <div class="row"><div class="lab">${esc(x.theme)}<small>${KO.theme}</small></div>${seg("theme", [["auto", x.th[0]], ["light", x.th[1]], ["dark", x.th[2]]], theme(), "txt")}</div>
    <div class="row"><div class="lab">${esc(x.fz)}<small>${KO.fz}</small></div>${seg("fz", [[0.9, "A−"], [1, "A"], [1.15, "A+"], [1.3, "A++"]], fz())}</div>
