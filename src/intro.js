@@ -160,7 +160,7 @@ function pass(withLangs, withCta){ const x = t();
    <div class="row"><div class="lab">${esc(x.voice)}<small>${KO.voice} · ${esc(x.voiceN)}</small></div><button type="button" class="sw${voice() ? " on" : ""}" data-voice role="switch" aria-checked="${voice()}" aria-label="${esc(x.voice)}"></button></div>
    <div class="row"><div class="lab">${esc(x.theme)}<small>${KO.theme}</small></div>${seg("theme", [["auto", x.th[0]], ["light", x.th[1]], ["dark", x.th[2]]], theme(), "txt")}</div>
    <div class="row"><div class="lab">${esc(x.fz)}<small>${KO.fz}</small></div>${seg("fz", [[0.9, "A−"], [1, "A"], [1.15, "A+"], [1.3, "A++"]], fz())}</div>
-   <div class="sample"><button type="button" class="play" data-act="sample" aria-label="${esc(x.listen)}">${ICON.play}</button><div><div class="s1">${SAMPLE_KO}</div><div class="s2">${esc(sampleM())}</div></div><div class="s3">1× · ×${(+rate()).toFixed(1)}<br>${esc(x.listen)}</div></div>
+   <div class="sample"><button type="button" class="play" data-act="sample" aria-label="${esc(x.listen)}">${ICON.play}</button><div><div class="s1">${SAMPLE_KO}</div><div class="s2">${esc(sampleM())}</div></div><div class="s3">2× · ×${(+rate()).toFixed(1)}<br>${esc(x.listen)}</div></div>
   </div>
   ${withCta ? `<div class="passcta">${cta()}</div>` : ""}
   <div class="passfoot"><span>${esc(x.s2n)}</span><span class="barcode" aria-hidden="true"></span></div>
@@ -293,7 +293,7 @@ const sampleM = () => SAMPLE_M[lang] || t().sample;
 let playing = false;
 function stopSample(){ if (playing){ playing = false; try { JC.quiet(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} try { if (SEL){ SEL.onended = SEL.onerror = null; SEL.pause(); } } catch (e) {} } }
 function speak(text, l){ return new Promise(res => { try { const u = new SpeechSynthesisUtterance(text); u.lang = l; u.rate = +rate() || 1; u.onend = res; u.onerror = res; speechSynthesis.speak(u); setTimeout(res, 2500 + text.length * 300); } catch (e) { res(); } }); }
-/* v1.30.3 (RYU 2026-11-27): the sample plays Korean once and the meaning once, whatever the repeat setting. A meaning in a language
+/* v1.30.3 (RYU 2026-11-27): the sample plays Korean and the meaning in turn, twice (v1.30.5), whatever the repeat setting. A meaning in a language
    the app has not loaded yet plays its recorded clip from audio/sample/ (phones have no Uzbek voice, so the device voice was silent) */
 let SEL = null;
 function playClip(l){ return new Promise(res => { try { if (!SEL) SEL = new Audio(); let done = false; const end = () => { if (!done){ done = true; res(); } };
@@ -304,8 +304,11 @@ async function sample(){
   if (playing){ stopSample(); return; }
   playing = true;
   if (!SEL) try { SEL = new Audio(); SEL.src = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA="; const pr = SEL.play(); if (pr && pr.catch) pr.catch(() => {}); } catch (e) {}   // unlock audio while this is still the tap (iPhone)
-  await JC.speak(SAMPLE_KO, false);
-  if (voice() && playing) await (lang === JC.LG ? JC.speak(sampleM(), true) : playClip(lang));
+  for (let i = 0; i < 2 && playing; i++){   // v1.30.5 (RYU): Korean → meaning, twice
+    await JC.speak(SAMPLE_KO, false);
+    if (voice() && playing) await (lang === JC.LG ? JC.speak(sampleM(), true) : playClip(lang));
+    if (i === 0 && playing) await new Promise(r => setTimeout(r, 350));
+  }
   playing = false;
 }
 function toast(msg){ if (!box) return; const el = document.createElement("div"); el.className = "toast"; el.textContent = msg; el.style.position = "fixed"; el.style.bottom = "calc(96px + env(safe-area-inset-bottom,0px))"; box.appendChild(el); setTimeout(() => el.remove(), 2200); }
