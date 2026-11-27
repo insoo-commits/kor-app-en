@@ -8,7 +8,7 @@ const root = __dirname, src = path.join(root, "src");
 const bundles = process.argv[2] || path.join(root, "data");
 const M = require(path.join(src, "meta.js"));
 const STATS_PUBLIC = /const STATS_PUBLIC = true;/.test(fs.readFileSync(path.join(src, "stats.js"), "utf8"));
-const VER = "2026-11-28 v1.31.31";
+const VER = "2026-11-28 v1.31.32";
 const read = f => fs.readFileSync(path.join(src, f), "utf8");
 fs.mkdirSync(path.join(root, "data"), {recursive: true});
 fs.mkdirSync(path.join(root, "preview"), {recursive: true});
@@ -127,7 +127,12 @@ fs.writeFileSync(path.join(root, "index.html"), `<!doctype html>
 <title>JeyCampus</title>
 <meta name="description" content="Learn Korean: an app for English-track students at Jeonju University">
 <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#005595"><meta name="apple-mobile-web-app-title" content="JeyCampus"><meta name="application-name" content="JeyCampus">
-<link rel="icon" href="icon-192.png" type="image/png"><link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png" type="image/png">
+<!-- link preview in KakaoTalk, Facebook, LINE… (RYU 2026-11-28: was picking the Jeonju University logo from the page) -->
+<meta property="og:type" content="website"><meta property="og:site_name" content="JeyCampus"><meta property="og:url" content="https://jeycampus.pages.dev/">
+<meta property="og:title" content="JeyCampus · 캠퍼스라이프 한국어"><meta property="og:description" content="Korean for JJ Campus Life · 제이와 함께하는 한국어와 대학생활">
+<meta property="og:image" content="https://jeycampus.pages.dev/og.jpg?v=1"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://jeycampus.pages.dev/og.jpg?v=1"><link rel="apple-touch-icon" href="icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">${fonts}
 <script>/* v1.25.1 (RYU): the old address kor4et.pages.dev moves to jeycampus.pages.dev, taking this device's progress along */(function(){var K="kolearn-en-v1",h=location.hostname;try{if(h==="kor4et.pages.dev"){var d=localStorage.getItem(K)||"";location.replace("https://jeycampus.pages.dev/"+(d?"?jcm="+encodeURIComponent(d):"")+location.hash);return}var m=/[?&]jcm=([^&]*)/.exec(location.search);if(m){if(!localStorage.getItem(K)){var v=JSON.parse(decodeURIComponent(m[1]));delete v.offline;localStorage.setItem(K,JSON.stringify(v))}history.replaceState(null,"",location.pathname+location.hash)}}catch(e){}})()</script>
 <script>(function(){var n=navigator,t=n.maxTouchPoints>0||"ontouchstart" in window;if((/iPad/.test(n.userAgent)||(/Macintosh/.test(n.userAgent)&&t))||(t&&Math.min(screen.width,screen.height)>=700))document.documentElement.classList.add("tab")})()</script>
