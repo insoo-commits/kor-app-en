@@ -97,7 +97,7 @@ if (require.main === module){
       const en = todo.get(m[1]); if (!en){ bad.push(m[1]); continue; }
       L.S.set(en, m[2].trim()); n++;
     }
-    const head = "# English\tTiếng Việt (" + lang + "). Machine-made by Claude: please have a native speaker check it.\n";
+    const head = "# English\t" + ({vi: "Tiếng Việt", zh: "中文", uz: "Oʻzbekcha", my: "Myanmar", ne: "Nepali", lo: "Lao"}[lang] || lang) + " (" + lang + "). Machine-made by Claude: please have a native speaker check it.\n";
     fs.writeFileSync(tsv, head + [...L.S].map(([e, v]) => e + "\t" + v).join("\n") + "\n");
     console.log("added " + n + (bad.length ? ", unknown numbers " + bad.join(",") : "") + "; strings.tsv has " + L.S.size);
   }
