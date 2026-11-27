@@ -295,6 +295,15 @@ document.addEventListener("keydown", ev => { if (box && ev.key === "Escape"){ if
   const b = document.createElement("button"); b.type = "button"; b.className = "pb"; b.innerHTML = '<img src="icon-192.png" alt="" style="width:18px;height:18px;border-radius:5px;vertical-align:-4px"> JeyCampus <span class="ko">첫 화면</span>';
   b.addEventListener("click", open); p.appendChild(b); (pf.nextElementSibling && pf.nextElementSibling.classList.contains("langline") ? pf.nextElementSibling : pf).after(p); } }
 
+/* v1.25.6 (RYU 2026-11-27): footer on tablet/PC: JJU logo and version at the left; theme, text size, 🌐 and the intro button
+   at the right, the two buttons on one line (CSS .footbar in src/intro.css; on phones the order stays as before) */
+{ const pf = document.getElementById("prefs"), jf = document.querySelector(".jjufoot"), ver = document.getElementById("ver");
+  if (pf && jf && ver){
+    const lines = [...document.querySelectorAll(".langline")];
+    const bar = document.createElement("div"), L = document.createElement("div"), R = document.createElement("div"), B = document.createElement("div");
+    bar.className = "footbar"; L.className = "fbl"; R.className = "fbr"; B.className = "fbbtns";
+    pf.before(bar); L.append(jf, ver); lines.forEach(l => B.appendChild(l)); R.append(pf, B); bar.append(L, R);
+  } }
 /* open: no lesson link in the address, and not yet shown in this visit */
 /* refresh keeps whichever screen was showing: the intro stays open until Start is pressed */
 let st = null; try { st = sessionStorage.getItem("jc-intro"); } catch (e) {}
