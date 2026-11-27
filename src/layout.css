@@ -122,11 +122,11 @@ html.tab #app .search input{font-size:17px}
   #app .top .eyebrow{line-height:1.2}
   #app .top h1{line-height:1.15;margin:0}
   /* main menu: each item a soft outlined cell; 대한민국 starts the last row with 전주생활 and 도움말 */
-  #app .menubox #groups{background:none!important;padding:0!important;gap:5px!important}
-  #app .menubox #groups .group{border:1px solid var(--line2)!important;border-radius:10px!important;background:var(--sheet)}
-  #app .menubox #groups .group[aria-pressed="true"]{border-color:transparent!important}
+  /* v1.31.8 (RYU): the menu keeps its rounded box; each item gets a light background, and the soft pill with the line under it shows only under the mouse */
+  #app .menubox #groups{padding:5px!important;gap:5px!important;border-radius:16px}
+  #app .menubox #groups .group{border-radius:999px!important;background:color-mix(in srgb,var(--sheet) 80%,transparent)!important}
+  #app .menubox #groups .group[aria-pressed="true"]{background:var(--accent)!important}
   #app .menubox #groups .group[data-g="KR"]{grid-column:1}
-  #app .menubox #groups .glide{display:none}
   /* right side: a JJU-blue line on top (was yellow) that lines up with the blue title card on the left (RYU) */
   #app .band{border-top:5px solid #005595}
   :root[data-theme="dark"] #app .band{border-top-color:#2F7FC0}
