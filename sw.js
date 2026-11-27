@@ -1,4 +1,4 @@
-const SHELL="koen-shell-2026-11-28-v1.31.29";
+const SHELL="koen-shell-2026-11-28-v1.31.30";
 const FILES=["./","index.html","app.js","audio/index.js","audio/index-en.js","audio/index-lo.js","audio/index-my.js","audio/index-ne.js","audio/index-uz.js","audio/index-vi.js","audio/index-zh.js","manifest.webmanifest","icon.svg","data/K2.json","data/K1.json","data/K6.json","data/K7.json","data/LS.json","data/TP.json","data/K4.json","data/K5.json","data/KR.json","data/JB.json","data/HP.json"];
 /* v1.30.7: the app registers sw.js?lang=<code>, so the lessons of the student's own language are kept for offline use too, not only the English ones */
 const LG=new URL(location).searchParams.get("lang");if(["lo","my","ne","uz","vi","zh"].includes(LG))FILES.push(["K2","K1","K6","K7","LS","TP","K4","K5","KR","JB","HP"].map(a=>"data/"+LG+"/"+a+".json"));
@@ -14,5 +14,11 @@ self.addEventListener("fetch",e=>{const u=new URL(e.request.url);if(e.request.me
   if(u.pathname.includes("/audio/p/"))return;   /* lesson packs: the app keeps them in IndexedDB itself (v0.5) */
   if(u.pathname.includes("/audio/")&&u.pathname.endsWith(".mp3")){const k=u.pathname.split("/").pop().slice(0,-4);
     e.respondWith(aget(k).then(b=>b?mp3(b):fetch(e.request.url).then(r=>{if(r.ok){const cl=r.clone();e.waitUntil(cl.arrayBuffer().then(b=>aput(k,b)).catch(()=>{}))}return r})));return}
-  e.respondWith(fetch(e.request,{cache:"no-cache"}).then(r=>{if(r.ok){const cl=r.clone();caches.open(SHELL).then(c=>c.put(e.request.mode==="navigate"?"index.html":e.request,cl))}return r})
-    .catch(()=>caches.open(SHELL).then(c=>c.match(e.request.mode==="navigate"?"index.html":e.request,{ignoreSearch:true}).then(m=>m||c.match("index.html")))))});
+  /* v1.31.30 (RYU 2026-11-28: the app sometimes froze on "Loading…"): a slow network no longer holds the page; after 5 s the saved copy
+     is used, and a script or data file is never answered with the page itself (that stopped app.js from running) */
+  const nav=e.request.mode==="navigate",key=nav?"index.html":e.request;
+  const saved=()=>caches.match(key,{ignoreSearch:true}).then(m=>m||(nav?caches.match("index.html",{ignoreSearch:true}):null));
+  const net=fetch(e.request,{cache:"no-cache"}).then(r=>{if(r.ok){const cl=r.clone();e.waitUntil(caches.open(SHELL).then(c=>c.put(key,cl)).catch(()=>{}))}return r});
+  e.respondWith(new Promise(res=>{let done=false;const give=r=>{if(!done&&r){done=true;res(r)}};
+    net.then(give,()=>saved().then(m=>{if(m)give(m);else if(!done){done=true;res(Response.error())}}));
+    setTimeout(()=>{if(!done)saved().then(give)},5000)}))});
