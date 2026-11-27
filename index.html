@@ -1901,7 +1901,6 @@ html.lsopen,html.lsopen body{overflow:hidden}
 }
 
 /* v1.31.0 layout (RYU 2026-11-27 design review, artifact ReQpX8Ri6W4FFYE22UHUiz). Loaded after skin.css.
-   1 wide landscape screens: title, search, progress and menus in a left column (#side, built in app.js)
    2 sizes that were out of step (sub-menu line, pad chips, PC lesson intro)
    3 phones: a one-line title bar and the progress cards in one row
    4 PC and pad: the play tools in one row, the key list behind one ⌨ button */
@@ -1963,127 +1962,20 @@ html.tab #app .search input{font-size:17px}
 }
 
 /* ---------- 1. wide landscape screens: left column ---------- */
-@media (min-width:1100px) and (orientation:landscape){
-  #app.wrap{max-width:1400px;display:grid;grid-template-columns:310px minmax(0,1fr);column-gap:26px;row-gap:14px;align-items:start}
-  #app>*:not(#side){grid-column:2;min-width:0}
-  #side{display:flex;flex-direction:column;gap:12px;grid-column:1;grid-row:1 / span 40;position:sticky;top:20px;max-height:calc(100vh - 40px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;padding:0 2px 12px}
-  #app .stick{display:none!important}
-  /* title: one compact card */
-  #app .top{padding:14px 16px 14px;border-radius:18px;gap:2px;min-height:0}
-  #app .top .eyebrow{font-size:11.5px}
-  #app .top h1{font-size:23px;white-space:nowrap}
-  #app .top .tagline{display:none}
-  #app .top .eyebrow{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:calc(100% - 60px)}
-  #app .top .jeyhd{max-height:74px;right:6px;bottom:-6px}
-  #app .top .hart,#app .top .stats{display:none}
-  #app .top::after{display:none}
-  /* search full width of the column, the 🌐 button stays at its right */
-  #app .search input{text-align:left}
-  /* progress: three small numbers in a row, the next lesson under them */
-  #app .mine{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:0}
-  #app .mine .mn{padding:8px 10px}
-  #app .mine .mn b{font-size:17px}
-  #app .mine .mn-st>span,#app .mine .mn-pr>span,#app .mine .mn-td>span{display:none}
-  #app .mine .mn-nx,#app .mine .mn-wb{grid-column:1 / -1;flex-direction:row;align-items:center;gap:6px}
-  #app .mine .mn-nx>span{width:auto;font-size:14px}
-  #app .mine .mn-nx i{display:inline}
-  #app .mine .mn-nx .nxjey{display:none}
-  #app .mine .mn-nx{padding-right:12px}
-  /* menus: the main menu wraps into rows, the sub menu is a list */
-  #app .menubox{padding:10px 10px 10px;border-radius:18px}
-  #app .menubox .hs{overflow:visible}
-  #app .menubox .hsb{display:none!important}
-  #app .menubox .groups{flex-wrap:wrap;overflow:visible;border-radius:14px;row-gap:2px!important}
-  #app .menubox .groups .group{flex:0 0 auto}
-  #app .menubox .subs{flex-direction:column;flex-wrap:nowrap;overflow:visible;gap:3px;padding:2px 0}
-  #app .menubox .sub{width:100%;justify-content:flex-start;text-align:left;border-radius:10px}
-  #app .menubox .sub .name{white-space:normal;word-break:keep-all}
-  #app .menubox .sinfo{display:none}
-  #app #groups .group::before,#app #groups .group::after,#app #groups .group+.group:not(.msep)::before{display:none!important;content:none!important}
-  #app #groups .group{padding:5px 11px!important;font-size:14.5px!important;min-height:0}
-  #app #groups .group.msep{margin-left:0!important}
-  /* main menu: three to a row, columns lined up (RYU 2026-11-27) */
-  #app .menubox #groups{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px!important}
-  #app .menubox #groups .group{width:100%;justify-content:center;text-align:center;padding:6px 4px!important}
-  #app .menubox .groups .gsep{display:none!important}
-  #app .menubox .groups .group{margin:0!important}
-  /* long sub menus (문법 18, TOPIK …) go into two columns so the whole list fits on one screen (RYU 2026-11-27) */
-  #app .menubox .subs:has(.sub:nth-of-type(9)){display:grid;grid-template-columns:1fr 1fr;gap:3px}
-  #app .menubox .subs>:not(.sub){grid-column:1 / -1}
-  #app .menubox .subs:has(.sub:nth-of-type(9)) .sub{padding-left:8px;padding-right:6px}
-  #app .menubox .subs:has(.sub:nth-of-type(9)) .sub .name{font-size:13px!important;line-height:1.25;letter-spacing:-.02em}
-  #app .menubox .subs:has(.sub:nth-of-type(9)) .sub{min-height:32px;padding-top:4px;padding-bottom:4px}
-  #side>*{flex-shrink:0}
-  /* the lesson title reads from the left like every other heading */
-  /* iPad held sideways: a little larger for fingers */
-  html.tab #app #groups .group{font-size:16px!important;padding:7px 4px!important}
-  html.tab #app .menubox .sub .name,html.tab #app .menubox .subs:has(.sub:nth-of-type(9)) .sub .name{font-size:15px!important}
-  html.tab #app .menubox .sub{min-height:38px}
-  /* v1.31.3 (RYU): title pill and heading no longer touch */
-  #app .top .brand{display:flex;flex-direction:column;align-items:flex-start;gap:7px}
-  #app .top .eyebrow{line-height:1.2}
-  #app .top h1{line-height:1.15;margin:0}
-  /* right side: a JJU-blue line on top (was yellow) that lines up with the blue title card on the left (RYU) */
-  #app .band{border-top:5px solid #005595}
-  :root[data-theme="dark"] #app .band{border-top-color:#2F7FC0}
-  /* lesson title bar and the Korean of each word a step smaller, closer to the left column */
-  #app .band #bsel .bsel{height:36px;font-size:16px}
-  #app .band #bsel .bsel.two{min-height:36px}
-  #view .line .k{font-size:17.5px}
-  #view .word>.line.head .k{font-size:21px}
-  #view .word>.line.head .p{font-size:15px}
-  #view .word>.line.head .m{font-size:16px}
-}
-@media (min-width:1100px) and (orientation:landscape) and (prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .band{border-top-color:#2F7FC0}}
+
+
 /* v1.31.6 (RYU): wide screens, theme · text size · language · first-screen buttons in one row at the bottom */
-@media (min-width:1100px) and (orientation:landscape){
-  #app.wrap .footbar .fbr{display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:flex-end;gap:8px}
-  #app.wrap .footbar .prefs{flex-wrap:nowrap}
-  #app.wrap .footbar .fbr{flex:0 0 auto}
-  #app.wrap .footbar{flex-wrap:wrap}
-  #app.wrap .footbar{align-items:flex-end}
-  #app.wrap .footbar .fbl{flex:1 1 auto;min-width:190px}
-  #app.wrap .footbar .fbr{margin-left:auto}
-  #app.wrap .footbar .fbr button,#app.wrap .footbar .fbr a,#app.wrap .footbar .fbr span{white-space:nowrap}
-  #app.wrap .footbar .fbbtns{flex-wrap:nowrap}
-}
+
 
 /* v1.31.9 (RYU picked menu B-2; main-menu part undone in v1.31.10, artifact TGbwSqnVzG5pMJUKQnVNAz): wide screens, the main menu is one soft panel, the chosen item a white chip;
    rows 3 + 3 + 4 (대학생활 · 알바 · 전주 · 대한민국), 도움말 a small button top right; the sub menu a plain list with "3/8" at the right */
 #app .sfr{display:none}
-@media (min-width:1100px) and (orientation:landscape){
-  /* sub menu: one column, no boxes, progress as numbers; long lists sit closer */
-  #app .menubox .hs:has(#subs){border-top:1px solid var(--line);padding-top:6px;margin-top:4px}
-  #app .menubox .subs,#app .menubox .subs:has(.sub:nth-of-type(9)){display:flex!important;flex-direction:column;gap:0!important}
-  #app .menubox .sub,#app .menubox .subs:has(.sub:nth-of-type(9)) .sub{border:0!important;background:transparent!important;box-shadow:none!important;border-radius:8px!important;padding:6px 6px!important;min-height:0!important;align-items:center}
-  #app .menubox .sub:hover{background:color-mix(in srgb,var(--accent) 6%,var(--sheet))!important}
-  #app .menubox .sub[aria-selected="true"]{background:color-mix(in srgb,var(--accent) 12%,var(--sheet))!important}
-  #app .menubox .sub[aria-selected="true"] .name{font-weight:700}
-  #app .menubox .sub .name,#app .menubox .subs:has(.sub:nth-of-type(9)) .sub .name{font-size:14px!important;letter-spacing:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  #app .menubox .subs:has(.sub:nth-of-type(14)) .sub{padding:3px 6px!important}
-  #app .menubox .subs:has(.sub:nth-of-type(14)) .sub .name{font-size:13.5px!important}
-  #app .menubox .sub .sprog{display:none}
-  #app .menubox .sub .sfr{display:inline;margin-left:auto;padding-left:8px;font-family:var(--display);font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums}
-  #app .menubox .sub .sfr.on{color:var(--accent);font-weight:600}
-  html.tab #app .menubox .sub .name{font-size:15px!important}
-  html.tab #app .menubox .sub{padding:7px 6px!important}
-}
+
 
 /* v1.31.10 (RYU): back to the v1.31.8 main menu (rounded box, light item backgrounds, soft pill with a line under it on hover), lower items */
-@media (min-width:1100px) and (orientation:landscape){
-  #app .menubox #groups{padding:4px!important;gap:4px!important;border-radius:16px}
-  #app .menubox #groups .group{border-radius:999px!important;background:color-mix(in srgb,var(--sheet) 80%,transparent)!important;padding:3px 4px!important;min-height:0!important;line-height:1.35}
-  #app .menubox #groups .group[aria-pressed="true"]{background:var(--accent)!important}
-  #app .menubox #groups .group[data-g="KR"]{grid-column:1}
-  html.tab #app .menubox #groups .group{padding:5px 4px!important}
-  #app .menubox .groups .glide{top:4px;bottom:auto}
-  /* v1.31.11 (RYU): every sub list as close as the 18-item one */
-  #app .menubox .sub,#app .menubox .subs:has(.sub:nth-of-type(9)) .sub{padding-top:3px!important;padding-bottom:3px!important}
-  html.tab #app .menubox .sub{padding-top:4px!important;padding-bottom:4px!important}
-  /* the sub numbers line up with the text of the main menu: left with 기초회화, right with 문장규칙 */
-  #app .menubox #subs{padding-left:17px!important;padding-right:17px!important}
-  html.tab #app .menubox #subs{padding-left:14.5px!important;padding-right:14.5px!important}
-}
+
+
+/* v1.31.12 (RYU 2026-11-27): the wide left-column layout (v1.31.0–1.31.11) is withdrawn; landscape screens show the same page as portrait. */
 
 /* intro page (v1.25, RYU 2026-11-27): src/intro.js. Layout class on #intro: P phone, T tablet, D desktop */
 #intro{position:fixed;inset:0;z-index:900;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch}
@@ -2434,7 +2326,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.31.11"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.11"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.31.11"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.31.12"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.12"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.31.12"></script>
 </body></html>
