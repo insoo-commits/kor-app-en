@@ -255,3 +255,15 @@ html.introon{overflow:hidden}
 /* v1.25.8 (RYU): Jey and friends at the bottom about as tall as the logo and text beside them */
 #intro .frow .frpic{height:86px;width:auto;display:block}
 #intro .frow{align-items:center}
+
+/* v1.27: intro video card (src/intro.js ytCard; also in 도움말 > 이 앱은) */
+.ytv{position:relative;display:block;width:100%;max-width:720px;aspect-ratio:16/9;padding:0;border:0;border-radius:16px;overflow:hidden;background:#082654;cursor:pointer;box-shadow:0 6px 22px rgba(0,30,70,.22)}
+.ytv img{display:block;width:100%;height:100%;object-fit:cover;margin:0;border:0;border-radius:0}
+.ytv .ytplay{position:absolute;left:14px;bottom:12px;width:64px;height:44px;border-radius:14px;background:#e62117;box-shadow:0 4px 14px rgba(0,0,0,.35);transition:transform .15s}
+.ytv .ytplay::after{content:"";position:absolute;left:25px;top:12px;border-style:solid;border-width:10px 0 10px 17px;border-color:transparent transparent transparent #fff}
+.ytv:hover .ytplay{transform:scale(1.08)}
+.ytv .ytlen{position:absolute;right:10px;bottom:10px;background:rgba(0,0,0,.72);color:#fff;font-size:.78em;font-weight:600;padding:3px 8px;border-radius:6px}
+.ytv.on iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+#intro .band.vband{display:block!important;padding-top:0}
+#intro .vband .vsec{max-width:720px;margin:0 auto}
+.info .ytv,.infobox .ytv{margin:14px 0 18px}
