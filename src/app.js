@@ -1013,7 +1013,7 @@ applyPrefs();
 /* language: 🌐 button at the right of the search box, a picker on first launch, and a button under the theme row (v1.20) */
 function langSheet(first){
   const old = $("langsheet"); if (old) old.remove();
-  const close = () => { if (!S.lang){ S.lang = LG; save(); } box.remove(); document.removeEventListener("keydown", esc); };
+  const close = () => { if (!S.lang){ S.lang = LG; save(); } box.remove(); document.documentElement.classList.remove("lsopen"); document.removeEventListener("keydown", esc); };
   const esc = e => { if (e.key === "Escape") close(); };
   const pick = c => { const was = LG; S.lang = c; save(); if (c !== was) location.reload(); else close(); };
   const box = h("div", {id: "langsheet", class: "langsheet"},
@@ -1028,7 +1028,7 @@ function langSheet(first){
           on ? h("span", {class: "lsok", "aria-hidden": "true"}, "✓") : null, ok ? null : h("span", {class: "lssoon ko"}, "준비 중")); }),
       LX && LX.note ? h("p", {class: "lsfoot"}, LX.note) : null,
       h("p", {class: "lsfoot"}, "You can change it any time with 🌐 at the top. ", h("span", {class: "ko"}, "언제든 위의 🌐 로 바꿀 수 있어요."))));
-  document.body.appendChild(box); document.addEventListener("keydown", esc);
+  document.body.appendChild(box); document.documentElement.classList.add("lsopen"); document.addEventListener("keydown", esc);   /* v1.30.2: page behind does not scroll; the card scrolls */
   const b = box.querySelector(".lsopt.on") || box.querySelector(".lsopt"); if (b && !first) b.focus();
 }
 if (Object.keys(LANGS).length){
