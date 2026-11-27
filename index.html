@@ -1978,14 +1978,7 @@ html.tab #app .search input{font-size:17px}
 
 /* ---------- 3. phones: shorter top ---------- */
 @media (max-width:600px){
-  #app .top{padding:9px 14px 9px;min-height:0;gap:0}
-  #app .top .brand{display:flex;flex-direction:row;align-items:center;gap:8px;max-width:calc(100% - 56px)}
-  #app .top .eyebrow{font-size:0;line-height:1;letter-spacing:0;opacity:1}
-  #app .top .eyebrow .logo{font-size:12.5px}
-  #app .top h1{font-size:20px;white-space:nowrap}
-  #app .top .tagline{display:none}
-  #app .top .jeyhd{max-height:58px;height:120%;bottom:-8px;right:8px}
-  #app .top .hart{display:none}
+  /* v1.31.28 (RYU): the one-line title bar is withdrawn; phones show the two-line title again like PhasaKAO/LAO */
   #app .mine{grid-template-columns:auto auto auto minmax(0,1fr);gap:6px;margin-top:6px}
   #app .mine .mn-nx{grid-column:auto;padding:6px 10px;flex-direction:row;align-items:center;gap:4px;min-width:0}
   #app .mine .mn-nx small,#app .mine .mn-nx .nxjey{display:none}
@@ -2367,7 +2360,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-28%20v1.31.27"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-28%20v1.31.27"><\/script>')})()</script>
-<script src="app.js?v=2026-11-28%20v1.31.27"></script>
+<script src="audio/index.js?v=2026-11-28%20v1.31.28"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-28%20v1.31.28"><\/script>')})()</script>
+<script src="app.js?v=2026-11-28%20v1.31.28"></script>
 </body></html>
