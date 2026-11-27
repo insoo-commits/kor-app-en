@@ -1916,6 +1916,9 @@ html.lsopen,html.lsopen body{overflow:hidden}
   .stick .stin{padding-left:30px;padding-right:30px}
   .stick .strow{padding:0}
   .stick .hs{align-self:stretch}
+  /* v1.31.16: menu on top, the app name and lesson line under it, in the same order as the page (menu, then lesson) */
+  .stick .stin{flex-direction:column-reverse;padding-top:8px;padding-bottom:6px}
+  .stick .strow{padding-left:14px}
 }
 
 /* v1.31.0 layout (RYU 2026-11-27 design review, artifact ReQpX8Ri6W4FFYE22UHUiz). Loaded after skin.css.
@@ -2344,7 +2347,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.31.15"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.15"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.31.15"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.31.16"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.16"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.31.16"></script>
 </body></html>
