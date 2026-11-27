@@ -160,7 +160,7 @@ function pass(withLangs, withCta){ const x = t();
    <div class="row"><div class="lab">${esc(x.voice)}<small>${KO.voice} · ${esc(x.voiceN)}</small></div><button type="button" class="sw${voice() ? " on" : ""}" data-voice role="switch" aria-checked="${voice()}" aria-label="${esc(x.voice)}"></button></div>
    <div class="row"><div class="lab">${esc(x.theme)}<small>${KO.theme}</small></div>${seg("theme", [["auto", x.th[0]], ["light", x.th[1]], ["dark", x.th[2]]], theme(), "txt")}</div>
    <div class="row"><div class="lab">${esc(x.fz)}<small>${KO.fz}</small></div>${seg("fz", [[0.9, "A−"], [1, "A"], [1.15, "A+"], [1.3, "A++"]], fz())}</div>
-   <div class="sample"><button type="button" class="play" data-act="sample" aria-label="${esc(x.listen)}">${ICON.play}</button><div><div class="s1">${SAMPLE_KO}</div><div class="s2">${esc(sampleM())}</div></div><div class="s3">${rep()}× · ×${(+rate()).toFixed(1)}<br>${esc(x.listen)}</div></div>
+   <div class="sample"><button type="button" class="play" data-act="sample" aria-label="${esc(x.listen)}">${ICON.play}</button><div><div class="s1">${SAMPLE_KO}</div><div class="s2">${esc(sampleM())}</div></div><div class="s3">1× · ×${(+rate()).toFixed(1)}<br>${esc(x.listen)}</div></div>
   </div>
   ${withCta ? `<div class="passcta">${cta()}</div>` : ""}
   <div class="passfoot"><span>${esc(x.s2n)}</span><span class="barcode" aria-hidden="true"></span></div>
@@ -286,19 +286,24 @@ function setRate(v){ S.rate = String(v); JC.save(); const e = document.getElemen
    Korean and the meaning (RYU 2026-11-27: the phone's voices ran at different speeds). The meaning voice is the app's language;
    when the intro shows another language (not loaded until Start), the device's voice reads it. */
 const SAMPLE_KO = "웃으면서 인사해요.";
-const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ.", zh: "我笑着打招呼。", uz: "Jilmayib salomlashaman."};
+const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ.", zh: "我笑着打招呼。", uz: "Men jilmayib salom beraman."};
 const sampleM = () => SAMPLE_M[lang] || t().sample;
 let playing = false;
-function stopSample(){ if (playing){ playing = false; try { JC.quiet(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} } }
+function stopSample(){ if (playing){ playing = false; try { JC.quiet(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} try { if (SEL){ SEL.onended = SEL.onerror = null; SEL.pause(); } } catch (e) {} } }
 function speak(text, l){ return new Promise(res => { try { const u = new SpeechSynthesisUtterance(text); u.lang = l; u.rate = +rate() || 1; u.onend = res; u.onerror = res; speechSynthesis.speak(u); setTimeout(res, 2500 + text.length * 300); } catch (e) { res(); } }); }
+/* v1.30.3 (RYU 2026-11-27): the sample plays Korean once and the meaning once, whatever the repeat setting. A meaning in a language
+   the app has not loaded yet plays its recorded clip from audio/sample/ (phones have no Uzbek voice, so the device voice was silent) */
+let SEL = null;
+function playClip(l){ return new Promise(res => { try { if (!SEL) SEL = new Audio(); let done = false; const end = () => { if (!done){ done = true; res(); } };
+  SEL.onended = end; SEL.onerror = () => { if (!done){ done = true; speak(sampleM(), VLS[l]).then(res); } };
+  SEL.src = "audio/sample/" + l + ".mp3"; SEL.playbackRate = +rate() || 1; const pr = SEL.play(); if (pr && pr.catch) pr.catch(SEL.onerror); setTimeout(end, 9000); } catch (e) { res(); } }); }
+const VLS = {en:"en-US", vi:"vi-VN", ne:"ne-NP", my:"my-MM", lo:"lo-LA", zh:"zh-CN", uz:"uz-UZ"};
 async function sample(){
   if (playing){ stopSample(); return; }
-  playing = true; const n = +rep() || 1, VL = {en:"en-US", vi:"vi-VN", ne:"ne-NP", my:"my-MM", lo:"lo-LA", zh:"zh-CN", uz:"uz-UZ"};
-  for (let i = 0; i < n && playing; i++){
-    await JC.speak(SAMPLE_KO, false);
-    if (i === 0 && voice() && playing) await (lang === JC.LG ? JC.speak(sampleM(), true) : speak(sampleM(), VL[lang]));
-    if (playing) await new Promise(r => setTimeout(r, 350));
-  }
+  playing = true;
+  if (!SEL) try { SEL = new Audio(); SEL.src = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA="; const pr = SEL.play(); if (pr && pr.catch) pr.catch(() => {}); } catch (e) {}   // unlock audio while this is still the tap (iPhone)
+  await JC.speak(SAMPLE_KO, false);
+  if (voice() && playing) await (lang === JC.LG ? JC.speak(sampleM(), true) : playClip(lang));
   playing = false;
 }
 function toast(msg){ if (!box) return; const el = document.createElement("div"); el.className = "toast"; el.textContent = msg; el.style.position = "fixed"; el.style.bottom = "calc(96px + env(safe-area-inset-bottom,0px))"; box.appendChild(el); setTimeout(() => el.remove(), 2200); }
