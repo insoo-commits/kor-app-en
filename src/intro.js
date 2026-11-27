@@ -160,7 +160,7 @@ function pass(withLangs, withCta){ const x = t();
    <div class="row"><div class="lab">${esc(x.voice)}<small>${KO.voice} · ${esc(x.voiceN)}</small></div><button type="button" class="sw${voice() ? " on" : ""}" data-voice role="switch" aria-checked="${voice()}" aria-label="${esc(x.voice)}"></button></div>
    <div class="row"><div class="lab">${esc(x.theme)}<small>${KO.theme}</small></div>${seg("theme", [["auto", x.th[0]], ["light", x.th[1]], ["dark", x.th[2]]], theme(), "txt")}</div>
    <div class="row"><div class="lab">${esc(x.fz)}<small>${KO.fz}</small></div>${seg("fz", [[0.9, "A−"], [1, "A"], [1.15, "A+"], [1.3, "A++"]], fz())}</div>
-   <div class="sample"><button type="button" class="play" data-act="sample" aria-label="${esc(x.listen)}">${ICON.play}</button><div><div class="s1">${SAMPLE_KO}</div><div class="s2">${esc(sampleM())}</div></div><div class="s3">2× · ×${(+rate()).toFixed(1)}<br>${esc(x.listen)}</div></div>
+   <div class="sample"><button type="button" class="play" data-act="sample" aria-label="${esc(x.listen)}">${ICON.play}</button><div><div class="s1">${SAMPLE_KO}</div><div class="s2">${esc(sampleM())}</div></div><div class="s3">${rep()}× · ×${(+rate()).toFixed(1)}<br>${esc(x.listen)}</div></div>
   </div>
   ${withCta ? `<div class="passcta">${cta()}</div>` : ""}
   <div class="passfoot"><span>${esc(x.s2n)}</span><span class="barcode" aria-hidden="true"></span></div>
@@ -290,10 +290,10 @@ function setRate(v){ S.rate = String(v); JC.save(); const e = document.getElemen
 const SAMPLE_KO = "웃으면서 인사해요.";
 const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ.", zh: "我笑着打招呼。", uz: "Men jilmayib salom beraman."};
 const sampleM = () => SAMPLE_M[lang] || t().sample;
-let playing = false;
-function stopSample(){ if (playing){ playing = false; try { JC.quiet(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} try { if (SEL){ SEL.onended = SEL.onerror = null; SEL.pause(); } } catch (e) {} } }
+let playing = false, RUN = 0;   // v1.30.6: each play has its own number, so a stopped play can never wake up and talk over a new one
+function stopSample(){ RUN++; if (playing){ playing = false; try { JC.quiet(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} try { if (SEL){ SEL.onended = SEL.onerror = null; SEL.pause(); } } catch (e) {} } }
 function speak(text, l){ return new Promise(res => { try { const u = new SpeechSynthesisUtterance(text); u.lang = l; u.rate = +rate() || 1; u.onend = res; u.onerror = res; speechSynthesis.speak(u); setTimeout(res, 2500 + text.length * 300); } catch (e) { res(); } }); }
-/* v1.30.3 (RYU 2026-11-27): the sample plays Korean and the meaning in turn, twice (v1.30.5), whatever the repeat setting. A meaning in a language
+/* v1.30.3 (RYU 2026-11-27): the sample follows the repeat setting; the meaning plays once, after the first Korean (v1.30.6). A meaning in a language
    the app has not loaded yet plays its recorded clip from audio/sample/ (phones have no Uzbek voice, so the device voice was silent) */
 let SEL = null;
 function playClip(l){ return new Promise(res => { try { if (!SEL) SEL = new Audio(); let done = false; const end = () => { if (!done){ done = true; res(); } };
@@ -302,14 +302,16 @@ function playClip(l){ return new Promise(res => { try { if (!SEL) SEL = new Audi
 const VLS = {en:"en-US", vi:"vi-VN", ne:"ne-NP", my:"my-MM", lo:"lo-LA", zh:"zh-CN", uz:"uz-UZ"};
 async function sample(){
   if (playing){ stopSample(); return; }
+  const me = ++RUN, on = () => playing && RUN === me;
   playing = true;
   if (!SEL) try { SEL = new Audio(); SEL.src = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA="; const pr = SEL.play(); if (pr && pr.catch) pr.catch(() => {}); } catch (e) {}   // unlock audio while this is still the tap (iPhone)
-  for (let i = 0; i < 2 && playing; i++){   // v1.30.5 (RYU): Korean → meaning, twice
+  const n = +rep() || 1;   // v1.30.6 (RYU 2026-11-27): the repeat setting above; the meaning only after the first Korean
+  for (let i = 0; i < n && on(); i++){
     await JC.speak(SAMPLE_KO, false);
-    if (voice() && playing) await (lang === JC.LG ? JC.speak(sampleM(), true) : playClip(lang));
-    if (i === 0 && playing) await new Promise(r => setTimeout(r, 350));
+    if (i === 0 && voice() && on()) await (lang === JC.LG ? JC.speak(sampleM(), true) : playClip(lang));
+    if (on()) await new Promise(r => setTimeout(r, 350));
   }
-  playing = false;
+  if (RUN === me) playing = false;
 }
 function toast(msg){ if (!box) return; const el = document.createElement("div"); el.className = "toast"; el.textContent = msg; el.style.position = "fixed"; el.style.bottom = "calc(96px + env(safe-area-inset-bottom,0px))"; box.appendChild(el); setTimeout(() => el.remove(), 2200); }
 /* the app's own "save all audio" button does the work; its progress text is copied here */
@@ -323,7 +325,7 @@ document.addEventListener("click", ev => {
   if (lmenu && (!b || !b.closest(".lpwrap"))){ lmenu = false; render(); if (!b) return; }
   if (!b || b.disabled) return;
   if (b.dataset.act === "lmenu"){ lmenu = !lmenu; render(); return; }
-  if (b.dataset.lang){ lmenu = false; lang = b.dataset.lang; S.lang = lang; JC.save(); render(); return; }
+  if (b.dataset.lang){ stopSample(); lmenu = false; lang = b.dataset.lang; S.lang = lang; JC.save(); render(); return; }
   if (b.dataset.rep){ setRep(b.dataset.rep); render(); return; }
   if (b.dataset.theme){ S.theme = b.dataset.theme; JC.save(); JC.applyPrefs(); render(); return; }
   if (b.dataset.fz){ S.fz = +b.dataset.fz; JC.save(); JC.applyPrefs(); render(); return; }
