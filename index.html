@@ -2029,8 +2029,9 @@ html.tab #app .search input{font-size:17px}
   #app .menubox #groups .group[aria-pressed="true"]{border-color:transparent!important}
   #app .menubox #groups .group[data-g="KR"]{grid-column:1}
   #app .menubox #groups .glide{display:none}
-  /* right side: no yellow line on top, so both columns start on the same line */
-  #app .band{border-top:0}
+  /* right side: a JJU-blue line on top (was yellow) that lines up with the blue title card on the left (RYU) */
+  #app .band{border-top:5px solid #005595}
+  :root[data-theme="dark"] #app .band{border-top-color:#2F7FC0}
   /* lesson title bar and the Korean of each word a step smaller, closer to the left column */
   #app .band #bsel .bsel{height:36px;font-size:16px}
   #app .band #bsel .bsel.two{min-height:36px}
@@ -2039,6 +2040,7 @@ html.tab #app .search input{font-size:17px}
   #view .word>.line.head .p{font-size:15px}
   #view .word>.line.head .m{font-size:16px}
 }
+@media (min-width:1100px) and (orientation:landscape) and (prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .band{border-top-color:#2F7FC0}}
 
 /* intro page (v1.25, RYU 2026-11-27): src/intro.js. Layout class on #intro: P phone, T tablet, D desktop */
 #intro{position:fixed;inset:0;z-index:900;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch}
@@ -2389,7 +2391,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.31.4"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.4"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.31.4"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.31.5"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.5"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.31.5"></script>
 </body></html>
