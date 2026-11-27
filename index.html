@@ -141,8 +141,6 @@ h1{font-family:var(--display);font-size:clamp(30px,7vw,48px);line-height:1.1;mar
 .line .p{font-size:15px;color:var(--accent)}
 .line .m{color:var(--ink)}
 .line .from{font-size:15px;color:var(--muted)}
-.hidepr .p,.hidelo .line .m{filter:blur(5px);cursor:pointer;user-select:none}
-.hidepr .p.show,.hidelo .line .m.show{filter:none}
 .line.now,.letter.now{background:var(--accent-soft)}
 .rowbtns.now .spk,.now>.spk{border-color:var(--accent);background:var(--accent-soft)}
 .rows{border:1px solid var(--line);border-radius:12px;overflow:hidden}
@@ -282,7 +280,6 @@ th{border-top:0;background:var(--accent-soft);font-size:16px;color:var(--ink);fo
 .gl{margin-top:8px;padding-top:6px;border-top:1px dashed var(--line);font-size:14.5px;color:var(--muted);line-height:1.6;text-align:right}
 .gl .ko{color:var(--ink);font-weight:500}
 .gl .p{font-size:14px}
-.hidelo .gl .gm{filter:blur(5px)}
 /* word repeat button: top-right corner of each word box */
 .word{position:relative}
 .wrep{position:absolute;top:8px;right:8px;z-index:1;border:1px solid var(--line);background:var(--sheet);color:var(--ink);border-radius:999px;padding:3px 10px;font:inherit;font-size:13px;cursor:pointer}
@@ -2221,7 +2218,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.30.6"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.30.6"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.30.6"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.30.7"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.30.7"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.30.7"></script>
 </body></html>

@@ -76,9 +76,11 @@ async def main():
     ap.add_argument("--lang", choices=["ko", "en", "km", "vi", "ne", "my", "lo", "zh", "uz"])
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--jobs", type=int, default=4)
+    ap.add_argument("--all", action="store_true", help="also voice meanings with no letters of their language (kimchi, TOPIK, 1:30): all 7 languages are complete, so these are real meanings, not English fallback")
     a = ap.parse_args()
     clips = json.load(open(os.path.join(AUDIO, "list.json"), encoding="utf8"))
     todo = [c for c in clips if (not a.lang or c["lang"] == a.lang) and not os.path.exists(os.path.join(AUDIO, c["key"] + ".mp3"))]
+    todo_all = todo
     # Nepali: skip English fallback text (menus not yet translated), which the Nepali voice would read badly
     todo = [c for c in todo if c["lang"] != "ne" or re.search("[\u0900-\u097F]", c["text"])]
     todo = [c for c in todo if c["lang"] != "my" or re.search("[\u1000-\u109F]", c["text"])]
@@ -87,6 +89,8 @@ async def main():
     # Uzbek is Latin script too: skip text that is the same as an English clip (English fallback)
     en_txt = {c["text"] for c in clips if c["lang"] == "en"}
     todo = [c for c in todo if c["lang"] != "uz" or c["text"] not in en_txt]
+    if a.all:
+        todo = todo_all
     if a.limit:
         todo = todo[: a.limit]
     print(f"{len(clips)} clips in the list, {len(todo)} to make")
