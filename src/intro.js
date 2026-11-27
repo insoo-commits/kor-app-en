@@ -21,6 +21,19 @@ en:{hello:"Welcome to Jeonju University",h1:"Your Korean starts here, on campus.
   ipad:["Open this page in Safari.","Tap the Share button {share} at the top right.","Tap “Add to Home Screen”, then “Add”."],
   chrome:["In Chrome or Edge, click the install icon {inst} at the right end of the address bar.","Click “Install”. JeyCampus opens in its own window with a desktop shortcut."],
   safari:["In Safari on a Mac, open the File menu.","Choose “Add to Dock”, then “Add”."]}},
+zh:{hello:"欢迎来到全州大学",h1:"你的韩语，从校园开始。",lead:"和 Jey 一起学习会话、韩文、语法、词汇、听力和 TOPIK，还有大学生活、打工和全州所需要的一切。",
+ st:["单词","句子","菜单","语言"],s1:"选择你的语言",s1n:"韩语保持韩语。意思、提示和帮助用你的语言显示。",
+ s2:"设置听的方式",s2n:"在课程中随时可以更改。",pass:"我的学习设置",rep:"每句重复",spd:"速度",voice:"用中文听意思",voiceN:"先韩语，再你的语言，然后再韩语。",
+ theme:"主题",th:["自动","浅色","深色"],fz:"字体大小",sample:"你好。我是 Jey。",listen:"听示例",start:"开始学习",how:"使用方法",inside:"内容",learn:"学习韩语",live:"在韩国生活",
+ mn:{K2:"基础会话",K1:"韩文",K6:"语法",K7:"词汇",LS:"听力练习",TP:"TOPIK",K4:"大学生活",K5:"打工",KR:"关于韩国",JB:"全州",HP:"帮助"},
+ it:"把 JeyCampus 添加到主屏幕",itn:"用起来像应用一样：全屏显示，保存音频后没有网络也能用。不需要应用商店。",det:"你好像在使用",other:"其他设备",
+ dlt:"下载",dla:"安装应用",dlad:"像普通应用一样全屏打开。",inst:"安装",seehow:"查看方法",dlv:"保存全部音频",dlvd:"韩语语音 + {L}语音，没有网络也能用。请使用 Wi‑Fi。",save:"保存",dlp:"分享海报",dlpd:"告诉朋友们 JeyCampus。",dl:"下载",
+ qr:"在手机上打开",qrd:"用手机相机扫描。",copy:"复制",copied:"地址已复制",foot:"全州大学所有学生免费使用。",vname:"中文",
+ steps:{ios:["用 Safari 打开这个页面。","点底部的分享按钮 {share}。","向下滑动，点“添加到主屏幕”。","点“添加”。Jey 已经在你的主屏幕上了。"],
+  android:["点下面的“安装”。","没看到? 打开 Chrome 的 {dots} 菜单，选择“安装应用”。","点“安装”，然后从主屏幕打开 JeyCampus。"],
+  ipad:["用 Safari 打开这个页面。","点右上角的分享按钮 {share}。","点“添加到主屏幕”，再点“添加”。"],
+  chrome:["在 Chrome 或 Edge 中，点地址栏右端的安装图标 {inst}。","点“安装”。JeyCampus 会在单独的窗口中打开，并在桌面上创建快捷方式。"],
+  safari:["在 Mac 的 Safari 中，打开“文件”菜单。","选择“添加到程序坞”，再点“添加”。"]}},
 vi:{hello:"Chào mừng đến Đại học Jeonju",h1:"Tiếng Hàn của bạn bắt đầu từ đây, ngay tại trường.",lead:"Học hội thoại, Hangeul, ngữ pháp, từ vựng, luyện nghe và TOPIK cùng Jey, cùng mọi điều cần cho đời sống đại học, việc làm thêm và Jeonju.",
  st:["Từ","Câu","Mục","Ngôn ngữ"],s1:"Chọn ngôn ngữ",s1n:"Tiếng Hàn giữ nguyên. Nghĩa, mẹo và hướng dẫn hiện bằng ngôn ngữ của bạn.",
  s2:"Cài đặt cách nghe",s2n:"Bạn có thể đổi bất cứ lúc nào trong bài học.",pass:"Cài đặt học của tôi",rep:"Lặp lại mỗi câu",spd:"Tốc độ",voice:"Nghe nghĩa bằng tiếng Việt",voiceN:"Tiếng Hàn, rồi tiếng của bạn, rồi lại tiếng Hàn.",
@@ -88,7 +101,7 @@ const ICON = {
  pc:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8"/></svg>',
  globe:'<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18"/></svg>'
 };
-const FONTS = {en:"", vi:"", ne:'"Noto Sans Devanagari","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', my:'"Noto Sans Myanmar","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', lo:'"Noto Sans Lao","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif'};
+const FONTS = {en:"", vi:"", ne:'"Noto Sans Devanagari","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', my:'"Noto Sans Myanmar","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', lo:'"Noto Sans Lao","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', zh:'"Noto Sans SC","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif'};
 
 const LANGS = JC.LANG_LIST.map(([c, n, k]) => [c, n, k, c === "en" || !!JC.LANGS[c]]);   // a language not yet in the app shows as 준비 중
 const NL = LANGS.filter(l => l[3]).length;
@@ -147,7 +160,7 @@ function steps(dev){ const x = t(), k = os[dev] === "atab" ? "android" : os[dev]
 function detectChip(dev){ const x = t(); const name = {phone:{ios:"iPhone · Safari",android:"Android · Chrome"},pad:{ipad:"iPad · Safari",atab:"Android tablet"},pc:{chrome:"PC · Chrome/Edge",safari:"Mac · Safari"}}[dev][os[dev]];
   return `<span class="detect"><i>${dev === "pc" ? ICON.pc : ICON.phone}</i>${esc(x.det)}: <b>${name}</b></span>`; }
 function downloads(dev){ const x = t(), ios = (dev === "phone" && os.phone === "ios") || (dev === "pad" && os.pad === "ipad") || (dev === "pc" && os.pc === "safari");
-  const poster = {en:1, vi:1, ne:1, my:1, lo:1}[lang] ? lang : "en", hasAudio = !!document.getElementById("dlAll") && !document.getElementById("dlbox").hidden;
+  const poster = {en:1, zh:1, vi:1, ne:1, my:1, lo:1}[lang] ? lang : "en", hasAudio = !!document.getElementById("dlAll") && !document.getElementById("dlbox").hidden;
   return `<div class="dls">
    <div class="dl"><span class="ic"><img src="icon-192.png" alt=""></span><span class="tx"><b>${esc(x.dla)}</b><small>${esc(x.dlad)}</small></span>${standalone ? '<span class="go y">✓</span>' : `<button type="button" class="go y" data-act="${ios ? "how" : "install"}">${esc(ios ? x.seehow : x.inst)}</button>`}</div>
    ${hasAudio ? `<div class="dl"><span class="ic">${ICON.audio}</span><span class="tx"><b>${esc(x.dlv)}</b><small>${esc(x.dlvd.replace("{L}", x.vname))}</small><small class="dlmsg" data-dlmsg></small></span><button type="button" class="go" data-act="audio">${esc(x.save)}</button></div>` : ""}
@@ -163,7 +176,7 @@ const YT = {en: {id: "8B8TUJqVXKk", len: "3:38", img: "img/help/intro-video.webp
             vi: {id: "M_85Mr5DQXk", len: "4:11", img: "img/help/intro-video-vi.webp", nm: "Tiếng Việt"},
             ne: {id: "sFdODN-bG08", len: "4:38", img: "img/help/intro-video-ne.webp", nm: "नेपाली"},
             my: {id: "kp20JsPB_bU", len: "4:38", img: "img/help/intro-video-my.webp", nm: "မြန်မာ"}};
-const VID = {en:"Watch the intro video", vi:"Xem video giới thiệu", ne:"परिचय भिडियो हेर्नुहोस्", my:"မိတ်ဆက် ဗီဒီယို ကြည့်ရန်", lo:"ເບິ່ງວິດີໂອແນະນຳ"};
+const VID = {en:"Watch the intro video", vi:"Xem video giới thiệu", ne:"परिचय भिडियो हेर्नुहोस्", my:"မိတ်ဆက် ဗီဒီယို ကြည့်ရန်", lo:"ເບິ່ງວິດີໂອແນະນຳ", zh:"观看介绍视频"};
 function video(){ const v = YT[lang] || YT.en; return `<div class="sec vsec"><div class="sh"><div><h2>${esc(VID[lang] || VID.en)} <span class="kosub">소개 영상 · ${v.len}</span></h2></div></div>${ytCard(v)}</div>`; }
 function ytCard(v){ return `<button type="button" class="ytv" data-yt="${v.id}" aria-label="Play video"><img src="${v.img}" alt="JeyCampus intro video" width="960" height="540" loading="lazy"><span class="ytplay" aria-hidden="true"></span><span class="ytlen">${v.len} · ${esc(v.nm)}</span></button>`; }
 function cta(){ return `<button type="button" class="btn pri" data-act="start">${esc(t().start)} ${ICON.arrow}</button>`; }
@@ -255,14 +268,14 @@ function setRate(v){ S.rate = String(v); JC.save(); const e = document.getElemen
    Korean and the meaning (RYU 2026-11-27: the phone's voices ran at different speeds). The meaning voice is the app's language;
    when the intro shows another language (not loaded until Start), the device's voice reads it. */
 const SAMPLE_KO = "웃으면서 인사해요.";
-const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ."};
+const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ.", zh: "我笑着打招呼。"};
 const sampleM = () => SAMPLE_M[lang] || t().sample;
 let playing = false;
 function stopSample(){ if (playing){ playing = false; try { JC.quiet(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} } }
 function speak(text, l){ return new Promise(res => { try { const u = new SpeechSynthesisUtterance(text); u.lang = l; u.rate = +rate() || 1; u.onend = res; u.onerror = res; speechSynthesis.speak(u); setTimeout(res, 2500 + text.length * 300); } catch (e) { res(); } }); }
 async function sample(){
   if (playing){ stopSample(); return; }
-  playing = true; const n = +rep() || 1, VL = {en:"en-US", vi:"vi-VN", ne:"ne-NP", my:"my-MM", lo:"lo-LA"};
+  playing = true; const n = +rep() || 1, VL = {en:"en-US", vi:"vi-VN", ne:"ne-NP", my:"my-MM", lo:"lo-LA", zh:"zh-CN"};
   for (let i = 0; i < n && playing; i++){
     await JC.speak(SAMPLE_KO, false);
     if (i === 0 && voice() && playing) await (lang === JC.LG ? JC.speak(sampleM(), true) : speak(sampleM(), VL[lang]));

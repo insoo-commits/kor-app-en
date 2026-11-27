@@ -5,7 +5,7 @@
 <meta name="description" content="Learn Korean: an app for English-track students at Jeonju University">
 <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#005595"><meta name="apple-mobile-web-app-title" content="JeyCampus"><meta name="application-name" content="JeyCampus">
 <link rel="icon" href="icon-192.png" type="image/png"><link rel="apple-touch-icon" href="icon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Noto+Sans:wght@400;600&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Myanmar:wght@400;600&family=Noto+Sans+Lao:wght@400;600&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Noto+Sans:wght@400;600&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Myanmar:wght@400;600&family=Noto+Sans+Lao:wght@400;600&family=Noto+Sans+SC:wght@400;600&display=swap">
 <script>/* v1.25.1 (RYU): the old address kor4et.pages.dev moves to jeycampus.pages.dev, taking this device's progress along */(function(){var K="kolearn-en-v1",h=location.hostname;try{if(h==="kor4et.pages.dev"){var d=localStorage.getItem(K)||"";location.replace("https://jeycampus.pages.dev/"+(d?"?jcm="+encodeURIComponent(d):"")+location.hash);return}var m=/[?&]jcm=([^&]*)/.exec(location.search);if(m){if(!localStorage.getItem(K)){var v=JSON.parse(decodeURIComponent(m[1]));delete v.offline;localStorage.setItem(K,JSON.stringify(v))}history.replaceState(null,"",location.pathname+location.hash)}}catch(e){}})()</script>
 <script>(function(){var n=navigator,t=n.maxTouchPoints>0||"ontouchstart" in window;if((/iPad/.test(n.userAgent)||(/Macintosh/.test(n.userAgent)&&t))||(t&&Math.min(screen.width,screen.height)>=700))document.documentElement.classList.add("tab")})()</script>
 <style>body{margin:0}
@@ -18,7 +18,7 @@
   --accent:var(--k1); --accent-soft:var(--k1-soft); --good:#1E7F4F; --good-soft:#E1F3E9; --bad:#B33A3A; --bad-soft:#FBE8E8;
   --display:"Space Grotesk","IBM Plex Sans KR",system-ui,sans-serif;
   --ko:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;
-  --lao:"Noto Sans","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans Lao","IBM Plex Sans KR",system-ui,sans-serif;   /* English text (variable name kept from the Lao app) */
+  --lao:"Noto Sans","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans Lao","Noto Sans SC","IBM Plex Sans KR",system-ui,sans-serif;   /* English text (variable name kept from the Lao app) */
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#111514; --sheet:#191E1D; --ink:#E8EDEB; --muted:#9BA7A4; --line:#2C3533; --raise:#202725;
@@ -2218,6 +2218,6 @@ html.introon{overflow:hidden}
 </div>
 
 <script src="audio/index.js?v=2026-11-27%20v1.28.3"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|vi)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.28.3"><\/script>')})()</script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.28.3"><\/script>')})()</script>
 <script src="app.js?v=2026-11-27%20v1.28.3"></script>
 </body></html>
