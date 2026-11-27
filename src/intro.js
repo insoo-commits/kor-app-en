@@ -34,6 +34,19 @@ zh:{hello:"欢迎来到全州大学",h1:"你的韩语，从校园开始。",lead
   ipad:["用 Safari 打开这个页面。","点右上角的分享按钮 {share}。","点“添加到主屏幕”，再点“添加”。"],
   chrome:["在 Chrome 或 Edge 中，点地址栏右端的安装图标 {inst}。","点“安装”。JeyCampus 会在单独的窗口中打开，并在桌面上创建快捷方式。"],
   safari:["在 Mac 的 Safari 中，打开“文件”菜单。","选择“添加到程序坞”，再点“添加”。"]}},
+uz:{hello:"Chonju universitetiga xush kelibsiz",h1:"Koreys tilingiz shu yerda, kampusda boshlanadi.",lead:"Jey bilan suhbat, Hangeul, grammatika, lugʻat, tinglash va TOPIKni oʻrganing, shuningdek universitet hayoti, qoʻshimcha ish va Chonju uchun kerak boʻlgan hamma narsani.",
+ st:["Soʻz","Gap","Menyu","Til"],s1:"Tilingizni tanlang",s1n:"Koreyscha koreyscha qoladi. Maʼno, maslahat va yordam sizning tilingizda koʻrsatiladi.",
+ s2:"Tinglash usulini sozlang",s2n:"Darsda istalgan vaqtda oʻzgartirish mumkin.",pass:"Mening oʻqish sozlamalarim",rep:"Har bir gapni takrorlash",spd:"Tezlik",voice:"Maʼnosini oʻzbekcha tinglash",voiceN:"Koreyscha, keyin sizning tilingiz, keyin yana koreyscha.",
+ theme:"Mavzu",th:["Avto","Yorugʻ","Qorongʻi"],fz:"Matn oʻlchami",sample:"Salom. Men Jeyman.",listen:"Namunani tinglash",start:"Oʻqishni boshlash",how:"Qanday ishlaydi",inside:"Ichida nima bor",learn:"Koreys tilini oʻrganish",live:"Koreyada yashash",
+ mn:{K2:"Asosiy suhbat",K1:"Hangeul",K6:"Grammatika",K7:"Lugʻat",LS:"Tinglash mashqi",TP:"TOPIK",K4:"Universitet hayoti",K5:"Qoʻshimcha ish",KR:"Koreya haqida",JB:"Chonju",HP:"Yordam"},
+ it:"JeyCampusni bosh ekranga qoʻshing",itn:"Ilova kabi ishlaydi: toʻliq ekran, audioni saqlaganingizdan keyin internetsiz ham ishlaydi. Ilovalar doʻkoni kerak emas.",det:"Siz foydalanayotganga oʻxshaysiz:",other:"Boshqa qurilmalar",
+ dlt:"Yuklab olish",dla:"Ilovani oʻrnatish",dlad:"Oddiy ilova kabi toʻliq ekranda ochiladi.",inst:"Oʻrnatish",seehow:"Qanday qilishni koʻrish",dlv:"Barcha audioni saqlash",dlvd:"Koreyscha ovoz + {L} ovoz, internetsiz ham ishlaydi. Wi‑Fi dan foydalaning.",save:"Saqlash",dlp:"Plakatni ulashish",dlpd:"Doʻstlaringizga JeyCampus haqida ayting.",dl:"Yuklab olish",
+ qr:"Telefonda ochish",qrd:"Telefon kamerasi bilan skanerlang.",copy:"Nusxa olish",copied:"Manzil nusxalandi",foot:"Chonju universitetining barcha talabalari uchun bepul.",vname:"oʻzbekcha",
+ steps:{ios:["Bu sahifani Safarida oching.","Pastdagi ulashish tugmasini {share} bosing.","Pastga suring va “Bosh ekranga qoʻshish” ni bosing.","“Qoʻshish” ni bosing. Jey endi bosh ekraningizda."],
+  android:["Pastdagi “Oʻrnatish” ni bosing.","Koʻrinmayaptimi? Chrome’ning {dots} menyusini ochib, “Ilovani oʻrnatish” ni tanlang.","“Oʻrnatish” ni bosing, keyin JeyCampusni bosh ekrandan oching."],
+  ipad:["Bu sahifani Safarida oching.","Yuqori oʻngdagi ulashish tugmasini {share} bosing.","“Bosh ekranga qoʻshish” ni, keyin “Qoʻshish” ni bosing."],
+  chrome:["Chrome yoki Edge’da manzil satrining oʻng chetidagi oʻrnatish belgisini {inst} bosing.","“Oʻrnatish” ni bosing. JeyCampus alohida oynada ochiladi va ish stolida yorliq yaratiladi."],
+  safari:["Mac’dagi Safarida “Fayl” menyusini oching.","“Dockka qoʻshish” ni tanlang, keyin “Qoʻshish” ni bosing."]}},
 vi:{hello:"Chào mừng đến Đại học Jeonju",h1:"Tiếng Hàn của bạn bắt đầu từ đây, ngay tại trường.",lead:"Học hội thoại, Hangeul, ngữ pháp, từ vựng, luyện nghe và TOPIK cùng Jey, cùng mọi điều cần cho đời sống đại học, việc làm thêm và Jeonju.",
  st:["Từ","Câu","Mục","Ngôn ngữ"],s1:"Chọn ngôn ngữ",s1n:"Tiếng Hàn giữ nguyên. Nghĩa, mẹo và hướng dẫn hiện bằng ngôn ngữ của bạn.",
  s2:"Cài đặt cách nghe",s2n:"Bạn có thể đổi bất cứ lúc nào trong bài học.",pass:"Cài đặt học của tôi",rep:"Lặp lại mỗi câu",spd:"Tốc độ",voice:"Nghe nghĩa bằng tiếng Việt",voiceN:"Tiếng Hàn, rồi tiếng của bạn, rồi lại tiếng Hàn.",
@@ -101,7 +114,7 @@ const ICON = {
  pc:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8"/></svg>',
  globe:'<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18"/></svg>'
 };
-const FONTS = {en:"", vi:"", ne:'"Noto Sans Devanagari","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', my:'"Noto Sans Myanmar","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', lo:'"Noto Sans Lao","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', zh:'"Noto Sans SC","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif'};
+const FONTS = {en:"", vi:"", ne:'"Noto Sans Devanagari","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', my:'"Noto Sans Myanmar","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', lo:'"Noto Sans Lao","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', zh:'"Noto Sans SC","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', uz:""};
 
 const LANGS = JC.LANG_LIST.map(([c, n, k]) => [c, n, k, c === "en" || !!JC.LANGS[c]]);   // a language not yet in the app shows as 준비 중
 const NL = LANGS.filter(l => l[3]).length;
@@ -160,7 +173,7 @@ function steps(dev){ const x = t(), k = os[dev] === "atab" ? "android" : os[dev]
 function detectChip(dev){ const x = t(); const name = {phone:{ios:"iPhone · Safari",android:"Android · Chrome"},pad:{ipad:"iPad · Safari",atab:"Android tablet"},pc:{chrome:"PC · Chrome/Edge",safari:"Mac · Safari"}}[dev][os[dev]];
   return `<span class="detect"><i>${dev === "pc" ? ICON.pc : ICON.phone}</i>${esc(x.det)}: <b>${name}</b></span>`; }
 function downloads(dev){ const x = t(), ios = (dev === "phone" && os.phone === "ios") || (dev === "pad" && os.pad === "ipad") || (dev === "pc" && os.pc === "safari");
-  const poster = {en:1, zh:1, vi:1, ne:1, my:1, lo:1}[lang] ? lang : "en", hasAudio = !!document.getElementById("dlAll") && !document.getElementById("dlbox").hidden;
+  const poster = {en:1, zh:1, vi:1, uz:1, ne:1, my:1, lo:1}[lang] ? lang : "en", hasAudio = !!document.getElementById("dlAll") && !document.getElementById("dlbox").hidden;
   return `<div class="dls">
    <div class="dl"><span class="ic"><img src="icon-192.png" alt=""></span><span class="tx"><b>${esc(x.dla)}</b><small>${esc(x.dlad)}</small></span>${standalone ? '<span class="go y">✓</span>' : `<button type="button" class="go y" data-act="${ios ? "how" : "install"}">${esc(ios ? x.seehow : x.inst)}</button>`}</div>
    ${hasAudio ? `<div class="dl"><span class="ic">${ICON.audio}</span><span class="tx"><b>${esc(x.dlv)}</b><small>${esc(x.dlvd.replace("{L}", x.vname))}</small><small class="dlmsg" data-dlmsg></small></span><button type="button" class="go" data-act="audio">${esc(x.save)}</button></div>` : ""}
@@ -177,7 +190,7 @@ const YT = {en: {id: "8B8TUJqVXKk", len: "3:38", img: "img/help/intro-video.webp
             ne: {id: "sFdODN-bG08", len: "4:38", img: "img/help/intro-video-ne.webp", nm: "नेपाली"},
             my: {id: "kp20JsPB_bU", len: "4:38", img: "img/help/intro-video-my.webp", nm: "မြန်မာ"},
             zh: {id: "kG_h5mNh7sY", len: "4:07", img: "img/help/intro-video-zh.webp", nm: "中文"}};
-const VID = {en:"Watch the intro video", vi:"Xem video giới thiệu", ne:"परिचय भिडियो हेर्नुहोस्", my:"မိတ်ဆက် ဗီဒီယို ကြည့်ရန်", lo:"ເບິ່ງວິດີໂອແນະນຳ", zh:"观看介绍视频"};
+const VID = {en:"Watch the intro video", vi:"Xem video giới thiệu", ne:"परिचय भिडियो हेर्नुहोस्", my:"မိတ်ဆက် ဗီဒီယို ကြည့်ရန်", lo:"ເບິ່ງວິດີໂອແນະນຳ", zh:"观看介绍视频", uz:"Tanishtiruv videosini koʻring"};
 function video(){ const v = YT[lang] || YT.en; return `<div class="sec vsec"><div class="sh"><div><h2>${esc(VID[lang] || VID.en)} <span class="kosub">소개 영상 · ${v.len}</span></h2></div></div>${ytCard(v)}</div>`; }
 function ytCard(v){ return `<button type="button" class="ytv" data-yt="${v.id}" aria-label="Play video"><img src="${v.img}" alt="JeyCampus intro video" width="960" height="540" loading="lazy"><span class="ytplay" aria-hidden="true"></span><span class="ytlen">${v.len} · ${esc(v.nm)}</span></button>`; }
 function cta(){ return `<button type="button" class="btn pri" data-act="start">${esc(t().start)} ${ICON.arrow}</button>`; }
@@ -272,14 +285,14 @@ function setRate(v){ S.rate = String(v); JC.save(); const e = document.getElemen
    Korean and the meaning (RYU 2026-11-27: the phone's voices ran at different speeds). The meaning voice is the app's language;
    when the intro shows another language (not loaded until Start), the device's voice reads it. */
 const SAMPLE_KO = "웃으면서 인사해요.";
-const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ.", zh: "我笑着打招呼。"};
+const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ.", zh: "我笑着打招呼。", uz: "Jilmayib salomlashaman."};
 const sampleM = () => SAMPLE_M[lang] || t().sample;
 let playing = false;
 function stopSample(){ if (playing){ playing = false; try { JC.quiet(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} } }
 function speak(text, l){ return new Promise(res => { try { const u = new SpeechSynthesisUtterance(text); u.lang = l; u.rate = +rate() || 1; u.onend = res; u.onerror = res; speechSynthesis.speak(u); setTimeout(res, 2500 + text.length * 300); } catch (e) { res(); } }); }
 async function sample(){
   if (playing){ stopSample(); return; }
-  playing = true; const n = +rep() || 1, VL = {en:"en-US", vi:"vi-VN", ne:"ne-NP", my:"my-MM", lo:"lo-LA", zh:"zh-CN"};
+  playing = true; const n = +rep() || 1, VL = {en:"en-US", vi:"vi-VN", ne:"ne-NP", my:"my-MM", lo:"lo-LA", zh:"zh-CN", uz:"uz-UZ"};
   for (let i = 0; i < n && playing; i++){
     await JC.speak(SAMPLE_KO, false);
     if (i === 0 && voice() && playing) await (lang === JC.LG ? JC.speak(sampleM(), true) : speak(sampleM(), VL[lang]));

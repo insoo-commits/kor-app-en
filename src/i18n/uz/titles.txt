@@ -1,0 +1,671 @@
+# code | lesson title in Oʻzbekcha (shown in brackets after the Korean title). Please have an Uzbek speaker check it.
+HP-A-01 | Bu ilova haqida
+HP-A-02 | Menyu tuzilishi
+HP-A-03 | Tovushlar va oʻqilishi
+HP-B-01 | Boshlash
+HP-B-02 | Gaplar · Soʻzlar · Test
+HP-B-03 | Ijro etish usuli
+HP-B-04 | Klaviatura tugmalari
+HP-B-05 | Tinglash mashqidan foydalanish
+HP-B-06 | Ovozni saqlash va oflayn
+HP-C-01 | Oʻqish statistikasi
+HP-C-02 | Fikr yuborish
+K1-A-01 | Asosiy unlilar ㅏ·ㅓ·ㅗ·ㅜ·ㅡ·ㅣ
+K1-A-02 | Asosiy unlilar ㅐ·ㅔ
+K1-A-03 | Qoʻsh unlilar ㅑ·ㅕ·ㅛ·ㅠ·ㅒ·ㅖ
+K1-A-04 | Qoʻsh unlilar ㅘ·ㅝ·ㅙ·ㅞ
+K1-A-05 | Qoʻsh unlilar ㅚ·ㅟ·ㅢ
+K1-B-01 | Asosiy undoshlar ㄱ·ㄴ·ㄷ·ㄹ·ㅁ
+K1-B-02 | Asosiy undoshlar ㅂ·ㅅ·ㅇ·ㅈ·ㅎ
+K1-B-03 | Nafasli undoshlar ㅋ·ㅌ·ㅍ·ㅊ
+K1-B-04 | Tarang undoshlar ㄲ·ㄸ·ㅃ·ㅆ·ㅉ
+K1-C-01 | Oxirgi undosh ㅁ ㅇ
+K1-C-02 | Oxirgi undosh ㄴ ㄹ
+K1-C-03 | Oxirgi undosh ㄱ ㅂ ㄷ
+K1-C-04 | Qoʻsh oxirgi undoshlar
+K1-D-01 | Boʻgʻin tuzish
+K1-D-02 | Ulab oʻqish
+K1-D-03 | Birinchi soʻzlarni oʻqish
+K1-E-01 | ㄱ·ㅋ·ㄲ
+K1-E-02 | ㄷ·ㅌ·ㄸ
+K1-E-03 | ㅂ·ㅍ·ㅃ
+K1-E-04 | ㅈ·ㅊ·ㅉ
+K1-E-05 | ㅅ·ㅆ
+K1-F-01 | ㅓ·ㅗ
+K1-F-02 | ㅡ·ㅜ
+K1-F-03 | ㅐ·ㅔ
+K1-F-04 | ㅚ·ㅙ·ㅞ va ㅢ
+K1-G-01 | Oxirgi undosh ㄴ·ㅇ·ㅁ
+K1-G-02 | Oxirgi undosh ㄹ
+K1-G-03 | [ㄷ] boʻlib oʻqiladigan oxirgi undoshlar
+K1-H-01 | Burun tovushiga oʻtish
+K1-H-02 | Tarang tovushga oʻtish
+K1-H-03 | ㅎ bilan nafasli tovush
+K1-H-04 | ㅎ ning kuchsizlanishi
+K1-H-05 | 같이 [가치]
+K1-H-06 | ㄴ va ㄹ uchrashganda
+K1-I-01 | Soʻroq va javob ohangi
+K1-I-02 | Soʻroq soʻzli savollar
+K1-I-03 | Iltimos va buyruq ohangi
+K1-Z-01 | Talaffuzni umumiy takrorlash
+K2-A-01 | Birinchi salom
+K2-A-02 | Rahmat · Kechirasiz
+K2-A-03 | Ism va yosh
+K2-A-04 | Mamlakat va fuqarolik
+K2-A-05 | Ha · Yoʻq · Yana bir marta ayting
+K2-A-06 | His-tuygʻu iboralari
+K2-A-07 | Soʻrash va javob berish
+K2-B-01 | Oila
+K2-B-02 | Nikoh va aka-uka, opa-singillar
+K2-B-03 | Tashqi koʻrinish
+K2-B-04 | Feʼl-atvor
+K2-B-05 | Doʻstlar · Qoʻshnilar
+K2-C-01 | Xitoycha (sino-koreys) sonlar
+K2-C-02 | Koreyscha sonlar
+K2-C-03 | Sana va hafta kunlari
+K2-C-04 | Bugun · Ertaga · Kecha
+K2-C-05 | Soat
+K2-C-06 | Kun tartibi
+K2-C-07 | Pul sanash
+K2-D-01 | Koreys taomlari
+K2-D-02 | Ichimliklar va yengil taomlar
+K2-D-03 | Restoranda buyurtma
+K2-D-04 | Taʼm
+K2-D-05 | Toʻlov
+K2-D-06 | Yetkazib berish
+K2-D-07 | Goʻsht va baliq
+K2-D-08 | Ziravorlar
+K2-D-09 | Ovqat tayyorlash
+K2-E-01 | Doʻkonda
+K2-E-02 | Narx va savdolashish
+K2-E-03 | Kiyim va poyabzal
+K2-E-04 | Ranglar
+K2-E-05 | Oʻlcham va kiyib koʻrish
+K2-E-06 | Meva va sabzavotlar
+K2-E-07 | Almashtirish va pulni qaytarish
+K2-F-01 | Transport
+K2-F-02 | Joylashuv
+K2-F-03 | Yoʻnalish va yoʻl soʻrash
+K2-F-04 | Minish va almashtirish
+K2-F-05 | Joy nomlari
+K2-F-06 | Masofa va ketadigan vaqt
+K2-G-01 | Uyning tuzilishi
+K2-G-02 | Mebel va maishiy texnika
+K2-G-03 | Uy ishlari
+K2-G-04 | Birga yashash
+K2-G-05 | Uy topish va koʻchish
+K2-G-06 | Roʻzgʻor buyumlari
+K2-H-01 | Tana
+K2-H-02 | Kasallik belgilari
+K2-H-03 | Kasalxonada
+K2-H-04 | Dorixonada
+K2-H-05 | Jarohat olganda
+K2-I-01 | Bank
+K2-I-02 | Pul oʻtkazish va valyuta ayirboshlash
+K2-I-03 | Pochta va posilka
+K2-I-04 | Mobil telefon
+K2-I-05 | Telefon iboralari
+K2-J-01 | Ob-havo
+K2-J-02 | Toʻrt fasl
+K2-J-03 | Harorat va kiyinish
+K2-K-01 | Qiziqishlar
+K2-K-02 | Sport
+K2-K-03 | Dam olish kuni
+K2-K-04 | Sayohat
+K2-K-05 | Kino va tomosha
+K2-L-01 | Uchrashuvni belgilash
+K2-L-02 | Taklif va mehmonga borish
+K2-L-03 | Rad etish va oʻzgartirish
+K2-L-04 | Toʻy va taʼziya
+K2-N-01 | Dasturxon odobi
+K2-N-02 | Kattalarga muomala
+K2-N-03 | Bayramlar
+K2-N-04 | Jamoat joylari qoidalari
+K4-A-01 | Sinf iboralari
+K4-A-02 | Koreys tili darsi
+K4-A-03 | Imtihon topshirganda
+K4-A-04 | Koreys tili guruhiga taqsimlash
+K4-B-01 | Oʻqish uchun hujjatlar
+K4-B-02 | Qabul va orientatsiya
+K4-B-03 | Chet ellik sifatida roʻyxatdan oʻtish
+K4-B-04 | Xalqaro hamkorlik boʻlimiga boramiz
+K4-C-01 | Universitet binolari
+K4-C-02 | Kutubxonadan foydalanish
+K4-C-03 | Talaba guvohnomasi va universitet xizmatlari
+K4-C-04 | Auditoriyani topish
+K4-C-05 | Talabalar oshxonasi
+K4-C-06 | Tibbiyot xonasi va kasalxona
+K4-D-01 | Fanlarga yozilish
+K4-D-02 | Semestr va kurs
+K4-D-03 | Davomat va qatnashmaslik
+K4-D-04 | Akademik taʼtil va qaytish
+K4-E-01 | Dars vaqti iboralari
+K4-E-02 | Dars materiallari
+K4-E-03 | Savol va muhokama
+K4-E-04 | Ingliz tilidagi yoʻnalish darslari
+K4-F-01 | Topshiriqlar
+K4-F-02 | Guruh topshirigʻi
+K4-F-03 | Taqdimot qilish
+K4-G-01 | Imtihon davri
+K4-G-02 | Baholar
+K4-H-01 | Professor bilan bogʻlanish
+K4-H-02 | Suhbat va tavsiyanoma
+K4-H-03 | Katta va kichik kursdoshlar
+K4-H-04 | Qabul soatida
+K4-I-01 | Yotoqxona
+K4-I-02 | Yotoqxona qoidalari
+K4-I-03 | Ijarada va pansionda yashash
+K4-J-01 | Kontrakt toʻlovi
+K4-J-02 | Stipendiya
+K4-J-03 | Chet ellik talabalarning qoʻshimcha ishi
+K4-K-01 | Toʻgaraklar
+K4-K-02 | Universitet tadbirlari
+K4-K-03 | Koreys doʻstlar orttirish
+K4-K-04 | Buddy va til almashinuvi
+K4-L-01 | Bitiruv
+K4-L-02 | Kelajak va ishga joylashish
+K4-L-03 | Rahmat va xayrlashuv
+K4-M-01 | Universitetga avtobusda borish
+K4-M-02 | Chonju markaziga chiqish
+K4-N-01 | Telefon raqam olish
+K4-N-02 | Tibbiy sugʻurta
+K4-N-03 | Yashash joyi oʻzgarishini bildirish
+K4-N-04 | Yoʻqotish va favqulodda xabar
+K4-N-05 | Kundalik ilovalar
+K5-A-01 | Yarim kunlik ishga ruxsat
+K5-A-02 | Ishlash mumkin boʻlgan soatlar
+K5-A-03 | Ruxsat uchun ariza
+K5-B-01 | Ish eʼlonlari
+K5-B-02 | Telefonda soʻrash
+K5-B-03 | Ish suhbati
+K5-C-01 | Mehnat shartnomasi
+K5-C-02 | Soatbay haq va haftalik dam olish puli
+K5-C-03 | Maosh kuni va bank hisobi
+K5-D-01 | Doʻkondagi ish
+K5-D-02 | Doʻkon kassasi
+K5-D-03 | Mahsulot topishga yordam
+K5-E-01 | Kafe menyusi
+K5-E-02 | Kafeda buyurtma qabul qilish
+K5-E-03 | Kafeni yopish
+K5-F-01 | Mijozlarni kutib olish
+K5-F-02 | Buyurtma va xizmat koʻrsatish
+K5-F-03 | Oshxona yordamchisi
+K5-G-01 | Ehtiyot boʻlish kerak boʻlgan ishlar
+K5-G-02 | Logistika markazida saralash
+K5-G-03 | Yetkazib berish uchun qadoqlash
+K5-H-01 | Repetitorlik va ruxsat
+K5-H-02 | Til almashinuvi
+K5-H-03 | Dars berishda kerak boʻladigan soʻzlar
+K5-I-01 | Universitet ichidagi ish
+K5-I-02 | Tadbirni olib borish
+K5-I-03 | Tarjimonlik · yoʻl koʻrsatish iboralari
+K5-J-01 | Xushmuomala xizmat
+K5-J-02 | Shikoyatga javob berish
+K5-J-03 | Doʻkonda telefonga javob berish
+K5-K-01 | Ish vaqtini oʻzgartirish
+K5-K-02 | Ishda jarohat olganda
+K5-K-03 | Maosh berilmaganda
+K5-K-04 | Ishdan ketish
+K6-A-01 | …dir (이에요/예요)
+K6-A-02 | …dir (rasmiy)
+K6-A-03 | … emas
+K6-A-04 | Bor / Yoʻq
+K6-A-05 | Soʻz tartibi
+K6-A-06 | Soʻroq gaplar
+K6-B-01 | Mavzu qoʻshimchasi
+K6-B-02 | Ega qoʻshimchasi
+K6-B-03 | Tushum qoʻshimchasi (-ni)
+K6-B-04 | ham
+K6-B-05 | faqat
+K6-B-06 | -ning (qaratqich)
+K6-C-01 | -da (vaqt)
+K6-C-02 | -da, -ga (turgan joy, boriladigan joy)
+K6-C-03 | -da (harakat joyi)
+K6-C-04 | -ga, bilan (yoʻnalish, vosita)
+K6-C-05 | -ga (kishiga)
+K6-C-06 | -dan / -gacha
+K6-C-07 | va, bilan
+K6-C-08 | -dan (qiyoslash)
+K6-C-09 | har (har bir)
+K6-C-10 | yoki, …-mi
+K6-C-11 | kabi, -dek
+K6-D-01 | Xushmuomala gap oxiri
+K6-D-02 | Rasmiy gap oxiri
+K6-D-03 | Hurmat bilan soʻrash
+K6-D-04 | Hurmat qoʻshimchasi
+K6-D-05 | Hurmatli ega qoʻshimchasi
+K6-D-06 | Norasmiy nutq (반말)
+K6-E-01 | Oʻtgan zamon
+K6-E-02 | Kelasi zamon
+K6-E-03 | …yapti (hozirgi davom)
+K6-E-04 | Taxmin va niyat
+K6-E-05 | …ib koʻrmoq
+K6-E-06 | …gan tajribasi bor
+K6-F-01 | Inkor (oldida)
+K6-F-02 | Inkor (-지 않다)
+K6-F-03 | qila olmaslik (oldida)
+K6-F-04 | qila olmaslik (-지 못하다)
+K6-F-05 | qila oladi / qila olmaydi
+K6-G-01 | …ni xohlamoq
+K6-G-02 | …moqchiman (tanlov)
+K6-G-03 | …aman (vaʼda)
+K6-G-04 | …aylikmi?
+K6-G-05 | …aylik
+K6-G-06 | …moqchi boʻlmoq
+K6-G-07 | …ishga qaror qilmoq
+K6-G-08 | …sa qanday?
+K6-H-01 | …ing (hurmatli buyruq)
+K6-H-02 | …ib bering
+K6-H-03 | …ing (rasmiy)
+K6-H-04 | …mang
+K6-H-05 | …sa boʻlmaydi
+K6-H-06 | …sa ham boʻladi
+K6-H-07 | …ishi kerak
+K6-H-08 | …sa bas
+K6-H-09 | …sin, …ishga harakat qiling
+K6-I-01 | va (sanash)
+K6-I-02 | …ib, …gandan keyin (tartib)
+K6-I-03 | …ib (tartib)
+K6-I-04 | …dan oldin
+K6-I-05 | …gandan keyin
+K6-I-06 | …ib turib, …arkan
+K6-I-07 | …gan vaqt davomida
+K6-I-08 | lekin
+K6-I-09 | …di, …ki (fon)
+K6-I-10 | yoki
+K6-J-01 | …gani uchun (sabab)
+K6-J-02 | …gani uchun (buyruq bilan)
+K6-J-03 | …gani sababli
+K6-J-04 | agar …sa
+K6-J-05 | …ish uchun (shart)
+K6-J-06 | …gani bormoq / kelmoq
+K6-J-07 | …ish uchun (maqsad)
+K6-J-08 | …da (izoh)
+K6-J-09 | …gani tufayli (yaxshi natija)
+K6-K-01 | …ayotgan + ot (hozir)
+K6-K-02 | …gan + ot (oʻtgan)
+K6-K-03 | …adigan + ot (kelasi)
+K6-K-04 | …ish (otlashtirish)
+K6-K-05 | …ish oson / qiyin
+K6-K-06 | …ib, …dek (ravish)
+K6-K-07 | …ganda
+K6-L-01 | …ekan-ku!
+K6-L-02 | …-a? (tasdiq)
+K6-L-03 | …ga oʻxshaydi
+K6-L-04 | …sa kerak
+K6-L-05 | …ib koʻrinmoq
+K6-L-06 | …-ku, axir
+K6-L-07 | …ekan-da
+K6-M-01 | …dedi (xabar)
+K6-M-02 | …ing, dedi (buyruq)
+K6-M-03 | …aylik, dedi (taklif)
+K6-M-04 | …mi, deb soʻradi
+K6-M-05 | …ekan (qisqa koʻchirma)
+K6-N-01 | …ib qolmoq (oʻzgarish)
+K6-N-02 | …adigan boʻlmoq
+K6-N-03 | …ib qoʻymoq
+K6-N-04 | …ib turmoq (holat)
+K6-O-01 | ㅡ tushishi
+K6-O-02 | ㄹ tushishi
+K6-O-03 | ㅂ notoʻgʻri feʼllar
+K6-O-04 | ㄷ notoʻgʻri feʼllar
+K6-O-05 | 르 notoʻgʻri feʼllar
+K6-O-06 | ㅅ notoʻgʻri feʼllar
+K6-O-07 | ㅎ notoʻgʻri feʼllar
+K6-Z-01 | Grammatikani umumiy takrorlash
+K7-A-01 | Oʻlcham va miqdor
+K7-A-02 | Narx va ogʻirlik
+K7-A-03 | Harorat
+K7-A-04 | Yaxshi va yomon
+K7-A-05 | Holat
+K7-A-06 | Universitet · yotoqxona holati
+K7-B-01 | Kelish va ketish
+K7-B-02 | Berish va olish
+K7-B-03 | Ochish va yopish
+K7-B-04 | Narsalar bilan harakatlar
+K7-B-05 | Kundalik harakatlar
+K7-C-01 | Joylashuv
+K7-C-02 | Vaqt
+K7-C-03 | Tartib va tezlik
+K7-D-01 | Narsalarni sanash soʻzlari
+K7-D-02 | Odam va hayvonlarni sanash soʻzlari
+K7-D-03 | Yeyiladigan va ichiladigan narsalarni sanash
+K7-D-04 | Toʻplam va qadoqni sanash
+K7-D-05 | Uzunlik · ogʻirlik · marta
+K7-D-06 | Son va birlik
+K7-E-01 | Soatni aytish
+K7-E-02 | Yosh va sana
+K7-E-03 | Pul va telefon raqami
+K7-E-04 | Dona va raqam
+K7-E-05 | Muddat
+K7-F-01 | Hurmat feʼllari
+K7-F-02 | Hurmatli "berish" soʻzlari
+K7-F-03 | Hurmat otlari
+K7-F-04 | Oʻzini kamtar tutish soʻzlari
+K7-G-01 | Salomlashishning uch darajasi
+K7-G-02 | Soʻrashning uch darajasi
+K7-G-03 | Iltimosning uch darajasi
+K7-G-04 | Javobning uch darajasi
+K7-G-05 | Kimga qanday nutq ishlatiladi
+K7-H-01 | Oila aʼzolariga murojaat
+K7-H-02 | Universitetda murojaat
+K7-H-03 | Doʻkon va koʻchada murojaat
+K7-I-01 | Ochilish va yopilish
+K7-I-02 | Buzilish va oʻzgarish
+K7-I-03 | Boshlanish va tugash
+K8-A-01 | 은/는 va 이/가
+K8-A-02 | 에 va 에서
+K8-A-03 | 에게 · 한테 · 께
+K8-A-04 | 에 va (으)로
+K8-A-05 | 하고 · 와/과 · (이)랑
+K8-B-01 | -아서 va -(으)니까
+K8-B-02 | -고 va -아서
+K8-B-03 | -지만 va -는데
+K8-B-04 | -(으)ㄹ게요 va -(으)ㄹ 거예요
+K8-B-05 | 안 va 못
+K8-B-06 | -(으)세요 va -아/어 주세요
+K8-B-07 | -고 싶다 va -(으)ㄹ래요
+K8-B-08 | -(으)면 va -(으)ㄹ 때
+K8-C-01 | bormoq · kelmoq · qatnamoq
+K8-C-02 | bermoq · olmoq · taqdim etmoq
+K8-C-03 | bilmoq · bilmaslik · tushunmoq
+K8-C-04 | 하다 va 되다
+K8-C-05 | koʻrmoq · koʻrinmoq · koʻrsatmoq
+K8-C-06 | 있다 ning ikki maʼnosi
+K8-C-07 | eshitmoq · eshitilmoq · soʻramoq
+K8-C-08 | qoʻymoq · qoldirmoq · solmoq
+K8-C-09 | 쓰다 ning turli maʼnolari
+K8-D-01 | kiymoq (kiyim, poyabzal, bosh kiyim)
+K8-D-02 | taqmoq · bogʻlamoq · kiymoq
+K8-D-03 | yechmoq · boʻshatmoq · chiqarmoq
+K8-D-04 | Amaliyot kiyimi va jihozlarni kiyish
+K8-E-01 | 좋다 va 좋아하다
+K8-E-02 | quvonchli · qiziqarli · zavqli · baxtli
+K8-E-03 | mashaqqatli · qiyin · charchagan
+K8-E-04 | qoʻrqinchli · xavotirli · hayron boʻlmoq
+K8-E-05 | 괜찮다 ning turli maʼnolari
+K8-E-06 | 싫다 va 싫어하다
+K8-F-01 | juda · haddan tashqari · rostdan
+K8-F-02 | ozgina · biroz · sal
+K8-F-03 | tez-tez · baʼzan · doim · odatda
+K8-F-04 | allaqachon · hali · oldindan
+K8-F-05 | hozirgina · tez orada · yaqinda · keyinroq
+K8-F-06 | 빨리 va 일찍
+K8-F-07 | 다시 va 또
+K8-F-08 | hammasi · barchasi · butunlay
+K8-G-01 | 그리고 va 그래서
+K8-G-02 | 그런데 · 그렇지만 · 하지만
+K8-G-03 | 그러면 va 그럼
+K8-G-04 | 그러니까 va 왜냐하면
+K8-H-01 | nima · qanday · qaysi
+K8-H-02 | nechta · qancha · qanchalik
+K8-H-03 | qachon · qayerda · kim
+K8-H-04 | nega · qanday qilib · qalay
+K8-I-01 | ish · topshiriq · qoʻshimcha ish · navbatchilik
+K8-I-02 | choʻntak pul · stipendiya · ish haqi · soatbay haq
+K8-I-03 | dam olish kuni · bayram · taʼtil · hordiq
+K8-I-04 | mehmon · mijoz · doimiy mijoz
+K8-I-05 | maktab · universitet · kampus · fakultet
+K8-I-06 | tuzatmoq · taʼmirlamoq · almashtirmoq
+K8-I-07 | tugamoq · tugatmoq · yakunlamoq
+K8-Z-01 | Oʻxshash soʻzlarni umumiy takrorlash
+K9-A-01 | -원 (xodim)
+K9-A-02 | -사 (mutaxassis)
+K9-A-03 | -자 va -가 (kishi)
+K9-A-04 | -님 (hurmat)
+K9-A-05 | -생 (talaba)
+K9-B-01 | -실 (xona)
+K9-B-02 | -장 (joy, rahbar)
+K9-B-03 | -소 va -점 (joy, doʻkon)
+K9-B-04 | -관 va -원 (bino, muassasa)
+K9-B-05 | -국 · -청 · -서 (idora)
+K9-C-01 | -비 (xarajat)
+K9-C-02 | -료 va -금 (haq, pul)
+K9-C-03 | -증 (guvohnoma)
+K9-C-04 | -서 va -표 (hujjat, jadval)
+K9-D-01 | 학- (oʻqish)
+K9-D-02 | 안전- (xavfsizlik)
+K9-D-03 | -근 (ishlash)
+K9-D-04 | 출- · 입- · 퇴- (chiqish, kirish, ketish)
+K9-D-05 | 금- (taqiq)
+K9-D-06 | -기 (mashina, asbob)
+K9-E-01 | 학- (oʻqish bilan bogʻliq)
+K9-E-02 | 식- (ovqat)
+K9-E-03 | 회- (yigʻilish)
+K9-E-04 | 시- (vaqt)
+K9-E-05 | 한- (Koreya)
+K9-E-06 | 전- (elektr)
+K9-F-01 | Kundalik ot + 하다
+K9-F-02 | Universitet hayoti oti + 하다
+K9-F-03 | -하다 va -되다
+K9-F-04 | Holatni bildiruvchi -하다
+K9-G-01 | Tana bilan bogʻliq qoʻshma soʻzlar
+K9-G-02 | Taom bilan bogʻliq qoʻshma soʻzlar
+K9-G-03 | Harakat bilan bogʻliq qoʻshma soʻzlar
+K9-H-01 | Kundalik oʻzlashma soʻzlar
+K9-H-02 | Universitet · ish oʻzlashma soʻzlari
+K9-H-03 | Koreyada maʼnosi oʻzgargan soʻzlar
+K9-Z-01 | Soʻz oilasini umumiy takrorlash
+KR-A-01 | Mamlakat nomi va bayrogʻi
+KR-A-02 | Poytaxt va aholi
+KR-A-03 | Hukumat va iqtisod
+KR-B-01 | Yer va dengiz
+KR-B-02 | Hududlar va shaharlar
+KR-B-03 | Ob-havo va toʻrt fasl
+KR-C-01 | Qadimgi davlatlar
+KR-C-02 | Qirol Sejong va Hangeul
+KR-C-03 | Yangi va eng yangi tarix
+KR-D-01 | Din
+KR-D-02 | Konfutsiylik va yosh
+KR-E-01 | Sollal (Koreya yangi yili)
+KR-E-02 | Chusok (hosil bayrami)
+KR-E-03 | Boshqa esdalik kunlari
+KR-F-01 | Guruch va gazaklar
+KR-F-02 | Mashhur taomlar
+KR-F-03 | Dasturxon odobi
+KR-G-01 | Salomlashish va imo-ishoralar
+KR-G-02 | Murojaat soʻzlari
+KR-G-03 | Uy va turmush
+KR-G-04 | Koreyada yashaganda
+KR-H-01 | Hanbok
+KR-H-02 | Anʼanaviy madaniyat
+KR-H-03 | Hallyu (koreys toʻlqini)
+KR-I-01 | Seul
+KR-I-02 | Pusan
+KR-I-03 | Kyonju
+KR-I-05 | Chejudo oroli
+LS-A-01 | Fanlarga yozilish eʼloni
+LS-A-02 | Yotoqxona eʼloni
+LS-A-03 | Festival eʼloni
+LS-A-04 | Talabalar oshxonasi menyusi
+LS-A-05 | Shattl avtobus eʼloni
+LS-A-06 | Stipendiya eʼloni
+LS-A-07 | Tibbiy koʻrik eʼloni
+LS-A-08 | Chet elliklarni guruh boʻlib roʻyxatga olish
+LS-A-09 | Til almashinuvi uchun qabul
+LS-A-10 | Bitiruv marosimi eʼloni
+LS-B-01 | Och qolgan qurtcha
+LS-B-02 | Soyabonini boʻlishgan doʻst
+LS-B-03 | Adashib qolgan oʻrdakcha
+LS-B-04 | Oyga borgan mushuk
+LS-B-05 | Ochkoʻz kuchukcha
+LS-B-06 | Kichkina urugʻ
+LS-B-07 | Tugʻilgan kun torti
+LS-B-08 | Qoʻrqoq sher
+LS-B-09 | Qorboboning bir kuni
+LS-B-10 | Ikki doʻst va olma daraxti
+LS-C-01 | Xinbu va Nolbu
+LS-C-02 | Quyosh va oyga aylangan aka-singil
+LS-C-03 | Quyon va toshbaqa
+LS-C-04 | Oltin bolta, kumush bolta
+LS-C-05 | Yaxshilikni qaytargan zagʻizgʻon
+LS-C-06 | Boʻqoq chol
+LS-C-07 | Kyonu va Jikne
+LS-C-08 | Pari va oʻtinchi
+LS-C-09 | Kongji va Patji
+LS-C-10 | Yelini tutolmagan kelin
+LS-C-11 | Quyonning jigari
+LS-D-01 | Birinchi marta uchrashgan odam bilan salomlashish
+LS-D-02 | Restoranda buyurtma berish
+LS-D-03 | Kiyim doʻkonida
+LS-D-04 | Yoʻl soʻrash
+LS-D-05 | Kasalxonaga yozilish
+LS-D-06 | Dam olish kunidagi uchrashuv
+LS-D-07 | Posilkani olish
+LS-D-08 | Kafeda
+LS-D-09 | Telefon buzilishi
+LS-D-10 | Koʻchishga tayyorgarlik
+LS-E-01 | Birinchi dars
+LS-E-02 | Professorning koʻrsatmasi
+LS-E-03 | Uy vazifasi haqida
+LS-E-04 | Imtihon haqida
+LS-E-05 | Kelmaslik haqida xabar berish
+LS-E-06 | Kutubxonadan foydalanish eʼloni
+LS-E-07 | Toʻgarak bilan tanishuv
+LS-E-08 | Taqdimotga tayyorgarlik
+LS-E-09 | Taʼtil haqida eʼlon
+LS-E-10 | Guruh ishi
+LS-F-01 | Metro eʼloni
+LS-F-02 | Avtobus eʼloni
+LS-F-03 | Aeroportda samolyotga chiqish eʼloni
+LS-F-04 | Supermarket chegirma eʼloni
+LS-F-05 | Uy boshqaruvi eʼloni
+LS-F-06 | Temir yoʻl vokzali eʼloni
+LS-F-07 | Univermagda adashgan bola eʼloni
+LS-F-08 | Kinoteatr eʼloni
+LS-F-09 | Kasalxonada navbat eʼloni
+LS-F-10 | Zilziladan evakuatsiya mashqi
+LS-G-01 | Ob-havo maʼlumoti
+LS-G-02 | Yoʻl harakati maʼlumoti
+LS-G-03 | Ramyon pishirish usuli
+LS-G-04 | Salomatlik: shamollashning oldini olish
+LS-G-05 | Radio maktubi
+LS-G-06 | Chiqindini saralash usuli
+LS-G-07 | Telefon avtojavobi
+LS-G-08 | Reklama
+LS-G-09 | Ovozli xabar
+LS-G-10 | Bayramdagi yoʻl harakati
+LS-H-01 | Chet ellik talabalar festivali
+LS-H-02 | Kuchli qor yangiligi
+LS-H-03 | Yangi metro liniyasining ochilishi
+LS-H-04 | Koreys tilida nutq tanlovi
+LS-H-05 | Kuzgi barglar yangiligi
+LS-H-06 | Doʻkondagi posilka xizmati
+LS-H-07 | Yozgi jaziramadan ehtiyot boʻling
+LS-H-08 | Kutubxonada bepul koreys tili darsi
+LS-H-09 | Koreya-Myanma madaniy almashinuvi
+LS-H-10 | Shisha idish uchun garov puli
+LS-I-01 | Gangnam Style - PSY
+LS-I-02 | APT. - ROSÉ, Bruno Mars
+LS-I-03 | Dynamite - BTS
+LS-I-04 | Spring Day - BTS
+LS-I-05 | DDU-DU DDU-DU - BLACKPINK
+LS-I-06 | How You Like That - BLACKPINK
+LS-I-07 | Next Level - aespa
+LS-I-08 | Super Shy - NewJeans
+LS-I-09 | Cupid - FIFTY FIFTY
+LS-I-10 | FANCY - TWICE
+TP-A-01 | TOPIK nima?
+TP-A-02 | Imtihon kuni
+TP-A-03 | Savol koʻrsatmalarini oʻqish
+TP-A-04 | IBT (kompyuter imtihoni) ekrani va boshqaruvi
+TP-A-05 | Vaqtni taqsimlash va yechish strategiyasi
+TP-A-06 | Ballni hisoblash va maqsad darajani belgilash
+TP-B-01 | Toʻgʻri javob: ha/yoʻq savollari
+TP-B-02 | Toʻgʻri javob: soʻroq soʻzli savollar
+TP-B-03 | Davomi: salom va qolip iboralar
+TP-B-04 | Joyni tanlash
+TP-B-05 | Mavzuni tanlash: nima haqida gap ketyapti
+TP-B-06 | Mos rasmni tanlash
+TP-B-07 | Suhbat mazmuniga mosini tanlash
+TP-B-08 | Asosiy fikrni tanlash
+TP-B-09 | Eʼlon: maqsad va mazmun
+TP-B-10 | Suhbat: sabab va niyat
+TP-B-11 | Intervyu tinglash
+TP-C-01 | Mavzuni tanlash
+TP-C-02 | Boʻsh joy: qoʻshimcha · soʻz · grammatika
+TP-C-03 | Eʼlon · reklama oʻqish (mos kelmaydigani)
+TP-C-04 | Qisqa matn mazmuniga mosini tanlash
+TP-C-05 | Asosiy fikrni tanlash
+TP-C-06 | Boʻsh joy + mazmun toʻplami
+TP-C-07 | Tartibga solish
+TP-C-08 | Gap qoʻyish
+TP-C-09 | Xabar · e-pochta: maqsadni topish
+TP-C-10 | Uzun matn toʻplami: izoh matni · hayotiy esse
+TP-D-01 | Rasm · grafikni tanlash
+TP-D-02 | Davomini tanlash
+TP-D-03 | Keyingi harakat
+TP-D-04 | Mazmunga moslik: suhbat · yangilik · eʼlon
+TP-D-05 | Asosiy fikr
+TP-D-06 | Suhbat toʻplami: asosiy fikr + moslik
+TP-D-07 | Intervyu: soʻzlovchi va niyat
+TP-D-08 | Munozara: munosabat va daʼvo
+TP-D-09 | Maʼruza · yangilik · hujjatli film: mavzu va tafsilot
+TP-D-10 | Chuqur maʼruza (5~6-daraja tanishuv)
+TP-E-01 | 51-savol: amaliy matndagi boʻsh joy
+TP-E-02 | 52-savol: izoh matnidagi boʻsh joy
+TP-E-03 | 53-savol: grafik · jadvalni tushuntirish (200~300 belgi)
+TP-E-04 | 53-savol iboralari toʻplami
+TP-E-05 | 54-savol: insho tuzilishi (600~700 belgi)
+TP-E-06 | 54-savol mavzular boʻyicha iboralar · bogʻlovchilar
+TP-E-07 | Varaq jadvaliga yozish va yozma uslub qoidalari
+TP-F-01 | Boʻsh joydagi grammatika
+TP-F-02 | Oʻxshash iborani tanlash
+TP-F-03 | Reklama · eʼlon mavzusi
+TP-F-04 | Grafik · eʼlon mazmuniga moslik
+TP-F-05 | Tartibga solish
+TP-F-06 | Boʻsh joy · moslik toʻplami (kontekstdan xulosa)
+TP-F-07 | Gazeta maqolasi sarlavhasi
+TP-F-08 | Mavzuni topish
+TP-F-09 | Gap qoʻyish
+TP-F-10 | Hikoya: qahramonning kayfiyati
+TP-F-11 | Publitsistik matn: muallifning munosabati va maqsadi (5~6-daraja tanishuv)
+TP-G-01 | TOPIK I zarur soʻzlari (mavzular boʻyicha)
+TP-G-02 | TOPIK I zarur grammatikasi
+TP-G-03 | TOPIK II 3-daraja grammatikasi
+TP-G-04 | TOPIK II 4-daraja grammatikasi
+TP-G-05 | Yangilik · maqolalardagi xitoycha soʻzlar
+TP-G-06 | Chalkash qoʻshimchalar · gap oxirlari
+TP-G-07 | Maqollar · iboralar · toʻrt boʻgʻinli iboralar
+TP-H-00 | Tasodifiy savollar
+TP-H-01 | TOPIK I mini sinov imtihoni
+TP-H-02 | TOPIK II mini sinov imtihoni
+TP-H-03 | Yozish 53·54-savollar amaliyoti + namunaviy javob
+TP-H-04 | Tuzoq javoblarni tahlil qilish
+TP-I-01 | TOPIK gapirish imtihoni bilan tanishuv
+TP-I-02 | Savollarga javob · rasmga qarab gapirish
+K4-D-05 | Fanlarni oʻzgartirish va bekor qilish
+K4-E-05 | Ingliz tilidagi yoʻnalishni tugatish talablari
+K4-G-03 | Akademik ogohlantirish va qoʻshimcha imtihon
+K4-I-04 | Talabalar turar joyi haqida
+K4-J-04 | Universitet stipendiyalari
+JB-A-01 | Chonbuk maxsus avtonom viloyati
+JB-A-02 | Chonju shahri
+JB-A-03 | Chonbuk tabiati va toʻrt fasli
+JB-A-04 | Chonjuda oʻqishning afzalliklari
+JB-B-01 | Star Center
+JB-B-02 | Star bogʻi va azaliya gulzori
+JB-B-03 | Seriallardagi kampus
+JB-B-04 | Oʻrmondagi uchta kulba
+JB-B-05 | Oʻqish va dam olish joylari
+JB-C-01 | Chonju Hanok qishlogʻi
+JB-C-02 | Kyonggijon · Jondong sobori · Pungnammun
+JB-C-03 | Omokde · devoriy rasmlar qishlogʻi · Nambu bozori
+JB-C-04 | Tokjin bogʻi va botanika bogʻi
+JB-D-01 | Chonju pibimbapi
+JB-D-02 | Kongnamul kukpap va moju
+JB-D-03 | Hanjongsik · kamek · makkolli koʻchasi
+JB-D-04 | Koʻcha taomlari va tungi bozor
+JB-E-01 | Hanji (koreys qogʻozi)
+JB-E-02 | Pansori va Chonju Tesasup musobaqasi
+JB-E-03 | Joson sulolasining ildizi
+JB-F-01 | Chonju xalqaro kinofestivali
+JB-F-02 | Chonju festivallari
+JB-F-03 | Chonbuk festivallari
+JB-G-01 | Kunsan
+JB-G-02 | Namvon
+JB-G-03 | Muju
+JB-G-04 | Puan va Kochang
+JB-H-01 | Chonju transporti
+JB-H-02 | Turmush xarajatlari va xarid
+JB-H-03 | Chonju shevasi
