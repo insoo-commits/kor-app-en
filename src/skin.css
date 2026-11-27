@@ -365,3 +365,6 @@ html.lsopen,html.lsopen body{overflow:hidden}
 .stick .strow{display:none}
 /* (RYU 2026-11-27): iPad: the stuck bar is solid, no blur */
 html.tab .stick{-webkit-backdrop-filter:none!important;backdrop-filter:none!important;background:var(--sheet)!important}
+/* v1.31.24 (RYU): no blur on iPad, also when the iPad is not detected as html.tab; no soft shadow under the bar either, only a thin line */
+html.tab .stick{box-shadow:0 1px 0 var(--line)!important}
+@media (min-width:601px) and (any-pointer:coarse){.stick{-webkit-backdrop-filter:none!important;backdrop-filter:none!important;background:var(--sheet)!important;box-shadow:0 1px 0 var(--line)!important}}
