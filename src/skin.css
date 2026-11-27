@@ -335,3 +335,6 @@ html.lsopen,html.lsopen body{overflow:hidden}
   #app .top .eyebrow{font-size:min(12.5px,3.2vw)}
   #app .top .eyebrow .logo{font-size:min(13px,3.4vw);padding:4px 9px 3px;border-radius:8px;margin-right:7px}
 }
+
+/* v1.31.13 (RYU 2026-11-27): PC content as wide as PhasaLAO (about 1,258 screen px at zoom 1.1, was 1,064) */
+#app.wrap{max-width:1176px}
