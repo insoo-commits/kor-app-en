@@ -175,6 +175,9 @@ html.tab #app .search input{font-size:17px}
   #app .menubox #groups .group[data-g="KR"]{grid-column:1}
   html.tab #app .menubox #groups .group{padding:5px 4px!important}
   #app .menubox .groups .glide{top:4px;bottom:auto}
+  /* v1.31.11 (RYU): every sub list as close as the 18-item one */
+  #app .menubox .sub,#app .menubox .subs:has(.sub:nth-of-type(9)) .sub{padding-top:3px!important;padding-bottom:3px!important}
+  html.tab #app .menubox .sub{padding-top:4px!important;padding-bottom:4px!important}
   /* the sub numbers line up with the text of the main menu: left with 기초회화, right with 문장규칙 */
   #app .menubox #subs{padding-left:17px!important;padding-right:17px!important}
   html.tab #app .menubox #subs{padding-left:14.5px!important;padding-right:14.5px!important}
