@@ -1061,10 +1061,12 @@ if (LX){
 route();
 if ("serviceWorker" in navigator && window.KO_SW) navigator.serviceWorker.register("sw.js").catch(() => {});
 /* v1.21.12 (RYU): tapping the title at the top left (or "JeyCampus" in the sticky bar) goes back to the first menu's first lesson, at the top */
-(() => { const home = () => { const g = document.querySelector("#groups .group"), r = g && IDX.find(r => areaOf(r[0]) === g.dataset.g);
+/* v1.25.5 (RYU 2026-11-27): it now opens the intro page (src/intro.js); the old jump stays as the fallback */
+(() => { const home = () => { if (window.JC && window.JC.intro){ window.JC.intro(); return; }
+    const g = document.querySelector("#groups .group"), r = g && IDX.find(r => areaOf(r[0]) === g.dataset.g);
     if (r) go(r[0]); setTimeout(() => scrollTo(0, 0), 80); };
   for (const e of [document.querySelector(".top .brand"), document.querySelector("#stick .strow > b")]) if (e){
-    e.style.cursor = "pointer"; e.setAttribute("role", "link"); e.setAttribute("tabindex", "0"); e.title = "Home";
+    e.style.cursor = "pointer"; e.setAttribute("role", "link"); e.setAttribute("tabindex", "0"); e.title = "JeyCampus";
     e.addEventListener("click", home); e.addEventListener("keydown", ev => { if (ev.key === "Enter") home(); }); } })();
 })();
 /* phone swipe left / right = next / previous bundle, like the 다음 묶음 / 이전 묶음 buttons (lao-app v3.23, RYU 2026-11-23, v2.49).
