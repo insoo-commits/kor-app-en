@@ -1056,7 +1056,7 @@ html.tab .kbinfo>span{display:inline-flex}
 @media (min-width:700px){.mine{grid-template-columns:1fr 1.3fr 1fr 1.8fr}.mn-nx{grid-column:auto;flex-direction:column;align-items:flex-start;gap:1px}.mn-nx > span{width:100%}.mn-nx i{display:none}}
 /* progress marks (v1.4) */
 .sub{position:relative}
-.sprog{position:absolute;left:12px;right:12px;bottom:3px;height:3px;border-radius:2px;background:var(--line);overflow:hidden;pointer-events:none}
+.sprog{position:absolute;left:12px;right:12px;bottom:3px;height:1.5px;border-radius:1px;background:var(--line);overflow:hidden;pointer-events:none}
 .sprog::after{content:"";position:absolute;left:0;top:0;bottom:0;width:var(--p);background:var(--accent);border-radius:2px}
 .sprog.full::after{background:var(--good)}
 .ddck{margin-left:6px;color:var(--good);font-weight:700;font-size:.9em}
@@ -2024,11 +2024,11 @@ html.tab #app .search input{font-size:17px}
   #app .top .eyebrow{line-height:1.2}
   #app .top h1{line-height:1.15;margin:0}
   /* main menu: each item a soft outlined cell; 대한민국 starts the last row with 전주생활 and 도움말 */
-  #app .menubox #groups{background:none!important;padding:0!important;gap:5px!important}
-  #app .menubox #groups .group{border:1px solid var(--line2)!important;border-radius:10px!important;background:var(--sheet)}
-  #app .menubox #groups .group[aria-pressed="true"]{border-color:transparent!important}
+  /* v1.31.8 (RYU): the menu keeps its rounded box; each item gets a light background, and the soft pill with the line under it shows only under the mouse */
+  #app .menubox #groups{padding:5px!important;gap:5px!important;border-radius:16px}
+  #app .menubox #groups .group{border-radius:999px!important;background:color-mix(in srgb,var(--sheet) 80%,transparent)!important}
+  #app .menubox #groups .group[aria-pressed="true"]{background:var(--accent)!important}
   #app .menubox #groups .group[data-g="KR"]{grid-column:1}
-  #app .menubox #groups .glide{display:none}
   /* right side: a JJU-blue line on top (was yellow) that lines up with the blue title card on the left (RYU) */
   #app .band{border-top:5px solid #005595}
   :root[data-theme="dark"] #app .band{border-top-color:#2F7FC0}
@@ -2403,7 +2403,7 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-27%20v1.31.7"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.7"><\/script>')})()</script>
-<script src="app.js?v=2026-11-27%20v1.31.7"></script>
+<script src="audio/index.js?v=2026-11-27%20v1.31.8"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-27%20v1.31.8"><\/script>')})()</script>
+<script src="app.js?v=2026-11-27%20v1.31.8"></script>
 </body></html>
