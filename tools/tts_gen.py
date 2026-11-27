@@ -24,12 +24,20 @@ BITRATE = {"ko": "16k", "en": "16k", "km": "16k", "vi": "16k", "ne": "16k", "my"
 VOWEL = dict(zip("ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ", "아애야얘어에여예오와왜외요우워웨위유으의이"))
 
 
+def lao_spoken(t):
+    """Spellings the Edge Lao voice reads correctly (RYU approved them in the Lao app, 2026-11-22..25); shown text is unchanged."""
+    t = t.replace("ໂມງ", "ມົງ").replace("ມື້", "ມື່").replace("ໄຜ່", "ໄຜ").replace("ຜ້າໄໝ", " ຜ້າ ໄໝ")
+    return re.sub("ໃສ(?![\u0EC8-\u0ECB])", "ໄຊ", t)
+
+
 def spoken(clip):
     """What the voice actually reads (the clip name still comes from the shown text).
     Grammar headwords such as "-아서, -어서" are read without the dash, and a form that starts
     with a bare consonant ("-ㄴ데") is left out because it cannot be pronounced on its own;
     a lone vowel letter such as "ㅓ" is read as its sound ("어")."""
     t = clip["text"]
+    if clip["lang"] == "lo":
+        return lao_spoken(t)
     if clip["lang"] != "ko":
         return t
     if t.startswith("-"):
