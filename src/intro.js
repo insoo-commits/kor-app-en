@@ -159,7 +159,8 @@ function foot(){ return `<div class="foot"><img src="img/jju/${isDark() ? "logo_
    loads only then; the same card sits at the top of 도움말 > 이 앱은 (data/HP.json and each language folder HP.json, class ytv). */
 /* one video per language; a language without its own video shows the English one (RYU 2026-11-27: Lao first) */
 const YT = {en: {id: "8B8TUJqVXKk", len: "3:38", img: "img/help/intro-video.webp", nm: "English"},
-            lo: {id: "Sl7pDNfsA9s", len: "4:34", img: "img/help/intro-video-lo.webp", nm: "ລາວ"}};
+            lo: {id: "Sl7pDNfsA9s", len: "4:34", img: "img/help/intro-video-lo.webp", nm: "ລາວ"},
+            vi: {id: "M_85Mr5DQXk", len: "4:11", img: "img/help/intro-video-vi.webp", nm: "Tiếng Việt"}};
 const VID = {en:"Watch the intro video", vi:"Xem video giới thiệu", ne:"परिचय भिडियो हेर्नुहोस्", my:"မိတ်ဆက် ဗီဒီယို ကြည့်ရန်", lo:"ເບິ່ງວິດີໂອແນະນຳ"};
 function video(){ const v = YT[lang] || YT.en; return `<div class="sec vsec"><div class="sh"><div><h2>${esc(VID[lang] || VID.en)} <span class="kosub">소개 영상 · ${v.len}</span></h2></div></div>${ytCard(v)}</div>`; }
 function ytCard(v){ return `<button type="button" class="ytv" data-yt="${v.id}" aria-label="Play video"><img src="${v.img}" alt="JeyCampus intro video" width="960" height="540" loading="lazy"><span class="ytplay" aria-hidden="true"></span><span class="ytlen">${v.len} · ${esc(v.nm)}</span></button>`; }
