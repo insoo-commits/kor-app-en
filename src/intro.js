@@ -9,7 +9,7 @@ const MENUS = [["K2","안녕","기초회화"],["K1","가나","한글발음"],["K
 const LEARN = 6;
 const T = {
 en:{hello:"Welcome to Jeonju University",h1:"Your Korean starts here, on campus.",lead:"Learn conversation, Hangeul, grammar, vocabulary, listening and TOPIK with Jey, plus everything you need for university life, part-time jobs and Jeonju.",
- st:["Words","Sentences","Menus","Languages"],s1:"Choose your language",s1n:"Korean stays Korean. Meanings, tips and help are shown in your language.",
+ st:["Words","Sentences","Learners","Languages"],s1:"Choose your language",s1n:"Korean stays Korean. Meanings, tips and help are shown in your language.",
  s2:"Set up how you listen",s2n:"You can change these any time inside a lesson.",pass:"My learning setup",rep:"Repeat each line",spd:"Speed",vol:"Volume",voice:"Hear meanings in English",voiceN:"Korean, then your language, then Korean again.",
  theme:"Theme",th:["Auto","Light","Dark"],fz:"Text size",sample:"Hello. I'm Jey.",listen:"Listen to a sample",start:"Start Learning",how:"How to use",inside:"What's inside",learn:"Learn Korean",live:"Life in Korea",
  mn:{K2:"Basic Conversation",K1:"Hangeul",K6:"Grammar",K7:"Vocabulary",LS:"Listening Practice",TP:"TOPIK",K4:"University Life",K5:"Part-time Jobs",KR:"About Korea",JB:"Jeonju",HP:"Help"},
@@ -22,7 +22,7 @@ en:{hello:"Welcome to Jeonju University",h1:"Your Korean starts here, on campus.
   chrome:["In Chrome or Edge, click the install icon {inst} at the right end of the address bar.","Click “Install”. JeyCampus opens in its own window with a desktop shortcut."],
   safari:["In Safari on a Mac, open the File menu.","Choose “Add to Dock”, then “Add”."]}},
 zh:{hello:"欢迎来到全州大学",h1:"你的韩语，从校园开始。",lead:"和 Jey 一起学习会话、韩文、语法、词汇、听力和 TOPIK，还有大学生活、打工和全州所需要的一切。",
- st:["单词","句子","菜单","语言"],s1:"选择你的语言",s1n:"韩语保持韩语。意思、提示和帮助用你的语言显示。",
+ st:["单词","句子","学习者","语言"],s1:"选择你的语言",s1n:"韩语保持韩语。意思、提示和帮助用你的语言显示。",
  s2:"设置听的方式",s2n:"在课程中随时可以更改。",pass:"我的学习设置",rep:"每句重复",spd:"速度",vol:"音量",voice:"用中文听意思",voiceN:"先韩语，再你的语言，然后再韩语。",
  theme:"主题",th:["自动","浅色","深色"],fz:"字体大小",sample:"你好。我是 Jey。",listen:"听示例",start:"开始学习",how:"使用方法",inside:"内容",learn:"学习韩语",live:"在韩国生活",
  mn:{K2:"基础会话",K1:"韩文",K6:"语法",K7:"词汇",LS:"听力练习",TP:"TOPIK",K4:"大学生活",K5:"打工",KR:"关于韩国",JB:"全州",HP:"帮助"},
@@ -35,7 +35,7 @@ zh:{hello:"欢迎来到全州大学",h1:"你的韩语，从校园开始。",lead
   chrome:["在 Chrome 或 Edge 中，点地址栏右端的安装图标 {inst}。","点“安装”。JeyCampus 会在单独的窗口中打开，并在桌面上创建快捷方式。"],
   safari:["在 Mac 的 Safari 中，打开“文件”菜单。","选择“添加到程序坞”，再点“添加”。"]}},
 uz:{hello:"Chonju universitetiga xush kelibsiz",h1:"Koreys tilingiz shu yerda, kampusda boshlanadi.",lead:"Jey bilan suhbat, Hangeul, grammatika, lugʻat, tinglash va TOPIKni oʻrganing, shuningdek universitet hayoti, qoʻshimcha ish va Chonju uchun kerak boʻlgan hamma narsani.",
- st:["Soʻz","Gap","Menyu","Til"],s1:"Tilingizni tanlang",s1n:"Koreyscha koreyscha qoladi. Maʼno, maslahat va yordam sizning tilingizda koʻrsatiladi.",
+ st:["Soʻz","Gap","Oʻquvchi","Til"],s1:"Tilingizni tanlang",s1n:"Koreyscha koreyscha qoladi. Maʼno, maslahat va yordam sizning tilingizda koʻrsatiladi.",
  s2:"Tinglash usulini sozlang",s2n:"Darsda istalgan vaqtda oʻzgartirish mumkin.",pass:"Mening oʻqish sozlamalarim",rep:"Har bir gapni takrorlash",spd:"Tezlik",vol:"Ovoz balandligi",voice:"Maʼnosini oʻzbekcha tinglash",voiceN:"Koreyscha, keyin sizning tilingiz, keyin yana koreyscha.",
  theme:"Mavzu",th:["Avto","Yorugʻ","Qorongʻi"],fz:"Matn oʻlchami",sample:"Salom. Men Jeyman.",listen:"Namunani tinglash",start:"Oʻqishni boshlash",how:"Qanday ishlaydi",inside:"Ichida nima bor",learn:"Koreys tilini oʻrganish",live:"Koreyada yashash",
  mn:{K2:"Asosiy suhbat",K1:"Hangeul",K6:"Grammatika",K7:"Lugʻat",LS:"Tinglash mashqi",TP:"TOPIK",K4:"Universitet hayoti",K5:"Qoʻshimcha ish",KR:"Koreya haqida",JB:"Chonju",HP:"Yordam"},
@@ -48,7 +48,7 @@ uz:{hello:"Chonju universitetiga xush kelibsiz",h1:"Koreys tilingiz shu yerda, k
   chrome:["Chrome yoki Edge’da manzil satrining oʻng chetidagi oʻrnatish belgisini {inst} bosing.","“Oʻrnatish” ni bosing. JeyCampus alohida oynada ochiladi va ish stolida yorliq yaratiladi."],
   safari:["Mac’dagi Safarida “Fayl” menyusini oching.","“Dockka qoʻshish” ni tanlang, keyin “Qoʻshish” ni bosing."]}},
 vi:{hello:"Chào mừng đến Đại học Jeonju",h1:"Tiếng Hàn của bạn bắt đầu từ đây, ngay tại trường.",lead:"Học hội thoại, Hangeul, ngữ pháp, từ vựng, luyện nghe và TOPIK cùng Jey, cùng mọi điều cần cho đời sống đại học, việc làm thêm và Jeonju.",
- st:["Từ","Câu","Mục","Ngôn ngữ"],s1:"Chọn ngôn ngữ",s1n:"Tiếng Hàn giữ nguyên. Nghĩa, mẹo và hướng dẫn hiện bằng ngôn ngữ của bạn.",
+ st:["Từ","Câu","Người học","Ngôn ngữ"],s1:"Chọn ngôn ngữ",s1n:"Tiếng Hàn giữ nguyên. Nghĩa, mẹo và hướng dẫn hiện bằng ngôn ngữ của bạn.",
  s2:"Cài đặt cách nghe",s2n:"Bạn có thể đổi bất cứ lúc nào trong bài học.",pass:"Cài đặt học của tôi",rep:"Lặp lại mỗi câu",spd:"Tốc độ",vol:"Âm lượng",voice:"Nghe nghĩa bằng tiếng Việt",voiceN:"Tiếng Hàn, rồi tiếng của bạn, rồi lại tiếng Hàn.",
  theme:"Giao diện",th:["Tự động","Sáng","Tối"],fz:"Cỡ chữ",sample:"Xin chào. Mình là Jey.",listen:"Nghe thử",start:"Bắt đầu học",how:"Cách dùng",inside:"Có gì bên trong",learn:"Học tiếng Hàn",live:"Cuộc sống ở Hàn",
  mn:{K2:"Hội thoại cơ bản",K1:"Chữ Hangeul",K6:"Ngữ pháp",K7:"Từ vựng",LS:"Luyện nghe",TP:"TOPIK",K4:"Đời sống đại học",K5:"Việc làm thêm",KR:"Về Hàn Quốc",JB:"Jeonju",HP:"Hướng dẫn"},
@@ -61,7 +61,7 @@ vi:{hello:"Chào mừng đến Đại học Jeonju",h1:"Tiếng Hàn của bạn
   chrome:["Trên Chrome hoặc Edge, bấm biểu tượng cài đặt {inst} ở cuối thanh địa chỉ.","Bấm “Cài đặt”. JeyCampus mở trong cửa sổ riêng và có lối tắt trên màn hình."],
   safari:["Trên Safari của máy Mac, mở menu Tệp.","Chọn “Thêm vào Dock”, rồi “Thêm”."]}},
 ne:{hello:"जोन्जु विश्वविद्यालयमा स्वागत छ",h1:"तपाईंको कोरियाली यहीँ, क्याम्पसबाटै सुरु हुन्छ।",lead:"जेसँग कुराकानी, हाङ्गुल, व्याकरण, शब्दावली, सुन्ने अभ्यास र TOPIK सिक्नुहोस्, साथै विश्वविद्यालय जीवन, अंशकालीन काम र जोन्जुका लागि चाहिने सबै कुरा।",
- st:["शब्द","वाक्य","मेनु","भाषा"],s1:"भाषा छान्नुहोस्",s1n:"कोरियाली कोरियालीमै रहन्छ। अर्थ, सुझाव र सहायता तपाईंको भाषामा देखिन्छ।",
+ st:["शब्द","वाक्य","सिकारु","भाषा"],s1:"भाषा छान्नुहोस्",s1n:"कोरियाली कोरियालीमै रहन्छ। अर्थ, सुझाव र सहायता तपाईंको भाषामा देखिन्छ।",
  s2:"सुन्ने तरिका मिलाउनुहोस्",s2n:"यी कुरा पाठभित्र जुनसुकै बेला बदल्न सकिन्छ।",pass:"मेरो सिकाइ सेटिङ",rep:"हरेक वाक्य दोहोर्याउने",spd:"गति",vol:"आवाज",voice:"अर्थ नेपालीमा सुन्ने",voiceN:"पहिले कोरियाली, त्यसपछि तपाईंको भाषा, फेरि कोरियाली।",
  theme:"थिम",th:["स्वचालित","उज्यालो","अँध्यारो"],fz:"अक्षरको आकार",sample:"नमस्ते। म जे हुँ।",listen:"नमुना सुन्नुहोस्",start:"सिक्न सुरु गर्नुहोस्",how:"कसरी प्रयोग गर्ने",inside:"भित्र के छ",learn:"कोरियाली सिक्नुहोस्",live:"कोरियामा जीवन",
  mn:{K2:"आधारभूत कुराकानी",K1:"हाङ्गुल",K6:"व्याकरण",K7:"शब्दावली",LS:"सुन्ने अभ्यास",TP:"TOPIK",K4:"विश्वविद्यालय जीवन",K5:"अंशकालीन काम",KR:"कोरियाको परिचय",JB:"जोन्जु",HP:"सहायता"},
@@ -74,7 +74,7 @@ ne:{hello:"जोन्जु विश्वविद्यालयमा स�
   chrome:["Chrome वा Edge मा, ठेगाना पट्टीको दायाँ छेउको इन्स्टल आइकन {inst} क्लिक गर्नुहोस्।","“Install” क्लिक गर्नुहोस्। JeyCampus आफ्नै विन्डोमा खुल्छ र डेस्कटपमा सर्टकट बन्छ।"],
   safari:["Mac को Safari मा File मेनु खोल्नुहोस्।","“Add to Dock” छानेर “Add” थिच्नुहोस्।"]}},
 my:{hello:"ဂျွန်ဂျူ တက္ကသိုလ်မှ ကြိုဆိုပါတယ်",h1:"သင့်ကိုရီးယားစာ ဒီကျောင်းဝင်းမှာ စတင်ပါပြီ။",lead:"Jey နဲ့အတူ စကားပြော၊ ဟန်ဂူးလ်၊ သဒ္ဒါ၊ ဝေါဟာရ၊ နားထောင်ခြင်းနဲ့ TOPIK ကို လေ့လာပါ။ တက္ကသိုလ်ဘဝ၊ အချိန်ပိုင်းအလုပ်နဲ့ ဂျွန်ဂျူအတွက် လိုအပ်တာတွေလည်း ပါပါတယ်။",
- st:["စကားလုံး","ဝါကျ","မီနူး","ဘာသာစကား"],s1:"ဘာသာစကား ရွေးပါ",s1n:"ကိုရီးယားစာက ကိုရီးယားလိုပဲ ရှိနေမယ်။ အဓိပ္ပာယ်၊ အကြံပြုချက်နဲ့ အကူအညီတွေကို သင့်ဘာသာစကားနဲ့ ပြပါမယ်။",
+ st:["စကားလုံး","ဝါကျ","သင်ယူသူ","ဘာသာစကား"],s1:"ဘာသာစကား ရွေးပါ",s1n:"ကိုရီးယားစာက ကိုရီးယားလိုပဲ ရှိနေမယ်။ အဓိပ္ပာယ်၊ အကြံပြုချက်နဲ့ အကူအညီတွေကို သင့်ဘာသာစကားနဲ့ ပြပါမယ်။",
  s2:"နားထောင်ပုံ သတ်မှတ်ပါ",s2n:"သင်ခန်းစာထဲမှာ အချိန်မရွေး ပြောင်းနိုင်ပါတယ်။",pass:"ကျွန်ုပ်ရဲ့ လေ့လာမှု ဆက်တင်",rep:"စာကြောင်းတိုင်း ထပ်ခါ",spd:"အမြန်နှုန်း",vol:"အသံ",voice:"အဓိပ္ပာယ်ကို မြန်မာလို နားထောင်ရန်",voiceN:"ကိုရီးယားလို အရင်၊ ပြီးရင် သင့်ဘာသာစကား၊ ပြီးတော့ ကိုရီးယားလို ထပ်။",
  theme:"မျက်နှာပြင်",th:["အလိုအလျောက်","အလင်း","အမှောင်"],fz:"စာလုံးအရွယ်အစား",sample:"မင်္ဂလာပါ။ ကျွန်တော် Jey ပါ။",listen:"နမူနာ နားထောင်ရန်",start:"စတင်လေ့လာမယ်",how:"အသုံးပြုနည်း",inside:"ဘာတွေ ပါလဲ",learn:"ကိုရီးယားစာ လေ့လာရန်",live:"ကိုရီးယားမှာ နေထိုင်ခြင်း",
  mn:{K2:"အခြေခံ စကားပြော",K1:"ဟန်ဂူးလ်",K6:"သဒ္ဒါ",K7:"ဝေါဟာရ",LS:"နားထောင်ခြင်း လေ့ကျင့်ရန်",TP:"TOPIK",K4:"တက္ကသိုလ်ဘဝ",K5:"အချိန်ပိုင်းအလုပ်",KR:"ကိုရီးယားအကြောင်း",JB:"ဂျွန်ဂျူ",HP:"အကူအညီ"},
@@ -87,7 +87,7 @@ my:{hello:"ဂျွန်ဂျူ တက္ကသိုလ်မှ ကြိ�
   chrome:["Chrome သို့မဟုတ် Edge မှာ လိပ်စာဘားရဲ့ ညာဘက်စွန်းက install အိုင်ကွန် {inst} ကို နှိပ်ပါ။","“Install” ကို နှိပ်ပါ။ JeyCampus က သီးသန့်ဝင်းဒိုးမှာ ပွင့်ပြီး desktop shortcut ရပါမယ်။"],
   safari:["Mac ရဲ့ Safari မှာ File မီနူးကို ဖွင့်ပါ။","“Add to Dock” ကို ရွေးပြီး “Add” ကို နှိပ်ပါ။"]}},
 lo:{hello:"ຍິນດີຕ້ອນຮັບສູ່ມະຫາວິທະຍາໄລ ຈອນຈູ",h1:"ພາສາເກົາຫຼີຂອງເຈົ້າ ເລີ່ມຕົ້ນທີ່ນີ້ ໃນມະຫາວິທະຍາໄລ.",lead:"ຮຽນການສົນທະນາ, ຮັນກຶນ, ໄວຍາກອນ, ຄຳສັບ, ການຟັງ ແລະ TOPIK ກັບ Jey, ພ້ອມທຸກຢ່າງທີ່ຕ້ອງການສຳລັບຊີວິດມະຫາວິທະຍາໄລ, ວຽກພິເສດ ແລະ ຈອນຈູ.",
- st:["ຄຳສັບ","ປະໂຫຍກ","ເມນູ","ພາສາ"],s1:"ເລືອກພາສາ",s1n:"ພາສາເກົາຫຼີຍັງເປັນພາສາເກົາຫຼີ. ຄວາມໝາຍ, ຄຳແນະນຳ ແລະ ການຊ່ວຍເຫຼືອ ຈະສະແດງເປັນພາສາຂອງເຈົ້າ.",
+ st:["ຄຳສັບ","ປະໂຫຍກ","ຜູ້ຮຽນ","ພາສາ"],s1:"ເລືອກພາສາ",s1n:"ພາສາເກົາຫຼີຍັງເປັນພາສາເກົາຫຼີ. ຄວາມໝາຍ, ຄຳແນະນຳ ແລະ ການຊ່ວຍເຫຼືອ ຈະສະແດງເປັນພາສາຂອງເຈົ້າ.",
  s2:"ຕັ້ງຄ່າການຟັງ",s2n:"ປ່ຽນໄດ້ທຸກເວລາໃນບົດຮຽນ.",pass:"ການຕັ້ງຄ່າການຮຽນຂອງຂ້ອຍ",rep:"ຫຼິ້ນຊ້ຳແຕ່ລະປະໂຫຍກ",spd:"ຄວາມໄວ",vol:"ລະດັບສຽງ",voice:"ຟັງຄວາມໝາຍເປັນພາສາລາວ",voiceN:"ເກົາຫຼີກ່ອນ, ແລ້ວພາສາຂອງເຈົ້າ, ແລ້ວເກົາຫຼີອີກ.",
  theme:"ໜ້າຈໍ",th:["ອັດຕະໂນມັດ","ແຈ້ງ","ມືດ"],fz:"ຂະໜາດຕົວອັກສອນ",sample:"ສະບາຍດີ. ຂ້ອຍແມ່ນ Jey.",listen:"ຟັງຕົວຢ່າງ",start:"ເລີ່ມຮຽນ",how:"ວິທີໃຊ້",inside:"ມີຫຍັງແດ່",learn:"ຮຽນພາສາເກົາຫຼີ",live:"ຊີວິດໃນເກົາຫຼີ",
  mn:{K2:"ການສົນທະນາພື້ນຖານ",K1:"ຮັນກຶນ",K6:"ໄວຍາກອນ",K7:"ຄຳສັບ",LS:"ຝຶກຟັງ",TP:"TOPIK",K4:"ຊີວິດມະຫາວິທະຍາໄລ",K5:"ວຽກພິເສດ",KR:"ກ່ຽວກັບເກົາຫຼີ",JB:"ຈອນຈູ",HP:"ຄູ່ມື"},
@@ -142,7 +142,15 @@ function heroCopy(){ const x = t(); return `
   <div class="hello"><span class="star"></span>${esc(x.hello)}</div>
   <h1>${esc(x.h1)}</h1>
   <p class="lead">${esc(x.lead)}</p>
-  <div class="stats"><div><b>${fmt(JC.nWords)}</b><span>${esc(x.st[0])}</span></div><div><b>${fmt(JC.nSents)}</b><span>${esc(x.st[1])}</span></div><div><b>${JC.nAreas}</b><span>${esc(x.st[2])}</span></div><div><b>${NL}</b><span>${esc(x.st[3])}</span></div></div>`; }
+  <div class="stats"><div><b>${fmt(JC.nWords)}</b><span>${esc(x.st[0])}</span></div><div><b>${fmt(JC.nSents)}</b><span>${esc(x.st[1])}</span></div><div><b>${NL}</b><span>${esc(x.st[3])}</span></div><div><b data-learners>${learners()}</b><span>${esc(x.st[2])}</span></div></div>`; }
+/* v1.31.31 (RYU 2026-11-28): "Menus" out, "Learners" last = devices counted by the anonymous stats (same number as 도움말 > 사용 통계),
+   from the saved copy at once, then refreshed once per visit */
+let LRN = null;
+function learners(){ if (LRN == null){ try { const d = JSON.parse(localStorage.getItem("kolearn-en-statspage") || "null"); if (d && d.totals && d.totals.devices) LRN = +d.totals.devices; } catch (e) {} getLearners(); } return LRN ? fmt(LRN) : "–"; }
+let LRNF = false;
+function getLearners(){ if (LRNF) return; LRNF = true; try { if (typeof STATS_URL === "undefined" || !STATS_URL || !navigator.onLine) return;
+  fetch(STATS_URL + "?stats=1", {cache: "no-store"}).then(r => r.json()).then(d => { if (!d || !d.totals) return; try { localStorage.setItem("kolearn-en-statspage", JSON.stringify(d)); } catch (e) {}
+    if (d.totals.devices){ LRN = +d.totals.devices; document.querySelectorAll("#intro [data-learners]").forEach(b => { b.textContent = fmt(LRN); }); } }).catch(() => {}); } catch (e) {} }
 function brand(){ return `<div class="brand"><img src="icon-192.png" alt=""><div><b>JeyCampus</b><span>Korean for JJ Campus Life</span></div></div>`; }
 function step(n, k, note){ const x = t(); return `<div class="sh"><span class="n">${n}</span><div><h2>${esc(x[k])} <span class="kosub">${KO[k]}</span></h2>${note ? `<p>${esc(x[note])}</p>` : ""}</div></div>`; }
 const dis = ok => ok ? "" : " disabled";
