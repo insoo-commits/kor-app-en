@@ -6,7 +6,7 @@
   python3 tools/tts_gen.py      # makes only the clips that are missing; safe to stop and run again
   node build.js                 # registers the new clips in audio/index.js
 
-Options:  --lang ko|en|vi|ne|my   only one language      --limit N   stop after N clips      --jobs N   parallel requests (default 4)
+Options:  --lang ko|en|vi|ne|my|lo   only one language      --limit N   stop after N clips      --jobs N   parallel requests (default 4)
 Voices: Korean ko-KR-SunHiNeural, English en-US-AvaNeural. Output: 24 kbps mono mp3 (RYU's choice in the Lao app).
 Needs network access to speech.platform.bing.com. Behind a proxy, HTTPS_PROXY is used automatically.
 """
@@ -19,9 +19,15 @@ if os.path.exists("/root/.ccr/ca-bundle.crt"):   # cloud session proxy: edge-tts
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AUDIO = os.path.join(ROOT, "audio")
-VOICE = {"ko": "ko-KR-SunHiNeural", "en": "en-US-AvaNeural", "km": "ko-KR-InJoonNeural", "vi": "vi-VN-HoaiMyNeural", "ne": "ne-NP-HemkalaNeural", "my": "my-MM-NilarNeural"}   # km: 남자 lines of TOPIK listening questions
-BITRATE = {"ko": "16k", "en": "16k", "km": "16k", "vi": "16k", "ne": "16k", "my": "16k"}   # both 16k (RYU 2026-11-16; 8k sounded bad)
+VOICE = {"ko": "ko-KR-SunHiNeural", "en": "en-US-AvaNeural", "km": "ko-KR-InJoonNeural", "vi": "vi-VN-HoaiMyNeural", "ne": "ne-NP-HemkalaNeural", "my": "my-MM-NilarNeural", "lo": "lo-LA-KeomanyNeural"}   # km: 남자 lines of TOPIK listening questions
+BITRATE = {"ko": "16k", "en": "16k", "km": "16k", "vi": "16k", "ne": "16k", "my": "16k", "lo": "16k"}   # both 16k (RYU 2026-11-16; 8k sounded bad)
 VOWEL = dict(zip("ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ", "아애야얘어에여예오와왜외요우워웨위유으의이"))
+
+
+def lao_spoken(t):
+    """Spellings the Edge Lao voice reads correctly (RYU approved them in the Lao app, 2026-11-22..25); shown text is unchanged."""
+    t = t.replace("ໂມງ", "ມົງ").replace("ມື້", "ມື່").replace("ໄຜ່", "ໄຜ").replace("ຜ້າໄໝ", " ຜ້າ ໄໝ")
+    return re.sub("ໃສ(?![\u0EC8-\u0ECB])", "ໄຊ", t)
 
 
 def spoken(clip):
@@ -30,6 +36,8 @@ def spoken(clip):
     with a bare consonant ("-ㄴ데") is left out because it cannot be pronounced on its own;
     a lone vowel letter such as "ㅓ" is read as its sound ("어")."""
     t = clip["text"]
+    if clip["lang"] == "lo":
+        return lao_spoken(t)
     if clip["lang"] != "ko":
         return t
     if t.startswith("-"):
@@ -65,7 +73,7 @@ async def make(clip, sem, proxy, failed):
 
 async def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--lang", choices=["ko", "en", "km", "vi", "ne", "my"])
+    ap.add_argument("--lang", choices=["ko", "en", "km", "vi", "ne", "my", "lo"])
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--jobs", type=int, default=4)
     a = ap.parse_args()
@@ -74,6 +82,7 @@ async def main():
     # Nepali: skip English fallback text (menus not yet translated), which the Nepali voice would read badly
     todo = [c for c in todo if c["lang"] != "ne" or re.search("[\u0900-\u097F]", c["text"])]
     todo = [c for c in todo if c["lang"] != "my" or re.search("[\u1000-\u109F]", c["text"])]
+    todo = [c for c in todo if c["lang"] != "lo" or re.search("[\u0E80-\u0EFF]", c["text"])]
     if a.limit:
         todo = todo[: a.limit]
     print(f"{len(clips)} clips in the list, {len(todo)} to make")
