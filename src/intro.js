@@ -161,7 +161,8 @@ function foot(){ return `<div class="foot"><img src="img/jju/${isDark() ? "logo_
 const YT = {en: {id: "8B8TUJqVXKk", len: "3:38", img: "img/help/intro-video.webp", nm: "English"},
             lo: {id: "Sl7pDNfsA9s", len: "4:34", img: "img/help/intro-video-lo.webp", nm: "ລາວ"},
             vi: {id: "M_85Mr5DQXk", len: "4:11", img: "img/help/intro-video-vi.webp", nm: "Tiếng Việt"},
-            ne: {id: "sFdODN-bG08", len: "4:38", img: "img/help/intro-video-ne.webp", nm: "नेपाली"}};
+            ne: {id: "sFdODN-bG08", len: "4:38", img: "img/help/intro-video-ne.webp", nm: "नेपाली"},
+            my: {id: "kp20JsPB_bU", len: "4:38", img: "img/help/intro-video-my.webp", nm: "မြန်မာ"}};
 const VID = {en:"Watch the intro video", vi:"Xem video giới thiệu", ne:"परिचय भिडियो हेर्नुहोस्", my:"မိတ်ဆက် ဗီဒီယို ကြည့်ရန်", lo:"ເບິ່ງວິດີໂອແນະນຳ"};
 function video(){ const v = YT[lang] || YT.en; return `<div class="sec vsec"><div class="sh"><div><h2>${esc(VID[lang] || VID.en)} <span class="kosub">소개 영상 · ${v.len}</span></h2></div></div>${ytCard(v)}</div>`; }
 function ytCard(v){ return `<button type="button" class="ytv" data-yt="${v.id}" aria-label="Play video"><img src="${v.img}" alt="JeyCampus intro video" width="960" height="540" loading="lazy"><span class="ytplay" aria-hidden="true"></span><span class="ytlen">${v.len} · ${esc(v.nm)}</span></button>`; }
