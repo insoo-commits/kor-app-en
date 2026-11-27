@@ -101,7 +101,7 @@ const STP = (() => {
   let CW = 640;   // chart width in px = the card width, so text keeps its size on a computer
   function draw(box, d){
     CW = Math.max(300, Math.min(1100, (box.clientWidth || 640) - 30));
-    const LGN = {en: "English 영어", zh: "中文 중국어", vi: "Tiếng Việt 베트남어", uz: "Oʻzbekcha 우즈베크어", my: "မြန်မာ 미얀마어", ne: "नेपाली 네팔어", lo: "ລາວ 라오스어"};
+    const LGN = {en: "English 영어", zh: "中文 중국어", vi: "Tiếng Việt 베트남어", my: "မြန်မာ 미얀마어", uz: "Oʻzbekcha 우즈베크어", bn: "বাংলা 벵골어", ne: "नेपाली 네팔어", lo: "ລາວ 라오스어"};
     const t = d.totals || {}, KM = window.KO_META, titles = new Map(KM.idx.map(r => [r[0], [r[1], r[4]]])), areaName = new Map(KM.areas.map(a => [a[0], a[1]])), AL = KM.alias || {};
     if (d.areas){ const m = new Map(); for (const [k, v] of d.areas){ const a = AL[k] || k; m.set(a, (m.get(a) || 0) + v); } d.areas = [...m].sort((x, y) => y[1] - x[1]); }
     const tile = (v, en, ko, sub) => el("div", {class: "sttile"}, el("b", null, v), el("span", null, en), el("span", {class: "ko"}, ko), sub ? el("small", null, sub) : null);

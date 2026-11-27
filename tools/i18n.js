@@ -63,7 +63,7 @@ function apply(b, L){
   const c = JSON.parse(JSON.stringify(b));
   walk(c, s => L.S.has(s) ? L.S.get(s) : L.S.has(s.trim()) ? L.S.get(s.trim()) : null);
   /* a table column headed 영어 now holds the student's language (v1.30.7) */
-  const KN = {zh: "중국어", vi: "베트남어", uz: "우즈베크어", my: "미얀마어", ne: "네팔어", lo: "라오스어"}[path.basename(L.dir)];
+  const KN = {zh: "중국어", vi: "베트남어", uz: "우즈베크어", bn: "벵골어", my: "미얀마어", ne: "네팔어", lo: "라오스어"}[path.basename(L.dir)];
   if (KN && c.x && c.x[0]) c.x[0] = c.x[0].map(h => h === "영어" ? KN : h);
   if (c.info){ const v = L.info(c.code); if (v) c.info = v; }
   return c;
@@ -97,7 +97,7 @@ if (require.main === module){
       const en = todo.get(m[1]); if (!en){ bad.push(m[1]); continue; }
       L.S.set(en, m[2].trim()); n++;
     }
-    const head = "# English\t" + ({vi: "Tiếng Việt", zh: "中文", uz: "Oʻzbekcha", my: "Myanmar", ne: "Nepali", lo: "Lao"}[lang] || lang) + " (" + lang + "). Machine-made by Claude: please have a native speaker check it.\n";
+    const head = "# English\t" + ({vi: "Tiếng Việt", zh: "中文", uz: "Oʻzbekcha", bn: "বাংলা", my: "Myanmar", ne: "Nepali", lo: "Lao"}[lang] || lang) + " (" + lang + "). Machine-made by Claude: please have a native speaker check it.\n";
     fs.writeFileSync(tsv, head + [...L.S].map(([e, v]) => e + "\t" + v).join("\n") + "\n");
     console.log("added " + n + (bad.length ? ", unknown numbers " + bad.join(",") : "") + "; strings.tsv has " + L.S.size);
   }

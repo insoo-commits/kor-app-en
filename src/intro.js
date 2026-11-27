@@ -47,6 +47,19 @@ uz:{hello:"Chonju universitetiga xush kelibsiz",h1:"Koreys tilingiz shu yerda, J
   ipad:["Bu sahifani Safarida oching.","Yuqori oʻngdagi ulashish tugmasini {share} bosing.","“Bosh ekranga qoʻshish” ni, keyin “Qoʻshish” ni bosing."],
   chrome:["Chrome yoki Edge’da manzil satrining oʻng chetidagi oʻrnatish belgisini {inst} bosing.","“Oʻrnatish” ni bosing. JeyCampus alohida oynada ochiladi va ish stolida yorliq yaratiladi."],
   safari:["Mac’dagi Safarida “Fayl” menyusini oching.","“Dockka qoʻshish” ni tanlang, keyin “Qoʻshish” ni bosing."]}},
+bn:{hello:"জনজু বিশ্ববিদ্যালয়ে স্বাগতম",h1:"আপনার কোরিয়ান শুরু হয় এখানেই, JeyCampus-এ।",lead:"Jey-এর সঙ্গে কথোপকথন, হাঙ্গুল, ব্যাকরণ, শব্দভান্ডার, শোনা ও TOPIK শিখুন, সঙ্গে বিশ্ববিদ্যালয় জীবন, পার্ট-টাইম কাজ আর জনজুতে যা যা দরকার।",
+ st:["শব্দ","বাক্য","শিক্ষার্থী","ভাষা"],s1:"আপনার ভাষা বেছে নিন",s1n:"কোরিয়ান কোরিয়ানই থাকবে। অর্থ, টিপস ও সাহায্য আপনার ভাষায় দেখানো হবে।",
+ s2:"শোনার ধরন ঠিক করুন",s2n:"পাঠের মধ্যে যেকোনো সময় বদলাতে পারবেন।",pass:"আমার শেখার সেটিংস",rep:"প্রতিটি বাক্য পুনরাবৃত্তি",spd:"গতি",vol:"শব্দের মাত্রা",voice:"অর্থ বাংলায় শুনুন",voiceN:"কোরিয়ান, তারপর আপনার ভাষা, তারপর আবার কোরিয়ান।",
+ theme:"থিম",th:["স্বয়ংক্রিয়","উজ্জ্বল","অন্ধকার"],fz:"লেখার আকার",sample:"হ্যালো। আমি Jey।",listen:"নমুনা শুনুন",start:"শেখা শুরু করুন",how:"কীভাবে কাজ করে",inside:"ভেতরে কী আছে",learn:"কোরিয়ান শেখা",live:"কোরিয়ায় জীবন",
+ mn:{K2:"প্রাথমিক কথোপকথন",K1:"হাঙ্গুল",K6:"ব্যাকরণ",K7:"শব্দভান্ডার",LS:"শোনার অনুশীলন",TP:"TOPIK",K4:"বিশ্ববিদ্যালয় জীবন",K5:"পার্ট-টাইম কাজ",KR:"কোরিয়া পরিচিতি",JB:"জনজু",HP:"সাহায্য"},
+ it:"JeyCampus হোম স্ক্রিনে যোগ করুন",itn:"অ্যাপের মতোই চলে: পুরো স্ক্রিনে খোলে, আর অডিও সংরক্ষণের পর ইন্টারনেট ছাড়াও চলে। কোনো অ্যাপ স্টোর লাগে না।",det:"মনে হচ্ছে আপনি ব্যবহার করছেন:",other:"অন্য ডিভাইস",
+ dlt:"ডাউনলোড",dla:"অ্যাপ ইনস্টল করুন",dlad:"সাধারণ অ্যাপের মতো পুরো স্ক্রিনে খোলে।",inst:"ইনস্টল",seehow:"কীভাবে করবেন দেখুন",dlv:"সব অডিও সংরক্ষণ করুন",dlvd:"কোরিয়ান কণ্ঠ + {L} কণ্ঠ, ইন্টারনেট ছাড়াও চলে। Wi‑Fi ব্যবহার করুন।",save:"সংরক্ষণ",dlp:"শেয়ার করার পোস্টার",dlpd:"বন্ধুদের JeyCampus-এর কথা বলুন।",dl:"ডাউনলোড",
+ qr:"ফোনে খুলুন",qrd:"ফোনের ক্যামেরা দিয়ে স্ক্যান করুন।",copy:"কপি",copied:"ঠিকানা কপি হয়েছে",foot:"জনজু বিশ্ববিদ্যালয়ের সব শিক্ষার্থীর জন্য বিনামূল্যে।",vname:"বাংলা",
+ steps:{ios:["এই পৃষ্ঠাটি Safari-তে খুলুন।","নিচের শেয়ার বোতাম {share} চাপুন।","নিচে স্ক্রল করে “হোম স্ক্রিনে যোগ করুন” চাপুন।","“যোগ করুন” চাপুন। Jey এখন আপনার হোম স্ক্রিনে।"],
+  android:["নিচের “ইনস্টল” চাপুন।","দেখতে পাচ্ছেন না? Chrome-এর {dots} মেনু খুলে “অ্যাপ ইনস্টল করুন” বেছে নিন।","“ইনস্টল” চাপুন, তারপর হোম স্ক্রিন থেকে JeyCampus খুলুন।"],
+  ipad:["এই পৃষ্ঠাটি Safari-তে খুলুন।","উপরে ডানদিকের শেয়ার বোতাম {share} চাপুন।","“হোম স্ক্রিনে যোগ করুন”, তারপর “যোগ করুন” চাপুন।"],
+  chrome:["Chrome বা Edge-এ ঠিকানা বারের ডান প্রান্তের ইনস্টল চিহ্ন {inst} চাপুন।","“ইনস্টল” চাপুন। JeyCampus আলাদা উইন্ডোতে খুলবে এবং ডেস্কটপে শর্টকাট তৈরি হবে।"],
+  safari:["Mac-এর Safari-তে “File” মেনু খুলুন।","“Add to Dock” বেছে নিন, তারপর “Add” চাপুন।"]}},
 vi:{hello:"Chào mừng đến Đại học Jeonju",h1:"Tiếng Hàn của bạn bắt đầu từ đây, tại JeyCampus.",lead:"Học hội thoại, Hangeul, ngữ pháp, từ vựng, luyện nghe và TOPIK cùng Jey, cùng mọi điều cần cho đời sống đại học, việc làm thêm và Jeonju.",
  st:["Từ","Câu","Người học","Ngôn ngữ"],s1:"Chọn ngôn ngữ",s1n:"Tiếng Hàn giữ nguyên. Nghĩa, mẹo và hướng dẫn hiện bằng ngôn ngữ của bạn.",
  s2:"Cài đặt cách nghe",s2n:"Bạn có thể đổi bất cứ lúc nào trong bài học.",pass:"Cài đặt học của tôi",rep:"Lặp lại mỗi câu",spd:"Tốc độ",vol:"Âm lượng",voice:"Nghe nghĩa bằng tiếng Việt",voiceN:"Tiếng Hàn, rồi tiếng của bạn, rồi lại tiếng Hàn.",
@@ -114,7 +127,7 @@ const ICON = {
  pc:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8"/></svg>',
  globe:'<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18"/></svg>'
 };
-const FONTS = {en:"", vi:"", ne:'"Noto Sans Devanagari","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', my:'"Noto Sans Myanmar","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', lo:'"Noto Sans Lao","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', zh:'"Noto Sans SC","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', uz:""};
+const FONTS = {en:"", vi:"", ne:'"Noto Sans Devanagari","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', my:'"Noto Sans Myanmar","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', lo:'"Noto Sans Lao","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', zh:'"Noto Sans SC","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif', uz:"", bn:'"Noto Sans Bengali","Noto Sans","IBM Plex Sans KR",system-ui,sans-serif'};
 
 const LANGS = JC.LANG_LIST.map(([c, n, k]) => [c, n, k, c === "en" || !!JC.LANGS[c]]);   // a language not yet in the app shows as 준비 중
 const NL = LANGS.filter(l => l[3]).length;
@@ -182,7 +195,7 @@ function steps(dev){ const x = t(), k = os[dev] === "atab" ? "android" : os[dev]
 function detectChip(dev){ const x = t(); const name = {phone:{ios:"iPhone · Safari",android:"Android · Chrome"},pad:{ipad:"iPad · Safari",atab:"Android tablet"},pc:{chrome:"PC · Chrome/Edge",safari:"Mac · Safari"}}[dev][os[dev]];
   return `<span class="detect"><i>${dev === "pc" ? ICON.pc : ICON.phone}</i>${esc(x.det)}: <b>${name}</b></span>`; }
 function downloads(dev){ const x = t(), ios = (dev === "phone" && os.phone === "ios") || (dev === "pad" && os.pad === "ipad") || (dev === "pc" && os.pc === "safari");
-  const poster = {en:1, zh:1, vi:1, uz:1, ne:1, my:1, lo:1}[lang] ? lang : "en", hasAudio = !!document.getElementById("dlAll") && !document.getElementById("dlbox").hidden;
+  const poster = {en:1, zh:1, vi:1, uz:1, bn:1, ne:1, my:1, lo:1}[lang] ? lang : "en", hasAudio = !!document.getElementById("dlAll") && !document.getElementById("dlbox").hidden;
   return `<div class="dls">
    <div class="dl"><span class="ic"><img src="icon-192.png" alt=""></span><span class="tx"><b>${esc(x.dla)}</b><small>${esc(x.dlad)}</small></span>${standalone ? '<span class="go y">✓</span>' : `<button type="button" class="go y" data-act="${ios ? "how" : "install"}">${esc(ios ? x.seehow : x.inst)}</button>`}</div>
    ${hasAudio ? `<div class="dl"><span class="ic">${ICON.audio}</span><span class="tx"><b>${esc(x.dlv)}</b><small>${esc(x.dlvd.replace("{L}", x.vname))}</small><small class="dlmsg" data-dlmsg></small></span><button type="button" class="go" data-act="audio">${esc(x.save)}</button></div>` : ""}
@@ -200,7 +213,7 @@ const YT = {en: {id: "8B8TUJqVXKk", len: "3:38", img: "img/help/intro-video.webp
             my: {id: "kp20JsPB_bU", len: "4:38", img: "img/help/intro-video-my.webp", nm: "မြန်မာ"},
             zh: {id: "kG_h5mNh7sY", len: "4:07", img: "img/help/intro-video-zh.webp", nm: "中文"},
             uz: {id: "5x2lFOu_iDk", len: "4:27", img: "img/help/intro-video-uz.webp", nm: "Oʻzbekcha"}};
-const VID = {en:"Watch the intro video", vi:"Xem video giới thiệu", ne:"परिचय भिडियो हेर्नुहोस्", my:"မိတ်ဆက် ဗီဒီယို ကြည့်ရန်", lo:"ເບິ່ງວິດີໂອແນະນຳ", zh:"观看介绍视频", uz:"Tanishtiruv videosini koʻring"};
+const VID = {en:"Watch the intro video", vi:"Xem video giới thiệu", ne:"परिचय भिडियो हेर्नुहोस्", my:"မိတ်ဆက် ဗီဒီယို ကြည့်ရန်", lo:"ເບິ່ງວິດີໂອແນະນຳ", zh:"观看介绍视频", uz:"Tanishtiruv videosini koʻring", bn:"পরিচিতি ভিডিও দেখুন"};
 function video(){ const v = YT[lang] || YT.en; return `<div class="sec vsec"><div class="sh"><div><h2>${esc(VID[lang] || VID.en)} <span class="kosub">소개 영상 · ${v.len}</span></h2></div></div>${ytCard(v)}</div>`; }
 function ytCard(v){ return `<button type="button" class="ytv" data-yt="${v.id}" aria-label="Play video"><img src="${v.img}" alt="JeyCampus intro video" width="960" height="540" loading="lazy"><span class="ytplay" aria-hidden="true"></span><span class="ytlen">${v.len} · ${esc(v.nm)}</span></button>`; }
 function cta(){ return `<button type="button" class="btn pri" data-act="start">${esc(t().start)} ${ICON.arrow}</button>`; }
@@ -297,7 +310,7 @@ function setRate(v){ S.rate = String(v); JC.save(); const e = document.getElemen
    Korean and the meaning (RYU 2026-11-27: the phone's voices ran at different speeds). The meaning voice is the app's language;
    when the intro shows another language (not loaded until Start), the device's voice reads it. */
 const SAMPLE_KO = "웃으면서 인사해요.";
-const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ.", zh: "我笑着打招呼。", uz: "Men jilmayib salom beraman."};
+const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ.", zh: "我笑着打招呼。", uz: "Men jilmayib salom beraman.", bn: "আমি হাসিমুখে শুভেচ্ছা জানাই।"};
 const sampleM = () => SAMPLE_M[lang] || t().sample;
 let playing = false, RUN = 0;   // v1.30.6: each play has its own number, so a stopped play can never wake up and talk over a new one
 function stopSample(){ RUN++; if (playing){ playing = false; try { JC.quiet(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} try { if (SEL){ SEL.onended = SEL.onerror = null; SEL.pause(); } } catch (e) {} sampleBtn(); } }
@@ -308,7 +321,7 @@ let SEL = null;
 function playClip(l){ return new Promise(res => { try { if (!SEL) SEL = new Audio(); let done = false; const end = () => { if (!done){ done = true; res(); } };
   SEL.onended = end; SEL.onerror = () => { if (!done){ done = true; speak(sampleM(), VLS[l]).then(res); } };
   SEL.src = "audio/sample/" + l + ".mp3"; SEL.playbackRate = +rate() || 1; const pr = SEL.play(); if (pr && pr.catch) pr.catch(SEL.onerror); setTimeout(end, 9000); } catch (e) { res(); } }); }
-const VLS = {en:"en-US", vi:"vi-VN", ne:"ne-NP", my:"my-MM", lo:"lo-LA", zh:"zh-CN", uz:"uz-UZ"};
+const VLS = {en:"en-US", vi:"vi-VN", ne:"ne-NP", my:"my-MM", lo:"lo-LA", zh:"zh-CN", uz:"uz-UZ", bn:"bn-BD"};
 async function sample(){
   if (playing){ stopSample(); return; }
   const me = ++RUN, on = () => playing && RUN === me;
