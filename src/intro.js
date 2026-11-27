@@ -189,7 +189,8 @@ const YT = {en: {id: "8B8TUJqVXKk", len: "3:38", img: "img/help/intro-video.webp
             vi: {id: "M_85Mr5DQXk", len: "4:11", img: "img/help/intro-video-vi.webp", nm: "Tiếng Việt"},
             ne: {id: "sFdODN-bG08", len: "4:38", img: "img/help/intro-video-ne.webp", nm: "नेपाली"},
             my: {id: "kp20JsPB_bU", len: "4:38", img: "img/help/intro-video-my.webp", nm: "မြန်မာ"},
-            zh: {id: "kG_h5mNh7sY", len: "4:07", img: "img/help/intro-video-zh.webp", nm: "中文"}};
+            zh: {id: "kG_h5mNh7sY", len: "4:07", img: "img/help/intro-video-zh.webp", nm: "中文"},
+            uz: {id: "5x2lFOu_iDk", len: "4:27", img: "img/help/intro-video-uz.webp", nm: "Oʻzbekcha"}};
 const VID = {en:"Watch the intro video", vi:"Xem video giới thiệu", ne:"परिचय भिडियो हेर्नुहोस्", my:"မိတ်ဆက် ဗီဒီယို ကြည့်ရန်", lo:"ເບິ່ງວິດີໂອແນະນຳ", zh:"观看介绍视频", uz:"Tanishtiruv videosini koʻring"};
 function video(){ const v = YT[lang] || YT.en; return `<div class="sec vsec"><div class="sh"><div><h2>${esc(VID[lang] || VID.en)} <span class="kosub">소개 영상 · ${v.len}</span></h2></div></div>${ytCard(v)}</div>`; }
 function ytCard(v){ return `<button type="button" class="ytv" data-yt="${v.id}" aria-label="Play video"><img src="${v.img}" alt="JeyCampus intro video" width="960" height="540" loading="lazy"><span class="ytplay" aria-hidden="true"></span><span class="ytlen">${v.len} · ${esc(v.nm)}</span></button>`; }
