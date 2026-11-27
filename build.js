@@ -8,7 +8,7 @@ const root = __dirname, src = path.join(root, "src");
 const bundles = process.argv[2] || path.join(root, "data");
 const M = require(path.join(src, "meta.js"));
 const STATS_PUBLIC = /const STATS_PUBLIC = true;/.test(fs.readFileSync(path.join(src, "stats.js"), "utf8"));
-const VER = "2026-11-27 v1.24.4";
+const VER = "2026-11-27 v1.25.4";
 const read = f => fs.readFileSync(path.join(src, f), "utf8");
 fs.mkdirSync(path.join(root, "data"), {recursive: true});
 fs.mkdirSync(path.join(root, "preview"), {recursive: true});
@@ -81,7 +81,7 @@ function tabCss(src){
   while (i < s.length){ const r = block(); out.push(...r); }
   return "\n/* tablet text (generated) */\nhtml.tab{zoom:1}\n" + out.join("\n");
 }
-const css = read("app.css") + tabCss(read("app.css")) + "\n" + read("tab.css") + "\n" + read("skin.css"), body = read("body.html"), clip = read("clip.js"), js = clip + "\n" + read("audiopack.js") + "\n" + read("stats.js") + "\n" + read("app.js");
+const css = read("app.css") + tabCss(read("app.css")) + "\n" + read("tab.css") + "\n" + read("skin.css") + "\n" + read("intro.css"), body = read("body.html"), clip = read("clip.js"), js = clip + "\n" + read("audiopack.js") + "\n" + read("stats.js") + "\n" + read("app.js") + "\n" + read("intro.js");
 
 // audio: audio/list.json = every clip the app can use; audio/index.js = the clips that exist as mp3 in audio/
 const {cleanKo, cleanLo, clipKey} = new Function(clip + "; return {cleanKo, cleanLo, clipKey};")();
@@ -129,6 +129,7 @@ fs.writeFileSync(path.join(root, "index.html"), `<!doctype html>
 <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#005595"><meta name="apple-mobile-web-app-title" content="JeyCampus"><meta name="application-name" content="JeyCampus">
 <link rel="icon" href="icon-192.png" type="image/png"><link rel="apple-touch-icon" href="icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">${fonts}
+<script>/* v1.25.1 (RYU): the old address kor4et.pages.dev moves to jeycampus.pages.dev, taking this device's progress along */(function(){var K="kolearn-en-v1",h=location.hostname;try{if(h==="kor4et.pages.dev"){var d=localStorage.getItem(K)||"";location.replace("https://jeycampus.pages.dev/"+(d?"?jcm="+encodeURIComponent(d):"")+location.hash);return}var m=/[?&]jcm=([^&]*)/.exec(location.search);if(m){if(!localStorage.getItem(K)){var v=JSON.parse(decodeURIComponent(m[1]));delete v.offline;localStorage.setItem(K,JSON.stringify(v))}history.replaceState(null,"",location.pathname+location.hash)}}catch(e){}})()</script>
 <script>(function(){var n=navigator,t=n.maxTouchPoints>0||"ontouchstart" in window;if((/iPad/.test(n.userAgent)||(/Macintosh/.test(n.userAgent)&&t))||(t&&Math.min(screen.width,screen.height)>=700))document.documentElement.classList.add("tab")})()</script>
 <style>body{margin:0}
 ${css}</style></head>
