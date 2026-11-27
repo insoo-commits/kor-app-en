@@ -155,12 +155,19 @@ function downloads(dev){ const x = t(), ios = (dev === "phone" && os.phone === "
   </div>`; }
 function addr(){ return `<div class="addr">${URL_APP}<button type="button" data-act="copy">${esc(t().copy)}</button></div>`; }
 function foot(){ return `<div class="foot"><img src="img/jju/${isDark() ? "logo_ko_d" : "logo_ko_t"}.png" alt="전주대학교 Jeonju University"><div>${esc(t().foot)}</div><div>${URL_APP} · ${esc(JC.ver)}</div></div>`; }
+/* v1.27 (RYU 2026-11-27): the JeyCampus intro video on YouTube. A picture with a play button until it is tapped, so YouTube
+   loads only then; the same card sits at the top of 도움말 > 이 앱은 (data/HP.json and each language folder HP.json, class ytv). */
+const YT_ID = "8B8TUJqVXKk";
+const VID = {en:"Watch the intro video", vi:"Xem video giới thiệu", ne:"परिचय भिडियो हेर्नुहोस्", my:"မိတ်ဆက် ဗီဒီယို ကြည့်ရန်", lo:"ເບິ່ງວິດີໂອແນະນຳ"};
+function video(){ return `<div class="sec vsec"><div class="sh"><div><h2>${esc(VID[lang] || VID.en)} <span class="kosub">소개 영상 · 3:38</span></h2></div></div>${ytCard()}</div>`; }
+function ytCard(){ return `<button type="button" class="ytv" data-yt="${YT_ID}" aria-label="Play video"><img src="img/help/intro-video.webp" alt="JeyCampus intro video" width="960" height="540" loading="lazy"><span class="ytplay" aria-hidden="true"></span><span class="ytlen">3:38 · English</span></button>`; }
 function cta(){ return `<button type="button" class="btn pri" data-act="start">${esc(t().start)} ${ICON.arrow}</button>`; }
 
 function phone(){ const x = t(); return `
  <div class="hero"><img class="bg" src="img/jb/jju_blossom_jey.jpg" alt="">
   <div class="top">${brand()}${langPill()}</div>
   <div class="copy">${heroCopy()}</div></div>
+ ${video()}
  <div class="sec">${step(1, "s1", "s1n")}${langChips("lchips")}</div>
  <div class="sec">${step(2, "s2")}${pass(false)}</div>
  <div class="sec"><div class="sh"><div><h2>${esc(x.inside)} <span class="kosub">${KO.inside}</span></h2></div></div>${menus()}</div>
@@ -180,6 +187,7 @@ function pad(){ const x = t(); return `
   </div>
   <div class="ctarow" style="margin-top:-8px"><button type="button" class="btn sec" data-act="how">${esc(x.how)}</button>${cta()}</div>
   <div style="display:grid;gap:12px"><h2 style="font-size:1.25em">${esc(x.inside)} <span class="kosub">${KO.inside}</span></h2>${menus()}</div>
+  ${video()}
  </div>
  <div class="inst"><img class="bg" src="img/jb/jju_stargarden_night.jpg" alt="">
   <div style="display:grid;gap:14px;align-content:start">${detectChip("pad")}<h2 style="font-size:1.4em">${esc(x.it)}</h2><p style="margin:0;opacity:.85;font-size:.9em">${esc(x.itn)}</p>${osTabs("pad")}${steps("pad")}</div>
@@ -197,6 +205,7 @@ function pc(){ const x = t(); return `
   <div style="display:grid;gap:12px;align-content:start"><div class="eyebrow">JeyCampus</div><h2>${esc(x.inside)}</h2><span class="kosub">${KO.inside}</span><p style="margin:0;color:var(--mm);font-size:.92em">${esc(x.s1n)}</p></div>
   <div>${menus()}<div class="gal"><img src="img/jb/jju_starcenter_wide.jpg" alt="스타센터"><img src="img/jb/jju_library.jpg" alt="도서관"><img src="img/jb/jju_spring.jpg" alt="봄 캠퍼스"></div></div>
  </div>
+ <div class="band vband">${video()}</div>
  <div class="inst"><img class="bg" src="img/jb/jju_stargarden_night.jpg" alt="">
   <div style="display:grid;gap:14px;align-content:start">${detectChip("pc")}<h2 style="font-size:1.5em">${esc(x.it)}</h2><p style="margin:0;opacity:.85;font-size:.92em">${esc(x.itn)}</p>${osTabs("pc")}${steps("pc")}</div>
   <div style="display:grid;gap:12px;align-content:start;justify-items:start"><h3 style="font-size:1em">${esc(x.qr)}</h3><div class="qrbox"><img src="img/jju/qr.png" alt="QR ${URL_APP}"></div><p style="margin:0;opacity:.85;font-size:.85em">${esc(x.qrd)}</p>${addr()}</div>
@@ -288,6 +297,16 @@ document.addEventListener("click", ev => {
 document.addEventListener("input", ev => { if (box && ev.target.matches("#intro [data-rate]")){ const v = (+ev.target.value).toFixed(1).replace(/\.0$/, ""); setRate(v); const o = ev.target.parentNode.querySelector("output"); if (o) o.textContent = "×" + (+v).toFixed(1); } });
 document.addEventListener("change", ev => { if (box && ev.target.matches("#intro [data-rate]")) render(); });
 document.addEventListener("keydown", ev => { if (box && ev.key === "Escape"){ if (lmenu){ lmenu = false; render(); } else close(); } }, true);
+
+/* the video card (intro and 도움말): the picture turns into the YouTube player in place */
+document.addEventListener("click", ev => {
+  const b = ev.target.closest && ev.target.closest(".ytv[data-yt]"); if (!b) return;
+  ev.preventDefault(); stopSample(); try { JC.quiet(); } catch (e) {}
+  const f = document.createElement("iframe");
+  f.src = "https://www.youtube-nocookie.com/embed/" + b.dataset.yt + "?autoplay=1&rel=0&playsinline=1";
+  f.title = "JeyCampus intro video"; f.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen"; f.allowFullscreen = true;
+  const w = document.createElement("div"); w.className = "ytv on"; w.appendChild(f); b.replaceWith(w);
+}, true);
 
 /* a way back: a button under the theme row */
 { const pf = document.getElementById("prefs"); if (pf){ const p = document.createElement("p"); p.className = "langline";
