@@ -5,7 +5,7 @@
 "use strict";
 const JC = window.JC; if (!JC) return;
 const S = JC.S, URL_APP = "jeycampus.pages.dev";
-const MENUS = [["K2","안녕","기초회화"],["K1","가나","한글"],["K6","은는","문법"],["K7","단어","어휘"],["LS","듣기","듣기연습"],["TP","TOPIK","TOPIK"],["K4","학교","대학 생활"],["K5","알바","아르바이트"],["KR","한국","대한민국"],["JB","전주","전주"],["HP","?","도움말"]];
+const MENUS = [["K2","안녕","기초회화"],["K1","가나","한글발음"],["K6","은는","문장규칙"],["K7","단어","단어공부"],["LS","듣기","듣기연습"],["TP","TOPIK","TOPIK"],["K4","학교","대학 생활"],["K5","알바","아르바이트"],["KR","한국","대한민국"],["JB","전주","전주생활"],["HP","?","도움말"]];
 const LEARN = 6;
 const T = {
 en:{hello:"Welcome to Jeonju University",h1:"Your Korean starts here, on campus.",lead:"Learn conversation, Hangeul, grammar, vocabulary, listening and TOPIK with Jey, plus everything you need for university life, part-time jobs and Jeonju.",
