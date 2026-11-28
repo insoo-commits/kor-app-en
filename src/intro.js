@@ -311,7 +311,7 @@ function setRate(v){ S.rate = String(v); JC.save(); const e = document.getElemen
    Korean and the meaning (RYU 2026-11-27: the phone's voices ran at different speeds). The meaning voice is the app's language;
    when the intro shows another language (not loaded until Start), the device's voice reads it. */
 const SAMPLE_KO = "웃으면서 인사해요.";
-const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ.", zh: "我笑着打招呼。", uz: "Men jilmayib salom beraman.", bn: "আমি হাসিমুখে শুভেচ্ছা জানাই।"};
+const SAMPLE_M = {en: "I say hello with a smile.", vi: "Tôi mỉm cười chào.", ne: "म मुस्कुराउँदै अभिवादन गर्छु।", my: "ပြုံးပြီး နှုတ်ဆက်ပါတယ်။", lo: "ທັກທາຍດ້ວຍຮອຍຍິ້ມ.", zh: "我笑着打招呼。", uz: "Men jilmayib salom beraman.", bn: "আমি হাসিমুখে সালাম দিই।"};
 const sampleM = () => SAMPLE_M[lang] || t().sample;
 let playing = false, RUN = 0;   // v1.30.6: each play has its own number, so a stopped play can never wake up and talk over a new one
 function stopSample(){ RUN++; if (playing){ playing = false; try { JC.quiet(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} try { if (SEL){ SEL.onended = SEL.onerror = null; SEL.pause(); } } catch (e) {} sampleBtn(); } }
