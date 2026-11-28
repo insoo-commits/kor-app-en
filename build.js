@@ -8,7 +8,7 @@ const root = __dirname, src = path.join(root, "src");
 const bundles = process.argv[2] || path.join(root, "data");
 const M = require(path.join(src, "meta.js"));
 const STATS_PUBLIC = /^\s*statsPublic: true,/m.test(fs.readFileSync(path.join(src, "app-config.js"), "utf8"));   // core stats (2026-11-28): the switch is in app-config.js
-const VER = "2026-11-28 v1.33.24";
+const VER = "2026-11-28 v1.33.25";
 const read = f => fs.readFileSync(path.join(src, f), "utf8");
 fs.mkdirSync(path.join(root, "data"), {recursive: true});
 fs.mkdirSync(path.join(root, "preview"), {recursive: true});
