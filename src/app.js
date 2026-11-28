@@ -47,7 +47,7 @@ function save(){ try { localStorage.setItem(LS, JSON.stringify(S)); } catch (e) 
 /* explanation language (v1.20, RYU 2026-11-25): Korean stays Korean; meanings, tips, help and buttons in English or Tiếng Việt.
    Translations: src/i18n/<lang>/ (tools/i18n.js); the data of a language is data/<lang>/<area>.json; its audio packs audio/p/<lang>/ */
 const LANGS = META.langs || {}, LG = LANGS[S.lang] ? S.lang : "en", LX = LANGS[LG] || null;
-const LANG_LIST = [["en", "English", "영어"], ["zh", "中文", "중국어"], ["vi", "Tiếng Việt", "베트남어"], ["uz", "Oʻzbekcha", "우즈베크어"], ["my", "မြန်မာ", "미얀마어"], ["ne", "नेपाली", "네팔어"], ["lo", "ພາສາລາວ", "라오스어"]];
+const LANG_LIST = [["en", "English", "영어"], ["zh", "中文", "중국어"], ["vi", "Tiếng Việt", "베트남어"], ["my", "မြန်မာ", "미얀마어"], ["uz", "Oʻzbekcha", "우즈베크어"], ["bn", "বাংলা", "벵골어"], ["ne", "नेपाली", "네팔어"], ["lo", "ພາສາລາວ", "라오스어"]];
 document.documentElement.lang = LG;
 if (LX) IDX.forEach(r => { const t = LX.t[r[0]]; if (t) r[4] = t; });
 

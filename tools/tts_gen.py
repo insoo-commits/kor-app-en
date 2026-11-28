@@ -6,7 +6,7 @@
   python3 tools/tts_gen.py      # makes only the clips that are missing; safe to stop and run again
   node build.js                 # registers the new clips in audio/index.js
 
-Options:  --lang ko|en|vi|ne|my|lo|zh|uz   only one language      --limit N   stop after N clips      --jobs N   parallel requests (default 4)
+Options:  --lang ko|en|vi|ne|my|lo|zh|uz|bn  only one language      --limit N   stop after N clips      --jobs N   parallel requests (default 4)
 Voices: Korean ko-KR-SunHiNeural, English en-US-AvaNeural. Output: 24 kbps mono mp3 (RYU's choice in the Lao app).
 Needs network access to speech.platform.bing.com. Behind a proxy, HTTPS_PROXY is used automatically.
 """
@@ -19,8 +19,8 @@ if os.path.exists("/root/.ccr/ca-bundle.crt"):   # cloud session proxy: edge-tts
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AUDIO = os.path.join(ROOT, "audio")
-VOICE = {"ko": "ko-KR-SunHiNeural", "en": "en-US-AvaNeural", "km": "ko-KR-InJoonNeural", "vi": "vi-VN-HoaiMyNeural", "ne": "ne-NP-HemkalaNeural", "my": "my-MM-NilarNeural", "lo": "lo-LA-KeomanyNeural", "zh": "zh-CN-XiaoxiaoNeural", "uz": "uz-UZ-MadinaNeural"}   # km: 남자 lines of TOPIK listening questions
-BITRATE = {"ko": "16k", "en": "16k", "km": "16k", "vi": "16k", "ne": "16k", "my": "16k", "lo": "16k", "zh": "16k", "uz": "16k"}   # both 16k (RYU 2026-11-16; 8k sounded bad)
+VOICE = {"ko": "ko-KR-SunHiNeural", "en": "en-US-AvaNeural", "km": "ko-KR-InJoonNeural", "vi": "vi-VN-HoaiMyNeural", "ne": "ne-NP-HemkalaNeural", "my": "my-MM-NilarNeural", "lo": "lo-LA-KeomanyNeural", "zh": "zh-CN-XiaoxiaoNeural", "bn": "bn-BD-NabanitaNeural", "uz": "uz-UZ-MadinaNeural"}   # km: 남자 lines of TOPIK listening questions
+BITRATE = {"ko": "16k", "en": "16k", "km": "16k", "vi": "16k", "ne": "16k", "my": "16k", "lo": "16k", "zh": "16k", "uz": "16k", "bn": "16k"}   # both 16k (RYU 2026-11-16; 8k sounded bad)
 VOWEL = dict(zip("ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ", "아애야얘어에여예오와왜외요우워웨위유으의이"))
 
 
@@ -73,7 +73,7 @@ async def make(clip, sem, proxy, failed):
 
 async def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--lang", choices=["ko", "en", "km", "vi", "ne", "my", "lo", "zh", "uz"])
+    ap.add_argument("--lang", choices=["ko", "en", "km", "vi", "ne", "my", "lo", "zh", "uz", "bn"])
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--jobs", type=int, default=4)
     ap.add_argument("--all", action="store_true", help="also voice meanings with no letters of their language (kimchi, TOPIK, 1:30): all 7 languages are complete, so these are real meanings, not English fallback")
@@ -86,6 +86,7 @@ async def main():
     todo = [c for c in todo if c["lang"] != "my" or re.search("[\u1000-\u109F]", c["text"])]
     todo = [c for c in todo if c["lang"] != "lo" or re.search("[\u0E80-\u0EFF]", c["text"])]
     todo = [c for c in todo if c["lang"] != "zh" or re.search("[\u4e00-\u9fff]", c["text"])]
+    todo = [c for c in todo if c["lang"] != "bn" or re.search("[\u0980-\u09FF]", c["text"])]
     # Uzbek is Latin script too: skip text that is the same as an English clip (English fallback)
     en_txt = {c["text"] for c in clips if c["lang"] == "en"}
     todo = [c for c in todo if c["lang"] != "uz" or c["text"] not in en_txt]
