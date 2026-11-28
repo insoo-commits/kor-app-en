@@ -17,7 +17,7 @@ window.APPCFG = {
       tLessons: "Lessons opened", tPer: "Lessons per learner", tQuiz: "Quizzes finished", tQuizAvg: "Quiz average", tTopik: "TOPIK sets", tPlays: "Audio plays",
       tSpeak: "Sentences spoken", avg: "average", daily: "Every day", monthly: "Every month", cLearners: "learners", cLessons: "lessons opened", top: "Most opened lessons",
       areas: "By area", devices: "Devices", os: "Systems", langs: "Explanation language", survey: "Satisfaction", sAnswers: "Answers", sAvg: "Average", sRec: "Would recommend",
-      quizHist: "Quiz scores", hours: "Time of day (Korea)", updated: "Updated", since: "counting since", totals: "Totals only: no names and no single person's results.",
+      quizHist: "Quiz scores", hours: "Time of day (Korea)", updated: "Updated", since: "counting since", dwell: "Since 2026-11-28 a lesson counts only after 10 seconds on screen, so numbers are lower than before.", totals: "Totals only: no names and no single person's results.",
       loading: "Loading statistics…", loadFail: "The statistics could not be loaded. Please try again with the internet on.",
       thanks: "Thank you for your answer!", stars: "Stars", nStars: "stars", yes: "Yes", maybe: "Maybe", no: "No", wish: "Anything to make the app better? (optional)",
       qMenu: "Which menu helped you most?", qRec: "Would you recommend JeyCampus to a friend?", send: "Send", later: "Later", how: "How do you like JeyCampus?", howKo: "제이캠퍼스 어때요?" }
