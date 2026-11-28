@@ -37,17 +37,12 @@ html.tab .stick{-webkit-backdrop-filter:none!important;backdrop-filter:none!impo
 body::before{content:"";position:fixed;left:0;right:0;top:0;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:24;pointer-events:none}
 html.introon body::before{background:var(--intro-deep,#000);z-index:2147483000}
 
-/* Layout: same key-tag system as the Lao app. Each area owns a color; sub-groups are key tags; one calm sheet below. */
-:root{
-  --bg:#F3F4F2; --sheet:#FFFFFF; --ink:#1A201F; --muted:#5E6866; --line:#DDE2E0; --raise:#F7F8F7;
-  --k1:#1F5F8F; --k1-soft:#E3EEF7; --k2:#3B7650; --k2-soft:#E4F1E8; --k3:#A23B57; --k3-soft:#F8E6EB;
-  --k4:#B0531C; --k4-soft:#F9E9DF; --k5:#966511; --k5-soft:#F6EEDC; --k6:#6A4C9C; --k6-soft:#EEE8F6;
-  --k7:#1D7377; --k7-soft:#DFF1F1; --k8:#4A5FA8; --k8-soft:#E6EAF7; --k9:#7A5B3A; --k9-soft:#F1E9E0;
-  --accent:var(--k1); --accent-soft:var(--k1-soft); --good:#1E7F4F; --good-soft:#E1F3E9; --bad:#B33A3A; --bad-soft:#FBE8E8;
-  --display:"Space Grotesk","IBM Plex Sans KR",system-ui,sans-serif;
-  --ko:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;
-  --lao:"Noto Sans","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans Lao","Noto Sans Bengali","Noto Sans SC","IBM Plex Sans KR",system-ui,sans-serif;   /* English text (variable name kept from the Lao app) */
-}
+/* core look v1.0 (from kor-app; copy, do not edit here). Shared by PhasaKAO and JeyCampus (not PhasaLAO: its screens are built differently).
+   Edit only this master, raise the version, then run  node tools/core-copy.js  to copy it to the other apps.
+   The look of the lesson screens that both apps share rule for rule (word cards, sentence lines, dialogues, quizzes, player, info pages …),
+   taken out of each app's src/app.css on 2026-11-28 (RYU: "메인 콘텐츠에서도 동일한 유형으로 보여주는 방법 등은 공통으로").
+   build.js puts it right before the app's own src/app.css, which keeps only what differs (colours in :root, rules only one app has),
+   and makes the iPad text sizes (html.tab) from both together. */
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#111514; --sheet:#191E1D; --ink:#E8EDEB; --muted:#9BA7A4; --line:#2C3533; --raise:#202725;
   --k1:#78B4E6; --k1-soft:#1C2E3E; --k2:#7CC795; --k2-soft:#1C3024; --k3:#EE8AA5; --k3-soft:#3A1E27;
@@ -172,7 +167,6 @@ h1{font-family:var(--display);font-size:clamp(30px,7vw,48px);line-height:1.1;mar
 .line.now,.letter.now{background:var(--accent-soft)}
 .rowbtns.now .spk,.now>.spk{border-color:var(--accent);background:var(--accent-soft)}
 .rows{border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.letters{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
 .letter{border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:start;text-align:left;background:var(--sheet);color:var(--ink);font:inherit;cursor:pointer}
 .letter .lt{display:grid;gap:2px}
 .letter b{font-size:34px;line-height:1.1;font-weight:600;color:var(--accent)}
@@ -821,11 +815,6 @@ html{overflow-y:scroll}   /* PC: scrollbar always shown so the page does not jum
 .info .sub2{color:var(--muted);font-size:14.5px;margin-bottom:14px}
 .info figure{margin:0 0 14px;text-align:center}
 .info figure img{display:block;width:100%;max-width:420px;height:auto;margin:0 auto;border-radius:8px;box-shadow:0 1px 6px rgba(0,0,0,.18);background:var(--line)}
-/* app screenshots in 도움말 (RYU 2026-11-25, v1.2): phone shots at phone size, a thin frame; three in a row when there is room */
-.info figure.shot img{max-width:340px;border:1px solid var(--line);box-shadow:0 1px 4px rgba(0,0,0,.12)}
-.info figure.shot figcaption{font-size:13px;color:var(--muted,#667);margin-top:4px}
-.info .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;align-items:start;margin-bottom:14px}
-.info .shots figure{margin:0}
 .info figcaption{font-size:13px;color:var(--muted);margin-top:6px;line-height:1.5}
 .info figcaption small{display:block;font-size:11px;opacity:.85}
 .info .facts{width:100%;border-collapse:collapse;margin:2px 0 14px;font-size:14.5px}
@@ -1071,6 +1060,123 @@ html.tab .kbinfo>span{display:inline-flex}
 .stdn{fill:none;stroke-width:26} .stdc{fill:var(--ink);font:700 30px var(--display)}
 .stdl{list-style:none;margin:0;padding:0;font-size:13px;display:flex;flex-direction:column;gap:6px} .stdl .sw{margin:0 6px 0 0}
 .stnote{grid-column:1/-1;font-size:12px;color:var(--muted);margin:2px 0 0}
+/* satisfaction survey (like KoJey, v2.68) */
+.svbox:empty{display:none}.svhead .svq{margin:0}
+.svstars{display:flex;gap:4px;margin:6px 0 2px}
+.svchips{display:flex;flex-wrap:wrap;gap:6px}
+.svchip{border:1px solid var(--line);background:var(--sheet,#fff);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:14px;cursor:pointer}
+.svtext{width:100%;box-sizing:border-box;margin-top:10px;border:1px solid var(--line);border-radius:12px;padding:8px 10px;font:inherit;font-size:14px;background:var(--sheet,#fff);color:var(--ink)}
+.svbtns{display:flex;justify-content:flex-end;margin-top:8px}
+.svx{position:absolute;right:8px;top:6px;border:0;background:none;font-size:22px;color:var(--muted);cursor:pointer}
+.svdone p{margin:0}
+.ver .cl{display:inline-block;transform:scaleX(-1)}
+@media (max-width:600px){#ver{font-size:11.5px;white-space:nowrap;letter-spacing:-.1px}}   /* copyleft line on one line on phones (v2.69) */
+/* TOPIK question design, random practice, picture choices (as KoJey, v2.70) */
+.tprrow{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0;align-items:center}
+.tprrow .seg{border:1px solid var(--line);background:var(--sheet);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:13.5px;cursor:pointer}
+.tprrow .seg.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.tprrow .seg:disabled{opacity:.45;cursor:default}
+.tprrow .btn{margin-left:auto}
+.tprinfo{font-size:13px;color:var(--muted);margin:4px 0 10px}
+.tq h3 .tqnew{float:right;font-size:13px;padding:4px 12px}
+.tprrow .seg .ko{margin-left:4px}
+.tqd{display:flex;align-items:flex-start;gap:6px;margin-bottom:10px;width:100%;align-self:stretch;box-sizing:border-box}
+.tqd .tqn{flex:none}
+.tqd .tqdt{flex:1;min-width:0}
+.tqd .tqdl{font-weight:400;margin:2px 0 0}
+.tqd .tqplay{flex:none;min-width:7.7em;justify-content:center;margin-left:6px}
+.tqi{--ind:26px}
+.tqd .tqn{width:var(--ind);flex:none}
+.tqd{gap:0}
+.tqi > :not(.tqd){margin-left:var(--ind)}
+.tqq{display:flex;align-items:flex-start}
+.tqq .tqn{width:2.1em;flex:none}
+.tqsub > :not(.tqq){margin-left:2.1em}
+.tqo .choice{padding:7px 12px}
+@media (max-width:600px){.tqi{--ind:23px}.tqq .tqn{width:1.9em}.tqsub > :not(.tqq){margin-left:1.9em}}
+.tq h3{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.tq h3 .tqnew{float:none;margin-left:auto}
+@media (max-width:600px){.tqd{flex-wrap:wrap}.tqd .tqdt{flex:1 1 calc(100% - var(--ind))}.tqd .tqplay{margin:8px 0 0 var(--ind)}}   /* phone: listen button under the direction, at the text start (RYU v1.18.3) */
+.tqi{--ind2:34px}
+.tqq .tqn{width:var(--ind2)}
+.tqsub > :not(.tqq){margin-left:var(--ind2)}
+.tqi > .tqo{margin-left:calc(var(--ind) - 13px)}
+.tqsub > .tqo{margin-left:calc(var(--ind2) - 13px)}
+@media (max-width:600px){.tqi{--ind2:30px}.tqq .tqn{width:var(--ind2)}.tqsub > :not(.tqq){margin-left:var(--ind2)}.tqi > .tqo{margin-left:calc(var(--ind) - 13px)}.tqsub > .tqo{margin-left:calc(var(--ind2) - 13px)}}
+@media (max-width:600px){.tqd .tqplay{margin:6px 0 0 auto}}   /* phone: own row, right side for the right thumb (RYU v1.18.5) */
+.info .ib-t .terms div{padding:3px 0 3px 16px}
+.tqi:has(> .tqp .notice) > .tqo,.tqi:has(> .tqp .pics) > .tqo{margin-left:var(--ind)}   /* v1.18.9 (RYU): with a boxed text or pictures, the choice boxes line up with that box */
+.tqo.picgrid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.tqo .choice.picch{text-align:center;padding:8px 6px;display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0}
+.picch .pic span{display:block;font-size:30px;line-height:1.25;letter-spacing:1px;overflow-wrap:anywhere;word-break:break-all}
+.picch .pic span.tx{font-size:15px;letter-spacing:0;word-break:keep-all}
+.picch .pic small{display:block;font-size:12.5px;color:var(--muted);line-height:1.35;margin-top:2px}
+.pics>div{min-width:0}.pics span{overflow-wrap:anywhere;word-break:break-all}
+@media (max-width:600px){.tqo.picgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.picch .pic span{font-size:26px}.pics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.tqi > .tqo.picgrid{margin-left:var(--ind)}
+.picch .pic i.em{display:block;font-style:normal;font-size:26px;line-height:1.2}
+.picch .pic span.tx.kt{font-size:15.5px;font-weight:700;line-height:1.4;color:var(--ink)}
+@media (max-width:600px){.picch .pic i.em{font-size:22px}.picch .pic span.tx.kt{font-size:14.5px}}
+.info .ib-j{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+.info .ib-j>h3{background:var(--accent-soft)}
+.tq>h3{font-size:17.5px;padding:8px 12px;border-left:0;border-radius:12px;background:var(--accent-soft);color:var(--accent)}
+.tq>h3 .ko{color:var(--ink)}
+.tqi{background:var(--raise);background:color-mix(in srgb,var(--accent-soft) 55%,var(--sheet));border:1px solid color-mix(in srgb,var(--accent) 22%,var(--line));border-radius:16px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 4px 14px rgba(0,0,0,.04);padding:16px 18px}
+.tqi{--ind:34px}
+.tqd .tqn{width:26px;height:26px;margin-right:8px;border-radius:50%;background:var(--accent);color:var(--sheet);display:inline-flex;align-items:center;justify-content:center;font-size:14px;line-height:1;margin-top:1px}
+.tqd .tqdt>.ko{font-size:17px}
+.tqp{background:var(--sheet);border:1px solid var(--line);border-radius:12px;padding:10px 14px}
+.tqp:has(> .pics){background:none;border:0;padding:0}
+.tqp .notice{background:var(--sheet)}
+.tqsd{background:var(--sheet);border-style:solid}
+.tqsub{border-top:1px dashed color-mix(in srgb,var(--accent) 30%,var(--line))}
+.tqo .choice{background:var(--sheet);box-shadow:0 1px 2px rgba(0,0,0,.05);transition:border-color .15s,transform .15s,box-shadow .15s}
+.tqo .choice:not(:disabled):hover{transform:translateY(-1px);box-shadow:0 3px 10px rgba(0,0,0,.08)}
+.tqo .choice.right{background:var(--good-soft)} .tqo .choice.wrong{background:var(--bad-soft)}
+.tqx{background:var(--sheet);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px}
+.tqx .res{font-size:16px}
+.tqsc{display:table;margin:6px auto 12px;padding:8px 20px;border-radius:999px;background:var(--accent-soft)}
+.tqd .tqplay{background:var(--sheet)}
+@media (max-width:600px){.tqi{padding:14px 12px;--ind:31px}.tqd .tqn{width:24px;height:24px;margin-right:7px;font-size:13px}}
+.info .two{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 14px}.info .two>div>.ib{margin:0;height:100%}
+.info .ib .terms{margin:4px 0 10px}
+.tqi:has(> .tqp) > .tqo{margin-left:var(--ind)}
+.tqsub:has(> .tqp) > .tqo{margin-left:var(--ind2)}
+
+/* ☆ 단어 담기 on word cards and the 오답 노트 list, as PhasaLAO (RYU 2026-11-28, v2.99) */
+.wcard .star{position:absolute;right:6px;bottom:6px;border:0;background:none;font-size:22px;line-height:1;color:#c9a227;cursor:pointer;padding:4px;z-index:1}
+.wcard .star:not(.on){color:var(--muted);opacity:.6}
+@media (max-width:560px){ .wcard .star{right:3px;bottom:3px;font-size:20px} }
+.wbook{margin:0 0 12px;border:1px solid var(--line);border-radius:14px;background:var(--sheet);padding:2px 12px}
+.wbook summary{cursor:pointer;font-weight:700;padding:9px 0;color:#B45309}
+.wbook ul{list-style:none;margin:0;padding:0;max-height:340px;overflow:auto}
+.wbook li{display:flex;align-items:baseline;gap:8px;padding:6px 0;border-top:1px solid var(--line);font-size:14px}
+.wbook li .wk{font-size:17px;font-weight:600}
+.wbook li .r{color:var(--accent);font-size:13px}
+.wbook li .m{flex:1;min-width:0}
+.wbook li .src{color:#B45309;font-size:12px;white-space:nowrap}
+.wbook .wbgo,.wbook .wbdel{border:1px solid var(--line);background:none;border-radius:999px;font:inherit;font-size:11.5px;padding:2px 8px;color:var(--muted);cursor:pointer;white-space:nowrap}
+.wbook .wbdel{padding:2px 7px}
+.wbhint{font-size:12px;color:var(--muted);margin:6px 0 10px}
+@media (max-width:600px){ .wbook li{flex-wrap:wrap;row-gap:2px} .wbook li .m{flex-basis:100%;order:5} }
+
+/* JeyCampus's own lesson-screen CSS. Rules shared with PhasaKAO are in src/core/look.css (copied from kor-app, comes right before this file). */
+/* Layout: same key-tag system as the Lao app. Each area owns a color; sub-groups are key tags; one calm sheet below. */
+:root{
+  --bg:#F3F4F2; --sheet:#FFFFFF; --ink:#1A201F; --muted:#5E6866; --line:#DDE2E0; --raise:#F7F8F7;
+  --k1:#1F5F8F; --k1-soft:#E3EEF7; --k2:#3B7650; --k2-soft:#E4F1E8; --k3:#A23B57; --k3-soft:#F8E6EB;
+  --k4:#B0531C; --k4-soft:#F9E9DF; --k5:#966511; --k5-soft:#F6EEDC; --k6:#6A4C9C; --k6-soft:#EEE8F6;
+  --k7:#1D7377; --k7-soft:#DFF1F1; --k8:#4A5FA8; --k8-soft:#E6EAF7; --k9:#7A5B3A; --k9-soft:#F1E9E0;
+  --accent:var(--k1); --accent-soft:var(--k1-soft); --good:#1E7F4F; --good-soft:#E1F3E9; --bad:#B33A3A; --bad-soft:#FBE8E8;
+  --display:"Space Grotesk","IBM Plex Sans KR",system-ui,sans-serif;
+  --ko:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;
+  --lao:"Noto Sans","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans Lao","Noto Sans Bengali","Noto Sans SC","IBM Plex Sans KR",system-ui,sans-serif;   /* English text (variable name kept from the Lao app) */
+}
+.letters{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+/* app screenshots in 도움말 (RYU 2026-11-25, v1.2): phone shots at phone size, a thin frame; three in a row when there is room */
+.info figure.shot img{max-width:340px;border:1px solid var(--line);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.info figure.shot figcaption{font-size:13px;color:var(--muted,#667);margin-top:4px}
+.info .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;align-items:start;margin-bottom:14px}
+.info .shots figure{margin:0}
 /* ---------- 내 학습 card (v1.4) ---------- */
 .mine{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:10px 4px 0}
 .mine:empty{display:none}
@@ -1140,20 +1246,12 @@ figure.jeyfig img{background:#fff}
 /* · between menus inside one section, | between sections (RYU 2026-11-25, v1.9) */
 #app #groups .group+.group:not(.msep)::before,#app #stickG .group+.group:not(.msep)::before{content:"·"!important;display:block!important;position:absolute;left:-3px;top:50%;transform:translate(-50%,-52%);color:var(--muted);opacity:.6;font-weight:700;background:none;width:auto;height:auto}
 #app #groups .group[aria-pressed="true"]+.group::before,#app #groups .group+.group[aria-pressed="true"]:not(.msep)::before,#app #stickG .group[aria-pressed="true"]+.group::before,#app #stickG .group+.group[aria-pressed="true"]:not(.msep)::before{opacity:0!important}
-/* satisfaction survey (v1.11) */
-.svbox:empty{display:none}
 .svcard{position:relative;margin:10px 0 4px;padding:14px 16px;border-radius:16px;background:var(--sheet);color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow,0 1px 2px rgba(0,40,90,.06))}
 .svhead{display:flex;align-items:center;gap:10px}.svhead .svjey{height:54px;width:auto}
-.svq{margin:10px 0 6px;font-size:15px;color:var(--ink)}.svq .ko{color:var(--muted)}.svhead .svq{margin:0}
-.svstars{display:flex;gap:4px;margin:6px 0 2px}
+.svq{margin:10px 0 6px;font-size:15px;color:var(--ink)}.svq .ko{color:var(--muted)}
 .svstar{font-size:30px;line-height:1;background:none;border:0;color:color-mix(in srgb,var(--muted) 45%,var(--sheet));cursor:pointer;padding:2px 3px}.svstar.on{color:#FFC20E}
-.svchips{display:flex;flex-wrap:wrap;gap:6px}
-.svchip{border:1px solid var(--line);background:var(--sheet,#fff);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:14px;cursor:pointer}
 .svchip.on{background:var(--a1,#005595);border-color:transparent;color:#fff}
-.svtext{width:100%;box-sizing:border-box;margin-top:10px;border:1px solid var(--line);border-radius:12px;padding:8px 10px;font:inherit;font-size:14px;background:var(--sheet,#fff);color:var(--ink)}
-.svbtns{display:flex;justify-content:flex-end;margin-top:8px}
-.svx{position:absolute;right:8px;top:6px;border:0;background:none;font-size:22px;color:var(--muted);cursor:pointer}
-.svdone{display:flex;align-items:center;gap:12px}.svdone .svjey{height:70px;width:auto}.svdone p{margin:0}
+.svdone{display:flex;align-items:center;gap:12px}.svdone .svjey{height:70px;width:auto}
 /* mistake notebook (v1.12) */
 .mn-wb{grid-column:1/-1;display:flex;flex-direction:row;align-items:center;gap:8px;text-align:left;cursor:pointer;font:inherit;color:var(--ink);background:#FFF4E5;border-color:transparent}
 .mn-wb small{display:inline;flex:none;color:#B45309;font-weight:600}.mn-wb > span{flex:1;font-size:14px;font-weight:600}.mn-wb i{font-style:normal;font-weight:700;color:#B45309}
@@ -1183,93 +1281,18 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 .lg-d{display:none}
 :root[data-theme="dark"] .lg-l{display:none}:root[data-theme="dark"] .lg-d{display:inline}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .lg-l{display:none}:root:not([data-theme="light"]) .lg-d{display:inline}}
-.mn-wb,.mn-nx{justify-content:center}   /* v1.16.2: number cards top-aligned (RYU), the two button rows stay centred */
-.ver .cl{display:inline-block;transform:scaleX(-1)}
-@media (max-width:600px){#ver{font-size:11.5px;white-space:nowrap;letter-spacing:-.1px}}   /* v1.16.4: one line on phones */
-/* TOPIK question bank (v1.17) */
-.tprrow{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0;align-items:center}
-.tprrow .seg{border:1px solid var(--line);background:var(--sheet);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:13.5px;cursor:pointer}
-.tprrow .seg.on{background:var(--accent);border-color:var(--accent);color:#fff}
-.tprrow .seg:disabled{opacity:.45;cursor:default}
-.tprrow .btn{margin-left:auto}
-.tprinfo{font-size:13px;color:var(--muted);margin:4px 0 10px}
-.tq h3 .tqnew{float:right;font-size:13px;padding:4px 12px}
-.tprrow .seg .ko{margin-left:4px}
-.tqd{display:flex;align-items:flex-start;gap:6px;margin-bottom:10px;width:100%;align-self:stretch;box-sizing:border-box}
-.tqd .tqn{flex:none}
-.tqd .tqdt{flex:1;min-width:0}
-.tqd .tqdl{font-weight:400;margin:2px 0 0}
-.tqd .tqplay{flex:none;min-width:7.7em;justify-content:center;margin-left:6px}
-/* v1.18.2 (RYU): number hangs on the left; everything under a question starts where its text starts; lower choice boxes */
-.tqi{--ind:26px}
-.tqd .tqn{width:var(--ind);flex:none}
-.tqd{gap:0}
-.tqi > :not(.tqd){margin-left:var(--ind)}
-.tqq{display:flex;align-items:flex-start}
-.tqq .tqn{width:2.1em;flex:none}
-.tqsub > :not(.tqq){margin-left:2.1em}
-.tqo .choice{padding:7px 12px}
-@media (max-width:600px){.tqi{--ind:23px}.tqq .tqn{width:1.9em}.tqsub > :not(.tqq){margin-left:1.9em}}
-.tq h3{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.tq h3 .tqnew{float:none;margin-left:auto}
-@media (max-width:600px){.tqd{flex-wrap:wrap}.tqd .tqdt{flex:1 1 calc(100% - var(--ind))}.tqd .tqplay{margin:8px 0 0 var(--ind)}}   /* phone: listen button under the direction, at the text start (RYU v1.18.3) */
-/* v1.18.4 (RYU): the circled numbers ①②③④ of the choices stand on the text line; the box reaches out to the left */
-.tqi{--ind2:34px}
-.tqq .tqn{width:var(--ind2)}
-.tqsub > :not(.tqq){margin-left:var(--ind2)}
-.tqi > .tqo{margin-left:calc(var(--ind) - 13px)}
-.tqsub > .tqo{margin-left:calc(var(--ind2) - 13px)}
-@media (max-width:600px){.tqi{--ind2:30px}.tqq .tqn{width:var(--ind2)}.tqsub > :not(.tqq){margin-left:var(--ind2)}.tqi > .tqo{margin-left:calc(var(--ind) - 13px)}.tqsub > .tqo{margin-left:calc(var(--ind2) - 13px)}}
-@media (max-width:600px){.tqd .tqplay{margin:6px 0 0 auto}}   /* phone: own row, right side for the right thumb (RYU v1.18.5) */
+.mn-wb,.mn-nx{justify-content:center}   /* phone: own row, right side for the right thumb (RYU v1.18.5) */
 /* v1.18.6 (RYU): word lists get a small square mark and tighter lines */
 .info .terms div{padding:2px 0 2px 16px;position:relative;line-height:1.5}
 .info .terms div::before{content:"";position:absolute;left:2px;top:.75em;width:6px;height:6px;border-radius:1px;background:var(--accent)}
-.info .ib-t .terms div{padding:3px 0 3px 16px}
-.info .terms .ko{font-size:1em;font-weight:700}   /* v1.18.8 (RYU): Korean word the same size as the English, bold */
-.tqi:has(> .tqp .notice) > .tqo,.tqi:has(> .tqp .pics) > .tqo{margin-left:var(--ind)}   /* v1.18.9 (RYU): with a boxed text or pictures, the choice boxes line up with that box */
-/* v1.18.11: picture choices are the buttons; never wider than the card */
-.tqo.picgrid{grid-template-columns:repeat(4,minmax(0,1fr))}
-.tqo .choice.picch{text-align:center;padding:8px 6px;display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0}
-.picch .pic span{display:block;font-size:30px;line-height:1.25;letter-spacing:1px;overflow-wrap:anywhere;word-break:break-all}
-.picch .pic span.tx{font-size:15px;letter-spacing:0;word-break:keep-all}
-.picch .pic small{display:block;font-size:12.5px;color:var(--muted);line-height:1.35;margin-top:2px}
-.pics>div{min-width:0}.pics span{overflow-wrap:anywhere;word-break:break-all}
-@media (max-width:600px){.tqo.picgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.picch .pic span{font-size:26px}.pics{grid-template-columns:repeat(2,minmax(0,1fr))}}
-.tqi > .tqo.picgrid{margin-left:var(--ind)}
+.info .terms .ko{font-size:1em;font-weight:700}
 /* v1.18.12: JeyJey on the Next new lesson card fits inside the card (RYU: it was cut off) */
 .mn-nx .nxjey{top:auto;bottom:4px;right:26px;height:calc(100% - 8px);max-height:64px}
 @media (max-width:600px){.mn-nx .nxjey{right:22px;bottom:3px;height:calc(100% - 6px);max-height:46px}.mn-nx{padding-right:74px}}
-/* v1.18.13: graph labels in picture choices at text size (RYU: letters were too big) */
-.picch .pic i.em{display:block;font-style:normal;font-size:26px;line-height:1.2}
-.picch .pic span.tx.kt{font-size:15.5px;font-weight:700;line-height:1.4;color:var(--ink)}
-@media (max-width:600px){.picch .pic i.em{font-size:22px}.picch .pic span.tx.kt{font-size:14.5px}}
 /* v1.19: 전주(전북) menu (JB, RYU 2026-11-25): info pages like 대한민국; a lead line and a ★ JJ University box */
 [data-g="JB"]{--accent:var(--k4);--accent-soft:var(--k4-soft)}
 .info .jblead{margin:2px 0 14px;font-size:1.04em;line-height:1.6;color:var(--ink)}
-.info .ib-j{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
-.info .ib-j>h3{background:var(--accent-soft)}
-/* v1.19.18 (RYU): TOPIK screen design — tinted question cards, number badges, white passage and answer boxes */
-.tq>h3{font-size:17.5px;padding:8px 12px;border-left:0;border-radius:12px;background:var(--accent-soft);color:var(--accent)}
-.tq>h3 .ko{color:var(--ink)}
-.tqi{background:var(--raise);background:color-mix(in srgb,var(--accent-soft) 55%,var(--sheet));border:1px solid color-mix(in srgb,var(--accent) 22%,var(--line));border-radius:16px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 4px 14px rgba(0,0,0,.04);padding:16px 18px}
-.tqi{--ind:34px}
-.tqd .tqn{width:26px;height:26px;margin-right:8px;border-radius:50%;background:var(--accent);color:var(--sheet);display:inline-flex;align-items:center;justify-content:center;font-size:14px;line-height:1;margin-top:1px}
-.tqd .tqdt>.ko{font-size:17px}
-.tqp{background:var(--sheet);border:1px solid var(--line);border-radius:12px;padding:10px 14px}
-.tqp:has(> .pics){background:none;border:0;padding:0}
-.tqp .notice{background:var(--sheet)}
-.tqsd{background:var(--sheet);border-style:solid}
-.tqsub{border-top:1px dashed color-mix(in srgb,var(--accent) 30%,var(--line))}
-.tqo .choice{background:var(--sheet);box-shadow:0 1px 2px rgba(0,0,0,.05);transition:border-color .15s,transform .15s,box-shadow .15s}
-.tqo .choice:not(:disabled):hover{transform:translateY(-1px);box-shadow:0 3px 10px rgba(0,0,0,.08)}
-.tqo .choice.right{background:var(--good-soft)} .tqo .choice.wrong{background:var(--bad-soft)}
-.tqx{background:var(--sheet);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px}
-.tqx .res{font-size:16px}
-.tqsc{display:table;margin:6px auto 12px;padding:8px 20px;border-radius:999px;background:var(--accent-soft)}
-.tqd .tqplay{background:var(--sheet)}
-@media (max-width:600px){.tqi{padding:14px 12px;--ind:31px}.tqd .tqn{width:24px;height:24px;margin-right:7px;font-size:13px}}
-.info .two{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 14px}.info .two>div>.ib{margin:0;height:100%}
 @media (max-width:600px){.info .two{grid-template-columns:1fr}}
-.info .ib .terms{margin:4px 0 10px}
 /* v1.19.26 (RYU): help screenshots follow the theme (light and dark copies) */
 .info figure img.hl-d{display:none}
 :root[data-theme="dark"] .info figure img.hl-l{display:none}:root[data-theme="dark"] .info figure img.hl-d{display:block}
@@ -1281,9 +1304,6 @@ figure.jjulogo{max-width:260px;margin:8px auto}figure.jjulogo,figure.jjulogo img
 .info .inst ol{margin:6px 0 0;padding-left:1.3em}
 .info .inst li{margin:3px 0;line-height:1.5}
 .info .addr{background:var(--accent-soft);border-radius:10px;padding:8px 12px;font-weight:600;color:var(--accent)}.info .addr a{color:var(--ink);font-weight:600;white-space:nowrap;margin-left:6px}
-/* v1.20.7 (RYU): every passage is now a white box, so the choice boxes line up with the passage box's left edge */
-.tqi:has(> .tqp) > .tqo{margin-left:var(--ind)}
-.tqsub:has(> .tqp) > .tqo{margin-left:var(--ind2)}
 /* v1.21.9 (RYU): dark mode shows the characters as stickers on the dark page instead of on a white box */
 :root[data-theme="dark"] figure.jeyfig img{background:none;border:0;box-shadow:none;content:url(img/jey/friends-d.webp)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) figure.jeyfig img{background:none;border:0;box-shadow:none;content:url(img/jey/friends-d.webp)}}
@@ -1346,22 +1366,6 @@ button.mcard{cursor:pointer}
   #view .word>.line.head .p{font-size:14.5px}
   #view .word>.line.head .m{font-size:15.5px}
 }
-/* ☆ 단어 담기 on word cards and the 오답 노트 list, as PhasaLAO (PhasaKAO v2.99, RYU 2026-11-28, v1.33) */
-.wcard .star{position:absolute;right:6px;bottom:6px;border:0;background:none;font-size:22px;line-height:1;color:#c9a227;cursor:pointer;padding:4px;z-index:1}
-.wcard .star:not(.on){color:var(--muted);opacity:.6}
-@media (max-width:560px){ .wcard .star{right:3px;bottom:3px;font-size:20px} }
-.wbook{margin:0 0 12px;border:1px solid var(--line);border-radius:14px;background:var(--sheet);padding:2px 12px}
-.wbook summary{cursor:pointer;font-weight:700;padding:9px 0;color:#B45309}
-.wbook ul{list-style:none;margin:0;padding:0;max-height:340px;overflow:auto}
-.wbook li{display:flex;align-items:baseline;gap:8px;padding:6px 0;border-top:1px solid var(--line);font-size:14px}
-.wbook li .wk{font-size:17px;font-weight:600}
-.wbook li .r{color:var(--accent);font-size:13px}
-.wbook li .m{flex:1;min-width:0}
-.wbook li .src{color:#B45309;font-size:12px;white-space:nowrap}
-.wbook .wbgo,.wbook .wbdel{border:1px solid var(--line);background:none;border-radius:999px;font:inherit;font-size:11.5px;padding:2px 8px;color:var(--muted);cursor:pointer;white-space:nowrap}
-.wbook .wbdel{padding:2px 7px}
-.wbhint{font-size:12px;color:var(--muted);margin:6px 0 10px}
-@media (max-width:600px){ .wbook li{flex-wrap:wrap;row-gap:2px} .wbook li .m{flex-basis:100%;order:5} }
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1489,7 +1493,6 @@ html.tab .sinfo{font-size:14.4px}
 html.tab .info{font-size:18.6px}
 html.tab .info h2{font-size:26.4px}
 html.tab .info .sub2{font-size:17.4px}
-html.tab .info figure.shot figcaption{font-size:15.6px}
 html.tab .info figcaption{font-size:15.6px}
 html.tab .info figcaption small{font-size:13.2px}
 html.tab .info .facts{font-size:17.4px}
@@ -1548,28 +1551,9 @@ html.tab .sthl small{font-size:13.2px}
 html.tab .sthr b{font-size:15.6px}
 html.tab .stdl{font-size:15.6px}
 html.tab .stnote{font-size:14.4px}
-html.tab .mn{font-size:14.4px}
-html.tab .mn small{font-size:13.2px}
-html.tab .mn-st .fire{font-size:20.4px}
-html.tab .mn-nx > span{font-size:16.8px}
-html.tab .qrt span{font-size:15.6px}
-html.tab .qmsg{font-size:20.4px}
-html.tab .qwrong h3{font-size:16.8px}
-html.tab .qw{font-size:16.8px}
-html.tab .prefs{font-size:14.4px}
-html.tab .pb{font-size:14.4px}
-html.tab #app .top .tagline{font-size:16.8px}
-@media (max-width:600px){html.tab #app .top .tagline{font-size:14.4px}}
-html.tab .subs .subpart{font-size:14.4px}
-html.tab .svq{font-size:18px}
-html.tab .svstar{font-size:36px}
 html.tab .svchip{font-size:16.8px}
 html.tab .svtext{font-size:16.8px}
 html.tab .svx{font-size:26.4px}
-html.tab .mn-wb > span{font-size:16.8px}
-html.tab .saybtn{font-size:15.6px}
-html.tab .sayres{font-size:16.8px}
-html.tab .sayhelp{font-size:16.2px}
 @media (max-width:600px){html.tab #ver{font-size:13.8px}}
 html.tab .tprrow .seg{font-size:16.2px}
 html.tab .tprinfo{font-size:15.6px}
@@ -1586,6 +1570,34 @@ html.tab .tqd .tqn{font-size:16.8px}
 html.tab .tqd .tqdt>.ko{font-size:20.4px}
 html.tab .tqx .res{font-size:19.2px}
 @media (max-width:600px){html.tab .tqd .tqn{font-size:15.6px}}
+html.tab .wcard .star{font-size:26.4px}
+@media (max-width:560px){html.tab .wcard .star{font-size:24px}}
+html.tab .wbook li{font-size:16.8px}
+html.tab .wbook li .wk{font-size:20.4px}
+html.tab .wbook li .r{font-size:15.6px}
+html.tab .wbook li .src{font-size:14.4px}
+html.tab .wbook .wbgo,html.tab .wbook .wbdel{font-size:13.8px}
+html.tab .wbhint{font-size:14.4px}
+html.tab .info figure.shot figcaption{font-size:15.6px}
+html.tab .mn{font-size:14.4px}
+html.tab .mn small{font-size:13.2px}
+html.tab .mn-st .fire{font-size:20.4px}
+html.tab .mn-nx > span{font-size:16.8px}
+html.tab .qrt span{font-size:15.6px}
+html.tab .qmsg{font-size:20.4px}
+html.tab .qwrong h3{font-size:16.8px}
+html.tab .qw{font-size:16.8px}
+html.tab .prefs{font-size:14.4px}
+html.tab .pb{font-size:14.4px}
+html.tab #app .top .tagline{font-size:16.8px}
+@media (max-width:600px){html.tab #app .top .tagline{font-size:14.4px}}
+html.tab .subs .subpart{font-size:14.4px}
+html.tab .svq{font-size:18px}
+html.tab .svstar{font-size:36px}
+html.tab .mn-wb > span{font-size:16.8px}
+html.tab .saybtn{font-size:15.6px}
+html.tab .sayres{font-size:16.8px}
+html.tab .sayhelp{font-size:16.2px}
 html.tab .info .mcard .mi{font-size:26.4px}
 html.tab .info .mcard .mt b{font-size:20.4px}
 html.tab .info .mcard .mt small{font-size:15px}
@@ -1600,14 +1612,6 @@ html.tab #view .word>.line.head .k{font-size:28.8px}
 html.tab #view .word>.line.head .p{font-size:19.2px}
 html.tab #view .word>.line.head .m{font-size:20.4px}
 @media (max-width:759px){html.tab #view .line .k{font-size:20.4px}html.tab #view .line .p{font-size:16.2px}html.tab #view .line .m{font-size:18.6px}html.tab #view .line .gl{font-size:15.6px}html.tab #view .line .gl .p{font-size:15px}html.tab #view .word>.line.head .k{font-size:24px}html.tab #view .word>.line.head .p{font-size:17.4px}html.tab #view .word>.line.head .m{font-size:18.6px}}
-html.tab .wcard .star{font-size:26.4px}
-@media (max-width:560px){html.tab .wcard .star{font-size:24px}}
-html.tab .wbook li{font-size:16.8px}
-html.tab .wbook li .wk{font-size:20.4px}
-html.tab .wbook li .r{font-size:15.6px}
-html.tab .wbook li .src{font-size:14.4px}
-html.tab .wbook .wbgo,html.tab .wbook .wbdel{font-size:13.8px}
-html.tab .wbhint{font-size:14.4px}
 /* iPad control row: kept on one line, boxes a bit taller (RYU 2026-11-14, v0.96; text 1.2x from v0.97) */
 html.tab .controls .seg button{font-size:18px;height:36px}
 html.tab .controls .bsel{font-size:18px;height:38px}
@@ -2425,8 +2429,8 @@ var S={},L="en",r=document.documentElement;try{S=JSON.parse(localStorage.getItem
 try{var BT={"bn":"লোড হচ্ছে… একটু অপেক্ষা করুন","lo":"ກຳລັງໂຫຼດ… ກະລຸນາລໍຖ້າ","my":"ဖွင့်နေသည်… ခဏစောင့်ပါ","ne":"लोड हुँदैछ… कृपया पर्खनुहोस्","uz":"Yuklanmoqda… iltimos, kuting","vi":"Đang tải… vui lòng chờ","zh":"正在加载…请稍候"};if(BT[L])document.getElementById("boott").textContent=BT[L];
 if(S.theme==="light"||S.theme==="dark")r.setAttribute("data-theme",S.theme);if(S.fz)r.style.setProperty("--fz",String(S.fz));
 var h=decodeURIComponent(location.hash.replace(/^#/,""))||S.code,sn=JSON.parse(localStorage.getItem("jc-snap")||"null");
-if(sn&&sn.h&&sn.sig===["2026-11-28 v1.33.14",L,h,S.mode||"learn",innerWidth].join("|")){sn.h.forEach(function(x){var e=document.getElementById(x[0]);if(e){e.innerHTML=x[1];e.hidden=(sn.hid||[]).indexOf(x[0])>=0}});document.getElementById("app").setAttribute("data-g",sn.g);r.classList.add("snap")}}catch(e){}
-var done=0;function go(){if(done)return;done=1;["audio/index.js?v=2026-11-28%20v1.33.14","audio/index-"+L+".js?v=2026-11-28%20v1.33.14","app.js?v=2026-11-28%20v1.33.14"].forEach(function(u){var s=document.createElement("script");s.src=u;s.async=false;document.body.appendChild(s)})}
+if(sn&&sn.h&&sn.sig===["2026-11-28 v1.33.15",L,h,S.mode||"learn",innerWidth].join("|")){sn.h.forEach(function(x){var e=document.getElementById(x[0]);if(e){e.innerHTML=x[1];e.hidden=(sn.hid||[]).indexOf(x[0])>=0}});document.getElementById("app").setAttribute("data-g",sn.g);r.classList.add("snap")}}catch(e){}
+var done=0;function go(){if(done)return;done=1;["audio/index.js?v=2026-11-28%20v1.33.15","audio/index-"+L+".js?v=2026-11-28%20v1.33.15","app.js?v=2026-11-28%20v1.33.15"].forEach(function(u){var s=document.createElement("script");s.src=u;s.async=false;document.body.appendChild(s)})}
 requestAnimationFrame(function(){setTimeout(go,60)});setTimeout(go,400)})()</script>
 <script>/* v1.31.30: if the app has not started after 12 s (a file did not arrive), reload once by itself, then offer a button */(function(){setTimeout(function(){if(window.JC)return;var k="jc-reload",n=0;try{n=+sessionStorage.getItem(k)||0}catch(e){}if(n<1){try{sessionStorage.setItem(k,n+1)}catch(e){}location.reload();return}var bt=document.getElementById("boot");if(bt)bt.remove();document.documentElement.classList.remove("snap");var v=document.getElementById("view");if(v)v.innerHTML='<p class="empty">Could not load. Check the internet connection. · 불러오지 못했어요.<br><br><button type="button" onclick="try{sessionStorage.removeItem(&quot;jc-reload&quot;)}catch(e){}location.reload()" style="font:inherit;padding:10px 22px;border-radius:999px;border:0;background:#005595;color:#fff">Try again · 다시 시도</button></p>'},12000);window.addEventListener("load",function(){setTimeout(function(){if(window.JC)try{sessionStorage.removeItem("jc-reload")}catch(e){}},1000)})})()</script>
 </body></html>
