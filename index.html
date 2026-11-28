@@ -10,7 +10,7 @@
 <meta property="og:title" content="JeyCampus · 캠퍼스라이프 한국어"><meta property="og:description" content="Korean for JJ Campus Life · 제이와 함께하는 한국어와 대학생활">
 <meta property="og:image" content="https://jeycampus.pages.dev/og.jpg?v=1"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://jeycampus.pages.dev/og.jpg?v=1"><link rel="apple-touch-icon" href="icon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Noto+Sans:wght@400;600&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Myanmar:wght@400;600&family=Noto+Sans+Lao:wght@400;600&family=Noto+Sans+SC:wght@400;600&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Noto+Sans:wght@400;600&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Myanmar:wght@400;600&family=Noto+Sans+Bengali:wght@400;600&family=Noto+Sans+Lao:wght@400;600&family=Noto+Sans+SC:wght@400;600&display=swap">
 <script>/* v1.25.1 (RYU): the old address kor4et.pages.dev moves to jeycampus.pages.dev, taking this device's progress along */(function(){var K="kolearn-en-v1",h=location.hostname;try{if(h==="kor4et.pages.dev"){var d=localStorage.getItem(K)||"";location.replace("https://jeycampus.pages.dev/"+(d?"?jcm="+encodeURIComponent(d):"")+location.hash);return}var m=/[?&]jcm=([^&]*)/.exec(location.search);if(m){if(!localStorage.getItem(K)){var v=JSON.parse(decodeURIComponent(m[1]));delete v.offline;localStorage.setItem(K,JSON.stringify(v))}history.replaceState(null,"",location.pathname+location.hash)}}catch(e){}})()</script>
 <script>(function(){var n=navigator,t=n.maxTouchPoints>0||"ontouchstart" in window;if((/iPad/.test(n.userAgent)||(/Macintosh/.test(n.userAgent)&&t))||(t&&Math.min(screen.width,screen.height)>=700))document.documentElement.classList.add("tab")})()</script>
 <style>body{margin:0}
@@ -23,7 +23,7 @@
   --accent:var(--k1); --accent-soft:var(--k1-soft); --good:#1E7F4F; --good-soft:#E1F3E9; --bad:#B33A3A; --bad-soft:#FBE8E8;
   --display:"Space Grotesk","IBM Plex Sans KR",system-ui,sans-serif;
   --ko:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;
-  --lao:"Noto Sans","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans Lao","Noto Sans SC","IBM Plex Sans KR",system-ui,sans-serif;   /* English text (variable name kept from the Lao app) */
+  --lao:"Noto Sans","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans Lao","Noto Sans Bengali","Noto Sans SC","IBM Plex Sans KR",system-ui,sans-serif;   /* English text (variable name kept from the Lao app) */
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#111514; --sheet:#191E1D; --ink:#E8EDEB; --muted:#9BA7A4; --line:#2C3533; --raise:#202725;
@@ -2025,7 +2025,7 @@ html.tab #app .search input{font-size:17px}
 #intro .wrap{max-width:none;margin:0}
 #intro .pn{display:block;max-width:none;background:none;border:0;color:inherit;padding:0;cursor:default;border-radius:0}
 html.introon body{overflow:hidden}
-#intro{--display:"Space Grotesk","IBM Plex Sans KR",system-ui,sans-serif;--ko:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;--txt:"Noto Sans","Noto Sans Devanagari","Noto Sans Myanmar","IBM Plex Sans KR",system-ui,sans-serif}
+#intro{--display:"Space Grotesk","IBM Plex Sans KR",system-ui,sans-serif;--ko:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;--txt:"Noto Sans","Noto Sans Devanagari","Noto Sans Myanmar","Noto Sans Bengali","IBM Plex Sans KR",system-ui,sans-serif}
 #intro.m{--mb:#F2F6FA;--ms:#FFFFFF;--mi:#121E2C;--mm:#55657A;--ml:#DCE5EE;--blue:#005595;--blue2:#0072B1;--sky:#4EA3E0;--star:#F2B200;--tint:#E6F0FA;--deep:#0A2D52;--on:#FFFFFF;
   background:var(--mb);color:var(--mi);font-family:var(--tf,var(--txt));font-size:calc(16px * var(--fz,1));line-height:1.6;min-height:100%}
 #intro.m.dk{--mb:#0C141F;--ms:#141F2C;--mi:#E3ECF5;--mm:#98A8BC;--ml:#22364D;--blue:#4EA3E0;--blue2:#4EA3E0;--tint:#18293D;--deep:#06182C;--on:#0C141F}
@@ -2058,6 +2058,10 @@ html.introon body{overflow:hidden}
 /* 7 languages (Uzbek, RYU 2026-11-27): tighter rows so the list keeps the height it had with 6 */
 #intro .langs:has(> :nth-child(7)){gap:4px}
 #intro .langs:has(> :nth-child(7)) .lopt{padding-top:7px;padding-bottom:7px}
+#intro .langs:has(> :nth-child(8)){gap:3px}
+#intro .langs:has(> :nth-child(8)) .lopt{padding-top:7px;padding-bottom:7px}
+#intro .langs:has(> :nth-child(8)) .lopt .code{width:30px;height:30px}
+#intro .langs:has(> :nth-child(8)) .lopt .nm small{display:inline;margin-left:8px}   /* 8 languages (Bengali, v1.32): Korean name beside, one line per row */
 #intro .lopt .code{font-family:var(--display);font-weight:700;font-size:.78em;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--tint);color:var(--blue);flex:none}
 #intro .lopt .nm{font-weight:600;line-height:1.3}
 #intro .lopt .nm small{display:block;font-family:var(--ko);font-weight:500;color:var(--mm);font-size:.75em}
@@ -2365,8 +2369,8 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-28%20v1.31.33"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-28%20v1.31.33"><\/script>')})()</script>
-<script src="app.js?v=2026-11-28%20v1.31.33"></script>
+<script src="audio/index.js?v=2026-11-28%20v1.32.0"></script>
+<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|bn|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-28%20v1.32.0"><\/script>')})()</script>
+<script src="app.js?v=2026-11-28%20v1.32.0"></script>
 <script>/* v1.31.30: if the app has not started after 12 s (a file did not arrive), reload once by itself, then offer a button */(function(){setTimeout(function(){if(window.JC)return;var k="jc-reload",n=0;try{n=+sessionStorage.getItem(k)||0}catch(e){}if(n<1){try{sessionStorage.setItem(k,n+1)}catch(e){}location.reload();return}var v=document.getElementById("view");if(v)v.innerHTML='<p class="empty">Could not load. Check the internet connection. · 불러오지 못했어요.<br><br><button type="button" onclick="try{sessionStorage.removeItem(&quot;jc-reload&quot;)}catch(e){}location.reload()" style="font:inherit;padding:10px 22px;border-radius:999px;border:0;background:#005595;color:#fff">Try again · 다시 시도</button></p>'},12000);window.addEventListener("load",function(){setTimeout(function(){if(window.JC)try{sessionStorage.removeItem("jc-reload")}catch(e){}},1000)})})()</script>
 </body></html>
