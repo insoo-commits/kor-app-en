@@ -8,7 +8,7 @@ const root = __dirname, src = path.join(root, "src");
 const bundles = process.argv[2] || path.join(root, "data");
 const M = require(path.join(src, "meta.js"));
 const STATS_PUBLIC = /const STATS_PUBLIC = true;/.test(fs.readFileSync(path.join(src, "stats.js"), "utf8"));
-const VER = "2026-11-28 v1.32.3";
+const VER = "2026-11-28 v1.33.1";
 const read = f => fs.readFileSync(path.join(src, f), "utf8");
 fs.mkdirSync(path.join(root, "data"), {recursive: true});
 fs.mkdirSync(path.join(root, "preview"), {recursive: true});
@@ -116,7 +116,6 @@ console.log("audio packs ko", AP.packs.length, "clips", Object.keys(AP.index).le
 for (const lg in mlessons){ const L = writePacks(path.join(root, "audio"), mlessons[lg], lg);
   fs.writeFileSync(path.join(root, "audio/index-" + lg + ".js"), "window.AUDIO_LANG=" + JSON.stringify({index: L.index, packs: L.packs}) + ";\n");
   console.log("audio packs " + lg, L.packs.length, "clips", Object.keys(L.index).length); }
-const LANG_JS = `<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(${["en", ...Object.keys(LANGS)].join("|")})$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=${encodeURIComponent(VER)}"><\\/script>')})()</script>`;
 const fonts = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Noto+Sans:wght@400;600&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Myanmar:wght@400;600&family=Noto+Sans+Bengali:wght@400;600&family=Noto+Sans+Lao:wght@400;600&family=Noto+Sans+SC:wght@400;600&display=swap">';
 
 // standalone site
@@ -140,10 +139,18 @@ fs.writeFileSync(path.join(root, "index.html"), `<!doctype html>
 ${css}</style></head>
 <body>
 ${body}
-<script src="audio/index.js?v=${encodeURIComponent(VER)}"></script>
-${LANG_JS}
-<script src="app.js?v=${encodeURIComponent(VER)}"></script>
-<script>/* v1.31.30: if the app has not started after 12 s (a file did not arrive), reload once by itself, then offer a button */(function(){setTimeout(function(){if(window.JC)return;var k="jc-reload",n=0;try{n=+sessionStorage.getItem(k)||0}catch(e){}if(n<1){try{sessionStorage.setItem(k,n+1)}catch(e){}location.reload();return}var v=document.getElementById("view");if(v)v.innerHTML='<p class="empty">Could not load. Check the internet connection. · 불러오지 못했어요.<br><br><button type="button" onclick="try{sessionStorage.removeItem(&quot;jc-reload&quot;)}catch(e){}location.reload()" style="font:inherit;padding:10px 22px;border-radius:999px;border:0;background:#005595;color:#fff">Try again · 다시 시도</button></p>'},12000);window.addEventListener("load",function(){setTimeout(function(){if(window.JC)try{sessionStorage.removeItem("jc-reload")}catch(e){}},1000)})})()</script>
+<div id="boot" style="position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:9999;display:flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;background:#005595;color:#fff;font:600 14px 'Noto Sans','Noto Sans Lao','Noto Sans Myanmar','Noto Sans Bengali','Noto Sans Devanagari','Noto Sans SC','IBM Plex Sans KR',system-ui,sans-serif;box-shadow:0 4px 16px rgba(0,0,0,.25);white-space:nowrap;max-width:calc(100vw - 32px);box-sizing:border-box"><div style="flex:none;width:16px;height:16px;border:3px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:bootspin .9s linear infinite"></div><span style="overflow:hidden;text-overflow:ellipsis"><span id="boott">Loading… please wait</span> <span style="font-family:'IBM Plex Sans KR',sans-serif">불러오는 중</span> <span id="bootsec"></span></span><style>@keyframes bootspin{to{transform:rotate(360deg)}}</style></div>
+<script>/* v1.33 (RYU 2026-11-28, as PhasaLAO / PhasaKAO v2.99): settings and the last screen at once from this device, before app.js (1 MB) and the lesson data arrive.
+   app.js keeps the copy ("jc-snap") and takes it away with the pill at its first full render. The scripts load after this first paint, in order. */
+(function(){var t=Date.now(),iv=setInterval(function(){var b=document.getElementById("bootsec");if(!b){clearInterval(iv);return}var s=Math.floor((Date.now()-t)/1000);if(s>=2)b.textContent="("+s+"s · "+s+"초)"},500);
+var S={},L="en",r=document.documentElement;try{S=JSON.parse(localStorage.getItem("kolearn-en-v1")||"null")||{}}catch(e){}L=S.lang||"en";if(!/^(${["en", ...Object.keys(LANGS)].join("|")})$/.test(L))L="en";
+try{var BT=${JSON.stringify(Object.fromEntries(Object.keys(LANGS).map(lg => [lg, (LANGS[lg].u || {})["Loading… please wait"] || ""]).filter(x => x[1])))};if(BT[L])document.getElementById("boott").textContent=BT[L];
+if(S.theme==="light"||S.theme==="dark")r.setAttribute("data-theme",S.theme);if(S.fz)r.style.setProperty("--fz",String(S.fz));
+var h=decodeURIComponent(location.hash.replace(/^#/,""))||S.code,sn=JSON.parse(localStorage.getItem("jc-snap")||"null");
+if(sn&&sn.h&&sn.sig===[${JSON.stringify(VER)},L,h,S.mode||"learn",innerWidth].join("|")){sn.h.forEach(function(x){var e=document.getElementById(x[0]);if(e){e.innerHTML=x[1];e.hidden=(sn.hid||[]).indexOf(x[0])>=0}});document.getElementById("app").setAttribute("data-g",sn.g);r.classList.add("snap")}}catch(e){}
+var done=0;function go(){if(done)return;done=1;["audio/index.js?v=${encodeURIComponent(VER)}","audio/index-"+L+".js?v=${encodeURIComponent(VER)}","app.js?v=${encodeURIComponent(VER)}"].forEach(function(u){var s=document.createElement("script");s.src=u;s.async=false;document.body.appendChild(s)})}
+requestAnimationFrame(function(){setTimeout(go,60)});setTimeout(go,400)})()</script>
+<script>/* v1.31.30: if the app has not started after 12 s (a file did not arrive), reload once by itself, then offer a button */(function(){setTimeout(function(){if(window.JC)return;var k="jc-reload",n=0;try{n=+sessionStorage.getItem(k)||0}catch(e){}if(n<1){try{sessionStorage.setItem(k,n+1)}catch(e){}location.reload();return}var bt=document.getElementById("boot");if(bt)bt.remove();document.documentElement.classList.remove("snap");var v=document.getElementById("view");if(v)v.innerHTML='<p class="empty">Could not load. Check the internet connection. · 불러오지 못했어요.<br><br><button type="button" onclick="try{sessionStorage.removeItem(&quot;jc-reload&quot;)}catch(e){}location.reload()" style="font:inherit;padding:10px 22px;border-radius:999px;border:0;background:#005595;color:#fff">Try again · 다시 시도</button></p>'},12000);window.addEventListener("load",function(){setTimeout(function(){if(window.JC)try{sessionStorage.removeItem("jc-reload")}catch(e){}},1000)})})()</script>
 </body></html>
 `);
 fs.writeFileSync(path.join(root, "manifest.webmanifest"), JSON.stringify({

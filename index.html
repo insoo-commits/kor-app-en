@@ -1323,6 +1323,22 @@ button.mcard{cursor:pointer}
   #view .word>.line.head .p{font-size:14.5px}
   #view .word>.line.head .m{font-size:15.5px}
 }
+/* ☆ 단어 담기 on word cards and the 오답 노트 list, as PhasaLAO (PhasaKAO v2.99, RYU 2026-11-28, v1.33) */
+.wcard .star{position:absolute;right:6px;bottom:6px;border:0;background:none;font-size:22px;line-height:1;color:#c9a227;cursor:pointer;padding:4px;z-index:1}
+.wcard .star:not(.on){color:var(--muted);opacity:.6}
+@media (max-width:560px){ .wcard .star{right:3px;bottom:3px;font-size:20px} }
+.wbook{margin:0 0 12px;border:1px solid var(--line);border-radius:14px;background:var(--sheet);padding:2px 12px}
+.wbook summary{cursor:pointer;font-weight:700;padding:9px 0;color:#B45309}
+.wbook ul{list-style:none;margin:0;padding:0;max-height:340px;overflow:auto}
+.wbook li{display:flex;align-items:baseline;gap:8px;padding:6px 0;border-top:1px solid var(--line);font-size:14px}
+.wbook li .wk{font-size:17px;font-weight:600}
+.wbook li .r{color:var(--accent);font-size:13px}
+.wbook li .m{flex:1;min-width:0}
+.wbook li .src{color:#B45309;font-size:12px;white-space:nowrap}
+.wbook .wbgo,.wbook .wbdel{border:1px solid var(--line);background:none;border-radius:999px;font:inherit;font-size:11.5px;padding:2px 8px;color:var(--muted);cursor:pointer;white-space:nowrap}
+.wbook .wbdel{padding:2px 7px}
+.wbhint{font-size:12px;color:var(--muted);margin:6px 0 10px}
+@media (max-width:600px){ .wbook li{flex-wrap:wrap;row-gap:2px} .wbook li .m{flex-basis:100%;order:5} }
 
 /* tablet text (generated) */
 html.tab{zoom:1}
@@ -1561,6 +1577,14 @@ html.tab #view .word>.line.head .k{font-size:28.8px}
 html.tab #view .word>.line.head .p{font-size:19.2px}
 html.tab #view .word>.line.head .m{font-size:20.4px}
 @media (max-width:759px){html.tab #view .line .k{font-size:20.4px}html.tab #view .line .p{font-size:16.2px}html.tab #view .line .m{font-size:18.6px}html.tab #view .line .gl{font-size:15.6px}html.tab #view .line .gl .p{font-size:15px}html.tab #view .word>.line.head .k{font-size:24px}html.tab #view .word>.line.head .p{font-size:17.4px}html.tab #view .word>.line.head .m{font-size:18.6px}}
+html.tab .wcard .star{font-size:26.4px}
+@media (max-width:560px){html.tab .wcard .star{font-size:24px}}
+html.tab .wbook li{font-size:16.8px}
+html.tab .wbook li .wk{font-size:20.4px}
+html.tab .wbook li .r{font-size:15.6px}
+html.tab .wbook li .src{font-size:14.4px}
+html.tab .wbook .wbgo,html.tab .wbook .wbdel{font-size:13.8px}
+html.tab .wbhint{font-size:14.4px}
 /* iPad control row: kept on one line, boxes a bit taller (RYU 2026-11-14, v0.96; text 1.2x from v0.97) */
 html.tab .controls .seg button{font-size:18px;height:36px}
 html.tab .controls .bsel{font-size:18px;height:38px}
@@ -2369,8 +2393,16 @@ html.introon{overflow:hidden}
   <p class="ver" id="ver"></p>
 </div>
 
-<script src="audio/index.js?v=2026-11-28%20v1.32.3"></script>
-<script>(function(){var l="en";try{l=JSON.parse(localStorage.getItem("kolearn-en-v1")||"{}").lang||"en"}catch(e){}if(!/^(en|bn|lo|my|ne|uz|vi|zh)$/.test(l))l="en";document.write('<script src="audio/index-'+l+'.js?v=2026-11-28%20v1.32.3"><\/script>')})()</script>
-<script src="app.js?v=2026-11-28%20v1.32.3"></script>
-<script>/* v1.31.30: if the app has not started after 12 s (a file did not arrive), reload once by itself, then offer a button */(function(){setTimeout(function(){if(window.JC)return;var k="jc-reload",n=0;try{n=+sessionStorage.getItem(k)||0}catch(e){}if(n<1){try{sessionStorage.setItem(k,n+1)}catch(e){}location.reload();return}var v=document.getElementById("view");if(v)v.innerHTML='<p class="empty">Could not load. Check the internet connection. · 불러오지 못했어요.<br><br><button type="button" onclick="try{sessionStorage.removeItem(&quot;jc-reload&quot;)}catch(e){}location.reload()" style="font:inherit;padding:10px 22px;border-radius:999px;border:0;background:#005595;color:#fff">Try again · 다시 시도</button></p>'},12000);window.addEventListener("load",function(){setTimeout(function(){if(window.JC)try{sessionStorage.removeItem("jc-reload")}catch(e){}},1000)})})()</script>
+<div id="boot" style="position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:9999;display:flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;background:#005595;color:#fff;font:600 14px 'Noto Sans','Noto Sans Lao','Noto Sans Myanmar','Noto Sans Bengali','Noto Sans Devanagari','Noto Sans SC','IBM Plex Sans KR',system-ui,sans-serif;box-shadow:0 4px 16px rgba(0,0,0,.25);white-space:nowrap;max-width:calc(100vw - 32px);box-sizing:border-box"><div style="flex:none;width:16px;height:16px;border:3px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:bootspin .9s linear infinite"></div><span style="overflow:hidden;text-overflow:ellipsis"><span id="boott">Loading… please wait</span> <span style="font-family:'IBM Plex Sans KR',sans-serif">불러오는 중</span> <span id="bootsec"></span></span><style>@keyframes bootspin{to{transform:rotate(360deg)}}</style></div>
+<script>/* v1.33 (RYU 2026-11-28, as PhasaLAO / PhasaKAO v2.99): settings and the last screen at once from this device, before app.js (1 MB) and the lesson data arrive.
+   app.js keeps the copy ("jc-snap") and takes it away with the pill at its first full render. The scripts load after this first paint, in order. */
+(function(){var t=Date.now(),iv=setInterval(function(){var b=document.getElementById("bootsec");if(!b){clearInterval(iv);return}var s=Math.floor((Date.now()-t)/1000);if(s>=2)b.textContent="("+s+"s · "+s+"초)"},500);
+var S={},L="en",r=document.documentElement;try{S=JSON.parse(localStorage.getItem("kolearn-en-v1")||"null")||{}}catch(e){}L=S.lang||"en";if(!/^(en|bn|lo|my|ne|uz|vi|zh)$/.test(L))L="en";
+try{var BT={"bn":"লোড হচ্ছে… একটু অপেক্ষা করুন","lo":"ກຳລັງໂຫຼດ… ກະລຸນາລໍຖ້າ","my":"ဖွင့်နေသည်… ခဏစောင့်ပါ","ne":"लोड हुँदैछ… कृपया पर्खनुहोस्","uz":"Yuklanmoqda… iltimos, kuting","vi":"Đang tải… vui lòng chờ","zh":"正在加载…请稍候"};if(BT[L])document.getElementById("boott").textContent=BT[L];
+if(S.theme==="light"||S.theme==="dark")r.setAttribute("data-theme",S.theme);if(S.fz)r.style.setProperty("--fz",String(S.fz));
+var h=decodeURIComponent(location.hash.replace(/^#/,""))||S.code,sn=JSON.parse(localStorage.getItem("jc-snap")||"null");
+if(sn&&sn.h&&sn.sig===["2026-11-28 v1.33.1",L,h,S.mode||"learn",innerWidth].join("|")){sn.h.forEach(function(x){var e=document.getElementById(x[0]);if(e){e.innerHTML=x[1];e.hidden=(sn.hid||[]).indexOf(x[0])>=0}});document.getElementById("app").setAttribute("data-g",sn.g);r.classList.add("snap")}}catch(e){}
+var done=0;function go(){if(done)return;done=1;["audio/index.js?v=2026-11-28%20v1.33.1","audio/index-"+L+".js?v=2026-11-28%20v1.33.1","app.js?v=2026-11-28%20v1.33.1"].forEach(function(u){var s=document.createElement("script");s.src=u;s.async=false;document.body.appendChild(s)})}
+requestAnimationFrame(function(){setTimeout(go,60)});setTimeout(go,400)})()</script>
+<script>/* v1.31.30: if the app has not started after 12 s (a file did not arrive), reload once by itself, then offer a button */(function(){setTimeout(function(){if(window.JC)return;var k="jc-reload",n=0;try{n=+sessionStorage.getItem(k)||0}catch(e){}if(n<1){try{sessionStorage.setItem(k,n+1)}catch(e){}location.reload();return}var bt=document.getElementById("boot");if(bt)bt.remove();document.documentElement.classList.remove("snap");var v=document.getElementById("view");if(v)v.innerHTML='<p class="empty">Could not load. Check the internet connection. · 불러오지 못했어요.<br><br><button type="button" onclick="try{sessionStorage.removeItem(&quot;jc-reload&quot;)}catch(e){}location.reload()" style="font:inherit;padding:10px 22px;border-radius:999px;border:0;background:#005595;color:#fff">Try again · 다시 시도</button></p>'},12000);window.addEventListener("load",function(){setTimeout(function(){if(window.JC)try{sessionStorage.removeItem("jc-reload")}catch(e){}},1000)})})()</script>
 </body></html>
