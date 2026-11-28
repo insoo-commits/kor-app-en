@@ -1068,18 +1068,9 @@ dlState();
 window.addEventListener("hashchange", route);
 $("ver").replaceChildren(META.ver + " · ", h("span", {class: "cl", "aria-hidden": "true"}, "©"), " Copyleft · Free to share and adapt");   // RYU v1.16.3: copyleft line (a mirrored ©, since the 🄯 character is missing on older phones)
 /* theme and text size (v1.4): kept on this device; "Auto" follows the phone's setting */
-function applyPrefs(){
-  const r = document.documentElement;
-  if (S.theme === "light" || S.theme === "dark") r.setAttribute("data-theme", S.theme); else r.removeAttribute("data-theme");
-  r.style.setProperty("--fz", String(S.fz || 1));
-  const box = $("prefs"); if (!box) return;
-  const seg = (label, ko, opts, cur, set) => h("div", {class: "pseg", role: "group", "aria-label": label + " " + ko, title: label + " " + ko},   // v1.19.20 (RYU): no label text, both on one line
-    h("div", {class: "pbtns"}, opts.map(([v, t]) => h("button", {type: "button", class: "pb" + (String(cur) === String(v) ? " on" : ""), "aria-pressed": String(cur) === String(v) ? "true" : "false", onclick: () => { set(v); save(); applyPrefs(); }}, t))));
-  box.replaceChildren(
-    seg("Theme", "화면", [["auto", "Auto"], ["light", "☀ Light"], ["dark", "☾ Dark"]], S.theme || "auto", v => S.theme = v),
-    seg("Text size", "글자 크기", [[0.9, "A−"], [1, "A"], [1.15, "A+"], [1.3, "A++"]], S.fz || 1, v => S.fz = v));
-}
-applyPrefs();
+/* now the shared part src/core/prefs.js (2026-11-28); labels in src/app-config.js */
+function applyPrefs(){ PREFS.apply(); }
+PREFS.init({get: () => ({theme: S.theme, fz: S.fz}), set: (k, v) => { S[k] = v; save(); }, box: () => $("prefs")});
 /* language: 🌐 button at the right of the search box, a picker on first launch, and a button under the theme row (v1.20) */
 function langSheet(first){
   const old = $("langsheet"); if (old) old.remove();
