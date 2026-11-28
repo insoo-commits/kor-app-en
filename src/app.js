@@ -306,28 +306,23 @@ const spk = () => h("button", {class: "spk", type: "button", "aria-label": "List
 /* ---------- chrome ---------- */
 /* 내 학습 card under the search box (RYU 2026-11-25, v1.4): days in a row, lessons visited, today, the next new lesson.
    Kept on this device only (S.seen = first day each lesson was opened, S.days = days with study, S.td = today's counts). */
-const dayStr = d => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+const dayStr = MINE.day;   // the card's sums are the shared core mine (2026-11-28)
 function track(code){
   const t = dayStr(new Date()), r = IDX[byCode.get(code)]; if (!r || r[3] === "info") return;
   S.seen = S.seen || {}; if (!S.seen[code]) S.seen[code] = t;
-  S.days = S.days || []; if (S.days[S.days.length - 1] !== t){ S.days.push(t); S.days = S.days.slice(-400); }
-  if (!S.td || S.td.d !== t) S.td = {d: t, l: 0, q: 0}; S.td.l++;
+  S.days = MINE.addDay(S.days, t);
+  S.td = MINE.fresh(S.td, d => ({d: d, l: 0, q: 0}), t); S.td.l++;
 }
-function streak(){
-  const set = new Set(S.days || []), d = new Date(); let n = 0;
-  if (!set.has(dayStr(d))) d.setDate(d.getDate() - 1);
-  while (set.has(dayStr(d))){ n++; d.setDate(d.getDate() - 1); }
-  return n;
-}
+const streak = () => MINE.streak(S.days);
 function drawMine(){
   const box = $("mine"); if (!box) return;
   SV.offer($("svbox"), Object.keys(S.seen || {}).length, (S.days || []).length);   // satisfaction survey card (v1.11)
-  const L = IDX.filter(r => r[3] !== "info"), seen = S.seen || {}, n = L.filter(r => seen[r[0]]).length, pct = L.length ? Math.round(1000 * n / L.length) / 10 : 0;
-  const at = L.findIndex(r => r[0] === S.code), nx = L.slice(at + 1).concat(L.slice(0, at + 1)).find(r => !seen[r[0]]) || L[(at + 1) % L.length];
-  const td = S.td && S.td.d === dayStr(new Date()) ? S.td : {l: 0, q: 0}, st = streak();
+  const L = IDX.filter(r => r[3] !== "info"), seen = S.seen || {}, isSeen = r => seen[r[0]], {n, pct, bar} = MINE.prog(L, isSeen);
+  const nx = MINE.next(L, L.findIndex(r => r[0] === S.code), isSeen);
+  const td = MINE.fresh(S.td, () => ({l: 0, q: 0})), st = streak();
   box.replaceChildren(...[
     h("div", {class: "mn mn-st" + (st ? " on" : "")}, h("b", null, h("span", {class: "fire", "aria-hidden": "true"}, "🔥"), String(st)), h("span", null, st === 1 ? "day in a row" : "days in a row"), h("small", {class: "ko"}, "연속 학습")),
-    h("div", {class: "mn mn-pr"}, h("b", null, pct + "%"), h("span", null, n + " / " + L.length + " lessons"), h("small", {class: "ko"}, "내 진도"), h("div", {class: "mbar"}, h("i", {style: "width:" + Math.max(pct, n ? 1.5 : 0) + "%"}))),
+    h("div", {class: "mn mn-pr"}, h("b", null, pct + "%"), h("span", null, n + " / " + L.length + " lessons"), h("small", {class: "ko"}, "내 진도"), h("div", {class: "mbar"}, h("i", {style: "width:" + bar + "%"}))),
     h("div", {class: "mn mn-td"}, h("b", null, String(td.l)), h("span", null, "lessons today" + (td.q ? " · " + td.q + " quiz" + (td.q > 1 ? "zes" : "") : "")), h("small", {class: "ko"}, "오늘 공부")),
     nbRows().length ? h("button", {class: "mn mn-wb", type: "button", onclick: wbReview}, h("small", null, "Mistakes & ☆ ", h("span", {class: "ko"}, "오답·별표 복습")), h("span", null, nbRows().length + " words"), h("i", {"aria-hidden": "true"}, "→")) : null,
     nx ? h("button", {class: "mn mn-nx", type: "button", onclick: () => { go(nx[0]); scrollTo({top: 0, behavior: "smooth"}); }}, h("small", null, "Next new lesson ", h("span", {class: "ko"}, "다음 새 묶음")), h("span", {class: "ko"}, nx[1]), h("i", {"aria-hidden": "true"}, "→"), jeyPic("jey_side", "nxjey")) : null].filter(Boolean));   // replaceChildren would print a null as text
