@@ -1180,24 +1180,7 @@ if ("serviceWorker" in navigator && window.KO_SW) navigator.serviceWorker.regist
   const kb = $("kbinfo"); if (kb){ const b = h("button", {type: "button", class: "kbbtn", title: "Keyboard shortcuts 키보드 단축키 (?)", "aria-label": "Keyboard shortcuts"}); b.textContent = "⌨"; b.addEventListener("click", () => document.dispatchEvent(new KeyboardEvent("keydown", {key: "?", bubbles: true}))); kb.appendChild(b); }
 })();
 // v2.54 RYU: design A — sticky menu bar, PC hover glide, arrow buttons (same code as the hotel English app v1.51–v1.57)
-// menu bar that stays at the top while reading down (design A, RYU 2026-11-24)
-(function(){
-  const st = $("stick"), mb = document.querySelector(".menubox"), sg = $("stickG"), g = $("groups");
-  if (!st || !mb || !("IntersectionObserver" in window)) return;
-  const sync = () => { sg.innerHTML = g.innerHTML; sg.querySelectorAll(".glide").forEach(x => x.remove()); { const B = $("bselBtn"), q = c => (B.querySelector(c) || {}).textContent || ""; $("stickT").textContent = B.querySelector(".ddk") ? (q(".ddn") + " " + q(".ddk") + (q(".ddo") ? " (" + q(".ddo") + ")" : "")).trim() : B.textContent.trim(); } const on = sg.querySelector('[aria-pressed="true"]'); if (on && !st.hidden) on.scrollIntoView({block: "nearest", inline: "center"}); };
-  /* v1.31.23 (RYU): the bar takes over exactly when the page menu row reaches the bar's menu row (both directions),
-     not after the whole menu box has left the screen */
-  let T = 8, raf = 0;
-  const check = () => { raf = 0; const show = g.getBoundingClientRect().top <= T + 0.5; if (show === !st.hidden) return; st.hidden = !show;
-    if (show){ sync(); const sgr = st.querySelector(".groups"); if (sgr){ const t = sgr.getBoundingClientRect().top; if (t > 0 && t < 80) T = t; } } };
-  addEventListener("scroll", () => { if (!raf) raf = requestAnimationFrame(check); }, {passive: true});
-  addEventListener("resize", () => { st.hidden = true; T = 8; check(); });
-  check();
-  new MutationObserver(() => { if (!st.hidden) sync(); }).observe(g, {childList: true, subtree: true, attributes: true});
-  new MutationObserver(() => { if (!st.hidden) sync(); }).observe($("bselBtn"), {childList: true, subtree: true, characterData: true});
-  sg.addEventListener("click", e => { const t = e.target.closest(".group"); if (!t) return; const i = [...sg.querySelectorAll(".group")].indexOf(t); const o = g.querySelectorAll(".group")[i]; if (o) o.click(); document.querySelector(".search").scrollIntoView({block: "start"}); });
-  $("stickQ").addEventListener("click", () => { window.scrollTo(0, 0); $("q").focus(); });
-})();
+// menu bar that stays at the top while reading down: now the shared part src/core/stick.js (2026-11-28)
 
 // PC: a soft pill with a line under it slides along the menu after the mouse (RYU 2026-11-24)
 (function(){
