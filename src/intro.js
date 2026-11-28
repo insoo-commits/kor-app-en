@@ -233,7 +233,7 @@ function phone(){ const x = t(); return `
  ${foot()}
  <div class="sticky">${cta()}</div>`; }
 function pad(){ const x = t(); return `
- <div class="hero"><img class="bg" src="img/jb/jju_jey_rapeseed.jpg" alt="">
+ <div class="hero"><img class="bg" src="img/jb/jju_aerial.jpg" alt="">
   <div class="top">${brand()}${langPill()}</div>
   <div class="copy">${heroCopy()}</div></div>
  <div class="wrap">
