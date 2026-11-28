@@ -4,6 +4,7 @@ window.APPCFG = {
   app: "JeyCampus",
   store: "jc-",                 /* this app's storage prefix (jc-intro …); core parts that save new things use it */
   statsPublic: true,            /* build.js: show 도움말 > 사용 통계 (RYU 2026-11-25) */
+  snap: { key: "jc-snap" },     /* core snap: the last screen; build.js reads the same key in index.html */
   stats: {                      /* core stats: usage statistics, the stats page and the survey */
     url: "https://script.google.com/macros/s/AKfycbzvzWxwoiKKui7T0CPud3mNIoTLaBNLEmjZTJlgqQTCtfrT4SHWZOhJOW0H3c8B_skQeQ/exec",   // RYU 2026-11-25
     key: "kolearn-en",          /* storage: kolearn-en-stats, -id, -statspage, -survey, -svq (unchanged) */
@@ -21,6 +22,12 @@ window.APPCFG = {
       thanks: "Thank you for your answer!", stars: "Stars", nStars: "stars", yes: "Yes", maybe: "Maybe", no: "No", wish: "Anything to make the app better? (optional)",
       qMenu: "Which menu helped you most?", qRec: "Would you recommend JeyCampus to a friend?", send: "Send", later: "Later", how: "How do you like JeyCampus?", howKo: "제이캠퍼스 어때요?" }
   },
+  keys: { title: "Keyboard shortcuts",          /* core keys: the ? help card */
+    rows: [["Space", "Pause · Resume (idle: play lesson)", "일시정지 · 재개"], ["C", "Play all lessons", "연속 재생"], ["G", "Play lesson", "묶음 재생"],
+          ["Esc", "Stop", "정지"], ["← →", "Previous · next line", "이전 · 다음 문장"], ["< >  (, .)", "Previous · next lesson", "이전 · 다음 묶음"],
+          ["Enter", "Loop this line · off", "지금 문장 무한 반복"], ["K", "English voice on · off", "영어 음성 켜기 · 끄기"], ["1 ~ 5", "Times", "반복 횟수"], ["-  =", "Slower · faster", "배속"],
+          ["S W E", "Sentences · Words · Quiz", "예문 · 단어 · 퀴즈"], ["?", "Show · hide this list", "단축키 목록"]] },
+  menu: { follow: true },       /* core menu: the row scrolls to show the pressed button */
   prefs: { theme: "Theme 화면", themes: ["Auto", "☀ Light", "☾ Dark"], fz: "Text size 글자 크기" },   /* core prefs: labels (other languages come from ui.tsv) */
   ptr: { bg: "rgba(40,44,52,.88)", go: "rgba(26,115,232,.95)" },   /* core ptr: pull-to-refresh button colour, and once far enough */
   stick: { title: function(){ var B = document.getElementById("bselBtn"), q = function(c){ return (B.querySelector(c) || {}).textContent || ""; };
