@@ -68,7 +68,7 @@ const synth = window.speechSynthesis || null;
 let koVoice = null, loVoice = null;
 let TIPOPEN = false;   // v1.19.19: phone tips folded until opened
 const P = {tok: 0, mode: "", paused: false, round: 1, nav: false};
-let loLbl = null;
+let loLbl = document.getElementById("loLbl");   // taken at start: on a phone the restored last screen (v1.33) has it inside #ctlrep, which the first render empties ("null" fix)
 function markMode(){ const c = document.getElementById("ctlrep"); if (c) c.dataset.on = P.mode; }   // bar repeat button shown in reverse while it plays (v1.94)
 function pickVoice(){
   if (!synth) return;
