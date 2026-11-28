@@ -3,6 +3,7 @@
 window.APPCFG = {
   app: "JeyCampus",
   store: "jc-",                 /* this app's storage prefix (jc-intro …); core parts that save new things use it */
+  prefs: { theme: "Theme 화면", themes: ["Auto", "☀ Light", "☾ Dark"], fz: "Text size 글자 크기" },   /* core prefs: labels (other languages come from ui.tsv) */
   ptr: { bg: "rgba(40,44,52,.88)", go: "rgba(26,115,232,.95)" },   /* core ptr: pull-to-refresh button colour, and once far enough */
   stick: { title: function(){ var B = document.getElementById("bselBtn"), q = function(c){ return (B.querySelector(c) || {}).textContent || ""; };
             return B.querySelector(".ddk") ? (q(".ddn") + " " + q(".ddk") + (q(".ddo") ? " (" + q(".ddo") + ")" : "")).trim() : B.textContent.trim(); },
