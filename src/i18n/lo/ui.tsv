@@ -320,3 +320,12 @@ Keyboard shortcuts	ປຸ່ມລັດແປ້ນພິມ
 ✗ Not quite · Answer	✗ ຍັງບໍ່ຖືກ · ຄຳຕອບ
 ↻ New audio	↻ ສຽງໃໝ່
 ✗ Try again · 다시 눌러 주세요	✗ ລອງໃໝ່ · 다시 눌러 주세요
+# v1.33 (2026-11-28): ☆ save a word, Mistake notebook, loading pill
+Save this word	ເກັບຄຳນີ້
+Mistakes & ☆	ຂໍ້ຜິດ ແລະ ☆
+{n} words	{n} ຄຳ
+Mistake notebook	ບັນທຶກຂໍ້ຜິດ
+wrong	ຜິດ
+Remove from the list	ເອົາອອກຈາກລາຍການ
+Loading… please wait	ກຳລັງໂຫຼດ… ກະລຸນາລໍຖ້າ
+Words you got wrong in quizzes and words you starred ☆ in Words. A right answer in the review takes a word off the wrong list. Press ✕ to remove a word.	ຄຳທີ່ຕອບຜິດໃນແບບທົດສອບ ແລະ ຄຳທີ່ແຕະ ☆ ໃນໜ້າ ຄຳສັບ. ຕອບຖືກໃນການທົບທວນ ຄຳນັ້ນຈະອອກຈາກລາຍການຜິດ. ແຕະ ✕ ເພື່ອເອົາຄຳອອກ.

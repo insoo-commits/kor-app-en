@@ -292,6 +292,7 @@ function stopPlay(){
   P.tok++; P.skip = 0; P.hold = false; P.mode = ""; markMode(); P.paused = false; if (P.box){ P.box.classList.remove("playing"); P.box = null; }
   quiet();
   mark(null); showPlayer(""); document.querySelectorAll(".wcard.back").forEach(c => c.classList.remove("back"));
+  snapLater();   // the clean screen after a play (v1.33)
 }
 function togglePause(){
   if (!P.mode) return;
@@ -328,7 +329,7 @@ function drawMine(){
     h("div", {class: "mn mn-st" + (st ? " on" : "")}, h("b", null, h("span", {class: "fire", "aria-hidden": "true"}, "🔥"), String(st)), h("span", null, st === 1 ? "day in a row" : "days in a row"), h("small", {class: "ko"}, "연속 학습")),
     h("div", {class: "mn mn-pr"}, h("b", null, pct + "%"), h("span", null, n + " / " + L.length + " lessons"), h("small", {class: "ko"}, "내 진도"), h("div", {class: "mbar"}, h("i", {style: "width:" + Math.max(pct, n ? 1.5 : 0) + "%"}))),
     h("div", {class: "mn mn-td"}, h("b", null, String(td.l)), h("span", null, "lessons today" + (td.q ? " · " + td.q + " quiz" + (td.q > 1 ? "zes" : "") : "")), h("small", {class: "ko"}, "오늘 공부")),
-    (S.wb || []).length ? h("button", {class: "mn mn-wb", type: "button", onclick: wbReview}, h("small", null, "Review my mistakes ", h("span", {class: "ko"}, "오답 복습")), h("span", null, S.wb.length + (S.wb.length > 1 ? " questions" : " question")), h("i", {"aria-hidden": "true"}, "→")) : null,
+    nbRows().length ? h("button", {class: "mn mn-wb", type: "button", onclick: wbReview}, h("small", null, "Mistakes & ☆ ", h("span", {class: "ko"}, "오답·별표 복습")), h("span", null, nbRows().length + " words"), h("i", {"aria-hidden": "true"}, "→")) : null,
     nx ? h("button", {class: "mn mn-nx", type: "button", onclick: () => { go(nx[0]); scrollTo({top: 0, behavior: "smooth"}); }}, h("small", null, "Next new lesson ", h("span", {class: "ko"}, "다음 새 묶음")), h("span", {class: "ko"}, nx[1]), h("i", {"aria-hidden": "true"}, "→"), jeyPic("jey_side", "nxjey")) : null].filter(Boolean));   // replaceChildren would print a null as text
 }
 function drawStats(){
@@ -562,6 +563,8 @@ function renderCards(b){
   if (!list.length) return [h("p", {class: "empty"}, T.noCards), pnRow(b.code)];
   return [h("div", {class: "wcards"}, list.map(it => h("div", {class: "wcard", role: "button", tabindex: "0", "data-say": it.say || it.ko, "data-lo": it.lo, onclick: ev => playCard(ev.currentTarget)},
     h("span", {class: "spk", "aria-hidden": "true"}, ico("spk")),
+    (on => h("button", {class: "star" + (on ? " on" : ""), type: "button", "aria-pressed": on ? "true" : "false", "aria-label": "Save this word", title: "Save this word",
+      onclick: ev => { ev.stopPropagation(); starToggle(b.code, it, ev.currentTarget); }}, on ? "★" : "☆"))(!!(S.star || {})[nbKey(b.code, it.ko)]),   // ☆ save a word (v1.33)
     /* front: Korean word, short note; back: Lao-script reading, Lao meaning, Korean example, its Lao meaning (RYU 2026-11-16, v1.70) */
     h("div", {class: "fr"}, h("div", {class: "k ko" + (it.ko.length > 9 ? " xl" : it.ko.length > 6 ? " long" : "")}, it.ko), it.pr ? h("div", {class: "fp"}, it.pr) : null, h("div", {class: "hn ko"}, it.hn || "")),   // Lao-script reading on the front too (RYU 2026-11-18, v1.89)
     h("div", {class: "bk"}, h("div", {class: "p"}, it.pr || ""), h("div", {class: "m"}, it.lo),
@@ -587,7 +590,7 @@ function makeQuiz(b){
       if (e){ const at = e[0].indexOf(it.ko); blank = {pre: e[0].slice(0, at), post: e[0].slice(at + it.ko.length), lo: e[2], full: e[0]}; } else kind = "mean"; }
     const toLo = kind === "mean", key = toLo ? "lo" : "ko", seen = new Set([it[key]]), wrong = [];
     for (const o of shuffle(own.concat(pool))){ if (wrong.length === 3) break; if (!seen.has(o[key])){ seen.add(o[key]); wrong.push(o[key]); } }
-    return {kind, q: kind === "mean" ? it.ko : kind === "ko" ? it.lo : "", blank, say: kind === "mean" || kind === "listen" ? it.ko : blank ? blank.full : "", toLo, a: it[key], opts: shuffle([it[key]].concat(wrong)), picked: null};
+    return {kind, q: kind === "mean" ? it.ko : kind === "ko" ? it.lo : "", blank, say: kind === "mean" || kind === "listen" ? it.ko : blank ? blank.full : "", toLo, a: it[key], opts: shuffle([it[key]].concat(wrong)), picked: null, w: [it.ko, it.pr || "", it.lo]};   // w: the word itself, for the Mistake notebook list (v1.33)
   });
   return {code: b.code, qs, at: 0, right: 0};
 }
@@ -600,12 +603,64 @@ function wbAdd(qz){
   S.wb = bank.slice(0, 80);
 }
 function wbDrop(q){ S.wb = (S.wb || []).filter(x => wbKey(x.q) !== wbKey(q)); }
-function wbReview(){
-  const bank = (S.wb || []).filter(x => x && x.q); if (!bank.length) return;
-  stopPlay(); S.mode = "quiz";
-  quiz = {code: S.code, review: true, qs: shuffle(bank.slice(0, 20)).map(x => Object.assign({}, x.q, {picked: null, opts: shuffle(x.q.opts.slice())})), at: 0, right: 0};
-  save(); drawControls(); render(); const v = $("view"); if (v) v.scrollIntoView({behavior: "smooth", block: "start"});
+/* ☆ save a word and the Mistake notebook list, as PhasaLAO / PhasaKAO v2.99 (RYU 2026-11-28, v1.33): a ☆ on each word card keeps the word
+   (S.star: "code::ko" -> [ko, romanization, meaning, lesson]); the review shows one list of the wrong words and the ☆ words, each with a ✕.
+   Review quiz = the wrong questions + a meaning question per ☆ word; a right answer takes a wrong question out, a ☆ word stays until ✕ or ★.
+   English labels here; ui.tsv of each language swaps them. */
+const nbKey = (code, ko) => code + "::" + ko;
+function wbWord(x){ const q = x.q; if (q.w) return q.w; return [q.toLo ? q.q : q.a, "", q.toLo ? q.a : q.kind === "ko" ? q.q : ""]; }   // entries saved before v1.33 have no w
+function nbRows(){
+  const m = new Map();
+  for (const x of S.wb || []){ if (!x || !x.q) continue; const w = wbWord(x), k = nbKey(x.code, w[0]), r = m.get(k);
+    if (r){ r.pr = r.pr || w[1]; r.lo = r.lo || w[2]; } else m.set(k, {k, code: x.code, ko: w[0], pr: w[1], lo: w[2], wrong: 1}); }
+  for (const k in S.star || {}){ const st = S.star[k], r = m.get(k);
+    if (r){ r.star = 1; r.pr = r.pr || st[1]; r.lo = r.lo || st[2]; } else m.set(k, {k, code: st[3], ko: st[0], pr: st[1], lo: st[2], star: 1}); }
+  /* meanings in the language chosen now, when that lesson is loaded (the saved one may be from another language) */
+  for (const r of m.values()){ const b = bundle(r.code); if (!b) continue; const it = items(b).concat(cardItems(b)).find(x => x.ko === r.ko); if (it){ r.lo = it.lo || r.lo; r.pr = it.pr || r.pr; } }
+  return [...m.values()];
 }
+function starToggle(code, it, btn){
+  const k = nbKey(code, it.ko); S.star = S.star || {};
+  if (S.star[k]) delete S.star[k]; else S.star[k] = [it.ko, it.pr || "", it.lo, code];
+  const on = !!S.star[k]; save(); drawMine();
+  btn.classList.toggle("on", on); btn.textContent = on ? "★" : "☆"; btn.setAttribute("aria-pressed", on ? "true" : "false");
+}
+async function wbReview(stay){
+  const rows = nbRows(); if (!rows.length) return;
+  stopPlay(); S.mode = "quiz";
+  const bank = (S.wb || []).filter(x => x && x.q), inWb = new Set(bank.map(x => nbKey(x.code, wbWord(x)[0])));
+  const stars = rows.filter(r => r.star && !inWb.has(r.k) && r.lo);
+  if (stars.length) await Promise.all([...new Set(stars.map(r => areaOf(r.code)))].map(a => loadArea(a).catch(() => null)));   // other meanings for the choices
+  const qs = shuffle(bank).slice(0, 20).map(x => Object.assign({}, x.q, {picked: null, opts: shuffle(x.q.opts.slice())}));
+  const los = nbRows().map(r => r.lo).filter(Boolean);
+  for (const r0 of shuffle(stars).slice(0, Math.max(0, 30 - qs.length))){
+    const r = nbRows().find(x => x.k === r0.k) || r0, b = bundle(r.code), near = b ? (cache.get(areaOf(r.code)) || []).filter(o => subOf(o.code) === subOf(r.code)).flatMap(items).map(x => x.lo) : [];
+    const seen = new Set([r.lo]), wrong = [];
+    for (const o of shuffle(los).concat(shuffle(near))){ if (wrong.length === 3) break; if (o && !seen.has(o)){ seen.add(o); wrong.push(o); } }
+    if (wrong.length === 3) qs.push({kind: "mean", q: r.ko, say: r.ko, toLo: true, a: r.lo, opts: shuffle([r.lo].concat(wrong)), picked: null, w: [r.ko, r.pr, r.lo]});
+  }
+  if (!qs.length) return;
+  quiz = {code: S.code, review: true, qs: shuffle(qs), at: 0, right: 0};
+  save(); drawControls(); render(); const v = $("view"); if (v && stay !== true) v.scrollIntoView({behavior: "smooth", block: "start"});
+}
+function wbDel(k){
+  S.wb = (S.wb || []).filter(x => !(x && x.q && nbKey(x.code, wbWord(x)[0]) === k)); if (S.star) delete S.star[k];
+  save(); drawMine(); if (nbRows().length) wbReview(true); else { quiz = null; render(); }
+}
+let WBOPEN = false;
+function wbBook(){
+  const rows = nbRows(); if (!rows.length) return null;
+  const d = h("details", {class: "wbook"}, h("summary", null, "Mistake notebook ", h("span", {class: "ko"}, "오답 노트"), " · ", rows.length + " words"),
+    h("ul", null, rows.map(r => h("li", null, h("span", {class: "wk ko"}, r.ko), r.pr ? h("span", {class: "r notr"}, r.pr) : null, h("span", {class: "m notr"}, r.lo || ""),
+      h("span", {class: "src"}, r.wrong ? h("span", null, "wrong") : "", r.wrong && r.star ? " · " : "", r.star ? "★" : ""),
+      byCode.has(r.code) ? h("button", {class: "wbgo ko notr", type: "button", title: IDX[byCode.get(r.code)][1], onclick: () => go(r.code)}, ...ordTag(r.code)) : null,
+      h("button", {class: "wbdel", type: "button", "aria-label": "Remove from the list", title: "Remove from the list", onclick: () => wbDel(r.k)}, "✕")))),
+    h("p", {class: "wbhint"}, h("span", null, "Words you got wrong in quizzes and words you starred ☆ in Words. A right answer in the review takes a word off the wrong list. Press ✕ to remove a word."),
+      h("br"), h("span", {class: "ko"}, "퀴즈에서 틀린 단어와 단어에서 ☆를 누른 단어예요. 복습에서 맞히면 틀린 목록에서 빠지고, ✕로 하나씩 뺄 수 있어요.")));
+  d.open = WBOPEN; d.addEventListener("toggle", () => { WBOPEN = d.open; });
+  return d;
+}
+const revHead = () => h("p", {class: "qrev"}, "Mistakes & ☆ ", h("span", {class: "ko"}, "오답·별표 복습"), " · ", nbRows().length + " words");
 /* quiz result (v1.4): a score ring, a word for the result, the questions that were wrong, and "only the wrong ones" */
 /* Jeonju Univ. characters JeyJey · Byeori · Jate (files from RYU 2026-11-25, v1.7): JeyJey cheers a high score, Byeori a middle one, Jate says try again */
 const jeyPic = (n, cls) => h("img", {class: cls, src: "img/jey/" + n + ".webp", alt: "", loading: "lazy"});
@@ -616,16 +671,17 @@ function quizEnd(){
   ring.append(mk("circle", {cx: 60, cy: 60, r: 52, class: "qr0"}), mk("circle", {cx: 60, cy: 60, r: 52, class: "qr1" + (pct >= 80 ? " hi" : pct < 50 ? " lo" : ""), "stroke-dasharray": (C * pct / 100) + " " + C, transform: "rotate(-90 60 60)"}));
   const msg = pct === 100 ? ["Perfect!", "완벽해요!"] : pct >= 80 ? ["Great job!", "잘했어요!"] : pct >= 50 ? ["Good, keep going!", "좋아요, 조금 더!"] : ["Let's try again.", "다시 해 봐요."];
   const qText = q => q.kind === "blank" ? q.blank.full : q.kind === "listen" ? q.say : q.q;
-  return [quiz.review ? h("p", {class: "qrev"}, "Mistake review ", h("span", {class: "ko"}, "오답 복습"), " · " + (S.wb || []).length + " left") : null, h("div", {class: "qend"}, h("div", {class: "qringw"}, ring, h("div", {class: "qrt"}, h("b", null, pct + "%"), h("span", null, R + " / " + N))),
+  return [quiz.review ? revHead() : null, h("div", {class: "qend"}, h("div", {class: "qringw"}, ring, h("div", {class: "qrt"}, h("b", null, pct + "%"), h("span", null, R + " / " + N))),
       h("p", {class: "qmsg"}, msg[0], " ", h("span", {class: "ko"}, msg[1])), jeyPic(pct >= 80 ? "jey" : pct >= 50 ? "byeori" : "jate", "qjey")),
     wrong.length ? h("div", {class: "qwrong"}, h("h3", null, "Check these again ", h("span", {class: "ko"}, "다시 볼 문제")),
       wrong.map(q => h("div", {class: "qw"}, h("span", {class: q.toLo ? "ko" : ""}, qText(q)), h("b", {class: q.toLo ? "" : "ko"}, q.a)))) : null,
     h("div", {class: "rowbtns", style: "justify-content:center"},
-      (S.wb || []).length && !quiz.review ? h("button", {class: "btn", type: "button", onclick: wbReview}, "My mistakes ", h("span", {class: "ko"}, "오답 복습"), " · " + S.wb.length) : null,
+      !quiz.review && nbRows().length ? h("button", {class: "btn", type: "button", onclick: wbReview}, "Mistakes & ☆ ", h("span", {class: "ko"}, "오답·별표 복습"), " · " + nbRows().length) : null,
       wrong.length && wrong.length < N ? h("button", {class: "btn primary", type: "button", onclick: () => { stopPlay(); quiz = {code: quiz.code, review: quiz.review, qs: wrong.map(q => Object.assign({}, q, {picked: null})), at: 0, right: 0}; render(); }}, "Only the wrong ones ", h("span", {class: "ko"}, "틀린 것만")) : null,
       h("button", {class: "btn" + (wrong.length && wrong.length < N ? "" : " primary"), type: "button", onclick: () => { stopPlay(); quiz = null; render(); }}, T.again))];
 }
-function renderQuiz(b){
+function renderQuiz(b){ const r = quizBody(b); return quiz && quiz.review ? [wbBook(), quiz.at < quiz.qs.length ? revHead() : null].concat(r) : r; }   // Mistake notebook list above the review (v1.33)
+function quizBody(b){
   if (!quiz || quiz.code !== b.code) quiz = makeQuiz(b);
   if (!quiz.qs.length) return [h("p", {class: "empty"}, T.noQuiz)];
   if (quiz.at >= quiz.qs.length) return quizEnd();
@@ -662,8 +718,10 @@ function render(){
   if (query){ $("band").hidden = true; $("controls").hidden = true; view.replaceChildren(...renderSearch()); return; }
   $("band").hidden = false; $("controls").hidden = false;
   const b = bundle(S.code);
+  if (!b && document.documentElement.classList.contains("snap")) return;   // the last screen (restored by index.html) stays until the lesson data arrives (v1.33)
   drawBand(b);
   if (!b){ view.replaceChildren(h("p", {class: "empty"}, T.loading)); return; }
+  bootDone(); snapLater();
   /* 대한민국 pages: the page itself and the prev / next buttons; no play controls (RYU 2026-11-20, v2.19) */
   if (b.info){ $("controls").hidden = true; $("ctlrep").hidden = true;
     const art = h("article", {class: "info"}); art.innerHTML = b.info;
@@ -865,6 +923,18 @@ function tprMount(box){
 function fitWords(){ document.querySelectorAll(".wcard .k").forEach(k => { let fs = parseFloat(getComputedStyle(k).fontSize);
   while (k.scrollWidth > k.clientWidth + 1 && fs > 11){ fs -= 1; k.style.fontSize = fs + "px"; } }); }
 addEventListener("resize", () => { if (S.mode === "cards"){ document.querySelectorAll(".wcard .k").forEach(k => k.style.fontSize = ""); fitWords(); } });
+/* last screen first, as PhasaLAO / PhasaKAO v2.99 (RYU 2026-11-28, v1.33): the clean screen is kept in localStorage ("jc-snap");
+   index.html shows it at once on the next start, before app.js and the lesson data arrive, with a "Loading… (n s)" pill in the chosen language.
+   Not kept while playing, searching or in a quiz. The first full render takes the copy away (html.snap) and the pill (#boot). */
+function bootDone(){ document.documentElement.classList.remove("snap"); const bt = document.getElementById("boot"); if (bt) bt.remove(); }
+let snapT = 0;
+function snapLater(){ clearTimeout(snapT); snapT = setTimeout(() => { try {
+  if (P.mode || query || S.mode === "quiz" || !bundle(S.code) || document.documentElement.classList.contains("snap")) return;
+  const a = $("app"); a.querySelectorAll("select option").forEach(o => o.toggleAttribute("selected", o.selected));
+  const ids = ["stats", "mine", "groups", "subs", "sinfo", "band", "controls", "view"];
+  localStorage.setItem("jc-snap", JSON.stringify({sig: [META.ver, LG, S.code, S.mode, innerWidth].join("|"), g: a.getAttribute("data-g"),
+    hid: ids.filter(i => $(i).hidden), h: ids.map(i => [i, $(i).innerHTML])}));
+} catch (e) { try { localStorage.removeItem("jc-snap"); } catch (e2) {} } }, 500); }
 function drawAll(){ drawStats(); drawGroups(); drawSubs(); drawControls(); render(); }
 /* RYU 2026-11-14: coming back to an area or sub-group reopens the lesson last opened there */
 function lastIn(m, k, rows){ const c = m && m[k]; return c && byCode.has(c) && c.startsWith(k + "-") ? c : rows[0][0]; }
@@ -878,7 +948,7 @@ async function route(){
   { const c = S.code, i = IDX.findIndex(x => x[0] === c); AP.warm(c).then(() => { const n = IDX[i + 1]; if (n && S.code === c) AP.warm(n[0]); }); }   // this lesson's sound, then the next one's (for 연속 재생)
   const a = areaOf(S.code);
   if (!cache.has(a)){
-    try { await loadArea(a); } catch (e) { if (areaOf(S.code) === a) $("view").replaceChildren(h("p", {class: "empty"}, T.loadFail)); return; }
+    try { await loadArea(a); } catch (e) { if (areaOf(S.code) === a){ bootDone(); $("view").replaceChildren(h("p", {class: "empty"}, T.loadFail)); } return; }
     if (areaOf(S.code) === a) render();
   }
 }

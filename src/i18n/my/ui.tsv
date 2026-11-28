@@ -320,3 +320,12 @@ Keyboard shortcuts	ကီးဘုတ် ဖြတ်လမ်းများ
 ✗ Not quite · Answer	✗ မမှန်သေးပါ · အဖြေ
 ↻ New audio	↻ အသံအသစ်
 ✗ Try again · 다시 눌러 주세요	✗ ထပ်ကြိုးစားပါ · 다시 눌러 주세요
+# v1.33 (2026-11-28): ☆ save a word, Mistake notebook, loading pill
+Save this word	ဒီစကားလုံးကို သိမ်းပါ
+Mistakes & ☆	အမှားများနှင့် ☆
+{n} words	စကားလုံး {n} လုံး
+Mistake notebook	အမှားမှတ်စု
+wrong	မှား
+Remove from the list	စာရင်းမှ ဖယ်ရှားပါ
+Loading… please wait	ဖွင့်နေသည်… ခဏစောင့်ပါ
+Words you got wrong in quizzes and words you starred ☆ in Words. A right answer in the review takes a word off the wrong list. Press ✕ to remove a word.	ပဟေဠိတွင် မှားဖြေခဲ့သော စကားလုံးများနှင့် စကားလုံး အပိုင်းတွင် ☆ နှိပ်ခဲ့သော စကားလုံးများ။ ပြန်လေ့ကျင့်ရာတွင် မှန်အောင်ဖြေလျှင် အမှားစာရင်းမှ ထွက်ပါမည်။ စကားလုံးတစ်လုံး ဖယ်ရန် ✕ ကို နှိပ်ပါ။
